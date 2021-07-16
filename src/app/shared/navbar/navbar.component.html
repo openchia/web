@@ -1,0 +1,59 @@
+<nav id="navbar-main" class="navbar navbar-main navbar-expand-lg navbar-transparent navbar-light headroom headroom--top headroom--pinned">
+  <div class="container">
+    <a class="navbar-brand mr-lg-5" [routerLink]="['/landing']">
+      OpenChia.io
+    </a>
+    <div class="navbar-collapse collapse" id="navbar_global" [ngbCollapse]="isCollapsed">
+      <ul class="navbar-nav navbar-nav-hover align-items-lg-center">
+        <li class="nav-item">
+          <a class="nav-link" role="button" [routerLink]="['/landing']">
+            <i class="ni ni-ui-04 d-lg-none"></i>
+            <span class="nav-link-inner">Home</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" role="button" [routerLink]="['/explorer']">
+            <i class="ni ni-ui-04 d-lg-none"></i>
+            <span class="nav-link-inner">Explorer</span>
+          </a>
+        </li>
+        <!--
+        <li class="nav-item dropdown">
+          <a class="nav-link no-caret" data-toggle="dropdown" role="button">
+            <i class="ni ni-collection d-lg-none"></i>
+            <span class="nav-link-inner--text">Examples</span>
+          </a>
+          <div class="dropdown-menu">
+            <a [routerLink]="['/landing']" class="dropdown-item">Landing</a>
+            <a [routerLink]="['/user-profile']" class="dropdown-item">Profile</a>
+            <a [routerLink]="['/login']" class="dropdown-item">Login</a>
+            <a [routerLink]="['/register']" class="dropdown-item">Register</a>
+          </div>
+        </li>
+        -->
+      </ul>
+      <ul class="navbar-nav align-items-lg-center ml-lg-auto">
+        <li class="nav-item">
+          <a class="nav-link nav-link-icon" href="https://discord.gg/f3WRTbSF" target="_blank" data-toggle="tooltip" title="Chat with us">
+            <i class="fab fa-discord"></i>
+            <span class="nav-link-inner--text d-lg-none">Discord</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link nav-link-icon" href="https://github.com/openchia/web" target="_blank" data-toggle="tooltip" title="Star us on Github">
+            <i class="fab fa-github"></i>
+            <span class="nav-link-inner--text d-lg-none">Github</span>
+          </a>
+        </li>
+        <li class="nav-item d-none d-lg-block ml-lg-4">
+          <a class="btn btn-neutral btn-icon" [routerLink]="['/join']">
+            <span class="btn-inner--icon">
+              <i class="fa fa-cloud-download mr-2"></i>
+            </span>
+            <span class="nav-link-inner--text">Join our pool</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
