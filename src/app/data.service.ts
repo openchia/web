@@ -1,6 +1,7 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { BehaviorSubject, Observable, of, Subject } from 'rxjs';
+import { webSocket, WebSocketSubject } from "rxjs/webSocket";
 
 @Injectable({
   providedIn: 'root'
@@ -9,6 +10,7 @@ export class DataService {
 
   private REST_API_SERVER = "/api/v1.0/";
   private _launchers$ = new BehaviorSubject<any[]>([]);
+  private socket$: WebSocketSubject<any>;
 
   constructor(private httpClient: HttpClient) { }
 
@@ -23,5 +25,24 @@ export class DataService {
   }
 
   get launchers$() { return this._launchers$.asObservable(); }
+
+  connectLog(msgCallback) {
+    var proto = (window.location.protocol == 'https:') ? 'wss://' : 'ws://';
+    this.socket$ = webSocket(proto + window.location.host + '/ws/log/');
+    this.socket$.subscribe(
+      msg => {
+        msgCallback(msg);
+      },
+      err => console.log(err),
+      () => {
+      },
+    );
+  }
+
+  disconnectLog() {
+    if(this.socket$) {
+      this.socket$.unsubscribe();
+    }
+  }
 
 }

@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnDestroy, OnInit } from '@angular/core';
 import { DataService } from '../data.service';
 import { Observable } from 'rxjs';
 
@@ -8,12 +8,13 @@ import { Observable } from 'rxjs';
     styleUrls: ['./explorer.component.scss']
 })
 
-export class ExplorerComponent implements OnInit {
+export class ExplorerComponent implements OnInit, OnDestroy {
 
   pool_space: any;
   estimate_win: any;
   rewards_blocks: any;
   farmers: any;
+  poolLog: string = '';
 
   launchers$: Observable<any[]>;
 
@@ -29,6 +30,15 @@ export class ExplorerComponent implements OnInit {
         this.farmers = data['farmers'];
     });
     this.dataService.getLaunchers();
+
+    this.dataService.connectLog(msg => {
+	var temp = this.poolLog + msg['data'];
+	this.poolLog = temp.split('\n').slice(-15).join("\n");
+    });
+  }
+
+  ngOnDestroy() {
+    this.dataService.disconnectLog();
   }
 
 }

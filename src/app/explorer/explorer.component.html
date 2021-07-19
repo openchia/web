@@ -64,7 +64,7 @@
       </div>
     </div>
   </section>
-  <section class="section section-lg pt-lg">
+  <section class="section section-sm pt-sm">
     <div class="container">
       <table class="table table-striped">
         <thead>
@@ -84,6 +84,14 @@
         </tr>
         </tbody>
       </table>
+    </div>
+  </section>
+  <section class="section section-sm">
+    <div class="container">
+      <h2 class="display-3" i18n>Pool server real-time log</h2>
+      <h5 class="display-5" style="color: red;" i18n>Waiting for blockchain to sync</h5>
+      <div class="container"><pre [innerHTML]="poolLog"></pre>
+      </div>
     </div>
   </section>
 </main>
