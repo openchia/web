@@ -3,6 +3,10 @@
     <a class="navbar-brand mr-lg-5" [routerLink]="['/landing']">
       <img src="./assets/img/brand/openchia_icon.png"> OpenChia.io
     </a>
+    <button class="navbar-toggler" type="button" (click)="isCollapsed = !isCollapsed"
+          [attr.aria-expanded]="!isCollapsed" aria-controls="navbar_global">
+      <span class="navbar-toggler-icon"></span>
+    </button>
     <div class="navbar-collapse collapse" id="navbar_global" [ngbCollapse]="isCollapsed">
       <ul class="navbar-nav navbar-nav-hover align-items-lg-center">
         <li class="nav-item">

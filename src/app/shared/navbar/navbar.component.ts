@@ -37,16 +37,7 @@ export class NavbarComponent implements OnInit {
     isHome() {
         var titlee = this.location.prepareExternalUrl(this.location.path());
 
-        if( titlee === '#/home' ) {
-            return true;
-        }
-        else {
-            return false;
-        }
-    }
-    isDocumentation() {
-        var titlee = this.location.prepareExternalUrl(this.location.path());
-        if( titlee === '#/documentation' ) {
+        if( titlee === '#/landing' ) {
             return true;
         }
         else {
