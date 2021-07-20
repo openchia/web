@@ -28,6 +28,10 @@ export class DataService {
     return this.httpClient.get(this.REST_API_SERVER + 'launcher/' + id + '/');
   }
 
+  getPoolSpace() {
+    return this.httpClient.get(this.REST_API_SERVER + 'space');
+  }
+
   get launchers$() { return this._launchers$.asObservable(); }
 
   connectLog(msgCallback) {
