@@ -15,12 +15,10 @@ export class LandingComponent implements OnInit {
   animations: boolean = true;
   xAxis: boolean = false;
   yAxis: boolean = true;
-  showYAxisLabel: boolean = true;
   showXAxisLabel: boolean = false;
-  xAxisLabel: string = 'Date';
+  showYAxisLabel: boolean = true;
   yAxisLabel: string = 'Pool Space';
-  timeline: boolean = true;
-  view: any[] = [700, 300];
+  timeline: boolean = false;
   data: any[] = null;
 
   colorScheme = {
@@ -40,8 +38,8 @@ export class LandingComponent implements OnInit {
     });
   }
 
-  yAxisFormat(foo) {
-      return (foo / 1024 / 1024 / 1024).toFixed(2).toString() + ' GiB';
+  yAxisFormat(data) {
+    return (data / 1024 / 1024 / 1024).toFixed(2).toString() + ' GiB';
   }
 
 }
