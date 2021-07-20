@@ -1,0 +1,27 @@
+<section class="section section-sm pt-sm">
+  <div class="container">
+    <table class="table table-striped">
+      <thead>
+      <tr>
+        <th scope="col" colspan="4" i18n>Farmer Details</th>
+      </tr>
+      </thead>
+      <tbody>
+        <tr>
+        <th i18n>Friendly Name</th>
+        <td>{{ farmer.name || "(not set)" }}</td>
+        <th i18n>Points</th>
+        <td>{{ farmer.points }} ({{ farmer.points_of_total }}%)</td>
+        </tr>
+        <tr>
+        <th i18n>Launcher ID</th>
+        <td colspan="3">{{ farmer.launcher_id }}</td>
+        </tr>
+        <tr>
+        <th i18n>Difficulty</th>
+        <td>{{ farmer.difficulty }}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</section>

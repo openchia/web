@@ -1,0 +1,30 @@
+<section class="section section-sm pt-sm">
+  <div class="container">
+    <table class="table table-striped">
+      <thead>
+      <tr>
+        <th scope="col">#</th>
+        <th scope="col">Launcher ID</th>
+        <th scope="col">Points</th>
+        <th scope="col">% of total</th>
+      </tr>
+      </thead>
+      <tbody>
+      <tr *ngFor="let launcher of launchers$ | async; let i = index" [routerLink]="['/explorer/farmer', launcher.launcher_id]">
+        <th scope="row">{{ i + 1 }}</th>
+        <td class="nav-link" >{{ launcher.launcher_id }}</td>
+        <td>{{ launcher.points }}</td>
+        <td>{{ launcher.points_of_total }}</td>
+      </tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+<section class="section section-sm">
+  <div class="container">
+    <h2 class="display-3" i18n>Pool server real-time log</h2>
+    <h5 class="display-5" style="color: red;" i18n>Waiting for blockchain to sync</h5>
+    <div class="container"><pre [innerHTML]="poolLog"></pre>
+    </div>
+  </div>
+</section>

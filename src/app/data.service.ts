@@ -19,9 +19,13 @@ export class DataService {
   }
 
   getLaunchers() {
-    return this.httpClient.get(this.REST_API_SERVER + 'launcher').subscribe(data => {
+    return this.httpClient.get(this.REST_API_SERVER + 'launcher/').subscribe(data => {
       this._launchers$.next(data['results']);
     });
+  }
+
+  getLauncher(id: string) {
+    return this.httpClient.get(this.REST_API_SERVER + 'launcher/' + id + '/');
   }
 
   get launchers$() { return this._launchers$.asObservable(); }

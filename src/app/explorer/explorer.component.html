@@ -2,6 +2,22 @@
   <div class="position-relative">
     <!-- shape Hero -->
     <section class="section section-lg section-shaped pb-250">
+      <nav class="navbar navbar-expand-sm navbar-light container" *ngIf="false">
+      <ul class="navbar-nav navbar-nav-hover align-items-lg-center">
+        <li class="nav-item">
+          <a class="nav-link" role="button" [routerLink]="['/explorer']">
+            <i class="ni ni-ui-04 d-lg-none"></i>
+            <span class="nav-link-inner">Dashboard</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" role="button" [routerLink]="['/explorer']">
+            <i class="ni ni-ui-04 d-lg-none"></i>
+            <span class="nav-link-inner">Explorer</span>
+          </a>
+        </li>
+      </ul>
+      </nav>
       <div class="shape shape-style-1 shape-default">
         <span></span>
         <span></span>
@@ -22,7 +38,7 @@
     </section>
     <!-- 1st Hero Variation -->
   </div>
-  <section class="section section-lg pt-lg-0 mt--200">
+  <section class="section section-lg pt-lg-0 mt--200" *ngIf="true">
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-lg-12">
@@ -64,34 +80,5 @@
       </div>
     </div>
   </section>
-  <section class="section section-sm pt-sm">
-    <div class="container">
-      <table class="table table-striped">
-        <thead>
-        <tr>
-          <th scope="col">#</th>
-          <th scope="col">Launcher ID</th>
-          <th scope="col">Points</th>
-          <th scope="col">% of total</th>
-        </tr>
-        </thead>
-        <tbody>
-        <tr *ngFor="let launcher of launchers$ | async; let i = index">
-          <th scope="row">{{ i + 1 }}</th>
-          <td>{{ launcher.launcher_id }}</td>
-          <td>{{ launcher.points }}</td>
-          <td>{{ launcher.points_of_total }}</td>
-        </tr>
-        </tbody>
-      </table>
-    </div>
-  </section>
-  <section class="section section-sm">
-    <div class="container">
-      <h2 class="display-3" i18n>Pool server real-time log</h2>
-      <h5 class="display-5" style="color: red;" i18n>Waiting for blockchain to sync</h5>
-      <div class="container"><pre [innerHTML]="poolLog"></pre>
-      </div>
-    </div>
-  </section>
+  <router-outlet></router-outlet>
 </main>
