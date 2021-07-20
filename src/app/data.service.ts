@@ -29,7 +29,7 @@ export class DataService {
   }
 
   getPoolSpace() {
-    return this.httpClient.get(this.REST_API_SERVER + 'space');
+    return this.httpClient.get(this.REST_API_SERVER + 'space?days=2');
   }
 
   get launchers$() { return this._launchers$.asObservable(); }
