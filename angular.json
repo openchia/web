@@ -56,7 +56,8 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
             "browserTarget": "openchia:build",
-	    "proxyConfig": "src/proxy.conf.json"
+	    "proxyConfig": "src/proxy.conf.json",
+            "optimization": false
           },
           "configurations": {
             "production": {
