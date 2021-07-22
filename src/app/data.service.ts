@@ -32,6 +32,12 @@ export class DataService {
     return this.httpClient.get(this.REST_API_SERVER + 'space?days=2');
   }
 
+  getPartials(launcher) {
+    var timestamp = new Date().getTime();
+    timestamp = Math.floor(timestamp / 1000) - 60 * 60 * 24 * 7;
+    return this.httpClient.get(this.REST_API_SERVER + 'partial/?ordering=timestamp&min_timestamp=' + timestamp.toString() + '&launcher=' + launcher);
+  }
+
   get launchers$() { return this._launchers$.asObservable(); }
 
   connectLog(msgCallback) {

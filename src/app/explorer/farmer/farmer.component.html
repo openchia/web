@@ -1,11 +1,7 @@
 <section class="section section-sm pt-sm">
   <div class="container">
+    <h3 class="display-3" i18n>Farmer Details</h3>
     <table class="table table-striped">
-      <thead>
-      <tr>
-        <th scope="col" colspan="4" i18n>Farmer Details</th>
-      </tr>
-      </thead>
       <tbody>
         <tr>
         <th i18n>Friendly Name</th>
@@ -23,5 +19,22 @@
         </tr>
       </tbody>
     </table>
+    <h3 class="display-3" i18n>Partials</h3>
+        <ngx-charts-line-chart
+          [scheme]="colorScheme"
+          [legend]="true"
+          [showXAxisLabel]="true"
+          [showYAxisLabel]="true"
+          [xAxis]="true"
+          [yAxis]="true"
+          [xAxisLabel]="'Timestamp'"
+          [yAxisLabel]="'Partials'"
+          [timeline]="true"
+          [results]="partialsData"
+          [xAxisTickFormatting]="partialsXAxisFormat"
+          [xAxisTicks]="partialsXTicks"
+          >
+        </ngx-charts-line-chart>
+
   </div>
 </section>

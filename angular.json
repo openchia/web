@@ -9,6 +9,12 @@
       "projectType": "application",
       "prefix": "app",
       "schematics": {},
+      "i18n": {
+        "sourceLocale": "en-US",
+        "locales": {
+          "pt-BR": "src/locale/messages.pt-BR.json"
+        }
+      },
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
