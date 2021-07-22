@@ -1,4 +1,4 @@
-<section class="section section-lg pt-lg-0 mt--200" *ngIf="true">
+<section class="section section-sm pt-lg-0 mt--100" *ngIf="true">
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-lg-12">
@@ -43,6 +43,7 @@
 
 <section class="section section-sm pt-sm">
   <div class="container">
+    <h3 class="display-3" i18n>Farmers</h3>
     <table class="table table-striped">
       <thead>
       <tr>
@@ -63,6 +64,55 @@
     </table>
   </div>
 </section>
+
+<section class="section section-sm pt-sm">
+  <div class="container">
+    <h3 class="display-3" i18n>Blocks Found</h3>
+    <table class="table table-striped">
+      <thead>
+      <tr>
+        <th scope="col" i18n>Index</th>
+        <th scope="col" i18n>Date</th>
+        <th scope="col" i18n>Farmer</th>
+      </tr>
+      </thead>
+      <tbody *ngIf="(blocks$ | async) as blocks;">
+      <tr *ngFor="let block of blocks; let i = index">
+        <td>{{ block.confirmed_block_index }}</td>
+        <td>{{ block.timestamp | date }}</td>
+        <td>{{ block.farmed_by.launcher_id }}</td>
+      </tr>
+      <tr *ngIf="blocks.length == 0">
+        <td colspan="3" i18n>No blocks found!</td>
+      </tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<section class="section section-sm pt-sm">
+  <div class="container">
+    <h3 class="display-3" i18n>Payouts</h3>
+    <table class="table table-striped">
+      <thead>
+      <tr>
+        <th scope="col" i18n>Date</th>
+        <th scope="col" i18n>Amount</th>
+      </tr>
+      </thead>
+      <tbody *ngIf="(payouts$ | async) as payouts;">
+      <tr *ngFor="let payout of payouts; let i = index">
+        <td>{{ payout.datetime | date }}</td>
+        <td>{{ payout.amount / 1000000000000 | number }} XCH</td>
+      </tr>
+      <tr *ngIf="payouts.length == 0">
+        <td colspan="3" i18n>No payouts found!</td>
+      </tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
 <section class="section section-sm">
   <div class="container">
     <h2 class="display-3" i18n>Pool server real-time log</h2>

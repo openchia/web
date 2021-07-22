@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { Router, ActivatedRoute, ParamMap } from '@angular/router';
 import { DataService } from '../../data.service';
 import { switchMap } from 'rxjs/operators';
+import { Observable } from 'rxjs';
 
 @Component({
   selector: 'app-farmer',
@@ -27,42 +28,73 @@ export class FarmerComponent implements OnInit {
       this.farmerid = data['params']['id'];
       this.dataService.getLauncher(this.farmerid).subscribe(launcher => {
         this.farmer = launcher;
-        this.dataService.getPartials(this.farmerid).subscribe(partials => {
-          var successes = new Map();;
-          var errors = new Map();
-	  var hours = new Set();
-
-          partials['results'].forEach(v => {
-            var hour = Math.floor(v['timestamp'] / 3600) * 3600;
-	    hours.add(hour);
-            if(v.error === null) {
-              errors.set(hour, (errors.get(hour) || 0))
-              successes.set(hour, (successes.get(hour) || 0) + 1)
-            } else {
-              errors.set(hour, (errors.get(hour) || 0) + 1)
-              successes.set(hour, (successes.get(hour) || 0))
-            }
-
-          });
-	  this.partialsXTicks = Array.from(hours);
-
-          this.partialsData = [
-            {
-              "name": "Successful Partials",
-              "series": Array.from(successes, (i, idx) => {
-                      return {"name": i[0], "value": i[1]};
-              }),
-            },
-            {
-              "name": "Failed Partials",
-              "series": Array.from(errors, (i, idx) => {
-                      return {"name": i[0], "value": i[1]};
-              }),
-            },
-          ];
-        });
+        this.getPartialsData(this.farmerid);
       });
     });
+  }
+
+  _handlePartial(subscriber, data, successes, errors, hours) {
+
+     data['results'].forEach(v => {
+       var hour = Math.floor(v['timestamp'] / 3600) * 3600;
+       hours.add(hour);
+       if(v.error === null) {
+         errors.set(hour, (errors.get(hour) || 0))
+         successes.set(hour, (successes.get(hour) || 0) + 1)
+       } else {
+         errors.set(hour, (errors.get(hour) || 0) + 1)
+         successes.set(hour, (successes.get(hour) || 0))
+       }
+
+     });
+
+     if(data['next']) {
+       this.dataService.getNext(data['next']).subscribe(
+         (data) => {this._handlePartial(subscriber, data, successes, errors, hours);}
+       );
+     } else {
+       subscriber.complete();
+     }
+
+  }
+
+  getPartialsData(launcher_id) {
+
+    var successes = new Map();;
+    var errors = new Map();
+    var hours = new Set();
+
+    var obs = new Observable(subscriber => {
+      this.dataService.getPartials(launcher_id).subscribe((data) => {
+        this._handlePartial(subscriber, data, successes, errors, hours);
+      });
+    });
+
+    obs.subscribe(
+      (x) => {},
+      (err) => { console.error('something wrong occurred: ' + err); },
+      () => {
+
+        this.partialsXTicks = Array.from(hours);
+
+        this.partialsData = [
+          {
+            "name": "Successful Partials",
+            "series": Array.from(successes, (i, idx) => {
+                    return {"name": i[0], "value": i[1]};
+            }),
+          },
+          {
+            "name": "Failed Partials",
+            "series": Array.from(errors, (i, idx) => {
+                    return {"name": i[0], "value": i[1]};
+            }),
+          },
+        ];
+
+      }
+    );
+
   }
 
   partialsXAxisFormat(data) {

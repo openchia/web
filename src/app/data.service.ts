@@ -9,7 +9,9 @@ import { webSocket, WebSocketSubject } from "rxjs/webSocket";
 export class DataService {
 
   private REST_API_SERVER = "/api/v1.0/";
+  private _blocks$ = new BehaviorSubject<any[]>([]);
   private _launchers$ = new BehaviorSubject<any[]>([]);
+  private _payouts$ = new BehaviorSubject<any[]>([]);
   private socket$: WebSocketSubject<any>;
 
   constructor(private httpClient: HttpClient) { }
@@ -18,9 +20,21 @@ export class DataService {
     return this.httpClient.get(this.REST_API_SERVER + 'stats');
   }
 
+  getBlocks() {
+    return this.httpClient.get(this.REST_API_SERVER + 'block/').subscribe(data => {
+      this._blocks$.next(data['results']);
+    });
+  }
+
   getLaunchers() {
     return this.httpClient.get(this.REST_API_SERVER + 'launcher/').subscribe(data => {
       this._launchers$.next(data['results']);
+    });
+  }
+
+  getPayouts() {
+    return this.httpClient.get(this.REST_API_SERVER + 'payout/').subscribe(data => {
+      this._payouts$.next(data['results']);
     });
   }
 
@@ -38,7 +52,15 @@ export class DataService {
     return this.httpClient.get(this.REST_API_SERVER + 'partial/?ordering=timestamp&min_timestamp=' + timestamp.toString() + '&launcher=' + launcher);
   }
 
+  getNext(url) {
+    return this.httpClient.get(url);
+  }
+
+  get blocks$() { return this._blocks$.asObservable(); }
+
   get launchers$() { return this._launchers$.asObservable(); }
+
+  get payouts$() { return this._payouts$.asObservable(); }
 
   connectLog(msgCallback) {
     var proto = (window.location.protocol == 'https:') ? 'wss://' : 'ws://';

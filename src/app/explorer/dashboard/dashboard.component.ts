@@ -15,10 +15,14 @@ export class DashboardComponent implements OnInit {
   farmers: any;
   poolLog: string = '';
 
+  blocks$: Observable<any[]>;
   launchers$: Observable<any[]>;
+  payouts$: Observable<any[]>;
 
   constructor(private dataService: DataService) {
+    this.blocks$ = dataService.blocks$;
     this.launchers$ = dataService.launchers$;
+    this.payouts$ = dataService.payouts$;
   }
 
   ngOnInit() {
@@ -28,7 +32,9 @@ export class DashboardComponent implements OnInit {
         this.rewards_blocks = data['rewards_blocks'];
         this.farmers = data['farmers'];
     });
+    this.dataService.getBlocks();
     this.dataService.getLaunchers();
+    this.dataService.getPayouts();
 
     this.dataService.connectLog(msg => {
         var temp = this.poolLog + msg['data'];
