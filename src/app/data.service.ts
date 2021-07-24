@@ -49,6 +49,10 @@ export class DataService {
     return this.httpClient.get(this.REST_API_SERVER + 'launcher/' + id + '/');
   }
 
+  updateLauncher(id: string, params) {
+    return this.httpClient.put(this.REST_API_SERVER + 'launcher/' + id + '/', params);
+  }
+
   getPoolSpace() {
     return this.httpClient.get(this.REST_API_SERVER + 'space?days=2');
   }
@@ -61,6 +65,10 @@ export class DataService {
 
   getNext(url) {
     return this.httpClient.get(url);
+  }
+
+  doLogin(params) {
+    return this.httpClient.post(this.REST_API_SERVER + 'login', params);
   }
 
   get blocks$() { return this._blocks$.asObservable(); }

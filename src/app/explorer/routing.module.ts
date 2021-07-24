@@ -5,6 +5,7 @@ import { Routes, RouterModule } from '@angular/router';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { ExplorerComponent } from './explorer.component';
 import { FarmerComponent } from './farmer/farmer.component';
+import { LoginComponent } from './login/login.component';
 
 const routes: Routes = [
     {
@@ -18,6 +19,10 @@ const routes: Routes = [
             {
                 path: 'farmer/:id',
                 component: FarmerComponent,
+            },
+            {
+                path: 'login',
+                component: LoginComponent,
             },
         ]
     }

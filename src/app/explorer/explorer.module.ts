@@ -9,9 +9,10 @@ import { NgTerminalModule } from 'ng-terminal';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { ExplorerComponent } from './explorer.component';
 import { FarmerComponent } from './farmer/farmer.component';
+import { LoginComponent } from './login/login.component';
 
 @NgModule({
-  declarations: [DashboardComponent, ExplorerComponent, FarmerComponent],
+  declarations: [DashboardComponent, ExplorerComponent, FarmerComponent, LoginComponent],
   imports: [
     CommonModule,
     ExplorerRoutingModule,
