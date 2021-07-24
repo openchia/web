@@ -1,7 +1,7 @@
 <section class="section section-sm pt-sm">
   <div class="container">
     <h3 class="display-3" i18n>Farmer Details</h3>
-    <table class="table table-striped">
+    <table class="table table-sm table-striped">
       <tbody>
         <tr>
         <th i18n>Friendly Name</th>
@@ -19,22 +19,110 @@
         </tr>
       </tbody>
     </table>
-    <h3 class="display-3" i18n>Partials</h3>
-        <ngx-charts-line-chart
-          [scheme]="colorScheme"
-          [legend]="true"
-          [showXAxisLabel]="true"
-          [showYAxisLabel]="true"
-          [xAxis]="true"
-          [yAxis]="true"
-          [xAxisLabel]="'Timestamp'"
-          [yAxisLabel]="'Partials'"
-          [timeline]="true"
-          [results]="partialsData"
-          [xAxisTickFormatting]="partialsXAxisFormat"
-          [xAxisTicks]="partialsXTicks"
-          >
-        </ngx-charts-line-chart>
+    <ul ngbNav #nav="ngbNav" [(activeId)]="tabActive" class="nav-tabs navbar-inverse">
+      <li [ngbNavItem]="1">
+        <a ngbNavLink>Partials</a>
+        <ng-template ngbNavContent>
+          <div style="height: 300px;">
+            <ngx-charts-line-chart
+              [scheme]="colorScheme"
+              [legend]="true"
+              [showXAxisLabel]="true"
+              [showYAxisLabel]="true"
+              [xAxis]="true"
+              [yAxis]="true"
+              [xAxisLabel]="'Timestamp'"
+              [yAxisLabel]="'Partials'"
+              [timeline]="true"
+              [results]="partialsData"
+              [xAxisTickFormatting]="partialsXAxisFormat"
+              [xAxisTicks]="partialsXTicks"
+              >
+            </ngx-charts-line-chart>
+          </div>
+          <table class="table table-sm table-striped">
+            <thead>
+            <tr>
+              <th scope="col" i18n>Date</th>
+              <th scope="col" i18n>Difficulty</th>
+              <th scope="col" i18n>State</th>
+            </tr>
+            </thead>
+            <tbody *ngIf="(partialsObs$ | async) as partials;">
+            <tr *ngFor="let partial of partials; let i = index">
+              <td>{{ partial.timestamp * 1000 | date:"medium" }}</td>
+              <td>{{ partial.difficulty }}</td>
+              <td>{{ partial.error || "OK" }}</td>
+            </tr>
+            <tr *ngIf="partials.length == 0">
+              <td colspan="3" i18n>No partials found!</td>
+            </tr>
+            </tbody>
+          </table>
+          <div class="d-flex justify-content-between p-2">
+            <ngb-pagination [collectionSize]="partialsCollectionSize" [(page)]="partialsPage" [pageSize]="partialsPageSize" (pageChange)="refreshPartials()">
+            </ngb-pagination>
+          </div>
+
+        </ng-template>
+      </li>
+      <li [ngbNavItem]="2">
+        <a ngbNavLink>Payouts</a>
+        <ng-template ngbNavContent>
+          <table class="table table-sm table-striped">
+            <thead>
+            <tr>
+              <th scope="col" i18n>Date</th>
+              <th scope="col" i18n>Blocks</th>
+            </tr>
+            </thead>
+            <tbody *ngIf="(payouts$ | async) as payouts;">
+            <tr *ngFor="let payout of payouts; let i = index">
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr *ngIf="payouts.length == 0">
+              <td colspan="3" i18n>No payouts found!</td>
+            </tr>
+            </tbody>
+          </table>
+          <div class="d-flex justify-content-between p-2">
+            <ngb-pagination [collectionSize]="payoutsCollectionSize" [(page)]="payoutsPage" [pageSize]="payoutsPageSize" (pageChange)="refreshPayouts()">
+            </ngb-pagination>
+          </div>
+        </ng-template>
+      </li>
+      <li [ngbNavItem]="3">
+        <a ngbNavLink>Blocks</a>
+        <ng-template ngbNavContent>
+          <table class="table table-sm table-striped">
+            <thead>
+            <tr>
+              <th scope="col" i18n>Height</th>
+              <th scope="col" i18n>Date</th>
+              <th scope="col" i18n>Amount</th>
+            </tr>
+            </thead>
+            <tbody *ngIf="(blocks$ | async) as blocks;">
+            <tr *ngFor="let block of blocks; let i = index">
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr *ngIf="blocks.length == 0">
+              <td colspan="3" i18n>No blocks found by this farmed!</td>
+            </tr>
+            </tbody>
+          </table>
+          <div class="d-flex justify-content-between p-2">
+            <ngb-pagination [collectionSize]="blocksCollectionSize" [(page)]="blocksPage" [pageSize]="blocksPageSize" (pageChange)="refreshBlocks()">
+            </ngb-pagination>
+          </div>
+        </ng-template>
+      </li>
+    </ul>
+    <div [ngbNavOutlet]="nav" class="mt-2"></div>
 
   </div>
 </section>

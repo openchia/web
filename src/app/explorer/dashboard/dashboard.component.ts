@@ -1,4 +1,5 @@
-import { Component, OnDestroy, OnInit } from '@angular/core';
+import { AfterViewInit, Component, OnDestroy, OnInit, ViewChild } from '@angular/core';
+import { NgTerminal, NgTerminalComponent } from 'ng-terminal';
 import { DataService } from '../../data.service';
 import { Observable } from 'rxjs';
 
@@ -7,7 +8,8 @@ import { Observable } from 'rxjs';
   templateUrl: './dashboard.component.html',
   styleUrls: ['./dashboard.component.css']
 })
-export class DashboardComponent implements OnInit {
+export class DashboardComponent implements OnInit, AfterViewInit {
+  @ViewChild('term', { static: true }) child: NgTerminal;
 
   pool_space: any;
   estimate_win: any;
@@ -17,13 +19,21 @@ export class DashboardComponent implements OnInit {
 
   blocks$: Observable<any[]>;
   launchers$: Observable<any[]>;
+  log$: Observable<string>;
   payouts$: Observable<any[]>;
 
   constructor(private dataService: DataService) {
     this.blocks$ = dataService.blocks$;
     this.launchers$ = dataService.launchers$;
+    this.log$ = dataService.log$;
     this.payouts$ = dataService.payouts$;
   }
+
+   ngAfterViewInit() {
+     this.log$.subscribe(
+       (msg) => this.child.write(msg.split('\n').join('\r\n')),
+     );
+   }
 
   ngOnInit() {
     this.dataService.getStats().subscribe(data => {
@@ -36,10 +46,8 @@ export class DashboardComponent implements OnInit {
     this.dataService.getLaunchers();
     this.dataService.getPayouts();
 
-    this.dataService.connectLog(msg => {
-        var temp = this.poolLog + msg['data'];
-        this.poolLog = temp.split('\n').slice(-15).join("\n");
-    });
+    this.dataService.connectLog();
+
   }
 
   ngOnDestroy() {

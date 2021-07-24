@@ -41,10 +41,10 @@
     </div>
   </section>
 
-<section class="section section-sm pt-sm">
+<section class="section section-sm pt-sm-0">
   <div class="container">
     <h3 class="display-3" i18n>Farmers</h3>
-    <table class="table table-striped">
+    <table class="table table-sm table-striped">
       <thead>
       <tr>
         <th scope="col">#</th>
@@ -65,10 +65,10 @@
   </div>
 </section>
 
-<section class="section section-sm pt-sm">
+<section class="section section-sm pt-sm-0">
   <div class="container">
     <h3 class="display-3" i18n>Blocks Found</h3>
-    <table class="table table-striped">
+    <table class="table table-sm table-striped">
       <thead>
       <tr>
         <th scope="col" i18n>Index</th>
@@ -90,10 +90,10 @@
   </div>
 </section>
 
-<section class="section section-sm pt-sm">
+<section class="section section-sm pt-sm-0">
   <div class="container">
     <h3 class="display-3" i18n>Payouts</h3>
-    <table class="table table-striped">
+    <table class="table table-sm table-striped">
       <thead>
       <tr>
         <th scope="col" i18n>Date</th>
@@ -113,10 +113,11 @@
   </div>
 </section>
 
-<section class="section section-sm">
+<section class="section section-sm pt-sm-0">
   <div class="container">
     <h2 class="display-3" i18n>Pool server real-time log</h2>
-    <div class="container"><pre [innerHTML]="poolLog"></pre>
+    <div class="container">
+      <ng-terminal #term></ng-terminal>
     </div>
   </div>
 </section>

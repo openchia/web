@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { Router, ActivatedRoute, ParamMap } from '@angular/router';
 import { DataService } from '../../data.service';
 import { switchMap } from 'rxjs/operators';
-import { Observable } from 'rxjs';
+import { Observable, BehaviorSubject } from 'rxjs';
 
 @Component({
   selector: 'app-farmer',
@@ -11,8 +11,25 @@ import { Observable } from 'rxjs';
 })
 export class FarmerComponent implements OnInit {
 
+  tabActive = 1;
+
   partialsData: any[] = null;
   partialsXTicks: any[] = []
+  partials$: BehaviorSubject<any[]> = new BehaviorSubject<any[]>([]);
+  partialsObs$: Observable<any[]> = this.partials$.asObservable();
+  partialsCollectionSize: number = 0;
+  partialsPage: number = 1;
+  partialsPageSize: number = 100;
+
+  payouts$: Observable<any[]>;
+  payoutsCollectionSize: number = 0;
+  payoutsPage: number = 1;
+  payoutsPageSize: number = 100;
+
+  blocks$: Observable<any[]>;
+  blocksCollectionSize: number = 0;
+  blocksPage: number = 1;
+  blocksPageSize: number = 100;
 
   colorScheme = {
     domain: ['#5AA454', '#E44D25', '#CFC0BB', '#7aa3e5', '#a8385d', '#aae3f5']
@@ -21,7 +38,10 @@ export class FarmerComponent implements OnInit {
   private farmerid: string;
   public farmer: any = {};
 
-  constructor(private dataService: DataService, private route: ActivatedRoute,) { }
+  constructor(private dataService: DataService, private route: ActivatedRoute,) {
+    this.blocks$ = dataService.blocks$;
+    this.payouts$ = dataService.payouts$;
+  }
 
   ngOnInit(): void {
     this.route.paramMap.subscribe(data => {
@@ -29,6 +49,8 @@ export class FarmerComponent implements OnInit {
       this.dataService.getLauncher(this.farmerid).subscribe(launcher => {
         this.farmer = launcher;
         this.getPartialsData(this.farmerid);
+	this.dataService.getPayouts(this.farmerid);
+	this.dataService.getBlocks(this.farmerid);
       });
     });
   }
@@ -58,6 +80,17 @@ export class FarmerComponent implements OnInit {
 
   }
 
+  refreshBlocks() {
+    this.dataService.getBlocks(this.farmerid, (this.partialsPage - 1) * this.partialsPageSize);
+  }
+
+  refreshPartials() {
+     this.dataService.getPartials(this.farmerid, (this.partialsPage - 1) * this.partialsPageSize).subscribe(data => {
+       this.partialsCollectionSize = data['count'];
+       this.partials$.next(data['results']);
+     });
+  }
+
   getPartialsData(launcher_id) {
 
     var successes = new Map();;
@@ -66,6 +99,8 @@ export class FarmerComponent implements OnInit {
 
     var obs = new Observable(subscriber => {
       this.dataService.getPartials(launcher_id).subscribe((data) => {
+        this.partialsCollectionSize = data['count'];
+        this.partials$.next(data['results']);
         this._handlePartial(subscriber, data, successes, errors, hours);
       });
     });
