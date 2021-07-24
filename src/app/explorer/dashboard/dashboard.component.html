@@ -56,7 +56,7 @@
       <tbody>
       <tr *ngFor="let launcher of launchers$ | async; let i = index" [routerLink]="['/explorer/farmer', launcher.launcher_id]">
         <th scope="row">{{ i + 1 }}</th>
-        <td class="nav-link" >{{ launcher.launcher_id }}</td>
+        <td class="nav-link" >{{ launcher.name || launcher.launcher_id }}</td>
         <td>{{ launcher.points }}</td>
         <td>{{ launcher.points_of_total }}</td>
       </tr>
