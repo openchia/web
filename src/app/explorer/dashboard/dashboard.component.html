@@ -15,7 +15,7 @@
               <div class="card card-lift shadow border-0">
                 <div class="card-body py-4">
                   <h6 class="text-success text-uppercase" i18n>Estimate To Win</h6>
-                  <p class="description mt-3" i18n>{{ estimate_win * 60 * 24 | number }} days</p>
+                  <p class="description mt-3" i18n>{{ estimate_win / 60 / 24 | number }} days</p>
                 </div>
               </div>
             </div>
@@ -56,7 +56,7 @@
       <tbody>
       <tr *ngFor="let launcher of launchers$ | async; let i = index" [routerLink]="['/explorer/farmer', launcher.launcher_id]">
         <th scope="row">{{ i + 1 }}</th>
-        <td class="nav-link" >{{ launcher.name || launcher.launcher_id }}</td>
+        <td class="link" ><a [routerLink]="['/explorer/farmer', launcher.launcher_id]">{{ launcher.name || launcher.launcher_id }}</a></td>
         <td>{{ launcher.points }}</td>
         <td>{{ launcher.points_of_total }}</td>
       </tr>
