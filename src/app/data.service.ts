@@ -54,7 +54,7 @@ export class DataService {
   }
 
   getPoolSpace() {
-    return this.httpClient.get(this.REST_API_SERVER + 'space?days=2');
+    return this.httpClient.get(this.REST_API_SERVER + 'space?days=4');
   }
 
   getPartials(launcher, offset?) {
