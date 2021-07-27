@@ -98,64 +98,56 @@
   </section>
   <section class="section section-sm">
     <div class="container">
-      <div class="row justify-content-center text-center">
-        <ngx-charts-area-chart
-          [scheme]="colorScheme"
-          [legend]="legend"
-          [showXAxisLabel]="showXAxisLabel"
-          [showYAxisLabel]="showYAxisLabel"
-          [xAxis]="xAxis"
-          [yAxis]="yAxis"
-          [yAxisLabel]="yAxisLabel"
-          [timeline]="timeline"
-          [results]="data"
-          [yAxisTickFormatting]="yAxisFormat"
-          >
-          <ng-template #seriesTooltipTemplate let-model="model">
-            {{ model[0].label }}<br />
-            {{ model[0].name }}
-          </ng-template>
-          <ng-template #tooltipTemplate let-model="model">
-            {{ model.label }}<br />
-            {{ model.name }}
-          </ng-template>
-        </ngx-charts-area-chart>
-      </div>
-    </div>
-  </section>
-  <!--
-  <section class="section bg-secondary">
-    <div class="container">
       <div class="row row-grid align-items-center">
-        <div class="col-md-6">
+        <div class="col-md-8">
+          <div class="pl-md-7">
+            <ngx-charts-area-chart
+              [scheme]="colorScheme"
+              [legend]="legend"
+              [showXAxisLabel]="showXAxisLabel"
+              [showYAxisLabel]="showYAxisLabel"
+              [xAxis]="xAxis"
+              [yAxis]="yAxis"
+              [yAxisLabel]="yAxisLabel"
+              [timeline]="timeline"
+              [results]="data"
+              [yAxisTickFormatting]="yAxisFormat"
+              >
+              <ng-template #seriesTooltipTemplate let-model="model">
+                {{ model[0].label }}<br />
+                {{ model[0].name }}
+              </ng-template>
+              <ng-template #tooltipTemplate let-model="model">
+                {{ model.label }}<br />
+                {{ model.name }}
+              </ng-template>
+            </ngx-charts-area-chart>
+          </div>
+        </div>
+        <div class="col-md-4">
           <div class="card bg-default shadow border-0">
-            <img src="./assets/img/theme/img-1-1200x1000.jpg" class="card-img-top">
             <blockquote class="card-blockquote">
-              <svg preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 583 95" class="svg-bg">
-                <polygon points="0,52 583,95 0,95" class="fill-default" />
-                <polygon points="0,42 583,95 683,0 0,95" opacity=".2" class="fill-default" />
+              <svg preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 583 65" class="svg-bg">
+                <polygon points="0,52 383,95 0,95" class="fill-default" />
               </svg>
-              <h4 class="display-3 font-weight-bold text-white">Design System</h4>
-              <p class="lead text-italic text-white">The Arctic Ocean freezes every winter and much of the sea-ice then thaws every summer, and that process will continue whatever happens.</p>
+              <h4 class="display-3 font-weight-bold text-white">News</h4>
+              <ul class="navbar-nav navbar-nav-hover">
+                <li>
+                  <span class="text-white"><a class="text-white" href="https://blog.openchia.io/2021/07/27/howto-set-name.html" target="_blank">How-to set name in Explorer</a><br />[27 Jul 2021]</span>
+                </li>
+                <li>
+                  <span class="text-white"><a class="text-white" href="https://blog.openchia.io/2021/07/26/five-reasons-to-join.html" target="_blank">5 reasons to join OpenChia</a><br />[26 Jul 2021]</span>
+                </li>
+                <li>
+                  <span class="text-white"><a class="text-white" href="https://blog.openchia.io/2021/07/26/welcome-openchia.html" target="_blank">Welcome to OpenChia.io Blog!</a><br />[26 Jul 2021]</span>
+                </li>
+              </ul>
             </blockquote>
           </div>
         </div>
-        <div class="col-md-6">
-          <div class="pl-md-5">
-            <div class="icon icon-lg icon-shape icon-shape-warning shadow rounded-circle mb-5">
-              <i class="ni ni-settings"></i>
-            </div>
-            <h3>Our customers</h3>
-            <p class="lead">Don't let your uses guess by attaching tooltips and popoves to any element. Just make sure you enable them first via JavaScript.</p>
-            <p>The kit comes with three pre-built pages to help you get started faster. You can change the text and images and you're good to go.</p>
-            <p>The kit comes with three pre-built pages to help you get started faster. You can change the text and images and you're good to go.</p>
-            <a href="javascript:void(0)" class="font-weight-bold text-warning mt-5">A beautiful UI Kit for impactful websites</a>
-          </div>
-        </div>
       </div>
     </div>
   </section>
-  -->
   <section class="section section-md">
     <div class="container">
       <div class="row justify-content-center text-center mb-md">
@@ -187,132 +179,4 @@
           -->
     </div>
   </section>
-  <!--
-  <section class="section section-lg bg-gradient-default">
-    <div class="container pt-lg pb-300">
-      <div class="row text-center justify-content-center">
-        <div class="col-lg-10">
-          <h2 class="display-3 text-white">Build something</h2>
-          <p class="lead text-white">According to the National Oceanic and Atmospheric Administration, Ted, Scambos, NSIDClead scentist, puts the potentially record low maximum sea ice extent tihs year down to low ice.</p>
-        </div>
-      </div>
-      <div class="row row-grid mt-5">
-        <div class="col-lg-4">
-          <div class="icon icon-lg icon-shape bg-gradient-white shadow rounded-circle text-primary">
-            <i class="ni ni-settings text-primary"></i>
-          </div>
-          <h5 class="text-white mt-3">Building tools</h5>
-          <p class="text-white mt-3">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        </div>
-        <div class="col-lg-4">
-          <div class="icon icon-lg icon-shape bg-gradient-white shadow rounded-circle text-primary">
-            <i class="ni ni-ruler-pencil text-primary"></i>
-          </div>
-          <h5 class="text-white mt-3">Grow your market</h5>
-          <p class="text-white mt-3">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        </div>
-        <div class="col-lg-4">
-          <div class="icon icon-lg icon-shape bg-gradient-white shadow rounded-circle text-primary">
-            <i class="ni ni-atom text-primary"></i>
-          </div>
-          <h5 class="text-white mt-3">Launch time</h5>
-          <p class="text-white mt-3">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        </div>
-      </div>
-    </div>
-    <div class="separator separator-bottom separator-skew zindex-100">
-      <svg x="0" y="0" viewBox="0 0 2560 100" preserveAspectRatio="none" version="1.1" xmlns="http://www.w3.org/2000/svg">
-        <polygon class="fill-white" points="2560 0 2560 100 0 100"></polygon>
-      </svg>
-    </div>
-  </section>
-  <section class="section section-lg pt-lg-0 section-contact-us">
-    <div class="container">
-      <div class="row justify-content-center mt--300">
-        <div class="col-lg-8">
-          <div class="card bg-gradient-secondary shadow">
-            <div class="card-body p-lg-5">
-              <h4 class="mb-1">Want to work with us?</h4>
-              <p class="mt-0">Your project is very important to us.</p>
-              <div class="form-group mt-5" [ngClass]="{'focused':focus===true}">
-                <div class="input-group input-group-alternative">
-                  <div class="input-group-prepend">
-                    <span class="input-group-text"><i class="ni ni-user-run"></i></span>
-                  </div>
-                  <input class="form-control" placeholder="Your name" type="text" (focus)="focus=true" (blur)="focus=false">
-                </div>
-              </div>
-              <div class="form-group" [ngClass]="{'focused':focus1===true}">
-                <div class="input-group input-group-alternative">
-                  <div class="input-group-prepend">
-                    <span class="input-group-text"><i class="ni ni-email-83"></i></span>
-                  </div>
-                  <input class="form-control" placeholder="Email address" type="email" (focus)="focus1=true" (blur)="focus1=false">
-                </div>
-              </div>
-              <div class="form-group mb-4">
-                <textarea class="form-control form-control-alternative" name="name" rows="4" cols="80" placeholder="Type a message..."></textarea>
-              </div>
-              <div>
-                <button type="button" class="btn btn-default btn-round btn-block btn-lg">Send Message</button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  -->
-  <!--
-  <section class="section section-lg">
-    <div class="container">
-      <div class="row row-grid justify-content-center">
-        <div class="col-lg-8 text-center">
-          <h2 class="display-3">Do you love this awesome
-            <span class="text-success">Design System for Angular?</span>
-          </h2>
-          <p class="lead">Cause if you do, it can be yours for FREE. Hit the button below to navigate to Creative Tim where you can find the Design System in Angular. Start a new project or give an old Angular project a new look!</p>
-          <div class="btn-wrapper">
-            <a href="https://www.creative-tim.com/product/argon-design-system-angular?ref=adsa-landing-page" class="btn btn-primary mb-3 mb-sm-0">Download Angular</a>
-          </div>
-          <div class="text-center">
-            <h4 class="display-4 mb-5 mt-5">Available on these technologies</h4>
-            <div class="row justify-content-center">
-              <div class="col-lg-2 col-4">
-                <a href="https://www.creative-tim.com/product/argon-design-system?ref=adsa-landing-page" target="_blank" placement="top" ngbTooltip="Bootstrap 4 - Most popular front-end component library">
-                  <img src="https://s3.amazonaws.com/creativetim_bucket/tim_static_images/presentation-page/bootstrap.jpg" class="img-fluid">
-                </a>
-              </div>
-              <div class="col-lg-2 col-4">
-                <a href="https://www.creative-tim.com/product/argon-design-system-angular?ref=adsa-landing-page" target="_blank" placement="top" ngbTooltip="Angular - One framework. Mobile &amp; desktop">
-                  <img src="https://s3.amazonaws.com/creativetim_bucket/tim_static_images/presentation-page/angular.jpg" class="img-fluid">
-                </a>
-              </div>
-              <div class="col-lg-2 col-4">
-                <a href="https://www.creative-tim.com/product/vue-argon-design-system?ref=adsa-landing-page" target="_blank" placement="top" ngbTooltip="Vue.js - The progressive javascript framework">
-                  <img src="https://s3.amazonaws.com/creativetim_bucket/tim_static_images/presentation-page/vue.jpg" class="img-fluid">
-                </a>
-              </div>
-              <div class="col-lg-2 col-4">
-                <a href="https://www.sketchapp.com/?ref=creative-tim" target="_blank" placement="top" ngbTooltip="[Coming Soon] Sketch - Digital design toolkit">
-                  <img src="https://s3.amazonaws.com/creativetim_bucket/tim_static_images/presentation-page/sketch.jpg" class="img-fluid opacity-3">
-                </a>
-              </div>
-              <div class="col-lg-2 col-4">
-                <a href="https://www.adobe.com/products/photoshop.html?ref=creative-tim" target="_blank" placement="top" ngbTooltip="[Coming Soon] Adobe Photoshop - Software for digital images manipulation">
-                  <img src="https://s3.amazonaws.com/creativetim_bucket/tim_static_images/presentation-page/ps.jpg" class="img-fluid opacity-3">
-                </a>
-              </div>
-              <div class="col-lg-2 col-4">
-                <a href="https://reactjs.org/?ref=creative-tim" target="_blank" placement="top" ngbTooltip="[Coming Soon] React - A JavaScript library for building user interfaces">
-                  <img src="https://s3.amazonaws.com/creativetim_bucket/tim_static_images/presentation-page/react.jpg" class="img-fluid opacity-3">
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  -->
 </main>
