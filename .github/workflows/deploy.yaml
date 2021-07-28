@@ -12,11 +12,11 @@ jobs:
     - name: Install Node.js
       uses: actions/setup-node@v1
       with:
-        node-version: '10.x'
+        node-version: '14.x'
     - name: Install npm dependencies
       run: npm install
     - name: Run build task
-      run: npm run build --if-present
+      run: npm run build -- --configuration=production
     - name: Deploy to Server
       uses: easingthemes/ssh-deploy@v2.2.11
       env:
