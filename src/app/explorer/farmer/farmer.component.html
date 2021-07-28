@@ -21,7 +21,7 @@
     </table>
     <ul ngbNav #nav="ngbNav" [(activeId)]="tabActive" class="nav-tabs navbar-inverse">
       <li [ngbNavItem]="1">
-        <a ngbNavLink>Partials</a>
+        <a class="display-4" ngbNavLink>Partials</a>
         <ng-template ngbNavContent>
           <div style="height: 300px;">
             <ngx-charts-line-chart
@@ -31,9 +31,9 @@
               [showYAxisLabel]="true"
               [xAxis]="true"
               [yAxis]="true"
-              [xAxisLabel]="'Timestamp'"
-              [yAxisLabel]="'Partials'"
-              [timeline]="true"
+              [xAxisLabel]="'Time'"
+              [yAxisLabel]="'Last Partials (24 hours)'"
+              [timeline]="false"
               [results]="partialsData"
               [xAxisTickFormatting]="partialsXAxisFormat"
               [xAxisTicks]="partialsXTicks"
@@ -66,7 +66,7 @@
 
         </ng-template>
       </li>
-      <li [ngbNavItem]="2">
+      <li class="display-4" [ngbNavItem]="2">
         <a ngbNavLink>Payouts</a>
         <ng-template ngbNavContent>
           <table class="table table-sm table-striped">
@@ -93,7 +93,7 @@
           </div>
         </ng-template>
       </li>
-      <li [ngbNavItem]="3">
+      <li class="display-4" [ngbNavItem]="3">
         <a ngbNavLink>Blocks</a>
         <ng-template ngbNavContent>
           <table class="table table-sm table-striped">
