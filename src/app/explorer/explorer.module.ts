@@ -4,6 +4,7 @@ import { CommonModule } from '@angular/common';
 import { ExplorerRoutingModule } from './routing.module';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { NgxChartsModule } from '@swimlane/ngx-charts';
+import { NgxFilesizeModule } from 'ngx-filesize';
 import { NgTerminalModule } from 'ng-terminal';
 
 import { MaxLengthPipe } from '../pipes/maxlength.pipe';
@@ -20,6 +21,7 @@ import { LoginComponent } from './login/login.component';
     ExplorerRoutingModule,
     NgbModule,
     NgxChartsModule,
+    NgxFilesizeModule,
     NgTerminalModule,
   ]
 })
