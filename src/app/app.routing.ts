@@ -7,12 +7,14 @@ import { FaqComponent } from './faq/faq.component';
 import { FeesComponent } from './fees/fees.component';
 import { JoinComponent } from './join/join.component';
 import { LandingComponent } from './landing/landing.component';
+import { TermsComponent } from './terms/terms.component';
 
 const routes: Routes =[
     { path: 'join',             component: JoinComponent },
-    { path: 'faq',             component: FaqComponent },
+    { path: 'faq',              component: FaqComponent },
     { path: 'fees',             component: FeesComponent },
     { path: 'landing',          component: LandingComponent },
+    { path: 'terms',            component: TermsComponent },
     { path: '', redirectTo: 'landing', pathMatch: 'full' }
 ];
 

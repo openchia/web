@@ -16,6 +16,7 @@ import { NavbarComponent } from './shared/navbar/navbar.component';
 import { FooterComponent } from './shared/footer/footer.component';
 import { FeesComponent } from './fees/fees.component';
 import { FaqComponent } from './faq/faq.component';
+import { TermsComponent } from './terms/terms.component';
 
 
 @NgModule({
@@ -26,6 +27,7 @@ import { FaqComponent } from './faq/faq.component';
     FooterComponent,
     FeesComponent,
     FaqComponent,
+    TermsComponent,
   ],
   imports: [
     BrowserModule,
