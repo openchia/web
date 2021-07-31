@@ -5,7 +5,15 @@
       <tbody>
         <tr>
         <th i18n>Friendly Name</th>
-        <td>{{ farmer.name || "(not set)" }}</td>
+        <td>
+          <span *ngIf="farmer.name">{{ farmer.name }}</span>
+          <ng-template #notsetTooltip>
+            <a href="https://blog.openchia.io/2021/07/27/howto-set-name.html" target="_blank" i18n>Learn how to set name here.</a>
+          </ng-template>
+          <span *ngIf="!farmer.name">
+            (not set) <i class="fas fa-info-circle" closeDelay="4000" [ngbTooltip]="notsetTooltip"></i>
+          </span>
+        </td>
         <th i18n>Points</th>
         <td>{{ farmer.points }} ({{ farmer.points_of_total }}%)</td>
         </tr>
