@@ -50,6 +50,29 @@
               >
             </ngx-charts-line-chart>
           </div>
+          <div class="row justify-content-center">
+             <div class="col-lg-12">
+               <div class="row row-grid">
+                 <div class="col-lg-3 justify-content-center">
+                   <span class="text-primary text-uppercase" i18n>Partials (24 hours)</span>
+                   <p class="display-3">{{ partialsCollectionSize }}</p>
+                 </div>
+                 <div class="col-lg-3 justify-content-center">
+                   <span class="text-primary text-uppercase" i18n>Points (24 hours)</span>
+                   <p class="display-3">{{ partialsPoints }}</p>
+                 </div>
+                 <div class="col-lg-3">
+                   <span class="text-primary text-uppercase" i18n>Successful Partials</span>
+                   <p class="display-3" i18n>{{ partialsSuccessful }}</p>
+                 </div>
+                 <div class="col-lg-3">
+                   <span class="text-warning text-uppercase" i18n>Failed Partials</span>
+                   <p class="display-3" i18n>{{ partialsFailed }}</p>
+                 </div>
+               </div>
+             </div>
+          </div>
+
           <table class="table table-sm table-striped">
             <thead>
             <tr>

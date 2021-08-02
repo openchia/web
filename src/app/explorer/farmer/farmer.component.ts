@@ -20,6 +20,9 @@ export class FarmerComponent implements OnInit {
   partialsCollectionSize: number = 0;
   partialsPage: number = 1;
   partialsPageSize: number = 100;
+  partialsSuccessful: number = 0;
+  partialsFailed: number = 0;
+  partialsPoints: number = 0;
 
   payouts$: Observable<any[]>;
   payoutsCollectionSize: number = 0;
@@ -61,9 +64,12 @@ export class FarmerComponent implements OnInit {
        var hour = Math.floor(v['timestamp'] / 3600) * 3600;
        hours.add(hour);
        if(v.error === null) {
+	 this.partialsSuccessful++;
+	 this.partialsPoints += v['difficulty'];
          errors.set(hour, (errors.get(hour) || 0))
          successes.set(hour, (successes.get(hour) || 0) + 1)
        } else {
+	 this.partialsFailed++;
          errors.set(hour, (errors.get(hour) || 0) + 1)
          successes.set(hour, (successes.get(hour) || 0))
        }
