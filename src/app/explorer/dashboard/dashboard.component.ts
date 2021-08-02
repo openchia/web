@@ -11,10 +11,11 @@ import { Observable } from 'rxjs';
 export class DashboardComponent implements OnInit, AfterViewInit {
   @ViewChild('term', { static: true }) child: NgTerminal;
 
-  pool_space: any;
+  pool_space: number = 0;
   estimate_win: any;
   rewards_blocks: any;
   farmers: any;
+  netspace: number = 0;
   poolLog: string = '';
 
   blocks$: Observable<any[]>;
@@ -41,6 +42,7 @@ export class DashboardComponent implements OnInit, AfterViewInit {
         this.estimate_win = data['estimate_win'];
         this.rewards_blocks = data['rewards_blocks'];
         this.farmers = data['farmers'];
+        this.netspace = data['blockchain_space'];
     });
     this.dataService.getBlocks();
     this.dataService.getLaunchers();
