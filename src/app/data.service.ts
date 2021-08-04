@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { HttpClient } from '@angular/common/http';
+import { HttpClient, HttpParams } from '@angular/common/http';
 import { BehaviorSubject, Observable, of, Subject } from 'rxjs';
 import { webSocket, WebSocketSubject } from "rxjs/webSocket";
 
@@ -10,7 +10,7 @@ export class DataService {
 
   private REST_API_SERVER = "/api/v1.0/";
   private _blocks$ = new BehaviorSubject<any[]>([]);
-  private _launchers$ = new BehaviorSubject<any[]>([]);
+  private _launchers$ = new Subject<any[]>();
   private _payouts$ = new BehaviorSubject<any[]>([]);
   private _log$ = new BehaviorSubject<string>('');
   private socket$: WebSocketSubject<any>;
@@ -30,8 +30,10 @@ export class DataService {
     });
   }
 
-  getLaunchers() {
-    return this.httpClient.get(this.REST_API_SERVER + 'launcher/').subscribe(data => {
+  getLaunchers(search?) {
+    var params = new HttpParams();
+    if(search !== undefined) params = params.set('search', search);
+    return this.httpClient.get(`${this.REST_API_SERVER}launcher/`, {params}).subscribe(data => {
       this._launchers$.next(data['results']);
     });
   }

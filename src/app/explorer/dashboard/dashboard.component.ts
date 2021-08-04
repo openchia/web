@@ -1,7 +1,8 @@
-import { AfterViewInit, Component, OnDestroy, OnInit, ViewChild } from '@angular/core';
+import { AfterViewInit, Component, ElementRef, OnDestroy, OnInit, ViewChild } from '@angular/core';
+import { Router } from '@angular/router';
 import { NgTerminal, NgTerminalComponent } from 'ng-terminal';
 import { DataService } from '../../data.service';
-import { Observable } from 'rxjs';
+import { Observable, Subscription } from 'rxjs';
 
 @Component({
   selector: 'app-dashboard',
@@ -10,6 +11,7 @@ import { Observable } from 'rxjs';
 })
 export class DashboardComponent implements OnInit, AfterViewInit {
   @ViewChild('term', { static: true }) child: NgTerminal;
+  @ViewChild('searchinput') searchInput: ElementRef;
 
   pool_space: number = 0;
   estimate_win: any;
@@ -18,12 +20,15 @@ export class DashboardComponent implements OnInit, AfterViewInit {
   netspace: number = 0;
   poolLog: string = '';
 
+  searchNotFound: boolean = false;
+
   blocks$: Observable<any[]>;
   launchers$: Observable<any[]>;
   log$: Observable<string>;
   payouts$: Observable<any[]>;
+  searchSubscription: Subscription;
 
-  constructor(private dataService: DataService) {
+  constructor(private dataService: DataService, private router: Router) {
     this.blocks$ = dataService.blocks$;
     this.launchers$ = dataService.launchers$;
     this.log$ = dataService.log$;
@@ -49,11 +54,27 @@ export class DashboardComponent implements OnInit, AfterViewInit {
     this.dataService.getPayouts();
 
     this.dataService.connectLog();
+    this.searchSubscription = this.launchers$.subscribe((data) => {this._handleSearch(data);});
 
+  }
+
+  private _handleSearch(data) {
+    if(data.length == 0) {
+      if(this.searchInput?.nativeElement.value?.length > 0)
+        this.searchNotFound = true;
+    } else if (data.length == 1) {
+      this.router.navigate(['/explorer/farmer', data[0]['launcher_id']]);
+    }
+  }
+
+  searchFarmer() {
+    this.searchNotFound = false;
+    this.dataService.getLaunchers(this.searchInput.nativeElement.value);
   }
 
   ngOnDestroy() {
     this.dataService.disconnectLog();
+    this.searchSubscription.unsubscribe();
   }
 
 }

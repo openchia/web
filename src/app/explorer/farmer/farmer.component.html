@@ -25,7 +25,7 @@
         <th i18n>Difficulty</th>
         <td>{{ farmer.difficulty }}</td>
         <th i18n>Estimated Size <i class="fas fa-info-circle" ngbTooltip="Be aware this is a rough estimate and will vary based on the partials sent for the last 24 hours! This is by no means a representation of your actual farm size."></i></th>
-        <td>{{ farmer.estimated_size | filesize:{"standard": "iec"} }}</td>
+        <td>{{ farmer.estimated_size || 0 | filesize:{"standard": "iec"} }}</td>
         </tr>
       </tbody>
     </table>

@@ -52,6 +52,14 @@
 <section class="section section-sm pt-sm-0">
   <div class="container">
     <h3 class="display-3" i18n>Farmers</h3>
+    <div class="form-group col-lg-12 row row-grid">
+      <div class="col-lg-10">
+        <input #searchinput type="text" placeholder="Name or Launcher ID" class="form-control" />
+      </div>
+      <div class="col-lg-2">
+        <button class="btn btn-neutral" type="button" (click)="searchFarmer()">Search</button>
+      </div>
+    </div>
     <table class="table table-sm table-striped">
       <thead>
       <tr>
@@ -69,6 +77,9 @@
         <td>{{ launcher.difficulty }}</td>
         <td>{{ launcher.points }}</td>
         <td>{{ launcher.points_of_total | number:'2.5' }}%</td>
+      </tr>
+      <tr *ngIf="searchNotFound">
+        <td colspan="5">No farmers found!</td>
       </tr>
       </tbody>
     </table>
