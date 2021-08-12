@@ -8,14 +8,30 @@
 
       <div class="row">
         <div class="col-lg-12 col-sm-6">
-       Launcher ID: {{ farmer?.launcher_id }}
-          </div>
+          Launcher ID: {{ farmer?.launcher_id }}
+        </div>
       </div>
       <div class="row">
         <div class="col-lg-4 col-sm-6">
           <div class="form-group">
             Display name: <input type="text" #name [value]="farmer.name" placeholder="(not set)" class="form-control" />
             <ngb-alert type="warning" [dismissible]="false" *ngIf="nameError">{{ nameError }}</ngb-alert>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-4 col-sm-6">
+          <div class="form-group">
+            Email: <i class="fas fa-info-circle" ngbTooltip="Email may be used to contact you for any issues identified with your launcher or changes in our Terms of Service."></i><input type="text" #email [value]="farmer.email" placeholder="(not set)" class="form-control" />
+            <ngb-alert type="warning" [dismissible]="false" *ngIf="emailError">{{ emailError }}</ngb-alert>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-4 col-sm-6">
+          <div class="form-group">
+            Notify Missing Partials <i class="fas fa-info-circle" ngbTooltip="If you have an email configured you will receive a notification if your launcher stops sending partials for more than one hour."></i>: <input type="checkbox" #notifyMissingPartials [checked]="farmer.notify_missing_partials_hours !== null" />
+            <ngb-alert type="warning" [dismissible]="false" *ngIf="notifyMissingPartialsError">{{ notifyMissingPartialsError }}</ngb-alert>
           </div>
         </div>
       </div>
