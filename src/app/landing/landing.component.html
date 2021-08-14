@@ -47,7 +47,8 @@
       </div>
       <!-- SVG separator -->
       <div class="separator separator-bottom separator-skew">
-        <svg x="0" y="0" viewBox="0 0 2560 100" preserveAspectRatio="none" version="1.1" xmlns="http://www.w3.org/2000/svg">
+        <svg x="0" y="0" viewBox="0 0 2560 100" preserveAspectRatio="none" version="1.1"
+          xmlns="http://www.w3.org/2000/svg">
           <polygon class="fill-white" points="2160 0 2560 100 0 100"></polygon>
         </svg>
       </div>
@@ -101,18 +102,9 @@
       <div class="row row-grid align-items-center">
         <div class="col-md-8">
           <div class="pl-md-7">
-            <ngx-charts-area-chart
-              [scheme]="colorScheme"
-              [legend]="legend"
-              [showXAxisLabel]="showXAxisLabel"
-              [showYAxisLabel]="showYAxisLabel"
-              [xAxis]="xAxis"
-              [yAxis]="yAxis"
-              [yAxisLabel]="yAxisLabel"
-              [timeline]="timeline"
-              [results]="data"
-              [yAxisTickFormatting]="yAxisFormat"
-              >
+            <ngx-charts-area-chart [scheme]="colorScheme" [legend]="legend" [showXAxisLabel]="showXAxisLabel"
+              [showYAxisLabel]="showYAxisLabel" [xAxis]="xAxis" [yAxis]="yAxis" [yAxisLabel]="yAxisLabel"
+              [timeline]="timeline" [results]="data" [yAxisTickFormatting]="yAxisFormat">
               <ng-template #seriesTooltipTemplate let-model="model">
                 {{ model[0].label }}<br />
                 {{ model[0].name }}
@@ -133,22 +125,36 @@
               <h4 class="display-3 font-weight-bold text-white">News</h4>
               <ul class="navbar-nav navbar-nav-hover">
                 <li>
-                  <span class="text-white"><a class="text-white" href="https://blog.openchia.io/2021/08/13/notification-partials.html" target="_blank">Notification of Missing Partials</a><br />[13 Aug 2021]</span>
+                  <span class="text-white"><a class="text-white" [routerLink]="['/partners']"
+                      routerLinkActive="router-link-active">
+                      Meet our partner, Vivid Pool</a><br />[14 Aug 2021]</span>
                 </li>
                 <li>
-                  <span class="text-white"><a class="text-white" href="https://blog.openchia.io/2021/08/10/faucet.html" target="_blank">Faucet (free Mojo/XCH) for mainnet</a><br />[10 Aug 2021]</span>
+                  <span class="text-white"><a class="text-white"
+                      href="https://blog.openchia.io/2021/08/13/notification-partials.html" target="_blank">Notification
+                      of Missing Partials</a><br />[13 Aug 2021]</span>
                 </li>
                 <li>
-                  <span class="text-white"><a class="text-white" href="https://blog.openchia.io/2021/08/07/uptime.html" target="_blank">Uptime for Pool and Website</a><br />[07 Aug 2021]</span>
+                  <span class="text-white"><a class="text-white" href="https://blog.openchia.io/2021/08/10/faucet.html"
+                      target="_blank">Faucet (free Mojo/XCH) for mainnet</a><br />[10 Aug 2021]</span>
                 </li>
                 <li>
-                  <span class="text-white"><a class="text-white" href="https://blog.openchia.io/2021/08/04/farmer-search.html" target="_blank">Farmer Search</a><br />[04 Aug 2021]</span>
+                  <span class="text-white"><a class="text-white" href="https://blog.openchia.io/2021/08/07/uptime.html"
+                      target="_blank">Uptime for Pool and Website</a><br />[07 Aug 2021]</span>
                 </li>
                 <li>
-                  <span class="text-white"><a class="text-white" href="https://blog.openchia.io/2021/08/02/improvements.html" target="_blank">Minor Website Improvements</a><br />[02 Aug 2021]</span>
+                  <span class="text-white"><a class="text-white"
+                      href="https://blog.openchia.io/2021/08/04/farmer-search.html" target="_blank">Farmer
+                      Search</a><br />[04 Aug 2021]</span>
                 </li>
                 <li>
-                  <span class="text-white"><a class="text-white" [routerLink]="['/terms']">Terms of Service added</a><br />[30 Jul 2021]</span>
+                  <span class="text-white"><a class="text-white"
+                      href="https://blog.openchia.io/2021/08/02/improvements.html" target="_blank">Minor Website
+                      Improvements</a><br />[02 Aug 2021]</span>
+                </li>
+                <li>
+                  <span class="text-white"><a class="text-white" [routerLink]="['/terms']">Terms of Service
+                      added</a><br />[30 Jul 2021]</span>
                 </li>
               </ul>
             </blockquote>
@@ -162,14 +168,17 @@
       <div class="row justify-content-center text-center mb-md">
         <div class="col-lg-8">
           <h2 class="display-3" i18n>Who we are</h2>
-          <p class="lead text-muted">Have you asked yourself who are the people running Chia pools? Do you trust them?</p>
-          <p class="lead text-muted">We have more than 20 years of combined experience in the software development industry.</p>
+          <p class="lead text-muted">Have you asked yourself who are the people running Chia pools? Do you trust them?
+          </p>
+          <p class="lead text-muted">We have more than 20 years of combined experience in the software development
+            industry.</p>
         </div>
       </div>
       <div class="row">
         <div class="col-md-6 col-lg-6 mb-5 mb-lg-0">
           <div class="px-4">
-            <img src="./assets/img/theme/team-1.jpg" class="rounded-circle img-center img-fluid shadow shadow-lg-hover" style="width: 200px;">
+            <img src="./assets/img/theme/team-1.jpg" class="rounded-circle img-center img-fluid shadow shadow-lg-hover"
+              style="width: 200px;">
             <div class="pt-4 text-center">
               <h5 class="title">
                 <span class="d-block mb-1">Eduardo F</span>
@@ -180,17 +189,20 @@
         </div>
         <div class="col-md-6 col-lg-6 mb-5 mb-lg-0">
           <div class="px-4">
-            <img src="./assets/img/theme/team-2.jpg" class="rounded-circle img-center img-fluid shadow shadow-lg-hover" style="width: 200px;">
+            <img src="./assets/img/theme/team-2.jpg" class="rounded-circle img-center img-fluid shadow shadow-lg-hover"
+              style="width: 200px;">
             <div class="pt-4 text-center">
               <h5 class="title">
                 <span class="d-block mb-1">William G</span>
                 <small class="h6 text-muted">Software Engineer</small>
               </h5>
               <div class="mt-3">
-                <a href="https://github.com/william-gr" class="btn btn-warning btn-icon-only rounded-circle" target="_blank">
+                <a href="https://github.com/william-gr" class="btn btn-warning btn-icon-only rounded-circle"
+                  target="_blank">
                   <i class="fab fa-github"></i>
                 </a>
-                <a href="https://www.linkedin.com/in/william-grzybowski-6703b231/" class="btn btn-warning btn-icon-only rounded-circle" target="_blank">
+                <a href="https://www.linkedin.com/in/william-grzybowski-6703b231/"
+                  class="btn btn-warning btn-icon-only rounded-circle" target="_blank">
                   <i class="fab fa-linkedin"></i>
                 </a>
               </div>

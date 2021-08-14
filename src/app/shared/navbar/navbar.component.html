@@ -1,10 +1,11 @@
-<nav id="navbar-main" class="navbar navbar-main navbar-expand-lg navbar-transparent navbar-light headroom headroom--top headroom--pinned">
+<nav id="navbar-main"
+  class="navbar navbar-main navbar-expand-lg navbar-transparent navbar-light headroom headroom--top headroom--pinned">
   <div class="container">
     <a class="navbar-brand mr-lg-5" [routerLink]="['/landing']">
       <img src="./assets/img/brand/openchia_icon.png" width="30" height="29"> OpenChia.io
     </a>
     <button class="navbar-toggler" type="button" (click)="isCollapsed = !isCollapsed"
-          [attr.aria-expanded]="!isCollapsed" aria-controls="navbar_global">
+      [attr.aria-expanded]="!isCollapsed" aria-controls="navbar_global">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="navbar-collapse collapse" id="navbar_global" [ngbCollapse]="isCollapsed">
@@ -28,9 +29,9 @@
           </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" role="button" [routerLink]="['/terms']">
+          <a class="nav-link" role="button" [routerLink]="['/partners']">
             <i class="ni ni-ui-04 d-lg-none"></i>
-            <span class="nav-link-inner" i18n>Terms</span>
+            <span class="nav-link-inner" i18n>Partners</span>
           </a>
         </li>
         <li class="nav-item">
@@ -62,13 +63,15 @@
       </ul>
       <ul class="navbar-nav align-items-lg-center ml-lg-auto">
         <li class="nav-item">
-          <a class="nav-link nav-link-icon" href="https://discord.gg/2URS9H7RZn" target="_blank" data-toggle="tooltip" title="Chat with us">
+          <a class="nav-link nav-link-icon" href="https://discord.gg/2URS9H7RZn" target="_blank" data-toggle="tooltip"
+            title="Chat with us">
             <i class="fab fa-discord"></i>
             <span class="nav-link-inner--text d-lg-none">Discord</span>
           </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link nav-link-icon" href="https://github.com/openchia/web" target="_blank" data-toggle="tooltip" title="Star us on Github">
+          <a class="nav-link nav-link-icon" href="https://github.com/openchia/web" target="_blank" data-toggle="tooltip"
+            title="Star us on Github">
             <i class="fab fa-github"></i>
             <span class="nav-link-inner--text d-lg-none">Github</span>
           </a>

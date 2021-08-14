@@ -17,6 +17,7 @@ import { FooterComponent } from './shared/footer/footer.component';
 import { FeesComponent } from './fees/fees.component';
 import { FaqComponent } from './faq/faq.component';
 import { TermsComponent } from './terms/terms.component';
+import { PartnersComponent } from './partners/partners.component';
 
 
 @NgModule({
@@ -28,6 +29,7 @@ import { TermsComponent } from './terms/terms.component';
     FeesComponent,
     FaqComponent,
     TermsComponent,
+    PartnersComponent,
   ],
   imports: [
     BrowserModule,
