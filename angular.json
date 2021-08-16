@@ -10,9 +10,9 @@
       "prefix": "app",
       "schematics": {},
       "i18n": {
-        "sourceLocale": "en-US",
+        "sourceLocale": "en",
         "locales": {
-          "pt-BR": "src/locale/pt-BR.xlf"
+          "pt": "src/locale/pt-BR.xlf"
         }
       },
       "architect": {
