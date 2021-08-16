@@ -13,6 +13,9 @@ export class FarmerComponent implements OnInit {
 
   tabActive = 1;
 
+  yAxisLabel: string = $localize`Last Partials (24 hours)`;
+  xAxisLabel: string = $localize`Time`;
+
   partialsData: any[] = null;
   partialsXTicks: any[] = []
   partials$: BehaviorSubject<any[]> = new BehaviorSubject<any[]>([]);
@@ -120,13 +123,13 @@ export class FarmerComponent implements OnInit {
 
         this.partialsData = [
           {
-            "name": "Successful Partials",
+            "name": $localize`Successful Partials`,
             "series": Array.from(successes, (i, idx) => {
                     return {"name": i[0], "value": i[1]};
             }),
           },
           {
-            "name": "Failed Partials",
+            "name": $localize`Failed Partials`,
             "series": Array.from(errors, (i, idx) => {
                     return {"name": i[0], "value": i[1]};
             }),
@@ -141,6 +144,5 @@ export class FarmerComponent implements OnInit {
   partialsXAxisFormat(data) {
     return new Date(data * 1000).toLocaleTimeString();
   }
-
 
 }

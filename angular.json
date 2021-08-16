@@ -12,7 +12,7 @@
       "i18n": {
         "sourceLocale": "en-US",
         "locales": {
-          "pt-BR": "src/locale/messages.pt-BR.json"
+          "pt-BR": "src/locale/pt-BR.xlf"
         }
       },
       "architect": {
@@ -52,9 +52,13 @@
               "extractCss": true,
               "namedChunks": false,
               "aot": true,
+              "localize": true,
               "extractLicenses": true,
               "vendorChunk": false,
               "buildOptimizer": true
+            },
+            "pt": {
+              "localize": ["pt-BR"]
             }
           }
         },
@@ -62,12 +66,15 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
             "browserTarget": "openchia:build",
-	    "proxyConfig": "src/proxy.conf.json",
+            "proxyConfig": "src/proxy.conf.json",
             "optimization": false
           },
           "configurations": {
             "production": {
               "browserTarget": "openchia:build:production"
+            },
+            "pt": {
+              "browserTarget": "openchia:build:pt"
             }
           }
         },

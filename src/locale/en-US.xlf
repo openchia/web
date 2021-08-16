@@ -1,0 +1,1129 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="2.0" xmlns="urn:oasis:names:tc:xliff:document:2.0" srcLang="en-US">
+  <file id="ngi18n" original="ng.template">
+    <unit id="ngb.alert.close">
+      <notes>
+        <note category="location">node_modules/@ng-bootstrap/src/alert/alert.ts:43,49</note>
+      </notes>
+      <segment>
+        <source>Close</source>
+      </segment>
+    </unit>
+    <unit id="ngb.carousel.slide-number">
+      <notes>
+        <note category="location">node_modules/@ng-bootstrap/src/carousel/carousel.ts:109,117</note>
+        <note category="description">Currently selected slide number read by screen reader</note>
+      </notes>
+      <segment>
+        <source> Slide <ph id="0" equiv="INTERPOLATION" disp="ject(false);"/> of <ph id="1" equiv="INTERPOLATION_1" disp="ivate _pauseOnH"/> </source>
+      </segment>
+    </unit>
+    <unit id="ngb.carousel.previous">
+      <notes>
+        <note category="location">node_modules/@ng-bootstrap/src/carousel/carousel.ts:130,134</note>
+      </notes>
+      <segment>
+        <source>Previous</source>
+      </segment>
+    </unit>
+    <unit id="ngb.carousel.next">
+      <notes>
+        <note category="location">node_modules/@ng-bootstrap/src/carousel/carousel.ts:147,157</note>
+      </notes>
+      <segment>
+        <source>Next</source>
+      </segment>
+    </unit>
+    <unit id="ngb.datepicker.select-month">
+      <notes>
+        <note category="location">node_modules/@ng-bootstrap/src/datepicker/datepicker-navigation-select.ts:44,50</note>
+        <note category="location">node_modules/@ng-bootstrap/src/datepicker/datepicker-navigation-select.ts:48,53</note>
+      </notes>
+      <segment>
+        <source>Select month</source>
+      </segment>
+    </unit>
+    <unit id="ngb.datepicker.select-year">
+      <notes>
+        <note category="location">node_modules/@ng-bootstrap/src/datepicker/datepicker-navigation-select.ts:62,65</note>
+        <note category="location">node_modules/@ng-bootstrap/src/datepicker/datepicker-navigation-select.ts:74</note>
+      </notes>
+      <segment>
+        <source>Select year</source>
+      </segment>
+    </unit>
+    <unit id="ngb.datepicker.previous-month">
+      <notes>
+        <note category="location">node_modules/@ng-bootstrap/src/datepicker/datepicker-navigation.ts:13,14</note>
+        <note category="location">node_modules/@ng-bootstrap/src/datepicker/datepicker-navigation.ts:22,27</note>
+      </notes>
+      <segment>
+        <source>Previous month</source>
+      </segment>
+    </unit>
+    <unit id="ngb.datepicker.next-month">
+      <notes>
+        <note category="location">node_modules/@ng-bootstrap/src/datepicker/datepicker-navigation.ts:47,52</note>
+        <note category="location">node_modules/@ng-bootstrap/src/datepicker/datepicker-navigation.ts:61,69</note>
+      </notes>
+      <segment>
+        <source>Next month</source>
+      </segment>
+    </unit>
+    <unit id="ngb.pagination.first">
+      <notes>
+        <note category="location">node_modules/@ng-bootstrap/src/pagination/pagination.ts:158,160</note>
+      </notes>
+      <segment>
+        <source>««</source>
+      </segment>
+    </unit>
+    <unit id="ngb.pagination.previous">
+      <notes>
+        <note category="location">node_modules/@ng-bootstrap/src/pagination/pagination.ts:166,168</note>
+      </notes>
+      <segment>
+        <source>«</source>
+      </segment>
+    </unit>
+    <unit id="ngb.pagination.next">
+      <notes>
+        <note category="location">node_modules/@ng-bootstrap/src/pagination/pagination.ts:172,173</note>
+      </notes>
+      <segment>
+        <source>»</source>
+      </segment>
+    </unit>
+    <unit id="ngb.pagination.last">
+      <notes>
+        <note category="location">node_modules/@ng-bootstrap/src/pagination/pagination.ts:179,182</note>
+      </notes>
+      <segment>
+        <source>»»</source>
+      </segment>
+    </unit>
+    <unit id="ngb.pagination.first-aria">
+      <notes>
+        <note category="location">node_modules/@ng-bootstrap/src/pagination/pagination.ts:186,191</note>
+      </notes>
+      <segment>
+        <source>First</source>
+      </segment>
+    </unit>
+    <unit id="ngb.pagination.previous-aria">
+      <notes>
+        <note category="location">node_modules/@ng-bootstrap/src/pagination/pagination.ts:195,197</note>
+      </notes>
+      <segment>
+        <source>Previous</source>
+      </segment>
+    </unit>
+    <unit id="ngb.pagination.next-aria">
+      <notes>
+        <note category="location">node_modules/@ng-bootstrap/src/pagination/pagination.ts:228,230</note>
+      </notes>
+      <segment>
+        <source>Next</source>
+      </segment>
+    </unit>
+    <unit id="ngb.pagination.last-aria">
+      <notes>
+        <note category="location">node_modules/@ng-bootstrap/src/pagination/pagination.ts:233,239</note>
+      </notes>
+      <segment>
+        <source>Last</source>
+      </segment>
+    </unit>
+    <unit id="ngb.progressbar.value">
+      <notes>
+        <note category="location">node_modules/@ng-bootstrap/src/progressbar/progressbar.ts:27,35</note>
+      </notes>
+      <segment>
+        <source><ph id="0" equiv="INTERPOLATION" disp="ber { return th"/></source>
+      </segment>
+    </unit>
+    <unit id="ngb.timepicker.HH">
+      <notes>
+        <note category="location">node_modules/@ng-bootstrap/src/timepicker/timepicker.ts:40,43</note>
+      </notes>
+      <segment>
+        <source>HH</source>
+      </segment>
+    </unit>
+    <unit id="ngb.timepicker.hours">
+      <notes>
+        <note category="location">node_modules/@ng-bootstrap/src/timepicker/timepicker.ts:47,49</note>
+      </notes>
+      <segment>
+        <source>Hours</source>
+      </segment>
+    </unit>
+    <unit id="ngb.timepicker.MM">
+      <notes>
+        <note category="location">node_modules/@ng-bootstrap/src/timepicker/timepicker.ts:55,56</note>
+      </notes>
+      <segment>
+        <source>MM</source>
+      </segment>
+    </unit>
+    <unit id="ngb.timepicker.minutes">
+      <notes>
+        <note category="location">node_modules/@ng-bootstrap/src/timepicker/timepicker.ts:61,63</note>
+      </notes>
+      <segment>
+        <source>Minutes</source>
+      </segment>
+    </unit>
+    <unit id="ngb.timepicker.increment-hours">
+      <notes>
+        <note category="location">node_modules/@ng-bootstrap/src/timepicker/timepicker.ts:67,69</note>
+      </notes>
+      <segment>
+        <source>Increment hours</source>
+      </segment>
+    </unit>
+    <unit id="ngb.timepicker.decrement-hours">
+      <notes>
+        <note category="location">node_modules/@ng-bootstrap/src/timepicker/timepicker.ts:74,78</note>
+      </notes>
+      <segment>
+        <source>Decrement hours</source>
+      </segment>
+    </unit>
+    <unit id="ngb.timepicker.increment-minutes">
+      <notes>
+        <note category="location">node_modules/@ng-bootstrap/src/timepicker/timepicker.ts:82,85</note>
+      </notes>
+      <segment>
+        <source>Increment minutes</source>
+      </segment>
+    </unit>
+    <unit id="ngb.timepicker.decrement-minutes">
+      <notes>
+        <note category="location">node_modules/@ng-bootstrap/src/timepicker/timepicker.ts:89,91</note>
+      </notes>
+      <segment>
+        <source>Decrement minutes</source>
+      </segment>
+    </unit>
+    <unit id="ngb.timepicker.SS">
+      <notes>
+        <note category="location">node_modules/@ng-bootstrap/src/timepicker/timepicker.ts:95,99</note>
+      </notes>
+      <segment>
+        <source>SS</source>
+      </segment>
+    </unit>
+    <unit id="ngb.timepicker.seconds">
+      <notes>
+        <note category="location">node_modules/@ng-bootstrap/src/timepicker/timepicker.ts:103,105</note>
+      </notes>
+      <segment>
+        <source>Seconds</source>
+      </segment>
+    </unit>
+    <unit id="ngb.timepicker.PM">
+      <notes>
+        <note category="location">node_modules/@ng-bootstrap/src/timepicker/timepicker.ts:112,118</note>
+      </notes>
+      <segment>
+        <source><ph id="0" equiv="INTERPOLATION" disp="tring;
+
+  disab"/></source>
+      </segment>
+    </unit>
+    <unit id="ngb.timepicker.increment-seconds">
+      <notes>
+        <note category="location">node_modules/@ng-bootstrap/src/timepicker/timepicker.ts:115,126</note>
+      </notes>
+      <segment>
+        <source>Increment seconds</source>
+      </segment>
+    </unit>
+    <unit id="ngb.timepicker.AM">
+      <notes>
+        <note category="location">node_modules/@ng-bootstrap/src/timepicker/timepicker.ts:116,127</note>
+      </notes>
+      <segment>
+        <source><ph id="0" equiv="INTERPOLATION" disp="or 24H mode."/></source>
+      </segment>
+    </unit>
+    <unit id="ngb.timepicker.decrement-seconds">
+      <notes>
+        <note category="location">node_modules/@ng-bootstrap/src/timepicker/timepicker.ts:143,151</note>
+      </notes>
+      <segment>
+        <source>Decrement seconds</source>
+      </segment>
+    </unit>
+    <unit id="ngb.toast.close-aria">
+      <notes>
+        <note category="location">node_modules/@ng-bootstrap/src/toast/toast.ts:70,76</note>
+      </notes>
+      <segment>
+        <source>Close</source>
+      </segment>
+    </unit>
+    <unit id="6948786787037977434">
+      <notes>
+        <note category="location">src/app/explorer/dashboard/dashboard.component.html:27,33</note>
+        <note category="location">src/app/explorer/farmer/farmer.component.html:162</note>
+      </notes>
+      <segment>
+        <source>Blocks</source>
+      </segment>
+    </unit>
+    <unit id="Farmers">
+      <notes>
+        <note category="location">src/app/explorer/dashboard/dashboard.component.html:34,41</note>
+        <note category="location">src/app/explorer/dashboard/dashboard.component.ts:40,48</note>
+      </notes>
+      <segment>
+        <source>Farmers</source>
+      </segment>
+    </unit>
+    <unit id="3145581158682357446">
+      <notes>
+        <note category="location">src/app/explorer/dashboard/dashboard.component.html:42,26</note>
+      </notes>
+      <segment>
+        <source><ph id="0" equiv="INTERPOLATION" disp="{{ rewards_blocks }}"/> farmed</source>
+      </segment>
+    </unit>
+    <unit id="3406747127815684711">
+      <notes>
+        <note category="location">src/app/explorer/dashboard/dashboard.component.html:43,54</note>
+      </notes>
+      <segment>
+        <source>Netspace</source>
+      </segment>
+    </unit>
+    <unit id="6955537025048058867">
+      <notes>
+        <note category="location">src/app/explorer/dashboard/dashboard.component.html:56,34</note>
+      </notes>
+      <segment>
+        <source><ph id="0" equiv="INTERPOLATION" disp="{{ farmers }}"/> total</source>
+      </segment>
+    </unit>
+    <unit id="1175065931767236325">
+      <notes>
+        <note category="location">src/app/explorer/dashboard/dashboard.component.html:63,70</note>
+      </notes>
+      <segment>
+        <source>No farmers found!</source>
+      </segment>
+    </unit>
+    <unit id="1140108877159163263">
+      <notes>
+        <note category="location">src/app/explorer/dashboard/dashboard.component.html:77,86</note>
+      </notes>
+      <segment>
+        <source>No blocks found!</source>
+      </segment>
+    </unit>
+    <unit id="NoPayouts">
+      <notes>
+        <note category="location">src/app/explorer/dashboard/dashboard.component.html:100,104</note>
+        <note category="location">src/app/explorer/farmer/farmer.component.html:162</note>
+      </notes>
+      <segment>
+        <source>No payouts found!</source>
+      </segment>
+    </unit>
+    <unit id="4580988005648117665">
+      <notes>
+        <note category="location">src/app/explorer/dashboard/dashboard.component.ts:61,66</note>
+      </notes>
+      <segment>
+        <source>Search</source>
+      </segment>
+    </unit>
+    <unit id="Difficulty">
+      <notes>
+        <note category="location">src/app/explorer/dashboard/dashboard.component.ts:81</note>
+        <note category="location">src/app/explorer/farmer/farmer.component.ts:110,119</note>
+      </notes>
+      <segment>
+        <source>Difficulty</source>
+      </segment>
+    </unit>
+    <unit id="Points">
+      <notes>
+        <note category="location">src/app/explorer/dashboard/dashboard.component.ts:81</note>
+        <note category="location">src/app/explorer/farmer/farmer.component.ts:68,75</note>
+      </notes>
+      <segment>
+        <source>Points</source>
+      </segment>
+    </unit>
+    <unit id="2929691011645001388">
+      <notes>
+        <note category="location">src/app/explorer/dashboard/dashboard.component.ts:81</note>
+      </notes>
+      <segment>
+        <source>% of total</source>
+      </segment>
+    </unit>
+    <unit id="8616757634091748553">
+      <notes>
+        <note category="location">src/app/explorer/dashboard/dashboard.component.ts:81</note>
+      </notes>
+      <segment>
+        <source>Blocks Found</source>
+      </segment>
+    </unit>
+    <unit id="6410467948610503551">
+      <notes>
+        <note category="location">src/app/explorer/dashboard/dashboard.component.ts:81</note>
+      </notes>
+      <segment>
+        <source>Index</source>
+      </segment>
+    </unit>
+    <unit id="3973931101896534797">
+      <notes>
+        <note category="location">src/app/explorer/dashboard/dashboard.component.ts:81</note>
+        <note category="location">src/app/explorer/dashboard/dashboard.component.ts:81</note>
+        <note category="location">src/app/explorer/farmer/farmer.component.html:84,87</note>
+        <note category="location">src/app/explorer/farmer/farmer.component.html:147,152</note>
+      </notes>
+      <segment>
+        <source>Date</source>
+      </segment>
+    </unit>
+    <unit id="3223637037001251732">
+      <notes>
+        <note category="location">src/app/explorer/dashboard/dashboard.component.ts:81</note>
+      </notes>
+      <segment>
+        <source>Farmer</source>
+      </segment>
+    </unit>
+    <unit id="1987379316591371803">
+      <notes>
+        <note category="location">src/app/explorer/dashboard/dashboard.component.ts:81</note>
+      </notes>
+      <segment>
+        <source>Payouts</source>
+      </segment>
+    </unit>
+    <unit id="6533918067030990396">
+      <notes>
+        <note category="location">src/app/explorer/dashboard/dashboard.component.ts:81</note>
+      </notes>
+      <segment>
+        <source>Amount</source>
+      </segment>
+    </unit>
+    <unit id="2318140886847115923">
+      <notes>
+        <note category="location">src/app/explorer/dashboard/dashboard.component.ts:81</note>
+      </notes>
+      <segment>
+        <source>Pool server real-time log</source>
+      </segment>
+    </unit>
+    <unit id="6428143771369644145">
+      <notes>
+        <note category="location">src/app/explorer/dashboard/dashboard.component.ts:81</note>
+      </notes>
+      <segment>
+        <source>Pool Space</source>
+      </segment>
+    </unit>
+    <unit id="1004766315783326842">
+      <notes>
+        <note category="location">src/app/explorer/dashboard/dashboard.component.ts:81</note>
+      </notes>
+      <segment>
+        <source>ETW</source>
+      </segment>
+    </unit>
+    <unit id="8398056438540085583">
+      <notes>
+        <note category="location">src/app/explorer/dashboard/dashboard.component.ts:81</note>
+      </notes>
+      <segment>
+        <source><ph id="0" equiv="INTERPOLATION" disp="{{ estimate_win / 60 / 24 | number }}"/> days</source>
+      </segment>
+    </unit>
+    <unit id="2756022432863940642">
+      <notes>
+        <note category="location">src/app/explorer/farmer/farmer.component.html:78,84</note>
+        <note category="location">src/app/explorer/farmer/farmer.component.ts:132,133</note>
+      </notes>
+      <segment>
+        <source>Failed Partials</source>
+      </segment>
+    </unit>
+    <unit id="5830698545879147180">
+      <notes>
+        <note category="location">src/app/explorer/farmer/farmer.component.html:95,70</note>
+      </notes>
+      <segment>
+        <source><ph id="0" equiv="INTERPOLATION" disp="{{ partialsFailed }}"/></source>
+      </segment>
+    </unit>
+    <unit id="1063462873103909661">
+      <notes>
+        <note category="location">src/app/explorer/farmer/farmer.component.html:96,104</note>
+      </notes>
+      <segment>
+        <source>Difficulty</source>
+      </segment>
+    </unit>
+    <unit id="5911214550882917183">
+      <notes>
+        <note category="location">src/app/explorer/farmer/farmer.component.html:114,121</note>
+      </notes>
+      <segment>
+        <source>State</source>
+      </segment>
+    </unit>
+    <unit id="7452975614303290488">
+      <notes>
+        <note category="location">src/app/explorer/farmer/farmer.component.html:130,137</note>
+      </notes>
+      <segment>
+        <source>No partials found!</source>
+      </segment>
+    </unit>
+    <unit id="Height">
+      <notes>
+        <note category="location">src/app/explorer/farmer/farmer.component.html:162</note>
+      </notes>
+      <segment>
+        <source>Height</source>
+      </segment>
+    </unit>
+    <unit id="Date">
+      <notes>
+        <note category="location">src/app/explorer/farmer/farmer.component.html:162</note>
+      </notes>
+      <segment>
+        <source>Date</source>
+      </segment>
+    </unit>
+    <unit id="Amount">
+      <notes>
+        <note category="location">src/app/explorer/farmer/farmer.component.html:162</note>
+      </notes>
+      <segment>
+        <source>Amount</source>
+      </segment>
+    </unit>
+    <unit id="3900702001221590652">
+      <notes>
+        <note category="location">src/app/explorer/farmer/farmer.component.html:162</note>
+      </notes>
+      <segment>
+        <source>No blocks found by this farmer!</source>
+      </segment>
+    </unit>
+    <unit id="24036095495322476">
+      <notes>
+        <note category="location">src/app/explorer/farmer/farmer.component.ts:16,17</note>
+      </notes>
+      <segment>
+        <source>Last Partials (24 hours)</source>
+      </segment>
+    </unit>
+    <unit id="8497528947328199741">
+      <notes>
+        <note category="location">src/app/explorer/farmer/farmer.component.ts:17,19</note>
+      </notes>
+      <segment>
+        <source>Time</source>
+      </segment>
+    </unit>
+    <unit id="2264932589847833892">
+      <notes>
+        <note category="location">src/app/explorer/farmer/farmer.component.ts:26,35</note>
+      </notes>
+      <segment>
+        <source>Farmer Details</source>
+      </segment>
+    </unit>
+    <unit id="6880713934119717799">
+      <notes>
+        <note category="location">src/app/explorer/farmer/farmer.component.ts:49,56</note>
+      </notes>
+      <segment>
+        <source>Friendly Name</source>
+      </segment>
+    </unit>
+    <unit id="5043891966437752386">
+      <notes>
+        <note category="location">src/app/explorer/farmer/farmer.component.ts:90,97</note>
+      </notes>
+      <segment>
+        <source>Launcher ID</source>
+      </segment>
+    </unit>
+    <unit id="1774008180173753624">
+      <notes>
+        <note category="location">src/app/explorer/farmer/farmer.component.ts:126,127</note>
+        <note category="location">src/app/explorer/farmer/farmer.component.ts:149</note>
+      </notes>
+      <segment>
+        <source>Successful Partials</source>
+      </segment>
+    </unit>
+    <unit id="8311659957519204575">
+      <notes>
+        <note category="location">src/app/explorer/farmer/farmer.component.ts:132,145</note>
+      </notes>
+      <segment>
+        <source>Estimated Size</source>
+      </segment>
+    </unit>
+    <unit id="Partials">
+      <notes>
+        <note category="location">src/app/explorer/farmer/farmer.component.ts:149</note>
+      </notes>
+      <segment>
+        <source>Partials</source>
+      </segment>
+    </unit>
+    <unit id="1037127944915137232">
+      <notes>
+        <note category="location">src/app/explorer/farmer/farmer.component.ts:149</note>
+      </notes>
+      <segment>
+        <source>Learn how to set name here.</source>
+      </segment>
+    </unit>
+    <unit id="7904374983883510569">
+      <notes>
+        <note category="location">src/app/explorer/farmer/farmer.component.ts:149</note>
+      </notes>
+      <segment>
+        <source>Partials (24 hours)</source>
+      </segment>
+    </unit>
+    <unit id="5992977313238905164">
+      <notes>
+        <note category="location">src/app/explorer/farmer/farmer.component.ts:149</note>
+      </notes>
+      <segment>
+        <source>Points (24 hours)</source>
+      </segment>
+    </unit>
+    <unit id="8662555506901768512">
+      <notes>
+        <note category="location">src/app/explorer/farmer/farmer.component.ts:149</note>
+      </notes>
+      <segment>
+        <source><ph id="0" equiv="INTERPOLATION" disp="{{ partialsSuccessful }}"/></source>
+      </segment>
+    </unit>
+    <unit id="7780941567931401606">
+      <notes>
+        <note category="location">src/app/explorer/login/login.component.ts:42,53</note>
+      </notes>
+      <segment>
+        <source>Farmer Update</source>
+      </segment>
+    </unit>
+    <unit id="3768927257183755959">
+      <notes>
+        <note category="location">src/app/explorer/login/login.component.ts:60,68</note>
+      </notes>
+      <segment>
+        <source>Save</source>
+      </segment>
+    </unit>
+    <unit id="1783078519944991756">
+      <notes>
+        <note category="location">src/app/explorer/login/login.component.ts:68</note>
+      </notes>
+      <segment>
+        <source>Failed to authenticate! Check your URL and try again.</source>
+      </segment>
+    </unit>
+    <unit id="2032214384688052707">
+      <notes>
+        <note category="location">src/app/faq/faq.component.ts:16</note>
+      </notes>
+      <segment>
+        <source>Frequentely Asked Questions (F.A.Q.)</source>
+      </segment>
+    </unit>
+    <unit id="2026871242381918065">
+      <notes>
+        <note category="location">src/app/faq/faq.component.ts:16</note>
+      </notes>
+      <segment>
+        <source>What are non-portable (OG) and portable plots (NFT)?</source>
+      </segment>
+    </unit>
+    <unit id="4500995370545031926">
+      <notes>
+        <note category="location">src/app/faq/faq.component.ts:16</note>
+      </notes>
+      <segment>
+        <source>How Chia pools work?</source>
+      </segment>
+    </unit>
+    <unit id="571806966107540033">
+      <notes>
+        <note category="location">src/app/faq/faq.component.ts:16</note>
+      </notes>
+      <segment>
+        <source>Can I join a pool with non-portable (OG) plots?</source>
+      </segment>
+    </unit>
+    <unit id="223937640624116360">
+      <notes>
+        <note category="location">src/app/faq/faq.component.ts:16</note>
+      </notes>
+      <segment>
+        <source>Can I switch from/to your pool whenever I want?</source>
+      </segment>
+    </unit>
+    <unit id="3173354168032548090">
+      <notes>
+        <note category="location">src/app/faq/faq.component.ts:16</note>
+      </notes>
+      <segment>
+        <source>How many portable plots do I need to join the pool?</source>
+      </segment>
+    </unit>
+    <unit id="789888685484703987">
+      <notes>
+        <note category="location">src/app/faq/faq.component.ts:16</note>
+      </notes>
+      <segment>
+        <source>Do you have any other questions?</source>
+      </segment>
+    </unit>
+    <unit id="1949302126255810191">
+      <notes>
+        <note category="location">src/app/fees/fees.component.html:35,36</note>
+      </notes>
+      <segment>
+        <source>Reward Distribution</source>
+      </segment>
+    </unit>
+    <unit id="Payouts">
+      <notes>
+        <note category="location">src/app/fees/fees.component.html:43,49</note>
+      </notes>
+      <segment>
+        <source>Payouts</source>
+      </segment>
+    </unit>
+    <unit id="8479159211474411356">
+      <notes>
+        <note category="location">src/app/fees/fees.component.html:49,34</note>
+      </notes>
+      <segment>
+        <source> We use PPLNS (Pay Per Last N Shares) to distribute rewards.<ph id="0" equiv="LINE_BREAK" type="fmt" disp="&lt;br /&gt;"/> When a block is won, we look at the valid partials (shares) submitted by all users in the pool since last payout and distribute the reward value based on your share among all farmers in the pool.<ph id="1" equiv="LINE_BREAK" type="fmt" disp="&lt;br /&gt;"/> In our case Last N Shares refers to partials since last payout. We believe this system is far more fair for less frequent rewards (when Last N Shares means only last few hours), since people contributing for more time will get more rewards.<ph id="2" equiv="LINE_BREAK" type="fmt" disp="&lt;br /&gt;"/> Once our estimated time to win gets below 48 hours we plan on changing the Last N Shares to 48 hours of valid partials. </source>
+      </segment>
+    </unit>
+    <unit id="4040786877830825878">
+      <notes>
+        <note category="location">src/app/fees/fees.component.html:49,41</note>
+      </notes>
+      <segment>
+        <source> Payouts will happen within 5 minutes of the farmed block.<ph id="0" equiv="LINE_BREAK" type="fmt" disp="&lt;br /&gt;"/><pc id="1" equivStart="START_PARAGRAPH" equivEnd="CLOSE_PARAGRAPH" type="other" dispStart="&lt;p&gt;" dispEnd="&lt;/p&gt;"> These terms are subjected to change and will be communicated 1 week prior to the change in this website and on Discord channel. </pc></source>
+      </segment>
+    </unit>
+    <unit id="5012084291992448490">
+      <notes>
+        <note category="location">src/app/fees/fees.component.ts:16</note>
+        <note category="location">src/app/shared/navbar/navbar.component.ts:48</note>
+      </notes>
+      <segment>
+        <source>Fees</source>
+      </segment>
+    </unit>
+    <unit id="7172257522577999342">
+      <notes>
+        <note category="location">src/app/fees/fees.component.ts:16</note>
+      </notes>
+      <segment>
+        <source> Fees are structured this way: <pc id="0" equivStart="START_UNORDERED_LIST" equivEnd="CLOSE_UNORDERED_LIST" type="other" dispStart="&lt;ul&gt;" dispEnd="&lt;/ul&gt;"><pc id="1" equivStart="START_LIST_ITEM" equivEnd="CLOSE_LIST_ITEM" type="other" dispStart="&lt;li&gt;" dispEnd="&lt;/li&gt;">Until 1st September 2021 (2021/09/01): <pc id="2" equivStart="START_TAG_STRONG" equivEnd="CLOSE_TAG_STRONG" type="other" dispStart="&lt;strong&gt;" dispEnd="&lt;/strong&gt;">0%</pc></pc><pc id="3" equivStart="START_LIST_ITEM" equivEnd="CLOSE_LIST_ITEM" type="other" dispStart="&lt;li&gt;" dispEnd="&lt;/li&gt;">After 1st September 2021 (2021/09/01): <pc id="4" equivStart="START_TAG_STRONG" equivEnd="CLOSE_TAG_STRONG" type="other" dispStart="&lt;strong&gt;" dispEnd="&lt;/strong&gt;">1%</pc></pc></pc> Examples: <pc id="5" equivStart="START_UNORDERED_LIST" equivEnd="CLOSE_UNORDERED_LIST" type="other" dispStart="&lt;ul&gt;" dispEnd="&lt;/ul&gt;"><pc id="6" equivStart="START_LIST_ITEM" equivEnd="CLOSE_LIST_ITEM" type="other" dispStart="&lt;li&gt;" dispEnd="&lt;/li&gt;"><pc id="7" equivStart="START_ITALIC_TEXT" equivEnd="CLOSE_ITALIC_TEXT" type="fmt" dispStart="&lt;i&gt;" dispEnd="&lt;/i&gt;">Before 1st September:</pc>A reward of 1.75 XCH will be distributed to pool farmers, 0 XCH (nothing) is kept to the pool.</pc><pc id="8" equivStart="START_LIST_ITEM" equivEnd="CLOSE_LIST_ITEM" type="other" dispStart="&lt;li&gt;" dispEnd="&lt;/li&gt;"><pc id="9" equivStart="START_ITALIC_TEXT" equivEnd="CLOSE_ITALIC_TEXT" type="fmt" dispStart="&lt;i&gt;" dispEnd="&lt;/i&gt;">After 1st September:</pc>If a reward of 1.75 XCH is found, only 1% of that, 0.0175 will be kept to the pool as a fee. The remaining 1.625 XCH will be distributed to pool farmers.</pc></pc></source>
+      </segment>
+    </unit>
+    <unit id="7143444199300614511">
+      <notes>
+        <note category="location">src/app/join/join.component.html:37,41</note>
+      </notes>
+      <segment>
+        <source>Create Plot NFT:</source>
+      </segment>
+    </unit>
+    <unit id="6327177447190265105">
+      <notes>
+        <note category="location">src/app/join/join.component.html:48</note>
+      </notes>
+      <segment>
+        <source>Verify plotnft and copy contract address:</source>
+      </segment>
+    </unit>
+    <unit id="4839405892539527393">
+      <notes>
+        <note category="location">src/app/join/join.component.html:48</note>
+      </notes>
+      <segment>
+        <source>Create plots using that plotnft:</source>
+      </segment>
+    </unit>
+    <unit id="8371722561970711209">
+      <notes>
+        <note category="location">src/app/join/join.component.html:48</note>
+      </notes>
+      <segment>
+        <source>chia plots create -c &lt;contract address from above&gt;</source>
+      </segment>
+    </unit>
+    <unit id="5683785837580689751">
+      <notes>
+        <note category="location">src/app/join/join.component.ts:18</note>
+      </notes>
+      <segment>
+        <source>How to join us</source>
+      </segment>
+    </unit>
+    <unit id="4165674190938428121">
+      <notes>
+        <note category="location">src/app/join/join.component.ts:18</note>
+      </notes>
+      <segment>
+        <source>Make sure you are running official Chia client 1.2.0 or later.</source>
+      </segment>
+    </unit>
+    <unit id="2303041439224647987">
+      <notes>
+        <note category="location">src/app/join/join.component.ts:18</note>
+      </notes>
+      <segment>
+        <source>Connection</source>
+      </segment>
+    </unit>
+    <unit id="7422727091201325409">
+      <notes>
+        <note category="location">src/app/join/join.component.ts:18</note>
+      </notes>
+      <segment>
+        <source>Go to &quot;Plots&quot; menu in the left menu.</source>
+      </segment>
+    </unit>
+    <unit id="6828977561113207354">
+      <notes>
+        <note category="location">src/app/join/join.component.ts:18</note>
+      </notes>
+      <segment>
+        <source>If you already have a Plot NFT select &quot;Change Pool&quot; then enter https://pool.openchia.io.</source>
+      </segment>
+    </unit>
+    <unit id="3673812821733308540">
+      <notes>
+        <note category="location">src/app/join/join.component.ts:18</note>
+      </notes>
+      <segment>
+        <source>If you don&apos;t have a Plot NFT, add one, select &quot;Connect to pool&quot; and then enter https://pool.openchia.io.<ph id="0" equiv="LINE_BREAK" type="fmt" disp="&lt;br /&gt;"/>PS: You need one Mojo to create Plot NFT, if you don&apos;t have one, grab one <pc id="1" equivStart="START_LINK" equivEnd="CLOSE_LINK" type="link" dispStart="&lt;a href=&quot;https://discord.gg/9Pt2qKGxG3&quot; target=&quot;_blank&quot;&gt;" dispEnd="&lt;/a&gt;">here</pc> (<pc id="2" equivStart="START_LINK_1" equivEnd="CLOSE_LINK" type="link" dispStart="&lt;a href=&quot;https://blog.openchia.io/2021/08/10/faucet.html&quot;&gt;" dispEnd="&lt;/a&gt;">Faucet (free Mojo/XCH) for mainnet</pc>)</source>
+      </segment>
+    </unit>
+    <unit id="7623464505437750989">
+      <notes>
+        <note category="location">src/app/landing/landing.component.ts:28,35</note>
+      </notes>
+      <segment>
+        <source>Welcome to OpenChia.io</source>
+      </segment>
+    </unit>
+    <unit id="6816717018247718709">
+      <notes>
+        <note category="location">src/app/landing/landing.component.ts:46</note>
+      </notes>
+      <segment>
+        <source>Official Pool Protocol</source>
+      </segment>
+    </unit>
+    <unit id="3630057890731840343">
+      <notes>
+        <note category="location">src/app/landing/landing.component.ts:46</note>
+      </notes>
+      <segment>
+        <source>A pool you can trust.</source>
+      </segment>
+    </unit>
+    <unit id="2905619048308246310">
+      <notes>
+        <note category="location">src/app/landing/landing.component.ts:46</note>
+      </notes>
+      <segment>
+        <source>All our software is open source.</source>
+      </segment>
+    </unit>
+    <unit id="JoinPool">
+      <notes>
+        <note category="location">src/app/landing/landing.component.ts:46</note>
+        <note category="location">src/app/shared/navbar/navbar.component.ts:48</note>
+      </notes>
+      <segment>
+        <source>Join our pool</source>
+      </segment>
+    </unit>
+    <unit id="2097611575880598770">
+      <notes>
+        <note category="location">src/app/landing/landing.component.ts:46</note>
+      </notes>
+      <segment>
+        <source>Chat with us</source>
+      </segment>
+    </unit>
+    <unit id="6962632162131341925">
+      <notes>
+        <note category="location">src/app/landing/landing.component.ts:46</note>
+      </notes>
+      <segment>
+        <source>Pool URL</source>
+      </segment>
+    </unit>
+    <unit id="498428897195803218">
+      <notes>
+        <note category="location">src/app/landing/landing.component.ts:46</note>
+      </notes>
+      <segment>
+        <source>Distribution System: PPLNS</source>
+      </segment>
+    </unit>
+    <unit id="9201971930509716006">
+      <notes>
+        <note category="location">src/app/landing/landing.component.ts:46</note>
+      </notes>
+      <segment>
+        <source>Fee: 0%</source>
+      </segment>
+    </unit>
+    <unit id="3418394339569980864">
+      <notes>
+        <note category="location">src/app/landing/landing.component.ts:46</note>
+      </notes>
+      <segment>
+        <source>Enjoy 0% pool fee until September 2021.</source>
+      </segment>
+    </unit>
+    <unit id="5880915392762070234">
+      <notes>
+        <note category="location">src/app/landing/landing.component.ts:46</note>
+      </notes>
+      <segment>
+        <source>No minimum payout</source>
+      </segment>
+    </unit>
+    <unit id="7682426834922031140">
+      <notes>
+        <note category="location">src/app/landing/landing.component.ts:46</note>
+      </notes>
+      <segment>
+        <source>Why wait to get your rewards?</source>
+      </segment>
+    </unit>
+    <unit id="3720651283513261307">
+      <notes>
+        <note category="location">src/app/landing/landing.component.ts:46</note>
+      </notes>
+      <segment>
+        <source>Instant payout</source>
+      </segment>
+    </unit>
+    <unit id="4501612350036673473">
+      <notes>
+        <note category="location">src/app/landing/landing.component.ts:46</note>
+      </notes>
+      <segment>
+        <source>Get your reward as soon as possible.</source>
+      </segment>
+    </unit>
+    <unit id="7075059674276878139">
+      <notes>
+        <note category="location">src/app/landing/landing.component.ts:46</note>
+      </notes>
+      <segment>
+        <source>Transparent</source>
+      </segment>
+    </unit>
+    <unit id="605761694003152703">
+      <notes>
+        <note category="location">src/app/landing/landing.component.ts:46</note>
+      </notes>
+      <segment>
+        <source>We have nothing to hide. Full blown explorer and live logs.</source>
+      </segment>
+    </unit>
+    <unit id="841934696444961534">
+      <notes>
+        <note category="location">src/app/landing/landing.component.ts:46</note>
+      </notes>
+      <segment>
+        <source>News</source>
+      </segment>
+    </unit>
+    <unit id="6741838149332998818">
+      <notes>
+        <note category="location">src/app/landing/landing.component.ts:46</note>
+      </notes>
+      <segment>
+        <source>Who we are</source>
+      </segment>
+    </unit>
+    <unit id="1931139842666967640">
+      <notes>
+        <note category="location">src/app/landing/landing.component.ts:46</note>
+      </notes>
+      <segment>
+        <source>Have you asked yourself who are the people running Chia pools? Do you trust them? </source>
+      </segment>
+    </unit>
+    <unit id="4239635668959543337">
+      <notes>
+        <note category="location">src/app/landing/landing.component.ts:46</note>
+      </notes>
+      <segment>
+        <source>We have more than 20 years of combined experience in the software development industry.</source>
+      </segment>
+    </unit>
+    <unit id="3458332391940035038">
+      <notes>
+        <note category="location">src/app/landing/landing.component.ts:46</note>
+      </notes>
+      <segment>
+        <source>System Administrator</source>
+      </segment>
+    </unit>
+    <unit id="6901531604019957317">
+      <notes>
+        <note category="location">src/app/landing/landing.component.ts:46</note>
+      </notes>
+      <segment>
+        <source>Software Engineer</source>
+      </segment>
+    </unit>
+    <unit id="1797292337796232493">
+      <notes>
+        <note category="location">src/app/partners/partners.component.html:40,39</note>
+      </notes>
+      <segment>
+        <source>OpenChia believes in a future that blockchain and cryptocurrency can exist without degrading the environment and helping make the world a better place. We believe Chia and Cardano can coexist to help make that happen. If you&apos;d like to know more about Cardano and/or join a legitimate staking pool please visit <pc id="0" equivStart="START_LINK" equivEnd="CLOSE_LINK" type="link" dispStart="&lt;a
+        href=&quot;https://vivid-pool.info/&quot; target=&quot;_blank&quot;&gt;" dispEnd="&lt;/a&gt;">Vivid Pool.</pc></source>
+      </segment>
+    </unit>
+    <unit id="Partners">
+      <notes>
+        <note category="location">src/app/partners/partners.component.ts:16</note>
+      </notes>
+      <segment>
+        <source>Partners</source>
+      </segment>
+    </unit>
+    <unit id="713513496522359111">
+      <notes>
+        <note category="location">src/app/partners/partners.component.ts:16</note>
+      </notes>
+      <segment>
+        <source>Please meet our partners, together for a better world.</source>
+      </segment>
+    </unit>
+    <unit id="1638630395802416450">
+      <notes>
+        <note category="location">src/app/partners/partners.component.ts:16</note>
+      </notes>
+      <segment>
+        <source> They&apos;re offering cutting edge cryptocurrency technology of today and tomorrow. Cardano is a cryptocurrency network and open source project that aims to run a public blockchain platform for smart contracts. Cardano&apos;s internal cryptocurrency is called ADA!</source>
+      </segment>
+    </unit>
+    <unit id="1918146053125551227">
+      <notes>
+        <note category="location">src/app/partners/partners.component.ts:16</note>
+      </notes>
+      <segment>
+        <source><pc id="0" equivStart="START_LINK" equivEnd="CLOSE_LINK" type="link" dispStart="&lt;a href=&quot;https://vivid-pool.info/&quot; target=&quot;_blank&quot;&gt;" dispEnd="&lt;/a&gt;">Vivid Stake Pool</pc> allows you to stake in Cardano. If you deposit your Fiat Money on your bank account you will receive 1-3 % profit per year which will be paid after at least a few months. In Cardano it is the opposite: you receive high profits as high as 5-8 % per year which is paid every 5 days!</source>
+      </segment>
+    </unit>
+    <unit id="4188492714860880995">
+      <notes>
+        <note category="location">src/app/shared/footer/footer.component.ts:21</note>
+      </notes>
+      <segment>
+        <source>Thank you for trusting us!</source>
+      </segment>
+    </unit>
+    <unit id="8504648059270671021">
+      <notes>
+        <note category="location">src/app/shared/footer/footer.component.ts:21</note>
+      </notes>
+      <segment>
+        <source>Let&apos;s get in touch on any of these platforms.</source>
+      </segment>
+    </unit>
+    <unit id="Terms">
+      <notes>
+        <note category="location">src/app/shared/footer/footer.component.ts:21</note>
+      </notes>
+      <segment>
+        <source>Terms</source>
+      </segment>
+    </unit>
+    <unit id="Uptime">
+      <notes>
+        <note category="location">src/app/shared/footer/footer.component.ts:21</note>
+      </notes>
+      <segment>
+        <source>Uptime</source>
+      </segment>
+    </unit>
+    <unit id="MITLicense">
+      <notes>
+        <note category="location">src/app/shared/footer/footer.component.ts:21</note>
+      </notes>
+      <segment>
+        <source>MIT License</source>
+      </segment>
+    </unit>
+    <unit id="2821179408673282599">
+      <notes>
+        <note category="location">src/app/shared/navbar/navbar.component.ts:23,27</note>
+      </notes>
+      <segment>
+        <source>Home</source>
+      </segment>
+    </unit>
+    <unit id="Explorer">
+      <notes>
+        <note category="location">src/app/shared/navbar/navbar.component.ts:42,48</note>
+      </notes>
+      <segment>
+        <source>Explorer</source>
+      </segment>
+    </unit>
+    <unit id="3687194426938367329">
+      <notes>
+        <note category="location">src/app/shared/navbar/navbar.component.ts:48</note>
+      </notes>
+      <segment>
+        <source>Partners</source>
+      </segment>
+    </unit>
+    <unit id="2806917038528218276">
+      <notes>
+        <note category="location">src/app/shared/navbar/navbar.component.ts:48</note>
+      </notes>
+      <segment>
+        <source>FAQ</source>
+      </segment>
+    </unit>
+    <unit id="8942351587754185907">
+      <notes>
+        <note category="location">src/app/shared/navbar/navbar.component.ts:48</note>
+      </notes>
+      <segment>
+        <source>API</source>
+      </segment>
+    </unit>
+  </file>
+</xliff>

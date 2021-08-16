@@ -14,7 +14,7 @@
             (not set) <i class="fas fa-info-circle" closeDelay="4000" [ngbTooltip]="notsetTooltip"></i>
           </span>
         </td>
-        <th i18n>Points</th>
+        <th i18n="@@Points">Points</th>
         <td>{{ farmer.points }} ({{ farmer.points_of_total }}%)</td>
         </tr>
         <tr>
@@ -22,16 +22,16 @@
         <td colspan="3">{{ farmer.launcher_id }}</td>
         </tr>
         <tr>
-        <th i18n>Difficulty</th>
+        <th i18n="@@Difficulty">Difficulty</th>
         <td>{{ farmer.difficulty }}</td>
-        <th i18n>Estimated Size <i class="fas fa-info-circle" ngbTooltip="Be aware this is a rough estimate and will vary based on the partials sent for the last 24 hours! This is by no means a representation of your actual farm size."></i></th>
+        <th><span i18n>Estimated Size</span> <i class="fas fa-info-circle" ngbTooltip="Be aware this is a rough estimate and will vary based on the partials sent for the last 24 hours! This is by no means a representation of your actual farm size."></i></th>
         <td>{{ farmer.estimated_size || 0 | filesize:{"standard": "iec"} }}</td>
         </tr>
       </tbody>
     </table>
     <ul ngbNav #nav="ngbNav" [(activeId)]="tabActive" class="nav-tabs navbar-inverse">
       <li [ngbNavItem]="1">
-        <a class="display-4" ngbNavLink>Partials</a>
+        <a class="display-4" ngbNavLink i18n="@@Partials">Partials</a>
         <ng-template ngbNavContent>
           <div style="height: 300px;">
             <ngx-charts-line-chart
@@ -41,8 +41,8 @@
               [showYAxisLabel]="true"
               [xAxis]="true"
               [yAxis]="true"
-              [xAxisLabel]="'Time'"
-              [yAxisLabel]="'Last Partials (24 hours)'"
+              [xAxisLabel]="xAxisLabel"
+              [yAxisLabel]="yAxisLabel"
               [timeline]="false"
               [results]="partialsData"
               [xAxisTickFormatting]="partialsXAxisFormat"
@@ -116,7 +116,7 @@
               <td></td>
             </tr>
             <tr *ngIf="payouts.length == 0">
-              <td colspan="3" i18n>No payouts found!</td>
+              <td colspan="3" i18n="@@NoPayouts">No payouts found!</td>
             </tr>
             </tbody>
           </table>
@@ -132,9 +132,9 @@
           <table class="table table-sm table-striped">
             <thead>
             <tr>
-              <th scope="col" i18n>Height</th>
-              <th scope="col" i18n>Date</th>
-              <th scope="col" i18n>Amount</th>
+              <th scope="col" i18n="@@Height">Height</th>
+              <th scope="col" i18n="@@Date">Date</th>
+              <th scope="col" i18n="@@Amount">Amount</th>
             </tr>
             </thead>
             <tbody *ngIf="(blocks$ | async) as blocks;">
@@ -144,7 +144,7 @@
               <td></td>
             </tr>
             <tr *ngIf="blocks.length == 0">
-              <td colspan="3" i18n>No blocks found by this farmed!</td>
+              <td colspan="3" i18n>No blocks found by this farmer!</td>
             </tr>
             </tbody>
           </table>
