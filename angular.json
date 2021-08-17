@@ -12,7 +12,7 @@
       "i18n": {
         "sourceLocale": "en",
         "locales": {
-          "pt": "src/locale/pt-BR.xlf"
+          "pt": "src/locale/pt-BR.xlf",
           "de": "src/locale/de.xlf"
         }
       },
