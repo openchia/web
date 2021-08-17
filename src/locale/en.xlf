@@ -884,6 +884,14 @@
         <source>Fee: 0%</source>
       </segment>
     </unit>
+    <unit id="5784227755295047072">
+      <notes>
+        <note category="location">src/app/landing/landing.component.ts:46</note>
+      </notes>
+      <segment>
+        <source>0% Fee</source>
+      </segment>
+    </unit>
     <unit id="3418394339569980864">
       <notes>
         <note category="location">src/app/landing/landing.component.ts:46</note>
@@ -1071,7 +1079,7 @@
     </unit>
     <unit id="2821179408673282599">
       <notes>
-        <note category="location">src/app/shared/navbar/navbar.component.ts:23,27</note>
+        <note category="location">src/app/shared/navbar/navbar.component.ts:22,26</note>
       </notes>
       <segment>
         <source>Home</source>
@@ -1079,7 +1087,7 @@
     </unit>
     <unit id="Explorer">
       <notes>
-        <note category="location">src/app/shared/navbar/navbar.component.ts:42,48</note>
+        <note category="location">src/app/shared/navbar/navbar.component.ts:38,48</note>
       </notes>
       <segment>
         <source>Explorer</source>
