@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<xliff version="2.0" xmlns="urn:oasis:names:tc:xliff:document:2.0" srcLang="en-US">
+<xliff version="2.0" xmlns="urn:oasis:names:tc:xliff:document:2.0" srcLang="en">
   <file id="ngi18n" original="ng.template">
     <unit id="ngb.alert.close">
       <notes>
@@ -267,7 +267,7 @@
     <unit id="6948786787037977434">
       <notes>
         <note category="location">src/app/explorer/dashboard/dashboard.component.html:27,33</note>
-        <note category="location">src/app/explorer/farmer/farmer.component.html:162</note>
+        <note category="location">src/app/explorer/farmer/farmer.component.ts:149</note>
       </notes>
       <segment>
         <source>Blocks</source>
@@ -325,7 +325,7 @@
     <unit id="NoPayouts">
       <notes>
         <note category="location">src/app/explorer/dashboard/dashboard.component.html:100,104</note>
-        <note category="location">src/app/explorer/farmer/farmer.component.html:162</note>
+        <note category="location">src/app/explorer/farmer/farmer.component.ts:149</note>
       </notes>
       <segment>
         <source>No payouts found!</source>
@@ -385,8 +385,7 @@
       <notes>
         <note category="location">src/app/explorer/dashboard/dashboard.component.ts:81</note>
         <note category="location">src/app/explorer/dashboard/dashboard.component.ts:81</note>
-        <note category="location">src/app/explorer/farmer/farmer.component.html:84,87</note>
-        <note category="location">src/app/explorer/farmer/farmer.component.html:147,152</note>
+        <note category="location">src/app/explorer/farmer/farmer.component.ts:149</note>
       </notes>
       <segment>
         <source>Date</source>
@@ -448,79 +447,6 @@
         <source><ph id="0" equiv="INTERPOLATION" disp="{{ estimate_win / 60 / 24 | number }}"/> days</source>
       </segment>
     </unit>
-    <unit id="2756022432863940642">
-      <notes>
-        <note category="location">src/app/explorer/farmer/farmer.component.html:78,84</note>
-        <note category="location">src/app/explorer/farmer/farmer.component.ts:132,133</note>
-      </notes>
-      <segment>
-        <source>Failed Partials</source>
-      </segment>
-    </unit>
-    <unit id="5830698545879147180">
-      <notes>
-        <note category="location">src/app/explorer/farmer/farmer.component.html:95,70</note>
-      </notes>
-      <segment>
-        <source><ph id="0" equiv="INTERPOLATION" disp="{{ partialsFailed }}"/></source>
-      </segment>
-    </unit>
-    <unit id="1063462873103909661">
-      <notes>
-        <note category="location">src/app/explorer/farmer/farmer.component.html:96,104</note>
-      </notes>
-      <segment>
-        <source>Difficulty</source>
-      </segment>
-    </unit>
-    <unit id="5911214550882917183">
-      <notes>
-        <note category="location">src/app/explorer/farmer/farmer.component.html:114,121</note>
-      </notes>
-      <segment>
-        <source>State</source>
-      </segment>
-    </unit>
-    <unit id="7452975614303290488">
-      <notes>
-        <note category="location">src/app/explorer/farmer/farmer.component.html:130,137</note>
-      </notes>
-      <segment>
-        <source>No partials found!</source>
-      </segment>
-    </unit>
-    <unit id="Height">
-      <notes>
-        <note category="location">src/app/explorer/farmer/farmer.component.html:162</note>
-      </notes>
-      <segment>
-        <source>Height</source>
-      </segment>
-    </unit>
-    <unit id="Date">
-      <notes>
-        <note category="location">src/app/explorer/farmer/farmer.component.html:162</note>
-      </notes>
-      <segment>
-        <source>Date</source>
-      </segment>
-    </unit>
-    <unit id="Amount">
-      <notes>
-        <note category="location">src/app/explorer/farmer/farmer.component.html:162</note>
-      </notes>
-      <segment>
-        <source>Amount</source>
-      </segment>
-    </unit>
-    <unit id="3900702001221590652">
-      <notes>
-        <note category="location">src/app/explorer/farmer/farmer.component.html:162</note>
-      </notes>
-      <segment>
-        <source>No blocks found by this farmer!</source>
-      </segment>
-    </unit>
     <unit id="24036095495322476">
       <notes>
         <note category="location">src/app/explorer/farmer/farmer.component.ts:16,17</note>
@@ -578,6 +504,15 @@
         <source>Estimated Size</source>
       </segment>
     </unit>
+    <unit id="2756022432863940642">
+      <notes>
+        <note category="location">src/app/explorer/farmer/farmer.component.ts:132,133</note>
+        <note category="location">src/app/explorer/farmer/farmer.component.ts:149</note>
+      </notes>
+      <segment>
+        <source>Failed Partials</source>
+      </segment>
+    </unit>
     <unit id="Partials">
       <notes>
         <note category="location">src/app/explorer/farmer/farmer.component.ts:149</note>
@@ -610,12 +545,61 @@
         <source>Points (24 hours)</source>
       </segment>
     </unit>
-    <unit id="8662555506901768512">
+    <unit id="1063462873103909661">
       <notes>
         <note category="location">src/app/explorer/farmer/farmer.component.ts:149</note>
       </notes>
       <segment>
-        <source><ph id="0" equiv="INTERPOLATION" disp="{{ partialsSuccessful }}"/></source>
+        <source>Difficulty</source>
+      </segment>
+    </unit>
+    <unit id="5911214550882917183">
+      <notes>
+        <note category="location">src/app/explorer/farmer/farmer.component.ts:149</note>
+      </notes>
+      <segment>
+        <source>State</source>
+      </segment>
+    </unit>
+    <unit id="7452975614303290488">
+      <notes>
+        <note category="location">src/app/explorer/farmer/farmer.component.ts:149</note>
+      </notes>
+      <segment>
+        <source>No partials found!</source>
+      </segment>
+    </unit>
+    <unit id="Date">
+      <notes>
+        <note category="location">src/app/explorer/farmer/farmer.component.ts:149</note>
+        <note category="location">src/app/explorer/farmer/farmer.component.ts:149</note>
+      </notes>
+      <segment>
+        <source>Date</source>
+      </segment>
+    </unit>
+    <unit id="Height">
+      <notes>
+        <note category="location">src/app/explorer/farmer/farmer.component.ts:149</note>
+      </notes>
+      <segment>
+        <source>Height</source>
+      </segment>
+    </unit>
+    <unit id="Amount">
+      <notes>
+        <note category="location">src/app/explorer/farmer/farmer.component.ts:149</note>
+      </notes>
+      <segment>
+        <source>Amount</source>
+      </segment>
+    </unit>
+    <unit id="3900702001221590652">
+      <notes>
+        <note category="location">src/app/explorer/farmer/farmer.component.ts:149</note>
+      </notes>
+      <segment>
+        <source>No blocks found by this farmer!</source>
       </segment>
     </unit>
     <unit id="7780941567931401606">
