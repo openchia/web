@@ -46,22 +46,8 @@
             <span class="nav-link-inner" i18n>API</span>
           </a>
         </li>
-        <!--
-        <li class="nav-item dropdown">
-          <a class="nav-link no-caret" data-toggle="dropdown" role="button">
-            <i class="ni ni-collection d-lg-none"></i>
-            <span class="nav-link-inner--text">Examples</span>
-          </a>
-          <div class="dropdown-menu">
-            <a [routerLink]="['/landing']" class="dropdown-item">Landing</a>
-            <a [routerLink]="['/user-profile']" class="dropdown-item">Profile</a>
-            <a [routerLink]="['/login']" class="dropdown-item">Login</a>
-            <a [routerLink]="['/register']" class="dropdown-item">Register</a>
-          </div>
-        </li>
-        -->
       </ul>
-      <ul class="navbar-nav align-items-lg-center ml-lg-auto">
+      <ul class="navbar-nav navbar-nav-hover align-items-lg-center ml-lg-auto">
         <li class="nav-item">
           <a class="nav-link nav-link-icon" href="https://discord.gg/2URS9H7RZn" target="_blank" data-toggle="tooltip"
             title="Chat with us">
@@ -83,6 +69,17 @@
             </span>
             <span class="nav-link-inner--text" i18n="@@JoinPool">Join our pool</span>
           </a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link no-caret" data-toggle="dropdown" role="button">
+            <i class="ni ni-collection d-lg-none"></i>
+            <span class="nav-link-inner--text">{{ locale | uppercase }}</span>
+          </a>
+          <div class="dropdown-menu">
+            <a href="/de/" class="dropdown-item">Deutsche</a>
+            <a href="/en/" class="dropdown-item">English</a>
+            <a href="/pt/" class="dropdown-item">Português</a>
+          </div>
         </li>
       </ul>
     </div>

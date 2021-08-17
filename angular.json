@@ -59,7 +59,7 @@
               "buildOptimizer": true
             },
             "pt": {
-              "localize": ["pt-BR"]
+              "localize": ["pt"]
             }
           }
         },
