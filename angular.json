@@ -13,6 +13,7 @@
         "sourceLocale": "en",
         "locales": {
           "pt": "src/locale/pt-BR.xlf"
+          "de": "src/locale/de.xlf"
         }
       },
       "architect": {
