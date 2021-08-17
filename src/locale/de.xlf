@@ -351,6 +351,12 @@
 <target xml:space="preserve">Kann ich einem Pool mit nicht-portablen (OG) Plots beitreten?</target>
 </segment>
 </unit>
+<unit id="5784227755295047072">
+<segment>
+<source xml:space="preserve">0% Fee</source>
+<target xml:space="preserve">0% Fee</target>
+</segment>
+</unit>
 <unit id="5880915392762070234">
 <segment>
 <source xml:space="preserve">No minimum payout</source>
@@ -390,7 +396,7 @@
 <unit id="6428143771369644145">
 <segment>
 <source xml:space="preserve">Pool Space</source>
-<target xml:space="preserve">Pool Speicher</target>
+<target xml:space="preserve">Pool Space</target>
 </segment>
 </unit>
 <unit id="6533918067030990396">

@@ -352,6 +352,12 @@
 <target xml:space="preserve">Posso participar de um pool com parcelas não portáteis (OG)?</target>
 </segment>
 </unit>
+<unit id="5784227755295047072">
+<segment>
+<source xml:space="preserve">0% Fee</source>
+<target xml:space="preserve">Taxa de 0%</target>
+</segment>
+</unit>
 <unit id="5880915392762070234">
 <segment>
 <source xml:space="preserve">No minimum payout</source>
@@ -519,7 +525,7 @@
 <unit id="807089867044050822">
 <segment>
 <source xml:space="preserve">No blocks found by this farmed!</source>
-<target xml:space="preserve">No blocks found by this farmed!</target>
+<target xml:space="preserve">Nenhum bloco encontrado por este fazendeiro!</target>
 </segment>
 </unit>
 <unit id="8222695717866495876">
@@ -703,7 +709,8 @@
 <unit id="ngb.carousel.slide-number">
 <segment>
 <source xml:space="preserve"> Slide <ph disp="ject(false);" equiv="INTERPOLATION" id="0"/> of <ph disp="ivate _pauseOnH" equiv="INTERPOLATION_1" id="1"/> </source>
-<target xml:space="preserve"> Slide <ph disp="ject(false);" equiv="INTERPOLATION" id="0"/> of <ph disp="ivate _pauseOnH" equiv="INTERPOLATION_1" id="1"/> </target>
+<target xml:space="preserve"> Slide <ph disp="ject(false);" equiv="INTERPOLATION" id="0"/> de <ph disp="ivate _pauseOnH" equiv="INTERPOLATION_1" id="1"/>
+</target>
 </segment>
 </unit>
 <unit id="ngb.datepicker.next-month">
@@ -807,7 +814,7 @@
 <unit id="ngb.timepicker.MM">
 <segment>
 <source xml:space="preserve">MM</source>
-<target xml:space="preserve">MM</target>
+<target xml:space="preserve">MILÍMETRO</target>
 </segment>
 </unit>
 <unit id="ngb.timepicker.PM">
@@ -816,7 +823,7 @@
 <ph disp="tring;    disab" equiv="INTERPOLATION" id="0"/>
 </source>
 <target xml:space="preserve">
-<ph disp="tring;    disab" equiv="INTERPOLATION" id="0"/>
+<ph disp="tring; disab" equiv="INTERPOLATION" id="0"/>
 </target>
 </segment>
 </unit>
@@ -829,19 +836,19 @@
 <unit id="ngb.timepicker.decrement-hours">
 <segment>
 <source xml:space="preserve">Decrement hours</source>
-<target xml:space="preserve">Decrement hours</target>
+<target xml:space="preserve">Horas de decréscimo</target>
 </segment>
 </unit>
 <unit id="ngb.timepicker.decrement-minutes">
 <segment>
 <source xml:space="preserve">Decrement minutes</source>
-<target xml:space="preserve">Decrement minutes</target>
+<target xml:space="preserve">Minutos de decremento</target>
 </segment>
 </unit>
 <unit id="ngb.timepicker.decrement-seconds">
 <segment>
 <source xml:space="preserve">Decrement seconds</source>
-<target xml:space="preserve">Decrement seconds</target>
+<target xml:space="preserve">Decremento de segundos</target>
 </segment>
 </unit>
 <unit id="ngb.timepicker.hours">
@@ -853,19 +860,19 @@
 <unit id="ngb.timepicker.increment-hours">
 <segment>
 <source xml:space="preserve">Increment hours</source>
-<target xml:space="preserve">Increment hours</target>
+<target xml:space="preserve">Horas de incremento</target>
 </segment>
 </unit>
 <unit id="ngb.timepicker.increment-minutes">
 <segment>
 <source xml:space="preserve">Increment minutes</source>
-<target xml:space="preserve">Increment minutes</target>
+<target xml:space="preserve">Incremento de minutos</target>
 </segment>
 </unit>
 <unit id="ngb.timepicker.increment-seconds">
 <segment>
 <source xml:space="preserve">Increment seconds</source>
-<target xml:space="preserve">Increment seconds</target>
+<target xml:space="preserve">Incremento de segundos</target>
 </segment>
 </unit>
 <unit id="ngb.timepicker.minutes">
