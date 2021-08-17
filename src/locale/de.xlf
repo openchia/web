@@ -33,7 +33,7 @@
 <unit id="1638630395802416450">
 <segment>
 <source xml:space="preserve"> They&apos;re offering cutting edge cryptocurrency technology of today and tomorrow. Cardano is a cryptocurrency network and open source project that aims to run a public blockchain platform for smart contracts. Cardano&apos;s internal cryptocurrency is called ADA!</source>
-<target xml:space="preserve"> They&apos;re offering cutting edge cryptocurrency technology of today and tomorrow. Cardano is a cryptocurrency network and open source project that aims to run a public blockchain platform for smart contracts. Cardano&apos;s internal cryptocurrency is called ADA!</target>
+<target xml:space="preserve"> Sie bieten modernste Kryptowährungstechnologie von heute und morgen. Cardano ist ein Kryptowährungsnetzwerk und Open-Source-Projekt, das darauf abzielt, eine öffentliche Blockchain-Plattform für intelligente Verträge zu betreiben. Cardanos interne Kryptowährung heißt ADA!</target>
 </segment>
 </unit>
 <unit id="1774008180173753624">
@@ -52,8 +52,7 @@
 <segment>
 <source xml:space="preserve">OpenChia believes in a future that blockchain and cryptocurrency can exist without degrading the environment and helping make the world a better place. We believe Chia and Cardano can coexist to help make that happen. If you&apos;d like to know more about Cardano and/or join a legitimate staking pool please visit <pc dispEnd="&lt;/a&gt;" dispStart="&lt;a         href=&quot;https://vivid-pool.info/&quot; target=&quot;_blank&quot;&gt;" equivEnd="CLOSE_LINK" equivStart="START_LINK" id="0" type="link">Vivid Pool.</pc>
 </source>
-<target xml:space="preserve">OpenChia believes in a future that blockchain and cryptocurrency can exist without degrading the environment and helping make the world a better place. We believe Chia and Cardano can coexist to help make that happen. If you&apos;d like to know more about Cardano and/or join a legitimate staking pool please visit <pc dispEnd="&lt;/a&gt;" dispStart="&lt;a         href=&quot;https://vivid-pool.info/&quot; target=&quot;_blank&quot;&gt;" equivEnd="CLOSE_LINK" equivStart="START_LINK" id="0" type="link">Vivid Pool.</pc>
-</target>
+<target xml:space="preserve">OpenChia glaubt an eine Zukunft, in der Blockchain und Kryptowährungen existieren können, ohne die Umwelt zu zerstören und stattdessen die Welt zu einem besseren Ort machen. Wir glauben Chia und Cardano können koexistieren und helfen, das zu erreichen. Wenn Du mehr über Cardano wissen möchtest und/oder einen seriösen Staking Pool beitreten möchtest, besuche <pc dispEnd="&lt;/a&gt;" dispStart="&lt;a         href=&quot;https://vivid-pool.info/&quot; target=&quot;_blank&quot;&gt;" equivEnd="CLOSE_LINK" equivStart="START_LINK" id="0" type="link">Vivid Pool</pc>.</target>
 </segment>
 </unit>
 <unit id="1918146053125551227">
@@ -61,7 +60,7 @@
 <source xml:space="preserve">
 <pc dispEnd="&lt;/a&gt;" dispStart="&lt;a href=&quot;https://vivid-pool.info/&quot; target=&quot;_blank&quot;&gt;" equivEnd="CLOSE_LINK" equivStart="START_LINK" id="0" type="link">Vivid Stake Pool</pc> allows you to stake in Cardano. If you deposit your Fiat Money on your bank account you will receive 1-3 % profit per year which will be paid after at least a few months. In Cardano it is the opposite: you receive high profits as high as 5-8 % per year which is paid every 5 days!</source>
 <target xml:space="preserve">
-<pc dispEnd="&lt;/a&gt;" dispStart="&lt;a href=&quot;https://vivid-pool.info/&quot; target=&quot;_blank&quot;&gt;" equivEnd="CLOSE_LINK" equivStart="START_LINK" id="0" type="link">Vivid Stake Pool</pc> allows you to stake in Cardano. If you deposit your Fiat Money on your bank account you will receive 1-3 % profit per year which will be paid after at least a few months. In Cardano it is the opposite: you receive high profits as high as 5-8 % per year which is paid every 5 days!</target>
+<pc dispEnd="&lt;/a&gt;" dispStart="&lt;a href=&quot;https://vivid-pool.info/&quot; target=&quot;_blank&quot;&gt;" equivEnd="CLOSE_LINK" equivStart="START_LINK" id="0" type="link">Vivid Stake Pool</pc> ermöglicht es Ihnen, in Cardano zu investieren. Wenn Sie Ihr Fiat-Geld auf Ihr Bankkonto einzahlen, erhalten Sie 1-3 % Gewinn pro Jahr, der frühestens nach ein paar Monaten ausgezahlt wird. Bei Cardano ist es das Gegenteil: Sie erhalten hohe Gewinne von 5-8 % pro Jahr, die alle 5 Tage ausgezahlt werden!</target>
 </segment>
 </unit>
 <unit id="1931139842666967640">
@@ -263,8 +262,8 @@
 <source xml:space="preserve"> Payouts will happen within 5 minutes of the farmed block.<ph disp="&lt;br /&gt;" equiv="LINE_BREAK" id="0" type="fmt"/>
 <pc dispEnd="&lt;/p&gt;" dispStart="&lt;p&gt;" equivEnd="CLOSE_PARAGRAPH" equivStart="START_PARAGRAPH" id="1" type="other"> These terms are subjected to change and will be communicated 1 week prior to the change in this website and on Discord channel. </pc>
 </source>
-<target xml:space="preserve"> Payouts will happen within 5 minutes of the farmed block.<ph disp="&lt;br /&gt;" equiv="LINE_BREAK" id="0" type="fmt"/>
-<pc dispEnd="&lt;/p&gt;" dispStart="&lt;p&gt;" equivEnd="CLOSE_PARAGRAPH" equivStart="START_PARAGRAPH" id="1" type="other"> These terms are subjected to change and will be communicated 1 week prior to the change in this website and on Discord channel. </pc>
+<target xml:space="preserve">Auszahlungen erfolgen innerhalb von 5 Minuten nach einem gefarmten Block.<ph disp="&lt;br /&gt;" equiv="LINE_BREAK" id="0" type="fmt"/>
+<pc dispEnd="&lt;/p&gt;" dispStart="&lt;p&gt;" equivEnd="CLOSE_PARAGRAPH" equivStart="START_PARAGRAPH" id="1" type="other"> Diese Bedingungen können sich ändern und eventuelle Änderungen werden 1 Woche vorher auf dieser Website und im Discord Kanal kommuniziert. </pc>
 </target>
 </segment>
 </unit>
@@ -482,16 +481,16 @@
 <pc dispEnd="&lt;/i&gt;" dispStart="&lt;i&gt;" equivEnd="CLOSE_ITALIC_TEXT" equivStart="START_ITALIC_TEXT" id="9" type="fmt">After 1st September:</pc>If a reward of 1.75 XCH is found, only 1% of that, 0.0175 will be kept to the pool as a fee. The remaining 1.625 XCH will be distributed to pool farmers.</pc>
 </pc>
 </source>
-<target xml:space="preserve"> Fees are structured this way: <pc dispEnd="&lt;/ul&gt;" dispStart="&lt;ul&gt;" equivEnd="CLOSE_UNORDERED_LIST" equivStart="START_UNORDERED_LIST" id="0" type="other">
-<pc dispEnd="&lt;/li&gt;" dispStart="&lt;li&gt;" equivEnd="CLOSE_LIST_ITEM" equivStart="START_LIST_ITEM" id="1" type="other">Until 1st September 2021 (2021/09/01): <pc dispEnd="&lt;/strong&gt;" dispStart="&lt;strong&gt;" equivEnd="CLOSE_TAG_STRONG" equivStart="START_TAG_STRONG" id="2" type="other">0%</pc>
+<target xml:space="preserve">Die Gebührenstruktur ist wie folgt: <pc dispEnd="&lt;/ul&gt;" dispStart="&lt;ul&gt;" equivEnd="CLOSE_UNORDERED_LIST" equivStart="START_UNORDERED_LIST" id="0" type="other">
+<pc dispEnd="&lt;/li&gt;" dispStart="&lt;li&gt;" equivEnd="CLOSE_LIST_ITEM" equivStart="START_LIST_ITEM" id="1" type="other">Bis 1. September 2021 (2021/09/01): <pc dispEnd="&lt;/strong&gt;" dispStart="&lt;strong&gt;" equivEnd="CLOSE_TAG_STRONG" equivStart="START_TAG_STRONG" id="2" type="other">0%</pc>
 </pc>
-<pc dispEnd="&lt;/li&gt;" dispStart="&lt;li&gt;" equivEnd="CLOSE_LIST_ITEM" equivStart="START_LIST_ITEM" id="3" type="other">After 1st September 2021 (2021/09/01): <pc dispEnd="&lt;/strong&gt;" dispStart="&lt;strong&gt;" equivEnd="CLOSE_TAG_STRONG" equivStart="START_TAG_STRONG" id="4" type="other">1%</pc>
+<pc dispEnd="&lt;/li&gt;" dispStart="&lt;li&gt;" equivEnd="CLOSE_LIST_ITEM" equivStart="START_LIST_ITEM" id="3" type="other">Nach 1. September 2021 (2021/09/01): <pc dispEnd="&lt;/strong&gt;" dispStart="&lt;strong&gt;" equivEnd="CLOSE_TAG_STRONG" equivStart="START_TAG_STRONG" id="4" type="other">1%</pc>
 </pc>
-</pc> Examples: <pc dispEnd="&lt;/ul&gt;" dispStart="&lt;ul&gt;" equivEnd="CLOSE_UNORDERED_LIST" equivStart="START_UNORDERED_LIST" id="5" type="other">
+</pc> Beispiele: <pc dispEnd="&lt;/ul&gt;" dispStart="&lt;ul&gt;" equivEnd="CLOSE_UNORDERED_LIST" equivStart="START_UNORDERED_LIST" id="5" type="other">
 <pc dispEnd="&lt;/li&gt;" dispStart="&lt;li&gt;" equivEnd="CLOSE_LIST_ITEM" equivStart="START_LIST_ITEM" id="6" type="other">
-<pc dispEnd="&lt;/i&gt;" dispStart="&lt;i&gt;" equivEnd="CLOSE_ITALIC_TEXT" equivStart="START_ITALIC_TEXT" id="7" type="fmt">Before 1st September:</pc>A reward of 1.75 XCH will be distributed to pool farmers, 0 XCH (nothing) is kept to the pool.</pc>
+<pc dispEnd="&lt;/i&gt;" dispStart="&lt;i&gt;" equivEnd="CLOSE_ITALIC_TEXT" equivStart="START_ITALIC_TEXT" id="7" type="fmt">vor 1. September:</pc>Eine Belohnung von 1,75 XCH wird an die Pool Farmer verteilt, 0 XCH (nichts) wird vom pool behalten.</pc>
 <pc dispEnd="&lt;/li&gt;" dispStart="&lt;li&gt;" equivEnd="CLOSE_LIST_ITEM" equivStart="START_LIST_ITEM" id="8" type="other">
-<pc dispEnd="&lt;/i&gt;" dispStart="&lt;i&gt;" equivEnd="CLOSE_ITALIC_TEXT" equivStart="START_ITALIC_TEXT" id="9" type="fmt">After 1st September:</pc>If a reward of 1.75 XCH is found, only 1% of that, 0.0175 will be kept to the pool as a fee. The remaining 1.625 XCH will be distributed to pool farmers.</pc>
+<pc dispEnd="&lt;/i&gt;" dispStart="&lt;i&gt;" equivEnd="CLOSE_ITALIC_TEXT" equivStart="START_ITALIC_TEXT" id="9" type="fmt">Nach 1. September:</pc>Wenn eine Belohnung von 1,75 XCH eingeht, wird nur 1% davon (0,0175) durch den Pool als Gebühr behalten. Die übrigen 1,625 XCH werden an die Pool Farmer verteilt.</pc>
 </pc>
 </target>
 </segment>
@@ -599,7 +598,7 @@
 <unit id="8504648059270671021">
 <segment>
 <source xml:space="preserve">Let&apos;s get in touch on any of these platforms.</source>
-<target xml:space="preserve">Nimm über diese Plattformen Kontakt mit uns auf.</target>
+<target xml:space="preserve">Kontaktiere uns über diese Plattformen</target>
 </segment>
 </unit>
 <unit id="8616757634091748553">
@@ -830,13 +829,13 @@
 <unit id="ngb.timepicker.HH">
 <segment>
 <source xml:space="preserve">HH</source>
-<target xml:space="preserve">HH</target>
+<target xml:space="preserve">hh</target>
 </segment>
 </unit>
 <unit id="ngb.timepicker.MM">
 <segment>
 <source xml:space="preserve">MM</source>
-<target xml:space="preserve">MM</target>
+<target xml:space="preserve">mm</target>
 </segment>
 </unit>
 <unit id="ngb.timepicker.PM">
@@ -852,7 +851,7 @@
 <unit id="ngb.timepicker.SS">
 <segment>
 <source xml:space="preserve">SS</source>
-<target xml:space="preserve">SS</target>
+<target xml:space="preserve">ss</target>
 </segment>
 </unit>
 <unit id="ngb.timepicker.decrement-hours">
