@@ -12,8 +12,9 @@
       "i18n": {
         "sourceLocale": "en",
         "locales": {
-          "pt": "src/locale/pt-BR.xlf",
-          "de": "src/locale/de.xlf"
+          "de": "src/locale/de.xlf",
+          "pl": "src/locale/pl.xlf",
+          "pt": "src/locale/pt-BR.xlf"
         }
       },
       "architect": {
