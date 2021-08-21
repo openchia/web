@@ -1,0 +1,22 @@
+<section class="section section-sm pt-sm-0">
+  <div class="container">
+    <h3 class="display-3" i18n>Payout Addresses</h3>
+    <table class="table table-sm table-striped">
+      <thead>
+        <tr>
+          <th scope="col" i18n="@@Transaction">Transaction</th>
+          <th scope="col" i18n="@@Amount">Amount</th>
+        </tr>
+      </thead>
+      <tbody *ngIf="(payoutaddrs$ | async) as payoutaddrs;">
+        <tr *ngFor="let payoutaddr of payoutaddrs; let i = index">
+          <td>{{ payoutaddr.transaction }}</td>
+          <td>{{ payoutaddr.amount / 1000000000000 }} XCH</td>
+        </tr>
+        <tr *ngIf="payoutaddrs.length == 0">
+          <td colspan="3" i18n="@@NoPayoutsAddrs">No payouts addresses found!</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</section>

@@ -13,9 +13,10 @@ import { DashboardComponent } from './dashboard/dashboard.component';
 import { ExplorerComponent } from './explorer.component';
 import { FarmerComponent } from './farmer/farmer.component';
 import { LoginComponent } from './login/login.component';
+import { PayoutComponent } from './payout/payout.component';
 
 @NgModule({
-  declarations: [DashboardComponent, ExplorerComponent, FarmerComponent, LoginComponent, MaxLengthPipe,],
+  declarations: [DashboardComponent, ExplorerComponent, FarmerComponent, LoginComponent, MaxLengthPipe, PayoutComponent,],
   imports: [
     CommonModule,
     ExplorerRoutingModule,

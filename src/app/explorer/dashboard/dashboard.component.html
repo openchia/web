@@ -1,53 +1,53 @@
 <section class="section section-sm pt-lg-0 mt--100" *ngIf="true">
-    <div class="container">
-      <div class="row justify-content-center">
-        <div class="col-lg-12">
-          <div class="row row-grid">
-            <div class="col-lg-2">
-              <div class="card card-lift shadow border-0">
-                <div class="card-body py-3">
-                  <h6 class="text-primary text-uppercase" i18n>Pool Space</h6>
-                  <p class="description mt-3">{{ pool_space | filesize:{"standard": "iec"} }}</p>
-                </div>
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-12">
+        <div class="row row-grid">
+          <div class="col-lg-2">
+            <div class="card card-lift shadow border-0">
+              <div class="card-body py-3">
+                <h6 class="text-primary text-uppercase" i18n>Pool Space</h6>
+                <p class="description mt-3">{{ pool_space | filesize:{"standard": "iec"} }}</p>
               </div>
             </div>
-            <div class="col-lg-2">
-              <div class="card card-lift shadow border-0">
-                <div class="card-body py-3">
-                  <h6 class="text-success text-uppercase" i18n>ETW</h6>
-                  <p class="description mt-3" i18n>{{ estimate_win / 60 / 24 | number }} days</p>
-                </div>
+          </div>
+          <div class="col-lg-2">
+            <div class="card card-lift shadow border-0">
+              <div class="card-body py-3">
+                <h6 class="text-success text-uppercase" i18n>ETW</h6>
+                <p class="description mt-3" i18n>{{ estimate_win / 60 / 24 | number }} days</p>
               </div>
             </div>
-            <div class="col-lg-2">
-              <div class="card card-lift shadow border-0">
-                <div class="card-body py-3">
-                  <h6 class="text-warning text-uppercase" i18n>Blocks</h6>
-                  <p class="description mt-3" i18n>{{ rewards_blocks }} farmed</p>
-                </div>
+          </div>
+          <div class="col-lg-2">
+            <div class="card card-lift shadow border-0">
+              <div class="card-body py-3">
+                <h6 class="text-warning text-uppercase" i18n>Blocks</h6>
+                <p class="description mt-3" i18n>{{ rewards_blocks }} farmed</p>
               </div>
             </div>
-            <div class="col-lg-2">
-              <div class="card card-lift shadow border-0">
-                <div class="card-body py-3">
-                  <h6 class="text-info text-uppercase" i18n="@@Farmers">Farmers</h6>
-                  <p class="description mt-3" i18n>{{ farmers }} total</p>
-                </div>
+          </div>
+          <div class="col-lg-2">
+            <div class="card card-lift shadow border-0">
+              <div class="card-body py-3">
+                <h6 class="text-info text-uppercase" i18n="@@Farmers">Farmers</h6>
+                <p class="description mt-3" i18n>{{ farmers }} total</p>
               </div>
             </div>
-            <div class="col-lg-2">
-              <div class="card card-lift shadow border-0">
-                <div class="card-body py-3">
-                  <h6 class="text-info text-uppercase" i18n>Netspace</h6>
-                  <p class="description mt-3">{{ netspace | filesize:{"standard": "iec"} }}</p>
-                </div>
+          </div>
+          <div class="col-lg-2">
+            <div class="card card-lift shadow border-0">
+              <div class="card-body py-3">
+                <h6 class="text-info text-uppercase" i18n>Netspace</h6>
+                <p class="description mt-3">{{ netspace | filesize:{"standard": "iec"} }}</p>
               </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-  </section>
+  </div>
+</section>
 
 <section class="section section-sm pt-sm-0">
   <div class="container">
@@ -62,25 +62,27 @@
     </div>
     <table class="table table-sm table-striped">
       <thead>
-      <tr>
-        <th scope="col">#</th>
-        <th scope="col">Launcher ID</th>
-        <th scope="col" i18n="@@Difficulty">Difficulty</th>
-        <th scope="col" i18n="@@Points">Points</th>
-        <th scope="col" i18n>% of total</th>
-      </tr>
+        <tr>
+          <th scope="col">#</th>
+          <th scope="col">Launcher ID</th>
+          <th scope="col" i18n="@@Difficulty">Difficulty</th>
+          <th scope="col" i18n="@@Points">Points</th>
+          <th scope="col" i18n>% of total</th>
+        </tr>
       </thead>
       <tbody>
-      <tr *ngFor="let launcher of launchers$ | async; let i = index" [routerLink]="['/explorer/farmer', launcher.launcher_id]">
-        <th scope="row">{{ i + 1 }}</th>
-        <td class="link" ><a [routerLink]="['/explorer/farmer', launcher.launcher_id]">{{ launcher.name || launcher.launcher_id | maxLength:20 }}</a></td>
-        <td>{{ launcher.difficulty }}</td>
-        <td>{{ launcher.points }}</td>
-        <td>{{ launcher.points_of_total | number:'2.5' }}%</td>
-      </tr>
-      <tr *ngIf="searchNotFound">
-        <td colspan="5" i18n>No farmers found!</td>
-      </tr>
+        <tr *ngFor="let launcher of launchers$ | async; let i = index"
+          [routerLink]="['/explorer/farmer', launcher.launcher_id]">
+          <th scope="row">{{ i + 1 }}</th>
+          <td class="link"><a [routerLink]="['/explorer/farmer', launcher.launcher_id]">{{ launcher.name ||
+              launcher.launcher_id | maxLength:20 }}</a></td>
+          <td>{{ launcher.difficulty }}</td>
+          <td>{{ launcher.points }}</td>
+          <td>{{ launcher.points_of_total | number:'2.5' }}%</td>
+        </tr>
+        <tr *ngIf="searchNotFound">
+          <td colspan="5" i18n>No farmers found!</td>
+        </tr>
       </tbody>
     </table>
   </div>
@@ -91,21 +93,22 @@
     <h3 class="display-3" i18n>Blocks Found</h3>
     <table class="table table-sm table-striped">
       <thead>
-      <tr>
-        <th scope="col" i18n>Index</th>
-        <th scope="col" i18n>Date</th>
-        <th scope="col" i18n>Farmer</th>
-      </tr>
+        <tr>
+          <th scope="col" i18n>Index</th>
+          <th scope="col" i18n>Date</th>
+          <th scope="col" i18n>Farmer</th>
+        </tr>
       </thead>
       <tbody *ngIf="(blocks$ | async) as blocks;">
-      <tr *ngFor="let block of blocks; let i = index">
-        <td>{{ block.confirmed_block_index }}</td>
-        <td>{{ block.timestamp * 1000 | date:"medium" }}</td>
-        <td><a [routerLink]="['/explorer/farmer', block.farmed_by.launcher_id]">{{ block.farmed_by.name || block.farmed_by.launcher_id | maxLength:20 }}</a></td>
-      </tr>
-      <tr *ngIf="blocks.length == 0">
-        <td colspan="3" i18n>No blocks found!</td>
-      </tr>
+        <tr *ngFor="let block of blocks; let i = index">
+          <td>{{ block.confirmed_block_index }}</td>
+          <td>{{ block.timestamp * 1000 | date:"medium" }}</td>
+          <td><a [routerLink]="['/explorer/farmer', block.farmed_by.launcher_id]">{{ block.farmed_by.name ||
+              block.farmed_by.launcher_id | maxLength:20 }}</a></td>
+        </tr>
+        <tr *ngIf="blocks.length == 0">
+          <td colspan="3" i18n>No blocks found!</td>
+        </tr>
       </tbody>
     </table>
   </div>
@@ -116,19 +119,22 @@
     <h3 class="display-3" i18n>Payouts</h3>
     <table class="table table-sm table-striped">
       <thead>
-      <tr>
-        <th scope="col" i18n>Date</th>
-        <th scope="col" i18n>Amount</th>
-      </tr>
+        <tr>
+          <th scope="col" i18n="@@ID">ID</th>
+          <th scope="col" i18n>Date</th>
+          <th scope="col" i18n="@@Amount">Amount</th>
+        </tr>
       </thead>
       <tbody *ngIf="(payouts$ | async) as payouts;">
-      <tr *ngFor="let payout of payouts; let i = index">
-        <td>{{ payout.datetime | date:"medium" }}</td>
-        <td>{{ payout.amount / 1000000000000 | number }} XCH</td>
-      </tr>
-      <tr *ngIf="payouts.length == 0">
-        <td colspan="3" i18n="@@NoPayouts">No payouts found!</td>
-      </tr>
+        <tr *ngFor="let payout of payouts; let i = index">
+          <td><a [routerLink]="['/explorer/payout', payout.id]" routerLinkActive="router-link-active">{{ payout.id
+              }}</a></td>
+          <td>{{ payout.datetime | date:"medium" }}</td>
+          <td>{{ payout.amount / 1000000000000 | number }} XCH</td>
+        </tr>
+        <tr *ngIf="payouts.length == 0">
+          <td colspan="3" i18n="@@NoPayouts">No payouts found!</td>
+        </tr>
       </tbody>
     </table>
   </div>

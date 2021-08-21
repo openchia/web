@@ -12,6 +12,7 @@ export class DataService {
   private _blocks$ = new BehaviorSubject<any[]>([]);
   private _launchers$ = new Subject<any[]>();
   private _payouts$ = new BehaviorSubject<any[]>([]);
+  private _payoutaddrs$ = new BehaviorSubject<any[]>([]);
   private _log$ = new BehaviorSubject<string>('');
   private socket$: WebSocketSubject<any>;
 
@@ -33,7 +34,7 @@ export class DataService {
   getLaunchers(search?) {
     var params = new HttpParams();
     if(search !== undefined) params = params.set('search', search);
-    return this.httpClient.get(`${this.REST_API_SERVER}launcher/`, {params}).subscribe(data => {
+    return this.httpClient.get(`${this.REST_API_SERVER}launcher/`, { params }).subscribe(data => {
       this._launchers$.next(data['results']);
     });
   }
@@ -44,6 +45,14 @@ export class DataService {
     if(offset) params.push(`offset=${offset}`);
     return this.httpClient.get(this.REST_API_SERVER + 'payout/?' + params.join('&')).subscribe(data => {
       this._payouts$.next(data['results']);
+    });
+  }
+
+  getPayoutAddrs(id: number, offset?) {
+    var params = [`payout=${id}`];
+    if(offset) params.push(`offset=${offset}`);
+    return this.httpClient.get(`${this.REST_API_SERVER}payoutaddress/?${params.join('&')}`).subscribe(data => {
+      this._payoutaddrs$.next(data['results']);
     });
   }
 
@@ -80,6 +89,8 @@ export class DataService {
   get log$() { return this._log$.asObservable(); }
 
   get payouts$() { return this._payouts$.asObservable(); }
+
+  get payoutaddrs$() { return this._payoutaddrs$.asObservable(); }
 
   connectLog(msgCallback?) {
     var proto = (window.location.protocol == 'https:') ? 'wss://' : 'ws://';

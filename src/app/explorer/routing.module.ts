@@ -6,6 +6,7 @@ import { DashboardComponent } from './dashboard/dashboard.component';
 import { ExplorerComponent } from './explorer.component';
 import { FarmerComponent } from './farmer/farmer.component';
 import { LoginComponent } from './login/login.component';
+import { PayoutComponent } from './payout/payout.component';
 
 const routes: Routes = [
     {
@@ -24,13 +25,17 @@ const routes: Routes = [
                 path: 'login',
                 component: LoginComponent,
             },
+            {
+                path: 'payout/:id',
+                component: PayoutComponent,
+            },
         ]
     }
 ];
 
 
 @NgModule({
-  imports: [CommonModule, RouterModule.forChild(routes)],
-  exports: [RouterModule]
+    imports: [CommonModule, RouterModule.forChild(routes)],
+    exports: [RouterModule]
 })
 export class ExplorerRoutingModule { }
