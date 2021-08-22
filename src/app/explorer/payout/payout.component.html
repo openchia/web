@@ -1,15 +1,40 @@
 <section class="section section-sm pt-sm-0">
   <div class="container">
-    <h3 class="display-3" i18n>Payout Addresses</h3>
+    <h3 class="display-3" i18n>Payout</h3>
+    <table class="table table-sm table-striped">
+      <tbody>
+        <tr>
+          <th i18n="@@Date">Date</th>
+          <td>{{ payout.datetime | date:"medium" }}</td>
+        <tr>
+          <th i18n="@@Amount">Amount</th>
+          <td>{{ payout.amount / 1000000000000 }} XCH</td>
+        </tr>
+        <tr>
+          <th i18n="@@Fee">Fee</th>
+          <td>{{ payout.fee / 1000000000000 }} XCH</td>
+        </tr>
+        <tr>
+          <th i18n="@@Blocks">Blocks</th>
+          <td>{{ payout.blocks?.length }}</td>
+        </tr>
+      </tbody>
+    </table>
+    <h3 class="display-3" i18n="@@PayoutAddresses">Payout Addresses</h3>
     <table class="table table-sm table-striped">
       <thead>
         <tr>
+          <th scope="col" i18n="@@Launcher">Launcher ID</th>
           <th scope="col" i18n="@@Transaction">Transaction</th>
           <th scope="col" i18n="@@Amount">Amount</th>
         </tr>
       </thead>
       <tbody *ngIf="(payoutaddrs$ | async) as payoutaddrs;">
         <tr *ngFor="let payoutaddr of payoutaddrs; let i = index">
+          <td><a [routerLink]="['/explorer/farmer', payoutaddr.launcher?.launcher_id]"
+              routerLinkActive="router-link-active">{{ (payoutaddr.launcher?.name || payoutaddr.launcher?.launcher_id ||
+              '') |
+              maxLength:20 }}</a></td>
           <td>{{ payoutaddr.transaction }}</td>
           <td>{{ payoutaddr.amount / 1000000000000 }} XCH</td>
         </tr>

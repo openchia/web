@@ -64,6 +64,10 @@ export class DataService {
     return this.httpClient.put(this.REST_API_SERVER + 'launcher/' + id + '/', params);
   }
 
+  getPayout(id: number) {
+    return this.httpClient.get(`${this.REST_API_SERVER}payout/${id}/`);
+  }
+
   getPoolSpace() {
     return this.httpClient.get(`${this.REST_API_SERVER}space?days=7`);
   }

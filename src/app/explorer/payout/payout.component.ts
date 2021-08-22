@@ -10,6 +10,7 @@ import { Observable, Subscription } from 'rxjs';
 })
 export class PayoutComponent implements OnInit {
 
+  payout: any = {};
   payoutid: number;
   payout_addrs: Array<any>;
   payoutaddrs$: Observable<any[]>;
@@ -22,6 +23,9 @@ export class PayoutComponent implements OnInit {
     this.route.paramMap.subscribe(data => {
       this.payoutid = data['params']['id'];
       this.dataService.getPayoutAddrs(this.payoutid);
+      this.dataService.getPayout(this.payoutid).subscribe((res) => {
+        this.payout = res;
+      });
     });
   }
 
