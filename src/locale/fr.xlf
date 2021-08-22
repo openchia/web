@@ -461,13 +461,13 @@
 <unit id="6445111019676735745">
 <segment>
 <source xml:space="preserve">Payout</source>
-<target xml:space="preserve">Payout</target>
+<target xml:space="preserve">Paiement</target>
 </segment>
 </unit>
 <unit id="6533918067030990396">
 <segment>
 <source xml:space="preserve">Amount</source>
-<target xml:space="preserve">Amount</target>
+<target xml:space="preserve">Montant</target>
 </segment>
 </unit>
 <unit id="6741838149332998818">
@@ -491,7 +491,7 @@
 <unit id="6880713934119717799">
 <segment>
 <source xml:space="preserve">Friendly Name</source>
-<target xml:space="preserve">Friendly Name</target>
+<target xml:space="preserve">Surnom</target>
 </segment>
 </unit>
 <unit id="6901531604019957317">
@@ -503,7 +503,7 @@
 <unit id="6916434805989733156">
 <segment>
 <source xml:space="preserve">After 1st September</source>
-<target xml:space="preserve">After 1st September</target>
+<target xml:space="preserve">Après le 1er Septembre</target>
 </segment>
 </unit>
 <unit id="6948786787037977434">
@@ -651,13 +651,13 @@
 <source xml:space="preserve">
 <ph disp="{{ estimate_win / 60 / 24 | number }}" equiv="INTERPOLATION" id="0"/> days</source>
 <target xml:space="preserve">
-<ph disp="{{ estimate_win / 60 / 24 | number }}" equiv="INTERPOLATION" id="0"/> days</target>
+<ph disp="{{ estimate_win / 60 / 24 | number }}" equiv="INTERPOLATION" id="0"/> jours</target>
 </segment>
 </unit>
 <unit id="841934696444961534">
 <segment>
 <source xml:space="preserve">News</source>
-<target xml:space="preserve">News</target>
+<target xml:space="preserve">Actualités</target>
 </segment>
 </unit>
 <unit id="8479159211474411356">
@@ -669,7 +669,7 @@
 <unit id="8497528947328199741">
 <segment>
 <source xml:space="preserve">Time</source>
-<target xml:space="preserve">Time</target>
+<target xml:space="preserve">Temps</target>
 </segment>
 </unit>
 <unit id="8504648059270671021">
@@ -681,7 +681,7 @@
 <unit id="8559170870663360229">
 <segment>
 <source xml:space="preserve">Examples</source>
-<target xml:space="preserve">Examples</target>
+<target xml:space="preserve">Exemples</target>
 </segment>
 </unit>
 <unit id="8616757634091748553">
@@ -705,7 +705,7 @@
 <unit id="Amount">
 <segment>
 <source xml:space="preserve">Amount</source>
-<target xml:space="preserve">Amount</target>
+<target xml:space="preserve">Montant</target>
 </segment>
 </unit>
 <unit id="Blocks">
@@ -723,13 +723,13 @@
 <unit id="Difficulty">
 <segment>
 <source xml:space="preserve">Difficulty</source>
-<target xml:space="preserve">Difficulty</target>
+<target xml:space="preserve">Difficulté</target>
 </segment>
 </unit>
 <unit id="Explorer">
 <segment>
 <source xml:space="preserve">Explorer</source>
-<target xml:space="preserve">Explorer</target>
+<target xml:space="preserve">Explorateur</target>
 </segment>
 </unit>
 <unit id="Farmers">
@@ -741,13 +741,13 @@
 <unit id="Fee">
 <segment>
 <source xml:space="preserve">Fee</source>
-<target xml:space="preserve">Fee</target>
+<target xml:space="preserve">Frais</target>
 </segment>
 </unit>
 <unit id="Height">
 <segment>
 <source xml:space="preserve">Height</source>
-<target xml:space="preserve">Height</target>
+<target xml:space="preserve">Taille</target>
 </segment>
 </unit>
 <unit id="ID">
@@ -771,7 +771,7 @@
 <unit id="MITLicense">
 <segment>
 <source xml:space="preserve">MIT License</source>
-<target xml:space="preserve">MIT License</target>
+<target xml:space="preserve">Licence MIT</target>
 </segment>
 </unit>
 <unit id="NoPayouts">
@@ -783,7 +783,7 @@
 <unit id="NoPayoutsAddrs">
 <segment>
 <source xml:space="preserve">No payouts addresses found!</source>
-<target xml:space="preserve">No payouts addresses found!</target>
+<target xml:space="preserve">Aucune adresse de paiement n'a été trouvée !</target>
 </segment>
 </unit>
 <unit id="Partials">
@@ -795,19 +795,19 @@
 <unit id="Partners">
 <segment>
 <source xml:space="preserve">Partners</source>
-<target xml:space="preserve">Partners</target>
+<target xml:space="preserve">Partenaires</target>
 </segment>
 </unit>
 <unit id="PayoutAddresses">
 <segment>
 <source xml:space="preserve">Payout Addresses</source>
-<target xml:space="preserve">Payout Addresses</target>
+<target xml:space="preserve">Adresses de paiement</target>
 </segment>
 </unit>
 <unit id="Payouts">
 <segment>
 <source xml:space="preserve">Payouts</source>
-<target xml:space="preserve">Payouts</target>
+<target xml:space="preserve">Versements</target>
 </segment>
 </unit>
 <unit id="Points">
@@ -819,7 +819,7 @@
 <unit id="Terms">
 <segment>
 <source xml:space="preserve">Terms</source>
-<target xml:space="preserve">Terms</target>
+<target xml:space="preserve">Conditions</target>
 </segment>
 </unit>
 <unit id="Transaction">
@@ -831,7 +831,7 @@
 <unit id="Uptime">
 <segment>
 <source xml:space="preserve">Uptime</source>
-<target xml:space="preserve">Uptime</target>
+<target xml:space="preserve">Allumé depuis</target>
 </segment>
 </unit>
 <unit id="ngb.alert.close">
@@ -1006,7 +1006,7 @@
 <unit id="ngb.timepicker.increment-hours">
 <segment>
 <source xml:space="preserve">Increment hours</source>
-<target xml:space="preserve">Heures d'incrémentation</target>
+<target xml:space="preserve">Incrémenter les heures</target>
 </segment>
 </unit>
 <unit id="ngb.timepicker.increment-minutes">
@@ -1018,7 +1018,7 @@
 <unit id="ngb.timepicker.increment-seconds">
 <segment>
 <source xml:space="preserve">Increment seconds</source>
-<target xml:space="preserve">Incrémentation secondes</target>
+<target xml:space="preserve">Incrémentater les secondes</target>
 </segment>
 </unit>
 <unit id="ngb.timepicker.minutes">
@@ -1030,7 +1030,7 @@
 <unit id="ngb.timepicker.seconds">
 <segment>
 <source xml:space="preserve">Seconds</source>
-<target xml:space="preserve">secondes</target>
+<target xml:space="preserve">Secondes</target>
 </segment>
 </unit>
 <unit id="ngb.toast.close-aria">
