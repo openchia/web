@@ -55,6 +55,34 @@
 <target xml:space="preserve">OpenChia glaubt an eine Zukunft, in der Blockchain und Kryptowährungen existieren können, ohne die Umwelt zu zerstören und stattdessen die Welt zu einem besseren Ort machen. Wir glauben Chia und Cardano können koexistieren und helfen, das zu erreichen. Wenn Du mehr über Cardano wissen möchtest und/oder einen seriösen Staking Pool beitreten möchtest, besuche <pc dispEnd="&lt;/a&gt;" dispStart="&lt;a         href=&quot;https://vivid-pool.info/&quot; target=&quot;_blank&quot;&gt;" equivEnd="CLOSE_LINK" equivStart="START_LINK" id="0" type="link">Vivid Pool</pc>.</target>
 </segment>
 </unit>
+<unit id="1893264787449292608">
+<segment>
+<source xml:space="preserve"> Fees are structured this way: <pc dispEnd="&lt;/ul&gt;" dispStart="&lt;ul&gt;" equivEnd="CLOSE_UNORDERED_LIST" equivStart="START_UNORDERED_LIST" id="0" type="other">
+<pc dispEnd="&lt;/li&gt;" dispStart="&lt;li&gt;" equivEnd="CLOSE_LIST_ITEM" equivStart="START_LIST_ITEM" id="1" type="other">Until 1st September 2021 (2021/09/01): <pc dispEnd="&lt;/strong&gt;" dispStart="&lt;strong&gt;" equivEnd="CLOSE_TAG_STRONG" equivStart="START_TAG_STRONG" id="2" type="other">0%</pc>
+</pc>
+<pc dispEnd="&lt;/li&gt;" dispStart="&lt;li&gt;" equivEnd="CLOSE_LIST_ITEM" equivStart="START_LIST_ITEM" id="3" type="other">After 1st September 2021 (2021/09/01): <pc dispEnd="&lt;/strong&gt;" dispStart="&lt;strong&gt;" equivEnd="CLOSE_TAG_STRONG" equivStart="START_TAG_STRONG" id="4" type="other">1%</pc>
+</pc>
+</pc> Examples: <pc dispEnd="&lt;/ul&gt;" dispStart="&lt;ul&gt;" equivEnd="CLOSE_UNORDERED_LIST" equivStart="START_UNORDERED_LIST" id="5" type="other">
+<pc dispEnd="&lt;/li&gt;" dispStart="&lt;li&gt;" equivEnd="CLOSE_LIST_ITEM" equivStart="START_LIST_ITEM" id="6" type="other">
+<pc dispEnd="&lt;/i&gt;" dispStart="&lt;i&gt;" equivEnd="CLOSE_ITALIC_TEXT" equivStart="START_ITALIC_TEXT" id="7" type="fmt">Before 1st September:</pc>A reward of 1.75 XCH will be distributed to pool farmers, 0 XCH (nothing) is kept to the pool.</pc>
+<pc dispEnd="&lt;/li&gt;" dispStart="&lt;li&gt;" equivEnd="CLOSE_LIST_ITEM" equivStart="START_LIST_ITEM" id="8" type="other">
+<pc dispEnd="&lt;/i&gt;" dispStart="&lt;i&gt;" equivEnd="CLOSE_ITALIC_TEXT" equivStart="START_ITALIC_TEXT" id="9" type="fmt">After 1st September:</pc>If a reward of 1.75 XCH is found, only 1% of that, 0.0175 will be kept to the pool as a fee. The remaining 1.7325 XCH will be distributed to pool farmers.</pc>
+</pc>
+</source>
+<target xml:space="preserve"> Fees are structured this way: <pc dispEnd="&lt;/ul&gt;" dispStart="&lt;ul&gt;" equivEnd="CLOSE_UNORDERED_LIST" equivStart="START_UNORDERED_LIST" id="0" type="other">
+<pc dispEnd="&lt;/li&gt;" dispStart="&lt;li&gt;" equivEnd="CLOSE_LIST_ITEM" equivStart="START_LIST_ITEM" id="1" type="other">Until 1st September 2021 (2021/09/01): <pc dispEnd="&lt;/strong&gt;" dispStart="&lt;strong&gt;" equivEnd="CLOSE_TAG_STRONG" equivStart="START_TAG_STRONG" id="2" type="other">0%</pc>
+</pc>
+<pc dispEnd="&lt;/li&gt;" dispStart="&lt;li&gt;" equivEnd="CLOSE_LIST_ITEM" equivStart="START_LIST_ITEM" id="3" type="other">After 1st September 2021 (2021/09/01): <pc dispEnd="&lt;/strong&gt;" dispStart="&lt;strong&gt;" equivEnd="CLOSE_TAG_STRONG" equivStart="START_TAG_STRONG" id="4" type="other">1%</pc>
+</pc>
+</pc> Examples: <pc dispEnd="&lt;/ul&gt;" dispStart="&lt;ul&gt;" equivEnd="CLOSE_UNORDERED_LIST" equivStart="START_UNORDERED_LIST" id="5" type="other">
+<pc dispEnd="&lt;/li&gt;" dispStart="&lt;li&gt;" equivEnd="CLOSE_LIST_ITEM" equivStart="START_LIST_ITEM" id="6" type="other">
+<pc dispEnd="&lt;/i&gt;" dispStart="&lt;i&gt;" equivEnd="CLOSE_ITALIC_TEXT" equivStart="START_ITALIC_TEXT" id="7" type="fmt">Before 1st September:</pc>A reward of 1.75 XCH will be distributed to pool farmers, 0 XCH (nothing) is kept to the pool.</pc>
+<pc dispEnd="&lt;/li&gt;" dispStart="&lt;li&gt;" equivEnd="CLOSE_LIST_ITEM" equivStart="START_LIST_ITEM" id="8" type="other">
+<pc dispEnd="&lt;/i&gt;" dispStart="&lt;i&gt;" equivEnd="CLOSE_ITALIC_TEXT" equivStart="START_ITALIC_TEXT" id="9" type="fmt">After 1st September:</pc>If a reward of 1.75 XCH is found, only 1% of that, 0.0175 will be kept to the pool as a fee. The remaining 1.7325 XCH will be distributed to pool farmers.</pc>
+</pc>
+</target>
+</segment>
+</unit>
 <unit id="1918146053125551227">
 <segment>
 <source xml:space="preserve">
@@ -191,6 +219,12 @@
 <target xml:space="preserve">Wie viele portable Plots benötige ich, um dem Pool beizutreten?</target>
 </segment>
 </unit>
+<unit id="3179472790665120358">
+<segment>
+<source xml:space="preserve">Fees are structured this way</source>
+<target xml:space="preserve">Fees are structured this way</target>
+</segment>
+</unit>
 <unit id="3223637037001251732">
 <segment>
 <source xml:space="preserve">Farmer</source>
@@ -245,6 +279,12 @@
 <target xml:space="preserve">Speichern</target>
 </segment>
 </unit>
+<unit id="3869946742032895114">
+<segment>
+<source xml:space="preserve">Before 1st September</source>
+<target xml:space="preserve">Before 1st September</target>
+</segment>
+</unit>
 <unit id="3900702001221590652">
 <segment>
 <source xml:space="preserve">No blocks found by this farmer!</source>
@@ -285,10 +325,22 @@
 <target xml:space="preserve">Danke, dass Du uns vertraust!</target>
 </segment>
 </unit>
+<unit id="4204023333676450372">
+<segment>
+<source xml:space="preserve">Until 1st September 2021 (2021/09/01)</source>
+<target xml:space="preserve">Until 1st September 2021 (2021/09/01)</target>
+</segment>
+</unit>
 <unit id="4239635668959543337">
 <segment>
 <source xml:space="preserve">We have more than 20 years of combined experience in the software development industry.</source>
 <target xml:space="preserve">Wir verfügen gemeinsam über mehr als 20 Jahre Erfahrung in der Softwareentwicklung.</target>
+</segment>
+</unit>
+<unit id="4423939679955683675">
+<segment>
+<source xml:space="preserve">A reward of 1.75 XCH will be distributed to pool farmers, 0 XCH (nothing) is kept to the pool.</source>
+<target xml:space="preserve">A reward of 1.75 XCH will be distributed to pool farmers, 0 XCH (nothing) is kept to the pool.</target>
 </segment>
 </unit>
 <unit id="4500995370545031926">
@@ -331,6 +383,12 @@
 <segment>
 <source xml:space="preserve">Launcher ID</source>
 <target xml:space="preserve">Launcher ID</target>
+</segment>
+</unit>
+<unit id="5088299831715376392">
+<segment>
+<source xml:space="preserve">If a reward of 1.75 XCH is found, only 1% of that, 0.0175 will be kept to the pool as a fee. The remaining 1.7325 XCH will be distributed to pool farmers.</source>
+<target xml:space="preserve">If a reward of 1.75 XCH is found, only 1% of that, 0.0175 will be kept to the pool as a fee. The remaining 1.7325 XCH will be distributed to pool farmers.</target>
 </segment>
 </unit>
 <unit id="5254622645701859101">
@@ -399,6 +457,12 @@
 <target xml:space="preserve">Pool Space</target>
 </segment>
 </unit>
+<unit id="6445111019676735745">
+<segment>
+<source xml:space="preserve">Payout</source>
+<target xml:space="preserve">Payout</target>
+</segment>
+</unit>
 <unit id="6533918067030990396">
 <segment>
 <source xml:space="preserve">Amount</source>
@@ -433,6 +497,12 @@
 <segment>
 <source xml:space="preserve">Software Engineer</source>
 <target xml:space="preserve">Software-Entwickler</target>
+</segment>
+</unit>
+<unit id="6916434805989733156">
+<segment>
+<source xml:space="preserve">After 1st September</source>
+<target xml:space="preserve">After 1st September</target>
 </segment>
 </unit>
 <unit id="6948786787037977434">
@@ -607,6 +677,12 @@
 <target xml:space="preserve">Kontaktiere uns über diese Plattformen</target>
 </segment>
 </unit>
+<unit id="8559170870663360229">
+<segment>
+<source xml:space="preserve">Examples</source>
+<target xml:space="preserve">Examples</target>
+</segment>
+</unit>
 <unit id="8616757634091748553">
 <segment>
 <source xml:space="preserve">Blocks Found</source>
@@ -629,6 +705,12 @@
 <segment>
 <source xml:space="preserve">Amount</source>
 <target xml:space="preserve">Betrag</target>
+</segment>
+</unit>
+<unit id="Blocks">
+<segment>
+<source xml:space="preserve">Blocks</source>
+<target xml:space="preserve">Blocks</target>
 </segment>
 </unit>
 <unit id="Date">
@@ -655,16 +737,34 @@
 <target xml:space="preserve">Farmer</target>
 </segment>
 </unit>
+<unit id="Fee">
+<segment>
+<source xml:space="preserve">Fee</source>
+<target xml:space="preserve">Fee</target>
+</segment>
+</unit>
 <unit id="Height">
 <segment>
 <source xml:space="preserve">Height</source>
 <target xml:space="preserve">Höhe</target>
 </segment>
 </unit>
+<unit id="ID">
+<segment>
+<source xml:space="preserve">ID</source>
+<target xml:space="preserve">ID</target>
+</segment>
+</unit>
 <unit id="JoinPool">
 <segment>
 <source xml:space="preserve">Join our pool</source>
 <target xml:space="preserve">Tritt unserem Pool bei</target>
+</segment>
+</unit>
+<unit id="Launcher">
+<segment>
+<source xml:space="preserve">Launcher ID</source>
+<target xml:space="preserve">Launcher ID</target>
 </segment>
 </unit>
 <unit id="MITLicense">
@@ -679,6 +779,12 @@
 <target xml:space="preserve">Keine Auszahlungen gefunden</target>
 </segment>
 </unit>
+<unit id="NoPayoutsAddrs">
+<segment>
+<source xml:space="preserve">No payouts addresses found!</source>
+<target xml:space="preserve">No payouts addresses found!</target>
+</segment>
+</unit>
 <unit id="Partials">
 <segment>
 <source xml:space="preserve">Partials</source>
@@ -689,6 +795,12 @@
 <segment>
 <source xml:space="preserve">Partners</source>
 <target xml:space="preserve">Partner</target>
+</segment>
+</unit>
+<unit id="PayoutAddresses">
+<segment>
+<source xml:space="preserve">Payout Addresses</source>
+<target xml:space="preserve">Payout Addresses</target>
 </segment>
 </unit>
 <unit id="Payouts">
@@ -707,6 +819,12 @@
 <segment>
 <source xml:space="preserve">Terms</source>
 <target xml:space="preserve">Bedingungen</target>
+</segment>
+</unit>
+<unit id="Transaction">
+<segment>
+<source xml:space="preserve">Transaction</source>
+<target xml:space="preserve">Transaction</target>
 </segment>
 </unit>
 <unit id="Uptime">

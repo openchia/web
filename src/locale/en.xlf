@@ -266,7 +266,7 @@
     </unit>
     <unit id="6948786787037977434">
       <notes>
-        <note category="location">src/app/explorer/dashboard/dashboard.component.html:27,33</note>
+        <note category="location">src/app/explorer/dashboard/dashboard.component.html:28,33</note>
         <note category="location">src/app/explorer/farmer/farmer.component.ts:149</note>
       </notes>
       <segment>
@@ -275,7 +275,7 @@
     </unit>
     <unit id="Farmers">
       <notes>
-        <note category="location">src/app/explorer/dashboard/dashboard.component.html:34,41</note>
+        <note category="location">src/app/explorer/dashboard/dashboard.component.html:35,42</note>
         <note category="location">src/app/explorer/dashboard/dashboard.component.ts:40,48</note>
       </notes>
       <segment>
@@ -284,7 +284,7 @@
     </unit>
     <unit id="3145581158682357446">
       <notes>
-        <note category="location">src/app/explorer/dashboard/dashboard.component.html:42,26</note>
+        <note category="location">src/app/explorer/dashboard/dashboard.component.html:43,26</note>
       </notes>
       <segment>
         <source><ph id="0" equiv="INTERPOLATION" disp="{{ rewards_blocks }}"/> farmed</source>
@@ -292,7 +292,7 @@
     </unit>
     <unit id="3406747127815684711">
       <notes>
-        <note category="location">src/app/explorer/dashboard/dashboard.component.html:43,54</note>
+        <note category="location">src/app/explorer/dashboard/dashboard.component.html:44,55</note>
       </notes>
       <segment>
         <source>Netspace</source>
@@ -300,7 +300,7 @@
     </unit>
     <unit id="6955537025048058867">
       <notes>
-        <note category="location">src/app/explorer/dashboard/dashboard.component.html:56,34</note>
+        <note category="location">src/app/explorer/dashboard/dashboard.component.html:57,34</note>
       </notes>
       <segment>
         <source><ph id="0" equiv="INTERPOLATION" disp="{{ farmers }}"/> total</source>
@@ -308,7 +308,7 @@
     </unit>
     <unit id="1175065931767236325">
       <notes>
-        <note category="location">src/app/explorer/dashboard/dashboard.component.html:63,70</note>
+        <note category="location">src/app/explorer/dashboard/dashboard.component.html:66,72</note>
       </notes>
       <segment>
         <source>No farmers found!</source>
@@ -316,7 +316,7 @@
     </unit>
     <unit id="1140108877159163263">
       <notes>
-        <note category="location">src/app/explorer/dashboard/dashboard.component.html:77,86</note>
+        <note category="location">src/app/explorer/dashboard/dashboard.component.html:79,86</note>
       </notes>
       <segment>
         <source>No blocks found!</source>
@@ -324,7 +324,7 @@
     </unit>
     <unit id="NoPayouts">
       <notes>
-        <note category="location">src/app/explorer/dashboard/dashboard.component.html:100,104</note>
+        <note category="location">src/app/explorer/dashboard/dashboard.component.html:101,106</note>
         <note category="location">src/app/explorer/farmer/farmer.component.ts:149</note>
       </notes>
       <segment>
@@ -407,9 +407,20 @@
         <source>Payouts</source>
       </segment>
     </unit>
-    <unit id="6533918067030990396">
+    <unit id="ID">
       <notes>
         <note category="location">src/app/explorer/dashboard/dashboard.component.ts:81</note>
+      </notes>
+      <segment>
+        <source>ID</source>
+      </segment>
+    </unit>
+    <unit id="Amount">
+      <notes>
+        <note category="location">src/app/explorer/dashboard/dashboard.component.ts:81</note>
+        <note category="location">src/app/explorer/farmer/farmer.component.ts:149</note>
+        <note category="location">src/app/explorer/payout/payout.component.ts:32</note>
+        <note category="location">src/app/explorer/payout/payout.component.ts:32</note>
       </notes>
       <segment>
         <source>Amount</source>
@@ -573,6 +584,7 @@
       <notes>
         <note category="location">src/app/explorer/farmer/farmer.component.ts:149</note>
         <note category="location">src/app/explorer/farmer/farmer.component.ts:149</note>
+        <note category="location">src/app/explorer/payout/payout.component.ts:32</note>
       </notes>
       <segment>
         <source>Date</source>
@@ -584,14 +596,6 @@
       </notes>
       <segment>
         <source>Height</source>
-      </segment>
-    </unit>
-    <unit id="Amount">
-      <notes>
-        <note category="location">src/app/explorer/farmer/farmer.component.ts:149</note>
-      </notes>
-      <segment>
-        <source>Amount</source>
       </segment>
     </unit>
     <unit id="3900702001221590652">
@@ -624,6 +628,62 @@
       </notes>
       <segment>
         <source>Failed to authenticate! Check your URL and try again.</source>
+      </segment>
+    </unit>
+    <unit id="6445111019676735745">
+      <notes>
+        <note category="location">src/app/explorer/payout/payout.component.ts:26,32</note>
+      </notes>
+      <segment>
+        <source>Payout</source>
+      </segment>
+    </unit>
+    <unit id="Fee">
+      <notes>
+        <note category="location">src/app/explorer/payout/payout.component.ts:32</note>
+      </notes>
+      <segment>
+        <source>Fee</source>
+      </segment>
+    </unit>
+    <unit id="Blocks">
+      <notes>
+        <note category="location">src/app/explorer/payout/payout.component.ts:32</note>
+      </notes>
+      <segment>
+        <source>Blocks</source>
+      </segment>
+    </unit>
+    <unit id="PayoutAddresses">
+      <notes>
+        <note category="location">src/app/explorer/payout/payout.component.ts:32</note>
+      </notes>
+      <segment>
+        <source>Payout Addresses</source>
+      </segment>
+    </unit>
+    <unit id="Launcher">
+      <notes>
+        <note category="location">src/app/explorer/payout/payout.component.ts:32</note>
+      </notes>
+      <segment>
+        <source>Launcher ID</source>
+      </segment>
+    </unit>
+    <unit id="Transaction">
+      <notes>
+        <note category="location">src/app/explorer/payout/payout.component.ts:32</note>
+      </notes>
+      <segment>
+        <source>Transaction</source>
+      </segment>
+    </unit>
+    <unit id="NoPayoutsAddrs">
+      <notes>
+        <note category="location">src/app/explorer/payout/payout.component.ts:32</note>
+      </notes>
+      <segment>
+        <source>No payouts addresses found!</source>
       </segment>
     </unit>
     <unit id="2032214384688052707">
@@ -682,28 +742,12 @@
         <source>Do you have any other questions?</source>
       </segment>
     </unit>
-    <unit id="1949302126255810191">
-      <notes>
-        <note category="location">src/app/fees/fees.component.html:35,36</note>
-      </notes>
-      <segment>
-        <source>Reward Distribution</source>
-      </segment>
-    </unit>
     <unit id="Payouts">
       <notes>
         <note category="location">src/app/fees/fees.component.html:43,49</note>
       </notes>
       <segment>
         <source>Payouts</source>
-      </segment>
-    </unit>
-    <unit id="8479159211474411356">
-      <notes>
-        <note category="location">src/app/fees/fees.component.html:49,34</note>
-      </notes>
-      <segment>
-        <source> We use PPLNS (Pay Per Last N Shares) to distribute rewards.<ph id="0" equiv="LINE_BREAK" type="fmt" disp="&lt;br /&gt;"/> When a block is won, we look at the valid partials (shares) submitted by all users in the pool since last payout and distribute the reward value based on your share among all farmers in the pool.<ph id="1" equiv="LINE_BREAK" type="fmt" disp="&lt;br /&gt;"/> In our case Last N Shares refers to partials since last payout. We believe this system is far more fair for less frequent rewards (when Last N Shares means only last few hours), since people contributing for more time will get more rewards.<ph id="2" equiv="LINE_BREAK" type="fmt" disp="&lt;br /&gt;"/> Once our estimated time to win gets below 48 hours we plan on changing the Last N Shares to 48 hours of valid partials. </source>
       </segment>
     </unit>
     <unit id="4040786877830825878">
@@ -723,12 +767,76 @@
         <source>Fees</source>
       </segment>
     </unit>
-    <unit id="7172257522577999342">
+    <unit id="3179472790665120358">
       <notes>
         <note category="location">src/app/fees/fees.component.ts:16</note>
       </notes>
       <segment>
-        <source> Fees are structured this way: <pc id="0" equivStart="START_UNORDERED_LIST" equivEnd="CLOSE_UNORDERED_LIST" type="other" dispStart="&lt;ul&gt;" dispEnd="&lt;/ul&gt;"><pc id="1" equivStart="START_LIST_ITEM" equivEnd="CLOSE_LIST_ITEM" type="other" dispStart="&lt;li&gt;" dispEnd="&lt;/li&gt;">Until 1st September 2021 (2021/09/01): <pc id="2" equivStart="START_TAG_STRONG" equivEnd="CLOSE_TAG_STRONG" type="other" dispStart="&lt;strong&gt;" dispEnd="&lt;/strong&gt;">0%</pc></pc><pc id="3" equivStart="START_LIST_ITEM" equivEnd="CLOSE_LIST_ITEM" type="other" dispStart="&lt;li&gt;" dispEnd="&lt;/li&gt;">After 1st September 2021 (2021/09/01): <pc id="4" equivStart="START_TAG_STRONG" equivEnd="CLOSE_TAG_STRONG" type="other" dispStart="&lt;strong&gt;" dispEnd="&lt;/strong&gt;">1%</pc></pc></pc> Examples: <pc id="5" equivStart="START_UNORDERED_LIST" equivEnd="CLOSE_UNORDERED_LIST" type="other" dispStart="&lt;ul&gt;" dispEnd="&lt;/ul&gt;"><pc id="6" equivStart="START_LIST_ITEM" equivEnd="CLOSE_LIST_ITEM" type="other" dispStart="&lt;li&gt;" dispEnd="&lt;/li&gt;"><pc id="7" equivStart="START_ITALIC_TEXT" equivEnd="CLOSE_ITALIC_TEXT" type="fmt" dispStart="&lt;i&gt;" dispEnd="&lt;/i&gt;">Before 1st September:</pc>A reward of 1.75 XCH will be distributed to pool farmers, 0 XCH (nothing) is kept to the pool.</pc><pc id="8" equivStart="START_LIST_ITEM" equivEnd="CLOSE_LIST_ITEM" type="other" dispStart="&lt;li&gt;" dispEnd="&lt;/li&gt;"><pc id="9" equivStart="START_ITALIC_TEXT" equivEnd="CLOSE_ITALIC_TEXT" type="fmt" dispStart="&lt;i&gt;" dispEnd="&lt;/i&gt;">After 1st September:</pc>If a reward of 1.75 XCH is found, only 1% of that, 0.0175 will be kept to the pool as a fee. The remaining 1.625 XCH will be distributed to pool farmers.</pc></pc></source>
+        <source>Fees are structured this way</source>
+      </segment>
+    </unit>
+    <unit id="4204023333676450372">
+      <notes>
+        <note category="location">src/app/fees/fees.component.ts:16</note>
+      </notes>
+      <segment>
+        <source>Until 1st September 2021 (2021/09/01)</source>
+      </segment>
+    </unit>
+    <unit id="8559170870663360229">
+      <notes>
+        <note category="location">src/app/fees/fees.component.ts:16</note>
+      </notes>
+      <segment>
+        <source>Examples</source>
+      </segment>
+    </unit>
+    <unit id="3869946742032895114">
+      <notes>
+        <note category="location">src/app/fees/fees.component.ts:16</note>
+      </notes>
+      <segment>
+        <source>Before 1st September</source>
+      </segment>
+    </unit>
+    <unit id="4423939679955683675">
+      <notes>
+        <note category="location">src/app/fees/fees.component.ts:16</note>
+      </notes>
+      <segment>
+        <source>A reward of 1.75 XCH will be distributed to pool farmers, 0 XCH (nothing) is kept to the pool.</source>
+      </segment>
+    </unit>
+    <unit id="6916434805989733156">
+      <notes>
+        <note category="location">src/app/fees/fees.component.ts:16</note>
+      </notes>
+      <segment>
+        <source>After 1st September</source>
+      </segment>
+    </unit>
+    <unit id="5088299831715376392">
+      <notes>
+        <note category="location">src/app/fees/fees.component.ts:16</note>
+      </notes>
+      <segment>
+        <source>If a reward of 1.75 XCH is found, only 1% of that, 0.0175 will be kept to the pool as a fee. The remaining 1.7325 XCH will be distributed to pool farmers.</source>
+      </segment>
+    </unit>
+    <unit id="1949302126255810191">
+      <notes>
+        <note category="location">src/app/fees/fees.component.ts:16</note>
+      </notes>
+      <segment>
+        <source>Reward Distribution</source>
+      </segment>
+    </unit>
+    <unit id="8479159211474411356">
+      <notes>
+        <note category="location">src/app/fees/fees.component.ts:16</note>
+      </notes>
+      <segment>
+        <source> We use PPLNS (Pay Per Last N Shares) to distribute rewards.<ph id="0" equiv="LINE_BREAK" type="fmt" disp="&lt;br /&gt;"/> When a block is won, we look at the valid partials (shares) submitted by all users in the pool since last payout and distribute the reward value based on your share among all farmers in the pool.<ph id="1" equiv="LINE_BREAK" type="fmt" disp="&lt;br /&gt;"/> In our case Last N Shares refers to partials since last payout. We believe this system is far more fair for less frequent rewards (when Last N Shares means only last few hours), since people contributing for more time will get more rewards.<ph id="2" equiv="LINE_BREAK" type="fmt" disp="&lt;br /&gt;"/> Once our estimated time to win gets below 48 hours we plan on changing the Last N Shares to 48 hours of valid partials. </source>
       </segment>
     </unit>
     <unit id="7143444199300614511">
