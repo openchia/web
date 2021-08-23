@@ -34,6 +34,7 @@ export class DataService {
   getLaunchers(search?) {
     var params = new HttpParams();
     if(search !== undefined) params = params.set('search', search);
+    params = params.set('is_pool_member', 'true');
     return this.httpClient.get(`${this.REST_API_SERVER}launcher/`, { params }).subscribe(data => {
       this._launchers$.next(data['results']);
     });
