@@ -60,14 +60,15 @@
         <button class="btn btn-neutral" type="button" (click)="searchFarmer()" i18n>Search</button>
       </div>
     </div>
-    <table class="table table-sm table-striped">
+    <table class="table table-sm table-striped text-center">
       <thead>
         <tr>
           <th scope="col">#</th>
           <th scope="col">Launcher ID</th>
           <th scope="col" i18n="@@Difficulty">Difficulty</th>
           <th scope="col" i18n="@@Points">Points</th>
-          <th scope="col" i18n>% of total</th>
+          <th scope="col" i18n="@@UtilizationSpace">Utilization Space</th>
+          <th scope="col" i18n="@@EstimatedSpace">Estimated Space</th>
         </tr>
       </thead>
       <tbody>
@@ -79,6 +80,7 @@
           <td>{{ launcher.difficulty }}</td>
           <td>{{ launcher.points }}</td>
           <td>{{ launcher.points_of_total | number:'2.5' }}%</td>
+          <td>{{ launcher.estimated_size | filesize:{"standard": "iec"} }}</td>
         </tr>
         <tr *ngIf="searchNotFound">
           <td colspan="5" i18n>No farmers found!</td>
