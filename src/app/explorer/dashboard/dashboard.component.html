@@ -67,8 +67,8 @@
           <th scope="col">Launcher ID</th>
           <th scope="col" i18n="@@Difficulty">Difficulty</th>
           <th scope="col" i18n="@@Points">Points</th>
-          <th scope="col" i18n="@@Total">Total (%)</th>
-          <th scope="col" i18n="@@Space">Estimated Space (TB)</th>
+          <th scope="col" i18n="@@UtilizationSpace">Utilization Space</th>
+          <th scope="col" i18n="@@EstimatedSpace">Estimated Space</th>
         </tr>
       </thead>
       <tbody>
@@ -80,7 +80,7 @@
           <td>{{ launcher.difficulty }}</td>
           <td>{{ launcher.points }}</td>
           <td>{{ launcher.points_of_total | number:'2.5' }}%</td>
-          <td>{{ launcher.estimated_size / 1024 / 1024 / 1024 / 1024 | number:'1.0' }}</td>
+          <td>{{ launcher.estimated_size | filesize:{"standard": "iec"} }}</td>
         </tr>
         <tr *ngIf="searchNotFound">
           <td colspan="5" i18n>No farmers found!</td>
