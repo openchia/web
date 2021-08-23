@@ -21,24 +21,46 @@
       <div class="row row-grid justify-content-center">
         <div class="col-lg-8 text-left">
           <h2 class="display-3" i18n>How to join us</h2>
-          <p class="lead"><a href="https://github.com/Chia-Network/chia-blockchain/wiki/Pooling-User-Guide#how-to-start-pooling-in-6-steps" target="_blank">Official Chia Instructions.</a></p>
+          <p class="lead"><a
+              href="https://github.com/Chia-Network/chia-blockchain/wiki/Pooling-User-Guide#how-to-start-pooling-in-6-steps"
+              target="_blank" i18n>Official Chia Instructions.</a></p>
           <p class="lead" i18n>Make sure you are running official Chia client 1.2.0 or later.</p>
           <h3 class="display-4" i18n>Connection</h3>
           <p class="lead">https://pool.openchia.io</p>
-          <h3 class="display-4">Chia UI</h3>
+
+          <h4><strong><span i18n="@@Step">Step</span> 1</strong>: <span i18n>Sync your full node and wallet</span></h4>
           <ul>
-            <li i18n>Go to "Plots" menu in the left menu.</li>
-            <li i18n>If you already have a Plot NFT select "Change Pool" then enter https://pool.openchia.io.</li>
-            <li i18n>If you don't have a Plot NFT, add one, select "Connect to pool" and then enter https://pool.openchia.io.<br />PS: You need one Mojo to create Plot NFT, if you don't have one, grab one <a href="https://discord.gg/9Pt2qKGxG3" target="_blank">here</a> (<a href="https://blog.openchia.io/2021/08/10/faucet.html">Faucet (free Mojo/XCH) for mainnet</a>)</li>
+            <li i18n>before joining the pool, your node and wallet must be fully synchronized with Chia
+              blockchain</li>
           </ul>
-          <h3 class="display-4">Chia CLI</h3>
+
+          <h4><strong><span i18n="@@Step">Step</span> 2</strong>: <span i18n>Receive some XCH</span></h4>
           <ul>
-            <li i18n>Create Plot NFT:</li>
-            <li>chia plotnft create -s pool -u https://pool.openchia.io<br />PS: You need one Mojo to create Plot NFT, if you don't have one, grab one <a href="https://discord.gg/9Pt2qKGxG3" target="_blank">here</a> (<a href="https://blog.openchia.io/2021/08/10/faucet.html">Faucet (free Mojo/XCH) for mainnet</a>)</li>
-            <li i18n>Verify plotnft and copy contract address:</li>
-            <li>chia plotnft show</li>
-            <li i18n>Create plots using that plotnft:</li>
-            <li i18n>chia plots create -c &lt;contract address from above&gt;</li>
+            <li><span i18n>you are going to need 1 mojo (0.000000000001 XCH) which you can get through our faucet
+                service on
+                Discord channel or through Faucet website:</span>&nbsp;<a
+                href="https://faucet.chia.net/">https://faucet.chia.net/</a></li>
+            <li><span i18n>join</span>&nbsp;<a href="https://discord.gg/10Pt2qKGxG3" target="_blank">Discord</a></li>
+            <li i18n>go to “faucet” text channel</li>
+            <li i18n>type in message box:</li>
+            <li i18n>.faucet &lt;wallet address&gt;</li>
+          </ul>
+
+          <h4><strong><span i18n="@@Step">Step</span> 3</strong>: <span i18n>Create Plot NFT</span></h4>
+          <ul>
+            <li i18n>go to the “Pool” tab, and click on “Join the Pool”</li>
+            <li i18n>choose “Connect to pool” and enter the url: https://pool.openchia.io (exactly, no ending slash)
+              then wait for pool description to appear</li>
+            <li i18n>click the “Create” button. In the next couple of minutes, the Plot NFT will be created, and it
+              will appear in your “Pool” tab</li>
+            <li i18n>You can now start creating Plots in “Plots” tab using this new Plot NFT to start farming XCH</li>
+          </ul>
+
+          <h4>Switching pools</h4>
+          <ul>
+            <li i18n>Go to "Pool" menu in the left menu</li>
+            <li i18n>If you already have a Plot NFT select "Change Pool" then enter https://pool.openchia.io</li>
+            <li i18n>Click “Change” button</li>
           </ul>
         </div>
       </div>
