@@ -77,18 +77,18 @@
             <span class="nav-link-inner--text" i18n="@@JoinPool">Join our pool</span>
           </a>
         </li>
-        <li ngbDropdown class="nav-item">
-            <a ngbDropdownToggle class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" id="languageDropdown" role="button">
-              <i class="ni ni-collection d-lg-none"></i>
-              <span class="nav-link-inner--text">{{ locale | uppercase }}</span>
-            </a>
-            <div class="dropdown-menu" aria-labelledby="languageDropdown" ngbDropdownMenu>
-              <a ngbDropdownItem href="/de/" class="dropdown-item">Deutsch</a>
-              <a ngbDropdownItem href="/en/" class="dropdown-item">English</a>
-              <a ngbDropdownItem href="/fr/" class="dropdown-item">Français</a>
-              <a ngbDropdownItem href="/pl/" class="dropdown-item">Polski</a>
-              <a ngbDropdownItem href="/pt/" class="dropdown-item">Português</a>
-            </div>
+        <li ngbDropdown class="nav-item dropdown">
+          <a ngbDropdownToggle class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" id="languageDropdown" role="button">
+            <i class="ni ni-collection d-lg-none"></i>
+            <span class="nav-link-inner--text">{{ locale | uppercase }}</span>
+          </a>
+          <div class="dropdown-menu" aria-labelledby="languageDropdown" ngbDropdownMenu>
+            <a ngbDropdownItem href="/de/" class="dropdown-item">Deutsch</a>
+            <a ngbDropdownItem href="/en/" class="dropdown-item">English</a>
+            <a ngbDropdownItem href="/fr/" class="dropdown-item">Français</a>
+            <a ngbDropdownItem href="/pl/" class="dropdown-item">Polski</a>
+            <a ngbDropdownItem href="/pt/" class="dropdown-item">Português</a>
+          </div>
         </li>
       </ul>
     </div>
