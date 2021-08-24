@@ -19,6 +19,7 @@ export class DashboardComponent implements OnInit, AfterViewInit {
   farmers: any;
   netspace: number = 0;
   poolLog: string = '';
+  xch_current_price: number = 0;
 
   searchNotFound: boolean = false;
 
@@ -48,6 +49,7 @@ export class DashboardComponent implements OnInit, AfterViewInit {
         this.rewards_blocks = data['rewards_blocks'];
         this.farmers = data['farmers'];
         this.netspace = data['blockchain_space'];
+        this.xch_current_price = data['xch_current_price'];
     });
     this.dataService.getBlocks();
     this.dataService.getLaunchers();
