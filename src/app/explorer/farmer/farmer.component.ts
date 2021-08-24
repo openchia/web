@@ -27,7 +27,7 @@ export class FarmerComponent implements OnInit {
   partialsFailed: number = 0;
   partialsPoints: number = 0;
 
-  payouts$: Observable<any[]>;
+  payoutaddrs$: Observable<any[]>;
   payoutsCollectionSize: number = 0;
   payoutsPage: number = 1;
   payoutsPageSize: number = 100;
@@ -46,7 +46,7 @@ export class FarmerComponent implements OnInit {
 
   constructor(private dataService: DataService, private route: ActivatedRoute,) {
     this.blocks$ = dataService.blocks$;
-    this.payouts$ = dataService.payouts$;
+    this.payoutaddrs$ = dataService.payoutaddrs$;
   }
 
   ngOnInit(): void {
@@ -55,37 +55,37 @@ export class FarmerComponent implements OnInit {
       this.dataService.getLauncher(this.farmerid).subscribe(launcher => {
         this.farmer = launcher;
         this.getPartialsData(this.farmerid);
-	this.dataService.getPayouts(this.farmerid);
-	this.dataService.getBlocks(this.farmerid);
+        this.dataService.getPayoutAddrs({ launcher: this.farmerid });
+        this.dataService.getBlocks(this.farmerid);
       });
     });
   }
 
   _handlePartial(subscriber, data, successes, errors, hours) {
 
-     data['results'].forEach(v => {
-       var hour = Math.floor(v['timestamp'] / 3600) * 3600;
-       hours.add(hour);
-       if(v.error === null) {
-	 this.partialsSuccessful++;
-	 this.partialsPoints += v['difficulty'];
-         errors.set(hour, (errors.get(hour) || 0))
-         successes.set(hour, (successes.get(hour) || 0) + 1)
-       } else {
-	 this.partialsFailed++;
-         errors.set(hour, (errors.get(hour) || 0) + 1)
-         successes.set(hour, (successes.get(hour) || 0))
-       }
+    data['results'].forEach(v => {
+      var hour = Math.floor(v['timestamp'] / 3600) * 3600;
+      hours.add(hour);
+      if(v.error === null) {
+        this.partialsSuccessful++;
+        this.partialsPoints += v['difficulty'];
+        errors.set(hour, (errors.get(hour) || 0))
+        successes.set(hour, (successes.get(hour) || 0) + 1)
+      } else {
+        this.partialsFailed++;
+        errors.set(hour, (errors.get(hour) || 0) + 1)
+        successes.set(hour, (successes.get(hour) || 0))
+      }
 
-     });
+    });
 
-     if(data['next']) {
-       this.dataService.getNext(data['next']).subscribe(
-         (data) => {this._handlePartial(subscriber, data, successes, errors, hours);}
-       );
-     } else {
-       subscriber.complete();
-     }
+    if(data['next']) {
+      this.dataService.getNext(data['next']).subscribe(
+        (data) => { this._handlePartial(subscriber, data, successes, errors, hours); }
+      );
+    } else {
+      subscriber.complete();
+    }
 
   }
 
@@ -94,10 +94,10 @@ export class FarmerComponent implements OnInit {
   }
 
   refreshPartials() {
-     this.dataService.getPartials(this.farmerid, (this.partialsPage - 1) * this.partialsPageSize).subscribe(data => {
-       this.partialsCollectionSize = data['count'];
-       this.partials$.next(data['results']);
-     });
+    this.dataService.getPartials(this.farmerid, (this.partialsPage - 1) * this.partialsPageSize).subscribe(data => {
+      this.partialsCollectionSize = data['count'];
+      this.partials$.next(data['results']);
+    });
   }
 
   getPartialsData(launcher_id) {
@@ -115,7 +115,7 @@ export class FarmerComponent implements OnInit {
     });
 
     obs.subscribe(
-      (x) => {},
+      (x) => { },
       (err) => { console.error('something wrong occurred: ' + err); },
       () => {
 
@@ -125,13 +125,13 @@ export class FarmerComponent implements OnInit {
           {
             "name": $localize`Successful Partials`,
             "series": Array.from(successes, (i, idx) => {
-                    return {"name": i[0], "value": i[1]};
+              return { "name": i[0], "value": i[1] };
             }),
           },
           {
             "name": $localize`Failed Partials`,
             "series": Array.from(errors, (i, idx) => {
-                    return {"name": i[0], "value": i[1]};
+              return { "name": i[0], "value": i[1] };
             }),
           },
         ];

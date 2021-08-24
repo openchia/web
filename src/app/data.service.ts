@@ -24,7 +24,7 @@ export class DataService {
 
   getBlocks(launcher?, offset?) {
     var params = [];
-    if(launcher) params.push(`launcher=${launcher}`);
+    if(launcher) params.push(`farmed_by=${launcher}`);
     if(offset) params.push(`offset=${offset}`);
     return this.httpClient.get(this.REST_API_SERVER + 'block/?' + params.join('&')).subscribe(data => {
       this._blocks$.next(data['results']);
@@ -49,10 +49,18 @@ export class DataService {
     });
   }
 
-  getPayoutAddrs(id: number, offset?) {
-    var params = [`payout=${id}`];
-    if(offset) params.push(`offset=${offset}`);
-    return this.httpClient.get(`${this.REST_API_SERVER}payoutaddress/?${params.join('&')}`).subscribe(data => {
+  getPayoutAddrs(attrs: any, offset?) {
+    var params = new HttpParams();
+    if(attrs.id) {
+      params = params.set('payout', attrs.id);
+    }
+    if(attrs.launcher) {
+      params = params.set('launcher', attrs.launcher);
+    }
+    if(offset) {
+      params = params.set('offset', offset);
+    }
+    return this.httpClient.get(`${this.REST_API_SERVER}payoutaddress/`, { params }).subscribe(data => {
       this._payoutaddrs$.next(data['results']);
     });
   }
