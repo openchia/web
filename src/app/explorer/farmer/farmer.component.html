@@ -1,5 +1,8 @@
 <section class="section section-sm pt-sm">
   <div class="container">
+    <div *ngIf="farmer.is_pool_member===false" class="alert alert-warning" role="alert">
+      <strong i18n="@@Warning">Warning</strong>: <span i18n>farmer doesn't exist, has left and/or has been removed.</span>
+    </div>
     <h3 class="display-3" i18n>Farmer Details</h3>
     <table class="table table-sm table-striped">
       <tbody>
@@ -32,6 +35,7 @@
         </tr>
       </tbody>
     </table>
+    <br />
     <ul ngbNav #nav="ngbNav" [(activeId)]="tabActive" class="nav-tabs navbar-inverse">
       <li [ngbNavItem]="1">
         <a class="display-4" ngbNavLink i18n="@@Partials">Partials</a>
