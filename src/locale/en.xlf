@@ -266,8 +266,7 @@
     </unit>
     <unit id="6948786787037977434">
       <notes>
-        <note category="location">src/app/explorer/dashboard/dashboard.component.html:28,33</note>
-        <note category="location">src/app/explorer/farmer/farmer.component.ts:149</note>
+        <note category="location">src/app/explorer/dashboard/dashboard.component.html:36,41</note>
       </notes>
       <segment>
         <source>Blocks</source>
@@ -275,8 +274,8 @@
     </unit>
     <unit id="Farmers">
       <notes>
-        <note category="location">src/app/explorer/dashboard/dashboard.component.html:35,42</note>
-        <note category="location">src/app/explorer/dashboard/dashboard.component.ts:40,48</note>
+        <note category="location">src/app/explorer/dashboard/dashboard.component.html:43,50</note>
+        <note category="location">src/app/explorer/dashboard/dashboard.component.ts:40,49</note>
       </notes>
       <segment>
         <source>Farmers</source>
@@ -284,7 +283,7 @@
     </unit>
     <unit id="3145581158682357446">
       <notes>
-        <note category="location">src/app/explorer/dashboard/dashboard.component.html:43,26</note>
+        <note category="location">src/app/explorer/dashboard/dashboard.component.html:51,34</note>
       </notes>
       <segment>
         <source><ph id="0" equiv="INTERPOLATION" disp="{{ rewards_blocks }}"/> farmed</source>
@@ -292,7 +291,7 @@
     </unit>
     <unit id="3406747127815684711">
       <notes>
-        <note category="location">src/app/explorer/dashboard/dashboard.component.html:44,55</note>
+        <note category="location">src/app/explorer/dashboard/dashboard.component.html:52,63</note>
       </notes>
       <segment>
         <source>Netspace</source>
@@ -300,7 +299,7 @@
     </unit>
     <unit id="6955537025048058867">
       <notes>
-        <note category="location">src/app/explorer/dashboard/dashboard.component.html:57,34</note>
+        <note category="location">src/app/explorer/dashboard/dashboard.component.html:65,42</note>
       </notes>
       <segment>
         <source><ph id="0" equiv="INTERPOLATION" disp="{{ farmers }}"/> total</source>
@@ -308,7 +307,7 @@
     </unit>
     <unit id="1175065931767236325">
       <notes>
-        <note category="location">src/app/explorer/dashboard/dashboard.component.html:66,72</note>
+        <note category="location">src/app/explorer/dashboard/dashboard.component.html:73,78</note>
       </notes>
       <segment>
         <source>No farmers found!</source>
@@ -316,7 +315,7 @@
     </unit>
     <unit id="1140108877159163263">
       <notes>
-        <note category="location">src/app/explorer/dashboard/dashboard.component.html:79,86</note>
+        <note category="location">src/app/explorer/dashboard/dashboard.component.html:86,91</note>
       </notes>
       <segment>
         <source>No blocks found!</source>
@@ -324,7 +323,7 @@
     </unit>
     <unit id="NoPayouts">
       <notes>
-        <note category="location">src/app/explorer/dashboard/dashboard.component.html:101,106</note>
+        <note category="location">src/app/explorer/dashboard/dashboard.component.html:104,113</note>
         <note category="location">src/app/explorer/farmer/farmer.component.ts:149</note>
       </notes>
       <segment>
@@ -333,7 +332,7 @@
     </unit>
     <unit id="4580988005648117665">
       <notes>
-        <note category="location">src/app/explorer/dashboard/dashboard.component.ts:61,66</note>
+        <note category="location">src/app/explorer/dashboard/dashboard.component.ts:59,67</note>
       </notes>
       <segment>
         <source>Search</source>
@@ -341,8 +340,8 @@
     </unit>
     <unit id="Difficulty">
       <notes>
-        <note category="location">src/app/explorer/dashboard/dashboard.component.ts:81</note>
-        <note category="location">src/app/explorer/farmer/farmer.component.ts:110,119</note>
+        <note category="location">src/app/explorer/dashboard/dashboard.component.ts:83</note>
+        <note category="location">src/app/explorer/farmer/farmer.component.ts:110,117</note>
       </notes>
       <segment>
         <source>Difficulty</source>
@@ -350,24 +349,32 @@
     </unit>
     <unit id="Points">
       <notes>
-        <note category="location">src/app/explorer/dashboard/dashboard.component.ts:81</note>
-        <note category="location">src/app/explorer/farmer/farmer.component.ts:68,75</note>
+        <note category="location">src/app/explorer/dashboard/dashboard.component.ts:83</note>
+        <note category="location">src/app/explorer/farmer/farmer.component.ts:67,73</note>
       </notes>
       <segment>
         <source>Points</source>
       </segment>
     </unit>
-    <unit id="2929691011645001388">
+    <unit id="UtilizationSpace">
       <notes>
-        <note category="location">src/app/explorer/dashboard/dashboard.component.ts:81</note>
+        <note category="location">src/app/explorer/dashboard/dashboard.component.ts:83</note>
       </notes>
       <segment>
-        <source>% of total</source>
+        <source>Utilization Space</source>
+      </segment>
+    </unit>
+    <unit id="EstimatedSpace">
+      <notes>
+        <note category="location">src/app/explorer/dashboard/dashboard.component.ts:83</note>
+      </notes>
+      <segment>
+        <source>Estimated Space</source>
       </segment>
     </unit>
     <unit id="8616757634091748553">
       <notes>
-        <note category="location">src/app/explorer/dashboard/dashboard.component.ts:81</note>
+        <note category="location">src/app/explorer/dashboard/dashboard.component.ts:83</note>
       </notes>
       <segment>
         <source>Blocks Found</source>
@@ -375,7 +382,7 @@
     </unit>
     <unit id="6410467948610503551">
       <notes>
-        <note category="location">src/app/explorer/dashboard/dashboard.component.ts:81</note>
+        <note category="location">src/app/explorer/dashboard/dashboard.component.ts:83</note>
       </notes>
       <segment>
         <source>Index</source>
@@ -383,8 +390,8 @@
     </unit>
     <unit id="3973931101896534797">
       <notes>
-        <note category="location">src/app/explorer/dashboard/dashboard.component.ts:81</note>
-        <note category="location">src/app/explorer/dashboard/dashboard.component.ts:81</note>
+        <note category="location">src/app/explorer/dashboard/dashboard.component.ts:83</note>
+        <note category="location">src/app/explorer/dashboard/dashboard.component.ts:83</note>
         <note category="location">src/app/explorer/farmer/farmer.component.ts:149</note>
       </notes>
       <segment>
@@ -393,7 +400,7 @@
     </unit>
     <unit id="3223637037001251732">
       <notes>
-        <note category="location">src/app/explorer/dashboard/dashboard.component.ts:81</note>
+        <note category="location">src/app/explorer/dashboard/dashboard.component.ts:83</note>
       </notes>
       <segment>
         <source>Farmer</source>
@@ -401,7 +408,7 @@
     </unit>
     <unit id="1987379316591371803">
       <notes>
-        <note category="location">src/app/explorer/dashboard/dashboard.component.ts:81</note>
+        <note category="location">src/app/explorer/dashboard/dashboard.component.ts:83</note>
       </notes>
       <segment>
         <source>Payouts</source>
@@ -409,7 +416,7 @@
     </unit>
     <unit id="ID">
       <notes>
-        <note category="location">src/app/explorer/dashboard/dashboard.component.ts:81</note>
+        <note category="location">src/app/explorer/dashboard/dashboard.component.ts:83</note>
       </notes>
       <segment>
         <source>ID</source>
@@ -417,7 +424,8 @@
     </unit>
     <unit id="Amount">
       <notes>
-        <note category="location">src/app/explorer/dashboard/dashboard.component.ts:81</note>
+        <note category="location">src/app/explorer/dashboard/dashboard.component.ts:83</note>
+        <note category="location">src/app/explorer/farmer/farmer.component.ts:149</note>
         <note category="location">src/app/explorer/farmer/farmer.component.ts:149</note>
         <note category="location">src/app/explorer/payout/payout.component.ts:32</note>
         <note category="location">src/app/explorer/payout/payout.component.ts:32</note>
@@ -428,15 +436,23 @@
     </unit>
     <unit id="2318140886847115923">
       <notes>
-        <note category="location">src/app/explorer/dashboard/dashboard.component.ts:81</note>
+        <note category="location">src/app/explorer/dashboard/dashboard.component.ts:83</note>
       </notes>
       <segment>
         <source>Pool server real-time log</source>
       </segment>
     </unit>
+    <unit id="91968095428425686">
+      <notes>
+        <note category="location">src/app/explorer/dashboard/dashboard.component.ts:83</note>
+      </notes>
+      <segment>
+        <source>XCH Price</source>
+      </segment>
+    </unit>
     <unit id="6428143771369644145">
       <notes>
-        <note category="location">src/app/explorer/dashboard/dashboard.component.ts:81</note>
+        <note category="location">src/app/explorer/dashboard/dashboard.component.ts:83</note>
       </notes>
       <segment>
         <source>Pool Space</source>
@@ -444,7 +460,7 @@
     </unit>
     <unit id="1004766315783326842">
       <notes>
-        <note category="location">src/app/explorer/dashboard/dashboard.component.ts:81</note>
+        <note category="location">src/app/explorer/dashboard/dashboard.component.ts:83</note>
       </notes>
       <segment>
         <source>ETW</source>
@@ -452,7 +468,7 @@
     </unit>
     <unit id="8398056438540085583">
       <notes>
-        <note category="location">src/app/explorer/dashboard/dashboard.component.ts:81</note>
+        <note category="location">src/app/explorer/dashboard/dashboard.component.ts:83</note>
       </notes>
       <segment>
         <source><ph id="0" equiv="INTERPOLATION" disp="{{ estimate_win / 60 / 24 | number }}"/> days</source>
@@ -484,7 +500,7 @@
     </unit>
     <unit id="6880713934119717799">
       <notes>
-        <note category="location">src/app/explorer/farmer/farmer.component.ts:49,56</note>
+        <note category="location">src/app/explorer/farmer/farmer.component.ts:48,56</note>
       </notes>
       <segment>
         <source>Friendly Name</source>
@@ -492,7 +508,7 @@
     </unit>
     <unit id="5043891966437752386">
       <notes>
-        <note category="location">src/app/explorer/farmer/farmer.component.ts:90,97</note>
+        <note category="location">src/app/explorer/farmer/farmer.component.ts:86,97</note>
       </notes>
       <segment>
         <source>Launcher ID</source>
@@ -507,12 +523,12 @@
         <source>Successful Partials</source>
       </segment>
     </unit>
-    <unit id="8311659957519204575">
+    <unit id="760044993052786414">
       <notes>
-        <note category="location">src/app/explorer/farmer/farmer.component.ts:132,145</note>
+        <note category="location">src/app/explorer/farmer/farmer.component.ts:130,144</note>
       </notes>
       <segment>
-        <source>Estimated Size</source>
+        <source>Estimated Size </source>
       </segment>
     </unit>
     <unit id="2756022432863940642">
@@ -532,7 +548,7 @@
         <source>Partials</source>
       </segment>
     </unit>
-    <unit id="1037127944915137232">
+    <unit id="2153109973251079314">
       <notes>
         <note category="location">src/app/explorer/farmer/farmer.component.ts:149</note>
       </notes>
@@ -554,6 +570,14 @@
       </notes>
       <segment>
         <source>Points (24 hours)</source>
+      </segment>
+    </unit>
+    <unit id="6930616437385085682">
+      <notes>
+        <note category="location">src/app/explorer/farmer/farmer.component.ts:149</note>
+      </notes>
+      <segment>
+        <source>Partials</source>
       </segment>
     </unit>
     <unit id="1063462873103909661">
@@ -580,14 +604,21 @@
         <source>No partials found!</source>
       </segment>
     </unit>
-    <unit id="Date">
+    <unit id="Transaction">
       <notes>
-        <note category="location">src/app/explorer/farmer/farmer.component.ts:149</note>
         <note category="location">src/app/explorer/farmer/farmer.component.ts:149</note>
         <note category="location">src/app/explorer/payout/payout.component.ts:32</note>
       </notes>
       <segment>
-        <source>Date</source>
+        <source>Transaction</source>
+      </segment>
+    </unit>
+    <unit id="TransactionBlock">
+      <notes>
+        <note category="location">src/app/explorer/farmer/farmer.component.ts:149</note>
+      </notes>
+      <segment>
+        <source>Transaction Block</source>
       </segment>
     </unit>
     <unit id="Height">
@@ -596,6 +627,15 @@
       </notes>
       <segment>
         <source>Height</source>
+      </segment>
+    </unit>
+    <unit id="Date">
+      <notes>
+        <note category="location">src/app/explorer/farmer/farmer.component.ts:149</note>
+        <note category="location">src/app/explorer/payout/payout.component.ts:32</note>
+      </notes>
+      <segment>
+        <source>Date</source>
       </segment>
     </unit>
     <unit id="3900702001221590652">
@@ -668,14 +708,6 @@
       </notes>
       <segment>
         <source>Launcher ID</source>
-      </segment>
-    </unit>
-    <unit id="Transaction">
-      <notes>
-        <note category="location">src/app/explorer/payout/payout.component.ts:32</note>
-      </notes>
-      <segment>
-        <source>Transaction</source>
       </segment>
     </unit>
     <unit id="NoPayoutsAddrs">
@@ -839,44 +871,20 @@
         <source> We use PPLNS (Pay Per Last N Shares) to distribute rewards.<ph id="0" equiv="LINE_BREAK" type="fmt" disp="&lt;br /&gt;"/> When a block is won, we look at the valid partials (shares) submitted by all users in the pool since last payout and distribute the reward value based on your share among all farmers in the pool.<ph id="1" equiv="LINE_BREAK" type="fmt" disp="&lt;br /&gt;"/> In our case Last N Shares refers to partials since last payout. We believe this system is far more fair for less frequent rewards (when Last N Shares means only last few hours), since people contributing for more time will get more rewards.<ph id="2" equiv="LINE_BREAK" type="fmt" disp="&lt;br /&gt;"/> Once our estimated time to win gets below 48 hours we plan on changing the Last N Shares to 48 hours of valid partials. </source>
       </segment>
     </unit>
-    <unit id="7143444199300614511">
-      <notes>
-        <note category="location">src/app/join/join.component.html:37,41</note>
-      </notes>
-      <segment>
-        <source>Create Plot NFT:</source>
-      </segment>
-    </unit>
-    <unit id="6327177447190265105">
-      <notes>
-        <note category="location">src/app/join/join.component.html:48</note>
-      </notes>
-      <segment>
-        <source>Verify plotnft and copy contract address:</source>
-      </segment>
-    </unit>
-    <unit id="4839405892539527393">
-      <notes>
-        <note category="location">src/app/join/join.component.html:48</note>
-      </notes>
-      <segment>
-        <source>Create plots using that plotnft:</source>
-      </segment>
-    </unit>
-    <unit id="8371722561970711209">
-      <notes>
-        <note category="location">src/app/join/join.component.html:48</note>
-      </notes>
-      <segment>
-        <source>chia plots create -c &lt;contract address from above&gt;</source>
-      </segment>
-    </unit>
     <unit id="5683785837580689751">
       <notes>
         <note category="location">src/app/join/join.component.ts:18</note>
       </notes>
       <segment>
         <source>How to join us</source>
+      </segment>
+    </unit>
+    <unit id="427062538161914083">
+      <notes>
+        <note category="location">src/app/join/join.component.ts:18</note>
+      </notes>
+      <segment>
+        <source>Official Chia Instructions.</source>
       </segment>
     </unit>
     <unit id="4165674190938428121">
@@ -895,28 +903,142 @@
         <source>Connection</source>
       </segment>
     </unit>
-    <unit id="7422727091201325409">
+    <unit id="Step">
       <notes>
+        <note category="location">src/app/join/join.component.ts:18</note>
+        <note category="location">src/app/join/join.component.ts:18</note>
         <note category="location">src/app/join/join.component.ts:18</note>
       </notes>
       <segment>
-        <source>Go to &quot;Plots&quot; menu in the left menu.</source>
+        <source>Step</source>
       </segment>
     </unit>
-    <unit id="6828977561113207354">
+    <unit id="5701428712894376039">
       <notes>
         <note category="location">src/app/join/join.component.ts:18</note>
       </notes>
       <segment>
-        <source>If you already have a Plot NFT select &quot;Change Pool&quot; then enter https://pool.openchia.io.</source>
+        <source>Sync your full node and wallet</source>
       </segment>
     </unit>
-    <unit id="3673812821733308540">
+    <unit id="4267952904665583656">
       <notes>
         <note category="location">src/app/join/join.component.ts:18</note>
       </notes>
       <segment>
-        <source>If you don&apos;t have a Plot NFT, add one, select &quot;Connect to pool&quot; and then enter https://pool.openchia.io.<ph id="0" equiv="LINE_BREAK" type="fmt" disp="&lt;br /&gt;"/>PS: You need one Mojo to create Plot NFT, if you don&apos;t have one, grab one <pc id="1" equivStart="START_LINK" equivEnd="CLOSE_LINK" type="link" dispStart="&lt;a href=&quot;https://discord.gg/9Pt2qKGxG3&quot; target=&quot;_blank&quot;&gt;" dispEnd="&lt;/a&gt;">here</pc> (<pc id="2" equivStart="START_LINK_1" equivEnd="CLOSE_LINK" type="link" dispStart="&lt;a href=&quot;https://blog.openchia.io/2021/08/10/faucet.html&quot;&gt;" dispEnd="&lt;/a&gt;">Faucet (free Mojo/XCH) for mainnet</pc>)</source>
+        <source>before joining the pool, your node and wallet must be fully synchronized with Chia blockchain</source>
+      </segment>
+    </unit>
+    <unit id="4686179819982655014">
+      <notes>
+        <note category="location">src/app/join/join.component.ts:18</note>
+      </notes>
+      <segment>
+        <source>Receive some XCH</source>
+      </segment>
+    </unit>
+    <unit id="8407551821312874924">
+      <notes>
+        <note category="location">src/app/join/join.component.ts:18</note>
+      </notes>
+      <segment>
+        <source>you are going to need 1 mojo (0.000000000001 XCH) which you can get through our faucet service on Discord channel or through Faucet website:</source>
+      </segment>
+    </unit>
+    <unit id="573605943360652415">
+      <notes>
+        <note category="location">src/app/join/join.component.ts:18</note>
+      </notes>
+      <segment>
+        <source>join</source>
+      </segment>
+    </unit>
+    <unit id="1758435593288719047">
+      <notes>
+        <note category="location">src/app/join/join.component.ts:18</note>
+      </notes>
+      <segment>
+        <source>go to “faucet” text channel</source>
+      </segment>
+    </unit>
+    <unit id="6579386880718541736">
+      <notes>
+        <note category="location">src/app/join/join.component.ts:18</note>
+      </notes>
+      <segment>
+        <source>type in message box:</source>
+      </segment>
+    </unit>
+    <unit id="2637241189361251661">
+      <notes>
+        <note category="location">src/app/join/join.component.ts:18</note>
+      </notes>
+      <segment>
+        <source>.faucet &lt;wallet address&gt;</source>
+      </segment>
+    </unit>
+    <unit id="6377117377899970613">
+      <notes>
+        <note category="location">src/app/join/join.component.ts:18</note>
+      </notes>
+      <segment>
+        <source>Create Plot NFT</source>
+      </segment>
+    </unit>
+    <unit id="4420171943937772574">
+      <notes>
+        <note category="location">src/app/join/join.component.ts:18</note>
+      </notes>
+      <segment>
+        <source>go to the “Pool” tab, and click on “Join the Pool”</source>
+      </segment>
+    </unit>
+    <unit id="7600229961018223463">
+      <notes>
+        <note category="location">src/app/join/join.component.ts:18</note>
+      </notes>
+      <segment>
+        <source>choose “Connect to pool” and enter the url: https://pool.openchia.io (exactly, no ending slash) then wait for pool description to appear</source>
+      </segment>
+    </unit>
+    <unit id="5200920908020858748">
+      <notes>
+        <note category="location">src/app/join/join.component.ts:18</note>
+      </notes>
+      <segment>
+        <source>click the “Create” button. In the next couple of minutes, the Plot NFT will be created, and it will appear in your “Pool” tab</source>
+      </segment>
+    </unit>
+    <unit id="5265690573497854746">
+      <notes>
+        <note category="location">src/app/join/join.component.ts:18</note>
+      </notes>
+      <segment>
+        <source>You can now start creating Plots in “Plots” tab using this new Plot NFT to start farming XCH</source>
+      </segment>
+    </unit>
+    <unit id="2252939334456578689">
+      <notes>
+        <note category="location">src/app/join/join.component.ts:18</note>
+      </notes>
+      <segment>
+        <source>Go to &quot;Pool&quot; menu in the left menu</source>
+      </segment>
+    </unit>
+    <unit id="8447672339763475319">
+      <notes>
+        <note category="location">src/app/join/join.component.ts:18</note>
+      </notes>
+      <segment>
+        <source>If you already have a Plot NFT select &quot;Change Pool&quot; then enter https://pool.openchia.io</source>
+      </segment>
+    </unit>
+    <unit id="8758786563911669380">
+      <notes>
+        <note category="location">src/app/join/join.component.ts:18</note>
+      </notes>
+      <segment>
+        <source>Click “Change” button</source>
       </segment>
     </unit>
     <unit id="7623464505437750989">
@@ -943,12 +1065,12 @@
         <source>A pool you can trust.</source>
       </segment>
     </unit>
-    <unit id="2905619048308246310">
+    <unit id="5421336367436045349">
       <notes>
         <note category="location">src/app/landing/landing.component.ts:46</note>
       </notes>
       <segment>
-        <source>All our software is open source.</source>
+        <source>All our software is open source. </source>
       </segment>
     </unit>
     <unit id="JoinPool">
@@ -1104,15 +1226,6 @@
         <source>Software Engineer</source>
       </segment>
     </unit>
-    <unit id="1797292337796232493">
-      <notes>
-        <note category="location">src/app/partners/partners.component.html:40,39</note>
-      </notes>
-      <segment>
-        <source>OpenChia believes in a future that blockchain and cryptocurrency can exist without degrading the environment and helping make the world a better place. We believe Chia and Cardano can coexist to help make that happen. If you&apos;d like to know more about Cardano and/or join a legitimate staking pool please visit <pc id="0" equivStart="START_LINK" equivEnd="CLOSE_LINK" type="link" dispStart="&lt;a
-        href=&quot;https://vivid-pool.info/&quot; target=&quot;_blank&quot;&gt;" dispEnd="&lt;/a&gt;">Vivid Pool.</pc></source>
-      </segment>
-    </unit>
     <unit id="Partners">
       <notes>
         <note category="location">src/app/partners/partners.component.ts:16</note>
@@ -1129,20 +1242,21 @@
         <source>Please meet our partners, together for a better world.</source>
       </segment>
     </unit>
-    <unit id="1638630395802416450">
+    <unit id="8751484695665236751">
       <notes>
         <note category="location">src/app/partners/partners.component.ts:16</note>
       </notes>
       <segment>
-        <source> They&apos;re offering cutting edge cryptocurrency technology of today and tomorrow. Cardano is a cryptocurrency network and open source project that aims to run a public blockchain platform for smart contracts. Cardano&apos;s internal cryptocurrency is called ADA!</source>
+        <source> They are offering cutting-edge cryptocurrency technology of today and tomorrow. Vivid Stake Pool allows you to stake in Cardano. If you deposit your Fiat Money on your bank account, you will receive 1-3 % profit per year which will be paid after at least a few months. In Cardano it is the opposite: you receive high profits as high as 5-8 % per year which is paid every 5 days!</source>
       </segment>
     </unit>
-    <unit id="1918146053125551227">
+    <unit id="3896519408731471839">
       <notes>
         <note category="location">src/app/partners/partners.component.ts:16</note>
       </notes>
       <segment>
-        <source><pc id="0" equivStart="START_LINK" equivEnd="CLOSE_LINK" type="link" dispStart="&lt;a href=&quot;https://vivid-pool.info/&quot; target=&quot;_blank&quot;&gt;" dispEnd="&lt;/a&gt;">Vivid Stake Pool</pc> allows you to stake in Cardano. If you deposit your Fiat Money on your bank account you will receive 1-3 % profit per year which will be paid after at least a few months. In Cardano it is the opposite: you receive high profits as high as 5-8 % per year which is paid every 5 days!</source>
+        <source>OpenChia believes that in a future blockchain and cryptocurrency can exist without degrading the environment and helping make the world a better place. We believe Chia and Cardano can coexist to help make that happen. If you&apos;d like to know more about Cardano and/or join a legitimate staking pool please visit <pc id="0" equivStart="START_LINK" equivEnd="CLOSE_LINK" type="link" dispStart="&lt;a
+        href=&quot;https://vivid-pool.info/&quot; target=&quot;_blank&quot;&gt;" dispEnd="&lt;/a&gt;">Vivid Pool</pc>.</source>
       </segment>
     </unit>
     <unit id="4188492714860880995">

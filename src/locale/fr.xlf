@@ -15,7 +15,7 @@
 <unit id="1063462873103909661">
 <segment>
 <source xml:space="preserve">Difficulty</source>
-<target xml:space="preserve">Difficulty</target>
+<target xml:space="preserve">Difficulté</target>
 </segment>
 </unit>
 <unit id="1140108877159163263">
@@ -36,6 +36,12 @@
 <target xml:space="preserve"> Ils proposent une technologie de crypto-monnaie d'aujourd'hui et de demain. Cardano est un réseau de crypto-monnaies et un projet open-source qui vise à gérer une plateforme publique de blockchain pour les contrats intelligents. La crypto-monnaie interne de Cardano s'appelle ADA !</target>
 </segment>
 </unit>
+<unit id="1758435593288719047">
+<segment>
+<source xml:space="preserve">go to “faucet” text channel</source>
+<target xml:space="preserve">go to “faucet” text channel</target>
+</segment>
+</unit>
 <unit id="1774008180173753624">
 <segment>
 <source xml:space="preserve">Successful Partials</source>
@@ -53,34 +59,6 @@
 <source xml:space="preserve">OpenChia believes in a future that blockchain and cryptocurrency can exist without degrading the environment and helping make the world a better place. We believe Chia and Cardano can coexist to help make that happen. If you&apos;d like to know more about Cardano and/or join a legitimate staking pool please visit <pc dispEnd="&lt;/a&gt;" dispStart="&lt;a         href=&quot;https://vivid-pool.info/&quot; target=&quot;_blank&quot;&gt;" equivEnd="CLOSE_LINK" equivStart="START_LINK" id="0" type="link">Vivid Pool.</pc>
 </source>
 <target xml:space="preserve">OpenChia croit en un avenir que la blockchain et la crypto-monnaie peuvent exister sans dégrader l'environnement et contribuer à rendre le monde meilleur. Nous croyons que Chia et Cardano peuvent coexister pour y parvenir. Si vous souhaitez en savoir plus sur Cardano et/ou rejoindre une pool, rendez-vous sur <pc dispEnd="&lt;/a&gt;" dispStart="&lt;a         href=&quot;https://vivid-pool.info/&quot; target=&quot;_blank&quot;&gt;" equivEnd="CLOSE_LINK" equivStart="START_LINK" id="0" type="link">Vivid Pool. </pc>
-</target>
-</segment>
-</unit>
-<unit id="1893264787449292608">
-<segment>
-<source xml:space="preserve"> Fees are structured this way: <pc dispEnd="&lt;/ul&gt;" dispStart="&lt;ul&gt;" equivEnd="CLOSE_UNORDERED_LIST" equivStart="START_UNORDERED_LIST" id="0" type="other">
-<pc dispEnd="&lt;/li&gt;" dispStart="&lt;li&gt;" equivEnd="CLOSE_LIST_ITEM" equivStart="START_LIST_ITEM" id="1" type="other">Until 1st September 2021 (2021/09/01): <pc dispEnd="&lt;/strong&gt;" dispStart="&lt;strong&gt;" equivEnd="CLOSE_TAG_STRONG" equivStart="START_TAG_STRONG" id="2" type="other">0%</pc>
-</pc>
-<pc dispEnd="&lt;/li&gt;" dispStart="&lt;li&gt;" equivEnd="CLOSE_LIST_ITEM" equivStart="START_LIST_ITEM" id="3" type="other">After 1st September 2021 (2021/09/01): <pc dispEnd="&lt;/strong&gt;" dispStart="&lt;strong&gt;" equivEnd="CLOSE_TAG_STRONG" equivStart="START_TAG_STRONG" id="4" type="other">1%</pc>
-</pc>
-</pc> Examples: <pc dispEnd="&lt;/ul&gt;" dispStart="&lt;ul&gt;" equivEnd="CLOSE_UNORDERED_LIST" equivStart="START_UNORDERED_LIST" id="5" type="other">
-<pc dispEnd="&lt;/li&gt;" dispStart="&lt;li&gt;" equivEnd="CLOSE_LIST_ITEM" equivStart="START_LIST_ITEM" id="6" type="other">
-<pc dispEnd="&lt;/i&gt;" dispStart="&lt;i&gt;" equivEnd="CLOSE_ITALIC_TEXT" equivStart="START_ITALIC_TEXT" id="7" type="fmt">Before 1st September:</pc>A reward of 1.75 XCH will be distributed to pool farmers, 0 XCH (nothing) is kept to the pool.</pc>
-<pc dispEnd="&lt;/li&gt;" dispStart="&lt;li&gt;" equivEnd="CLOSE_LIST_ITEM" equivStart="START_LIST_ITEM" id="8" type="other">
-<pc dispEnd="&lt;/i&gt;" dispStart="&lt;i&gt;" equivEnd="CLOSE_ITALIC_TEXT" equivStart="START_ITALIC_TEXT" id="9" type="fmt">After 1st September:</pc>If a reward of 1.75 XCH is found, only 1% of that, 0.0175 will be kept to the pool as a fee. The remaining 1.7325 XCH will be distributed to pool farmers.</pc>
-</pc>
-</source>
-<target xml:space="preserve"> Fees are structured this way: <pc dispEnd="&lt;/ul&gt;" dispStart="&lt;ul&gt;" equivEnd="CLOSE_UNORDERED_LIST" equivStart="START_UNORDERED_LIST" id="0" type="other">
-<pc dispEnd="&lt;/li&gt;" dispStart="&lt;li&gt;" equivEnd="CLOSE_LIST_ITEM" equivStart="START_LIST_ITEM" id="1" type="other">Until 1st September 2021 (2021/09/01): <pc dispEnd="&lt;/strong&gt;" dispStart="&lt;strong&gt;" equivEnd="CLOSE_TAG_STRONG" equivStart="START_TAG_STRONG" id="2" type="other">0%</pc>
-</pc>
-<pc dispEnd="&lt;/li&gt;" dispStart="&lt;li&gt;" equivEnd="CLOSE_LIST_ITEM" equivStart="START_LIST_ITEM" id="3" type="other">After 1st September 2021 (2021/09/01): <pc dispEnd="&lt;/strong&gt;" dispStart="&lt;strong&gt;" equivEnd="CLOSE_TAG_STRONG" equivStart="START_TAG_STRONG" id="4" type="other">1%</pc>
-</pc>
-</pc> Examples: <pc dispEnd="&lt;/ul&gt;" dispStart="&lt;ul&gt;" equivEnd="CLOSE_UNORDERED_LIST" equivStart="START_UNORDERED_LIST" id="5" type="other">
-<pc dispEnd="&lt;/li&gt;" dispStart="&lt;li&gt;" equivEnd="CLOSE_LIST_ITEM" equivStart="START_LIST_ITEM" id="6" type="other">
-<pc dispEnd="&lt;/i&gt;" dispStart="&lt;i&gt;" equivEnd="CLOSE_ITALIC_TEXT" equivStart="START_ITALIC_TEXT" id="7" type="fmt">Before 1st September:</pc>A reward of 1.75 XCH will be distributed to pool farmers, 0 XCH (nothing) is kept to the pool.</pc>
-<pc dispEnd="&lt;/li&gt;" dispStart="&lt;li&gt;" equivEnd="CLOSE_LIST_ITEM" equivStart="START_LIST_ITEM" id="8" type="other">
-<pc dispEnd="&lt;/i&gt;" dispStart="&lt;i&gt;" equivEnd="CLOSE_ITALIC_TEXT" equivStart="START_ITALIC_TEXT" id="9" type="fmt">After 1st September:</pc>If a reward of 1.75 XCH is found, only 1% of that, 0.0175 will be kept to the pool as a fee. The remaining 1.7325 XCH will be distributed to pool farmers.</pc>
-</pc>
 </target>
 </segment>
 </unit>
@@ -107,7 +85,7 @@
 <unit id="1987379316591371803">
 <segment>
 <source xml:space="preserve">Payouts</source>
-<target xml:space="preserve">Payouts</target>
+<target xml:space="preserve">Versements</target>
 </segment>
 </unit>
 <unit id="2026871242381918065">
@@ -125,13 +103,25 @@
 <unit id="2097611575880598770">
 <segment>
 <source xml:space="preserve">Chat with us</source>
-<target xml:space="preserve">Chat with us</target>
+<target xml:space="preserve">Discutez avec nous</target>
+</segment>
+</unit>
+<unit id="2153109973251079314">
+<segment>
+<source xml:space="preserve">Learn how to set name here.</source>
+<target xml:space="preserve">Découvrez comment définir un nom ici.</target>
 </segment>
 </unit>
 <unit id="223937640624116360">
 <segment>
 <source xml:space="preserve">Can I switch from/to your pool whenever I want?</source>
 <target xml:space="preserve">Puis-je passer depuis/vers votre pool quand je le veux ?</target>
+</segment>
+</unit>
+<unit id="2252939334456578689">
+<segment>
+<source xml:space="preserve">Go to &quot;Pool&quot; menu in the left menu</source>
+<target xml:space="preserve">Allez dans « Pool » dans le menu de gauche</target>
 </segment>
 </unit>
 <unit id="2264932589847833892">
@@ -143,7 +133,7 @@
 <unit id="2303041439224647987">
 <segment>
 <source xml:space="preserve">Connection</source>
-<target xml:space="preserve">Connection</target>
+<target xml:space="preserve">Connexion</target>
 </segment>
 </unit>
 <unit id="2318140886847115923">
@@ -164,6 +154,12 @@
 <target xml:space="preserve">Derniers partials (24 heures)</target>
 </segment>
 </unit>
+<unit id="2637241189361251661">
+<segment>
+<source xml:space="preserve">.faucet &lt;wallet address&gt;</source>
+<target xml:space="preserve">.faucet &lt;wallet address&gt;</target>
+</segment>
+</unit>
 <unit id="2756022432863940642">
 <segment>
 <source xml:space="preserve">Failed Partials</source>
@@ -179,7 +175,7 @@
 <unit id="2821179408673282599">
 <segment>
 <source xml:space="preserve">Home</source>
-<target xml:space="preserve">Home</target>
+<target xml:space="preserve">Accueil</target>
 </segment>
 </unit>
 <unit id="2905619048308246310">
@@ -197,13 +193,13 @@
 <unit id="2929691011645001388">
 <segment>
 <source xml:space="preserve">% of total</source>
-<target xml:space="preserve">% of total</target>
+<target xml:space="preserve">% du total</target>
 </segment>
 </unit>
 <unit id="3033623772164647792">
 <segment>
 <source xml:space="preserve">Height</source>
-<target xml:space="preserve">Height</target>
+<target xml:space="preserve">Hauteur</target>
 </segment>
 </unit>
 <unit id="3145581158682357446">
@@ -223,7 +219,7 @@
 <unit id="3179472790665120358">
 <segment>
 <source xml:space="preserve">Fees are structured this way</source>
-<target xml:space="preserve">Fees are structured this way</target>
+<target xml:space="preserve">Les frais sont structurés de cette façon</target>
 </segment>
 </unit>
 <unit id="3223637037001251732">
@@ -247,7 +243,7 @@
 <unit id="3458332391940035038">
 <segment>
 <source xml:space="preserve">System Administrator</source>
-<target xml:space="preserve">System Administrator</target>
+<target xml:space="preserve">Administrateur système</target>
 </segment>
 </unit>
 <unit id="3630057890731840343">
@@ -256,16 +252,10 @@
 <target xml:space="preserve">Une pool en laquelle vous pouvez avoir confiance.</target>
 </segment>
 </unit>
-<unit id="3673812821733308540">
-<segment>
-<source xml:space="preserve">If you don&apos;t have a Plot NFT, add one, select &quot;Connect to pool&quot; and then enter https://pool.openchia.io.<ph disp="&lt;br /&gt;" equiv="LINE_BREAK" id="0" type="fmt"/>PS: You need one Mojo to create Plot NFT, if you don&apos;t have one, grab one <pc dispEnd="&lt;/a&gt;" dispStart="&lt;a href=&quot;https://discord.gg/9Pt2qKGxG3&quot; target=&quot;_blank&quot;&gt;" equivEnd="CLOSE_LINK" equivStart="START_LINK" id="1" type="link">here</pc> (<pc dispEnd="&lt;/a&gt;" dispStart="&lt;a href=&quot;https://blog.openchia.io/2021/08/10/faucet.html&quot;&gt;" equivEnd="CLOSE_LINK" equivStart="START_LINK_1" id="2" type="link">Faucet (free Mojo/XCH) for mainnet</pc>)</source>
-<target xml:space="preserve">Si vous n'avez pas de plot NFT, ajoutez-en un, sélectionnez « Se connecter au pool », puis entrez https://pool.openchia.io. <ph disp="&lt;br /&gt;" equiv="LINE_BREAK" id="0" type="fmt"/>Note : Vous avez besoin d'un Mojo pour créer votre plot NFT, si vous n'en avez pas, saisissez un Mojo <pc dispEnd="&lt;/a&gt;" dispStart="&lt;a href=&quot;https://discord.gg/9Pt2qKGxG3&quot; target=&quot;_blank&quot;&gt;" equivEnd="CLOSE_LINK" equivStart="START_LINK" id="1" type="link">ici</pc> (<pc dispEnd="&lt;/a&gt;" dispStart="&lt;a href=&quot;https://blog.openchia.io/2021/08/10/faucet.html&quot;&gt;" equivEnd="CLOSE_LINK" equivStart="START_LINK_1" id="2" type="link">Faucet (MOJO/XCH gratuit) pour le mainnet</pc>)</target>
-</segment>
-</unit>
 <unit id="3687194426938367329">
 <segment>
 <source xml:space="preserve">Partners</source>
-<target xml:space="preserve">Partners</target>
+<target xml:space="preserve">Partenaires</target>
 </segment>
 </unit>
 <unit id="3720651283513261307">
@@ -277,13 +267,19 @@
 <unit id="3768927257183755959">
 <segment>
 <source xml:space="preserve">Save</source>
-<target xml:space="preserve">Save</target>
+<target xml:space="preserve">Enregistrer</target>
 </segment>
 </unit>
 <unit id="3869946742032895114">
 <segment>
 <source xml:space="preserve">Before 1st September</source>
-<target xml:space="preserve">Before 1st September</target>
+<target xml:space="preserve">Avant le 1er Septembre</target>
+</segment>
+</unit>
+<unit id="3896519408731471839">
+<segment>
+<source xml:space="preserve">OpenChia believes that in a future blockchain and cryptocurrency can exist without degrading the environment and helping make the world a better place. We believe Chia and Cardano can coexist to help make that happen. If you&apos;d like to know more about Cardano and/or join a legitimate staking pool please visit <pc dispEnd="&lt;/a&gt;" dispStart="&lt;a         href=&quot;https://vivid-pool.info/&quot; target=&quot;_blank&quot;&gt;" equivEnd="CLOSE_LINK" equivStart="START_LINK" id="0" type="link">Vivid Pool</pc>.</source>
+<target xml:space="preserve">OpenChia believes that in a future blockchain and cryptocurrency can exist without degrading the environment and helping make the world a better place. We believe Chia and Cardano can coexist to help make that happen. If you&apos;d like to know more about Cardano and/or join a legitimate staking pool please visit <pc dispEnd="&lt;/a&gt;" dispStart="&lt;a         href=&quot;https://vivid-pool.info/&quot; target=&quot;_blank&quot;&gt;" equivEnd="CLOSE_LINK" equivStart="START_LINK" id="0" type="link">Vivid Pool</pc>.</target>
 </segment>
 </unit>
 <unit id="3900702001221590652">
@@ -311,7 +307,7 @@
 <unit id="4127571452382238225">
 <segment>
 <source xml:space="preserve">Explorer</source>
-<target xml:space="preserve">Explorer</target>
+<target xml:space="preserve">Explorateur</target>
 </segment>
 </unit>
 <unit id="4165674190938428121">
@@ -329,7 +325,7 @@
 <unit id="4204023333676450372">
 <segment>
 <source xml:space="preserve">Until 1st September 2021 (2021/09/01)</source>
-<target xml:space="preserve">Until 1st September 2021 (2021/09/01)</target>
+<target xml:space="preserve">Jusqu'au 1er Septembre 2021 (01/09/2021)</target>
 </segment>
 </unit>
 <unit id="4239635668959543337">
@@ -338,10 +334,28 @@
 <target xml:space="preserve">Nous avons plus de 20 ans d'expérience dans le secteur du développement de logiciels.</target>
 </segment>
 </unit>
+<unit id="4267952904665583656">
+<segment>
+<source xml:space="preserve">before joining the pool, your node and wallet must be fully synchronized with Chia blockchain</source>
+<target xml:space="preserve">before joining the pool, your node and wallet must be fully synchronized with Chia blockchain</target>
+</segment>
+</unit>
+<unit id="427062538161914083">
+<segment>
+<source xml:space="preserve">Official Chia Instructions.</source>
+<target xml:space="preserve">Instructions officielles Chia.</target>
+</segment>
+</unit>
+<unit id="4420171943937772574">
+<segment>
+<source xml:space="preserve">go to the “Pool” tab, and click on “Join the Pool”</source>
+<target xml:space="preserve">allez dans l'onglet « Pool », puis cliquez sur « Rejoindre le pool »</target>
+</segment>
+</unit>
 <unit id="4423939679955683675">
 <segment>
 <source xml:space="preserve">A reward of 1.75 XCH will be distributed to pool farmers, 0 XCH (nothing) is kept to the pool.</source>
-<target xml:space="preserve">A reward of 1.75 XCH will be distributed to pool farmers, 0 XCH (nothing) is kept to the pool.</target>
+<target xml:space="preserve">Une récompense de 1,75 XCH sera distribuée aux farmers, et 0 XCH (rien) à la piscine.</target>
 </segment>
 </unit>
 <unit id="4500995370545031926">
@@ -359,7 +373,13 @@
 <unit id="4580988005648117665">
 <segment>
 <source xml:space="preserve">Search</source>
-<target xml:space="preserve">Search</target>
+<target xml:space="preserve">Rechercher</target>
+</segment>
+</unit>
+<unit id="4686179819982655014">
+<segment>
+<source xml:space="preserve">Receive some XCH</source>
+<target xml:space="preserve">Recevoir du XCH</target>
 </segment>
 </unit>
 <unit id="4839405892539527393">
@@ -377,7 +397,7 @@
 <unit id="5012084291992448490">
 <segment>
 <source xml:space="preserve">Fees</source>
-<target xml:space="preserve">Fees</target>
+<target xml:space="preserve">Frais</target>
 </segment>
 </unit>
 <unit id="5043891966437752386">
@@ -389,7 +409,13 @@
 <unit id="5088299831715376392">
 <segment>
 <source xml:space="preserve">If a reward of 1.75 XCH is found, only 1% of that, 0.0175 will be kept to the pool as a fee. The remaining 1.7325 XCH will be distributed to pool farmers.</source>
-<target xml:space="preserve">If a reward of 1.75 XCH is found, only 1% of that, 0.0175 will be kept to the pool as a fee. The remaining 1.7325 XCH will be distributed to pool farmers.</target>
+<target xml:space="preserve">Si une récompense de 1.75 XCH est trouvée, seulement 1 % de ce montant, 0,0175 sera conservé au pool sous forme de frais. Les 1.7325 XCH restants seront distribués aux farmers.</target>
+</segment>
+</unit>
+<unit id="5200920908020858748">
+<segment>
+<source xml:space="preserve">click the “Create” button. In the next couple of minutes, the Plot NFT will be created, and it will appear in your “Pool” tab</source>
+<target xml:space="preserve">cliquez sur le bouton « Créer ». Après quelques minutes, le plot NFT sera créé et il apparaîtra dans votre onglet « Pool »</target>
 </segment>
 </unit>
 <unit id="5254622645701859101">
@@ -398,16 +424,40 @@
 <target xml:space="preserve">Points</target>
 </segment>
 </unit>
+<unit id="5265690573497854746">
+<segment>
+<source xml:space="preserve">You can now start creating Plots in “Plots” tab using this new Plot NFT to start farming XCH</source>
+<target xml:space="preserve">Vous pouvez maintenant commencer à créer des tracés dans l'onglet « Tracés » à l'aide de ce nouveau plot NFT pour commencer à farmer du XCH.</target>
+</segment>
+</unit>
+<unit id="5421336367436045349">
+<segment>
+<source xml:space="preserve">All our software is open source. </source>
+<target xml:space="preserve">All our software is open source. </target>
+</segment>
+</unit>
 <unit id="5683785837580689751">
 <segment>
 <source xml:space="preserve">How to join us</source>
 <target xml:space="preserve">Comment nous rejoindre</target>
 </segment>
 </unit>
+<unit id="5701428712894376039">
+<segment>
+<source xml:space="preserve">Sync your full node and wallet</source>
+<target xml:space="preserve">Synchronisez votre nœud et votre portefeuille</target>
+</segment>
+</unit>
 <unit id="571806966107540033">
 <segment>
 <source xml:space="preserve">Can I join a pool with non-portable (OG) plots?</source>
 <target xml:space="preserve">Puis-je rejoindre une pool avec des plots non portable (OG) ?</target>
+</segment>
+</unit>
+<unit id="573605943360652415">
+<segment>
+<source xml:space="preserve">join</source>
+<target xml:space="preserve">join</target>
 </segment>
 </unit>
 <unit id="5784227755295047072">
@@ -425,7 +475,7 @@
 <unit id="5911214550882917183">
 <segment>
 <source xml:space="preserve">State</source>
-<target xml:space="preserve">State</target>
+<target xml:space="preserve">État</target>
 </segment>
 </unit>
 <unit id="5992977313238905164">
@@ -444,6 +494,12 @@
 <segment>
 <source xml:space="preserve">Verify plotnft and copy contract address:</source>
 <target xml:space="preserve">Vérifiez plotnft and copiez l'adresse contract :</target>
+</segment>
+</unit>
+<unit id="6377117377899970613">
+<segment>
+<source xml:space="preserve">Create Plot NFT</source>
+<target xml:space="preserve">Create Plot NFT</target>
 </segment>
 </unit>
 <unit id="6410467948610503551">
@@ -468,6 +524,12 @@
 <segment>
 <source xml:space="preserve">Amount</source>
 <target xml:space="preserve">Montant</target>
+</segment>
+</unit>
+<unit id="6579386880718541736">
+<segment>
+<source xml:space="preserve">type in message box:</source>
+<target xml:space="preserve">tapez dans le champ message :</target>
 </segment>
 </unit>
 <unit id="6741838149332998818">
@@ -504,6 +566,12 @@
 <segment>
 <source xml:space="preserve">After 1st September</source>
 <target xml:space="preserve">Après le 1er Septembre</target>
+</segment>
+</unit>
+<unit id="6930616437385085682">
+<segment>
+<source xml:space="preserve">Partials</source>
+<target xml:space="preserve">Partials</target>
 </segment>
 </unit>
 <unit id="6948786787037977434">
@@ -544,34 +612,6 @@
 <target xml:space="preserve">Créer un plot NFT :</target>
 </segment>
 </unit>
-<unit id="7172257522577999342">
-<segment>
-<source xml:space="preserve"> Fees are structured this way: <pc dispEnd="&lt;/ul&gt;" dispStart="&lt;ul&gt;" equivEnd="CLOSE_UNORDERED_LIST" equivStart="START_UNORDERED_LIST" id="0" type="other">
-<pc dispEnd="&lt;/li&gt;" dispStart="&lt;li&gt;" equivEnd="CLOSE_LIST_ITEM" equivStart="START_LIST_ITEM" id="1" type="other">Until 1st September 2021 (2021/09/01): <pc dispEnd="&lt;/strong&gt;" dispStart="&lt;strong&gt;" equivEnd="CLOSE_TAG_STRONG" equivStart="START_TAG_STRONG" id="2" type="other">0%</pc>
-</pc>
-<pc dispEnd="&lt;/li&gt;" dispStart="&lt;li&gt;" equivEnd="CLOSE_LIST_ITEM" equivStart="START_LIST_ITEM" id="3" type="other">After 1st September 2021 (2021/09/01): <pc dispEnd="&lt;/strong&gt;" dispStart="&lt;strong&gt;" equivEnd="CLOSE_TAG_STRONG" equivStart="START_TAG_STRONG" id="4" type="other">1%</pc>
-</pc>
-</pc> Examples: <pc dispEnd="&lt;/ul&gt;" dispStart="&lt;ul&gt;" equivEnd="CLOSE_UNORDERED_LIST" equivStart="START_UNORDERED_LIST" id="5" type="other">
-<pc dispEnd="&lt;/li&gt;" dispStart="&lt;li&gt;" equivEnd="CLOSE_LIST_ITEM" equivStart="START_LIST_ITEM" id="6" type="other">
-<pc dispEnd="&lt;/i&gt;" dispStart="&lt;i&gt;" equivEnd="CLOSE_ITALIC_TEXT" equivStart="START_ITALIC_TEXT" id="7" type="fmt">Before 1st September:</pc>A reward of 1.75 XCH will be distributed to pool farmers, 0 XCH (nothing) is kept to the pool.</pc>
-<pc dispEnd="&lt;/li&gt;" dispStart="&lt;li&gt;" equivEnd="CLOSE_LIST_ITEM" equivStart="START_LIST_ITEM" id="8" type="other">
-<pc dispEnd="&lt;/i&gt;" dispStart="&lt;i&gt;" equivEnd="CLOSE_ITALIC_TEXT" equivStart="START_ITALIC_TEXT" id="9" type="fmt">After 1st September:</pc>If a reward of 1.75 XCH is found, only 1% of that, 0.0175 will be kept to the pool as a fee. The remaining 1.625 XCH will be distributed to pool farmers.</pc>
-</pc>
-</source>
-<target xml:space="preserve"> Fees are structured this way: <pc dispEnd="&lt;/ul&gt;" dispStart="&lt;ul&gt;" equivEnd="CLOSE_UNORDERED_LIST" equivStart="START_UNORDERED_LIST" id="0" type="other">
-<pc dispEnd="&lt;/li&gt;" dispStart="&lt;li&gt;" equivEnd="CLOSE_LIST_ITEM" equivStart="START_LIST_ITEM" id="1" type="other">Until 1st September 2021 (2021/09/01): <pc dispEnd="&lt;/strong&gt;" dispStart="&lt;strong&gt;" equivEnd="CLOSE_TAG_STRONG" equivStart="START_TAG_STRONG" id="2" type="other">0%</pc>
-</pc>
-<pc dispEnd="&lt;/li&gt;" dispStart="&lt;li&gt;" equivEnd="CLOSE_LIST_ITEM" equivStart="START_LIST_ITEM" id="3" type="other">After 1st September 2021 (2021/09/01): <pc dispEnd="&lt;/strong&gt;" dispStart="&lt;strong&gt;" equivEnd="CLOSE_TAG_STRONG" equivStart="START_TAG_STRONG" id="4" type="other">1%</pc>
-</pc>
-</pc> Examples: <pc dispEnd="&lt;/ul&gt;" dispStart="&lt;ul&gt;" equivEnd="CLOSE_UNORDERED_LIST" equivStart="START_UNORDERED_LIST" id="5" type="other">
-<pc dispEnd="&lt;/li&gt;" dispStart="&lt;li&gt;" equivEnd="CLOSE_LIST_ITEM" equivStart="START_LIST_ITEM" id="6" type="other">
-<pc dispEnd="&lt;/i&gt;" dispStart="&lt;i&gt;" equivEnd="CLOSE_ITALIC_TEXT" equivStart="START_ITALIC_TEXT" id="7" type="fmt">Before 1st September:</pc>A reward of 1.75 XCH will be distributed to pool farmers, 0 XCH (nothing) is kept to the pool.</pc>
-<pc dispEnd="&lt;/li&gt;" dispStart="&lt;li&gt;" equivEnd="CLOSE_LIST_ITEM" equivStart="START_LIST_ITEM" id="8" type="other">
-<pc dispEnd="&lt;/i&gt;" dispStart="&lt;i&gt;" equivEnd="CLOSE_ITALIC_TEXT" equivStart="START_ITALIC_TEXT" id="9" type="fmt">After 1st September:</pc>If a reward of 1.75 XCH is found, only 1% of that, 0.0175 will be kept to the pool as a fee. The remaining 1.625 XCH will be distributed to pool farmers.</pc>
-</pc>
-</target>
-</segment>
-</unit>
 <unit id="7290072656116822388">
 <segment>
 <source xml:space="preserve">No payouts found!</source>
@@ -588,6 +628,18 @@
 <segment>
 <source xml:space="preserve">No partials found!</source>
 <target xml:space="preserve">Aucune partial trouvé !</target>
+</segment>
+</unit>
+<unit id="7600229961018223463">
+<segment>
+<source xml:space="preserve">choose “Connect to pool” and enter the url: https://pool.openchia.io (exactly, no ending slash) then wait for pool description to appear</source>
+<target xml:space="preserve">choisissez « Se connecter au pool » et entrez l'URL : https://pool.openchia.io (exactement, aucune barre oblique à la fin), puis attendez que la description du pool apparaisse</target>
+</segment>
+</unit>
+<unit id="760044993052786414">
+<segment>
+<source xml:space="preserve">Estimated Size </source>
+<target xml:space="preserve">Estimated Size </target>
 </segment>
 </unit>
 <unit id="7623464505437750989">
@@ -626,14 +678,6 @@
 <target xml:space="preserve">Aucun block trouvé par ce farmer !</target>
 </segment>
 </unit>
-<unit id="8222695717866495876">
-<segment>
-<source xml:space="preserve">Estimated Size <pc dispEnd="&lt;/i&gt;" dispStart="&lt;i class=&quot;fas fa-info-circle&quot; ngbTooltip=&quot;Be aware this is a rough estimate and will vary based on the partials sent for the last 24 hours! This is by no means a representation of your actual farm size.&quot;&gt;" equivEnd="CLOSE_ITALIC_TEXT" equivStart="START_ITALIC_TEXT" id="0" type="fmt"/>
-</source>
-<target xml:space="preserve">Taille estimée <pc dispEnd="&lt;/i&gt;" dispStart="&lt;i class=&quot;fas fa-info-circle&quot; ngbTooltip=&quot;Be aware this is a rough estimate and will vary based on the partials sent for the last 24 hours! This is by no means a representation of your actual farm size.&quot;&gt;" equivEnd="CLOSE_ITALIC_TEXT" equivStart="START_ITALIC_TEXT" id="0" type="fmt"/>
-</target>
-</segment>
-</unit>
 <unit id="8311659957519204575">
 <segment>
 <source xml:space="preserve">Estimated Size</source>
@@ -654,10 +698,22 @@
 <ph disp="{{ estimate_win / 60 / 24 | number }}" equiv="INTERPOLATION" id="0"/> jours</target>
 </segment>
 </unit>
+<unit id="8407551821312874924">
+<segment>
+<source xml:space="preserve">you are going to need 1 mojo (0.000000000001 XCH) which you can get through our faucet service on Discord channel or through Faucet website:</source>
+<target xml:space="preserve">vous aurez besoin de 1 mojo (0.000000000001 XCH) que vous pouvez obtenir via notre service de faucet sur le Discord ou via le site web de Faucet :</target>
+</segment>
+</unit>
 <unit id="841934696444961534">
 <segment>
 <source xml:space="preserve">News</source>
 <target xml:space="preserve">Actualités</target>
+</segment>
+</unit>
+<unit id="8447672339763475319">
+<segment>
+<source xml:space="preserve">If you already have a Plot NFT select &quot;Change Pool&quot; then enter https://pool.openchia.io</source>
+<target xml:space="preserve">If you already have a Plot NFT select &quot;Change Pool&quot; then enter https://pool.openchia.io</target>
 </segment>
 </unit>
 <unit id="8479159211474411356">
@@ -690,10 +746,28 @@
 <target xml:space="preserve">Blocks trouvés</target>
 </segment>
 </unit>
+<unit id="8751484695665236751">
+<segment>
+<source xml:space="preserve"> They are offering cutting-edge cryptocurrency technology of today and tomorrow. Vivid Stake Pool allows you to stake in Cardano. If you deposit your Fiat Money on your bank account, you will receive 1-3 % profit per year which will be paid after at least a few months. In Cardano it is the opposite: you receive high profits as high as 5-8 % per year which is paid every 5 days!</source>
+<target xml:space="preserve"> They are offering cutting-edge cryptocurrency technology of today and tomorrow. Vivid Stake Pool allows you to stake in Cardano. If you deposit your Fiat Money on your bank account, you will receive 1-3 % profit per year which will be paid after at least a few months. In Cardano it is the opposite: you receive high profits as high as 5-8 % per year which is paid every 5 days!</target>
+</segment>
+</unit>
+<unit id="8758786563911669380">
+<segment>
+<source xml:space="preserve">Click “Change” button</source>
+<target xml:space="preserve">Cliquez sur le bouton « Modifier »</target>
+</segment>
+</unit>
 <unit id="8942351587754185907">
 <segment>
 <source xml:space="preserve">API</source>
 <target xml:space="preserve">API</target>
+</segment>
+</unit>
+<unit id="91968095428425686">
+<segment>
+<source xml:space="preserve">XCH Price</source>
+<target xml:space="preserve">Prix XCH</target>
 </segment>
 </unit>
 <unit id="9201971930509716006">
@@ -724,6 +798,12 @@
 <segment>
 <source xml:space="preserve">Difficulty</source>
 <target xml:space="preserve">Difficulté</target>
+</segment>
+</unit>
+<unit id="EstimatedSpace">
+<segment>
+<source xml:space="preserve">Estimated Space</source>
+<target xml:space="preserve">Espace estimé</target>
 </segment>
 </unit>
 <unit id="Explorer">
@@ -816,6 +896,12 @@
 <target xml:space="preserve">Points</target>
 </segment>
 </unit>
+<unit id="Step">
+<segment>
+<source xml:space="preserve">Step</source>
+<target xml:space="preserve">Pas</target>
+</segment>
+</unit>
 <unit id="Terms">
 <segment>
 <source xml:space="preserve">Terms</source>
@@ -828,10 +914,22 @@
 <target xml:space="preserve">Transaction</target>
 </segment>
 </unit>
+<unit id="TransactionBlock">
+<segment>
+<source xml:space="preserve">Transaction Block</source>
+<target xml:space="preserve">Bloc de transaction</target>
+</segment>
+</unit>
 <unit id="Uptime">
 <segment>
 <source xml:space="preserve">Uptime</source>
 <target xml:space="preserve">Allumé depuis</target>
+</segment>
+</unit>
+<unit id="UtilizationSpace">
+<segment>
+<source xml:space="preserve">Utilization Space</source>
+<target xml:space="preserve">Espace utilisé</target>
 </segment>
 </unit>
 <unit id="ngb.alert.close">
