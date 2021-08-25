@@ -22,7 +22,7 @@ export class LandingComponent implements OnInit {
   data: any[] = null;
 
   colorScheme = {
-    domain: ['#5AA454', '#E44D25', '#CFC0BB', '#7aa3e5', '#a8385d', '#aae3f5']
+    domain: ['#129b00']
   };
 
   constructor(private dataService: DataService) { }
