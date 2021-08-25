@@ -22,7 +22,7 @@ export class PayoutComponent implements OnInit {
   ngOnInit(): void {
     this.route.paramMap.subscribe(data => {
       this.payoutid = data['params']['id'];
-      this.dataService.getPayoutAddrs(this.payoutid);
+      this.dataService.getPayoutAddrs({ id: this.payoutid });
       this.dataService.getPayout(this.payoutid).subscribe((res) => {
         this.payout = res;
       });

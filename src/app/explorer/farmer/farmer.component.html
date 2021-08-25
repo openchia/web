@@ -4,28 +4,31 @@
     <table class="table table-sm table-striped">
       <tbody>
         <tr>
-        <th i18n>Friendly Name</th>
-        <td>
-          <span *ngIf="farmer.name">{{ farmer.name }}</span>
-          <ng-template #notsetTooltip>
-            <a href="https://blog.openchia.io/2021/07/27/howto-set-name.html" target="_blank" i18n>Learn how to set name here.</a>
-          </ng-template>
-          <span *ngIf="!farmer.name">
-            (not set) <i class="fas fa-info-circle" closeDelay="4000" [ngbTooltip]="notsetTooltip"></i>
-          </span>
-        </td>
-        <th i18n="@@Points">Points</th>
-        <td>{{ farmer.points }} ({{ farmer.points_of_total }}%)</td>
+          <th i18n>Friendly Name</th>
+          <td>
+            <span *ngIf="farmer.name">{{ farmer.name }}</span>
+            <ng-template #notsetTooltip>
+              <a href="https://blog.openchia.io/2021/07/27/howto-set-name.html" target="_blank" i18n>Learn how to set
+                name here.</a>
+            </ng-template>
+            <span *ngIf="!farmer.name">
+              (not set) <i class="fas fa-info-circle" closeDelay="4000" [ngbTooltip]="notsetTooltip"></i>
+            </span>
+          </td>
+          <th i18n="@@Points">Points</th>
+          <td>{{ farmer.points }} ({{ farmer.points_of_total }}%)</td>
         </tr>
         <tr>
-        <th i18n>Launcher ID</th>
-        <td colspan="3">{{ farmer.launcher_id }}</td>
+          <th i18n>Launcher ID</th>
+          <td colspan="3">{{ farmer.launcher_id }}</td>
         </tr>
         <tr>
-        <th i18n="@@Difficulty">Difficulty</th>
-        <td>{{ farmer.difficulty }}</td>
-        <th><span i18n>Estimated Size </span><i class="fas fa-info-circle" ngbTooltip="Be aware this is a rough estimate and will vary based on the partials sent for the last 24 hours! This is by no means a representation of your actual farm size."></i></th>
-        <td>{{ farmer.estimated_size || 0 | filesize:{"standard": "iec"} }}</td>
+          <th i18n="@@Difficulty">Difficulty</th>
+          <td>{{ farmer.difficulty }}</td>
+          <th><span i18n>Estimated Size </span><i class="fas fa-info-circle"
+              ngbTooltip="Be aware this is a rough estimate and will vary based on the partials sent for the last 24 hours! This is by no means a representation of your actual farm size."></i>
+          </th>
+          <td>{{ farmer.estimated_size || 0 | filesize:{"standard": "iec"} }}</td>
         </tr>
       </tbody>
     </table>
@@ -34,88 +37,79 @@
         <a class="display-4" ngbNavLink i18n="@@Partials">Partials</a>
         <ng-template ngbNavContent>
           <div class="row justify-content-center">
-            <ngx-charts-area-chart
-              [scheme]="colorScheme"
-              [legend]="true"
-              [showXAxisLabel]="true"
-              [showYAxisLabel]="true"
-              [xAxis]="true"
-              [yAxis]="true"
-              [xAxisLabel]="xAxisLabel"
-              [yAxisLabel]="yAxisLabel"
-              [timeline]="false"
-              [results]="partialsData"
-              [xAxisTickFormatting]="partialsXAxisFormat"
-              [xAxisTicks]="partialsXTicks"
-              >
+            <ngx-charts-area-chart [scheme]="colorScheme" [legend]="true" [showXAxisLabel]="true"
+              [showYAxisLabel]="true" [xAxis]="true" [yAxis]="true" [xAxisLabel]="xAxisLabel" [yAxisLabel]="yAxisLabel"
+              [timeline]="false" [results]="partialsData" [xAxisTickFormatting]="partialsXAxisFormat"
+              [xAxisTicks]="partialsXTicks">
             </ngx-charts-area-chart>
           </div>
 
-          <br/>
+          <br />
 
           <div class="row justify-content-center">
-             <div class="col-lg-12">
-               <div class="row row-grid">
-                 <div class="col-lg-3 justify-content-center">
-                   <div class="card card-lift shadow border-0">
-                     <div class="card-body py-3">
-                       <span class="text-primary text-uppercase" i18n>Partials (24 hours)</span>
-                       <p class="display-3 text-center">{{ partialsCollectionSize }}</p>
-                     </div>
-                   </div>
-                 </div>
-                 <div class="col-lg-3 justify-content-center">
-                   <div class="card card-lift shadow border-0">
-                     <div class="card-body py-3">
-                       <span class="text-primary text-uppercase" i18n>Points (24 hours)</span>
-                       <p class="display-3 text-center">{{ partialsPoints }}</p>
-                     </div>
-                   </div>
-                 </div>
-                 <div class="col-lg-3">
-                   <div class="card card-lift shadow border-0">
-                     <div class="card-body py-3">
-                       <span class="text-primary text-uppercase" i18n>Successful Partials</span>
-                       <p class="display-3 text-center">{{ partialsSuccessful }}</p>
-                     </div>
-                   </div>
-                 </div>
-                 <div class="col-lg-3">
-                   <div class="card card-lift shadow border-0">
-                     <div class="card-body py-3">
-                       <span class="text-warning text-uppercase" i18n>Failed Partials</span>
-                       <p class="display-3 text-center">{{ partialsFailed }}</p>
-                     </div>
-                   </div>
-                 </div>
-               </div>
-             </div>
+            <div class="col-lg-12">
+              <div class="row row-grid">
+                <div class="col-lg-3 justify-content-center">
+                  <div class="card card-lift shadow border-0">
+                    <div class="card-body py-3">
+                      <span class="text-primary text-uppercase" i18n>Partials (24 hours)</span>
+                      <p class="display-3 text-center">{{ partialsCollectionSize }}</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-3 justify-content-center">
+                  <div class="card card-lift shadow border-0">
+                    <div class="card-body py-3">
+                      <span class="text-primary text-uppercase" i18n>Points (24 hours)</span>
+                      <p class="display-3 text-center">{{ partialsPoints }}</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-3">
+                  <div class="card card-lift shadow border-0">
+                    <div class="card-body py-3">
+                      <span class="text-primary text-uppercase" i18n>Successful Partials</span>
+                      <p class="display-3 text-center">{{ partialsSuccessful }}</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-3">
+                  <div class="card card-lift shadow border-0">
+                    <div class="card-body py-3">
+                      <span class="text-warning text-uppercase" i18n>Failed Partials</span>
+                      <p class="display-3 text-center">{{ partialsFailed }}</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
 
-          <br/>
+          <br />
 
           <h4 class="display-3" i18n>Partials</h4>
           <table class="table table-sm table-striped">
             <thead>
-            <tr>
-              <th scope="col" i18n>Date</th>
-              <th scope="col" i18n>Difficulty</th>
-              <th scope="col" i18n>State</th>
-            </tr>
+              <tr>
+                <th scope="col" i18n>Date</th>
+                <th scope="col" i18n>Difficulty</th>
+                <th scope="col" i18n>State</th>
+              </tr>
             </thead>
             <tbody *ngIf="(partialsObs$ | async) as partials;">
-            <tr *ngFor="let partial of partials; let i = index">
-              <td>{{ partial.timestamp * 1000 | date:"medium" }}</td>
-              <td>{{ partial.difficulty }}</td>
-              <td>{{ partial.error || "OK" }}</td>
-            </tr>
-            <tr *ngIf="partials.length == 0">
-              <td colspan="3" i18n>No partials found!</td>
-            </tr>
+              <tr *ngFor="let partial of partials; let i = index">
+                <td>{{ partial.timestamp * 1000 | date:"medium" }}</td>
+                <td>{{ partial.difficulty }}</td>
+                <td>{{ partial.error || "OK" }}</td>
+              </tr>
+              <tr *ngIf="partials.length == 0">
+                <td colspan="3" i18n>No partials found!</td>
+              </tr>
             </tbody>
           </table>
           <div class="d-flex justify-content-between p-2">
-            <ngb-pagination [collectionSize]="partialsCollectionSize" [(page)]="partialsPage" [pageSize]="partialsPageSize" (pageChange)="refreshPartials()">
+            <ngb-pagination [collectionSize]="partialsCollectionSize" [(page)]="partialsPage"
+              [pageSize]="partialsPageSize" (pageChange)="refreshPartials()">
             </ngb-pagination>
           </div>
 
@@ -126,24 +120,26 @@
         <ng-template ngbNavContent>
           <table class="table table-sm table-striped">
             <thead>
-            <tr>
-              <th scope="col" i18n="@@Date">Date</th>
-              <th scope="col" i18n>Blocks</th>
-            </tr>
+              <tr>
+                <th scope="col" i18n="@@Transaction">Transaction</th>
+                <th scope="col" i18n="@@TransactionBlock">Transaction Block</th>
+                <th scope="col" i18n="@@Amount">Amount</th>
+              </tr>
             </thead>
-            <tbody *ngIf="(payouts$ | async) as payouts;">
-            <tr *ngFor="let payout of payouts; let i = index">
-              <td></td>
-              <td></td>
-              <td></td>
-            </tr>
-            <tr *ngIf="payouts.length == 0">
-              <td colspan="3" i18n="@@NoPayouts">No payouts found!</td>
-            </tr>
+            <tbody *ngIf="(payoutaddrs$ | async) as payoutaddrs;">
+              <tr *ngFor="let payoutaddr of payoutaddrs; let i = index">
+                <td>{{ payoutaddr.transaction }}</td>
+                <td>{{ payoutaddr.confirmed_block_index }}</td>
+                <td>{{ payoutaddr.amount / 1000000000000 }} XCH</td>
+              </tr>
+              <tr *ngIf="payoutaddrs.length == 0">
+                <td colspan="3" i18n="@@NoPayouts">No payouts found!</td>
+              </tr>
             </tbody>
           </table>
           <div class="d-flex justify-content-between p-2">
-            <ngb-pagination [collectionSize]="payoutsCollectionSize" [(page)]="payoutsPage" [pageSize]="payoutsPageSize" (pageChange)="refreshPayouts()">
+            <ngb-pagination [collectionSize]="payoutsCollectionSize" [(page)]="payoutsPage" [pageSize]="payoutsPageSize"
+              (pageChange)="refreshPayouts()">
             </ngb-pagination>
           </div>
         </ng-template>
@@ -153,25 +149,26 @@
         <ng-template ngbNavContent>
           <table class="table table-sm table-striped">
             <thead>
-            <tr>
-              <th scope="col" i18n="@@Height">Height</th>
-              <th scope="col" i18n="@@Date">Date</th>
-              <th scope="col" i18n="@@Amount">Amount</th>
-            </tr>
+              <tr>
+                <th scope="col" i18n="@@Height">Height</th>
+                <th scope="col" i18n="@@Date">Date</th>
+                <th scope="col" i18n="@@Amount">Amount</th>
+              </tr>
             </thead>
             <tbody *ngIf="(blocks$ | async) as blocks;">
-            <tr *ngFor="let block of blocks; let i = index">
-              <td></td>
-              <td></td>
-              <td></td>
-            </tr>
-            <tr *ngIf="blocks.length == 0">
-              <td colspan="3" i18n>No blocks found by this farmer!</td>
-            </tr>
+              <tr *ngFor="let block of blocks; let i = index">
+                <td>{{ block.confirmed_block_index }}</td>
+                <td>{{ block.timestamp * 1000 | date:"medium" }}</td>
+                <td>{{ block.amount / 1000000000000 }} XCH</td>
+              </tr>
+              <tr *ngIf="blocks.length == 0">
+                <td colspan="3" i18n>No blocks found by this farmer!</td>
+              </tr>
             </tbody>
           </table>
           <div class="d-flex justify-content-between p-2">
-            <ngb-pagination [collectionSize]="blocksCollectionSize" [(page)]="blocksPage" [pageSize]="blocksPageSize" (pageChange)="refreshBlocks()">
+            <ngb-pagination [collectionSize]="blocksCollectionSize" [(page)]="blocksPage" [pageSize]="blocksPageSize"
+              (pageChange)="refreshBlocks()">
             </ngb-pagination>
           </div>
         </ng-template>
