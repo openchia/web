@@ -1,5 +1,8 @@
 <section class="section section-sm pt-sm">
   <div class="container">
+    <div *ngIf="farmer.is_pool_member===false" class="alert alert-warning" role="alert">
+      <span i18n><strong>Warning:</strong> farmer doesn't exist, is left and/or has been removed.</span>
+    </div>
     <h3 class="display-3" i18n>Farmer Details</h3>
     <table class="table table-sm table-striped">
       <tbody>
