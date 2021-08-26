@@ -15,7 +15,8 @@
           "de": "src/locale/de.xlf",
           "fr": "src/locale/fr.xlf",
           "pl": "src/locale/pl.xlf",
-          "pt": "src/locale/pt-BR.xlf"
+          "pt": "src/locale/pt-BR.xlf",
+          "zh-CN": "src/locale/zh-Hans-CN.xlf"
         }
       },
       "architect": {
