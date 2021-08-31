@@ -31,13 +31,15 @@ export class DataService {
     });
   }
 
-  getLaunchers(search?) {
+  getLaunchers(attrs) {
     var params = new HttpParams();
-    if(search !== undefined) params = params.set('search', search);
     params = params.set('is_pool_member', 'true');
-    return this.httpClient.get(`${this.REST_API_SERVER}launcher/`, { params }).subscribe(data => {
-      this._launchers$.next(data['results']);
-    });
+    if(attrs) {
+      if(attrs.offset) params = params.set('offset', attrs.offset);
+      if(attrs.limit) params = params.set('limit', attrs.limit);
+      if(attrs.search) params = params.set('search', attrs.search);
+    }
+    return this.httpClient.get(`${this.REST_API_SERVER}launcher/`, { params });
   }
 
   getPayouts(launcher?, offset?) {

@@ -82,7 +82,7 @@
       <tbody>
         <tr *ngFor="let launcher of launchers$ | async; let i = index"
           [routerLink]="['/explorer/farmer', launcher.launcher_id]">
-          <th scope="row">{{ i + 1 }}</th>
+          <th scope="row">{{ i + 1 + (farmersPageSize * (farmersPage - 1)) }}</th>
           <td class="link"><a [routerLink]="['/explorer/farmer', launcher.launcher_id]">{{ launcher.name ||
               launcher.launcher_id | maxLength:20 }}</a></td>
           <td>{{ launcher.difficulty }}</td>
@@ -95,6 +95,9 @@
         </tr>
       </tbody>
     </table>
+    <ngb-pagination [collectionSize]="farmersCollectionSize" [(page)]="farmersPage" [pageSize]="farmersPageSize"
+      (pageChange)="refreshFarmers()">
+    </ngb-pagination>
   </div>
 </section>
 
