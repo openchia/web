@@ -275,7 +275,7 @@
     <unit id="Farmers">
       <notes>
         <note category="location">src/app/explorer/dashboard/dashboard.component.html:43,50</note>
-        <note category="location">src/app/explorer/dashboard/dashboard.component.ts:40,49</note>
+        <note category="location">src/app/explorer/dashboard/dashboard.component.ts:39,51</note>
       </notes>
       <segment>
         <source>Farmers</source>
@@ -315,7 +315,7 @@
     </unit>
     <unit id="1140108877159163263">
       <notes>
-        <note category="location">src/app/explorer/dashboard/dashboard.component.html:86,91</note>
+        <note category="location">src/app/explorer/dashboard/dashboard.component.html:86,90</note>
       </notes>
       <segment>
         <source>No blocks found!</source>
@@ -323,7 +323,7 @@
     </unit>
     <unit id="NoPayouts">
       <notes>
-        <note category="location">src/app/explorer/dashboard/dashboard.component.html:104,113</note>
+        <note category="location">src/app/explorer/dashboard/dashboard.component.html:99,110</note>
         <note category="location">src/app/explorer/farmer/farmer.component.ts:149</note>
       </notes>
       <segment>
@@ -332,7 +332,7 @@
     </unit>
     <unit id="4580988005648117665">
       <notes>
-        <note category="location">src/app/explorer/dashboard/dashboard.component.ts:59,67</note>
+        <note category="location">src/app/explorer/dashboard/dashboard.component.ts:60,64</note>
       </notes>
       <segment>
         <source>Search</source>
@@ -340,8 +340,8 @@
     </unit>
     <unit id="Difficulty">
       <notes>
-        <note category="location">src/app/explorer/dashboard/dashboard.component.ts:83</note>
-        <note category="location">src/app/explorer/farmer/farmer.component.ts:110,117</note>
+        <note category="location">src/app/explorer/dashboard/dashboard.component.ts:78,85</note>
+        <note category="location">src/app/explorer/farmer/farmer.component.ts:110,119</note>
       </notes>
       <segment>
         <source>Difficulty</source>
@@ -349,8 +349,8 @@
     </unit>
     <unit id="Points">
       <notes>
-        <note category="location">src/app/explorer/dashboard/dashboard.component.ts:83</note>
-        <note category="location">src/app/explorer/farmer/farmer.component.ts:67,73</note>
+        <note category="location">src/app/explorer/dashboard/dashboard.component.ts:92,98</note>
+        <note category="location">src/app/explorer/farmer/farmer.component.ts:68,75</note>
       </notes>
       <segment>
         <source>Points</source>
@@ -358,7 +358,7 @@
     </unit>
     <unit id="UtilizationSpace">
       <notes>
-        <note category="location">src/app/explorer/dashboard/dashboard.component.ts:83</note>
+        <note category="location">src/app/explorer/dashboard/dashboard.component.ts:98</note>
       </notes>
       <segment>
         <source>Utilization Space</source>
@@ -366,7 +366,7 @@
     </unit>
     <unit id="EstimatedSpace">
       <notes>
-        <note category="location">src/app/explorer/dashboard/dashboard.component.ts:83</note>
+        <note category="location">src/app/explorer/dashboard/dashboard.component.ts:98</note>
       </notes>
       <segment>
         <source>Estimated Space</source>
@@ -374,7 +374,7 @@
     </unit>
     <unit id="8616757634091748553">
       <notes>
-        <note category="location">src/app/explorer/dashboard/dashboard.component.ts:83</note>
+        <note category="location">src/app/explorer/dashboard/dashboard.component.ts:98</note>
       </notes>
       <segment>
         <source>Blocks Found</source>
@@ -382,7 +382,7 @@
     </unit>
     <unit id="6410467948610503551">
       <notes>
-        <note category="location">src/app/explorer/dashboard/dashboard.component.ts:83</note>
+        <note category="location">src/app/explorer/dashboard/dashboard.component.ts:98</note>
       </notes>
       <segment>
         <source>Index</source>
@@ -390,8 +390,8 @@
     </unit>
     <unit id="3973931101896534797">
       <notes>
-        <note category="location">src/app/explorer/dashboard/dashboard.component.ts:83</note>
-        <note category="location">src/app/explorer/dashboard/dashboard.component.ts:83</note>
+        <note category="location">src/app/explorer/dashboard/dashboard.component.ts:98</note>
+        <note category="location">src/app/explorer/dashboard/dashboard.component.ts:98</note>
         <note category="location">src/app/explorer/farmer/farmer.component.ts:149</note>
       </notes>
       <segment>
@@ -400,7 +400,7 @@
     </unit>
     <unit id="3223637037001251732">
       <notes>
-        <note category="location">src/app/explorer/dashboard/dashboard.component.ts:83</note>
+        <note category="location">src/app/explorer/dashboard/dashboard.component.ts:98</note>
       </notes>
       <segment>
         <source>Farmer</source>
@@ -408,7 +408,7 @@
     </unit>
     <unit id="1987379316591371803">
       <notes>
-        <note category="location">src/app/explorer/dashboard/dashboard.component.ts:83</note>
+        <note category="location">src/app/explorer/dashboard/dashboard.component.ts:98</note>
       </notes>
       <segment>
         <source>Payouts</source>
@@ -416,7 +416,7 @@
     </unit>
     <unit id="ID">
       <notes>
-        <note category="location">src/app/explorer/dashboard/dashboard.component.ts:83</note>
+        <note category="location">src/app/explorer/dashboard/dashboard.component.ts:98</note>
       </notes>
       <segment>
         <source>ID</source>
@@ -424,7 +424,7 @@
     </unit>
     <unit id="Amount">
       <notes>
-        <note category="location">src/app/explorer/dashboard/dashboard.component.ts:83</note>
+        <note category="location">src/app/explorer/dashboard/dashboard.component.ts:98</note>
         <note category="location">src/app/explorer/farmer/farmer.component.ts:149</note>
         <note category="location">src/app/explorer/farmer/farmer.component.ts:149</note>
         <note category="location">src/app/explorer/payout/payout.component.ts:32</note>
@@ -436,7 +436,7 @@
     </unit>
     <unit id="2318140886847115923">
       <notes>
-        <note category="location">src/app/explorer/dashboard/dashboard.component.ts:83</note>
+        <note category="location">src/app/explorer/dashboard/dashboard.component.ts:98</note>
       </notes>
       <segment>
         <source>Pool server real-time log</source>
@@ -444,7 +444,7 @@
     </unit>
     <unit id="91968095428425686">
       <notes>
-        <note category="location">src/app/explorer/dashboard/dashboard.component.ts:83</note>
+        <note category="location">src/app/explorer/dashboard/dashboard.component.ts:98</note>
       </notes>
       <segment>
         <source>XCH Price</source>
@@ -452,7 +452,7 @@
     </unit>
     <unit id="6428143771369644145">
       <notes>
-        <note category="location">src/app/explorer/dashboard/dashboard.component.ts:83</note>
+        <note category="location">src/app/explorer/dashboard/dashboard.component.ts:98</note>
       </notes>
       <segment>
         <source>Pool Space</source>
@@ -460,7 +460,7 @@
     </unit>
     <unit id="1004766315783326842">
       <notes>
-        <note category="location">src/app/explorer/dashboard/dashboard.component.ts:83</note>
+        <note category="location">src/app/explorer/dashboard/dashboard.component.ts:98</note>
       </notes>
       <segment>
         <source>ETW</source>
@@ -468,7 +468,7 @@
     </unit>
     <unit id="8398056438540085583">
       <notes>
-        <note category="location">src/app/explorer/dashboard/dashboard.component.ts:83</note>
+        <note category="location">src/app/explorer/dashboard/dashboard.component.ts:98</note>
       </notes>
       <segment>
         <source><ph id="0" equiv="INTERPOLATION" disp="{{ estimate_win / 60 / 24 | number }}"/> days</source>
@@ -500,7 +500,7 @@
     </unit>
     <unit id="6880713934119717799">
       <notes>
-        <note category="location">src/app/explorer/farmer/farmer.component.ts:48,56</note>
+        <note category="location">src/app/explorer/farmer/farmer.component.ts:49,57</note>
       </notes>
       <segment>
         <source>Friendly Name</source>
@@ -508,7 +508,7 @@
     </unit>
     <unit id="5043891966437752386">
       <notes>
-        <note category="location">src/app/explorer/farmer/farmer.component.ts:86,97</note>
+        <note category="location">src/app/explorer/farmer/farmer.component.ts:89,97</note>
       </notes>
       <segment>
         <source>Launcher ID</source>
@@ -525,7 +525,7 @@
     </unit>
     <unit id="760044993052786414">
       <notes>
-        <note category="location">src/app/explorer/farmer/farmer.component.ts:130,144</note>
+        <note category="location">src/app/explorer/farmer/farmer.component.ts:132,145</note>
       </notes>
       <segment>
         <source>Estimated Size </source>
@@ -546,6 +546,22 @@
       </notes>
       <segment>
         <source>Partials</source>
+      </segment>
+    </unit>
+    <unit id="Warning">
+      <notes>
+        <note category="location">src/app/explorer/farmer/farmer.component.ts:149</note>
+      </notes>
+      <segment>
+        <source>Warning</source>
+      </segment>
+    </unit>
+    <unit id="5731283552653564975">
+      <notes>
+        <note category="location">src/app/explorer/farmer/farmer.component.ts:149</note>
+      </notes>
+      <segment>
+        <source>farmer doesn&apos;t exist, has left and/or has been removed.</source>
       </segment>
     </unit>
     <unit id="2153109973251079314">
@@ -776,15 +792,15 @@
     </unit>
     <unit id="Payouts">
       <notes>
-        <note category="location">src/app/fees/fees.component.html:43,49</note>
+        <note category="location">src/app/fees/fees.component.html:49,55</note>
       </notes>
       <segment>
         <source>Payouts</source>
       </segment>
     </unit>
-    <unit id="4040786877830825878">
+    <unit id="3037348742943406028">
       <notes>
-        <note category="location">src/app/fees/fees.component.html:49,41</note>
+        <note category="location">src/app/fees/fees.component.html:55,47</note>
       </notes>
       <segment>
         <source> Payouts will happen within 5 minutes of the farmed block.<ph id="0" equiv="LINE_BREAK" type="fmt" disp="&lt;br /&gt;"/><pc id="1" equivStart="START_PARAGRAPH" equivEnd="CLOSE_PARAGRAPH" type="other" dispStart="&lt;p&gt;" dispEnd="&lt;/p&gt;"> These terms are subjected to change and will be communicated 1 week prior to the change in this website and on Discord channel. </pc></source>
@@ -807,12 +823,12 @@
         <source>Fees are structured this way</source>
       </segment>
     </unit>
-    <unit id="4204023333676450372">
+    <unit id="1976239811515748183">
       <notes>
         <note category="location">src/app/fees/fees.component.ts:16</note>
       </notes>
       <segment>
-        <source>Until 1st September 2021 (2021/09/01)</source>
+        <source>Until 1st October 2021 (2021/10/01)</source>
       </segment>
     </unit>
     <unit id="8559170870663360229">
@@ -823,15 +839,15 @@
         <source>Examples</source>
       </segment>
     </unit>
-    <unit id="3869946742032895114">
+    <unit id="6423838518528989093">
       <notes>
         <note category="location">src/app/fees/fees.component.ts:16</note>
       </notes>
       <segment>
-        <source>Before 1st September</source>
+        <source>Before 1st October</source>
       </segment>
     </unit>
-    <unit id="4423939679955683675">
+    <unit id="6478666049745113178">
       <notes>
         <note category="location">src/app/fees/fees.component.ts:16</note>
       </notes>
@@ -839,15 +855,15 @@
         <source>A reward of 1.75 XCH will be distributed to pool farmers, 0 XCH (nothing) is kept to the pool.</source>
       </segment>
     </unit>
-    <unit id="6916434805989733156">
+    <unit id="5942490619473756728">
       <notes>
         <note category="location">src/app/fees/fees.component.ts:16</note>
       </notes>
       <segment>
-        <source>After 1st September</source>
+        <source>After 1st October</source>
       </segment>
     </unit>
-    <unit id="5088299831715376392">
+    <unit id="2644032998932147111">
       <notes>
         <note category="location">src/app/fees/fees.component.ts:16</note>
       </notes>
@@ -863,7 +879,7 @@
         <source>Reward Distribution</source>
       </segment>
     </unit>
-    <unit id="8479159211474411356">
+    <unit id="5530479554673343767">
       <notes>
         <note category="location">src/app/fees/fees.component.ts:16</note>
       </notes>
@@ -1043,7 +1059,7 @@
     </unit>
     <unit id="7623464505437750989">
       <notes>
-        <note category="location">src/app/landing/landing.component.ts:28,35</note>
+        <note category="location">src/app/landing/landing.component.ts:30,35</note>
       </notes>
       <segment>
         <source>Welcome to OpenChia.io</source>
@@ -1122,12 +1138,12 @@
         <source>0% Fee</source>
       </segment>
     </unit>
-    <unit id="3418394339569980864">
+    <unit id="2041082387182328462">
       <notes>
         <note category="location">src/app/landing/landing.component.ts:46</note>
       </notes>
       <segment>
-        <source>Enjoy 0% pool fee until September 2021.</source>
+        <source>Enjoy 0% pool fee until October 2021.</source>
       </segment>
     </unit>
     <unit id="5880915392762070234">
