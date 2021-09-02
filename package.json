@@ -4,14 +4,13 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve --ssl",
-    "build": "ng build --configuration=production; npm run scully:en; npm run scully:de",
+    "build": "ng build --configuration=production; npm run scully:all",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
     "install:clean": "rm -rf node_modules/ && rm -rf package-lock.json && npm install && npm start",
     "scully": "npx scully --",
-    "scully:de": "env LOCALE=de scully --scanRoutes",
-    "scully:en": "env LOCALE=en scully --scanRoutes",
+    "scully:all": "for i in en de es fr pl pt zh_CN; do env LOCALE=$i scully --scanRoutes; done",
     "scully:serve": "npx scully serve --"
   },
   "private": true,
