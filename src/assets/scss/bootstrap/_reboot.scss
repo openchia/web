@@ -60,6 +60,7 @@ body {
   font-family: $font-family-base;
   font-size: $font-size-base;
   font-weight: $font-weight-base;
+  font-display: swap;
   line-height: $line-height-base;
   color: $body-color;
   text-align: left; // 3
@@ -238,6 +239,7 @@ code,
 kbd,
 samp {
   font-family: $font-family-monospace;
+  font-display: swap;
   font-size: 1em; // Correct the odd `em` font sizing in all browsers.
 }
 
