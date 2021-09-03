@@ -10,14 +10,35 @@
       "prefix": "app",
       "schematics": {},
       "i18n": {
-        "sourceLocale": "en",
+        "sourceLocale": {
+          "code": "en",
+          "baseHref": "/"
+        },
         "locales": {
-          "de": "src/locale/de.xlf",
-          "es": "src/locale/es.xlf",
-          "fr": "src/locale/fr.xlf",
-          "pl": "src/locale/pl.xlf",
-          "pt": "src/locale/pt-BR.xlf",
-          "zh-CN": "src/locale/zh-Hans-CN.xlf"
+          "de": {
+            "translation": "src/locale/de.xlf",
+            "baseHref": "/"
+          },
+          "es": {
+            "translation": "src/locale/es.xlf",
+            "baseHref": "/"
+          },
+          "fr": {
+            "translation": "src/locale/fr.xlf",
+            "baseHref": "/"
+          },
+          "pl": {
+            "translation": "src/locale/pl.xlf",
+            "baseHref": "/"
+          },
+          "pt": {
+            "translation": "src/locale/pt-BR.xlf",
+            "baseHref": "/"
+          },
+          "zh-CN": {
+            "translation": "src/locale/zh-Hans-CN.xlf",
+            "baseHref": "/"
+          }
         }
       },
       "architect": {
@@ -63,7 +84,9 @@
               "buildOptimizer": true
             },
             "pt": {
-              "localize": ["pt"]
+              "localize": [
+                "pt"
+              ]
             }
           }
         },

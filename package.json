@@ -4,11 +4,14 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve --ssl",
-    "build": "ng build",
+    "build": "ng build --configuration=production; npm run scully:all",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "install:clean": "rm -rf node_modules/ && rm -rf package-lock.json && npm install && npm start"
+    "install:clean": "rm -rf node_modules/ && rm -rf package-lock.json && npm install && npm start",
+    "scully": "npx scully --",
+    "scully:all": "for i in en de es fr pl pt zh-CN; do env LOCALE=$i scully --scanRoutes; done",
+    "scully:serve": "npx scully serve --"
   },
   "private": true,
   "dependencies": {
@@ -23,6 +26,10 @@
     "@angular/platform-browser-dynamic": "12.1.2",
     "@angular/router": "12.1.2",
     "@ng-bootstrap/ng-bootstrap": "^10.0.0",
+    "@scullyio/init": "^1.1.4",
+    "@scullyio/ng-lib": "^1.0.0",
+    "@scullyio/scully": "^1.0.0",
+    "@scullyio/scully-plugin-base-href-rewrite": "^1.1.1",
     "@swimlane/ngx-charts": "^18.0.1",
     "jw-bootstrap-switch-ng2": "^2.0.5",
     "moment": "^2.29.1",
@@ -33,6 +40,7 @@
     "popper.js": "1.16.1",
     "rxjs": "6.6.3",
     "rxjs-compat": "6.6.3",
+    "scully-plugin-minify-html": "^6.0.0",
     "zone.js": "^0.11.4"
   },
   "devDependencies": {

@@ -18,6 +18,7 @@ import { FeesComponent } from './fees/fees.component';
 import { FaqComponent } from './faq/faq.component';
 import { TermsComponent } from './terms/terms.component';
 import { PartnersComponent } from './partners/partners.component';
+import { ScullyLibModule } from '@scullyio/ng-lib';
 
 
 @NgModule({
@@ -42,6 +43,7 @@ import { PartnersComponent } from './partners/partners.component';
     HttpClientModule,
     NgxChartsModule,
     BrowserAnimationsModule,
+    ScullyLibModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
