@@ -28,7 +28,7 @@
     "@ng-bootstrap/ng-bootstrap": "^10.0.0",
     "@scullyio/init": "^1.1.4",
     "@scullyio/ng-lib": "^1.0.0",
-    "@scullyio/scully": "^1.0.0",
+    "@scullyio/scully": "^1.1.1-BETA.62759",
     "@scullyio/scully-plugin-base-href-rewrite": "^1.1.1",
     "@swimlane/ngx-charts": "^18.0.1",
     "jw-bootstrap-switch-ng2": "^2.0.5",
