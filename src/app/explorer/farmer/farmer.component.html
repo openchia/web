@@ -89,18 +89,21 @@
               </div>
             </div>
           </div>
-
           <br />
-
-          <h4 class="display-3" i18n>Partials</h4>
-          <input type="checkbox" [checked]="failedPartials" (change)="toggleFailedPartials($event)" /> <span i18n>Failed
-            Partials Only</span>
+          <div class="row justify-content-left">
+            <div class="col-lg-12">
+              <h4 class="display-3" i18n>Partials</h4>
+              <input class="btn" type="checkbox" [checked]="failedPartials" (change)="toggleFailedPartials($event)" /><span i18n>Show
+                failed partials only</span>
+            </div>
+          </div>
+          <br />
           <table class="table table-sm table-striped">
             <thead>
               <tr>
                 <th scope="col" i18n>Date</th>
                 <th scope="col" i18n>Difficulty</th>
-                <th scope="col" i18n>State</th>
+                <th scope="col" i18n>State</th>                
               </tr>
             </thead>
             <tbody *ngIf="partialsTable">
@@ -108,7 +111,10 @@
                 *ngFor="let partial of partialsFiltered | slice: (partialsPage-1) * partialsPageSize : partialsPage * partialsPageSize">
                 <td>{{ partial.timestamp * 1000 | date:"medium" }}</td>
                 <td>{{ partial.difficulty }}</td>
-                <td>{{ partial.error || "OK" }}</td>
+                <td *ngIf="partial.error==='INVALID_TOO_LATE'">{{ partial.error }} <i class="fas fa-info-circle" ngbTooltip="Farmer took too long to validate the partial proof of space."></i></td>
+                <td *ngIf="partial.error==='DOUBLE_SIGNAGE_POINT'">{{ partial.error }} <i class="fas fa-info-circle" ngbTooltip="Same partial proof was sent more than once."></i></td>
+                <td *ngIf="partial.error==='INVALID_SIGNAGE_OR_EOS'">{{ partial.error }} <i class="fas fa-info-circle" ngbTooltip="Signage point is invalid or was not found in pool's node blockchain."></i></td>
+                <td *ngIf="!partial.error">OK</td>
               </tr>
               <tr *ngIf="partialsFiltered.length == 0">
                 <td colspan="3" i18n>No partials found!</td>
