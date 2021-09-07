@@ -1,7 +1,8 @@
 <section class="section section-sm pt-sm">
   <div class="container">
     <div *ngIf="farmer.is_pool_member===false" class="alert alert-warning" role="alert">
-      <strong i18n="@@Warning">Warning</strong>: <span i18n>farmer doesn't exist, has left and/or has been removed.</span>
+      <strong i18n="@@Warning">Warning</strong>: <span i18n>farmer doesn't exist, has left and/or has been
+        removed.</span>
     </div>
     <h3 class="display-3" i18n>Farmer Details</h3>
     <table class="table table-sm table-striped">
@@ -92,6 +93,8 @@
           <br />
 
           <h4 class="display-3" i18n>Partials</h4>
+          <input type="checkbox" [checked]="failedPartials" (change)="toggleFailedPartials($event)" /> <span i18n>Failed
+            Partials Only</span>
           <table class="table table-sm table-striped">
             <thead>
               <tr>
@@ -100,13 +103,14 @@
                 <th scope="col" i18n>State</th>
               </tr>
             </thead>
-            <tbody *ngIf="(partialsObs$ | async) as partials;">
-              <tr *ngFor="let partial of partials; let i = index">
+            <tbody *ngIf="partialsTable">
+              <tr
+                *ngFor="let partial of partialsFiltered | slice: (partialsPage-1) * partialsPageSize : partialsPage * partialsPageSize">
                 <td>{{ partial.timestamp * 1000 | date:"medium" }}</td>
                 <td>{{ partial.difficulty }}</td>
                 <td>{{ partial.error || "OK" }}</td>
               </tr>
-              <tr *ngIf="partials.length == 0">
+              <tr *ngIf="partialsFiltered.length == 0">
                 <td colspan="3" i18n>No partials found!</td>
               </tr>
             </tbody>

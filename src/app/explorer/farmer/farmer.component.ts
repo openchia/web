@@ -17,15 +17,16 @@ export class FarmerComponent implements OnInit {
   xAxisLabel: string = $localize`Time`;
 
   partialsData: any[] = null;
-  partialsXTicks: any[] = []
-  partials$: BehaviorSubject<any[]> = new BehaviorSubject<any[]>([]);
-  partialsObs$: Observable<any[]> = this.partials$.asObservable();
+  partialsXTicks: any[] = [];
+  partialsTable: any[] = [];
+  partialsFiltered: any[] = [];
   partialsCollectionSize: number = 0;
   partialsPage: number = 1;
   partialsPageSize: number = 100;
   partialsSuccessful: number = 0;
   partialsFailed: number = 0;
   partialsPoints: number = 0;
+  failedPartials: boolean = false;
 
   payoutaddrs$: Observable<any[]>;
   payoutsCollectionSize: number = 0;
@@ -63,6 +64,7 @@ export class FarmerComponent implements OnInit {
 
   _handlePartial(subscriber, data, successes, errors, hours) {
 
+    this.partialsTable = this.partialsTable.concat(data['results']);
     data['results'].forEach(v => {
       var hour = Math.floor(v['timestamp'] / 3600) * 3600;
       hours.add(hour);
@@ -85,31 +87,39 @@ export class FarmerComponent implements OnInit {
       );
     } else {
       subscriber.complete();
+      this.filterPartials();
     }
 
   }
 
   refreshBlocks() {
-    this.dataService.getBlocks(this.farmerid, (this.partialsPage - 1) * this.partialsPageSize);
+    this.dataService.getBlocks(this.farmerid, (this.blocksPage - 1) * this.blocksPageSize);
   }
 
-  refreshPartials() {
-    this.dataService.getPartials(this.farmerid, (this.partialsPage - 1) * this.partialsPageSize).subscribe(data => {
-      this.partialsCollectionSize = data['count'];
-      this.partials$.next(data['results']);
-    });
+  toggleFailedPartials(event) {
+    this.failedPartials = event.target.checked;
+    this.filterPartials();
+  }
+
+  filterPartials() {
+    if(this.failedPartials) {
+      this.partialsFiltered = this.partialsTable.filter(entry => entry.error !== null)
+    } else {
+      this.partialsFiltered = [...this.partialsTable];
+    }
   }
 
   getPartialsData(launcher_id) {
 
-    var successes = new Map();;
+    var successes = new Map();
     var errors = new Map();
     var hours = new Set();
 
+    this.partialsTable = [];
+    this.partialsFiltered = [];
+
     var obs = new Observable(subscriber => {
       this.dataService.getPartials(launcher_id).subscribe((data) => {
-        this.partialsCollectionSize = data['count'];
-        this.partials$.next(data['results']);
         this._handlePartial(subscriber, data, successes, errors, hours);
       });
     });
