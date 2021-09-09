@@ -118,9 +118,16 @@
                 <td *ngIf="partial.error==='DOUBLE_SIGNAGE_POINT'">{{ partial.error }} <i class="fas fa-info-circle"
                     ngbTooltip="Same partial proof was sent more than once."></i></td>
                 <td *ngIf="partial.error==='INVALID_SIGNAGE_OR_EOS'">{{ partial.error }} <i class="fas fa-info-circle"
-                    ngbTooltip="$localize`Signage point is invalid or was not found in pool's node blockchain.`"></i>
+                    ngbTooltip="Signage point is invalid or was not found in pool's node blockchain."></i>
+                </td>
+                <td *ngIf="partial.error==='PROOF_NOT_GOOD_ENOUGH'">{{ partial.error }} <i class="fas fa-info-circle"
+                    ngbTooltip="The proof sent is not good enough for the current difficulty of the farmer."></i>
                 </td>
                 <td *ngIf="!partial.error">OK</td>
+                <td
+                  *ngIf="partial.error && !['INVALID_SIGNAGE_OR_EOS', 'DOUBLE_SIGNAGE_POINT', 'INVALID_TOO_LATE', 'PROOF_NOT_GOOD_ENOUGH'].includes(partial.error)">
+                  {{ partial.error }}
+                </td>
               </tr>
               <tr *ngIf="partialsFiltered.length == 0">
                 <td colspan="3" i18n>No partials found!</td>
