@@ -104,6 +104,7 @@
               <tr>
                 <th scope="col" i18n>Date</th>
                 <th scope="col" i18n>Difficulty</th>
+                <th scope="col" i18n>Harvester ID</th>
                 <th scope="col" i18n>State</th>
               </tr>
             </thead>
@@ -113,6 +114,7 @@
                 [class]="(partial.error && !failedPartials) ? 'partialErrorRow' : ''">
                 <td>{{ partial.timestamp * 1000 | date:"medium" }}</td>
                 <td>{{ partial.difficulty }}</td>
+                <td>{{ partial.harvester_id | maxLength:20 }}</td>
                 <td *ngIf="partial.error==='INVALID_TOO_LATE'">{{ partial.error }} <i class="fas fa-info-circle"
                     ngbTooltip="Farmer took too long to validate the partial proof of space."></i></td>
                 <td *ngIf="partial.error==='DOUBLE_SIGNAGE_POINT'">{{ partial.error }} <i class="fas fa-info-circle"
