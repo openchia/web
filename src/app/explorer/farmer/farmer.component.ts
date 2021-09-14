@@ -124,6 +124,7 @@ export class FarmerComponent implements OnInit {
 
     var obs = new Observable(subscriber => {
       this.dataService.getPartials(launcher_id).subscribe((data) => {
+        this.partialsCollectionSize = data['count'];
         this._handlePartial(subscriber, data, successes, errors, hours);
       });
     });
