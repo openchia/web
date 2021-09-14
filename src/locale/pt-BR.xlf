@@ -82,6 +82,12 @@
 <target xml:space="preserve">Distribuição de recompensas</target>
 </segment>
 </unit>
+<unit id="1976239811515748183">
+<segment>
+<source xml:space="preserve">Until 1st October 2021 (2021/10/01)</source>
+<target xml:space="preserve">Até 1º de outubro de 2021 (01/10/2021)</target>
+</segment>
+</unit>
 <unit id="1987379316591371803">
 <segment>
 <source xml:space="preserve">Payouts</source>
@@ -98,6 +104,12 @@
 <segment>
 <source xml:space="preserve">Frequentely Asked Questions (F.A.Q.)</source>
 <target xml:space="preserve">Perguntas freqüentemente feitas (FAQ.)</target>
+</segment>
+</unit>
+<unit id="2041082387182328462">
+<segment>
+<source xml:space="preserve">Enjoy 0% pool fee until October 2021.</source>
+<target xml:space="preserve">Aproveite a taxa do pool de 0% até outubro de 2021.</target>
 </segment>
 </unit>
 <unit id="2097611575880598770">
@@ -148,6 +160,12 @@
 <target xml:space="preserve">Junte-se ao pool</target>
 </segment>
 </unit>
+<unit id="2396139623688857660">
+<segment>
+<source xml:space="preserve">How to set name in explorer? (alias)</source>
+<target xml:space="preserve">Como definir o nome no explorador? (apelido)</target>
+</segment>
+</unit>
 <unit id="24036095495322476">
 <segment>
 <source xml:space="preserve">Last Partials (24 hours)</source>
@@ -158,6 +176,18 @@
 <segment>
 <source xml:space="preserve">.faucet &lt;wallet address&gt;</source>
 <target xml:space="preserve">.faucet &lt;endereco da carteira&gt;</target>
+</segment>
+</unit>
+<unit id="2644032998932147111">
+<segment>
+<source xml:space="preserve">If a reward of 1.75 XCH is found, only 1% of that, 0.0175 will be kept to the pool as a fee. The remaining 1.7325 XCH will be distributed to pool farmers.</source>
+<target xml:space="preserve">Se for encontrada uma recompensa de 1.75 XCH, apenas 1% disso, 0.0175 será mantida no pool como uma taxa. Os restantes 1.7325 XCH serão distribuídos aos fazendeiros do pool.</target>
+</segment>
+</unit>
+<unit id="2669308838649487392">
+<segment>
+<source xml:space="preserve">Show failed partials only</source>
+<target xml:space="preserve">Mostrar apenas parciais com falha</target>
 </segment>
 </unit>
 <unit id="2756022432863940642">
@@ -200,6 +230,16 @@
 <segment>
 <source xml:space="preserve">Height</source>
 <target xml:space="preserve">Altura</target>
+</segment>
+</unit>
+<unit id="3037348742943406028">
+<segment>
+<source xml:space="preserve"> Payouts will happen within 5 minutes of the farmed block.<ph disp="&lt;br /&gt;" equiv="LINE_BREAK" id="0" type="fmt"/>
+<pc dispEnd="&lt;/p&gt;" dispStart="&lt;p&gt;" equivEnd="CLOSE_PARAGRAPH" equivStart="START_PARAGRAPH" id="1" type="other"> These terms are subjected to change and will be communicated 1 week prior to the change in this website and on Discord channel. </pc>
+</source>
+<target xml:space="preserve"> Os pagamentos acontecerão dentro de 5 minutos do bloco cultivado. <ph disp="&lt;br /&gt;" equiv="LINE_BREAK" id="0" type="fmt"/>
+<pc dispEnd="&lt;/p&gt;" dispStart="&lt;p&gt;" equivEnd="CLOSE_PARAGRAPH" equivStart="START_PARAGRAPH" id="1" type="other">Estes termos estão sujeitos a alterações e serão comunicados 1 semana antes da mudança neste site e no canal Discord. </pc>
+</target>
 </segment>
 </unit>
 <unit id="3145581158682357446">
@@ -304,6 +344,12 @@
 </target>
 </segment>
 </unit>
+<unit id="4062617929041832221">
+<segment>
+<source xml:space="preserve">farmer doesn&apos;t exist, has left and/or has been removed.</source>
+<target xml:space="preserve">fazendeiro não existe, saiu e/ou foi removido.</target>
+</segment>
+</unit>
 <unit id="4127571452382238225">
 <segment>
 <source xml:space="preserve">Explorer</source>
@@ -388,6 +434,12 @@
 <target xml:space="preserve">Crie plots usando esse plotnft:</target>
 </segment>
 </unit>
+<unit id="4894182895116318049">
+<segment>
+<source xml:space="preserve">Harvester ID</source>
+<target xml:space="preserve">ID da Colheitadeira</target>
+</segment>
+</unit>
 <unit id="498428897195803218">
 <segment>
 <source xml:space="preserve">Distribution System: PPLNS</source>
@@ -436,6 +488,12 @@
 <target xml:space="preserve">Todo o nosso software é de código aberto.</target>
 </segment>
 </unit>
+<unit id="5530479554673343767">
+<segment>
+<source xml:space="preserve"> We use PPLNS (Pay Per Last N Shares) to distribute rewards.<ph disp="&lt;br /&gt;" equiv="LINE_BREAK" id="0" type="fmt"/> When a block is won, we look at the valid partials (shares) submitted by all users in the pool since last payout and distribute the reward value based on your share among all farmers in the pool.<ph disp="&lt;br /&gt;" equiv="LINE_BREAK" id="1" type="fmt"/> In our case Last N Shares refers to partials since last payout. We believe this system is far more fair for less frequent rewards (when Last N Shares means only last few hours), since people contributing for more time will get more rewards.<ph disp="&lt;br /&gt;" equiv="LINE_BREAK" id="2" type="fmt"/> Once our estimated time to win gets below 48 hours we plan on changing the Last N Shares to 48 hours of valid partials. </source>
+<target xml:space="preserve">Usamos PPLNS (Pagamento por Últimas N Ações) para distribuir recompensas. <ph disp="&lt;br /&gt;" equiv="LINE_BREAK" id="0" type="fmt"/> Quando um bloco é ganho, analisamos os parciais válidos (ações) enviados por todos os usuários no pool desde o último pagamento e distribuímos o valor da recompensa com base em sua participação entre todos os agricultores no pool.<ph disp="&lt;br /&gt;" equiv="LINE_BREAK" id="1" type="fmt"/> No nosso caso, as Últimas N ações referem-se a parciais desde o último pagamento. Acreditamos que esse sistema é muito mais justo para recompensas menos frequentes (quando as Últimas N Ações significam apenas últimas horas), já que as pessoas que contribuem por mais tempo receberão mais recompensas.<ph disp="&lt;br /&gt;" equiv="LINE_BREAK" id="2" type="fmt"/> Uma vez que nosso tempo estimado para ganhar fica abaixo de 48 horas, planejamos alterar as Últimas N Ações para 48 horas de parciais válidos.</target>
+</segment>
+</unit>
 <unit id="5683785837580689751">
 <segment>
 <source xml:space="preserve">How to join us</source>
@@ -478,6 +536,12 @@
 <target xml:space="preserve">Estado</target>
 </segment>
 </unit>
+<unit id="5942490619473756728">
+<segment>
+<source xml:space="preserve">After 1st October</source>
+<target xml:space="preserve">Depois de 1º de outubro</target>
+</segment>
+</unit>
 <unit id="5992977313238905164">
 <segment>
 <source xml:space="preserve">Points (24 hours)</source>
@@ -508,6 +572,12 @@
 <target xml:space="preserve">Índice</target>
 </segment>
 </unit>
+<unit id="6423838518528989093">
+<segment>
+<source xml:space="preserve">Before 1st October</source>
+<target xml:space="preserve">Antes de 1º de outubro</target>
+</segment>
+</unit>
 <unit id="6428143771369644145">
 <segment>
 <source xml:space="preserve">Pool Space</source>
@@ -518,6 +588,12 @@
 <segment>
 <source xml:space="preserve">Payout</source>
 <target xml:space="preserve">Pagamento</target>
+</segment>
+</unit>
+<unit id="6478666049745113178">
+<segment>
+<source xml:space="preserve">A reward of 1.75 XCH will be distributed to pool farmers, 0 XCH (nothing) is kept to the pool.</source>
+<target xml:space="preserve">Uma recompensa de 1,75 XCH será distribuída aos fazendeiros do pool, 0 XCH (nada) é mantido no pool.</target>
 </segment>
 </unit>
 <unit id="6533918067030990396">
@@ -788,6 +864,12 @@
 <target xml:space="preserve">Blocos</target>
 </segment>
 </unit>
+<unit id="Count">
+<segment>
+<source xml:space="preserve">Count</source>
+<target xml:space="preserve">Contagem</target>
+</segment>
+</unit>
 <unit id="Date">
 <segment>
 <source xml:space="preserve">Date</source>
@@ -812,6 +894,12 @@
 <target xml:space="preserve">Explorador</target>
 </segment>
 </unit>
+<unit id="Failed">
+<segment>
+<source xml:space="preserve">Failed</source>
+<target xml:space="preserve">Falha</target>
+</segment>
+</unit>
 <unit id="Farmers">
 <segment>
 <source xml:space="preserve">Farmers</source>
@@ -824,10 +912,22 @@
 <target xml:space="preserve">Taxa</target>
 </segment>
 </unit>
+<unit id="Harversters">
+<segment>
+<source xml:space="preserve">Harvesters</source>
+<target xml:space="preserve">Colheitadeiras</target>
+</segment>
+</unit>
 <unit id="Height">
 <segment>
 <source xml:space="preserve">Height</source>
 <target xml:space="preserve">Altura</target>
+</segment>
+</unit>
+<unit id="Hrs24">
+<segment>
+<source xml:space="preserve">24 hours</source>
+<target xml:space="preserve">24 horas</target>
 </segment>
 </unit>
 <unit id="ID">
@@ -890,6 +990,12 @@
 <target xml:space="preserve">Pagamentos</target>
 </segment>
 </unit>
+<unit id="Performance">
+<segment>
+<source xml:space="preserve">Performance</source>
+<target xml:space="preserve">Desempenho</target>
+</segment>
+</unit>
 <unit id="Points">
 <segment>
 <source xml:space="preserve">Points</source>
@@ -900,6 +1006,12 @@
 <segment>
 <source xml:space="preserve">Step</source>
 <target xml:space="preserve">Passo</target>
+</segment>
+</unit>
+<unit id="Successful">
+<segment>
+<source xml:space="preserve">Successful</source>
+<target xml:space="preserve">Sucedidos</target>
 </segment>
 </unit>
 <unit id="Terms">
@@ -932,6 +1044,12 @@
 <target xml:space="preserve">Utilização de Espaço</target>
 </segment>
 </unit>
+<unit id="Warning">
+<segment>
+<source xml:space="preserve">Warning</source>
+<target xml:space="preserve">Aviso</target>
+</segment>
+</unit>
 <unit id="ngb.alert.close">
 <segment>
 <source xml:space="preserve">Close</source>
@@ -950,53 +1068,10 @@
 <target xml:space="preserve">Anterior</target>
 </segment>
 </unit>
-<unit id="ngb.carousel.slide-number">
-<segment>
-<source xml:space="preserve"> Slide <ph disp="ject(false);" equiv="INTERPOLATION" id="0"/> of <ph disp="ivate _pauseOnH" equiv="INTERPOLATION_1" id="1"/> </source>
-<target xml:space="preserve"> Slide <ph disp="ject(false);" equiv="INTERPOLATION" id="0"/> de <ph disp="ivate _pauseOnH" equiv="INTERPOLATION_1" id="1"/>
-</target>
-</segment>
-</unit>
-<unit id="ngb.datepicker.next-month">
-<segment>
-<source xml:space="preserve">Next month</source>
-<target xml:space="preserve">Próximo mês</target>
-</segment>
-</unit>
-<unit id="ngb.datepicker.previous-month">
-<segment>
-<source xml:space="preserve">Previous month</source>
-<target xml:space="preserve">Mês anterior</target>
-</segment>
-</unit>
-<unit id="ngb.datepicker.select-month">
-<segment>
-<source xml:space="preserve">Select month</source>
-<target xml:space="preserve">Escolha um mês</target>
-</segment>
-</unit>
-<unit id="ngb.datepicker.select-year">
-<segment>
-<source xml:space="preserve">Select year</source>
-<target xml:space="preserve">Selecione o ano</target>
-</segment>
-</unit>
-<unit id="ngb.pagination.first">
-<segment>
-<source xml:space="preserve">««</source>
-<target xml:space="preserve">««</target>
-</segment>
-</unit>
 <unit id="ngb.pagination.first-aria">
 <segment>
 <source xml:space="preserve">First</source>
 <target xml:space="preserve">Primeiro</target>
-</segment>
-</unit>
-<unit id="ngb.pagination.last">
-<segment>
-<source xml:space="preserve">»»</source>
-<target xml:space="preserve">»»</target>
 </segment>
 </unit>
 <unit id="ngb.pagination.last-aria">
@@ -1005,22 +1080,10 @@
 <target xml:space="preserve">Último</target>
 </segment>
 </unit>
-<unit id="ngb.pagination.next">
-<segment>
-<source xml:space="preserve">»</source>
-<target xml:space="preserve">»</target>
-</segment>
-</unit>
 <unit id="ngb.pagination.next-aria">
 <segment>
 <source xml:space="preserve">Next</source>
 <target xml:space="preserve">Próximo</target>
-</segment>
-</unit>
-<unit id="ngb.pagination.previous">
-<segment>
-<source xml:space="preserve">«</source>
-<target xml:space="preserve">«</target>
 </segment>
 </unit>
 <unit id="ngb.pagination.previous-aria">

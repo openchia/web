@@ -9,99 +9,6 @@
         <source>Close</source>
       </segment>
     </unit>
-    <unit id="ngb.carousel.slide-number">
-      <notes>
-        <note category="location">node_modules/@ng-bootstrap/src/carousel/carousel.ts:109,117</note>
-        <note category="description">Currently selected slide number read by screen reader</note>
-      </notes>
-      <segment>
-        <source> Slide <ph id="0" equiv="INTERPOLATION" disp="ject(false);"/> of <ph id="1" equiv="INTERPOLATION_1" disp="ivate _pauseOnH"/> </source>
-      </segment>
-    </unit>
-    <unit id="ngb.carousel.previous">
-      <notes>
-        <note category="location">node_modules/@ng-bootstrap/src/carousel/carousel.ts:130,134</note>
-      </notes>
-      <segment>
-        <source>Previous</source>
-      </segment>
-    </unit>
-    <unit id="ngb.carousel.next">
-      <notes>
-        <note category="location">node_modules/@ng-bootstrap/src/carousel/carousel.ts:147,157</note>
-      </notes>
-      <segment>
-        <source>Next</source>
-      </segment>
-    </unit>
-    <unit id="ngb.datepicker.select-month">
-      <notes>
-        <note category="location">node_modules/@ng-bootstrap/src/datepicker/datepicker-navigation-select.ts:44,50</note>
-        <note category="location">node_modules/@ng-bootstrap/src/datepicker/datepicker-navigation-select.ts:48,53</note>
-      </notes>
-      <segment>
-        <source>Select month</source>
-      </segment>
-    </unit>
-    <unit id="ngb.datepicker.select-year">
-      <notes>
-        <note category="location">node_modules/@ng-bootstrap/src/datepicker/datepicker-navigation-select.ts:62,65</note>
-        <note category="location">node_modules/@ng-bootstrap/src/datepicker/datepicker-navigation-select.ts:74</note>
-      </notes>
-      <segment>
-        <source>Select year</source>
-      </segment>
-    </unit>
-    <unit id="ngb.datepicker.previous-month">
-      <notes>
-        <note category="location">node_modules/@ng-bootstrap/src/datepicker/datepicker-navigation.ts:13,14</note>
-        <note category="location">node_modules/@ng-bootstrap/src/datepicker/datepicker-navigation.ts:22,27</note>
-      </notes>
-      <segment>
-        <source>Previous month</source>
-      </segment>
-    </unit>
-    <unit id="ngb.datepicker.next-month">
-      <notes>
-        <note category="location">node_modules/@ng-bootstrap/src/datepicker/datepicker-navigation.ts:47,52</note>
-        <note category="location">node_modules/@ng-bootstrap/src/datepicker/datepicker-navigation.ts:61,69</note>
-      </notes>
-      <segment>
-        <source>Next month</source>
-      </segment>
-    </unit>
-    <unit id="ngb.pagination.first">
-      <notes>
-        <note category="location">node_modules/@ng-bootstrap/src/pagination/pagination.ts:158,160</note>
-      </notes>
-      <segment>
-        <source>««</source>
-      </segment>
-    </unit>
-    <unit id="ngb.pagination.previous">
-      <notes>
-        <note category="location">node_modules/@ng-bootstrap/src/pagination/pagination.ts:166,168</note>
-      </notes>
-      <segment>
-        <source>«</source>
-      </segment>
-    </unit>
-    <unit id="ngb.pagination.next">
-      <notes>
-        <note category="location">node_modules/@ng-bootstrap/src/pagination/pagination.ts:172,173</note>
-      </notes>
-      <segment>
-        <source>»</source>
-      </segment>
-    </unit>
-    <unit id="ngb.pagination.last">
-      <notes>
-        <note category="location">node_modules/@ng-bootstrap/src/pagination/pagination.ts:179,182</note>
-      </notes>
-      <segment>
-        <source>»»</source>
-      </segment>
-    </unit>
     <unit id="ngb.pagination.first-aria">
       <notes>
         <note category="location">node_modules/@ng-bootstrap/src/pagination/pagination.ts:186,191</note>
@@ -324,7 +231,7 @@
     <unit id="NoPayouts">
       <notes>
         <note category="location">src/app/explorer/dashboard/dashboard.component.html:99,110</note>
-        <note category="location">src/app/explorer/farmer/farmer.component.ts:149</note>
+        <note category="location">src/app/explorer/farmer/farmer.component.ts:164</note>
       </notes>
       <segment>
         <source>No payouts found!</source>
@@ -341,7 +248,7 @@
     <unit id="Difficulty">
       <notes>
         <note category="location">src/app/explorer/dashboard/dashboard.component.ts:78,85</note>
-        <note category="location">src/app/explorer/farmer/farmer.component.ts:110,119</note>
+        <note category="location">src/app/explorer/farmer/farmer.component.ts:115,126</note>
       </notes>
       <segment>
         <source>Difficulty</source>
@@ -350,7 +257,8 @@
     <unit id="Points">
       <notes>
         <note category="location">src/app/explorer/dashboard/dashboard.component.ts:92,98</note>
-        <note category="location">src/app/explorer/farmer/farmer.component.ts:68,75</note>
+        <note category="location">src/app/explorer/farmer/farmer.component.ts:71,77</note>
+        <note category="location">src/app/explorer/farmer/farmer.component.ts:164</note>
       </notes>
       <segment>
         <source>Points</source>
@@ -392,7 +300,7 @@
       <notes>
         <note category="location">src/app/explorer/dashboard/dashboard.component.ts:98</note>
         <note category="location">src/app/explorer/dashboard/dashboard.component.ts:98</note>
-        <note category="location">src/app/explorer/farmer/farmer.component.ts:149</note>
+        <note category="location">src/app/explorer/farmer/farmer.component.ts:164</note>
       </notes>
       <segment>
         <source>Date</source>
@@ -425,8 +333,8 @@
     <unit id="Amount">
       <notes>
         <note category="location">src/app/explorer/dashboard/dashboard.component.ts:98</note>
-        <note category="location">src/app/explorer/farmer/farmer.component.ts:149</note>
-        <note category="location">src/app/explorer/farmer/farmer.component.ts:149</note>
+        <note category="location">src/app/explorer/farmer/farmer.component.ts:164</note>
+        <note category="location">src/app/explorer/farmer/farmer.component.ts:164</note>
         <note category="location">src/app/explorer/payout/payout.component.ts:32</note>
         <note category="location">src/app/explorer/payout/payout.component.ts:32</note>
       </notes>
@@ -492,7 +400,7 @@
     </unit>
     <unit id="2264932589847833892">
       <notes>
-        <note category="location">src/app/explorer/farmer/farmer.component.ts:26,35</note>
+        <note category="location">src/app/explorer/farmer/farmer.component.ts:28,38</note>
       </notes>
       <segment>
         <source>Farmer Details</source>
@@ -500,7 +408,7 @@
     </unit>
     <unit id="6880713934119717799">
       <notes>
-        <note category="location">src/app/explorer/farmer/farmer.component.ts:49,57</note>
+        <note category="location">src/app/explorer/farmer/farmer.component.ts:52,60</note>
       </notes>
       <segment>
         <source>Friendly Name</source>
@@ -508,33 +416,31 @@
     </unit>
     <unit id="5043891966437752386">
       <notes>
-        <note category="location">src/app/explorer/farmer/farmer.component.ts:89,97</note>
+        <note category="location">src/app/explorer/farmer/farmer.component.ts:89,99</note>
       </notes>
       <segment>
         <source>Launcher ID</source>
       </segment>
     </unit>
-    <unit id="1774008180173753624">
-      <notes>
-        <note category="location">src/app/explorer/farmer/farmer.component.ts:126,127</note>
-        <note category="location">src/app/explorer/farmer/farmer.component.ts:149</note>
-      </notes>
-      <segment>
-        <source>Successful Partials</source>
-      </segment>
-    </unit>
     <unit id="760044993052786414">
       <notes>
-        <note category="location">src/app/explorer/farmer/farmer.component.ts:132,145</note>
+        <note category="location">src/app/explorer/farmer/farmer.component.ts:139,147</note>
       </notes>
       <segment>
         <source>Estimated Size </source>
       </segment>
     </unit>
+    <unit id="1774008180173753624">
+      <notes>
+        <note category="location">src/app/explorer/farmer/farmer.component.ts:141,142</note>
+      </notes>
+      <segment>
+        <source>Successful Partials</source>
+      </segment>
+    </unit>
     <unit id="2756022432863940642">
       <notes>
-        <note category="location">src/app/explorer/farmer/farmer.component.ts:132,133</note>
-        <note category="location">src/app/explorer/farmer/farmer.component.ts:149</note>
+        <note category="location">src/app/explorer/farmer/farmer.component.ts:147,148</note>
       </notes>
       <segment>
         <source>Failed Partials</source>
@@ -542,7 +448,11 @@
     </unit>
     <unit id="Partials">
       <notes>
-        <note category="location">src/app/explorer/farmer/farmer.component.ts:149</note>
+        <note category="location">src/app/explorer/farmer/farmer.component.ts:164</note>
+        <note category="location">src/app/explorer/farmer/farmer.component.ts:164</note>
+        <note category="location">src/app/explorer/farmer/farmer.component.ts:164</note>
+        <note category="location">src/app/explorer/farmer/farmer.component.ts:164</note>
+        <note category="location">src/app/explorer/farmer/farmer.component.ts:164</note>
       </notes>
       <segment>
         <source>Partials</source>
@@ -550,15 +460,15 @@
     </unit>
     <unit id="Warning">
       <notes>
-        <note category="location">src/app/explorer/farmer/farmer.component.ts:149</note>
+        <note category="location">src/app/explorer/farmer/farmer.component.ts:164</note>
       </notes>
       <segment>
         <source>Warning</source>
       </segment>
     </unit>
-    <unit id="5731283552653564975">
+    <unit id="4062617929041832221">
       <notes>
-        <note category="location">src/app/explorer/farmer/farmer.component.ts:149</note>
+        <note category="location">src/app/explorer/farmer/farmer.component.ts:164</note>
       </notes>
       <segment>
         <source>farmer doesn&apos;t exist, has left and/or has been removed.</source>
@@ -566,47 +476,96 @@
     </unit>
     <unit id="2153109973251079314">
       <notes>
-        <note category="location">src/app/explorer/farmer/farmer.component.ts:149</note>
+        <note category="location">src/app/explorer/farmer/farmer.component.ts:164</note>
       </notes>
       <segment>
         <source>Learn how to set name here.</source>
       </segment>
     </unit>
-    <unit id="7904374983883510569">
+    <unit id="Hrs24">
       <notes>
-        <note category="location">src/app/explorer/farmer/farmer.component.ts:149</note>
+        <note category="location">src/app/explorer/farmer/farmer.component.ts:164</note>
+        <note category="location">src/app/explorer/farmer/farmer.component.ts:164</note>
       </notes>
       <segment>
-        <source>Partials (24 hours)</source>
+        <source>24 hours</source>
       </segment>
     </unit>
-    <unit id="5992977313238905164">
+    <unit id="Successful">
       <notes>
-        <note category="location">src/app/explorer/farmer/farmer.component.ts:149</note>
+        <note category="location">src/app/explorer/farmer/farmer.component.ts:164</note>
       </notes>
       <segment>
-        <source>Points (24 hours)</source>
+        <source>Successful</source>
+      </segment>
+    </unit>
+    <unit id="Failed">
+      <notes>
+        <note category="location">src/app/explorer/farmer/farmer.component.ts:164</note>
+      </notes>
+      <segment>
+        <source>Failed</source>
+      </segment>
+    </unit>
+    <unit id="Performance">
+      <notes>
+        <note category="location">src/app/explorer/farmer/farmer.component.ts:164</note>
+      </notes>
+      <segment>
+        <source>Performance</source>
+      </segment>
+    </unit>
+    <unit id="Harversters">
+      <notes>
+        <note category="location">src/app/explorer/farmer/farmer.component.ts:164</note>
+      </notes>
+      <segment>
+        <source>Harvesters</source>
+      </segment>
+    </unit>
+    <unit id="Count">
+      <notes>
+        <note category="location">src/app/explorer/farmer/farmer.component.ts:164</note>
+      </notes>
+      <segment>
+        <source>Count</source>
       </segment>
     </unit>
     <unit id="6930616437385085682">
       <notes>
-        <note category="location">src/app/explorer/farmer/farmer.component.ts:149</note>
+        <note category="location">src/app/explorer/farmer/farmer.component.ts:164</note>
       </notes>
       <segment>
         <source>Partials</source>
       </segment>
     </unit>
+    <unit id="2669308838649487392">
+      <notes>
+        <note category="location">src/app/explorer/farmer/farmer.component.ts:164</note>
+      </notes>
+      <segment>
+        <source>Show failed partials only</source>
+      </segment>
+    </unit>
     <unit id="1063462873103909661">
       <notes>
-        <note category="location">src/app/explorer/farmer/farmer.component.ts:149</note>
+        <note category="location">src/app/explorer/farmer/farmer.component.ts:164</note>
       </notes>
       <segment>
         <source>Difficulty</source>
       </segment>
     </unit>
+    <unit id="4894182895116318049">
+      <notes>
+        <note category="location">src/app/explorer/farmer/farmer.component.ts:164</note>
+      </notes>
+      <segment>
+        <source>Harvester ID</source>
+      </segment>
+    </unit>
     <unit id="5911214550882917183">
       <notes>
-        <note category="location">src/app/explorer/farmer/farmer.component.ts:149</note>
+        <note category="location">src/app/explorer/farmer/farmer.component.ts:164</note>
       </notes>
       <segment>
         <source>State</source>
@@ -614,7 +573,7 @@
     </unit>
     <unit id="7452975614303290488">
       <notes>
-        <note category="location">src/app/explorer/farmer/farmer.component.ts:149</note>
+        <note category="location">src/app/explorer/farmer/farmer.component.ts:164</note>
       </notes>
       <segment>
         <source>No partials found!</source>
@@ -622,7 +581,7 @@
     </unit>
     <unit id="Transaction">
       <notes>
-        <note category="location">src/app/explorer/farmer/farmer.component.ts:149</note>
+        <note category="location">src/app/explorer/farmer/farmer.component.ts:164</note>
         <note category="location">src/app/explorer/payout/payout.component.ts:32</note>
       </notes>
       <segment>
@@ -631,7 +590,7 @@
     </unit>
     <unit id="TransactionBlock">
       <notes>
-        <note category="location">src/app/explorer/farmer/farmer.component.ts:149</note>
+        <note category="location">src/app/explorer/farmer/farmer.component.ts:164</note>
       </notes>
       <segment>
         <source>Transaction Block</source>
@@ -639,7 +598,7 @@
     </unit>
     <unit id="Height">
       <notes>
-        <note category="location">src/app/explorer/farmer/farmer.component.ts:149</note>
+        <note category="location">src/app/explorer/farmer/farmer.component.ts:164</note>
       </notes>
       <segment>
         <source>Height</source>
@@ -647,7 +606,7 @@
     </unit>
     <unit id="Date">
       <notes>
-        <note category="location">src/app/explorer/farmer/farmer.component.ts:149</note>
+        <note category="location">src/app/explorer/farmer/farmer.component.ts:164</note>
         <note category="location">src/app/explorer/payout/payout.component.ts:32</note>
       </notes>
       <segment>
@@ -656,7 +615,7 @@
     </unit>
     <unit id="3900702001221590652">
       <notes>
-        <note category="location">src/app/explorer/farmer/farmer.component.ts:149</note>
+        <note category="location">src/app/explorer/farmer/farmer.component.ts:164</note>
       </notes>
       <segment>
         <source>No blocks found by this farmer!</source>
@@ -780,6 +739,14 @@
       </notes>
       <segment>
         <source>How many portable plots do I need to join the pool?</source>
+      </segment>
+    </unit>
+    <unit id="2396139623688857660">
+      <notes>
+        <note category="location">src/app/faq/faq.component.ts:16</note>
+      </notes>
+      <segment>
+        <source>How to set name in explorer? (alias)</source>
       </segment>
     </unit>
     <unit id="789888685484703987">

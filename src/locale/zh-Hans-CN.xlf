@@ -82,6 +82,12 @@
 <target xml:space="preserve">Reward Distribution</target>
 </segment>
 </unit>
+<unit id="1976239811515748183">
+<segment>
+<source xml:space="preserve">Until 1st October 2021 (2021/10/01)</source>
+<target xml:space="preserve">Until 1st October 2021 (2021/10/01)</target>
+</segment>
+</unit>
 <unit id="1987379316591371803">
 <segment>
 <source xml:space="preserve">Payouts</source>
@@ -98,6 +104,12 @@
 <segment>
 <source xml:space="preserve">Frequentely Asked Questions (F.A.Q.)</source>
 <target xml:space="preserve">Frequentely Asked Questions (F.A.Q.)</target>
+</segment>
+</unit>
+<unit id="2041082387182328462">
+<segment>
+<source xml:space="preserve">Enjoy 0% pool fee until October 2021.</source>
+<target xml:space="preserve">Enjoy 0% pool fee until October 2021.</target>
 </segment>
 </unit>
 <unit id="2097611575880598770">
@@ -148,6 +160,12 @@
 <target xml:space="preserve">Join our pool</target>
 </segment>
 </unit>
+<unit id="2396139623688857660">
+<segment>
+<source xml:space="preserve">How to set name in explorer? (alias)</source>
+<target xml:space="preserve">How to set name in explorer? (alias)</target>
+</segment>
+</unit>
 <unit id="24036095495322476">
 <segment>
 <source xml:space="preserve">Last Partials (24 hours)</source>
@@ -158,6 +176,18 @@
 <segment>
 <source xml:space="preserve">.faucet &lt;wallet address&gt;</source>
 <target xml:space="preserve">.faucet &lt;wallet address&gt;</target>
+</segment>
+</unit>
+<unit id="2644032998932147111">
+<segment>
+<source xml:space="preserve">If a reward of 1.75 XCH is found, only 1% of that, 0.0175 will be kept to the pool as a fee. The remaining 1.7325 XCH will be distributed to pool farmers.</source>
+<target xml:space="preserve">If a reward of 1.75 XCH is found, only 1% of that, 0.0175 will be kept to the pool as a fee. The remaining 1.7325 XCH will be distributed to pool farmers.</target>
+</segment>
+</unit>
+<unit id="2669308838649487392">
+<segment>
+<source xml:space="preserve">Show failed partials only</source>
+<target xml:space="preserve">Show failed partials only</target>
 </segment>
 </unit>
 <unit id="2756022432863940642">
@@ -200,6 +230,16 @@
 <segment>
 <source xml:space="preserve">Height</source>
 <target xml:space="preserve">身高</target>
+</segment>
+</unit>
+<unit id="3037348742943406028">
+<segment>
+<source xml:space="preserve"> Payouts will happen within 5 minutes of the farmed block.<ph disp="&lt;br /&gt;" equiv="LINE_BREAK" id="0" type="fmt"/>
+<pc dispEnd="&lt;/p&gt;" dispStart="&lt;p&gt;" equivEnd="CLOSE_PARAGRAPH" equivStart="START_PARAGRAPH" id="1" type="other"> These terms are subjected to change and will be communicated 1 week prior to the change in this website and on Discord channel. </pc>
+</source>
+<target xml:space="preserve"> Payouts will happen within 5 minutes of the farmed block.<ph disp="&lt;br /&gt;" equiv="LINE_BREAK" id="0" type="fmt"/>
+<pc dispEnd="&lt;/p&gt;" dispStart="&lt;p&gt;" equivEnd="CLOSE_PARAGRAPH" equivStart="START_PARAGRAPH" id="1" type="other"> These terms are subjected to change and will be communicated 1 week prior to the change in this website and on Discord channel. </pc>
+</target>
 </segment>
 </unit>
 <unit id="3145581158682357446">
@@ -304,6 +344,12 @@
 </target>
 </segment>
 </unit>
+<unit id="4062617929041832221">
+<segment>
+<source xml:space="preserve">farmer doesn&apos;t exist, has left and/or has been removed.</source>
+<target xml:space="preserve">farmer doesn&apos;t exist, has left and/or has been removed.</target>
+</segment>
+</unit>
 <unit id="4127571452382238225">
 <segment>
 <source xml:space="preserve">Explorer</source>
@@ -388,6 +434,12 @@
 <target xml:space="preserve">Create plots using that plotnft:</target>
 </segment>
 </unit>
+<unit id="4894182895116318049">
+<segment>
+<source xml:space="preserve">Harvester ID</source>
+<target xml:space="preserve">Harvester ID</target>
+</segment>
+</unit>
 <unit id="498428897195803218">
 <segment>
 <source xml:space="preserve">Distribution System: PPLNS</source>
@@ -436,6 +488,12 @@
 <target xml:space="preserve">All our software is open source. </target>
 </segment>
 </unit>
+<unit id="5530479554673343767">
+<segment>
+<source xml:space="preserve"> We use PPLNS (Pay Per Last N Shares) to distribute rewards.<ph disp="&lt;br /&gt;" equiv="LINE_BREAK" id="0" type="fmt"/> When a block is won, we look at the valid partials (shares) submitted by all users in the pool since last payout and distribute the reward value based on your share among all farmers in the pool.<ph disp="&lt;br /&gt;" equiv="LINE_BREAK" id="1" type="fmt"/> In our case Last N Shares refers to partials since last payout. We believe this system is far more fair for less frequent rewards (when Last N Shares means only last few hours), since people contributing for more time will get more rewards.<ph disp="&lt;br /&gt;" equiv="LINE_BREAK" id="2" type="fmt"/> Once our estimated time to win gets below 48 hours we plan on changing the Last N Shares to 48 hours of valid partials. </source>
+<target xml:space="preserve"> We use PPLNS (Pay Per Last N Shares) to distribute rewards.<ph disp="&lt;br /&gt;" equiv="LINE_BREAK" id="0" type="fmt"/> When a block is won, we look at the valid partials (shares) submitted by all users in the pool since last payout and distribute the reward value based on your share among all farmers in the pool.<ph disp="&lt;br /&gt;" equiv="LINE_BREAK" id="1" type="fmt"/> In our case Last N Shares refers to partials since last payout. We believe this system is far more fair for less frequent rewards (when Last N Shares means only last few hours), since people contributing for more time will get more rewards.<ph disp="&lt;br /&gt;" equiv="LINE_BREAK" id="2" type="fmt"/> Once our estimated time to win gets below 48 hours we plan on changing the Last N Shares to 48 hours of valid partials. </target>
+</segment>
+</unit>
 <unit id="5683785837580689751">
 <segment>
 <source xml:space="preserve">How to join us</source>
@@ -478,6 +536,12 @@
 <target xml:space="preserve">州</target>
 </segment>
 </unit>
+<unit id="5942490619473756728">
+<segment>
+<source xml:space="preserve">After 1st October</source>
+<target xml:space="preserve">After 1st October</target>
+</segment>
+</unit>
 <unit id="5992977313238905164">
 <segment>
 <source xml:space="preserve">Points (24 hours)</source>
@@ -508,6 +572,12 @@
 <target xml:space="preserve">索引</target>
 </segment>
 </unit>
+<unit id="6423838518528989093">
+<segment>
+<source xml:space="preserve">Before 1st October</source>
+<target xml:space="preserve">Before 1st October</target>
+</segment>
+</unit>
 <unit id="6428143771369644145">
 <segment>
 <source xml:space="preserve">Pool Space</source>
@@ -518,6 +588,12 @@
 <segment>
 <source xml:space="preserve">Payout</source>
 <target xml:space="preserve">Payout</target>
+</segment>
+</unit>
+<unit id="6478666049745113178">
+<segment>
+<source xml:space="preserve">A reward of 1.75 XCH will be distributed to pool farmers, 0 XCH (nothing) is kept to the pool.</source>
+<target xml:space="preserve">A reward of 1.75 XCH will be distributed to pool farmers, 0 XCH (nothing) is kept to the pool.</target>
 </segment>
 </unit>
 <unit id="6533918067030990396">
@@ -787,6 +863,12 @@
 <target xml:space="preserve">大厦</target>
 </segment>
 </unit>
+<unit id="Count">
+<segment>
+<source xml:space="preserve">Count</source>
+<target xml:space="preserve">Count</target>
+</segment>
+</unit>
 <unit id="Date">
 <segment>
 <source xml:space="preserve">Date</source>
@@ -811,6 +893,12 @@
 <target xml:space="preserve">探险者</target>
 </segment>
 </unit>
+<unit id="Failed">
+<segment>
+<source xml:space="preserve">Failed</source>
+<target xml:space="preserve">Failed</target>
+</segment>
+</unit>
 <unit id="Farmers">
 <segment>
 <source xml:space="preserve">Farmers</source>
@@ -823,10 +911,22 @@
 <target xml:space="preserve">費用</target>
 </segment>
 </unit>
+<unit id="Harversters">
+<segment>
+<source xml:space="preserve">Harvesters</source>
+<target xml:space="preserve">Harvesters</target>
+</segment>
+</unit>
 <unit id="Height">
 <segment>
 <source xml:space="preserve">Height</source>
 <target xml:space="preserve">身高</target>
+</segment>
+</unit>
+<unit id="Hrs24">
+<segment>
+<source xml:space="preserve">24 hours</source>
+<target xml:space="preserve">24 hours</target>
 </segment>
 </unit>
 <unit id="ID">
@@ -889,6 +989,12 @@
 <target xml:space="preserve">Payouts</target>
 </segment>
 </unit>
+<unit id="Performance">
+<segment>
+<source xml:space="preserve">Performance</source>
+<target xml:space="preserve">Performance</target>
+</segment>
+</unit>
 <unit id="Points">
 <segment>
 <source xml:space="preserve">Points</source>
@@ -899,6 +1005,12 @@
 <segment>
 <source xml:space="preserve">Step</source>
 <target xml:space="preserve">步</target>
+</segment>
+</unit>
+<unit id="Successful">
+<segment>
+<source xml:space="preserve">Successful</source>
+<target xml:space="preserve">Successful</target>
 </segment>
 </unit>
 <unit id="Terms">
@@ -931,6 +1043,12 @@
 <target xml:space="preserve">Utilization Space</target>
 </segment>
 </unit>
+<unit id="Warning">
+<segment>
+<source xml:space="preserve">Warning</source>
+<target xml:space="preserve">Warning</target>
+</segment>
+</unit>
 <unit id="ngb.alert.close">
 <segment>
 <source xml:space="preserve">Close</source>
@@ -949,52 +1067,10 @@
 <target xml:space="preserve">上一个</target>
 </segment>
 </unit>
-<unit id="ngb.carousel.slide-number">
-<segment>
-<source xml:space="preserve"> Slide <ph disp="ject(false);" equiv="INTERPOLATION" id="0"/> of <ph disp="ivate _pauseOnH" equiv="INTERPOLATION_1" id="1"/> </source>
-<target xml:space="preserve">第 %1$d 张幻灯片，共 %2$d 张</target>
-</segment>
-</unit>
-<unit id="ngb.datepicker.next-month">
-<segment>
-<source xml:space="preserve">Next month</source>
-<target xml:space="preserve">下个月</target>
-</segment>
-</unit>
-<unit id="ngb.datepicker.previous-month">
-<segment>
-<source xml:space="preserve">Previous month</source>
-<target xml:space="preserve">上个月</target>
-</segment>
-</unit>
-<unit id="ngb.datepicker.select-month">
-<segment>
-<source xml:space="preserve">Select month</source>
-<target xml:space="preserve">选择某月</target>
-</segment>
-</unit>
-<unit id="ngb.datepicker.select-year">
-<segment>
-<source xml:space="preserve">Select year</source>
-<target xml:space="preserve">选择年份</target>
-</segment>
-</unit>
-<unit id="ngb.pagination.first">
-<segment>
-<source xml:space="preserve">««</source>
-<target xml:space="preserve">««</target>
-</segment>
-</unit>
 <unit id="ngb.pagination.first-aria">
 <segment>
 <source xml:space="preserve">First</source>
 <target xml:space="preserve">第一页</target>
-</segment>
-</unit>
-<unit id="ngb.pagination.last">
-<segment>
-<source xml:space="preserve">»»</source>
-<target xml:space="preserve">»»</target>
 </segment>
 </unit>
 <unit id="ngb.pagination.last-aria">
@@ -1003,22 +1079,10 @@
 <target xml:space="preserve">最后一页</target>
 </segment>
 </unit>
-<unit id="ngb.pagination.next">
-<segment>
-<source xml:space="preserve">»</source>
-<target xml:space="preserve">»</target>
-</segment>
-</unit>
 <unit id="ngb.pagination.next-aria">
 <segment>
 <source xml:space="preserve">Next</source>
 <target xml:space="preserve">继续</target>
-</segment>
-</unit>
-<unit id="ngb.pagination.previous">
-<segment>
-<source xml:space="preserve">«</source>
-<target xml:space="preserve">«</target>
 </segment>
 </unit>
 <unit id="ngb.pagination.previous-aria">
