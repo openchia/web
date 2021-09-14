@@ -56,48 +56,56 @@
               <div class="row row-grid">
                 <div class="col-lg-2 justify-content-center">
                   <div class="card card-lift shadow border-0">
-                    <div class="card-body py-3 text-center">
-                      <span class="text-primary text-uppercase" i18n>Partials<br/>(24 hours)</span>
+                    <div class="card-body py-3 text-center text-uppercase">
+                      <span class="text-primary"><span i18n="@@Partials">Partials</span><br /><span i18n="@@Hrs24">24
+                          hours</span>)</span>
                       <p class="display-3">{{ partialsCollectionSize }}</p>
                     </div>
                   </div>
                 </div>
                 <div class="col-lg-2 justify-content-center">
                   <div class="card card-lift shadow border-0">
-                    <div class="card-body py-3 text-center">
-                      <span class="text-primary text-uppercase" i18n>Points<br/>(24 hours)</span>
+                    <div class="card-body py-3 text-center text-uppercase">
+                      <span class="text-primary"><span i18n="@@Points">Points</span><br />(<span i18n="@@Hrs24">24
+                          hours</span>)</span>
                       <p class="display-3">{{ partialsPoints }}</p>
                     </div>
                   </div>
                 </div>
                 <div class="col-lg-2 justify-content-center">
                   <div class="card card-lift shadow border-0">
-                    <div class="card-body py-3 text-center">
-                      <span class="text-primary text-uppercase" i18n>Successful<br/>Partials</span>
+                    <div class="card-body py-3 text-center text-uppercase">
+                      <span class="text-primary"><span i18n="@@Successful">Successful</span><br /><span
+                          i18n="@@Partials">Partials</span></span>
                       <p class="display-3">{{ partialsSuccessful }}</p>
                     </div>
                   </div>
                 </div>
                 <div class="col-lg-2 justify-content-center">
                   <div class="card card-lift shadow border-0">
-                    <div class="card-body py-3 text-center">
-                      <span class="text-warning text-uppercase" i18n>Failed<br/>Partials</span>
+                    <div class="card-body py-3 text-center text-uppercase">
+                      <span class="text-warning"><span i18n="@@Failed">Failed</span><br /><span
+                          i18n="@@Partials">Partials</span></span>
                       <p class="display-3">{{ partialsFailed }}</p>
                     </div>
                   </div>
                 </div>
                 <div class="col-lg-2 justify-content-center">
                   <div class="card card-lift shadow border-0">
-                    <div class="card-body py-3 text-center">
-                      <span class="text-info text-uppercase" i18n>Partials<br/>Performance</span>
-                      <p class="display-3" ngbTooltip="{{ 100 - ( partialsFailed * 100 / partialsSuccessful ) | number:'2.6' }}%">{{ 100 - ( partialsFailed * 100 / partialsSuccessful ) | number:'2.1-1' }}%</p>
+                    <div class="card-body py-3 text-center text-uppercase">
+                      <span class="text-info"><span i18n="@@Partials">Partials</span><br /><span
+                          i18n="@@Performance">Performance</span></span>
+                      <p class="display-3"
+                        ngbTooltip="{{ 100 - ( partialsFailed * 100 / partialsSuccessful ) | number:'2.6' }}%">{{ 100 -
+                        ( partialsFailed * 100 / partialsSuccessful ) | number:'2.1-1' }}%</p>
                     </div>
                   </div>
                 </div>
                 <div class="col-lg-2 justify-content-center">
                   <div class="card card-lift shadow border-0">
-                    <div class="card-body py-3 text-center">
-                      <span class="text-primary text-uppercase" i18n>Harvesters<br/>Count</span>
+                    <div class="card-body py-3 text-center text-uppercase">
+                      <span class="text-primary"><span i18n="@@Harversters">Harvesters</span><br /><span
+                          i18n="@@Count">Count</span></span>
                       <p class="display-3">{{ harversters.size }}</p>
                     </div>
                   </div>
@@ -130,7 +138,8 @@
                 [class]="(partial.error && !failedPartials) ? 'partialErrorRow' : ''">
                 <td>{{ partial.timestamp * 1000 | date:"medium" }}</td>
                 <td>{{ partial.difficulty }}</td>
-                <td ngbTooltip="{{ partial.harvester_id }}" placement="left" container="body">{{ partial.harvester_id | maxLength:20 }}</td>
+                <td ngbTooltip="{{ partial.harvester_id }}" placement="left" container="body">{{ partial.harvester_id |
+                  maxLength:20 }}</td>
                 <td *ngIf="partial.error==='INVALID_TOO_LATE'">{{ partial.error }} <i class="fas fa-info-circle"
                     ngbTooltip="Farmer took too long to validate the partial proof of space."></i></td>
                 <td *ngIf="partial.error==='DOUBLE_SIGNAGE_POINT'">{{ partial.error }} <i class="fas fa-info-circle"
