@@ -8,6 +8,19 @@
     z-index: 1;
 }
 
+.leaderboard-top {
+    position: absolute;
+    top: .66rem;
+    right: -.67rem;
+    background: #129b00;
+    color: #fff;
+    border-radius: 3px;
+    box-shadow: 0 0 10px rgba(0,0,100,.2);
+    padding: 0 .86rem;
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
 .section-nucleo-icons {
 
     --icon-size: 5rem;
