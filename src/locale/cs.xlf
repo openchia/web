@@ -3,7 +3,7 @@
 <unit id="1004766315783326842">
 <segment>
 <source xml:space="preserve">ETW</source>
-<target xml:space="preserve">ETW</target>
+<target xml:space="preserve">Odhadovaný čas na výhru</target>
 </segment>
 </unit>
 <unit id="1037127944915137232">
@@ -73,7 +73,7 @@
 <unit id="1931139842666967640">
 <segment>
 <source xml:space="preserve">Have you asked yourself who are the people running Chia pools? Do you trust them? </source>
-<target xml:space="preserve">Přemýšlíte nad tím, kdo provozuje Chia pooly? Věříte jim?</target>
+<target xml:space="preserve">Ptáte se, kdo stojí za tímto poolem?</target>
 </segment>
 </unit>
 <unit id="1949302126255810191">
@@ -242,8 +242,7 @@
 <segment>
 <source xml:space="preserve">
 <ph disp="{{ rewards_blocks }}" equiv="INTERPOLATION" id="0"/> farmed</source>
-<target xml:space="preserve">
-<ph disp="{{ rewards_blocks }}" equiv="INTERPOLATION" id="0"/> vytěženo</target>
+<target xml:space="preserve">získáno: <ph disp="{{ rewards_blocks }}" equiv="INTERPOLATION" id="0"/> </target>
 </segment>
 </unit>
 <unit id="3173354168032548090">
@@ -268,12 +267,6 @@
 <segment>
 <source xml:space="preserve">Netspace</source>
 <target xml:space="preserve">Velikost sítě</target>
-</segment>
-</unit>
-<unit id="3418394339569980864">
-<segment>
-<source xml:space="preserve">Enjoy 0% pool fee until September 2021.</source>
-<target xml:space="preserve">Užijte si 0% poplatek do září 2021.</target>
 </segment>
 </unit>
 <unit id="3458332391940035038">
@@ -306,12 +299,6 @@
 <target xml:space="preserve">Uloženo</target>
 </segment>
 </unit>
-<unit id="3869946742032895114">
-<segment>
-<source xml:space="preserve">Before 1st September</source>
-<target xml:space="preserve">Před 1. září</target>
-</segment>
-</unit>
 <unit id="3896519408731471839">
 <segment>
 <source xml:space="preserve">OpenChia believes that in a future blockchain and cryptocurrency can exist without degrading the environment and helping make the world a better place. We believe Chia and Cardano can coexist to help make that happen. If you&apos;d like to know more about Cardano and/or join a legitimate staking pool please visit <pc dispEnd="&lt;/a&gt;" dispStart="&lt;a         href=&quot;https://vivid-pool.info/&quot; target=&quot;_blank&quot;&gt;" equivEnd="CLOSE_LINK" equivStart="START_LINK" id="0" type="link">Vivid Pool</pc>.</source>
@@ -328,6 +315,12 @@
 <segment>
 <source xml:space="preserve">Date</source>
 <target xml:space="preserve">Datum</target>
+</segment>
+</unit>
+<unit id="4033388457681035533">
+<segment>
+<source xml:space="preserve">Business and Marketing</source>
+<target xml:space="preserve">Rozvoj a Marketing</target>
 </segment>
 </unit>
 <unit id="4040786877830825878">
@@ -362,12 +355,6 @@
 <segment>
 <source xml:space="preserve">Thank you for trusting us!</source>
 <target xml:space="preserve">Děkujeme, že nám důvěřujete!</target>
-</segment>
-</unit>
-<unit id="4204023333676450372">
-<segment>
-<source xml:space="preserve">Until 1st September 2021 (2021/09/01)</source>
-<target xml:space="preserve">Do 1. září 2021 (1.9.2021) </target>
 </segment>
 </unit>
 <unit id="4239635668959543337">
@@ -451,7 +438,7 @@
 <unit id="5043891966437752386">
 <segment>
 <source xml:space="preserve">Launcher ID</source>
-<target xml:space="preserve">Launcher ID</target>
+<target xml:space="preserve">ID Farmáře</target>
 </segment>
 </unit>
 <unit id="5088299831715376392">
@@ -634,12 +621,6 @@
 <target xml:space="preserve">Softwarový inženýr</target>
 </segment>
 </unit>
-<unit id="6916434805989733156">
-<segment>
-<source xml:space="preserve">After 1st September</source>
-<target xml:space="preserve">Po 1. září</target>
-</segment>
-</unit>
 <unit id="6930616437385085682">
 <segment>
 <source xml:space="preserve">Partials</source>
@@ -669,7 +650,7 @@
 <unit id="7075059674276878139">
 <segment>
 <source xml:space="preserve">Transparent</source>
-<target xml:space="preserve">Transparentní</target>
+<target xml:space="preserve">Transparentnost</target>
 </segment>
 </unit>
 <unit id="713513496522359111">
@@ -941,7 +922,7 @@
 <unit id="Launcher">
 <segment>
 <source xml:space="preserve">Launcher ID</source>
-<target xml:space="preserve">Launcher ID</target>
+<target xml:space="preserve">ID Farmáře</target>
 </segment>
 </unit>
 <unit id="MITLicense">
@@ -1037,7 +1018,7 @@
 <unit id="UtilizationSpace">
 <segment>
 <source xml:space="preserve">Utilization Space</source>
-<target xml:space="preserve">Využití prostoru</target>
+<target xml:space="preserve">Podíl celku</target>
 </segment>
 </unit>
 <unit id="Warning">

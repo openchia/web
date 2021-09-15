@@ -273,12 +273,6 @@
 <target xml:space="preserve">Netspace</target>
 </segment>
 </unit>
-<unit id="3418394339569980864">
-<segment>
-<source xml:space="preserve">Enjoy 0% pool fee until September 2021.</source>
-<target xml:space="preserve">Korzystaj z 0% opłaty za pool do września 2021. </target>
-</segment>
-</unit>
 <unit id="3458332391940035038">
 <segment>
 <source xml:space="preserve">System Administrator</source>
@@ -309,12 +303,6 @@
 <target xml:space="preserve">Zapisz</target>
 </segment>
 </unit>
-<unit id="3869946742032895114">
-<segment>
-<source xml:space="preserve">Before 1st September</source>
-<target xml:space="preserve">Przed 1 września</target>
-</segment>
-</unit>
 <unit id="3896519408731471839">
 <segment>
 <source xml:space="preserve">OpenChia believes that in a future blockchain and cryptocurrency can exist without degrading the environment and helping make the world a better place. We believe Chia and Cardano can coexist to help make that happen. If you&apos;d like to know more about Cardano and/or join a legitimate staking pool please visit <pc dispEnd="&lt;/a&gt;" dispStart="&lt;a         href=&quot;https://vivid-pool.info/&quot; target=&quot;_blank&quot;&gt;" equivEnd="CLOSE_LINK" equivStart="START_LINK" id="0" type="link">Vivid Pool</pc>.</source>
@@ -331,6 +319,12 @@
 <segment>
 <source xml:space="preserve">Date</source>
 <target xml:space="preserve">Data</target>
+</segment>
+</unit>
+<unit id="4033388457681035533">
+<segment>
+<source xml:space="preserve">Business and Marketing</source>
+<target xml:space="preserve">Business and Marketing</target>
 </segment>
 </unit>
 <unit id="4040786877830825878">
@@ -364,12 +358,6 @@
 <segment>
 <source xml:space="preserve">Thank you for trusting us!</source>
 <target xml:space="preserve">Dziękujemy za zaufanie!</target>
-</segment>
-</unit>
-<unit id="4204023333676450372">
-<segment>
-<source xml:space="preserve">Until 1st September 2021 (2021/09/01)</source>
-<target xml:space="preserve">Do 1 września 2021 (2021/09/01)</target>
 </segment>
 </unit>
 <unit id="4239635668959543337">
@@ -634,12 +622,6 @@
 <segment>
 <source xml:space="preserve">Software Engineer</source>
 <target xml:space="preserve">Inżynier oprogramowania</target>
-</segment>
-</unit>
-<unit id="6916434805989733156">
-<segment>
-<source xml:space="preserve">After 1st September</source>
-<target xml:space="preserve">Po 1 września</target>
 </segment>
 </unit>
 <unit id="6930616437385085682">
