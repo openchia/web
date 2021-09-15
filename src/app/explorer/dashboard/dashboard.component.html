@@ -57,6 +57,28 @@
   </div>
 </section>
 
+<section class="section section-sm pt-lg-0" *ngIf="true">
+  <div class="container">
+    <h3 class="display-3" i18n="@@Leaderboard">Leaderboard</h3>
+    <div class="row justify-content-center">
+      <div class="col-lg-12">
+        <div class="row row-grid text-center">
+          <div *ngFor="let launcher of launchers$ | async | slice:0:3; let i = index" [routerLink]="['/explorer/farmer', launcher.launcher_id]" class="col-lg-4">
+            <div *ngIf="i + 1 <= 3" class="card card-lift shadow border-0">
+              <div class="card-body py-3">
+                <h4 *ngIf="i + 1 == 1" class="text-primary">🥇 <a [routerLink]="['/explorer/farmer', launcher.launcher_id]">{{ launcher.name || launcher.launcher_id | maxLength:15 }}</a></h4>
+                <h4 *ngIf="i + 1 == 2" class="text-primary">🥈 <a [routerLink]="['/explorer/farmer', launcher.launcher_id]">{{ launcher.name || launcher.launcher_id | maxLength:15 }}</a></h4>
+                <h4 *ngIf="i + 1 == 3" class="text-primary">🥉 <a [routerLink]="['/explorer/farmer', launcher.launcher_id]">{{ launcher.name || launcher.launcher_id | maxLength:15 }}</a></h4>
+                <p class="description mt-3">{{ launcher.estimated_size | filesize:{"standard":"iec"} }}, {{ launcher.points}} points</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
 <section class="section section-sm pt-sm-0">
   <div class="container">
     <h3 class="display-3" i18n="@@Farmers">Farmers</h3>
