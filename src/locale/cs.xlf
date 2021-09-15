@@ -33,7 +33,7 @@
 <unit id="1638630395802416450">
 <segment>
 <source xml:space="preserve"> They&apos;re offering cutting edge cryptocurrency technology of today and tomorrow. Cardano is a cryptocurrency network and open source project that aims to run a public blockchain platform for smart contracts. Cardano&apos;s internal cryptocurrency is called ADA!</source>
-<target xml:space="preserve"> They&apos;re offering cutting edge cryptocurrency technology of today and tomorrow. Cardano is a cryptocurrency network and open source project that aims to run a public blockchain platform for smart contracts. Cardano&apos;s internal cryptocurrency is called ADA!</target>
+<target xml:space="preserve">Nabízejí přelomové technologie kryptoměny dneška a budoucnosti. Cardano je kryptoměnová síť a open source projekt, jehož cílem je provozovat veřejnou blockchainovou platformu pro chytré smlouvy. Cardano kryptoměna se nazývá ADA!</target>
 </segment>
 </unit>
 <unit id="1758435593288719047">
@@ -85,7 +85,7 @@
 <unit id="1976239811515748183">
 <segment>
 <source xml:space="preserve">Until 1st October 2021 (2021/10/01)</source>
-<target xml:space="preserve">Until 1st October 2021 (2021/10/01)</target>
+<target xml:space="preserve">Do 1. října 2021 (1.10.2021)</target>
 </segment>
 </unit>
 <unit id="1987379316591371803">
@@ -109,7 +109,7 @@
 <unit id="2041082387182328462">
 <segment>
 <source xml:space="preserve">Enjoy 0% pool fee until October 2021.</source>
-<target xml:space="preserve">Enjoy 0% pool fee until October 2021.</target>
+<target xml:space="preserve">Až do konce října 2021 0% poplatek.</target>
 </segment>
 </unit>
 <unit id="2097611575880598770">
@@ -157,7 +157,7 @@
 <unit id="2396139623688857660">
 <segment>
 <source xml:space="preserve">How to set name in explorer? (alias)</source>
-<target xml:space="preserve">How to set name in explorer? (alias)</target>
+<target xml:space="preserve">Jak si nastavit jméno v vyhledávači? (alias)</target>
 </segment>
 </unit>
 <unit id="24036095495322476">
@@ -181,7 +181,7 @@
 <unit id="2669308838649487392">
 <segment>
 <source xml:space="preserve">Show failed partials only</source>
-<target xml:space="preserve">Show failed partials only</target>
+<target xml:space="preserve">Ukázat pouze neúspěšná Partials</target>
 </segment>
 </unit>
 <unit id="2756022432863940642">
@@ -233,8 +233,8 @@
 <source xml:space="preserve"> Payouts will happen within 5 minutes of the farmed block.<ph disp="&lt;br /&gt;" equiv="LINE_BREAK" id="0" type="fmt"/>
 <pc dispEnd="&lt;/p&gt;" dispStart="&lt;p&gt;" equivEnd="CLOSE_PARAGRAPH" equivStart="START_PARAGRAPH" id="1" type="other"> These terms are subjected to change and will be communicated 1 week prior to the change in this website and on Discord channel. </pc>
 </source>
-<target xml:space="preserve"> Payouts will happen within 5 minutes of the farmed block.<ph disp="&lt;br /&gt;" equiv="LINE_BREAK" id="0" type="fmt"/>
-<pc dispEnd="&lt;/p&gt;" dispStart="&lt;p&gt;" equivEnd="CLOSE_PARAGRAPH" equivStart="START_PARAGRAPH" id="1" type="other"> These terms are subjected to change and will be communicated 1 week prior to the change in this website and on Discord channel. </pc>
+<target xml:space="preserve">Výplaty proběhnou do 5 minut od získání bloku.<ph disp="&lt;br /&gt;" equiv="LINE_BREAK" id="0" type="fmt"/>
+<pc dispEnd="&lt;/p&gt;" dispStart="&lt;p&gt;" equivEnd="CLOSE_PARAGRAPH" equivStart="START_PARAGRAPH" id="1" type="other">Tyto podmínky se mohou změnit a budou sděleny 1 týden před změnou na tomto webu a na kanálu Discord</pc>
 </target>
 </segment>
 </unit>
@@ -315,7 +315,7 @@
 <unit id="3896519408731471839">
 <segment>
 <source xml:space="preserve">OpenChia believes that in a future blockchain and cryptocurrency can exist without degrading the environment and helping make the world a better place. We believe Chia and Cardano can coexist to help make that happen. If you&apos;d like to know more about Cardano and/or join a legitimate staking pool please visit <pc dispEnd="&lt;/a&gt;" dispStart="&lt;a         href=&quot;https://vivid-pool.info/&quot; target=&quot;_blank&quot;&gt;" equivEnd="CLOSE_LINK" equivStart="START_LINK" id="0" type="link">Vivid Pool</pc>.</source>
-<target xml:space="preserve">OpenChia believes that in a future blockchain and cryptocurrency can exist without degrading the environment and helping make the world a better place. We believe Chia and Cardano can coexist to help make that happen. If you&apos;d like to know more about Cardano and/or join a legitimate staking pool please visit <pc dispEnd="&lt;/a&gt;" dispStart="&lt;a         href=&quot;https://vivid-pool.info/&quot; target=&quot;_blank&quot;&gt;" equivEnd="CLOSE_LINK" equivStart="START_LINK" id="0" type="link">Vivid Pool</pc>.</target>
+<target xml:space="preserve">OpenChia věří, že v budoucnu blockchain a kryptoměny mohou existovat anižby ničily životního prostředí a pomáhali k rozvoji svět. Věříme, že Chia a Cardano mohou společně existovat, aby se to stalo. Pokud se chcete dozvědět více o Cardanu a/nebo se připojit k legitimnímu staking poolu, navštivte <pc dispEnd="&lt;/a&gt;" dispStart="&lt;a         href=&quot;https://vivid-pool.info/&quot; target=&quot;_blank&quot;&gt;" equivEnd="CLOSE_LINK" equivStart="START_LINK" id="0" type="link">Vivid Pool</pc>.</target>
 </segment>
 </unit>
 <unit id="3900702001221590652">
@@ -335,15 +335,15 @@
 <source xml:space="preserve"> Payouts will happen within 5 minutes of the farmed block.<ph disp="&lt;br /&gt;" equiv="LINE_BREAK" id="0" type="fmt"/>
 <pc dispEnd="&lt;/p&gt;" dispStart="&lt;p&gt;" equivEnd="CLOSE_PARAGRAPH" equivStart="START_PARAGRAPH" id="1" type="other"> These terms are subjected to change and will be communicated 1 week prior to the change in this website and on Discord channel. </pc>
 </source>
-<target xml:space="preserve"> Payouts will happen within 5 minutes of the farmed block.<ph disp="&lt;br /&gt;" equiv="LINE_BREAK" id="0" type="fmt"/>
-<pc dispEnd="&lt;/p&gt;" dispStart="&lt;p&gt;" equivEnd="CLOSE_PARAGRAPH" equivStart="START_PARAGRAPH" id="1" type="other"> These terms are subjected to change and will be communicated 1 week prior to the change in this website and on Discord channel. </pc>
+<target xml:space="preserve">Výplaty proběhnou do 5 minut od získání bloku.<ph disp="&lt;br /&gt;" equiv="LINE_BREAK" id="0" type="fmt"/>
+<pc dispEnd="&lt;/p&gt;" dispStart="&lt;p&gt;" equivEnd="CLOSE_PARAGRAPH" equivStart="START_PARAGRAPH" id="1" type="other">Tyto podmínky se mohou změnit a budou sděleny 1 týden před změnou na tomto webu a na kanálu Discord</pc>
 </target>
 </segment>
 </unit>
 <unit id="4062617929041832221">
 <segment>
 <source xml:space="preserve">farmer doesn&apos;t exist, has left and/or has been removed.</source>
-<target xml:space="preserve">farmer doesn&apos;t exist, has left and/or has been removed.</target>
+<target xml:space="preserve">Neexistující farmář. Buď odešel nebo byl vyloučen</target>
 </segment>
 </unit>
 <unit id="4127571452382238225">
@@ -433,7 +433,7 @@
 <unit id="4894182895116318049">
 <segment>
 <source xml:space="preserve">Harvester ID</source>
-<target xml:space="preserve">Harvester ID</target>
+<target xml:space="preserve">ID harvesteru</target>
 </segment>
 </unit>
 <unit id="498428897195803218">
@@ -487,7 +487,7 @@
 <unit id="5530479554673343767">
 <segment>
 <source xml:space="preserve"> We use PPLNS (Pay Per Last N Shares) to distribute rewards.<ph disp="&lt;br /&gt;" equiv="LINE_BREAK" id="0" type="fmt"/> When a block is won, we look at the valid partials (shares) submitted by all users in the pool since last payout and distribute the reward value based on your share among all farmers in the pool.<ph disp="&lt;br /&gt;" equiv="LINE_BREAK" id="1" type="fmt"/> In our case Last N Shares refers to partials since last payout. We believe this system is far more fair for less frequent rewards (when Last N Shares means only last few hours), since people contributing for more time will get more rewards.<ph disp="&lt;br /&gt;" equiv="LINE_BREAK" id="2" type="fmt"/> Once our estimated time to win gets below 48 hours we plan on changing the Last N Shares to 48 hours of valid partials. </source>
-<target xml:space="preserve"> We use PPLNS (Pay Per Last N Shares) to distribute rewards.<ph disp="&lt;br /&gt;" equiv="LINE_BREAK" id="0" type="fmt"/> When a block is won, we look at the valid partials (shares) submitted by all users in the pool since last payout and distribute the reward value based on your share among all farmers in the pool.<ph disp="&lt;br /&gt;" equiv="LINE_BREAK" id="1" type="fmt"/> In our case Last N Shares refers to partials since last payout. We believe this system is far more fair for less frequent rewards (when Last N Shares means only last few hours), since people contributing for more time will get more rewards.<ph disp="&lt;br /&gt;" equiv="LINE_BREAK" id="2" type="fmt"/> Once our estimated time to win gets below 48 hours we plan on changing the Last N Shares to 48 hours of valid partials. </target>
+<target xml:space="preserve">Používáme systém  PPLNS (Pay Per Last N Shares) k rozdělení odměn.<ph disp="&lt;br /&gt;" equiv="LINE_BREAK" id="0" type="fmt"/>Když vyhrajete blok, podíváme se na platné Partials (podíl) odeslané všemi uživateli poolu od poslední výplaty a rozdělíme odměnu na základě vašeho podílu mezi všechny farmáře v poolu.<ph disp="&lt;br /&gt;" equiv="LINE_BREAK" id="1" type="fmt"/>V našem případě Last N Shares označuje partials od poslední výplaty. Věříme, že tento systém je mnohem spravedlivější pro méně časté odměny (když Last N Shares znamená jen několik posledních hodin), protože lidé, kteří budou přispívat déle, získají více odměn.<ph disp="&lt;br /&gt;" equiv="LINE_BREAK" id="2" type="fmt"/>Jakmile se náš odhadovaný čas na výhru dostane pod 48 hodin, plánujeme změnu posledních N Shares na 48 hodin platných partials.</target>
 </segment>
 </unit>
 <unit id="5683785837580689751">
@@ -535,7 +535,7 @@
 <unit id="5942490619473756728">
 <segment>
 <source xml:space="preserve">After 1st October</source>
-<target xml:space="preserve">After 1st October</target>
+<target xml:space="preserve">Po 1. říjnu</target>
 </segment>
 </unit>
 <unit id="5992977313238905164">
@@ -553,13 +553,13 @@
 <unit id="6327177447190265105">
 <segment>
 <source xml:space="preserve">Verify plotnft and copy contract address:</source>
-<target xml:space="preserve">Verify plotnft and copy contract address:</target>
+<target xml:space="preserve">potvrďte plotnft a zkopírujte adresu sdružení:</target>
 </segment>
 </unit>
 <unit id="6377117377899970613">
 <segment>
 <source xml:space="preserve">Create Plot NFT</source>
-<target xml:space="preserve">Create Plot NFT</target>
+<target xml:space="preserve">Vytvořte Plot NFT</target>
 </segment>
 </unit>
 <unit id="6410467948610503551">
@@ -571,19 +571,19 @@
 <unit id="6423838518528989093">
 <segment>
 <source xml:space="preserve">Before 1st October</source>
-<target xml:space="preserve">Before 1st October</target>
+<target xml:space="preserve">před 1. říjnem</target>
 </segment>
 </unit>
 <unit id="6428143771369644145">
 <segment>
 <source xml:space="preserve">Pool Space</source>
-<target xml:space="preserve">Pool Space</target>
+<target xml:space="preserve">velikost poolu</target>
 </segment>
 </unit>
 <unit id="6445111019676735745">
 <segment>
 <source xml:space="preserve">Payout</source>
-<target xml:space="preserve">Payout</target>
+<target xml:space="preserve">Výplata</target>
 </segment>
 </unit>
 <unit id="6478666049745113178">
@@ -595,49 +595,49 @@
 <unit id="6533918067030990396">
 <segment>
 <source xml:space="preserve">Amount</source>
-<target xml:space="preserve">Amount</target>
+<target xml:space="preserve">Množství</target>
 </segment>
 </unit>
 <unit id="6579386880718541736">
 <segment>
 <source xml:space="preserve">type in message box:</source>
-<target xml:space="preserve">type in message box:</target>
+<target xml:space="preserve">napište do zpráv:</target>
 </segment>
 </unit>
 <unit id="6741838149332998818">
 <segment>
 <source xml:space="preserve">Who we are</source>
-<target xml:space="preserve">Who we are</target>
+<target xml:space="preserve">Kdo jsme</target>
 </segment>
 </unit>
 <unit id="6816717018247718709">
 <segment>
 <source xml:space="preserve">Official Pool Protocol</source>
-<target xml:space="preserve">Official Pool Protocol</target>
+<target xml:space="preserve">Oficiální pooling protokol</target>
 </segment>
 </unit>
 <unit id="6828977561113207354">
 <segment>
 <source xml:space="preserve">If you already have a Plot NFT select &quot;Change Pool&quot; then enter https://pool.openchia.io.</source>
-<target xml:space="preserve">If you already have a Plot NFT select &quot;Change Pool&quot; then enter https://pool.openchia.io.</target>
+<target xml:space="preserve">Pokus již máte NFT ploty, vyberte "změnit sdružení"; a zadejte https://pool.openchia.io.</target>
 </segment>
 </unit>
 <unit id="6880713934119717799">
 <segment>
 <source xml:space="preserve">Friendly Name</source>
-<target xml:space="preserve">Friendly Name</target>
+<target xml:space="preserve">Přátelské jméno</target>
 </segment>
 </unit>
 <unit id="6901531604019957317">
 <segment>
 <source xml:space="preserve">Software Engineer</source>
-<target xml:space="preserve">Software Engineer</target>
+<target xml:space="preserve">Softwarový inženýr</target>
 </segment>
 </unit>
 <unit id="6916434805989733156">
 <segment>
 <source xml:space="preserve">After 1st September</source>
-<target xml:space="preserve">After 1st September</target>
+<target xml:space="preserve">Po 1. září</target>
 </segment>
 </unit>
 <unit id="6930616437385085682">
@@ -663,97 +663,97 @@
 <unit id="6962632162131341925">
 <segment>
 <source xml:space="preserve">Pool URL</source>
-<target xml:space="preserve">Pool URL</target>
+<target xml:space="preserve">Adresa URL</target>
 </segment>
 </unit>
 <unit id="7075059674276878139">
 <segment>
 <source xml:space="preserve">Transparent</source>
-<target xml:space="preserve">Transparent</target>
+<target xml:space="preserve">Transparentní</target>
 </segment>
 </unit>
 <unit id="713513496522359111">
 <segment>
 <source xml:space="preserve">Please meet our partners, together for a better world.</source>
-<target xml:space="preserve">Please meet our partners, together for a better world.</target>
+<target xml:space="preserve">Seznamte se s našimi partnery, společně pro lepší svět.</target>
 </segment>
 </unit>
 <unit id="7143444199300614511">
 <segment>
 <source xml:space="preserve">Create Plot NFT:</source>
-<target xml:space="preserve">Create Plot NFT:</target>
+<target xml:space="preserve">Vytvořte Plot NFT</target>
 </segment>
 </unit>
 <unit id="7290072656116822388">
 <segment>
 <source xml:space="preserve">No payouts found!</source>
-<target xml:space="preserve">No payouts found!</target>
+<target xml:space="preserve">Nebyly nalezeny žádné výplaty!</target>
 </segment>
 </unit>
 <unit id="7422727091201325409">
 <segment>
 <source xml:space="preserve">Go to &quot;Plots&quot; menu in the left menu.</source>
-<target xml:space="preserve">Go to &quot;Plots&quot; menu in the left menu.</target>
+<target xml:space="preserve">Přejděte do nabídky „ploty“ v levém menu.</target>
 </segment>
 </unit>
 <unit id="7452975614303290488">
 <segment>
 <source xml:space="preserve">No partials found!</source>
-<target xml:space="preserve">No partials found!</target>
+<target xml:space="preserve">Nebyly nalezeny žádné Partials!</target>
 </segment>
 </unit>
 <unit id="7600229961018223463">
 <segment>
 <source xml:space="preserve">choose “Connect to pool” and enter the url: https://pool.openchia.io (exactly, no ending slash) then wait for pool description to appear</source>
-<target xml:space="preserve">choose “Connect to pool” and enter the url: https://pool.openchia.io (exactly, no ending slash) then wait for pool description to appear</target>
+<target xml:space="preserve">zvolte „Připojit k poolu“ a zadejte adresu url: https://pool.openchia.io (přesně, bez koncového lomítka) a počkejte, až se zobrazí popis poolu</target>
 </segment>
 </unit>
 <unit id="760044993052786414">
 <segment>
 <source xml:space="preserve">Estimated Size </source>
-<target xml:space="preserve">Estimated Size </target>
+<target xml:space="preserve">Odhadovaná velikost </target>
 </segment>
 </unit>
 <unit id="7623464505437750989">
 <segment>
 <source xml:space="preserve">Welcome to OpenChia.io</source>
-<target xml:space="preserve">Welcome to OpenChia.io</target>
+<target xml:space="preserve">Vítejte na OpenChia.io</target>
 </segment>
 </unit>
 <unit id="7682426834922031140">
 <segment>
 <source xml:space="preserve">Why wait to get your rewards?</source>
-<target xml:space="preserve">Why wait to get your rewards?</target>
+<target xml:space="preserve">Proč čekat, než dostanete své odměny?</target>
 </segment>
 </unit>
 <unit id="7780941567931401606">
 <segment>
 <source xml:space="preserve">Farmer Update</source>
-<target xml:space="preserve">Farmer Update</target>
+<target xml:space="preserve">Aktualizovat farmáře</target>
 </segment>
 </unit>
 <unit id="789888685484703987">
 <segment>
 <source xml:space="preserve">Do you have any other questions?</source>
-<target xml:space="preserve">Do you have any other questions?</target>
+<target xml:space="preserve">Máte nějaké další otázky?</target>
 </segment>
 </unit>
 <unit id="7904374983883510569">
 <segment>
 <source xml:space="preserve">Partials (24 hours)</source>
-<target xml:space="preserve">Partials (24 hours)</target>
+<target xml:space="preserve">Partials (24 hodin)</target>
 </segment>
 </unit>
 <unit id="807089867044050822">
 <segment>
 <source xml:space="preserve">No blocks found by this farmed!</source>
-<target xml:space="preserve">No blocks found by this farmed!</target>
+<target xml:space="preserve">Nebyly nalezeny žádné bloky tohoto farmáře!</target>
 </segment>
 </unit>
 <unit id="8311659957519204575">
 <segment>
 <source xml:space="preserve">Estimated Size</source>
-<target xml:space="preserve">Estimated Size</target>
+<target xml:space="preserve">Odhadovaná velikost</target>
 </segment>
 </unit>
 <unit id="8371722561970711209">
@@ -767,67 +767,67 @@
 <source xml:space="preserve">
 <ph disp="{{ estimate_win / 60 / 24 | number }}" equiv="INTERPOLATION" id="0"/> days</source>
 <target xml:space="preserve">
-<ph disp="{{ estimate_win / 60 / 24 | number }}" equiv="INTERPOLATION" id="0"/> days</target>
+<ph disp="{{ estimate_win / 60 / 24 | number }}" equiv="INTERPOLATION" id="0"/> Dny</target>
 </segment>
 </unit>
 <unit id="8407551821312874924">
 <segment>
 <source xml:space="preserve">you are going to need 1 mojo (0.000000000001 XCH) which you can get through our faucet service on Discord channel or through Faucet website:</source>
-<target xml:space="preserve">you are going to need 1 mojo (0.000000000001 XCH) which you can get through our faucet service on Discord channel or through Faucet website:</target>
+<target xml:space="preserve">budete potřebovat 1 mojo (0.000000000001 XCH), které můžete získat prostřednictvím naší služby faucet na kanálu Discord nebo přes stránku Faucet:</target>
 </segment>
 </unit>
 <unit id="841934696444961534">
 <segment>
 <source xml:space="preserve">News</source>
-<target xml:space="preserve">News</target>
+<target xml:space="preserve">Novinky</target>
 </segment>
 </unit>
 <unit id="8447672339763475319">
 <segment>
 <source xml:space="preserve">If you already have a Plot NFT select &quot;Change Pool&quot; then enter https://pool.openchia.io</source>
-<target xml:space="preserve">If you already have a Plot NFT select &quot;Change Pool&quot; then enter https://pool.openchia.io</target>
+<target xml:space="preserve">Pokud již máte ploty NFT, vyberte možnost „Změnit uskupení“ a zadejte https://pool.openchia.io</target>
 </segment>
 </unit>
 <unit id="8479159211474411356">
 <segment>
 <source xml:space="preserve"> We use PPLNS (Pay Per Last N Shares) to distribute rewards.<ph disp="&lt;br /&gt;" equiv="LINE_BREAK" id="0" type="fmt"/> When a block is won, we look at the valid partials (shares) submitted by all users in the pool since last payout and distribute the reward value based on your share among all farmers in the pool.<ph disp="&lt;br /&gt;" equiv="LINE_BREAK" id="1" type="fmt"/> In our case Last N Shares refers to partials since last payout. We believe this system is far more fair for less frequent rewards (when Last N Shares means only last few hours), since people contributing for more time will get more rewards.<ph disp="&lt;br /&gt;" equiv="LINE_BREAK" id="2" type="fmt"/> Once our estimated time to win gets below 48 hours we plan on changing the Last N Shares to 48 hours of valid partials. </source>
-<target xml:space="preserve"> We use PPLNS (Pay Per Last N Shares) to distribute rewards.<ph disp="&lt;br /&gt;" equiv="LINE_BREAK" id="0" type="fmt"/> When a block is won, we look at the valid partials (shares) submitted by all users in the pool since last payout and distribute the reward value based on your share among all farmers in the pool.<ph disp="&lt;br /&gt;" equiv="LINE_BREAK" id="1" type="fmt"/> In our case Last N Shares refers to partials since last payout. We believe this system is far more fair for less frequent rewards (when Last N Shares means only last few hours), since people contributing for more time will get more rewards.<ph disp="&lt;br /&gt;" equiv="LINE_BREAK" id="2" type="fmt"/> Once our estimated time to win gets below 48 hours we plan on changing the Last N Shares to 48 hours of valid partials. </target>
+<target xml:space="preserve"> K distribuci odměn používáme PPLNS (Pay Per Last N Shares). <ph disp="&lt;br /&gt;" equiv="LINE_BREAK" id="0" type="fmt"/>Když vyhrajeme blok, podíváme se na platné Partials(podíl) odeslané všemi uživateli v poolu od poslední výplaty a rozdělíme hodnotu odměny na základě vašeho podílu mezi všechny farmáře v poolu. <ph disp="&lt;br /&gt;" equiv="LINE_BREAK" id="1" type="fmt"/>V našem případě Last N Shares odkazuje na partials od poslední výplaty. Věříme, že tento systém je mnohem spravedlivější pro méně časté odměny (pokud Last N Shares znamená jen posledních několik hodin), protože lidé přispívající déle získají více odměn. <ph disp="&lt;br /&gt;" equiv="LINE_BREAK" id="2" type="fmt"/>Jakmile se náš odhadovaný čas na výhru dostane pod 48 hodin, plánujeme změnit Last N Shares na 48 hodin platných Partials. </target>
 </segment>
 </unit>
 <unit id="8497528947328199741">
 <segment>
 <source xml:space="preserve">Time</source>
-<target xml:space="preserve">Time</target>
+<target xml:space="preserve">Čas</target>
 </segment>
 </unit>
 <unit id="8504648059270671021">
 <segment>
 <source xml:space="preserve">Let&apos;s get in touch on any of these platforms.</source>
-<target xml:space="preserve">Let&apos;s get in touch on any of these platforms.</target>
+<target xml:space="preserve">Spojme se na některé z těchto platforem.</target>
 </segment>
 </unit>
 <unit id="8559170870663360229">
 <segment>
 <source xml:space="preserve">Examples</source>
-<target xml:space="preserve">Examples</target>
+<target xml:space="preserve">Příklady</target>
 </segment>
 </unit>
 <unit id="8616757634091748553">
 <segment>
 <source xml:space="preserve">Blocks Found</source>
-<target xml:space="preserve">Blocks Found</target>
+<target xml:space="preserve">Nalezené bloky</target>
 </segment>
 </unit>
 <unit id="8751484695665236751">
 <segment>
 <source xml:space="preserve"> They are offering cutting-edge cryptocurrency technology of today and tomorrow. Vivid Stake Pool allows you to stake in Cardano. If you deposit your Fiat Money on your bank account, you will receive 1-3 % profit per year which will be paid after at least a few months. In Cardano it is the opposite: you receive high profits as high as 5-8 % per year which is paid every 5 days!</source>
-<target xml:space="preserve"> They are offering cutting-edge cryptocurrency technology of today and tomorrow. Vivid Stake Pool allows you to stake in Cardano. If you deposit your Fiat Money on your bank account, you will receive 1-3 % profit per year which will be paid after at least a few months. In Cardano it is the opposite: you receive high profits as high as 5-8 % per year which is paid every 5 days!</target>
+<target xml:space="preserve"> Nabízejí špičkovou technologii kryptoměny dneška i zítřka. Vidid Stake Pool vám umožní vkládat  Cardano. Pokud vložíte Fiat měny na svůj bankovní účet, obdržíte 1-3% úrok ročně, který bude vyplacený jen po několika měsících. V Cardanu je tomu naopak: obdržíte vysoké zisky 5-8% ročně, které se vyplácí každých 5 dní!</target>
 </segment>
 </unit>
 <unit id="8758786563911669380">
 <segment>
 <source xml:space="preserve">Click “Change” button</source>
-<target xml:space="preserve">Click “Change” button</target>
+<target xml:space="preserve">Klikněte na tlačítko „Změnit“</target>
 </segment>
 </unit>
 <unit id="8942351587754185907">
@@ -839,19 +839,19 @@
 <unit id="91968095428425686">
 <segment>
 <source xml:space="preserve">XCH Price</source>
-<target xml:space="preserve">XCH Price</target>
+<target xml:space="preserve">XCH Cena</target>
 </segment>
 </unit>
 <unit id="9201971930509716006">
 <segment>
 <source xml:space="preserve">Fee: 0%</source>
-<target xml:space="preserve">Fee: 0%</target>
+<target xml:space="preserve">Poplatek: 0%</target>
 </segment>
 </unit>
 <unit id="Amount">
 <segment>
 <source xml:space="preserve">Amount</source>
-<target xml:space="preserve">Amount</target>
+<target xml:space="preserve">Částka</target>
 </segment>
 </unit>
 <unit id="Blocks">
@@ -863,13 +863,13 @@
 <unit id="Count">
 <segment>
 <source xml:space="preserve">Count</source>
-<target xml:space="preserve">Count</target>
+<target xml:space="preserve">Počet</target>
 </segment>
 </unit>
 <unit id="Date">
 <segment>
 <source xml:space="preserve">Date</source>
-<target xml:space="preserve">Date</target>
+<target xml:space="preserve">Datum</target>
 </segment>
 </unit>
 <unit id="Difficulty">
@@ -881,7 +881,7 @@
 <unit id="EstimatedSpace">
 <segment>
 <source xml:space="preserve">Estimated Space</source>
-<target xml:space="preserve">Estimated Space</target>
+<target xml:space="preserve">Odhadovaná velikost</target>
 </segment>
 </unit>
 <unit id="Explorer">
@@ -893,7 +893,7 @@
 <unit id="Failed">
 <segment>
 <source xml:space="preserve">Failed</source>
-<target xml:space="preserve">Failed</target>
+<target xml:space="preserve">Neúspěšné</target>
 </segment>
 </unit>
 <unit id="Farmers">
@@ -905,13 +905,13 @@
 <unit id="Fee">
 <segment>
 <source xml:space="preserve">Fee</source>
-<target xml:space="preserve">Fee</target>
+<target xml:space="preserve">Poplatek</target>
 </segment>
 </unit>
 <unit id="Harversters">
 <segment>
 <source xml:space="preserve">Harvesters</source>
-<target xml:space="preserve">Harvesters</target>
+<target xml:space="preserve">harvestery</target>
 </segment>
 </unit>
 <unit id="Height">
@@ -923,7 +923,7 @@
 <unit id="Hrs24">
 <segment>
 <source xml:space="preserve">24 hours</source>
-<target xml:space="preserve">24 hours</target>
+<target xml:space="preserve">24 hodin</target>
 </segment>
 </unit>
 <unit id="ID">
@@ -935,7 +935,7 @@
 <unit id="JoinPool">
 <segment>
 <source xml:space="preserve">Join our pool</source>
-<target xml:space="preserve">Join our pool</target>
+<target xml:space="preserve">Připojte se do našeho poolu</target>
 </segment>
 </unit>
 <unit id="Launcher">
@@ -947,19 +947,19 @@
 <unit id="MITLicense">
 <segment>
 <source xml:space="preserve">MIT License</source>
-<target xml:space="preserve">MIT License</target>
+<target xml:space="preserve">Licence MIT</target>
 </segment>
 </unit>
 <unit id="NoPayouts">
 <segment>
 <source xml:space="preserve">No payouts found!</source>
-<target xml:space="preserve">No payouts found!</target>
+<target xml:space="preserve">Nebyly nalezeny žádné výplaty!</target>
 </segment>
 </unit>
 <unit id="NoPayoutsAddrs">
 <segment>
 <source xml:space="preserve">No payouts addresses found!</source>
-<target xml:space="preserve">No payouts addresses found!</target>
+<target xml:space="preserve">Žádné výplatní adresy nebyly nalezeny!</target>
 </segment>
 </unit>
 <unit id="Partials">
@@ -971,13 +971,13 @@
 <unit id="Partners">
 <segment>
 <source xml:space="preserve">Partners</source>
-<target xml:space="preserve">Partners</target>
+<target xml:space="preserve">Partneři</target>
 </segment>
 </unit>
 <unit id="PayoutAddresses">
 <segment>
 <source xml:space="preserve">Payout Addresses</source>
-<target xml:space="preserve">Payout Addresses</target>
+<target xml:space="preserve">Výplatní adresy</target>
 </segment>
 </unit>
 <unit id="Payouts">
@@ -989,7 +989,7 @@
 <unit id="Performance">
 <segment>
 <source xml:space="preserve">Performance</source>
-<target xml:space="preserve">Performance</target>
+<target xml:space="preserve">Výkon</target>
 </segment>
 </unit>
 <unit id="Points">
@@ -1001,49 +1001,49 @@
 <unit id="Step">
 <segment>
 <source xml:space="preserve">Step</source>
-<target xml:space="preserve">Step</target>
+<target xml:space="preserve">Krok</target>
 </segment>
 </unit>
 <unit id="Successful">
 <segment>
 <source xml:space="preserve">Successful</source>
-<target xml:space="preserve">Successful</target>
+<target xml:space="preserve">Úspěšné</target>
 </segment>
 </unit>
 <unit id="Terms">
 <segment>
 <source xml:space="preserve">Terms</source>
-<target xml:space="preserve">Terms</target>
+<target xml:space="preserve">Smluvní podmínky</target>
 </segment>
 </unit>
 <unit id="Transaction">
 <segment>
 <source xml:space="preserve">Transaction</source>
-<target xml:space="preserve">Transaction</target>
+<target xml:space="preserve">Transakce</target>
 </segment>
 </unit>
 <unit id="TransactionBlock">
 <segment>
 <source xml:space="preserve">Transaction Block</source>
-<target xml:space="preserve">Transaction Block</target>
+<target xml:space="preserve">Blok transakce</target>
 </segment>
 </unit>
 <unit id="Uptime">
 <segment>
 <source xml:space="preserve">Uptime</source>
-<target xml:space="preserve">Uptime</target>
+<target xml:space="preserve">Doba provozu</target>
 </segment>
 </unit>
 <unit id="UtilizationSpace">
 <segment>
 <source xml:space="preserve">Utilization Space</source>
-<target xml:space="preserve">Utilization Space</target>
+<target xml:space="preserve">Využití prostoru</target>
 </segment>
 </unit>
 <unit id="Warning">
 <segment>
 <source xml:space="preserve">Warning</source>
-<target xml:space="preserve">Warning</target>
+<target xml:space="preserve">Varování</target>
 </segment>
 </unit>
 <unit id="ngb.alert.close">
@@ -1061,7 +1061,7 @@
 <unit id="ngb.carousel.previous">
 <segment>
 <source xml:space="preserve">Previous</source>
-<target xml:space="preserve">Previous</target>
+<target xml:space="preserve">Předchozí</target>
 </segment>
 </unit>
 <unit id="ngb.pagination.first-aria">
@@ -1117,7 +1117,7 @@
 <unit id="ngb.timepicker.MM">
 <segment>
 <source xml:space="preserve">MM</source>
-<target xml:space="preserve">MM</target>
+<target xml:space="preserve">mm</target>
 </segment>
 </unit>
 <unit id="ngb.timepicker.PM">
@@ -1139,19 +1139,19 @@
 <unit id="ngb.timepicker.decrement-hours">
 <segment>
 <source xml:space="preserve">Decrement hours</source>
-<target xml:space="preserve">Decrement hours</target>
+<target xml:space="preserve">Hodiny odpočtu</target>
 </segment>
 </unit>
 <unit id="ngb.timepicker.decrement-minutes">
 <segment>
 <source xml:space="preserve">Decrement minutes</source>
-<target xml:space="preserve">Decrement minutes</target>
+<target xml:space="preserve">Minuty odpočtu</target>
 </segment>
 </unit>
 <unit id="ngb.timepicker.decrement-seconds">
 <segment>
 <source xml:space="preserve">Decrement seconds</source>
-<target xml:space="preserve">Decrement seconds</target>
+<target xml:space="preserve">sekundy odpočtu</target>
 </segment>
 </unit>
 <unit id="ngb.timepicker.hours">
@@ -1163,19 +1163,19 @@
 <unit id="ngb.timepicker.increment-hours">
 <segment>
 <source xml:space="preserve">Increment hours</source>
-<target xml:space="preserve">Increment hours</target>
+<target xml:space="preserve">Nárůst hodin</target>
 </segment>
 </unit>
 <unit id="ngb.timepicker.increment-minutes">
 <segment>
 <source xml:space="preserve">Increment minutes</source>
-<target xml:space="preserve">Increment minutes</target>
+<target xml:space="preserve">minuty nárůstu</target>
 </segment>
 </unit>
 <unit id="ngb.timepicker.increment-seconds">
 <segment>
 <source xml:space="preserve">Increment seconds</source>
-<target xml:space="preserve">Increment seconds</target>
+<target xml:space="preserve">sekundy nárůstu</target>
 </segment>
 </unit>
 <unit id="ngb.timepicker.minutes">
