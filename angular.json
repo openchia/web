@@ -15,8 +15,8 @@
           "baseHref": "/"
         },
         "locales": {
-          "cz": {
-            "translation": "src/locale/cz.xlf",
+          "cs": {
+            "translation": "src/locale/cs.xlf",
             "baseHref": "/"
           },
           "de": {
