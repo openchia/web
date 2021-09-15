@@ -120,7 +120,7 @@
 <unit id="2153109973251079314">
 <segment>
 <source xml:space="preserve">Learn how to set name here.</source>
-<target xml:space="preserve">Learn how to set name here.</target>
+<target xml:space="preserve">Erfahre hier, wie Du den Namen festlegst.</target>
 </segment>
 </unit>
 <unit id="223937640624116360">
@@ -180,7 +180,7 @@
 <unit id="2644032998932147111">
 <segment>
 <source xml:space="preserve">If a reward of 1.75 XCH is found, only 1% of that, 0.0175 will be kept to the pool as a fee. The remaining 1.7325 XCH will be distributed to pool farmers.</source>
-<target xml:space="preserve">If a reward of 1.75 XCH is found, only 1% of that, 0.0175 will be kept to the pool as a fee. The remaining 1.7325 XCH will be distributed to pool farmers.</target>
+<target xml:space="preserve">Wenn eine Belohnung von 1,75 XCH gefunden wird, werden nur 1% davon (0,0175) als Gebühr vom Pool behalten. Die restlichen 1.7325 XCH werden an die Pool Farmer verteilt.</target>
 </segment>
 </unit>
 <unit id="2669308838649487392">
@@ -236,8 +236,8 @@
 <source xml:space="preserve"> Payouts will happen within 5 minutes of the farmed block.<ph disp="&lt;br /&gt;" equiv="LINE_BREAK" id="0" type="fmt"/>
 <pc dispEnd="&lt;/p&gt;" dispStart="&lt;p&gt;" equivEnd="CLOSE_PARAGRAPH" equivStart="START_PARAGRAPH" id="1" type="other"> These terms are subjected to change and will be communicated 1 week prior to the change in this website and on Discord channel. </pc>
 </source>
-<target xml:space="preserve"> Payouts will happen within 5 minutes of the farmed block.<ph disp="&lt;br /&gt;" equiv="LINE_BREAK" id="0" type="fmt"/>
-<pc dispEnd="&lt;/p&gt;" dispStart="&lt;p&gt;" equivEnd="CLOSE_PARAGRAPH" equivStart="START_PARAGRAPH" id="1" type="other"> These terms are subjected to change and will be communicated 1 week prior to the change in this website and on Discord channel. </pc>
+<target xml:space="preserve">Auszahlungen erfolgen innerhalb von 5 Minuten nach einem gefarmten Block.<ph disp="&lt;br /&gt;" equiv="LINE_BREAK" id="0" type="fmt"/>
+<pc dispEnd="&lt;/p&gt;" dispStart="&lt;p&gt;" equivEnd="CLOSE_PARAGRAPH" equivStart="START_PARAGRAPH" id="1" type="other"> Diese Bedingungen können sich ändern und eventuelle Änderungen werden 1 Woche vorher auf dieser Website und im Discord Kanal kommuniziert. </pc>
 </target>
 </segment>
 </unit>
@@ -490,7 +490,7 @@
 <unit id="5530479554673343767">
 <segment>
 <source xml:space="preserve"> We use PPLNS (Pay Per Last N Shares) to distribute rewards.<ph disp="&lt;br /&gt;" equiv="LINE_BREAK" id="0" type="fmt"/> When a block is won, we look at the valid partials (shares) submitted by all users in the pool since last payout and distribute the reward value based on your share among all farmers in the pool.<ph disp="&lt;br /&gt;" equiv="LINE_BREAK" id="1" type="fmt"/> In our case Last N Shares refers to partials since last payout. We believe this system is far more fair for less frequent rewards (when Last N Shares means only last few hours), since people contributing for more time will get more rewards.<ph disp="&lt;br /&gt;" equiv="LINE_BREAK" id="2" type="fmt"/> Once our estimated time to win gets below 48 hours we plan on changing the Last N Shares to 48 hours of valid partials. </source>
-<target xml:space="preserve"> We use PPLNS (Pay Per Last N Shares) to distribute rewards.<ph disp="&lt;br /&gt;" equiv="LINE_BREAK" id="0" type="fmt"/> When a block is won, we look at the valid partials (shares) submitted by all users in the pool since last payout and distribute the reward value based on your share among all farmers in the pool.<ph disp="&lt;br /&gt;" equiv="LINE_BREAK" id="1" type="fmt"/> In our case Last N Shares refers to partials since last payout. We believe this system is far more fair for less frequent rewards (when Last N Shares means only last few hours), since people contributing for more time will get more rewards.<ph disp="&lt;br /&gt;" equiv="LINE_BREAK" id="2" type="fmt"/> Once our estimated time to win gets below 48 hours we plan on changing the Last N Shares to 48 hours of valid partials. </target>
+<target xml:space="preserve"> Wir verwenden PPLNS (Pay Per Last N Shares), um Belohnungen zu verteilen. <ph disp="&lt;br /&gt;" equiv="LINE_BREAK" id="0" type="fmt"/>Wenn ein Block gewonnen wird, schauen wir uns die gültigen Partials (Anteile) an, die von allen Nutzern im Pool seit der letzten Auszahlung eingereicht wurden, und verteilen den Belohnungswert basierend auf Ihrem Anteil an alle Farmer im Pool. <ph disp="&lt;br /&gt;" equiv="LINE_BREAK" id="1" type="fmt"/>In unserem Fall bezieht sich Last N Shares auf Partials seit der letzten Auszahlung. Wir glauben, dass dieses System für weniger häufige Belohnungen weitaus fairer ist (wenn Last N Shares nur die letzten Stunden bedeutet), da Menschen, die für längere Zeit beitragen, mehr Belohnungen erhalten werden. <ph disp="&lt;br /&gt;" equiv="LINE_BREAK" id="2" type="fmt"/>Sobald unsere geschätzte Gewinnzeit unter 48 Stunden liegt, planen wir, die Last N Shares in 48 Stunden gültiger Partials zu ändern. </target>
 </segment>
 </unit>
 <unit id="5683785837580689751">
@@ -592,7 +592,7 @@
 <unit id="6478666049745113178">
 <segment>
 <source xml:space="preserve">A reward of 1.75 XCH will be distributed to pool farmers, 0 XCH (nothing) is kept to the pool.</source>
-<target xml:space="preserve">A reward of 1.75 XCH will be distributed to pool farmers, 0 XCH (nothing) is kept to the pool.</target>
+<target xml:space="preserve">Eine Belohnung von 1,75 XCH wird an die Pool Farmer verteilt, 0 XCH (nichts) wird vom Pool behalten.</target>
 </segment>
 </unit>
 <unit id="6533918067030990396">

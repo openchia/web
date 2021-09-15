@@ -181,7 +181,7 @@
 <unit id="2644032998932147111">
 <segment>
 <source xml:space="preserve">If a reward of 1.75 XCH is found, only 1% of that, 0.0175 will be kept to the pool as a fee. The remaining 1.7325 XCH will be distributed to pool farmers.</source>
-<target xml:space="preserve">If a reward of 1.75 XCH is found, only 1% of that, 0.0175 will be kept to the pool as a fee. The remaining 1.7325 XCH will be distributed to pool farmers.</target>
+<target xml:space="preserve">Si une récompense de 1.75 XCH est trouvée, seulement 1 % de ce montant, 0,0175 sera conservé au pool sous forme de frais. Les 1.7325 XCH restants seront distribués aux farmers.</target>
 </segment>
 </unit>
 <unit id="2669308838649487392">
@@ -237,8 +237,8 @@
 <source xml:space="preserve"> Payouts will happen within 5 minutes of the farmed block.<ph disp="&lt;br /&gt;" equiv="LINE_BREAK" id="0" type="fmt"/>
 <pc dispEnd="&lt;/p&gt;" dispStart="&lt;p&gt;" equivEnd="CLOSE_PARAGRAPH" equivStart="START_PARAGRAPH" id="1" type="other"> These terms are subjected to change and will be communicated 1 week prior to the change in this website and on Discord channel. </pc>
 </source>
-<target xml:space="preserve"> Payouts will happen within 5 minutes of the farmed block.<ph disp="&lt;br /&gt;" equiv="LINE_BREAK" id="0" type="fmt"/>
-<pc dispEnd="&lt;/p&gt;" dispStart="&lt;p&gt;" equivEnd="CLOSE_PARAGRAPH" equivStart="START_PARAGRAPH" id="1" type="other"> These terms are subjected to change and will be communicated 1 week prior to the change in this website and on Discord channel. </pc>
+<target xml:space="preserve"> Les paiements sont effectuées dans les 5 minutes suivant le block farmer. <ph disp="&lt;br /&gt;" equiv="LINE_BREAK" id="0" type="fmt"/>
+<pc dispEnd="&lt;/p&gt;" dispStart="&lt;p&gt;" equivEnd="CLOSE_PARAGRAPH" equivStart="START_PARAGRAPH" id="1" type="other">Ces conditions sont susceptibles d'être modifiées et seront communiquées 1 semaine avant le changement sur ce site et sur la chaîne Discord. </pc>
 </target>
 </segment>
 </unit>
@@ -485,7 +485,7 @@
 <unit id="5421336367436045349">
 <segment>
 <source xml:space="preserve">All our software is open source. </source>
-<target xml:space="preserve">All our software is open source. </target>
+<target xml:space="preserve">Tous nos logiciels sont open-source.</target>
 </segment>
 </unit>
 <unit id="5530479554673343767">
@@ -593,7 +593,7 @@
 <unit id="6478666049745113178">
 <segment>
 <source xml:space="preserve">A reward of 1.75 XCH will be distributed to pool farmers, 0 XCH (nothing) is kept to the pool.</source>
-<target xml:space="preserve">A reward of 1.75 XCH will be distributed to pool farmers, 0 XCH (nothing) is kept to the pool.</target>
+<target xml:space="preserve">Une récompense de 1,75 XCH sera distribuée aux farmers, et 0 XCH (rien) à la piscine.</target>
 </segment>
 </unit>
 <unit id="6533918067030990396">
@@ -927,7 +927,7 @@
 <unit id="Hrs24">
 <segment>
 <source xml:space="preserve">24 hours</source>
-<target xml:space="preserve">24 hours</target>
+<target xml:space="preserve">24 heures</target>
 </segment>
 </unit>
 <unit id="ID">
@@ -1047,7 +1047,7 @@
 <unit id="Warning">
 <segment>
 <source xml:space="preserve">Warning</source>
-<target xml:space="preserve">Warning</target>
+<target xml:space="preserve">Avertissement</target>
 </segment>
 </unit>
 <unit id="ngb.alert.close">
