@@ -10,7 +10,7 @@
     "e2e": "ng e2e",
     "install:clean": "rm -rf node_modules/ && rm -rf package-lock.json && npm install && npm start",
     "scully": "npx scully --",
-    "scully:all": "for i in en cs de es fr pl pt zh-CN; do env LOCALE=$i scully --scanRoutes; done",
+    "scully:all": "for i in en cs de es fr pl pt ru zh-CN; do env LOCALE=$i scully --scanRoutes; done",
     "scully:serve": "npx scully serve --"
   },
   "private": true,

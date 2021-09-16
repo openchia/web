@@ -39,6 +39,10 @@
             "translation": "src/locale/pt-BR.xlf",
             "baseHref": "/"
           },
+          "ru": {
+            "translation": "src/locale/ru.xlf",
+            "baseHref": "/"
+          },
           "zh-CN": {
             "translation": "src/locale/zh-Hans-CN.xlf",
             "baseHref": "/"
