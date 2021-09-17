@@ -28,7 +28,7 @@ export class FarmerComponent implements OnInit {
   partialsPoints: number = 0;
   failedPartials: boolean = false;
 
-  harversters: Set<string> = new Set();
+  harvesters: Set<string> = new Set();
 
   payoutaddrs$: Observable<any[]>;
   payoutsCollectionSize: number = 0;
@@ -68,7 +68,7 @@ export class FarmerComponent implements OnInit {
 
     this.partialsTable = this.partialsTable.concat(data['results']);
     data['results'].forEach(v => {
-      this.harversters.add(v['harverster_id']);
+      this.harvesters.add(v['harvester_id']);
       var hour = Math.floor(v['timestamp'] / 3600) * 3600;
       hours.add(hour);
       if(v.error === null) {
@@ -120,7 +120,7 @@ export class FarmerComponent implements OnInit {
 
     this.partialsTable = [];
     this.partialsFiltered = [];
-    this.harversters.clear();
+    this.harvesters.clear();
 
     var obs = new Observable(subscriber => {
       this.dataService.getPartials(launcher_id).subscribe((data) => {
