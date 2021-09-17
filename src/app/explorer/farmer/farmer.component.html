@@ -34,6 +34,15 @@
           </th>
           <td>{{ farmer.estimated_size || 0 | filesize:{"standard": "iec"} }}</td>
         </tr>
+        <tr>
+          <th i18n="@@Joined">Joined At</th>
+          <td>
+            <span *ngIf="farmer.joined_at">{{ farmer.joined_at | date:"medium" }}</span>
+            <span *ngIf="!farmer.joined_at" i18n>
+              (unknown) <i class="fas fa-info-circle" ngbTooltip="Unknown because this user arrived before the integration of this function in pool."></i>
+            </span>
+          </td>
+        </tr>
       </tbody>
     </table>
     <br />

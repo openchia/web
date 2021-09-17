@@ -77,8 +77,8 @@
                     [routerLink]="['/explorer/farmer', launcher.launcher_id]">{{ launcher.name || launcher.launcher_id |
                     maxLength:15 }}</a></h4>
                 <div class="leaderboard-top">#{{ i + 1 }}</div>
-                <p class="description mt-3">{{ launcher.estimated_size | filesize:{"standard":"iec"} }}, {{
-                  launcher.points}} points</p>
+                <p class="description mt-3">{{ launcher.estimated_size | filesize:{"standard": "iec"} }}, {{
+                  launcher.points }} points</p>
               </div>
             </div>
           </div>
