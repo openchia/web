@@ -237,8 +237,8 @@
 <source xml:space="preserve"> Payouts will happen within 5 minutes of the farmed block.<ph disp="&lt;br /&gt;" equiv="LINE_BREAK" id="0" type="fmt"/>
 <pc dispEnd="&lt;/p&gt;" dispStart="&lt;p&gt;" equivEnd="CLOSE_PARAGRAPH" equivStart="START_PARAGRAPH" id="1" type="other"> These terms are subjected to change and will be communicated 1 week prior to the change in this website and on Discord channel. </pc>
 </source>
-<target xml:space="preserve"> Payouts will happen within 5 minutes of the farmed block.<ph disp="&lt;br /&gt;" equiv="LINE_BREAK" id="0" type="fmt"/>
-<pc dispEnd="&lt;/p&gt;" dispStart="&lt;p&gt;" equivEnd="CLOSE_PARAGRAPH" equivStart="START_PARAGRAPH" id="1" type="other"> These terms are subjected to change and will be communicated 1 week prior to the change in this website and on Discord channel. </pc>
+<target xml:space="preserve"> Выплаты будут происходить в течение 5 минут после фермерского блока. <ph disp="&lt;br /&gt;" equiv="LINE_BREAK" id="0" type="fmt"/>
+<pc dispEnd="&lt;/p&gt;" dispStart="&lt;p&gt;" equivEnd="CLOSE_PARAGRAPH" equivStart="START_PARAGRAPH" id="1" type="other">Эти условия могут быть изменены и будут сообщены за 1 неделю до изменений на этом веб-сайте и на канале Discord. </pc>
 </target>
 </segment>
 </unit>
@@ -333,8 +333,8 @@
 <source xml:space="preserve"> Payouts will happen within 5 minutes of the farmed block.<ph disp="&lt;br /&gt;" equiv="LINE_BREAK" id="0" type="fmt"/>
 <pc dispEnd="&lt;/p&gt;" dispStart="&lt;p&gt;" equivEnd="CLOSE_PARAGRAPH" equivStart="START_PARAGRAPH" id="1" type="other"> These terms are subjected to change and will be communicated 1 week prior to the change in this website and on Discord channel. </pc>
 </source>
-<target xml:space="preserve"> Payouts will happen within 5 minutes of the farmed block.<ph disp="&lt;br /&gt;" equiv="LINE_BREAK" id="0" type="fmt"/>
-<pc dispEnd="&lt;/p&gt;" dispStart="&lt;p&gt;" equivEnd="CLOSE_PARAGRAPH" equivStart="START_PARAGRAPH" id="1" type="other"> These terms are subjected to change and will be communicated 1 week prior to the change in this website and on Discord channel. </pc>
+<target xml:space="preserve"> Выплаты будут происходить в течение 5 минут после фермерского блока. <ph disp="&lt;br /&gt;" equiv="LINE_BREAK" id="0" type="fmt"/>
+<pc dispEnd="&lt;/p&gt;" dispStart="&lt;p&gt;" equivEnd="CLOSE_PARAGRAPH" equivStart="START_PARAGRAPH" id="1" type="other">Эти условия могут быть изменены и будут сообщены за 1 неделю до изменений на этом веб-сайте и на канале Discord. </pc>
 </target>
 </segment>
 </unit>

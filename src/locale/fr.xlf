@@ -85,7 +85,7 @@
 <unit id="1976239811515748183">
 <segment>
 <source xml:space="preserve">Until 1st October 2021 (2021/10/01)</source>
-<target xml:space="preserve">Until 1st October 2021 (2021/10/01)</target>
+<target xml:space="preserve">Jusqu'au 1er Octobre 2021 (01/10/2021)</target>
 </segment>
 </unit>
 <unit id="1987379316591371803">
@@ -109,7 +109,7 @@
 <unit id="2041082387182328462">
 <segment>
 <source xml:space="preserve">Enjoy 0% pool fee until October 2021.</source>
-<target xml:space="preserve">Enjoy 0% pool fee until October 2021.</target>
+<target xml:space="preserve">Profitez de 0 % de frais jusqu'en octobre 2021.</target>
 </segment>
 </unit>
 <unit id="2097611575880598770">
@@ -163,7 +163,7 @@
 <unit id="2396139623688857660">
 <segment>
 <source xml:space="preserve">How to set name in explorer? (alias)</source>
-<target xml:space="preserve">How to set name in explorer? (alias)</target>
+<target xml:space="preserve">Comment définir un nom dans l'explorateur ? (alias)</target>
 </segment>
 </unit>
 <unit id="24036095495322476">
@@ -187,7 +187,7 @@
 <unit id="2669308838649487392">
 <segment>
 <source xml:space="preserve">Show failed partials only</source>
-<target xml:space="preserve">Show failed partials only</target>
+<target xml:space="preserve">Afficher uniquement les partiels échoués</target>
 </segment>
 </unit>
 <unit id="2756022432863940642">
@@ -503,7 +503,7 @@
 <unit id="573605943360652415">
 <segment>
 <source xml:space="preserve">join</source>
-<target xml:space="preserve">join</target>
+<target xml:space="preserve">joindre</target>
 </segment>
 </unit>
 <unit id="5784227755295047072">
@@ -527,7 +527,7 @@
 <unit id="5942490619473756728">
 <segment>
 <source xml:space="preserve">After 1st October</source>
-<target xml:space="preserve">After 1st October</target>
+<target xml:space="preserve">Après le 1er Octobre</target>
 </segment>
 </unit>
 <unit id="5992977313238905164">
@@ -551,19 +551,19 @@
 <unit id="6377117377899970613">
 <segment>
 <source xml:space="preserve">Create Plot NFT</source>
-<target xml:space="preserve">Create Plot NFT</target>
+<target xml:space="preserve">Créer un plot NFT</target>
 </segment>
 </unit>
 <unit id="6410467948610503551">
 <segment>
 <source xml:space="preserve">Index</source>
-<target xml:space="preserve">Index</target>
+<target xml:space="preserve">Indice</target>
 </segment>
 </unit>
 <unit id="6423838518528989093">
 <segment>
 <source xml:space="preserve">Before 1st October</source>
-<target xml:space="preserve">Before 1st October</target>
+<target xml:space="preserve">Avant le 1er Octobre</target>
 </segment>
 </unit>
 <unit id="6428143771369644145">
@@ -771,7 +771,7 @@
 <unit id="8447672339763475319">
 <segment>
 <source xml:space="preserve">If you already have a Plot NFT select &quot;Change Pool&quot; then enter https://pool.openchia.io</source>
-<target xml:space="preserve">If you already have a Plot NFT select &quot;Change Pool&quot; then enter https://pool.openchia.io</target>
+<target xml:space="preserve">Si vous avez déjà des plots NFT, sélectionnez « Changer de pool », puis https://pool.openchia.io.</target>
 </segment>
 </unit>
 <unit id="8479159211474411356">
@@ -849,7 +849,7 @@
 <unit id="Count">
 <segment>
 <source xml:space="preserve">Count</source>
-<target xml:space="preserve">Count</target>
+<target xml:space="preserve">Nombre</target>
 </segment>
 </unit>
 <unit id="Date">
@@ -879,7 +879,7 @@
 <unit id="Failed">
 <segment>
 <source xml:space="preserve">Failed</source>
-<target xml:space="preserve">Failed</target>
+<target xml:space="preserve">Échec</target>
 </segment>
 </unit>
 <unit id="Farmers">
@@ -993,7 +993,7 @@
 <unit id="Successful">
 <segment>
 <source xml:space="preserve">Successful</source>
-<target xml:space="preserve">Successful</target>
+<target xml:space="preserve">Réussi</target>
 </segment>
 </unit>
 <unit id="Terms">

@@ -85,7 +85,7 @@
 <unit id="1976239811515748183">
 <segment>
 <source xml:space="preserve">Until 1st October 2021 (2021/10/01)</source>
-<target xml:space="preserve">Until 1st October 2021 (2021/10/01)</target>
+<target xml:space="preserve">Do 1 października 2021 r. (2021/10/01)</target>
 </segment>
 </unit>
 <unit id="1987379316591371803">
@@ -109,7 +109,7 @@
 <unit id="2041082387182328462">
 <segment>
 <source xml:space="preserve">Enjoy 0% pool fee until October 2021.</source>
-<target xml:space="preserve">Enjoy 0% pool fee until October 2021.</target>
+<target xml:space="preserve">Korzystaj z 0% opłaty za pool do października 2021.</target>
 </segment>
 </unit>
 <unit id="2097611575880598770">
@@ -163,7 +163,7 @@
 <unit id="2396139623688857660">
 <segment>
 <source xml:space="preserve">How to set name in explorer? (alias)</source>
-<target xml:space="preserve">How to set name in explorer? (alias)</target>
+<target xml:space="preserve">Jak ustawić nazwę w eksploratorze? (alias)</target>
 </segment>
 </unit>
 <unit id="24036095495322476">
@@ -187,7 +187,7 @@
 <unit id="2669308838649487392">
 <segment>
 <source xml:space="preserve">Show failed partials only</source>
-<target xml:space="preserve">Show failed partials only</target>
+<target xml:space="preserve">Pokaż tylko nieudane partials</target>
 </segment>
 </unit>
 <unit id="2756022432863940642">
@@ -324,7 +324,7 @@
 <unit id="4033388457681035533">
 <segment>
 <source xml:space="preserve">Business and Marketing</source>
-<target xml:space="preserve">Business and Marketing</target>
+<target xml:space="preserve">Biznes i Marketing</target>
 </segment>
 </unit>
 <unit id="4040786877830825878">
@@ -339,7 +339,7 @@
 <unit id="4062617929041832221">
 <segment>
 <source xml:space="preserve">farmer doesn&apos;t exist, has left and/or has been removed.</source>
-<target xml:space="preserve">farmer doesn&apos;t exist, has left and/or has been removed.</target>
+<target xml:space="preserve">farmer nie istnieje, opuścił i/lub został usunięty.</target>
 </segment>
 </unit>
 <unit id="4127571452382238225">
@@ -525,7 +525,7 @@
 <unit id="5942490619473756728">
 <segment>
 <source xml:space="preserve">After 1st October</source>
-<target xml:space="preserve">After 1st October</target>
+<target xml:space="preserve">Po 1 października</target>
 </segment>
 </unit>
 <unit id="5992977313238905164">
@@ -561,7 +561,7 @@
 <unit id="6423838518528989093">
 <segment>
 <source xml:space="preserve">Before 1st October</source>
-<target xml:space="preserve">Before 1st October</target>
+<target xml:space="preserve">Przed 1 października</target>
 </segment>
 </unit>
 <unit id="6428143771369644145">
@@ -1027,7 +1027,7 @@
 <unit id="Warning">
 <segment>
 <source xml:space="preserve">Warning</source>
-<target xml:space="preserve">Warning</target>
+<target xml:space="preserve">Ostrzeżenie</target>
 </segment>
 </unit>
 <unit id="ngb.alert.close">
