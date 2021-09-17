@@ -30,6 +30,8 @@ export class DashboardComponent implements OnInit, AfterViewInit {
   payouts$: Observable<any[]>;
   searchSubscription: Subscription;
 
+  leaderboard: Array<any> = new Array();
+
   farmersCollectionSize: number = 0;
   farmersPage: number = 1;
   farmersPageSize: number = 30;
@@ -75,6 +77,9 @@ export class DashboardComponent implements OnInit, AfterViewInit {
   }
 
   private handleLaunchers(data) {
+    if(this.leaderboard.length == 0) {
+      this.leaderboard = data['results'].slice(0, 3);
+    }
     this.farmersCollectionSize = data['count'];
     this._launchers$.next(data['results']);
   }
