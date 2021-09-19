@@ -66,7 +66,7 @@
                 <div class="col-lg-2 justify-content-center">
                   <div class="card card-lift shadow border-0">
                     <div class="card-body py-3 text-center text-uppercase">
-                      <span class="text-primary"><span i18n="@@Partials">Partials</span><br /><span i18n="@@Hrs24">24
+                      <span class="text-primary"><span i18n="@@Partials">Partials</span><br />(<span i18n="@@Hrs24">24
                           hours</span>)</span>
                       <p class="display-3">{{ partialsCollectionSize }}</p>
                     </div>
@@ -154,16 +154,15 @@
                 <td *ngIf="partial.error==='DOUBLE_SIGNAGE_POINT'">{{ partial.error }} <i class="fas fa-info-circle"
                     ngbTooltip="Same partial proof was sent more than once."></i></td>
                 <td *ngIf="partial.error==='INVALID_SIGNAGE_OR_EOS'">{{ partial.error }} <i class="fas fa-info-circle"
-                    ngbTooltip="Signage point is invalid or was not found in pool's node blockchain."></i>
-                </td>
+                    ngbTooltip="Signage point is invalid or was not found in pool's node blockchain."></i></td>
                 <td *ngIf="partial.error==='PROOF_NOT_GOOD_ENOUGH'">{{ partial.error }} <i class="fas fa-info-circle"
-                    ngbTooltip="The proof sent is not good enough for the current difficulty of the farmer."></i>
-                </td>
-                <td *ngIf="!partial.error">OK</td>
+                    ngbTooltip="The proof sent is not good enough for the current difficulty of the farmer."></i></td>
+                <td *ngIf="partial.error==='SINGLETON_NOT_POOL'">{{ partial.error }} <i class="fas fa-info-circle"
+                    ngbTooltip="Plot NFT (pool smart contract) no longer in the pool."></i></td>
                 <td
-                  *ngIf="partial.error && !['INVALID_SIGNAGE_OR_EOS', 'DOUBLE_SIGNAGE_POINT', 'INVALID_TOO_LATE', 'PROOF_NOT_GOOD_ENOUGH'].includes(partial.error)">
-                  {{ partial.error }}
-                </td>
+                  *ngIf="partial.error && !['SINGLETON_NOT_POOL', 'INVALID_SIGNAGE_OR_EOS', 'DOUBLE_SIGNAGE_POINT', 'INVALID_TOO_LATE', 'PROOF_NOT_GOOD_ENOUGH'].includes(partial.error)">
+                  {{ partial.error }} <i class="fas fa-info-circle" ngbTooltip="This error is not referenced."></i></td>
+                <td *ngIf="!partial.error">OK</td>
               </tr>
               <tr *ngIf="partialsFiltered.length == 0">
                 <td colspan="4" i18n>No partials found!</td>
