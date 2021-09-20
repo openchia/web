@@ -104,8 +104,8 @@
         <tr>
           <th scope="col">#</th>
           <th scope="col">Launcher ID</th>
-          <th scope="col" i18n="@@Difficulty">Difficulty</th>
           <th scope="col" i18n="@@Points">Points</th>
+          <th scope="col" i18n="@@Difficulty">Difficulty</th>
           <th scope="col" i18n="@@UtilizationSpace">Utilization Space</th>
           <th scope="col" i18n="@@EstimatedSpace">Estimated Space</th>
         </tr>
@@ -116,8 +116,8 @@
           <th scope="row">{{ i + 1 + (farmersPageSize * (farmersPage - 1)) }}</th>
           <td class="link"><a [routerLink]="['/explorer/farmer', launcher.launcher_id]">{{ launcher.name ||
               launcher.launcher_id | maxLength:20 }}</a></td>
-          <td>{{ launcher.difficulty }}</td>
           <td>{{ launcher.points }}</td>
+          <td>{{ launcher.difficulty }}</td>
           <td>{{ launcher.points_of_total | number:'2.5' }}%</td>
           <td>{{ launcher.estimated_size | filesize:{"standard": "iec"} }}</td>
         </tr>
