@@ -19,6 +19,7 @@ import { FaqComponent } from './faq/faq.component';
 import { TermsComponent } from './terms/terms.component';
 import { PartnersComponent } from './partners/partners.component';
 import { ScullyLibModule } from '@scullyio/ng-lib';
+import { ReferralComponent } from './referral/referral.component';
 
 
 @NgModule({
@@ -31,6 +32,7 @@ import { ScullyLibModule } from '@scullyio/ng-lib';
     FaqComponent,
     TermsComponent,
     PartnersComponent,
+    ReferralComponent,
   ],
   imports: [
     BrowserModule,

@@ -68,7 +68,8 @@
           </ng-template>
         </li>
         <li [ngbNavItem]="2">
-          <a class="display-4" ngbNavLink i18n="@@Referrals">Referrals</a>
+          <a class="display-4" ngbNavLink i18n="@@Referrals">Referrals
+            <span class="beta">BETA</span></a>
           <ng-template ngbNavContent>
             <p><strong i18n>Referral Link</strong>: https://openchia.io/?referrer={{ farmer.launcher_id }}</p>
             <p i18n>Use above link to refer people to this pool. They will require to join the pool and login to the
@@ -77,12 +78,14 @@
               <thead>
                 <tr>
                   <th scope="col" i18n="@@LauncherID">Launcher ID</th>
+                  <th scope="col" i18n="@@Fee">Fee</th>
                   <th scope="col" i18n="@@TotalIncome">Total Income</th>
                 </tr>
               </thead>
               <tbody *ngIf="(referrals$ | async) as referrals;">
                 <tr *ngFor="let referral of referrals; let i = index">
                   <td>{{ referral.launcher.name || referral.launcher.launcher_id | maxLength:15 }}</td>
+                  <td>20%</td>
                   <td>{{ referral.total_income / 1000000000000 | number }} XCH</td>
                 </tr>
                 <tr *ngIf="referrals.length == 0">

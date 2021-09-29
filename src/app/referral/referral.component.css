@@ -1,11 +1,11 @@
 .beta {
+  position: absolute;
+  top: 10px;
   background: #129b00;
   color: white;
   border-radius: 3px;
   box-shadow: 0 0 10px rgb(0 0 100 / 20%);
   padding: 0 .86rem;
   font-weight: 700;
-  font-size: 0.8rem;
-  float: right;
-  margin-left: 5px;
+  font-size: 1.1rem;
 }

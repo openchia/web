@@ -114,6 +114,10 @@ export class DataService {
     return this.httpClient.post(this.REST_API_SERVER + 'login', params);
   }
 
+  getLoggedIn() {
+    return this.httpClient.get(`${this.REST_API_SERVER}loggedin`);
+  }
+
   get blocks$() { return this._blocks$.asObservable(); }
 
   get launchers$() { return this._launchers$.asObservable(); }

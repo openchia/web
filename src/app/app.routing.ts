@@ -8,6 +8,7 @@ import { FeesComponent } from './fees/fees.component';
 import { JoinComponent } from './join/join.component';
 import { LandingComponent } from './landing/landing.component';
 import { PartnersComponent } from './partners/partners.component';
+import { ReferralComponent } from './referral/referral.component'
 import { TermsComponent } from './terms/terms.component';
 
 const routes: Routes = [
@@ -16,6 +17,7 @@ const routes: Routes = [
   { path: 'fees', component: FeesComponent },
   { path: 'landing', component: LandingComponent },
   { path: 'partners', component: PartnersComponent },
+  { path: 'referral', component: ReferralComponent },
   { path: 'terms', component: TermsComponent },
   { path: '', redirectTo: 'landing', pathMatch: 'full' }
 ];

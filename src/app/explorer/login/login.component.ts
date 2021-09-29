@@ -41,28 +41,43 @@ export class LoginComponent implements OnInit {
 
   ngOnInit(): void {
     this.route.queryParams.subscribe(data => {
-      this.dataService.doLogin(data).subscribe(
-        success => {
-          this.loggingIn = false;
-          this.loggedIn = true;
-          this.dataService.getLauncher(data.launcher_id).subscribe(launcher => {
-            this.farmer = launcher;
-            if(launcher['referrer'] !== null) {
-              this.referrerValue = launcher['referrer'];
-            } else {
-              this.referrerValue = localStorage.getItem('referrer');
-            }
-            this.dataService.getReferrals({ referrer: launcher['launcher_id'] });
-          });
+      if(!data.launcher_id) {
+        this.dataService.getLoggedIn().subscribe(res => {
+          if(res['launcher_id']) {
+            this.onLoggedIn(res['launcher_id']);
+          } else {
+            this.loggingIn = false;
+            this.error = true;
+          }
+        })
+      } else {
 
-        },
-        error => {
-          this.loggingIn = false;
-          this.error = true;
-        }
-      );
+        this.dataService.doLogin(data).subscribe(
+          success => {
+            this.onLoggedIn(data.launcher_id);
+          },
+          error => {
+            this.loggingIn = false;
+            this.error = true;
+          }
+        );
+      }
     });
 
+  }
+
+  onLoggedIn(launcher_id) {
+    this.loggingIn = false;
+    this.loggedIn = true;
+    this.dataService.getLauncher(launcher_id).subscribe(launcher => {
+      this.farmer = launcher;
+      if(launcher['referrer'] !== null) {
+        this.referrerValue = launcher['referrer'];
+      } else {
+        this.referrerValue = localStorage.getItem('referrer');
+      }
+      this.dataService.getReferrals({ referrer: launcher['launcher_id'] });
+    });
   }
 
   refreshBlocks() {
