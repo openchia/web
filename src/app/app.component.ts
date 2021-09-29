@@ -80,4 +80,8 @@ export class AppComponent implements OnInit {
         });
         this.hasScrolled();
     }
+
+    ngAfterViewInit(): void {
+        (<any>window).twttr.widgets.load();
+    }
 }
