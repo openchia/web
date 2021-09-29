@@ -13,6 +13,7 @@ export class DataService {
   private _launchers$ = new Subject<any[]>();
   private _payouts$ = new BehaviorSubject<any[]>([]);
   private _payoutaddrs$ = new BehaviorSubject<any[]>([]);
+  private _referrals$ = new BehaviorSubject<any[]>([]);
   private _log$ = new BehaviorSubject<string>('');
   private socket$: WebSocketSubject<any>;
 
@@ -67,6 +68,22 @@ export class DataService {
     });
   }
 
+  getReferrals(attrs: any, offset?) {
+    var params = new HttpParams();
+    if(attrs.launcher) {
+      params = params.set('launcher', attrs.launcher);
+    }
+    if(attrs.referrer) {
+      params = params.set('referrer', attrs.referrer);
+    }
+    if(offset) {
+      params = params.set('offset', offset);
+    }
+    return this.httpClient.get(`${this.REST_API_SERVER}referral/`, { params }).subscribe(data => {
+      this._referrals$.next(data['results']);
+    });
+  }
+
   getLauncher(id: string) {
     return this.httpClient.get(this.REST_API_SERVER + 'launcher/' + id + '/');
   }
@@ -106,6 +123,8 @@ export class DataService {
   get payouts$() { return this._payouts$.asObservable(); }
 
   get payoutaddrs$() { return this._payoutaddrs$.asObservable(); }
+
+  get referrals$() { return this._referrals$.asObservable(); }
 
   connectLog(msgCallback?) {
     var proto = (window.location.protocol == 'https:') ? 'wss://' : 'ws://';

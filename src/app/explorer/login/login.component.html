@@ -1,49 +1,104 @@
 <section class="section section-sm pt-sm-0">
   <div class="container">
-    <h3 class="display-3" i18n>Farmer Update</h3>
+    <h3 class="display-3" i18n>Farmer</h3>
     <div *ngIf="loggingIn">
       Loggin in, stand by...
     </div>
-    <div *ngIf="loggedIn">
-
-      <div class="row">
-        <div class="col-lg-12 col-sm-6">
-          Launcher ID: {{ farmer?.launcher_id }}
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-lg-4 col-sm-6">
-          <div class="form-group">
-            Display name: <input type="text" #name [value]="farmer.name" placeholder="(not set)" class="form-control" />
-            <ngb-alert type="warning" [dismissible]="false" *ngIf="nameError">{{ nameError }}</ngb-alert>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-lg-4 col-sm-6">
-          <div class="form-group">
-            Email: <i class="fas fa-info-circle" ngbTooltip="Email may be used to contact you for any issues identified with your launcher or changes in our Terms of Service."></i><input type="text" #email [value]="farmer.email" placeholder="(not set)" class="form-control" />
-            <ngb-alert type="warning" [dismissible]="false" *ngIf="emailError">{{ emailError }}</ngb-alert>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-lg-4 col-sm-6">
-          <div class="form-group">
-            Notify Missing Partials <i class="fas fa-info-circle" ngbTooltip="If you have an email configured you will receive a notification if your launcher stops sending partials for more than one hour."></i>: <input type="checkbox" #notifyMissingPartials [checked]="farmer.notify_missing_partials_hours !== null" />
-            <ngb-alert type="warning" [dismissible]="false" *ngIf="notifyMissingPartialsError">{{ notifyMissingPartialsError }}</ngb-alert>
-          </div>
-        </div>
-      </div>
-
-      <div class="btn-group btn-group-toggle">
-        <label class="btn-primary" ngbButtonLabel>
-          <a type="button" (click)="submit()" ngbButton i18n>Save</a>
-        </label>
-      </div>
-    </div>
     <div *ngIf="error">
       <span i18n>Failed to authenticate! Check your URL and try again.</span>
+    </div>
+    <div *ngIf="loggedIn">
+
+      <ul ngbNav #nav="ngbNav" [(activeId)]="tabActive" class="nav-tabs navbar-inverse">
+        <li [ngbNavItem]="1">
+          <a class="display-4" ngbNavLink i18n="@@Details">Details</a>
+          <ng-template ngbNavContent>
+
+            <div class="row">
+              <div class="col-lg-12 col-sm-6">
+                Launcher ID: {{ farmer?.launcher_id }}
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-4 col-sm-6">
+                <div class="form-group">
+                  Display name: <input type="text" #name [value]="farmer.name" placeholder="(not set)"
+                    class="form-control" />
+                  <ngb-alert type="warning" [dismissible]="false" *ngIf="nameError">{{ nameError }}</ngb-alert>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-4 col-sm-6">
+                <div class="form-group">
+                  Email: <i class="fas fa-info-circle"
+                    ngbTooltip="Email may be used to contact you for any issues identified with your launcher or changes in our Terms of Service."></i><input
+                    type="text" #email [value]="farmer.email" placeholder="(not set)" class="form-control" />
+                  <ngb-alert type="warning" [dismissible]="false" *ngIf="emailError">{{ emailError }}</ngb-alert>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-4 col-sm-6">
+                <div class="form-group">
+                  Notify Missing Partials <i class="fas fa-info-circle"
+                    ngbTooltip="If you have an email configured you will receive a notification if your launcher stops sending partials for more than one hour."></i>:
+                  <input type="checkbox" #notifyMissingPartials
+                    [checked]="farmer.notify_missing_partials_hours !== null" />
+                  <ngb-alert type="warning" [dismissible]="false" *ngIf="notifyMissingPartialsError">{{
+                    notifyMissingPartialsError }}</ngb-alert>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-4 col-sm-6">
+                <div class="form-group">
+                  Referrer (Launcher ID): <input type="text" #referrer [value]="referrerValue || ''"
+                    placeholder="(not set)" class="form-control" />
+                  <ngb-alert type="warning" [dismissible]="false" *ngIf="referrerError">{{ referrerError }}</ngb-alert>
+                </div>
+              </div>
+            </div>
+
+            <div class="btn-group btn-group-toggle">
+              <label class="btn-primary" ngbButtonLabel>
+                <a type="button" (click)="submit()" ngbButton i18n="@@Save">Save</a>
+              </label>
+            </div>
+          </ng-template>
+        </li>
+        <li [ngbNavItem]="2">
+          <a class="display-4" ngbNavLink i18n="@@Referrals">Referrals</a>
+          <ng-template ngbNavContent>
+            <p><strong i18n>Referral Link</strong>: https://openchia.io/?referrer={{ farmer.launcher_id }}</p>
+            <p i18n>Use above link to refer people to this pool. They will require to join the pool and login to the
+              website to confirm the referral.</p>
+            <table class="table table-sm table-striped">
+              <thead>
+                <tr>
+                  <th scope="col" i18n="@@LauncherID">Launcher ID</th>
+                  <th scope="col" i18n="@@TotalIncome">Total Income</th>
+                </tr>
+              </thead>
+              <tbody *ngIf="(referrals$ | async) as referrals;">
+                <tr *ngFor="let referral of referrals; let i = index">
+                  <td>{{ referral.launcher.name || referral.launcher.launcher_id | maxLength:15 }}</td>
+                  <td>{{ referral.total_income / 1000000000000 | number }} XCH</td>
+                </tr>
+                <tr *ngIf="referrals.length == 0">
+                  <td colspan="3" i18n>No referrals found for this farmer!</td>
+                </tr>
+              </tbody>
+            </table>
+            <div class="d-flex justify-content-between p-2">
+              <ngb-pagination [collectionSize]="referralsCollectionSize" [(page)]="referralsPage"
+                [pageSize]="referralsPageSize" (pageChange)="refreshReferrals()">
+              </ngb-pagination>
+            </div>
+          </ng-template>
+        </li>
+      </ul>
+      <div [ngbNavOutlet]="nav" class="mt-2"></div>
     </div>
   </div>
 </section>

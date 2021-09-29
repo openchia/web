@@ -1,6 +1,6 @@
 {
   "/api": {
-    "target": "https://openchia.io",
+    "target": "http://localhost:8002",
     "secure": false
   },
   "/static": {
