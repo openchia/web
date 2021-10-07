@@ -20,6 +20,7 @@ export class DashboardComponent implements OnInit, AfterViewInit {
   netspace: number = 0;
   poolLog: string = '';
   xch_current_price: number = 0;
+  pool_wallets: Array<any> = new Array();
 
   searchNotFound: boolean = false;
 
@@ -57,6 +58,7 @@ export class DashboardComponent implements OnInit, AfterViewInit {
       this.farmers = data['farmers'];
       this.netspace = data['blockchain_space'];
       this.xch_current_price = data['xch_current_price'];
+      this.pool_wallets = data['pool_wallets'];
     });
     this.dataService.getBlocks();
     this.dataService.getLaunchers({ limit: this.farmersPageSize }).subscribe(this.handleLaunchers.bind(this));
