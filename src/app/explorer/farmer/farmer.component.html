@@ -39,7 +39,8 @@
           <td>
             <span *ngIf="farmer.joined_at">{{ farmer.joined_at | date:"medium" }}</span>
             <span *ngIf="!farmer.joined_at" i18n>
-              (unknown) <i class="fas fa-info-circle" ngbTooltip="Unknown because this user arrived before the integration of this function in pool."></i>
+              (unknown) <i class="fas fa-info-circle"
+                ngbTooltip="Unknown because this user arrived before the integration of this function in pool."></i>
             </span>
           </td>
         </tr>
@@ -125,8 +126,8 @@
             <div class="col-lg-12">
               <h4 class="display-3" i18n>Partials</h4>
               <label>
-                <input class="btn" type="checkbox" [checked]="failedPartials"
-                (change)="toggleFailedPartials($event)" value="TEST"/><span i18n>Show
+                <input class="btn" type="checkbox" [checked]="failedPartials" (change)="toggleFailedPartials($event)"
+                  value="TEST" /><span i18n>Show
                   failed partials only</span>
               </label>
             </div>
@@ -183,6 +184,7 @@
             <thead>
               <tr>
                 <th scope="col" i18n="@@Transaction">Transaction</th>
+                <th scope="col" i18n="@@Date">Date</th>
                 <th scope="col" i18n="@@TransactionBlock">Transaction Block</th>
                 <th scope="col" i18n="@@Amount">Amount</th>
               </tr>
@@ -190,6 +192,7 @@
             <tbody *ngIf="(payoutaddrs$ | async) as payoutaddrs;">
               <tr *ngFor="let payoutaddr of payoutaddrs; let i = index">
                 <td>{{ payoutaddr.transaction }}</td>
+                <td>{{ payoutaddr.payout.datetime | date:"medium" }}</td>
                 <td>{{ payoutaddr.confirmed_block_index }}</td>
                 <td>{{ payoutaddr.amount / 1000000000000 }} XCH</td>
               </tr>
