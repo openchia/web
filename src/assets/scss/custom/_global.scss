@@ -183,3 +183,33 @@
         }
     }
 }
+
+// Explorer wallets sections
+
+.pool-wallet-banner {
+    position: absolute;
+    top: .33rem;
+    right: -.67rem;
+    background: #129b00;
+    color: #fff;
+    border-radius: 3px;
+    box-shadow: 0 0 10px rgba(0,0,100,.2);
+    padding: 0 .86rem;
+}
+
+.pool-wallet-banner-error {
+    position: absolute;
+    top: .33rem;
+    right: -.67rem;
+    background: red;
+    color: #fff;
+    border-radius: 3px;
+    box-shadow: 0 0 10px rgba(0,0,100,.2);
+    padding: 0 .86rem;
+}
+
+.pool-wallet-description {
+    font-size: .875rem;
+    padding-top: 10px;
+    letter-spacing: .05rem;
+}

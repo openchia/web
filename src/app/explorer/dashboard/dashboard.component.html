@@ -184,6 +184,50 @@
   </div>
 </section>
 
+<section class="section section-sm pt-lg-0" *ngIf="true">
+  <div class="container">
+    <h3 class="display-3" i18n="@@PoolWallets">Pool Wallets</h3>
+    <div class="row justify-content-center">
+      <div class="col-lg-12">
+        <div *ngIf="pool_wallets.length == 0" class="row row-grid text-center">
+          <div class="col-lg-12">
+            <div class="card card-lift shadow border-0">
+              <div class="card-body py-3">
+                <p class="pool-wallet-description description mt-3" i18n>No wallets found!</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div *ngFor="let wallet of pool_wallets; let i = index" class="row row-grid text-center">
+          <div class="col-lg-9">
+            <div class="card card-lift shadow border-0">
+              <div class="card-body py-3">
+                <div class="pool-wallet-banner">Address #{{ i + 1 }}</div>
+                <p class="pool-wallet-description description mt-3">
+                  <a href="https://xchscan.com/address/{{ wallet.address }}">
+                    {{ wallet.address }}
+                  </a>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="card card-lift shadow border-0">
+              <div class="card-body py-3">
+                <div *ngIf="wallet.synced" class="pool-wallet-banner" i18n>Synced</div>
+                <div *ngIf="!wallet.synced" class="pool-wallet-banner-error" i18n>Not synced!</div>
+                <p class="pool-wallet-description description mt-3" ngbTooltip="{{ wallet.balance.confirmed_wallet_balance }} Mojos">
+                  {{ wallet.balance.confirmed_wallet_balance / 1000000000000 | number:'1.2' }} XCH
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
 <section class="section section-sm pt-sm-0">
   <div class="container">
     <h2 class="display-3" i18n>Pool server real-time log</h2>
