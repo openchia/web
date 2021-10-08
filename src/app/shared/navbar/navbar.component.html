@@ -9,6 +9,13 @@
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="navbar-collapse collapse" id="navbar_global" [ngbCollapse]="isCollapsed">
+      <div class="col-12 collapse-close">
+        <button type="button" class="navbar-toggler" (click)="isCollapsed = !isCollapsed"
+          [attr.aria-expanded]="!isCollapsed" aria-controls="navbar_global">
+          <span></span>
+          <span></span>
+        </button>
+      </div>
       <ul class="navbar-nav navbar-nav-hover align-items-lg-center">
         <li class="nav-item">
           <a class="nav-link" role="button" [routerLink]="['/landing']">
