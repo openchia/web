@@ -86,7 +86,7 @@
                 <tr *ngFor="let referral of referrals; let i = index">
                   <td>{{ referral.launcher.name || referral.launcher.launcher_id | maxLength:15 }}</td>
                   <td>20%</td>
-                  <td>{{ referral.total_income / 1000000000000 | number }} XCH</td>
+                  <td>{{ referral.total_income / 1000000000000 }} XCH</td>
                 </tr>
                 <tr *ngIf="referrals.length == 0">
                   <td colspan="3" i18n>No referrals found for this farmer!</td>
