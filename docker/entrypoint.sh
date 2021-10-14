@@ -48,7 +48,7 @@ if [ ! -f "/etc/letsencrypt/ssl-dhparams.pem" ]; then
 fi
 
 echo "PATH=/bin:/sbin:/usr/sbin:/usr/bin" > /etc/cron.d/certbot
-echo "0 */12 * * * root certbot renew --webroot -w /var/lib/letsencrypt/ >> /var/log/cron.log 2>&1" >> /etc/cron.d/certbot
+echo "0 */12 * * * root certbot renew --nginx >> /var/log/cron.log 2>&1" >> /etc/cron.d/certbot
 
 do_certonly() {
 	sleep 5
