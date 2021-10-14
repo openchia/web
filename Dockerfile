@@ -6,7 +6,7 @@ LABEL maintainer="contact@openchia.io"
 # Update the image to the latest packages
 RUN apt-get update && apt-get upgrade -y
 
-RUN DEBIAN_FRONTEND=noninteractive apt-get install -y curl cron nginx certbot nodejs npm
+RUN DEBIAN_FRONTEND=noninteractive apt-get install -y curl cron nginx certbot python3-certbot-nginx nodejs npm
 
 EXPOSE 80
 EXPOSE 443

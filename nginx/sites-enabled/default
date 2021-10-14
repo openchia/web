@@ -19,9 +19,9 @@ server {
   listen [::]:443 ssl http2;
   server_name openchia.io;
 
-  ssl_certificate /etc/letsencrypt/live/openchia.io/fullchain.pem;
-  ssl_certificate_key /etc/letsencrypt/live/openchia.io/privkey.pem;
-  ssl_trusted_certificate /etc/letsencrypt/live/openchia.io/chain.pem;
+  ssl_certificate %%CERTPATH%%/fullchain.pem;
+  ssl_certificate_key %%CERTPATH%%/privkey.pem;
+  ssl_trusted_certificate %%CERTPATH%%/chain.pem;
   include snippets/ssl.conf;
   include snippets/letsencrypt.conf;
 
@@ -78,9 +78,9 @@ server {
   listen [::]:443 ssl;
   server_name www.openchia.io;
 
-  ssl_certificate /etc/letsencrypt/live/openchia.io/fullchain.pem;
-  ssl_certificate_key /etc/letsencrypt/live/openchia.io/privkey.pem;
-  ssl_trusted_certificate /etc/letsencrypt/live/openchia.io/chain.pem;
+  ssl_certificate %%CERTPATH%%/fullchain.pem;
+  ssl_certificate_key %%CERTPATH%%/privkey.pem;
+  ssl_trusted_certificate %%CERTPATH%%/chain.pem;
   include snippets/ssl.conf;
   include snippets/letsencrypt.conf;
   return 301 $scheme://openchia.io$request_uri;
@@ -93,9 +93,9 @@ server {
   listen [::]:443 ssl;
   server_name pool.openchia.io;
 
-  ssl_certificate /etc/letsencrypt/live/openchia.io/fullchain.pem;
-  ssl_certificate_key /etc/letsencrypt/live/openchia.io/privkey.pem;
-  ssl_trusted_certificate /etc/letsencrypt/live/openchia.io/chain.pem;
+  ssl_certificate %%CERTPATH%%/fullchain.pem;
+  ssl_certificate_key %%CERTPATH%%/privkey.pem;
+  ssl_trusted_certificate %%CERTPATH%%/chain.pem;
   include snippets/ssl.conf;
   include snippets/letsencrypt.conf;
 
