@@ -1,1616 +1,1505 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
-  <file source-language="en" datatype="plaintext" original="ng2.template">
-    <body>
-      <trans-unit id="ngb.alert.close" datatype="html">
-        <source>Close</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">node_modules/@ng-bootstrap/src/alert/alert.ts</context>
-          <context context-type="linenumber">43,49</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="ngb.carousel.slide-number" datatype="html">
-        <source> Slide <x id="INTERPOLATION" equiv-text="ject(false);"/> of <x id="INTERPOLATION_1" equiv-text="ivate _pauseOnH"/> </source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">node_modules/@ng-bootstrap/src/carousel/carousel.ts</context>
-          <context context-type="linenumber">109,117</context>
-        </context-group>
-        <note priority="1" from="description">Currently selected slide number read by screen reader</note>
-      </trans-unit>
-      <trans-unit id="ngb.carousel.previous" datatype="html">
-        <source>Previous</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">node_modules/@ng-bootstrap/src/carousel/carousel.ts</context>
-          <context context-type="linenumber">130,134</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="ngb.carousel.next" datatype="html">
-        <source>Next</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">node_modules/@ng-bootstrap/src/carousel/carousel.ts</context>
-          <context context-type="linenumber">147,157</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="ngb.datepicker.select-month" datatype="html">
-        <source>Select month</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">node_modules/@ng-bootstrap/src/datepicker/datepicker-navigation-select.ts</context>
-          <context context-type="linenumber">44,50</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">node_modules/@ng-bootstrap/src/datepicker/datepicker-navigation-select.ts</context>
-          <context context-type="linenumber">48,53</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="ngb.datepicker.select-year" datatype="html">
-        <source>Select year</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">node_modules/@ng-bootstrap/src/datepicker/datepicker-navigation-select.ts</context>
-          <context context-type="linenumber">62,65</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">node_modules/@ng-bootstrap/src/datepicker/datepicker-navigation-select.ts</context>
-          <context context-type="linenumber">74</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="ngb.datepicker.previous-month" datatype="html">
-        <source>Previous month</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">node_modules/@ng-bootstrap/src/datepicker/datepicker-navigation.ts</context>
-          <context context-type="linenumber">13,14</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">node_modules/@ng-bootstrap/src/datepicker/datepicker-navigation.ts</context>
-          <context context-type="linenumber">22,27</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="ngb.datepicker.next-month" datatype="html">
-        <source>Next month</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">node_modules/@ng-bootstrap/src/datepicker/datepicker-navigation.ts</context>
-          <context context-type="linenumber">47,52</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">node_modules/@ng-bootstrap/src/datepicker/datepicker-navigation.ts</context>
-          <context context-type="linenumber">61,69</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="ngb.pagination.first" datatype="html">
-        <source>««</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">node_modules/@ng-bootstrap/src/pagination/pagination.ts</context>
-          <context context-type="linenumber">158,160</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="ngb.pagination.previous" datatype="html">
-        <source>«</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">node_modules/@ng-bootstrap/src/pagination/pagination.ts</context>
-          <context context-type="linenumber">166,168</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="ngb.pagination.next" datatype="html">
-        <source>»</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">node_modules/@ng-bootstrap/src/pagination/pagination.ts</context>
-          <context context-type="linenumber">172,173</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="ngb.pagination.last" datatype="html">
-        <source>»»</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">node_modules/@ng-bootstrap/src/pagination/pagination.ts</context>
-          <context context-type="linenumber">179,182</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="ngb.pagination.first-aria" datatype="html">
+<xliff version="2.0" xmlns="urn:oasis:names:tc:xliff:document:2.0" srcLang="en">
+  <file id="ngi18n" original="ng.template">
+    <unit id="ngb.pagination.first-aria">
+      <notes>
+        <note category="location">node_modules/@ng-bootstrap/src/pagination/pagination.ts:186,191</note>
+      </notes>
+      <segment>
         <source>First</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">node_modules/@ng-bootstrap/src/pagination/pagination.ts</context>
-          <context context-type="linenumber">186,191</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="ngb.pagination.previous-aria" datatype="html">
+      </segment>
+    </unit>
+    <unit id="ngb.pagination.previous-aria">
+      <notes>
+        <note category="location">node_modules/@ng-bootstrap/src/pagination/pagination.ts:195,197</note>
+      </notes>
+      <segment>
         <source>Previous</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">node_modules/@ng-bootstrap/src/pagination/pagination.ts</context>
-          <context context-type="linenumber">195,197</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="ngb.pagination.next-aria" datatype="html">
+      </segment>
+    </unit>
+    <unit id="ngb.pagination.next-aria">
+      <notes>
+        <note category="location">node_modules/@ng-bootstrap/src/pagination/pagination.ts:228,230</note>
+      </notes>
+      <segment>
         <source>Next</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">node_modules/@ng-bootstrap/src/pagination/pagination.ts</context>
-          <context context-type="linenumber">228,230</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="ngb.pagination.last-aria" datatype="html">
+      </segment>
+    </unit>
+    <unit id="ngb.pagination.last-aria">
+      <notes>
+        <note category="location">node_modules/@ng-bootstrap/src/pagination/pagination.ts:233,239</note>
+      </notes>
+      <segment>
         <source>Last</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">node_modules/@ng-bootstrap/src/pagination/pagination.ts</context>
-          <context context-type="linenumber">233,239</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="ngb.progressbar.value" datatype="html">
-        <source><x id="INTERPOLATION" equiv-text="ber { return th"/></source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">node_modules/@ng-bootstrap/src/progressbar/progressbar.ts</context>
-          <context context-type="linenumber">27,35</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="ngb.timepicker.HH" datatype="html">
-        <source>HH</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">node_modules/@ng-bootstrap/src/timepicker/timepicker.ts</context>
-          <context context-type="linenumber">40,43</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="ngb.timepicker.hours" datatype="html">
-        <source>Hours</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">node_modules/@ng-bootstrap/src/timepicker/timepicker.ts</context>
-          <context context-type="linenumber">47,49</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="ngb.timepicker.MM" datatype="html">
-        <source>MM</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">node_modules/@ng-bootstrap/src/timepicker/timepicker.ts</context>
-          <context context-type="linenumber">55,56</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="ngb.timepicker.minutes" datatype="html">
-        <source>Minutes</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">node_modules/@ng-bootstrap/src/timepicker/timepicker.ts</context>
-          <context context-type="linenumber">61,63</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="ngb.timepicker.increment-hours" datatype="html">
-        <source>Increment hours</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">node_modules/@ng-bootstrap/src/timepicker/timepicker.ts</context>
-          <context context-type="linenumber">67,69</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="ngb.timepicker.decrement-hours" datatype="html">
-        <source>Decrement hours</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">node_modules/@ng-bootstrap/src/timepicker/timepicker.ts</context>
-          <context context-type="linenumber">74,78</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="ngb.timepicker.increment-minutes" datatype="html">
-        <source>Increment minutes</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">node_modules/@ng-bootstrap/src/timepicker/timepicker.ts</context>
-          <context context-type="linenumber">82,85</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="ngb.timepicker.decrement-minutes" datatype="html">
-        <source>Decrement minutes</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">node_modules/@ng-bootstrap/src/timepicker/timepicker.ts</context>
-          <context context-type="linenumber">89,91</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="ngb.timepicker.SS" datatype="html">
-        <source>SS</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">node_modules/@ng-bootstrap/src/timepicker/timepicker.ts</context>
-          <context context-type="linenumber">95,99</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="ngb.timepicker.seconds" datatype="html">
-        <source>Seconds</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">node_modules/@ng-bootstrap/src/timepicker/timepicker.ts</context>
-          <context context-type="linenumber">103,105</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="ngb.timepicker.PM" datatype="html">
-        <source><x id="INTERPOLATION" equiv-text="tring;
-
-  disab"/></source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">node_modules/@ng-bootstrap/src/timepicker/timepicker.ts</context>
-          <context context-type="linenumber">112,118</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="ngb.timepicker.increment-seconds" datatype="html">
-        <source>Increment seconds</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">node_modules/@ng-bootstrap/src/timepicker/timepicker.ts</context>
-          <context context-type="linenumber">115,126</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="ngb.timepicker.AM" datatype="html">
-        <source><x id="INTERPOLATION" equiv-text="or 24H mode."/></source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">node_modules/@ng-bootstrap/src/timepicker/timepicker.ts</context>
-          <context context-type="linenumber">116,127</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="ngb.timepicker.decrement-seconds" datatype="html">
-        <source>Decrement seconds</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">node_modules/@ng-bootstrap/src/timepicker/timepicker.ts</context>
-          <context context-type="linenumber">143,151</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="ngb.toast.close-aria" datatype="html">
-        <source>Close</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">node_modules/@ng-bootstrap/src/toast/toast.ts</context>
-          <context context-type="linenumber">70,76</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="8a7b4bd44c0ac71b2e72de0398b303257f7d2f54" datatype="html">
+      </segment>
+    </unit>
+    <unit id="6948786787037977434">
+      <notes>
+        <note category="location">src/app/explorer/dashboard/dashboard.component.html:36,41</note>
+      </notes>
+      <segment>
         <source>Blocks</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/explorer/dashboard/dashboard.component.html</context>
-          <context context-type="linenumber">36,41</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="Farmers" datatype="html">
+      </segment>
+    </unit>
+    <unit id="Farmers">
+      <notes>
+        <note category="location">src/app/explorer/dashboard/dashboard.component.html:43,50</note>
+        <note category="location">src/app/explorer/dashboard/dashboard.component.ts:39,47</note>
+      </notes>
+      <segment>
         <source>Farmers</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/explorer/dashboard/dashboard.component.html</context>
-          <context context-type="linenumber">43,50</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/explorer/dashboard/dashboard.component.ts</context>
-          <context context-type="linenumber">39,47</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="1d807733635e1587142d0bf8c9253414da999d08" datatype="html">
-        <source><x id="INTERPOLATION" equiv-text="{{ rewards_blocks }}"/> farmed</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/explorer/dashboard/dashboard.component.html</context>
-          <context context-type="linenumber">51,34</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="7bdce28bcb7947df99c223c3622648a88db63fc6" datatype="html">
+      </segment>
+    </unit>
+    <unit id="3145581158682357446">
+      <notes>
+        <note category="location">src/app/explorer/dashboard/dashboard.component.html:51,34</note>
+      </notes>
+      <segment>
+        <source><ph id="0" equiv="INTERPOLATION" disp="{{ rewards_blocks }}"/> farmed</source>
+      </segment>
+    </unit>
+    <unit id="3406747127815684711">
+      <notes>
+        <note category="location">src/app/explorer/dashboard/dashboard.component.html:52,60</note>
+      </notes>
+      <segment>
         <source>Netspace</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/explorer/dashboard/dashboard.component.html</context>
-          <context context-type="linenumber">52,60</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="8f975c803b91f4c4ad814cf891a7384dc806d497" datatype="html">
-        <source><x id="INTERPOLATION" equiv-text="{{ farmers }}"/> total</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/explorer/dashboard/dashboard.component.html</context>
-          <context context-type="linenumber">61,42</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="CurrentEffort" datatype="html">
+      </segment>
+    </unit>
+    <unit id="6955537025048058867">
+      <notes>
+        <note category="location">src/app/explorer/dashboard/dashboard.component.html:61,42</note>
+      </notes>
+      <segment>
+        <source><ph id="0" equiv="INTERPOLATION" disp="{{ farmers }}"/> total</source>
+      </segment>
+    </unit>
+    <unit id="CurrentEffort">
+      <notes>
+        <note category="location">src/app/explorer/dashboard/dashboard.component.html:68,73</note>
+      </notes>
+      <segment>
         <source>Current Effort</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/explorer/dashboard/dashboard.component.html</context>
-          <context context-type="linenumber">68,73</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="fc38220bc0ec421ccbabe7813bcc03bb0216d99d" datatype="html">
+      </segment>
+    </unit>
+    <unit id="8440937360712650656">
+      <notes>
+        <note category="location">src/app/explorer/dashboard/dashboard.component.html:82,88</note>
+      </notes>
+      <segment>
         <source>Since Last Win</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/explorer/dashboard/dashboard.component.html</context>
-          <context context-type="linenumber">82,88</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="Rewards" datatype="html">
+      </segment>
+    </unit>
+    <unit id="Rewards">
+      <notes>
+        <note category="location">src/app/explorer/dashboard/dashboard.component.html:96,100</note>
+      </notes>
+      <segment>
         <source>Rewards</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/explorer/dashboard/dashboard.component.html</context>
-          <context context-type="linenumber">96,100</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="Profitability" datatype="html">
+      </segment>
+    </unit>
+    <unit id="Profitability">
+      <notes>
+        <note category="location">src/app/explorer/dashboard/dashboard.component.html:106,118</note>
+      </notes>
+      <segment>
         <source>Profitability</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/explorer/dashboard/dashboard.component.html</context>
-          <context context-type="linenumber">106,118</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="af9304cc4713eb67765b7077be78c23468ac321d" datatype="html">
+      </segment>
+    </unit>
+    <unit id="5667847308793189855">
+      <notes>
+        <note category="location">src/app/explorer/dashboard/dashboard.component.html:126,130</note>
+      </notes>
+      <segment>
         <source>Average effort to farm a block in the last 30 days.</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/explorer/dashboard/dashboard.component.html</context>
-          <context context-type="linenumber">126,130</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="2dba0fef161710ab1b9f11268807064a61918e65" datatype="html">
+      </segment>
+    </unit>
+    <unit id="5782428644169779738">
+      <notes>
+        <note category="location">src/app/explorer/dashboard/dashboard.component.html:136,152</note>
+      </notes>
+      <segment>
         <source>Profitability based on blocks farmed on last 30 days. Estimated value (XCH) a farmer would get per TiB per day.</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/explorer/dashboard/dashboard.component.html</context>
-          <context context-type="linenumber">136,152</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="Leaderboard" datatype="html">
+      </segment>
+    </unit>
+    <unit id="Leaderboard">
+      <notes>
+        <note category="location">src/app/explorer/dashboard/dashboard.component.html:162,166</note>
+      </notes>
+      <segment>
         <source>Leaderboard</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/explorer/dashboard/dashboard.component.html</context>
-          <context context-type="linenumber">162,166</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="c97b5f1c85fcecad8ca5333e54c6301767e96d4f" datatype="html">
+      </segment>
+    </unit>
+    <unit id="1175065931767236325">
+      <notes>
+        <note category="location">src/app/explorer/dashboard/dashboard.component.html:174,178</note>
+      </notes>
+      <segment>
         <source>No farmers found!</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/explorer/dashboard/dashboard.component.html</context>
-          <context context-type="linenumber">174,178</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="a1dcf7ffffc0aa88ff396abe738ab0f053ddcd7a" datatype="html">
+      </segment>
+    </unit>
+    <unit id="4887086279398746047">
+      <notes>
+        <note category="location">src/app/explorer/dashboard/dashboard.component.html:197,207</note>
+      </notes>
+      <segment>
         <source>The effort that was required to farm the block. 100% is the expected estimated time to win. Lower than 100% means we farmed the block before the estimation. Higher than 100% means we took longer than anticipated.</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/explorer/dashboard/dashboard.component.html</context>
-          <context context-type="linenumber">197,207</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="Unknown" datatype="html">
+      </segment>
+    </unit>
+    <unit id="Unknown">
+      <notes>
+        <note category="location">src/app/explorer/dashboard/dashboard.component.html:216,220</note>
+      </notes>
+      <segment>
         <source>Unknown</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/explorer/dashboard/dashboard.component.html</context>
-          <context context-type="linenumber">216,220</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="Lucky" datatype="html">
+      </segment>
+    </unit>
+    <unit id="Lucky">
+      <notes>
+        <note category="location">src/app/explorer/dashboard/dashboard.component.html:228,238</note>
+      </notes>
+      <segment>
         <source>Lucky</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/explorer/dashboard/dashboard.component.html</context>
-          <context context-type="linenumber">228,238</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="Average" datatype="html">
+      </segment>
+    </unit>
+    <unit id="Average">
+      <notes>
+        <note category="location">src/app/explorer/dashboard/dashboard.component.html:248,253</note>
+      </notes>
+      <segment>
         <source>Average</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/explorer/dashboard/dashboard.component.html</context>
-          <context context-type="linenumber">248,253</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="Unlucky" datatype="html">
+      </segment>
+    </unit>
+    <unit id="Unlucky">
+      <notes>
+        <note category="location">src/app/explorer/dashboard/dashboard.component.html:265,270</note>
+      </notes>
+      <segment>
         <source>Unlucky</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/explorer/dashboard/dashboard.component.html</context>
-          <context context-type="linenumber">265,270</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="cb137bd024242b35a1f084f90e1c3966d8e7a192" datatype="html">
+      </segment>
+    </unit>
+    <unit id="1140108877159163263">
+      <notes>
+        <note category="location">src/app/explorer/dashboard/dashboard.component.html:279,284</note>
+      </notes>
+      <segment>
         <source>No blocks found!</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/explorer/dashboard/dashboard.component.html</context>
-          <context context-type="linenumber">279,284</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="NoPayouts" datatype="html">
+      </segment>
+    </unit>
+    <unit id="NoPayouts">
+      <notes>
+        <note category="location">src/app/explorer/dashboard/dashboard.component.html:292,296</note>
+        <note category="location">src/app/explorer/farmer/farmer.component.html:243</note>
+      </notes>
+      <segment>
         <source>No payouts found!</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/explorer/dashboard/dashboard.component.html</context>
-          <context context-type="linenumber">292,296</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
-          <context context-type="linenumber">243</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="PoolWallets" datatype="html">
+      </segment>
+    </unit>
+    <unit id="PoolWallets">
+      <notes>
+        <note category="location">src/app/explorer/dashboard/dashboard.component.html:313</note>
+      </notes>
+      <segment>
         <source>Pool Wallets</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/explorer/dashboard/dashboard.component.html</context>
-          <context context-type="linenumber">313</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="e95061dd489ae7021fd2217ba4af6af8a9b410ce" datatype="html">
+      </segment>
+    </unit>
+    <unit id="9008803606625370175">
+      <notes>
+        <note category="location">src/app/explorer/dashboard/dashboard.component.html:313</note>
+      </notes>
+      <segment>
         <source>No wallets found!</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/explorer/dashboard/dashboard.component.html</context>
-          <context context-type="linenumber">313</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="0972d881bb8dc119602e984ff428593e56a32c4f" datatype="html">
+      </segment>
+    </unit>
+    <unit id="9130593304627753298">
+      <notes>
+        <note category="location">src/app/explorer/dashboard/dashboard.component.html:313</note>
+      </notes>
+      <segment>
         <source>Synced</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/explorer/dashboard/dashboard.component.html</context>
-          <context context-type="linenumber">313</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="619171a61aa23ace553a260092a2a02105b43174" datatype="html">
+      </segment>
+    </unit>
+    <unit id="2926474126478443738">
+      <notes>
+        <note category="location">src/app/explorer/dashboard/dashboard.component.html:313</note>
+      </notes>
+      <segment>
         <source>Not synced!</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/explorer/dashboard/dashboard.component.html</context>
-          <context context-type="linenumber">313</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="Search" datatype="html">
+      </segment>
+    </unit>
+    <unit id="Search">
+      <notes>
+        <note category="location">src/app/explorer/dashboard/dashboard.component.ts:61,66</note>
+      </notes>
+      <segment>
         <source>Search</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/explorer/dashboard/dashboard.component.ts</context>
-          <context context-type="linenumber">61,66</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="Points" datatype="html">
+      </segment>
+    </unit>
+    <unit id="Points">
+      <notes>
+        <note category="location">src/app/explorer/dashboard/dashboard.component.ts:73,78</note>
+        <note category="location">src/app/explorer/farmer/farmer.component.html:76,79</note>
+        <note category="location">src/app/explorer/farmer/farmer.component.ts:70,76</note>
+      </notes>
+      <segment>
         <source>Points</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/explorer/dashboard/dashboard.component.ts</context>
-          <context context-type="linenumber">73,78</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
-          <context context-type="linenumber">76,79</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.ts</context>
-          <context context-type="linenumber">70,76</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="Difficulty" datatype="html">
+      </segment>
+    </unit>
+    <unit id="Difficulty">
+      <notes>
+        <note category="location">src/app/explorer/dashboard/dashboard.component.ts:93,102</note>
+        <note category="location">src/app/explorer/farmer/farmer.component.html:223,228</note>
+        <note category="location">src/app/explorer/farmer/farmer.component.ts:114,125</note>
+      </notes>
+      <segment>
         <source>Difficulty</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/explorer/dashboard/dashboard.component.ts</context>
-          <context context-type="linenumber">93,102</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
-          <context context-type="linenumber">223,228</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.ts</context>
-          <context context-type="linenumber">114,125</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="UtilizationSpace" datatype="html">
+      </segment>
+    </unit>
+    <unit id="UtilizationSpace">
+      <notes>
+        <note category="location">src/app/explorer/dashboard/dashboard.component.ts:112,116</note>
+      </notes>
+      <segment>
         <source>Utilization Space</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/explorer/dashboard/dashboard.component.ts</context>
-          <context context-type="linenumber">112,116</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="EstimatedSpace" datatype="html">
+      </segment>
+    </unit>
+    <unit id="EstimatedSpace">
+      <notes>
+        <note category="location">src/app/explorer/dashboard/dashboard.component.ts:125</note>
+      </notes>
+      <segment>
         <source>Estimated Space</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/explorer/dashboard/dashboard.component.ts</context>
-          <context context-type="linenumber">125</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="2b74c5a60028e165b77a95cd35fede530fd09b6c" datatype="html">
+      </segment>
+    </unit>
+    <unit id="8616757634091748553">
+      <notes>
+        <note category="location">src/app/explorer/dashboard/dashboard.component.ts:125</note>
+      </notes>
+      <segment>
         <source>Blocks Found</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/explorer/dashboard/dashboard.component.ts</context>
-          <context context-type="linenumber">125</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="170f7de02b14690fb9c1999a16926c0044bfd5c1" datatype="html">
+      </segment>
+    </unit>
+    <unit id="6410467948610503551">
+      <notes>
+        <note category="location">src/app/explorer/dashboard/dashboard.component.ts:125</note>
+      </notes>
+      <segment>
         <source>Index</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/explorer/dashboard/dashboard.component.ts</context>
-          <context context-type="linenumber">125</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="Date" datatype="html">
+      </segment>
+    </unit>
+    <unit id="Date">
+      <notes>
+        <note category="location">src/app/explorer/dashboard/dashboard.component.ts:125</note>
+        <note category="location">src/app/explorer/farmer/farmer.component.html:207,214</note>
+        <note category="location">src/app/explorer/farmer/farmer.component.html:243</note>
+        <note category="location">src/app/explorer/farmer/farmer.component.html:243</note>
+        <note category="location">src/app/explorer/payout/payout.component.ts:32</note>
+      </notes>
+      <segment>
         <source>Date</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/explorer/dashboard/dashboard.component.ts</context>
-          <context context-type="linenumber">125</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
-          <context context-type="linenumber">207,214</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
-          <context context-type="linenumber">243</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
-          <context context-type="linenumber">243</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/explorer/payout/payout.component.ts</context>
-          <context context-type="linenumber">32</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="Effort" datatype="html">
+      </segment>
+    </unit>
+    <unit id="Effort">
+      <notes>
+        <note category="location">src/app/explorer/dashboard/dashboard.component.ts:125</note>
+      </notes>
+      <segment>
         <source>Effort</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/explorer/dashboard/dashboard.component.ts</context>
-          <context context-type="linenumber">125</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="Farmer" datatype="html">
+      </segment>
+    </unit>
+    <unit id="Farmer">
+      <notes>
+        <note category="location">src/app/explorer/dashboard/dashboard.component.ts:125</note>
+      </notes>
+      <segment>
         <source>Farmer</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/explorer/dashboard/dashboard.component.ts</context>
-          <context context-type="linenumber">125</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="7b8556a3d84ca426a76fadba4d870ea661958f4b" datatype="html">
+      </segment>
+    </unit>
+    <unit id="1987379316591371803">
+      <notes>
+        <note category="location">src/app/explorer/dashboard/dashboard.component.ts:125</note>
+      </notes>
+      <segment>
         <source>Payouts</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/explorer/dashboard/dashboard.component.ts</context>
-          <context context-type="linenumber">125</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="ID" datatype="html">
+      </segment>
+    </unit>
+    <unit id="ID">
+      <notes>
+        <note category="location">src/app/explorer/dashboard/dashboard.component.ts:125</note>
+      </notes>
+      <segment>
         <source>ID</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/explorer/dashboard/dashboard.component.ts</context>
-          <context context-type="linenumber">125</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="2f933b826a570836cab04f683970a2d22068458c" datatype="html">
+      </segment>
+    </unit>
+    <unit id="3973931101896534797">
+      <notes>
+        <note category="location">src/app/explorer/dashboard/dashboard.component.ts:125</note>
+      </notes>
+      <segment>
         <source>Date</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/explorer/dashboard/dashboard.component.ts</context>
-          <context context-type="linenumber">125</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="Amount" datatype="html">
+      </segment>
+    </unit>
+    <unit id="Amount">
+      <notes>
+        <note category="location">src/app/explorer/dashboard/dashboard.component.ts:125</note>
+        <note category="location">src/app/explorer/farmer/farmer.component.html:243</note>
+        <note category="location">src/app/explorer/farmer/farmer.component.html:243</note>
+        <note category="location">src/app/explorer/payout/payout.component.ts:32</note>
+        <note category="location">src/app/explorer/payout/payout.component.ts:32</note>
+      </notes>
+      <segment>
         <source>Amount</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/explorer/dashboard/dashboard.component.ts</context>
-          <context context-type="linenumber">125</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
-          <context context-type="linenumber">243</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
-          <context context-type="linenumber">243</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/explorer/payout/payout.component.ts</context>
-          <context context-type="linenumber">32</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/explorer/payout/payout.component.ts</context>
-          <context context-type="linenumber">32</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="3885db3e53d2d1af7c4c5dd0d95dc900f47fe73f" datatype="html">
+      </segment>
+    </unit>
+    <unit id="2318140886847115923">
+      <notes>
+        <note category="location">src/app/explorer/dashboard/dashboard.component.ts:125</note>
+      </notes>
+      <segment>
         <source>Pool server real-time log</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/explorer/dashboard/dashboard.component.ts</context>
-          <context context-type="linenumber">125</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="c2435526c3716ecae495249d4b750e090d961d24" datatype="html">
+      </segment>
+    </unit>
+    <unit id="91968095428425686">
+      <notes>
+        <note category="location">src/app/explorer/dashboard/dashboard.component.ts:125</note>
+      </notes>
+      <segment>
         <source>XCH Price</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/explorer/dashboard/dashboard.component.ts</context>
-          <context context-type="linenumber">125</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="3bf86b6688d8e6eb1adf486a10cbe885647e88f5" datatype="html">
+      </segment>
+    </unit>
+    <unit id="6428143771369644145">
+      <notes>
+        <note category="location">src/app/explorer/dashboard/dashboard.component.ts:125</note>
+      </notes>
+      <segment>
         <source>Pool Space</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/explorer/dashboard/dashboard.component.ts</context>
-          <context context-type="linenumber">125</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="8afd6be548086efa18d8416c081a4c39f556853c" datatype="html">
+      </segment>
+    </unit>
+    <unit id="1004766315783326842">
+      <notes>
+        <note category="location">src/app/explorer/dashboard/dashboard.component.ts:125</note>
+      </notes>
+      <segment>
         <source>ETW</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/explorer/dashboard/dashboard.component.ts</context>
-          <context context-type="linenumber">125</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="22c74c3d28a814c1163da6727681d26b49eca987" datatype="html">
-        <source><x id="INTERPOLATION" equiv-text="{{ estimate_win / 60 / 24 | number }}"/> days</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/explorer/dashboard/dashboard.component.ts</context>
-          <context context-type="linenumber">125</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="Partials" datatype="html">
+      </segment>
+    </unit>
+    <unit id="8398056438540085583">
+      <notes>
+        <note category="location">src/app/explorer/dashboard/dashboard.component.ts:125</note>
+      </notes>
+      <segment>
+        <source><ph id="0" equiv="INTERPOLATION" disp="{{ estimate_win / 60 / 24 | number }}"/> days</source>
+      </segment>
+    </unit>
+    <unit id="Partials">
+      <notes>
+        <note category="location">src/app/explorer/farmer/farmer.component.html:54,57</note>
+        <note category="location">src/app/explorer/farmer/farmer.component.html:107,111</note>
+        <note category="location">src/app/explorer/farmer/farmer.component.html:132,140</note>
+        <note category="location">src/app/explorer/farmer/farmer.component.html:147,151</note>
+        <note category="location">src/app/explorer/farmer/farmer.component.ts:163</note>
+      </notes>
+      <segment>
         <source>Partials</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
-          <context context-type="linenumber">54,57</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
-          <context context-type="linenumber">107,111</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
-          <context context-type="linenumber">132,140</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
-          <context context-type="linenumber">147,151</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.ts</context>
-          <context context-type="linenumber">163</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="Hrs24" datatype="html">
+      </segment>
+    </unit>
+    <unit id="Hrs24">
+      <notes>
+        <note category="location">src/app/explorer/farmer/farmer.component.html:65,68</note>
+        <note category="location">src/app/explorer/farmer/farmer.component.html:86,90</note>
+      </notes>
+      <segment>
         <source>24 hours</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
-          <context context-type="linenumber">65,68</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
-          <context context-type="linenumber">86,90</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="Successful" datatype="html">
+      </segment>
+    </unit>
+    <unit id="Successful">
+      <notes>
+        <note category="location">src/app/explorer/farmer/farmer.component.html:96,102</note>
+      </notes>
+      <segment>
         <source>Successful</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
-          <context context-type="linenumber">96,102</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="Failed" datatype="html">
+      </segment>
+    </unit>
+    <unit id="Failed">
+      <notes>
+        <note category="location">src/app/explorer/farmer/farmer.component.html:116,125</note>
+      </notes>
+      <segment>
         <source>Failed</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
-          <context context-type="linenumber">116,125</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="Performance" datatype="html">
+      </segment>
+    </unit>
+    <unit id="Performance">
+      <notes>
+        <note category="location">src/app/explorer/farmer/farmer.component.html:155,157</note>
+      </notes>
+      <segment>
         <source>Performance</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
-          <context context-type="linenumber">155,157</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="Harversters" datatype="html">
+      </segment>
+    </unit>
+    <unit id="Harversters">
+      <notes>
+        <note category="location">src/app/explorer/farmer/farmer.component.html:160,164</note>
+      </notes>
+      <segment>
         <source>Harvesters</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
-          <context context-type="linenumber">160,164</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="Count" datatype="html">
+      </segment>
+    </unit>
+    <unit id="Count">
+      <notes>
+        <note category="location">src/app/explorer/farmer/farmer.component.html:166,173</note>
+      </notes>
+      <segment>
         <source>Count</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
-          <context context-type="linenumber">166,173</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="994cefce55bece12954b80736323ba6def5aad13" datatype="html">
+      </segment>
+    </unit>
+    <unit id="6930616437385085682">
+      <notes>
+        <note category="location">src/app/explorer/farmer/farmer.component.html:183,188</note>
+      </notes>
+      <segment>
         <source>Partials</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
-          <context context-type="linenumber">183,188</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="99c327c9e1e22d737142df163e93f2a269847d6a" datatype="html">
+      </segment>
+    </unit>
+    <unit id="9059627454378411922">
+      <notes>
+        <note category="location">src/app/explorer/farmer/farmer.component.html:195,200</note>
+      </notes>
+      <segment>
         <source>Show failed partials only</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
-          <context context-type="linenumber">195,200</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="f28fe410357b7e5eda20cbc152995a24781a591a" datatype="html">
+      </segment>
+    </unit>
+    <unit id="4894182895116318049">
+      <notes>
+        <note category="location">src/app/explorer/farmer/farmer.component.html:236,243</note>
+      </notes>
+      <segment>
         <source>Harvester ID</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
-          <context context-type="linenumber">236,243</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="873b72903b1858a9cd6c8967521030b4d7d1435b" datatype="html">
+      </segment>
+    </unit>
+    <unit id="5911214550882917183">
+      <notes>
+        <note category="location">src/app/explorer/farmer/farmer.component.html:243</note>
+      </notes>
+      <segment>
         <source>State</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
-          <context context-type="linenumber">243</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="c135821495429ff3fd89664f549ec24da765b5d5" datatype="html">
+      </segment>
+    </unit>
+    <unit id="7452975614303290488">
+      <notes>
+        <note category="location">src/app/explorer/farmer/farmer.component.html:243</note>
+      </notes>
+      <segment>
         <source>No partials found!</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
-          <context context-type="linenumber">243</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="Transaction" datatype="html">
+      </segment>
+    </unit>
+    <unit id="Transaction">
+      <notes>
+        <note category="location">src/app/explorer/farmer/farmer.component.html:243</note>
+        <note category="location">src/app/explorer/payout/payout.component.ts:32</note>
+      </notes>
+      <segment>
         <source>Transaction</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
-          <context context-type="linenumber">243</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/explorer/payout/payout.component.ts</context>
-          <context context-type="linenumber">32</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="TransactionBlock" datatype="html">
+      </segment>
+    </unit>
+    <unit id="TransactionBlock">
+      <notes>
+        <note category="location">src/app/explorer/farmer/farmer.component.html:243</note>
+      </notes>
+      <segment>
         <source>Transaction Block</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
-          <context context-type="linenumber">243</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="Height" datatype="html">
+      </segment>
+    </unit>
+    <unit id="Height">
+      <notes>
+        <note category="location">src/app/explorer/farmer/farmer.component.html:243</note>
+      </notes>
+      <segment>
         <source>Height</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
-          <context context-type="linenumber">243</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="a91a60516b5081738e593fb71984586e10310351" datatype="html">
+      </segment>
+    </unit>
+    <unit id="3900702001221590652">
+      <notes>
+        <note category="location">src/app/explorer/farmer/farmer.component.html:243</note>
+      </notes>
+      <segment>
         <source>No blocks found by this farmer!</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
-          <context context-type="linenumber">243</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="24036095495322476" datatype="html">
+      </segment>
+    </unit>
+    <unit id="24036095495322476">
+      <notes>
+        <note category="location">src/app/explorer/farmer/farmer.component.ts:15,16</note>
+      </notes>
+      <segment>
         <source>Last Partials (24 hours)</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.ts</context>
-          <context context-type="linenumber">15,16</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="8497528947328199741" datatype="html">
+      </segment>
+    </unit>
+    <unit id="8497528947328199741">
+      <notes>
+        <note category="location">src/app/explorer/farmer/farmer.component.ts:16,18</note>
+      </notes>
+      <segment>
         <source>Time</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.ts</context>
-          <context context-type="linenumber">16,18</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="ad3b9059f8cabd7b6606beec6d21b33abf862f4e" datatype="html">
+      </segment>
+    </unit>
+    <unit id="2264932589847833892">
+      <notes>
+        <note category="location">src/app/explorer/farmer/farmer.component.ts:27,37</note>
+      </notes>
+      <segment>
         <source>Farmer Details</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.ts</context>
-          <context context-type="linenumber">27,37</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="bbb53c975f216e03d9bed761cdea97405a9027fb" datatype="html">
+      </segment>
+    </unit>
+    <unit id="6880713934119717799">
+      <notes>
+        <note category="location">src/app/explorer/farmer/farmer.component.ts:51,59</note>
+      </notes>
+      <segment>
         <source>Friendly Name</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.ts</context>
-          <context context-type="linenumber">51,59</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="6b56ac52e1dc20d7fabc0584df202612ee0af25a" datatype="html">
+      </segment>
+    </unit>
+    <unit id="5043891966437752386">
+      <notes>
+        <note category="location">src/app/explorer/farmer/farmer.component.ts:88,98</note>
+      </notes>
+      <segment>
         <source>Launcher ID</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.ts</context>
-          <context context-type="linenumber">88,98</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="0024befc641c41929ae129967df5b98b18df2a18" datatype="html">
+      </segment>
+    </unit>
+    <unit id="760044993052786414">
+      <notes>
+        <note category="location">src/app/explorer/farmer/farmer.component.ts:138,146</note>
+      </notes>
+      <segment>
         <source>Estimated Size </source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.ts</context>
-          <context context-type="linenumber">138,146</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="1774008180173753624" datatype="html">
+      </segment>
+    </unit>
+    <unit id="1774008180173753624">
+      <notes>
+        <note category="location">src/app/explorer/farmer/farmer.component.ts:140,141</note>
+      </notes>
+      <segment>
         <source>Successful Partials</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.ts</context>
-          <context context-type="linenumber">140,141</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="2756022432863940642" datatype="html">
+      </segment>
+    </unit>
+    <unit id="2756022432863940642">
+      <notes>
+        <note category="location">src/app/explorer/farmer/farmer.component.ts:146,147</note>
+      </notes>
+      <segment>
         <source>Failed Partials</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.ts</context>
-          <context context-type="linenumber">146,147</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="Joined" datatype="html">
+      </segment>
+    </unit>
+    <unit id="Joined">
+      <notes>
+        <note category="location">src/app/explorer/farmer/farmer.component.ts:163</note>
+      </notes>
+      <segment>
         <source>Joined At</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.ts</context>
-          <context context-type="linenumber">163</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="Warning" datatype="html">
+      </segment>
+    </unit>
+    <unit id="Warning">
+      <notes>
+        <note category="location">src/app/explorer/farmer/farmer.component.ts:163</note>
+      </notes>
+      <segment>
         <source>Warning</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.ts</context>
-          <context context-type="linenumber">163</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="8d6b661c3489d627ae6749ed7cb0d20d896a8e22" datatype="html">
+      </segment>
+    </unit>
+    <unit id="4062617929041832221">
+      <notes>
+        <note category="location">src/app/explorer/farmer/farmer.component.ts:163</note>
+      </notes>
+      <segment>
         <source>farmer doesn&apos;t exist, has left and/or has been removed.</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.ts</context>
-          <context context-type="linenumber">163</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="a186416d755b16ac4cc3c49f7fe4090aadbca239" datatype="html">
+      </segment>
+    </unit>
+    <unit id="2153109973251079314">
+      <notes>
+        <note category="location">src/app/explorer/farmer/farmer.component.ts:163</note>
+      </notes>
+      <segment>
         <source>Learn how to set name here.</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.ts</context>
-          <context context-type="linenumber">163</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="16271bc124e200ff2f18f44d5a5550941b6791fd" datatype="html">
-        <source> (unknown) <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i class=&quot;fas fa-info-circle&quot;
-                ngbTooltip=&quot;Unknown because this user arrived before the integration of this function in pool.&quot;&gt;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/></source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.ts</context>
-          <context context-type="linenumber">163</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="Save" datatype="html">
+      </segment>
+    </unit>
+    <unit id="4591435416961869603">
+      <notes>
+        <note category="location">src/app/explorer/farmer/farmer.component.ts:163</note>
+      </notes>
+      <segment>
+        <source> (unknown) <pc id="0" equivStart="START_ITALIC_TEXT" equivEnd="CLOSE_ITALIC_TEXT" type="fmt" dispStart="&lt;i class=&quot;fas fa-info-circle&quot;
+                ngbTooltip=&quot;Unknown because this user arrived before the integration of this function in pool.&quot;&gt;" dispEnd="&lt;/i&gt;"></pc></source>
+      </segment>
+    </unit>
+    <unit id="Save">
+      <notes>
+        <note category="location">src/app/explorer/login/login.component.html:77,82</note>
+      </notes>
+      <segment>
         <source>Save</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/explorer/login/login.component.html</context>
-          <context context-type="linenumber">77,82</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="fc7d6d36c23b83ffed9fc4187c15d953ca7a9165" datatype="html">
+      </segment>
+    </unit>
+    <unit id="9050075434132831491">
+      <notes>
+        <note category="location">src/app/explorer/login/login.component.html:89,95</note>
+      </notes>
+      <segment>
         <source>Referral Link</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/explorer/login/login.component.html</context>
-          <context context-type="linenumber">89,95</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="ad8de13e783ba1108b406a629d8b7bc808408031" datatype="html">
+      </segment>
+    </unit>
+    <unit id="5493504549864464172">
+      <notes>
+        <note category="location">src/app/explorer/login/login.component.html:107</note>
+      </notes>
+      <segment>
         <source>Use above link to refer people to this pool. They will be required to join the pool and login to the website to confirm the referral.</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/explorer/login/login.component.html</context>
-          <context context-type="linenumber">107</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="LauncherID" datatype="html">
+      </segment>
+    </unit>
+    <unit id="LauncherID">
+      <notes>
+        <note category="location">src/app/explorer/login/login.component.html:107</note>
+      </notes>
+      <segment>
         <source>Launcher ID</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/explorer/login/login.component.html</context>
-          <context context-type="linenumber">107</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="Fee" datatype="html">
+      </segment>
+    </unit>
+    <unit id="Fee">
+      <notes>
+        <note category="location">src/app/explorer/login/login.component.html:107</note>
+        <note category="location">src/app/explorer/payout/payout.component.ts:32</note>
+      </notes>
+      <segment>
         <source>Fee</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/explorer/login/login.component.html</context>
-          <context context-type="linenumber">107</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/explorer/payout/payout.component.ts</context>
-          <context context-type="linenumber">32</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="TotalIncome" datatype="html">
+      </segment>
+    </unit>
+    <unit id="TotalIncome">
+      <notes>
+        <note category="location">src/app/explorer/login/login.component.html:107</note>
+      </notes>
+      <segment>
         <source>Total Income</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/explorer/login/login.component.html</context>
-          <context context-type="linenumber">107</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="ddd725139809fb0c1184132d3c0eeb16c9432302" datatype="html">
+      </segment>
+    </unit>
+    <unit id="4862418072620251283">
+      <notes>
+        <note category="location">src/app/explorer/login/login.component.html:107</note>
+      </notes>
+      <segment>
         <source>No referrals found for this farmer!</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/explorer/login/login.component.html</context>
-          <context context-type="linenumber">107</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="c2172cab8c1707c2772d0d521ba4d95231b7a16f" datatype="html">
+      </segment>
+    </unit>
+    <unit id="3223637037001251732">
+      <notes>
+        <note category="location">src/app/explorer/login/login.component.ts:48,57</note>
+      </notes>
+      <segment>
         <source>Farmer</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/explorer/login/login.component.ts</context>
-          <context context-type="linenumber">48,57</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="7c5d76c74b41b4280b4870a73c6b81a51a5c1f7b" datatype="html">
+      </segment>
+    </unit>
+    <unit id="1783078519944991756">
+      <notes>
+        <note category="location">src/app/explorer/login/login.component.ts:75,84</note>
+      </notes>
+      <segment>
         <source>Failed to authenticate! Check your URL and try again.</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/explorer/login/login.component.ts</context>
-          <context context-type="linenumber">75,84</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="Details" datatype="html">
+      </segment>
+    </unit>
+    <unit id="Details">
+      <notes>
+        <note category="location">src/app/explorer/login/login.component.ts:94,99</note>
+      </notes>
+      <segment>
         <source>Details</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/explorer/login/login.component.ts</context>
-          <context context-type="linenumber">94,99</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="Referrals" datatype="html">
-        <source>Referrals <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;beta&quot;&gt;"/>BETA<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt;"/></source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/explorer/login/login.component.ts</context>
-          <context context-type="linenumber">111</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="451473325b28a83c75d3a4e5d502033768e25a34" datatype="html">
+      </segment>
+    </unit>
+    <unit id="Referrals">
+      <notes>
+        <note category="location">src/app/explorer/login/login.component.ts:111</note>
+      </notes>
+      <segment>
+        <source>Referrals <pc id="0" equivStart="START_TAG_SPAN" equivEnd="CLOSE_TAG_SPAN" type="other" dispStart="&lt;span class=&quot;beta&quot;&gt;" dispEnd="&lt;/span&gt;">BETA</pc></source>
+      </segment>
+    </unit>
+    <unit id="6445111019676735745">
+      <notes>
+        <note category="location">src/app/explorer/payout/payout.component.ts:26,32</note>
+      </notes>
+      <segment>
         <source>Payout</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/explorer/payout/payout.component.ts</context>
-          <context context-type="linenumber">26,32</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="Blocks" datatype="html">
+      </segment>
+    </unit>
+    <unit id="Blocks">
+      <notes>
+        <note category="location">src/app/explorer/payout/payout.component.ts:32</note>
+      </notes>
+      <segment>
         <source>Blocks</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/explorer/payout/payout.component.ts</context>
-          <context context-type="linenumber">32</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="PayoutAddresses" datatype="html">
+      </segment>
+    </unit>
+    <unit id="PayoutAddresses">
+      <notes>
+        <note category="location">src/app/explorer/payout/payout.component.ts:32</note>
+      </notes>
+      <segment>
         <source>Payout Addresses</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/explorer/payout/payout.component.ts</context>
-          <context context-type="linenumber">32</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="Launcher" datatype="html">
+      </segment>
+    </unit>
+    <unit id="Launcher">
+      <notes>
+        <note category="location">src/app/explorer/payout/payout.component.ts:32</note>
+      </notes>
+      <segment>
         <source>Launcher ID</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/explorer/payout/payout.component.ts</context>
-          <context context-type="linenumber">32</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="NoPayoutsAddrs" datatype="html">
+      </segment>
+    </unit>
+    <unit id="NoPayoutsAddrs">
+      <notes>
+        <note category="location">src/app/explorer/payout/payout.component.ts:32</note>
+      </notes>
+      <segment>
         <source>No payouts addresses found!</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/explorer/payout/payout.component.ts</context>
-          <context context-type="linenumber">32</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="4dd528d342ff5124d147ccda4b52133fd1cf1f96" datatype="html">
+      </segment>
+    </unit>
+    <unit id="2032214384688052707">
+      <notes>
+        <note category="location">src/app/faq/faq.component.ts:16</note>
+      </notes>
+      <segment>
         <source>Frequentely Asked Questions (F.A.Q.)</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/faq/faq.component.ts</context>
-          <context context-type="linenumber">16</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="7f0972731a8098bb14252f2ad1301bddd4f2641e" datatype="html">
+      </segment>
+    </unit>
+    <unit id="2026871242381918065">
+      <notes>
+        <note category="location">src/app/faq/faq.component.ts:16</note>
+      </notes>
+      <segment>
         <source>What are non-portable (OG) and portable plots (NFT)?</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/faq/faq.component.ts</context>
-          <context context-type="linenumber">16</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="ee8b26c713ceb951a1cc76d3357be0ad5e3bc11c" datatype="html">
+      </segment>
+    </unit>
+    <unit id="4500995370545031926">
+      <notes>
+        <note category="location">src/app/faq/faq.component.ts:16</note>
+      </notes>
+      <segment>
         <source>How Chia pools work?</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/faq/faq.component.ts</context>
-          <context context-type="linenumber">16</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="113a7515da8736c12e9d40d15ebecdfced283595" datatype="html">
+      </segment>
+    </unit>
+    <unit id="571806966107540033">
+      <notes>
+        <note category="location">src/app/faq/faq.component.ts:16</note>
+      </notes>
+      <segment>
         <source>Can I join a pool with non-portable (OG) plots?</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/faq/faq.component.ts</context>
-          <context context-type="linenumber">16</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="dc4863bc73bcf8641657b1142293146791063062" datatype="html">
+      </segment>
+    </unit>
+    <unit id="223937640624116360">
+      <notes>
+        <note category="location">src/app/faq/faq.component.ts:16</note>
+      </notes>
+      <segment>
         <source>Can I switch from/to your pool whenever I want?</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/faq/faq.component.ts</context>
-          <context context-type="linenumber">16</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="7b10d2270c78655fcdb3eccc34dae791fb87db94" datatype="html">
+      </segment>
+    </unit>
+    <unit id="3173354168032548090">
+      <notes>
+        <note category="location">src/app/faq/faq.component.ts:16</note>
+      </notes>
+      <segment>
         <source>How many portable plots do I need to join the pool?</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/faq/faq.component.ts</context>
-          <context context-type="linenumber">16</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="49d01078dbfe15fed9a06dae914bfdbc405724fd" datatype="html">
+      </segment>
+    </unit>
+    <unit id="2396139623688857660">
+      <notes>
+        <note category="location">src/app/faq/faq.component.ts:16</note>
+      </notes>
+      <segment>
         <source>How to set name in explorer? (alias)</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/faq/faq.component.ts</context>
-          <context context-type="linenumber">16</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="875179292246e09d942eeb4e71cb1e51c94cb60e" datatype="html">
+      </segment>
+    </unit>
+    <unit id="789888685484703987">
+      <notes>
+        <note category="location">src/app/faq/faq.component.ts:16</note>
+      </notes>
+      <segment>
         <source>Do you have any other questions?</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/faq/faq.component.ts</context>
-          <context context-type="linenumber">16</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="Payouts" datatype="html">
+      </segment>
+    </unit>
+    <unit id="Payouts">
+      <notes>
+        <note category="location">src/app/fees/fees.component.html:49,55</note>
+      </notes>
+      <segment>
         <source>Payouts</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/fees/fees.component.html</context>
-          <context context-type="linenumber">49,55</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="bb6be37f28116306ec06acb4ed47b2d6b6128a01" datatype="html">
-        <source> Payouts will happen within 5 minutes of the farmed block.<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br /&gt;"/><x id="START_PARAGRAPH" ctype="x-p" equiv-text="&lt;p&gt;"/> These terms are subjected to change and will be communicated 1 week prior to the change in this website and on Discord channel. <x id="CLOSE_PARAGRAPH" ctype="x-p" equiv-text="&lt;/p&gt;"/></source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/fees/fees.component.html</context>
-          <context context-type="linenumber">55,47</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="c20172223f84462032664d717d739297e5a9e2fe" datatype="html">
+      </segment>
+    </unit>
+    <unit id="3037348742943406028">
+      <notes>
+        <note category="location">src/app/fees/fees.component.html:55,47</note>
+      </notes>
+      <segment>
+        <source> Payouts will happen within 5 minutes of the farmed block.<ph id="0" equiv="LINE_BREAK" type="fmt" disp="&lt;br /&gt;"/><pc id="1" equivStart="START_PARAGRAPH" equivEnd="CLOSE_PARAGRAPH" type="other" dispStart="&lt;p&gt;" dispEnd="&lt;/p&gt;"> These terms are subjected to change and will be communicated 1 week prior to the change in this website and on Discord channel. </pc></source>
+      </segment>
+    </unit>
+    <unit id="5012084291992448490">
+      <notes>
+        <note category="location">src/app/fees/fees.component.ts:16</note>
+      </notes>
+      <segment>
         <source>Fees</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/fees/fees.component.ts</context>
-          <context context-type="linenumber">16</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="7f47cd80c09ec0d713bd821268699c52c7bc1b8f" datatype="html">
+      </segment>
+    </unit>
+    <unit id="3179472790665120358">
+      <notes>
+        <note category="location">src/app/fees/fees.component.ts:16</note>
+      </notes>
+      <segment>
         <source>Fees are structured this way</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/fees/fees.component.ts</context>
-          <context context-type="linenumber">16</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="93c4c647ee5f4c146a11aa3e8aade871a4cacbc8" datatype="html">
+      </segment>
+    </unit>
+    <unit id="1976239811515748183">
+      <notes>
+        <note category="location">src/app/fees/fees.component.ts:16</note>
+      </notes>
+      <segment>
         <source>Until 1st October 2021 (2021/10/01)</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/fees/fees.component.ts</context>
-          <context context-type="linenumber">16</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="5ce5d91f4237b3e14b2e8a67bbc8450a9ac627a2" datatype="html">
+      </segment>
+    </unit>
+    <unit id="8559170870663360229">
+      <notes>
+        <note category="location">src/app/fees/fees.component.ts:16</note>
+      </notes>
+      <segment>
         <source>Examples</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/fees/fees.component.ts</context>
-          <context context-type="linenumber">16</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="02fd20c5ba4b3473142384fefa64902516012018" datatype="html">
+      </segment>
+    </unit>
+    <unit id="6423838518528989093">
+      <notes>
+        <note category="location">src/app/fees/fees.component.ts:16</note>
+      </notes>
+      <segment>
         <source>Before 1st October</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/fees/fees.component.ts</context>
-          <context context-type="linenumber">16</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="80751f373f69483c6b4040db62cbff2a375eff9f" datatype="html">
+      </segment>
+    </unit>
+    <unit id="6478666049745113178">
+      <notes>
+        <note category="location">src/app/fees/fees.component.ts:16</note>
+      </notes>
+      <segment>
         <source>A reward of 1.75 XCH will be distributed to pool farmers, 0 XCH (nothing) is kept to the pool.</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/fees/fees.component.ts</context>
-          <context context-type="linenumber">16</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="fca70eab89c109a20a6976ec457bcc5220e53fdb" datatype="html">
+      </segment>
+    </unit>
+    <unit id="5942490619473756728">
+      <notes>
+        <note category="location">src/app/fees/fees.component.ts:16</note>
+      </notes>
+      <segment>
         <source>After 1st October</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/fees/fees.component.ts</context>
-          <context context-type="linenumber">16</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="ba4199b18062e1995804047fb603d3e792cbdac3" datatype="html">
+      </segment>
+    </unit>
+    <unit id="2644032998932147111">
+      <notes>
+        <note category="location">src/app/fees/fees.component.ts:16</note>
+      </notes>
+      <segment>
         <source>If a reward of 1.75 XCH is found, only 1% of that, 0.0175 will be kept to the pool as a fee. The remaining 1.7325 XCH will be distributed to pool farmers.</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/fees/fees.component.ts</context>
-          <context context-type="linenumber">16</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="aee6a265defa5551da91c7829cef94e2a5f900fc" datatype="html">
+      </segment>
+    </unit>
+    <unit id="1949302126255810191">
+      <notes>
+        <note category="location">src/app/fees/fees.component.ts:16</note>
+      </notes>
+      <segment>
         <source>Reward Distribution</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/fees/fees.component.ts</context>
-          <context context-type="linenumber">16</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="82893e0f69b5c381c4dc454436efb398c3187185" datatype="html">
-        <source> We use PPLNS (Pay Per Last N Shares) to distribute rewards.<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br /&gt;"/> When a block is won, we look at the valid partials (shares) submitted by all users in the pool since last payout and distribute the reward value based on your share among all farmers in the pool.<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br /&gt;"/> In our case Last N Shares refers to partials since last payout. We believe this system is far more fair for less frequent rewards (when Last N Shares means only last few hours), since people contributing for more time will get more rewards.<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br /&gt;"/> Once our estimated time to win gets below 48 hours we plan on changing the Last N Shares to 48 hours of valid partials. </source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/fees/fees.component.ts</context>
-          <context context-type="linenumber">16</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="ccb0e59fce0569049eb34a12660bb1217107aa83" datatype="html">
+      </segment>
+    </unit>
+    <unit id="5530479554673343767">
+      <notes>
+        <note category="location">src/app/fees/fees.component.ts:16</note>
+      </notes>
+      <segment>
+        <source> We use PPLNS (Pay Per Last N Shares) to distribute rewards.<ph id="0" equiv="LINE_BREAK" type="fmt" disp="&lt;br /&gt;"/> When a block is won, we look at the valid partials (shares) submitted by all users in the pool since last payout and distribute the reward value based on your share among all farmers in the pool.<ph id="1" equiv="LINE_BREAK" type="fmt" disp="&lt;br /&gt;"/> In our case Last N Shares refers to partials since last payout. We believe this system is far more fair for less frequent rewards (when Last N Shares means only last few hours), since people contributing for more time will get more rewards.<ph id="2" equiv="LINE_BREAK" type="fmt" disp="&lt;br /&gt;"/> Once our estimated time to win gets below 48 hours we plan on changing the Last N Shares to 48 hours of valid partials. </source>
+      </segment>
+    </unit>
+    <unit id="5683785837580689751">
+      <notes>
+        <note category="location">src/app/join/join.component.ts:18</note>
+      </notes>
+      <segment>
         <source>How to join us</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/join/join.component.ts</context>
-          <context context-type="linenumber">18</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="ae84bc1382725be6e830f59e7853336563ee3132" datatype="html">
+      </segment>
+    </unit>
+    <unit id="427062538161914083">
+      <notes>
+        <note category="location">src/app/join/join.component.ts:18</note>
+      </notes>
+      <segment>
         <source>Official Chia Instructions.</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/join/join.component.ts</context>
-          <context context-type="linenumber">18</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="c9b087b017df14ca3ad10ca8df9df6b8ee592625" datatype="html">
+      </segment>
+    </unit>
+    <unit id="4165674190938428121">
+      <notes>
+        <note category="location">src/app/join/join.component.ts:18</note>
+      </notes>
+      <segment>
         <source>Make sure you are running official Chia client 1.2.0 or later.</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/join/join.component.ts</context>
-          <context context-type="linenumber">18</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="827fb6485b0596c939c543ba4156f5e4e7acb8d4" datatype="html">
+      </segment>
+    </unit>
+    <unit id="2303041439224647987">
+      <notes>
+        <note category="location">src/app/join/join.component.ts:18</note>
+      </notes>
+      <segment>
         <source>Connection</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/join/join.component.ts</context>
-          <context context-type="linenumber">18</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="Step" datatype="html">
+      </segment>
+    </unit>
+    <unit id="Step">
+      <notes>
+        <note category="location">src/app/join/join.component.ts:18</note>
+        <note category="location">src/app/join/join.component.ts:18</note>
+        <note category="location">src/app/join/join.component.ts:18</note>
+      </notes>
+      <segment>
         <source>Step</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/join/join.component.ts</context>
-          <context context-type="linenumber">18</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/join/join.component.ts</context>
-          <context context-type="linenumber">18</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/join/join.component.ts</context>
-          <context context-type="linenumber">18</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="8475284e753bfd73a337bf58d42cce3a5750f4cf" datatype="html">
+      </segment>
+    </unit>
+    <unit id="5701428712894376039">
+      <notes>
+        <note category="location">src/app/join/join.component.ts:18</note>
+      </notes>
+      <segment>
         <source>Sync your full node and wallet</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/join/join.component.ts</context>
-          <context context-type="linenumber">18</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="96c3b01e00677fb6a2b72c71d7adc3c10bd0e745" datatype="html">
+      </segment>
+    </unit>
+    <unit id="4267952904665583656">
+      <notes>
+        <note category="location">src/app/join/join.component.ts:18</note>
+      </notes>
+      <segment>
         <source>before joining the pool, your node and wallet must be fully synchronized with Chia blockchain</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/join/join.component.ts</context>
-          <context context-type="linenumber">18</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="4cf730626ae19afd761284d59a7fecae7b56dfce" datatype="html">
+      </segment>
+    </unit>
+    <unit id="4686179819982655014">
+      <notes>
+        <note category="location">src/app/join/join.component.ts:18</note>
+      </notes>
+      <segment>
         <source>Receive some XCH</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/join/join.component.ts</context>
-          <context context-type="linenumber">18</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="fc5eb4c967d9bc41685521abe467df491d676136" datatype="html">
+      </segment>
+    </unit>
+    <unit id="8407551821312874924">
+      <notes>
+        <note category="location">src/app/join/join.component.ts:18</note>
+      </notes>
+      <segment>
         <source>you are going to need 1 mojo (0.000000000001 XCH) which you can get through our faucet service on Discord channel or through Faucet website:</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/join/join.component.ts</context>
-          <context context-type="linenumber">18</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="73a23cbe348c5b8529b4149f6d935e095b68bcbd" datatype="html">
+      </segment>
+    </unit>
+    <unit id="573605943360652415">
+      <notes>
+        <note category="location">src/app/join/join.component.ts:18</note>
+      </notes>
+      <segment>
         <source>join</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/join/join.component.ts</context>
-          <context context-type="linenumber">18</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="d20bebf39b717eb43cd921e9af351e080d1c15f3" datatype="html">
+      </segment>
+    </unit>
+    <unit id="1758435593288719047">
+      <notes>
+        <note category="location">src/app/join/join.component.ts:18</note>
+      </notes>
+      <segment>
         <source>go to “faucet” text channel</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/join/join.component.ts</context>
-          <context context-type="linenumber">18</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="3ee4ee9511471a1ba2a1ea15055392a975e1f6dc" datatype="html">
+      </segment>
+    </unit>
+    <unit id="6579386880718541736">
+      <notes>
+        <note category="location">src/app/join/join.component.ts:18</note>
+      </notes>
+      <segment>
         <source>type in message box:</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/join/join.component.ts</context>
-          <context context-type="linenumber">18</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="c157792655970dcb2e3c7ad6583ec90e3d69edd8" datatype="html">
+      </segment>
+    </unit>
+    <unit id="2637241189361251661">
+      <notes>
+        <note category="location">src/app/join/join.component.ts:18</note>
+      </notes>
+      <segment>
         <source>.faucet &lt;wallet address&gt;</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/join/join.component.ts</context>
-          <context context-type="linenumber">18</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="a443278806dc546173bc74ff24174b65cacdb55b" datatype="html">
+      </segment>
+    </unit>
+    <unit id="6377117377899970613">
+      <notes>
+        <note category="location">src/app/join/join.component.ts:18</note>
+      </notes>
+      <segment>
         <source>Create Plot NFT</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/join/join.component.ts</context>
-          <context context-type="linenumber">18</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="dd5a3aea4574fe707a155c528955e96b955335f1" datatype="html">
+      </segment>
+    </unit>
+    <unit id="4420171943937772574">
+      <notes>
+        <note category="location">src/app/join/join.component.ts:18</note>
+      </notes>
+      <segment>
         <source>go to the “Pool” tab, and click on “Join the Pool”</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/join/join.component.ts</context>
-          <context context-type="linenumber">18</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="5cc2a963e41509cf7ec174a938a03b53f1ba167b" datatype="html">
+      </segment>
+    </unit>
+    <unit id="7600229961018223463">
+      <notes>
+        <note category="location">src/app/join/join.component.ts:18</note>
+      </notes>
+      <segment>
         <source>choose “Connect to pool” and enter the url: https://pool.openchia.io (exactly, no ending slash) then wait for pool description to appear</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/join/join.component.ts</context>
-          <context context-type="linenumber">18</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="b039e850e4668dbcf5d9e092e41af3f2d56bdb5b" datatype="html">
+      </segment>
+    </unit>
+    <unit id="5200920908020858748">
+      <notes>
+        <note category="location">src/app/join/join.component.ts:18</note>
+      </notes>
+      <segment>
         <source>click the “Create” button. In the next couple of minutes, the Plot NFT will be created, and it will appear in your “Pool” tab</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/join/join.component.ts</context>
-          <context context-type="linenumber">18</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="af1f4ae5e75b2b677ccc03db4452372390447558" datatype="html">
+      </segment>
+    </unit>
+    <unit id="5265690573497854746">
+      <notes>
+        <note category="location">src/app/join/join.component.ts:18</note>
+      </notes>
+      <segment>
         <source>You can now start creating Plots in “Plots” tab using this new Plot NFT to start farming XCH</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/join/join.component.ts</context>
-          <context context-type="linenumber">18</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="bafc26b31ff276358a18ad37ed932b63583f0114" datatype="html">
+      </segment>
+    </unit>
+    <unit id="2252939334456578689">
+      <notes>
+        <note category="location">src/app/join/join.component.ts:18</note>
+      </notes>
+      <segment>
         <source>Go to &quot;Pool&quot; menu in the left menu</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/join/join.component.ts</context>
-          <context context-type="linenumber">18</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="a3f7d3d27afbd375fea8dc12ce36ab81e6a17fcb" datatype="html">
+      </segment>
+    </unit>
+    <unit id="8447672339763475319">
+      <notes>
+        <note category="location">src/app/join/join.component.ts:18</note>
+      </notes>
+      <segment>
         <source>If you already have a Plot NFT select &quot;Change Pool&quot; then enter https://pool.openchia.io</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/join/join.component.ts</context>
-          <context context-type="linenumber">18</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="0b6e7b027880060777afeed9bd83bc46d6fc5945" datatype="html">
+      </segment>
+    </unit>
+    <unit id="8758786563911669380">
+      <notes>
+        <note category="location">src/app/join/join.component.ts:18</note>
+      </notes>
+      <segment>
         <source>Click “Change” button</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/join/join.component.ts</context>
-          <context context-type="linenumber">18</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="69b383cb15575d3b4ca5855d19a1df4a2dd2df83" datatype="html">
+      </segment>
+    </unit>
+    <unit id="7623464505437750989">
+      <notes>
+        <note category="location">src/app/landing/landing.component.ts:30,35</note>
+      </notes>
+      <segment>
         <source>Welcome to OpenChia.io</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/landing/landing.component.ts</context>
-          <context context-type="linenumber">30,35</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="5b7d5e94bccf2165ab93fc0a90952a120febe0c3" datatype="html">
+      </segment>
+    </unit>
+    <unit id="6816717018247718709">
+      <notes>
+        <note category="location">src/app/landing/landing.component.ts:46</note>
+      </notes>
+      <segment>
         <source>Official Pool Protocol</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/landing/landing.component.ts</context>
-          <context context-type="linenumber">46</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="c27084c949cda7759a61b872848dd9381eefc8e1" datatype="html">
+      </segment>
+    </unit>
+    <unit id="3630057890731840343">
+      <notes>
+        <note category="location">src/app/landing/landing.component.ts:46</note>
+      </notes>
+      <segment>
         <source>A pool you can trust.</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/landing/landing.component.ts</context>
-          <context context-type="linenumber">46</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="6eef650fb15e0615d2312daefbee98c55f37ebce" datatype="html">
+      </segment>
+    </unit>
+    <unit id="5421336367436045349">
+      <notes>
+        <note category="location">src/app/landing/landing.component.ts:46</note>
+      </notes>
+      <segment>
         <source>All our software is open source. </source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/landing/landing.component.ts</context>
-          <context context-type="linenumber">46</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="JoinPool" datatype="html">
+      </segment>
+    </unit>
+    <unit id="JoinPool">
+      <notes>
+        <note category="location">src/app/landing/landing.component.ts:46</note>
+        <note category="location">src/app/shared/navbar/navbar.component.ts:48</note>
+      </notes>
+      <segment>
         <source>Join our pool</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/landing/landing.component.ts</context>
-          <context context-type="linenumber">46</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/shared/navbar/navbar.component.ts</context>
-          <context context-type="linenumber">48</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="e863710e7fd7485e35bf2421115e3f6efe54c155" datatype="html">
+      </segment>
+    </unit>
+    <unit id="2097611575880598770">
+      <notes>
+        <note category="location">src/app/landing/landing.component.ts:46</note>
+      </notes>
+      <segment>
         <source>Chat with us</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/landing/landing.component.ts</context>
-          <context context-type="linenumber">46</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="9579b2a5f2b117ae67b9c2a0af9081e1db8a7d1d" datatype="html">
+      </segment>
+    </unit>
+    <unit id="6962632162131341925">
+      <notes>
+        <note category="location">src/app/landing/landing.component.ts:46</note>
+      </notes>
+      <segment>
         <source>Pool URL</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/landing/landing.component.ts</context>
-          <context context-type="linenumber">46</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="7889cb7f1da2898096087d2002b97ebf417f8e09" datatype="html">
+      </segment>
+    </unit>
+    <unit id="498428897195803218">
+      <notes>
+        <note category="location">src/app/landing/landing.component.ts:46</note>
+      </notes>
+      <segment>
         <source>Distribution System: PPLNS</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/landing/landing.component.ts</context>
-          <context context-type="linenumber">46</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="059ee5a8fd35142361253b0b7b31826d2feb939d" datatype="html">
+      </segment>
+    </unit>
+    <unit id="2469056745486120197">
+      <notes>
+        <note category="location">src/app/landing/landing.component.ts:46</note>
+      </notes>
+      <segment>
         <source>Fee: 1%</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/landing/landing.component.ts</context>
-          <context context-type="linenumber">46</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="c518774aa8faf67a1bb1920f63874537ac75f2bf" datatype="html">
+      </segment>
+    </unit>
+    <unit id="3888743417810877091">
+      <notes>
+        <note category="location">src/app/landing/landing.component.ts:46</note>
+      </notes>
+      <segment>
         <source>1% Fee</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/landing/landing.component.ts</context>
-          <context context-type="linenumber">46</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="b0db2d05f4e2fe595336add984bb5b8eca6a72fd" datatype="html">
+      </segment>
+    </unit>
+    <unit id="136762463398753526">
+      <notes>
+        <note category="location">src/app/landing/landing.component.ts:46</note>
+      </notes>
+      <segment>
         <source>Low fee with referral option.</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/landing/landing.component.ts</context>
-          <context context-type="linenumber">46</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="85e0992b0468aec19ade138b52a0c3b5d1b19308" datatype="html">
+      </segment>
+    </unit>
+    <unit id="5880915392762070234">
+      <notes>
+        <note category="location">src/app/landing/landing.component.ts:46</note>
+      </notes>
+      <segment>
         <source>No minimum payout</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/landing/landing.component.ts</context>
-          <context context-type="linenumber">46</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="153d8173f5fb61a0b545c6073e23523966950a02" datatype="html">
+      </segment>
+    </unit>
+    <unit id="7682426834922031140">
+      <notes>
+        <note category="location">src/app/landing/landing.component.ts:46</note>
+      </notes>
+      <segment>
         <source>Why wait to get your rewards?</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/landing/landing.component.ts</context>
-          <context context-type="linenumber">46</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="0596b31cf2e8e5689013d1875aef53d20a813252" datatype="html">
+      </segment>
+    </unit>
+    <unit id="3720651283513261307">
+      <notes>
+        <note category="location">src/app/landing/landing.component.ts:46</note>
+      </notes>
+      <segment>
         <source>Instant payout</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/landing/landing.component.ts</context>
-          <context context-type="linenumber">46</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="36c69e4f77200050c5d83fe3c7d08fc0b6280dbc" datatype="html">
+      </segment>
+    </unit>
+    <unit id="4501612350036673473">
+      <notes>
+        <note category="location">src/app/landing/landing.component.ts:46</note>
+      </notes>
+      <segment>
         <source>Get your reward as soon as possible.</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/landing/landing.component.ts</context>
-          <context context-type="linenumber">46</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="4a9cf92f6e8136deb955a031242ae939c4ccf346" datatype="html">
+      </segment>
+    </unit>
+    <unit id="7075059674276878139">
+      <notes>
+        <note category="location">src/app/landing/landing.component.ts:46</note>
+      </notes>
+      <segment>
         <source>Transparent</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/landing/landing.component.ts</context>
-          <context context-type="linenumber">46</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="31e4b42bffbb7698c38d51e4455fad4bc242af5d" datatype="html">
+      </segment>
+    </unit>
+    <unit id="605761694003152703">
+      <notes>
+        <note category="location">src/app/landing/landing.component.ts:46</note>
+      </notes>
+      <segment>
         <source>We have nothing to hide. Full blown explorer and live logs.</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/landing/landing.component.ts</context>
-          <context context-type="linenumber">46</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="f6a8cb2287c0c738d3d02ca36e145830c9734db5" datatype="html">
+      </segment>
+    </unit>
+    <unit id="6741838149332998818">
+      <notes>
+        <note category="location">src/app/landing/landing.component.ts:46</note>
+      </notes>
+      <segment>
         <source>Who we are</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/landing/landing.component.ts</context>
-          <context context-type="linenumber">46</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="5ad983b6d5cb478599dfaa3014adf0eee4e93b82" datatype="html">
+      </segment>
+    </unit>
+    <unit id="1931139842666967640">
+      <notes>
+        <note category="location">src/app/landing/landing.component.ts:46</note>
+      </notes>
+      <segment>
         <source>Have you asked yourself who are the people running Chia pools? Do you trust them? </source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/landing/landing.component.ts</context>
-          <context context-type="linenumber">46</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="a44af7b3194a37366510d9a32da8850ba2825447" datatype="html">
+      </segment>
+    </unit>
+    <unit id="4239635668959543337">
+      <notes>
+        <note category="location">src/app/landing/landing.component.ts:46</note>
+      </notes>
+      <segment>
         <source>We have more than 20 years of combined experience in the software development industry.</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/landing/landing.component.ts</context>
-          <context context-type="linenumber">46</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="6b2ee049fd0036f29feeab6c562d65482b6cfa32" datatype="html">
+      </segment>
+    </unit>
+    <unit id="3458332391940035038">
+      <notes>
+        <note category="location">src/app/landing/landing.component.ts:46</note>
+      </notes>
+      <segment>
         <source>System Administrator</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/landing/landing.component.ts</context>
-          <context context-type="linenumber">46</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="078d78687f7026b46e627ee6fb92d426d74a97ca" datatype="html">
+      </segment>
+    </unit>
+    <unit id="4033388457681035533">
+      <notes>
+        <note category="location">src/app/landing/landing.component.ts:46</note>
+      </notes>
+      <segment>
         <source>Business and Marketing</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/landing/landing.component.ts</context>
-          <context context-type="linenumber">46</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="1108c6553f5774688bcec361e0d25067164817ae" datatype="html">
+      </segment>
+    </unit>
+    <unit id="6901531604019957317">
+      <notes>
+        <note category="location">src/app/landing/landing.component.ts:46</note>
+      </notes>
+      <segment>
         <source>Software Engineer</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/landing/landing.component.ts</context>
-          <context context-type="linenumber">46</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="79cd1b1433bb586aaaa4ac696abb647e4e1408ec" datatype="html">
+      </segment>
+    </unit>
+    <unit id="1007625284753612149">
+      <notes>
+        <note category="location">src/app/landing/landing.component.ts:46</note>
+      </notes>
+      <segment>
         <source>Frontend Developer</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/landing/landing.component.ts</context>
-          <context context-type="linenumber">46</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="Partners" datatype="html">
+      </segment>
+    </unit>
+    <unit id="Partners">
+      <notes>
+        <note category="location">src/app/partners/partners.component.ts:16</note>
+        <note category="location">src/app/shared/navbar/navbar.component.ts:48</note>
+      </notes>
+      <segment>
         <source>Partners</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/partners/partners.component.ts</context>
-          <context context-type="linenumber">16</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/shared/navbar/navbar.component.ts</context>
-          <context context-type="linenumber">48</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="cd819aeb3fde6d576c3a06db94df2af062d3c6ae" datatype="html">
+      </segment>
+    </unit>
+    <unit id="713513496522359111">
+      <notes>
+        <note category="location">src/app/partners/partners.component.ts:16</note>
+      </notes>
+      <segment>
         <source>Please meet our partners, together for a better world.</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/partners/partners.component.ts</context>
-          <context context-type="linenumber">16</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="e8f8bfee9c42759fb958a5d80b93ec339729227f" datatype="html">
+      </segment>
+    </unit>
+    <unit id="8751484695665236751">
+      <notes>
+        <note category="location">src/app/partners/partners.component.ts:16</note>
+      </notes>
+      <segment>
         <source> They are offering cutting-edge cryptocurrency technology of today and tomorrow. Vivid Stake Pool allows you to stake in Cardano. If you deposit your Fiat Money on your bank account, you will receive 1-3 % profit per year which will be paid after at least a few months. In Cardano it is the opposite: you receive high profits as high as 5-8 % per year which is paid every 5 days!</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/partners/partners.component.ts</context>
-          <context context-type="linenumber">16</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="73a8ec5516d65d93db9f62e2916eb969a29a842d" datatype="html">
-        <source>OpenChia believes that in a future blockchain and cryptocurrency can exist without degrading the environment and helping make the world a better place. We believe Chia and Cardano can coexist to help make that happen. If you&apos;d like to know more about Cardano and/or join a legitimate staking pool please visit <x id="START_LINK" ctype="x-a" equiv-text="&lt;a
-        href=&quot;https://vivid-pool.info/&quot; target=&quot;_blank&quot;&gt;"/>Vivid Pool<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/>.</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/partners/partners.component.ts</context>
-          <context context-type="linenumber">16</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="Referral" datatype="html">
+      </segment>
+    </unit>
+    <unit id="3896519408731471839">
+      <notes>
+        <note category="location">src/app/partners/partners.component.ts:16</note>
+      </notes>
+      <segment>
+        <source>OpenChia believes that in a future blockchain and cryptocurrency can exist without degrading the environment and helping make the world a better place. We believe Chia and Cardano can coexist to help make that happen. If you&apos;d like to know more about Cardano and/or join a legitimate staking pool please visit <pc id="0" equivStart="START_LINK" equivEnd="CLOSE_LINK" type="link" dispStart="&lt;a
+        href=&quot;https://vivid-pool.info/&quot; target=&quot;_blank&quot;&gt;" dispEnd="&lt;/a&gt;">Vivid Pool</pc>.</source>
+      </segment>
+    </unit>
+    <unit id="Referral">
+      <notes>
+        <note category="location">src/app/referral/referral.component.ts:16</note>
+        <note category="location">src/app/shared/navbar/navbar.component.ts:48</note>
+      </notes>
+      <segment>
         <source>Referral</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/referral/referral.component.ts</context>
-          <context context-type="linenumber">16</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/shared/navbar/navbar.component.ts</context>
-          <context context-type="linenumber">48</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="Beta" datatype="html">
+      </segment>
+    </unit>
+    <unit id="Beta">
+      <notes>
+        <note category="location">src/app/referral/referral.component.ts:16</note>
+      </notes>
+      <segment>
         <source>BETA</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/referral/referral.component.ts</context>
-          <context context-type="linenumber">16</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="d32d7c80cba2c064d69e06a150b115134afa52ed" datatype="html">
+      </segment>
+    </unit>
+    <unit id="6609923537067370114">
+      <notes>
+        <note category="location">src/app/referral/referral.component.ts:16</note>
+      </notes>
+      <segment>
         <source>Earn XCH by referring your friends to this pool!</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/referral/referral.component.ts</context>
-          <context context-type="linenumber">16</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="bdc5cd8ee8da3b2611447a34f2fa23b8382d2293" datatype="html">
+      </segment>
+    </unit>
+    <unit id="879650116501482755">
+      <notes>
+        <note category="location">src/app/referral/referral.component.ts:16</note>
+      </notes>
+      <segment>
         <source>How does it work?</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/referral/referral.component.ts</context>
-          <context context-type="linenumber">16</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="e4e4bee53c0a5bf3cbeea905c09e4c8a64d66972" datatype="html">
+      </segment>
+    </unit>
+    <unit id="7375935383488695163">
+      <notes>
+        <note category="location">src/app/referral/referral.component.ts:16</note>
+      </notes>
+      <segment>
         <source>Refer your friends to this pool using the URL https://openchia.io?referrer=YOUR_LAUNCHER_ID. Replace YOUR_LAUNCHER_ID with the Launcher ID from your Plot NFT. </source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/referral/referral.component.ts</context>
-          <context context-type="linenumber">16</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="8f6de837ab829da31d0ce0ce7cf31b55b72da670" datatype="html">
+      </segment>
+    </unit>
+    <unit id="1401585310581586757">
+      <notes>
+        <note category="location">src/app/referral/referral.component.ts:16</note>
+      </notes>
+      <segment>
         <source>Have your friend join the pool and login to the pool website using the Plot NFT login link. He will confirm you are his referrer. (Referrer is filled automatically if he visited the website with your link)</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/referral/referral.component.ts</context>
-          <context context-type="linenumber">16</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="6419a64d1c82713a79329a9e4476c6e47e831211" datatype="html">
+      </segment>
+    </unit>
+    <unit id="2261097846853869505">
+      <notes>
+        <note category="location">src/app/referral/referral.component.ts:16</note>
+      </notes>
+      <segment>
         <source>You will receive 20% of the pool fee for every payment made to your friend. That value comes out of the pool and not from your friend reward!</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/referral/referral.component.ts</context>
-          <context context-type="linenumber">16</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="c6f82691bd3cdd76945682a38bb82fe68caa1fd4" datatype="html">
+      </segment>
+    </unit>
+    <unit id="5860197662083362352">
+      <notes>
+        <note category="location">src/app/referral/referral.component.ts:16</note>
+      </notes>
+      <segment>
         <source>How do I check my referrals?</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/referral/referral.component.ts</context>
-          <context context-type="linenumber">16</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="9fcae10115b2fe4f2fc9ae62ddf1a92c51140269" datatype="html">
+      </segment>
+    </unit>
+    <unit id="1921163817420022648">
+      <notes>
+        <note category="location">src/app/referral/referral.component.ts:16</note>
+      </notes>
+      <segment>
         <source>Login to the pool website using your Plot NFT login link and go to the &quot;Referrals&quot; tab.</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/referral/referral.component.ts</context>
-          <context context-type="linenumber">16</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="2489eefea00931942b91f4a1ae109514b591e2e1" datatype="html">
+      </segment>
+    </unit>
+    <unit id="4645345687322304891">
+      <notes>
+        <note category="location">src/app/referral/referral.component.ts:16</note>
+      </notes>
+      <segment>
         <source>Rules</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/referral/referral.component.ts</context>
-          <context context-type="linenumber">16</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="46d4279366821378a367994d734e080cf4b96148" datatype="html">
+      </segment>
+    </unit>
+    <unit id="5407189743553466183">
+      <notes>
+        <note category="location">src/app/referral/referral.component.ts:16</note>
+      </notes>
+      <segment>
         <source>Use of good faith and don&apos;t refer yourself in any shape or form.</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/referral/referral.component.ts</context>
-          <context context-type="linenumber">16</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="619930ccda5d73c24ec795e54ba2ed4dcbd22703" datatype="html">
+      </segment>
+    </unit>
+    <unit id="1718704299775385181">
+      <notes>
+        <note category="location">src/app/referral/referral.component.ts:16</note>
+      </notes>
+      <segment>
         <source>Do not attempt close loop of referral. e.g. A -&gt; B -&gt; C -&gt; A.</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/referral/referral.component.ts</context>
-          <context context-type="linenumber">16</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="c1270c1bdd9912511f8cbe5152d9d938401a5be5" datatype="html">
+      </segment>
+    </unit>
+    <unit id="1289545646802926160">
+      <notes>
+        <note category="location">src/app/referral/referral.component.ts:16</note>
+      </notes>
+      <segment>
         <source>We reserve the right to change fees for new referrals at any time.</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/referral/referral.component.ts</context>
-          <context context-type="linenumber">16</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="0e42c9f0d6b8f118f1b117c47c8e6253fd1a4d46" datatype="html">
+      </segment>
+    </unit>
+    <unit id="4188492714860880995">
+      <notes>
+        <note category="location">src/app/shared/footer/footer.component.ts:21</note>
+      </notes>
+      <segment>
         <source>Thank you for trusting us!</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/shared/footer/footer.component.ts</context>
-          <context context-type="linenumber">21</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="c468ee01ae8a3118c520ded045df2cc3ed16f928" datatype="html">
+      </segment>
+    </unit>
+    <unit id="8504648059270671021">
+      <notes>
+        <note category="location">src/app/shared/footer/footer.component.ts:21</note>
+      </notes>
+      <segment>
         <source>Let&apos;s get in touch on any of these platforms.</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/shared/footer/footer.component.ts</context>
-          <context context-type="linenumber">21</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="API" datatype="html">
+      </segment>
+    </unit>
+    <unit id="API">
+      <notes>
+        <note category="location">src/app/shared/footer/footer.component.ts:21</note>
+      </notes>
+      <segment>
         <source>API</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/shared/footer/footer.component.ts</context>
-          <context context-type="linenumber">21</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="Terms" datatype="html">
+      </segment>
+    </unit>
+    <unit id="Terms">
+      <notes>
+        <note category="location">src/app/shared/footer/footer.component.ts:21</note>
+      </notes>
+      <segment>
         <source>Terms</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/shared/footer/footer.component.ts</context>
-          <context context-type="linenumber">21</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="Uptime" datatype="html">
+      </segment>
+    </unit>
+    <unit id="Uptime">
+      <notes>
+        <note category="location">src/app/shared/footer/footer.component.ts:21</note>
+      </notes>
+      <segment>
         <source>Uptime</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/shared/footer/footer.component.ts</context>
-          <context context-type="linenumber">21</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="MITLicense" datatype="html">
+      </segment>
+    </unit>
+    <unit id="MITLicense">
+      <notes>
+        <note category="location">src/app/shared/footer/footer.component.ts:21</note>
+      </notes>
+      <segment>
         <source>MIT License</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/shared/footer/footer.component.ts</context>
-          <context context-type="linenumber">21</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="Home" datatype="html">
+      </segment>
+    </unit>
+    <unit id="Home">
+      <notes>
+        <note category="location">src/app/shared/navbar/navbar.component.ts:21,26</note>
+      </notes>
+      <segment>
         <source>Home</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/shared/navbar/navbar.component.ts</context>
-          <context context-type="linenumber">21,26</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="Explorer" datatype="html">
+      </segment>
+    </unit>
+    <unit id="Explorer">
+      <notes>
+        <note category="location">src/app/shared/navbar/navbar.component.ts:38,48</note>
+      </notes>
+      <segment>
         <source>Explorer</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/shared/navbar/navbar.component.ts</context>
-          <context context-type="linenumber">38,48</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="Fees" datatype="html">
+      </segment>
+    </unit>
+    <unit id="Fees">
+      <notes>
+        <note category="location">src/app/shared/navbar/navbar.component.ts:48</note>
+      </notes>
+      <segment>
         <source>Fees</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/shared/navbar/navbar.component.ts</context>
-          <context context-type="linenumber">48</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="FAQ" datatype="html">
+      </segment>
+    </unit>
+    <unit id="FAQ">
+      <notes>
+        <note category="location">src/app/shared/navbar/navbar.component.ts:48</note>
+      </notes>
+      <segment>
         <source>FAQ</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/shared/navbar/navbar.component.ts</context>
-          <context context-type="linenumber">48</context>
-        </context-group>
-      </trans-unit>
-    </body>
+      </segment>
+    </unit>
   </file>
 </xliff>
