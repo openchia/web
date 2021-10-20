@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?><xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" srcLang="en" trgLang="zh-Hans-CN" version="2.0">
+<?xml version="1.0" encoding="UTF-8"?><xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" srcLang="en" trgLang="sk" version="2.0">
 <file id="ngi18n" original="ng.template">
 <unit id="1004766315783326842">
 <segment>
 <source xml:space="preserve">ETW</source>
-<target xml:space="preserve">ETW</target>
+<target xml:space="preserve">Odhadovaný čas na výhru</target>
 </segment>
 </unit>
 <unit id="1007625284753612149">
@@ -15,25 +15,25 @@
 <unit id="1037127944915137232">
 <segment>
 <source xml:space="preserve">Learn how to set name here.</source>
-<target xml:space="preserve">在此处了解如何设置名称。</target>
+<target xml:space="preserve">Prečítajte si, ako nastaviť názov.</target>
 </segment>
 </unit>
 <unit id="1063462873103909661">
 <segment>
 <source xml:space="preserve">Difficulty</source>
-<target xml:space="preserve">难度</target>
+<target xml:space="preserve">Zložitosť</target>
 </segment>
 </unit>
 <unit id="1140108877159163263">
 <segment>
 <source xml:space="preserve">No blocks found!</source>
-<target xml:space="preserve">No blocks found!</target>
+<target xml:space="preserve">Nenašli sa žiadne bloky!</target>
 </segment>
 </unit>
 <unit id="1175065931767236325">
 <segment>
 <source xml:space="preserve">No farmers found!</source>
-<target xml:space="preserve">No farmers found!</target>
+<target xml:space="preserve">Nenájdený žiadny farmár!</target>
 </segment>
 </unit>
 <unit id="1289545646802926160">
@@ -69,19 +69,19 @@
 <unit id="1758435593288719047">
 <segment>
 <source xml:space="preserve">go to “faucet” text channel</source>
-<target xml:space="preserve">go to “faucet” text channel</target>
+<target xml:space="preserve">Pokračovať vo "faucet" vlákne</target>
 </segment>
 </unit>
 <unit id="1774008180173753624">
 <segment>
 <source xml:space="preserve">Successful Partials</source>
-<target xml:space="preserve">Successful Partials</target>
+<target xml:space="preserve">Úspešné dielčie bloky</target>
 </segment>
 </unit>
 <unit id="1783078519944991756">
 <segment>
 <source xml:space="preserve">Failed to authenticate! Check your URL and try again.</source>
-<target xml:space="preserve">Failed to authenticate! Check your URL and try again.</target>
+<target xml:space="preserve">Nepodarilo sa overiť! Skontrolujte svoju URL adresu a skúste to znova.</target>
 </segment>
 </unit>
 <unit id="1797292337796232493">
@@ -109,67 +109,67 @@
 <unit id="1931139842666967640">
 <segment>
 <source xml:space="preserve">Have you asked yourself who are the people running Chia pools? Do you trust them? </source>
-<target xml:space="preserve">Have you asked yourself who are the people running Chia pools? Do you trust them? </target>
+<target xml:space="preserve">Pýtali ste sa sami seba, kto sú ľudia prevádzkujúci Chia združenia? Veríte im? </target>
 </segment>
 </unit>
 <unit id="1949302126255810191">
 <segment>
 <source xml:space="preserve">Reward Distribution</source>
-<target xml:space="preserve">Reward Distribution</target>
+<target xml:space="preserve">Rozdelenie odmien</target>
 </segment>
 </unit>
 <unit id="1976239811515748183">
 <segment>
 <source xml:space="preserve">Until 1st October 2021 (2021/10/01)</source>
-<target xml:space="preserve">Until 1st October 2021 (2021/10/01)</target>
+<target xml:space="preserve">Do 1. októbra 2021 (2021/10/01)</target>
 </segment>
 </unit>
 <unit id="1987379316591371803">
 <segment>
 <source xml:space="preserve">Payouts</source>
-<target xml:space="preserve">Payouts</target>
+<target xml:space="preserve">Výplaty</target>
 </segment>
 </unit>
 <unit id="2026871242381918065">
 <segment>
 <source xml:space="preserve">What are non-portable (OG) and portable plots (NFT)?</source>
-<target xml:space="preserve">What are non-portable (OG) and portable plots (NFT)?</target>
+<target xml:space="preserve">Čo sú neprenosné (OG) a prenosné polia (NFT)?</target>
 </segment>
 </unit>
 <unit id="2032214384688052707">
 <segment>
 <source xml:space="preserve">Frequentely Asked Questions (F.A.Q.)</source>
-<target xml:space="preserve">Frequentely Asked Questions (F.A.Q.)</target>
+<target xml:space="preserve">Často kladené otázky (F.A.Q.)</target>
 </segment>
 </unit>
 <unit id="2041082387182328462">
 <segment>
 <source xml:space="preserve">Enjoy 0% pool fee until October 2021.</source>
-<target xml:space="preserve">Enjoy 0% pool fee until October 2021.</target>
+<target xml:space="preserve">Užite si 0% poplatok združenia do októbra 2021.</target>
 </segment>
 </unit>
 <unit id="2097611575880598770">
 <segment>
 <source xml:space="preserve">Chat with us</source>
-<target xml:space="preserve">与我们聊聊</target>
+<target xml:space="preserve">Chatujte s nami</target>
 </segment>
 </unit>
 <unit id="2153109973251079314">
 <segment>
 <source xml:space="preserve">Learn how to set name here.</source>
-<target xml:space="preserve">Learn how to set name here.</target>
+<target xml:space="preserve">Prečítajte si, ako nastaviť názov.</target>
 </segment>
 </unit>
 <unit id="223937640624116360">
 <segment>
 <source xml:space="preserve">Can I switch from/to your pool whenever I want?</source>
-<target xml:space="preserve">Can I switch from/to your pool whenever I want?</target>
+<target xml:space="preserve">Môžem sa kedykoľvek odpojiť z vášho združenia alebo sa k nemu kedykoľvek pripojiť?</target>
 </segment>
 </unit>
 <unit id="2252939334456578689">
 <segment>
 <source xml:space="preserve">Go to &quot;Pool&quot; menu in the left menu</source>
-<target xml:space="preserve">Go to &quot;Pool&quot; menu in the left menu</target>
+<target xml:space="preserve">Prejdite do ponuky „Združenie“ v ľavom menu</target>
 </segment>
 </unit>
 <unit id="2261097846853869505">
@@ -181,37 +181,37 @@
 <unit id="2264932589847833892">
 <segment>
 <source xml:space="preserve">Farmer Details</source>
-<target xml:space="preserve">Farmer Details</target>
+<target xml:space="preserve">Prehľad farmy</target>
 </segment>
 </unit>
 <unit id="2303041439224647987">
 <segment>
 <source xml:space="preserve">Connection</source>
-<target xml:space="preserve">连接</target>
+<target xml:space="preserve">Pripojenie</target>
 </segment>
 </unit>
 <unit id="2318140886847115923">
 <segment>
 <source xml:space="preserve">Pool server real-time log</source>
-<target xml:space="preserve">池服务器实时日志</target>
+<target xml:space="preserve">Denník servera združenia v reálnom čase</target>
 </segment>
 </unit>
 <unit id="2351744948046490518">
 <segment>
 <source xml:space="preserve">Join our pool</source>
-<target xml:space="preserve">Join our pool</target>
+<target xml:space="preserve">Pripojte sa do nášho združenia</target>
 </segment>
 </unit>
 <unit id="2396139623688857660">
 <segment>
 <source xml:space="preserve">How to set name in explorer? (alias)</source>
-<target xml:space="preserve">How to set name in explorer? (alias)</target>
+<target xml:space="preserve">Ako nastaviť názov v prehliadači? (alias)</target>
 </segment>
 </unit>
 <unit id="24036095495322476">
 <segment>
 <source xml:space="preserve">Last Partials (24 hours)</source>
-<target xml:space="preserve">Last Partials (24 hours)</target>
+<target xml:space="preserve">Posledné dielčie bloky (24 hodín)</target>
 </segment>
 </unit>
 <unit id="2469056745486120197">
@@ -223,49 +223,49 @@
 <unit id="2637241189361251661">
 <segment>
 <source xml:space="preserve">.faucet &lt;wallet address&gt;</source>
-<target xml:space="preserve">.faucet &lt;wallet address&gt;</target>
+<target xml:space="preserve">.faucet &lt;adresa peňaženky&gt;</target>
 </segment>
 </unit>
 <unit id="2644032998932147111">
 <segment>
 <source xml:space="preserve">If a reward of 1.75 XCH is found, only 1% of that, 0.0175 will be kept to the pool as a fee. The remaining 1.7325 XCH will be distributed to pool farmers.</source>
-<target xml:space="preserve">If a reward of 1.75 XCH is found, only 1% of that, 0.0175 will be kept to the pool as a fee. The remaining 1.7325 XCH will be distributed to pool farmers.</target>
+<target xml:space="preserve">Ak sa získa odmena 1,75 XCH, len 1% z toho (čiže 0,0175) zostane združeniu ako poplatok. Zvyšných 1,7325 XCH sa rozdelí farmárom v rámci združenia.</target>
 </segment>
 </unit>
 <unit id="2669308838649487392">
 <segment>
 <source xml:space="preserve">Show failed partials only</source>
-<target xml:space="preserve">Show failed partials only</target>
+<target xml:space="preserve">Zobraziť len neúspešné dielčie bloky</target>
 </segment>
 </unit>
 <unit id="2756022432863940642">
 <segment>
 <source xml:space="preserve">Failed Partials</source>
-<target xml:space="preserve">Failed Partials</target>
+<target xml:space="preserve">Neúspešné dielčie bloky</target>
 </segment>
 </unit>
 <unit id="2806917038528218276">
 <segment>
 <source xml:space="preserve">FAQ</source>
-<target xml:space="preserve">常见问题</target>
+<target xml:space="preserve">FAQ</target>
 </segment>
 </unit>
 <unit id="2821179408673282599">
 <segment>
 <source xml:space="preserve">Home</source>
-<target xml:space="preserve">主页</target>
+<target xml:space="preserve">Domov</target>
 </segment>
 </unit>
 <unit id="2905619048308246310">
 <segment>
 <source xml:space="preserve">All our software is open source.</source>
-<target xml:space="preserve">All our software is open source.</target>
+<target xml:space="preserve">Celý náš softvér je open source.</target>
 </segment>
 </unit>
 <unit id="2921627933919469894">
 <segment>
 <source xml:space="preserve">Farmers</source>
-<target xml:space="preserve">Farmers</target>
+<target xml:space="preserve">Farmári</target>
 </segment>
 </unit>
 <unit id="2926474126478443738">
@@ -277,13 +277,13 @@
 <unit id="2929691011645001388">
 <segment>
 <source xml:space="preserve">% of total</source>
-<target xml:space="preserve">占总数 %</target>
+<target xml:space="preserve">% z celku</target>
 </segment>
 </unit>
 <unit id="3033623772164647792">
 <segment>
 <source xml:space="preserve">Height</source>
-<target xml:space="preserve">身高</target>
+<target xml:space="preserve">Výška</target>
 </segment>
 </unit>
 <unit id="3037348742943406028">
@@ -307,55 +307,55 @@
 <unit id="3173354168032548090">
 <segment>
 <source xml:space="preserve">How many portable plots do I need to join the pool?</source>
-<target xml:space="preserve">How many portable plots do I need to join the pool?</target>
+<target xml:space="preserve">Koľko prenosných polí potrebujem na pripojenie sa k združeniu?</target>
 </segment>
 </unit>
 <unit id="3179472790665120358">
 <segment>
 <source xml:space="preserve">Fees are structured this way</source>
-<target xml:space="preserve">Fees are structured this way</target>
+<target xml:space="preserve">Poplatky sú štruktúrované týmto spôsobom</target>
 </segment>
 </unit>
 <unit id="3223637037001251732">
 <segment>
 <source xml:space="preserve">Farmer</source>
-<target xml:space="preserve">农民</target>
+<target xml:space="preserve">Farmár</target>
 </segment>
 </unit>
 <unit id="3406747127815684711">
 <segment>
 <source xml:space="preserve">Netspace</source>
-<target xml:space="preserve">Netspace</target>
+<target xml:space="preserve">Veľkosť siete</target>
 </segment>
 </unit>
 <unit id="3458332391940035038">
 <segment>
 <source xml:space="preserve">System Administrator</source>
-<target xml:space="preserve">System Administrator</target>
+<target xml:space="preserve">Správca systému</target>
 </segment>
 </unit>
 <unit id="3630057890731840343">
 <segment>
 <source xml:space="preserve">A pool you can trust.</source>
-<target xml:space="preserve">A pool you can trust.</target>
+<target xml:space="preserve">Združenie, ktorému môžete dôverovať.</target>
 </segment>
 </unit>
 <unit id="3687194426938367329">
 <segment>
 <source xml:space="preserve">Partners</source>
-<target xml:space="preserve">伙伴</target>
+<target xml:space="preserve">Partneri</target>
 </segment>
 </unit>
 <unit id="3720651283513261307">
 <segment>
 <source xml:space="preserve">Instant payout</source>
-<target xml:space="preserve">Instant payout</target>
+<target xml:space="preserve">Okamžitá výplata</target>
 </segment>
 </unit>
 <unit id="3768927257183755959">
 <segment>
 <source xml:space="preserve">Save</source>
-<target xml:space="preserve">保存</target>
+<target xml:space="preserve">Uložiť</target>
 </segment>
 </unit>
 <unit id="3888743417810877091">
@@ -373,19 +373,19 @@
 <unit id="3900702001221590652">
 <segment>
 <source xml:space="preserve">No blocks found by this farmer!</source>
-<target xml:space="preserve">No blocks found by this farmer!</target>
+<target xml:space="preserve">Tento farmár nenašiel žiadne bloky!</target>
 </segment>
 </unit>
 <unit id="3973931101896534797">
 <segment>
 <source xml:space="preserve">Date</source>
-<target xml:space="preserve">日期</target>
+<target xml:space="preserve">Dátum</target>
 </segment>
 </unit>
 <unit id="4033388457681035533">
 <segment>
 <source xml:space="preserve">Business and Marketing</source>
-<target xml:space="preserve">Business and Marketing</target>
+<target xml:space="preserve">Biznis a marketing</target>
 </segment>
 </unit>
 <unit id="4040786877830825878">
@@ -407,67 +407,67 @@
 <unit id="4127571452382238225">
 <segment>
 <source xml:space="preserve">Explorer</source>
-<target xml:space="preserve">探险者</target>
+<target xml:space="preserve">Prieskumník</target>
 </segment>
 </unit>
 <unit id="4165674190938428121">
 <segment>
 <source xml:space="preserve">Make sure you are running official Chia client 1.2.0 or later.</source>
-<target xml:space="preserve">Make sure you are running official Chia client 1.2.0 or later.</target>
+<target xml:space="preserve">Uistite sa, že používate oficiálny klient Chia 1.2.0 alebo novší.</target>
 </segment>
 </unit>
 <unit id="4188492714860880995">
 <segment>
 <source xml:space="preserve">Thank you for trusting us!</source>
-<target xml:space="preserve">Thank you for trusting us!</target>
+<target xml:space="preserve">Ďakujeme, že nám dôverujete!</target>
 </segment>
 </unit>
 <unit id="4239635668959543337">
 <segment>
 <source xml:space="preserve">We have more than 20 years of combined experience in the software development industry.</source>
-<target xml:space="preserve">We have more than 20 years of combined experience in the software development industry.</target>
+<target xml:space="preserve">Po spočítaní našich individuálnych skúseností, máme spolu viac ako 20 rokov skúseností v oblasti vývoja softvéru.</target>
 </segment>
 </unit>
 <unit id="4267952904665583656">
 <segment>
 <source xml:space="preserve">before joining the pool, your node and wallet must be fully synchronized with Chia blockchain</source>
-<target xml:space="preserve">before joining the pool, your node and wallet must be fully synchronized with Chia blockchain</target>
+<target xml:space="preserve">pred vstupom do združenia musia byť váš uzol a peňaženka plne synchronizované s Chia blockchainom</target>
 </segment>
 </unit>
 <unit id="427062538161914083">
 <segment>
 <source xml:space="preserve">Official Chia Instructions.</source>
-<target xml:space="preserve">Official Chia Instructions.</target>
+<target xml:space="preserve">Oficiálne pokyny Chia.</target>
 </segment>
 </unit>
 <unit id="4420171943937772574">
 <segment>
 <source xml:space="preserve">go to the “Pool” tab, and click on “Join the Pool”</source>
-<target xml:space="preserve">go to the “Pool” tab, and click on “Join the Pool”</target>
+<target xml:space="preserve">prejdite na kartu „Združenie“ a kliknite na „Pripojiť sa k združeniu“</target>
 </segment>
 </unit>
 <unit id="4423939679955683675">
 <segment>
 <source xml:space="preserve">A reward of 1.75 XCH will be distributed to pool farmers, 0 XCH (nothing) is kept to the pool.</source>
-<target xml:space="preserve">A reward of 1.75 XCH will be distributed to pool farmers, 0 XCH (nothing) is kept to the pool.</target>
+<target xml:space="preserve">Farmárom v združení bude rozdelená odmena 1,75 XCH. 0 XCH (nič) sa ponechá združeniu.</target>
 </segment>
 </unit>
 <unit id="4500995370545031926">
 <segment>
 <source xml:space="preserve">How Chia pools work?</source>
-<target xml:space="preserve">How Chia pools work?</target>
+<target xml:space="preserve">Ako fungujú Chia združenia?</target>
 </segment>
 </unit>
 <unit id="4501612350036673473">
 <segment>
 <source xml:space="preserve">Get your reward as soon as possible.</source>
-<target xml:space="preserve">Get your reward as soon as possible.</target>
+<target xml:space="preserve">Získajte svoju odmenu čo najskôr.</target>
 </segment>
 </unit>
 <unit id="4580988005648117665">
 <segment>
 <source xml:space="preserve">Search</source>
-<target xml:space="preserve">搜索</target>
+<target xml:space="preserve">Hľadať</target>
 </segment>
 </unit>
 <unit id="4591435416961869603">
@@ -487,13 +487,13 @@
 <unit id="4686179819982655014">
 <segment>
 <source xml:space="preserve">Receive some XCH</source>
-<target xml:space="preserve">Receive some XCH</target>
+<target xml:space="preserve">Získajte nejaké XCH</target>
 </segment>
 </unit>
 <unit id="4839405892539527393">
 <segment>
 <source xml:space="preserve">Create plots using that plotnft:</source>
-<target xml:space="preserve">Create plots using that plotnft:</target>
+<target xml:space="preserve">Vytvorte polia pomocou toho NFT poľa:</target>
 </segment>
 </unit>
 <unit id="4862418072620251283">
@@ -511,31 +511,31 @@
 <unit id="4894182895116318049">
 <segment>
 <source xml:space="preserve">Harvester ID</source>
-<target xml:space="preserve">Harvester ID</target>
+<target xml:space="preserve">ID zberača</target>
 </segment>
 </unit>
 <unit id="498428897195803218">
 <segment>
 <source xml:space="preserve">Distribution System: PPLNS</source>
-<target xml:space="preserve">Distribution System: PPLNS</target>
+<target xml:space="preserve">Systém rozdeľovania odmien: PPLNS</target>
 </segment>
 </unit>
 <unit id="5012084291992448490">
 <segment>
 <source xml:space="preserve">Fees</source>
-<target xml:space="preserve">费用</target>
+<target xml:space="preserve">Poplatky</target>
 </segment>
 </unit>
 <unit id="5043891966437752386">
 <segment>
 <source xml:space="preserve">Launcher ID</source>
-<target xml:space="preserve">Launcher ID</target>
+<target xml:space="preserve">ID spúšťača</target>
 </segment>
 </unit>
 <unit id="5088299831715376392">
 <segment>
 <source xml:space="preserve">If a reward of 1.75 XCH is found, only 1% of that, 0.0175 will be kept to the pool as a fee. The remaining 1.7325 XCH will be distributed to pool farmers.</source>
-<target xml:space="preserve">If a reward of 1.75 XCH is found, only 1% of that, 0.0175 will be kept to the pool as a fee. The remaining 1.7325 XCH will be distributed to pool farmers.</target>
+<target xml:space="preserve">Ak sa získa odmena 1,75 XCH, len 1% z toho (čiže 0,0175) zostane združeniu ako poplatok. Zvyšných 1,7325 XCH sa rozdelí farmárom v rámci združenia.</target>
 </segment>
 </unit>
 <unit id="5200920908020858748">
@@ -547,7 +547,7 @@
 <unit id="5254622645701859101">
 <segment>
 <source xml:space="preserve">Points</source>
-<target xml:space="preserve">点数</target>
+<target xml:space="preserve">Body</target>
 </segment>
 </unit>
 <unit id="5265690573497854746">
@@ -565,7 +565,7 @@
 <unit id="5421336367436045349">
 <segment>
 <source xml:space="preserve">All our software is open source. </source>
-<target xml:space="preserve">All our software is open source. </target>
+<target xml:space="preserve">Celý náš softvér je open source. </target>
 </segment>
 </unit>
 <unit id="5493504549864464172">
@@ -589,13 +589,13 @@
 <unit id="5683785837580689751">
 <segment>
 <source xml:space="preserve">How to join us</source>
-<target xml:space="preserve">How to join us</target>
+<target xml:space="preserve">Ako sa k nám pripojiť</target>
 </segment>
 </unit>
 <unit id="5701428712894376039">
 <segment>
 <source xml:space="preserve">Sync your full node and wallet</source>
-<target xml:space="preserve">Sync your full node and wallet</target>
+<target xml:space="preserve">Synchronizujte celý uzol a peňaženku</target>
 </segment>
 </unit>
 <unit id="571806966107540033">
@@ -607,7 +607,7 @@
 <unit id="573605943360652415">
 <segment>
 <source xml:space="preserve">join</source>
-<target xml:space="preserve">加入</target>
+<target xml:space="preserve">pripojiť sa</target>
 </segment>
 </unit>
 <unit id="5782428644169779738">
@@ -619,7 +619,7 @@
 <unit id="5784227755295047072">
 <segment>
 <source xml:space="preserve">0% Fee</source>
-<target xml:space="preserve">0% Fee</target>
+<target xml:space="preserve">0% poplatok</target>
 </segment>
 </unit>
 <unit id="5860197662083362352">
@@ -631,67 +631,67 @@
 <unit id="5880915392762070234">
 <segment>
 <source xml:space="preserve">No minimum payout</source>
-<target xml:space="preserve">No minimum payout</target>
+<target xml:space="preserve">Žiadna minimálna výplata</target>
 </segment>
 </unit>
 <unit id="5911214550882917183">
 <segment>
 <source xml:space="preserve">State</source>
-<target xml:space="preserve">州</target>
+<target xml:space="preserve">Stav</target>
 </segment>
 </unit>
 <unit id="5942490619473756728">
 <segment>
 <source xml:space="preserve">After 1st October</source>
-<target xml:space="preserve">After 1st October</target>
+<target xml:space="preserve">Po 1. októbri</target>
 </segment>
 </unit>
 <unit id="5992977313238905164">
 <segment>
 <source xml:space="preserve">Points (24 hours)</source>
-<target xml:space="preserve">Points (24 hours)</target>
+<target xml:space="preserve">Body (24 hodín)</target>
 </segment>
 </unit>
 <unit id="605761694003152703">
 <segment>
 <source xml:space="preserve">We have nothing to hide. Full blown explorer and live logs.</source>
-<target xml:space="preserve">We have nothing to hide. Full blown explorer and live logs.</target>
+<target xml:space="preserve">Nemáme čo skrývať. Plný funkčný prieskumník, a denník servera v reálnom čase.</target>
 </segment>
 </unit>
 <unit id="6327177447190265105">
 <segment>
 <source xml:space="preserve">Verify plotnft and copy contract address:</source>
-<target xml:space="preserve">Verify plotnft and copy contract address:</target>
+<target xml:space="preserve">Overte NFT poľa a skopírujte adresu zmluvy:</target>
 </segment>
 </unit>
 <unit id="6377117377899970613">
 <segment>
 <source xml:space="preserve">Create Plot NFT</source>
-<target xml:space="preserve">Create Plot NFT</target>
+<target xml:space="preserve">Vytvoriť NFT poľa</target>
 </segment>
 </unit>
 <unit id="6410467948610503551">
 <segment>
 <source xml:space="preserve">Index</source>
-<target xml:space="preserve">索引</target>
+<target xml:space="preserve">Index</target>
 </segment>
 </unit>
 <unit id="6423838518528989093">
 <segment>
 <source xml:space="preserve">Before 1st October</source>
-<target xml:space="preserve">Before 1st October</target>
+<target xml:space="preserve">Pred 1. októbrom</target>
 </segment>
 </unit>
 <unit id="6428143771369644145">
 <segment>
 <source xml:space="preserve">Pool Space</source>
-<target xml:space="preserve">Pool Space</target>
+<target xml:space="preserve">Veľkosť združenia</target>
 </segment>
 </unit>
 <unit id="6445111019676735745">
 <segment>
 <source xml:space="preserve">Payout</source>
-<target xml:space="preserve">Payout</target>
+<target xml:space="preserve">Výplata</target>
 </segment>
 </unit>
 <unit id="6478666049745113178">
@@ -703,13 +703,13 @@
 <unit id="6533918067030990396">
 <segment>
 <source xml:space="preserve">Amount</source>
-<target xml:space="preserve">数量</target>
+<target xml:space="preserve">Suma</target>
 </segment>
 </unit>
 <unit id="6579386880718541736">
 <segment>
 <source xml:space="preserve">type in message box:</source>
-<target xml:space="preserve">type in message box:</target>
+<target xml:space="preserve">napište správu:</target>
 </segment>
 </unit>
 <unit id="6609923537067370114">
@@ -721,13 +721,13 @@
 <unit id="6741838149332998818">
 <segment>
 <source xml:space="preserve">Who we are</source>
-<target xml:space="preserve">Who we are</target>
+<target xml:space="preserve">Kto sme</target>
 </segment>
 </unit>
 <unit id="6816717018247718709">
 <segment>
 <source xml:space="preserve">Official Pool Protocol</source>
-<target xml:space="preserve">Official Pool Protocol</target>
+<target xml:space="preserve">Oficiálny protokol pre združenia</target>
 </segment>
 </unit>
 <unit id="6828977561113207354">
@@ -739,62 +739,63 @@
 <unit id="6880713934119717799">
 <segment>
 <source xml:space="preserve">Friendly Name</source>
-<target xml:space="preserve">昵称：%s</target>
+<target xml:space="preserve">Priateľský názov</target>
 </segment>
 </unit>
 <unit id="6901531604019957317">
 <segment>
 <source xml:space="preserve">Software Engineer</source>
-<target xml:space="preserve">Software Engineer</target>
+<target xml:space="preserve">Softvérový inžinier</target>
 </segment>
 </unit>
 <unit id="6930616437385085682">
 <segment>
 <source xml:space="preserve">Partials</source>
-<target xml:space="preserve">Partials</target>
+<target xml:space="preserve">Dielčie bloky</target>
 </segment>
 </unit>
 <unit id="6948786787037977434">
 <segment>
 <source xml:space="preserve">Blocks</source>
-<target xml:space="preserve">大厦</target>
+<target xml:space="preserve">Bloky</target>
 </segment>
 </unit>
 <unit id="6955537025048058867">
 <segment>
 <source xml:space="preserve">
 <ph disp="{{ farmers }}" equiv="INTERPOLATION" id="0"/> total</source>
-<target xml:space="preserve">总计</target>
+<target xml:space="preserve">
+<ph disp="{{ farmers }}" equiv="INTERPOLATION" id="0"/> total</target>
 </segment>
 </unit>
 <unit id="6962632162131341925">
 <segment>
 <source xml:space="preserve">Pool URL</source>
-<target xml:space="preserve">Pool URL</target>
+<target xml:space="preserve">URL adresa združenia</target>
 </segment>
 </unit>
 <unit id="7075059674276878139">
 <segment>
 <source xml:space="preserve">Transparent</source>
-<target xml:space="preserve">透明</target>
+<target xml:space="preserve">Transparentnosť</target>
 </segment>
 </unit>
 <unit id="713513496522359111">
 <segment>
 <source xml:space="preserve">Please meet our partners, together for a better world.</source>
-<target xml:space="preserve">Please meet our partners, together for a better world.</target>
+<target xml:space="preserve">Zoznámte sa s našimi partnermi, spoločne pre lepší svet.</target>
 </segment>
 </unit>
 <unit id="7143444199300614511">
 <segment>
 <source xml:space="preserve">Create Plot NFT:</source>
-<target xml:space="preserve">Create Plot NFT:</target>
+<target xml:space="preserve">Vytvoriť NFT poľa:</target>
 </segment>
 </unit>
 <unit id="7290072656116822388">
 <segment>
 <source xml:space="preserve">No payouts found!</source>
-<target xml:space="preserve">No payouts found!</target>
+<target xml:space="preserve">Neboli nájdené žiadne výplaty!</target>
 </segment>
 </unit>
 <unit id="7375935383488695163">
@@ -812,7 +813,7 @@
 <unit id="7452975614303290488">
 <segment>
 <source xml:space="preserve">No partials found!</source>
-<target xml:space="preserve">No partials found!</target>
+<target xml:space="preserve">Neboli nájdené žiadne dielčie bloky!</target>
 </segment>
 </unit>
 <unit id="7600229961018223463">
@@ -824,13 +825,13 @@
 <unit id="760044993052786414">
 <segment>
 <source xml:space="preserve">Estimated Size </source>
-<target xml:space="preserve">Estimated Size </target>
+<target xml:space="preserve">Odhadovaná veľkosť </target>
 </segment>
 </unit>
 <unit id="7623464505437750989">
 <segment>
 <source xml:space="preserve">Welcome to OpenChia.io</source>
-<target xml:space="preserve">Welcome to OpenChia.io</target>
+<target xml:space="preserve">Vitajte na OpenChia.io</target>
 </segment>
 </unit>
 <unit id="7682426834922031140">
@@ -854,19 +855,19 @@
 <unit id="7904374983883510569">
 <segment>
 <source xml:space="preserve">Partials (24 hours)</source>
-<target xml:space="preserve">Partials (24 hours)</target>
+<target xml:space="preserve">Dielčie bloky (24 hodín)</target>
 </segment>
 </unit>
 <unit id="807089867044050822">
 <segment>
 <source xml:space="preserve">No blocks found by this farmed!</source>
-<target xml:space="preserve">No blocks found by this farmed!</target>
+<target xml:space="preserve">Tento farmár nenašiel žiadne bloky!</target>
 </segment>
 </unit>
 <unit id="8311659957519204575">
 <segment>
 <source xml:space="preserve">Estimated Size</source>
-<target xml:space="preserve">Estimated Size</target>
+<target xml:space="preserve">Odhadovaná veľkosť</target>
 </segment>
 </unit>
 <unit id="8371722561970711209">
@@ -880,7 +881,7 @@
 <source xml:space="preserve">
 <ph disp="{{ estimate_win / 60 / 24 | number }}" equiv="INTERPOLATION" id="0"/> days</source>
 <target xml:space="preserve">
-<ph disp="{{ estimate_win / 60 / 24 | number }}" equiv="INTERPOLATION" id="0"/> 天数</target>
+<ph disp="{{ estimate_win / 60 / 24 | number }}" equiv="INTERPOLATION" id="0"/> days</target>
 </segment>
 </unit>
 <unit id="8407551821312874924">
@@ -892,7 +893,7 @@
 <unit id="841934696444961534">
 <segment>
 <source xml:space="preserve">News</source>
-<target xml:space="preserve">新闻</target>
+<target xml:space="preserve">Novinky</target>
 </segment>
 </unit>
 <unit id="8440937360712650656">
@@ -916,7 +917,7 @@
 <unit id="8497528947328199741">
 <segment>
 <source xml:space="preserve">Time</source>
-<target xml:space="preserve">时间</target>
+<target xml:space="preserve">Čas</target>
 </segment>
 </unit>
 <unit id="8504648059270671021">
@@ -928,13 +929,13 @@
 <unit id="8559170870663360229">
 <segment>
 <source xml:space="preserve">Examples</source>
-<target xml:space="preserve">例子</target>
+<target xml:space="preserve">Príklady</target>
 </segment>
 </unit>
 <unit id="8616757634091748553">
 <segment>
 <source xml:space="preserve">Blocks Found</source>
-<target xml:space="preserve">Blocks Found</target>
+<target xml:space="preserve">Nájdené bloky</target>
 </segment>
 </unit>
 <unit id="8751484695665236751">
@@ -988,13 +989,13 @@
 <unit id="91968095428425686">
 <segment>
 <source xml:space="preserve">XCH Price</source>
-<target xml:space="preserve">XCH Price</target>
+<target xml:space="preserve">Cena XCH</target>
 </segment>
 </unit>
 <unit id="9201971930509716006">
 <segment>
 <source xml:space="preserve">Fee: 0%</source>
-<target xml:space="preserve">Fee: 0%</target>
+<target xml:space="preserve">Poplatok: 0%</target>
 </segment>
 </unit>
 <unit id="API">
@@ -1006,7 +1007,7 @@
 <unit id="Amount">
 <segment>
 <source xml:space="preserve">Amount</source>
-<target xml:space="preserve">数量</target>
+<target xml:space="preserve">Suma</target>
 </segment>
 </unit>
 <unit id="Average">
@@ -1024,13 +1025,13 @@
 <unit id="Blocks">
 <segment>
 <source xml:space="preserve">Blocks</source>
-<target xml:space="preserve">大厦</target>
+<target xml:space="preserve">Bloky</target>
 </segment>
 </unit>
 <unit id="Count">
 <segment>
 <source xml:space="preserve">Count</source>
-<target xml:space="preserve">Count</target>
+<target xml:space="preserve">Počet</target>
 </segment>
 </unit>
 <unit id="CurrentEffort">
@@ -1042,7 +1043,7 @@
 <unit id="Date">
 <segment>
 <source xml:space="preserve">Date</source>
-<target xml:space="preserve">日期</target>
+<target xml:space="preserve">Dátum</target>
 </segment>
 </unit>
 <unit id="Details">
@@ -1054,7 +1055,7 @@
 <unit id="Difficulty">
 <segment>
 <source xml:space="preserve">Difficulty</source>
-<target xml:space="preserve">难度</target>
+<target xml:space="preserve">Zložitosť</target>
 </segment>
 </unit>
 <unit id="Effort">
@@ -1066,13 +1067,13 @@
 <unit id="EstimatedSpace">
 <segment>
 <source xml:space="preserve">Estimated Space</source>
-<target xml:space="preserve">Estimated Space</target>
+<target xml:space="preserve">Odhadovaná veľkosť</target>
 </segment>
 </unit>
 <unit id="Explorer">
 <segment>
 <source xml:space="preserve">Explorer</source>
-<target xml:space="preserve">探险者</target>
+<target xml:space="preserve">Prieskumník</target>
 </segment>
 </unit>
 <unit id="FAQ">
@@ -1084,7 +1085,7 @@
 <unit id="Failed">
 <segment>
 <source xml:space="preserve">Failed</source>
-<target xml:space="preserve">失败</target>
+<target xml:space="preserve">Failed</target>
 </segment>
 </unit>
 <unit id="Farmer">
@@ -1096,13 +1097,13 @@
 <unit id="Farmers">
 <segment>
 <source xml:space="preserve">Farmers</source>
-<target xml:space="preserve">Farmers</target>
+<target xml:space="preserve">Farmári</target>
 </segment>
 </unit>
 <unit id="Fee">
 <segment>
 <source xml:space="preserve">Fee</source>
-<target xml:space="preserve">費用</target>
+<target xml:space="preserve">Poplatok</target>
 </segment>
 </unit>
 <unit id="Fees">
@@ -1114,13 +1115,13 @@
 <unit id="Harversters">
 <segment>
 <source xml:space="preserve">Harvesters</source>
-<target xml:space="preserve">Harvesters</target>
+<target xml:space="preserve">Zberače</target>
 </segment>
 </unit>
 <unit id="Height">
 <segment>
 <source xml:space="preserve">Height</source>
-<target xml:space="preserve">身高</target>
+<target xml:space="preserve">Výška</target>
 </segment>
 </unit>
 <unit id="Home">
@@ -1132,7 +1133,7 @@
 <unit id="Hrs24">
 <segment>
 <source xml:space="preserve">24 hours</source>
-<target xml:space="preserve">24 小时</target>
+<target xml:space="preserve">24 hodín</target>
 </segment>
 </unit>
 <unit id="ID">
@@ -1144,7 +1145,7 @@
 <unit id="JoinPool">
 <segment>
 <source xml:space="preserve">Join our pool</source>
-<target xml:space="preserve">Join our pool</target>
+<target xml:space="preserve">Pripojte sa k nášmu združeniu</target>
 </segment>
 </unit>
 <unit id="Joined">
@@ -1156,7 +1157,7 @@
 <unit id="Launcher">
 <segment>
 <source xml:space="preserve">Launcher ID</source>
-<target xml:space="preserve">Launcher ID</target>
+<target xml:space="preserve">ID spúšťača</target>
 </segment>
 </unit>
 <unit id="LauncherID">
@@ -1180,55 +1181,55 @@
 <unit id="MITLicense">
 <segment>
 <source xml:space="preserve">MIT License</source>
-<target xml:space="preserve">MIT License</target>
+<target xml:space="preserve">Licencia MIT</target>
 </segment>
 </unit>
 <unit id="NoPayouts">
 <segment>
 <source xml:space="preserve">No payouts found!</source>
-<target xml:space="preserve">No payouts found!</target>
+<target xml:space="preserve">Neboli nájdené žiadne výplaty!</target>
 </segment>
 </unit>
 <unit id="NoPayoutsAddrs">
 <segment>
 <source xml:space="preserve">No payouts addresses found!</source>
-<target xml:space="preserve">No payouts addresses found!</target>
+<target xml:space="preserve">Neboli nájdené žiadne výplatné adresy!</target>
 </segment>
 </unit>
 <unit id="Partials">
 <segment>
 <source xml:space="preserve">Partials</source>
-<target xml:space="preserve">Partials</target>
+<target xml:space="preserve">Dielčie bloky</target>
 </segment>
 </unit>
 <unit id="Partners">
 <segment>
 <source xml:space="preserve">Partners</source>
-<target xml:space="preserve">伙伴</target>
+<target xml:space="preserve">Partneri</target>
 </segment>
 </unit>
 <unit id="PayoutAddresses">
 <segment>
 <source xml:space="preserve">Payout Addresses</source>
-<target xml:space="preserve">Payout Addresses</target>
+<target xml:space="preserve">Výplatné adresy</target>
 </segment>
 </unit>
 <unit id="Payouts">
 <segment>
 <source xml:space="preserve">Payouts</source>
-<target xml:space="preserve">Payouts</target>
+<target xml:space="preserve">Výplaty</target>
 </segment>
 </unit>
 <unit id="Performance">
 <segment>
 <source xml:space="preserve">Performance</source>
-<target xml:space="preserve">性能</target>
+<target xml:space="preserve">Výkon</target>
 </segment>
 </unit>
 <unit id="Points">
 <segment>
 <source xml:space="preserve">Points</source>
-<target xml:space="preserve">点数</target>
+<target xml:space="preserve">Body</target>
 </segment>
 </unit>
 <unit id="PoolWallets">
@@ -1278,19 +1279,19 @@
 <unit id="Step">
 <segment>
 <source xml:space="preserve">Step</source>
-<target xml:space="preserve">步</target>
+<target xml:space="preserve">Krok</target>
 </segment>
 </unit>
 <unit id="Successful">
 <segment>
 <source xml:space="preserve">Successful</source>
-<target xml:space="preserve">成功</target>
+<target xml:space="preserve">Úspešné</target>
 </segment>
 </unit>
 <unit id="Terms">
 <segment>
 <source xml:space="preserve">Terms</source>
-<target xml:space="preserve">条款</target>
+<target xml:space="preserve">Zmluvné podmienky</target>
 </segment>
 </unit>
 <unit id="TotalIncome">
@@ -1302,13 +1303,13 @@
 <unit id="Transaction">
 <segment>
 <source xml:space="preserve">Transaction</source>
-<target xml:space="preserve">交易</target>
+<target xml:space="preserve">Transakcia</target>
 </segment>
 </unit>
 <unit id="TransactionBlock">
 <segment>
 <source xml:space="preserve">Transaction Block</source>
-<target xml:space="preserve">Transaction Block</target>
+<target xml:space="preserve">Transakčný blok</target>
 </segment>
 </unit>
 <unit id="Unknown">
@@ -1326,7 +1327,7 @@
 <unit id="Uptime">
 <segment>
 <source xml:space="preserve">Uptime</source>
-<target xml:space="preserve">正常运行时间</target>
+<target xml:space="preserve">Doba prevádzky</target>
 </segment>
 </unit>
 <unit id="UtilizationSpace">
@@ -1338,49 +1339,49 @@
 <unit id="Warning">
 <segment>
 <source xml:space="preserve">Warning</source>
-<target xml:space="preserve">警告</target>
+<target xml:space="preserve">Upozornenie</target>
 </segment>
 </unit>
 <unit id="ngb.alert.close">
 <segment>
 <source xml:space="preserve">Close</source>
-<target xml:space="preserve">关闭</target>
+<target xml:space="preserve">Zavrieť</target>
 </segment>
 </unit>
 <unit id="ngb.carousel.next">
 <segment>
 <source xml:space="preserve">Next</source>
-<target xml:space="preserve">继续</target>
+<target xml:space="preserve">Nasledujúce</target>
 </segment>
 </unit>
 <unit id="ngb.carousel.previous">
 <segment>
 <source xml:space="preserve">Previous</source>
-<target xml:space="preserve">上一个</target>
+<target xml:space="preserve">Predchádzajúce</target>
 </segment>
 </unit>
 <unit id="ngb.pagination.first-aria">
 <segment>
 <source xml:space="preserve">First</source>
-<target xml:space="preserve">第一页</target>
+<target xml:space="preserve">Prvý</target>
 </segment>
 </unit>
 <unit id="ngb.pagination.last-aria">
 <segment>
 <source xml:space="preserve">Last</source>
-<target xml:space="preserve">最后一页</target>
+<target xml:space="preserve">Posledný</target>
 </segment>
 </unit>
 <unit id="ngb.pagination.next-aria">
 <segment>
 <source xml:space="preserve">Next</source>
-<target xml:space="preserve">继续</target>
+<target xml:space="preserve">Nasledujúce</target>
 </segment>
 </unit>
 <unit id="ngb.pagination.previous-aria">
 <segment>
 <source xml:space="preserve">Previous</source>
-<target xml:space="preserve">上一个</target>
+<target xml:space="preserve">Predchádzajúce</target>
 </segment>
 </unit>
 <unit id="ngb.progressbar.value">
@@ -1452,7 +1453,7 @@
 <unit id="ngb.timepicker.hours">
 <segment>
 <source xml:space="preserve">Hours</source>
-<target xml:space="preserve">小时</target>
+<target xml:space="preserve">Hours</target>
 </segment>
 </unit>
 <unit id="ngb.timepicker.increment-hours">
@@ -1476,19 +1477,19 @@
 <unit id="ngb.timepicker.minutes">
 <segment>
 <source xml:space="preserve">Minutes</source>
-<target xml:space="preserve">分钟</target>
+<target xml:space="preserve">Minutes</target>
 </segment>
 </unit>
 <unit id="ngb.timepicker.seconds">
 <segment>
 <source xml:space="preserve">Seconds</source>
-<target xml:space="preserve">秒</target>
+<target xml:space="preserve">Seconds</target>
 </segment>
 </unit>
 <unit id="ngb.toast.close-aria">
 <segment>
 <source xml:space="preserve">Close</source>
-<target xml:space="preserve">关闭</target>
+<target xml:space="preserve">Zavrieť</target>
 </segment>
 </unit>
 </file>

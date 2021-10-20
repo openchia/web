@@ -31,6 +31,10 @@
             "translation": "src/locale/fr.xlf",
             "baseHref": "/"
           },
+          "hu": {
+            "translation": "src/locale/hu.xlf",
+            "baseHref": "/"
+          },
           "pl": {
             "translation": "src/locale/pl.xlf",
             "baseHref": "/"
@@ -41,6 +45,10 @@
           },
           "ru": {
             "translation": "src/locale/ru.xlf",
+            "baseHref": "/"
+          },
+          "sk": {
+            "translation": "src/locale/sk.xlf",
             "baseHref": "/"
           },
           "zh-CN": {

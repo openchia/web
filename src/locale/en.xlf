@@ -1,14 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <xliff version="2.0" xmlns="urn:oasis:names:tc:xliff:document:2.0" srcLang="en">
   <file id="ngi18n" original="ng.template">
-    <unit id="ngb.alert.close">
-      <notes>
-        <note category="location">node_modules/@ng-bootstrap/src/alert/alert.ts:43,49</note>
-      </notes>
-      <segment>
-        <source>Close</source>
-      </segment>
-    </unit>
     <unit id="ngb.pagination.first-aria">
       <notes>
         <note category="location">node_modules/@ng-bootstrap/src/pagination/pagination.ts:186,191</note>
@@ -41,136 +33,6 @@
         <source>Last</source>
       </segment>
     </unit>
-    <unit id="ngb.progressbar.value">
-      <notes>
-        <note category="location">node_modules/@ng-bootstrap/src/progressbar/progressbar.ts:27,35</note>
-      </notes>
-      <segment>
-        <source><ph id="0" equiv="INTERPOLATION" disp="ber { return th"/></source>
-      </segment>
-    </unit>
-    <unit id="ngb.timepicker.HH">
-      <notes>
-        <note category="location">node_modules/@ng-bootstrap/src/timepicker/timepicker.ts:40,43</note>
-      </notes>
-      <segment>
-        <source>HH</source>
-      </segment>
-    </unit>
-    <unit id="ngb.timepicker.hours">
-      <notes>
-        <note category="location">node_modules/@ng-bootstrap/src/timepicker/timepicker.ts:47,49</note>
-      </notes>
-      <segment>
-        <source>Hours</source>
-      </segment>
-    </unit>
-    <unit id="ngb.timepicker.MM">
-      <notes>
-        <note category="location">node_modules/@ng-bootstrap/src/timepicker/timepicker.ts:55,56</note>
-      </notes>
-      <segment>
-        <source>MM</source>
-      </segment>
-    </unit>
-    <unit id="ngb.timepicker.minutes">
-      <notes>
-        <note category="location">node_modules/@ng-bootstrap/src/timepicker/timepicker.ts:61,63</note>
-      </notes>
-      <segment>
-        <source>Minutes</source>
-      </segment>
-    </unit>
-    <unit id="ngb.timepicker.increment-hours">
-      <notes>
-        <note category="location">node_modules/@ng-bootstrap/src/timepicker/timepicker.ts:67,69</note>
-      </notes>
-      <segment>
-        <source>Increment hours</source>
-      </segment>
-    </unit>
-    <unit id="ngb.timepicker.decrement-hours">
-      <notes>
-        <note category="location">node_modules/@ng-bootstrap/src/timepicker/timepicker.ts:74,78</note>
-      </notes>
-      <segment>
-        <source>Decrement hours</source>
-      </segment>
-    </unit>
-    <unit id="ngb.timepicker.increment-minutes">
-      <notes>
-        <note category="location">node_modules/@ng-bootstrap/src/timepicker/timepicker.ts:82,85</note>
-      </notes>
-      <segment>
-        <source>Increment minutes</source>
-      </segment>
-    </unit>
-    <unit id="ngb.timepicker.decrement-minutes">
-      <notes>
-        <note category="location">node_modules/@ng-bootstrap/src/timepicker/timepicker.ts:89,91</note>
-      </notes>
-      <segment>
-        <source>Decrement minutes</source>
-      </segment>
-    </unit>
-    <unit id="ngb.timepicker.SS">
-      <notes>
-        <note category="location">node_modules/@ng-bootstrap/src/timepicker/timepicker.ts:95,99</note>
-      </notes>
-      <segment>
-        <source>SS</source>
-      </segment>
-    </unit>
-    <unit id="ngb.timepicker.seconds">
-      <notes>
-        <note category="location">node_modules/@ng-bootstrap/src/timepicker/timepicker.ts:103,105</note>
-      </notes>
-      <segment>
-        <source>Seconds</source>
-      </segment>
-    </unit>
-    <unit id="ngb.timepicker.PM">
-      <notes>
-        <note category="location">node_modules/@ng-bootstrap/src/timepicker/timepicker.ts:112,118</note>
-      </notes>
-      <segment>
-        <source><ph id="0" equiv="INTERPOLATION" disp="tring;
-
-  disab"/></source>
-      </segment>
-    </unit>
-    <unit id="ngb.timepicker.increment-seconds">
-      <notes>
-        <note category="location">node_modules/@ng-bootstrap/src/timepicker/timepicker.ts:115,126</note>
-      </notes>
-      <segment>
-        <source>Increment seconds</source>
-      </segment>
-    </unit>
-    <unit id="ngb.timepicker.AM">
-      <notes>
-        <note category="location">node_modules/@ng-bootstrap/src/timepicker/timepicker.ts:116,127</note>
-      </notes>
-      <segment>
-        <source><ph id="0" equiv="INTERPOLATION" disp="or 24H mode."/></source>
-      </segment>
-    </unit>
-    <unit id="ngb.timepicker.decrement-seconds">
-      <notes>
-        <note category="location">node_modules/@ng-bootstrap/src/timepicker/timepicker.ts:143,151</note>
-      </notes>
-      <segment>
-        <source>Decrement seconds</source>
-      </segment>
-    </unit>
-    <unit id="ngb.toast.close-aria">
-      <notes>
-        <note category="location">node_modules/@ng-bootstrap/src/toast/toast.ts:70,76</note>
-      </notes>
-      <segment>
-        <source>Close</source>
-      </segment>
-    </unit>
     <unit id="6948786787037977434">
       <notes>
         <note category="location">src/app/explorer/dashboard/dashboard.component.html:36,41</note>
@@ -182,7 +44,7 @@
     <unit id="Farmers">
       <notes>
         <note category="location">src/app/explorer/dashboard/dashboard.component.html:43,50</note>
-        <note category="location">src/app/explorer/dashboard/dashboard.component.ts:39,51</note>
+        <note category="location">src/app/explorer/dashboard/dashboard.component.ts:39,47</note>
       </notes>
       <segment>
         <source>Farmers</source>
@@ -198,7 +60,7 @@
     </unit>
     <unit id="3406747127815684711">
       <notes>
-        <note category="location">src/app/explorer/dashboard/dashboard.component.html:52,63</note>
+        <note category="location">src/app/explorer/dashboard/dashboard.component.html:52,60</note>
       </notes>
       <segment>
         <source>Netspace</source>
@@ -206,23 +68,119 @@
     </unit>
     <unit id="6955537025048058867">
       <notes>
-        <note category="location">src/app/explorer/dashboard/dashboard.component.html:65,42</note>
+        <note category="location">src/app/explorer/dashboard/dashboard.component.html:61,42</note>
       </notes>
       <segment>
         <source><ph id="0" equiv="INTERPOLATION" disp="{{ farmers }}"/> total</source>
       </segment>
     </unit>
+    <unit id="CurrentEffort">
+      <notes>
+        <note category="location">src/app/explorer/dashboard/dashboard.component.html:68,73</note>
+      </notes>
+      <segment>
+        <source>Current Effort</source>
+      </segment>
+    </unit>
+    <unit id="8440937360712650656">
+      <notes>
+        <note category="location">src/app/explorer/dashboard/dashboard.component.html:82,88</note>
+      </notes>
+      <segment>
+        <source>Since Last Win</source>
+      </segment>
+    </unit>
+    <unit id="Rewards">
+      <notes>
+        <note category="location">src/app/explorer/dashboard/dashboard.component.html:96,100</note>
+      </notes>
+      <segment>
+        <source>Rewards</source>
+      </segment>
+    </unit>
+    <unit id="Profitability">
+      <notes>
+        <note category="location">src/app/explorer/dashboard/dashboard.component.html:106,118</note>
+      </notes>
+      <segment>
+        <source>Profitability</source>
+      </segment>
+    </unit>
+    <unit id="5667847308793189855">
+      <notes>
+        <note category="location">src/app/explorer/dashboard/dashboard.component.html:126,130</note>
+      </notes>
+      <segment>
+        <source>Average effort to farm a block in the last 30 days.</source>
+      </segment>
+    </unit>
+    <unit id="5782428644169779738">
+      <notes>
+        <note category="location">src/app/explorer/dashboard/dashboard.component.html:136,152</note>
+      </notes>
+      <segment>
+        <source>Profitability based on blocks farmed on last 30 days. Estimated value (XCH) a farmer would get per TiB per day.</source>
+      </segment>
+    </unit>
+    <unit id="Leaderboard">
+      <notes>
+        <note category="location">src/app/explorer/dashboard/dashboard.component.html:162,166</note>
+      </notes>
+      <segment>
+        <source>Leaderboard</source>
+      </segment>
+    </unit>
     <unit id="1175065931767236325">
       <notes>
-        <note category="location">src/app/explorer/dashboard/dashboard.component.html:73,78</note>
+        <note category="location">src/app/explorer/dashboard/dashboard.component.html:174,178</note>
       </notes>
       <segment>
         <source>No farmers found!</source>
       </segment>
     </unit>
+    <unit id="4887086279398746047">
+      <notes>
+        <note category="location">src/app/explorer/dashboard/dashboard.component.html:197,207</note>
+      </notes>
+      <segment>
+        <source>The effort that was required to farm the block. 100% is the expected estimated time to win. Lower than 100% means we farmed the block before the estimation. Higher than 100% means we took longer than anticipated.</source>
+      </segment>
+    </unit>
+    <unit id="Unknown">
+      <notes>
+        <note category="location">src/app/explorer/dashboard/dashboard.component.html:216,220</note>
+      </notes>
+      <segment>
+        <source>Unknown</source>
+      </segment>
+    </unit>
+    <unit id="Lucky">
+      <notes>
+        <note category="location">src/app/explorer/dashboard/dashboard.component.html:228,238</note>
+      </notes>
+      <segment>
+        <source>Lucky</source>
+      </segment>
+    </unit>
+    <unit id="Average">
+      <notes>
+        <note category="location">src/app/explorer/dashboard/dashboard.component.html:248,253</note>
+      </notes>
+      <segment>
+        <source>Average</source>
+      </segment>
+    </unit>
+    <unit id="Unlucky">
+      <notes>
+        <note category="location">src/app/explorer/dashboard/dashboard.component.html:265,270</note>
+      </notes>
+      <segment>
+        <source>Unlucky</source>
+      </segment>
+    </unit>
     <unit id="1140108877159163263">
       <notes>
-        <note category="location">src/app/explorer/dashboard/dashboard.component.html:86,90</note>
+        <note category="location">src/app/explorer/dashboard/dashboard.component.html:279,284</note>
       </notes>
       <segment>
         <source>No blocks found!</source>
@@ -230,43 +188,76 @@
     </unit>
     <unit id="NoPayouts">
       <notes>
-        <note category="location">src/app/explorer/dashboard/dashboard.component.html:99,110</note>
-        <note category="location">src/app/explorer/farmer/farmer.component.ts:164</note>
+        <note category="location">src/app/explorer/dashboard/dashboard.component.html:292,296</note>
+        <note category="location">src/app/explorer/farmer/farmer.component.html:243</note>
       </notes>
       <segment>
         <source>No payouts found!</source>
       </segment>
     </unit>
-    <unit id="4580988005648117665">
+    <unit id="PoolWallets">
       <notes>
-        <note category="location">src/app/explorer/dashboard/dashboard.component.ts:60,64</note>
+        <note category="location">src/app/explorer/dashboard/dashboard.component.html:313</note>
+      </notes>
+      <segment>
+        <source>Pool Wallets</source>
+      </segment>
+    </unit>
+    <unit id="9008803606625370175">
+      <notes>
+        <note category="location">src/app/explorer/dashboard/dashboard.component.html:313</note>
+      </notes>
+      <segment>
+        <source>No wallets found!</source>
+      </segment>
+    </unit>
+    <unit id="9130593304627753298">
+      <notes>
+        <note category="location">src/app/explorer/dashboard/dashboard.component.html:313</note>
+      </notes>
+      <segment>
+        <source>Synced</source>
+      </segment>
+    </unit>
+    <unit id="2926474126478443738">
+      <notes>
+        <note category="location">src/app/explorer/dashboard/dashboard.component.html:313</note>
+      </notes>
+      <segment>
+        <source>Not synced!</source>
+      </segment>
+    </unit>
+    <unit id="Search">
+      <notes>
+        <note category="location">src/app/explorer/dashboard/dashboard.component.ts:61,66</note>
       </notes>
       <segment>
         <source>Search</source>
       </segment>
     </unit>
-    <unit id="Difficulty">
-      <notes>
-        <note category="location">src/app/explorer/dashboard/dashboard.component.ts:78,85</note>
-        <note category="location">src/app/explorer/farmer/farmer.component.ts:115,126</note>
-      </notes>
-      <segment>
-        <source>Difficulty</source>
-      </segment>
-    </unit>
     <unit id="Points">
       <notes>
-        <note category="location">src/app/explorer/dashboard/dashboard.component.ts:92,98</note>
-        <note category="location">src/app/explorer/farmer/farmer.component.ts:71,77</note>
-        <note category="location">src/app/explorer/farmer/farmer.component.ts:164</note>
+        <note category="location">src/app/explorer/dashboard/dashboard.component.ts:73,78</note>
+        <note category="location">src/app/explorer/farmer/farmer.component.html:76,79</note>
+        <note category="location">src/app/explorer/farmer/farmer.component.ts:70,76</note>
       </notes>
       <segment>
         <source>Points</source>
       </segment>
     </unit>
+    <unit id="Difficulty">
+      <notes>
+        <note category="location">src/app/explorer/dashboard/dashboard.component.ts:93,102</note>
+        <note category="location">src/app/explorer/farmer/farmer.component.html:223,228</note>
+        <note category="location">src/app/explorer/farmer/farmer.component.ts:114,125</note>
+      </notes>
+      <segment>
+        <source>Difficulty</source>
+      </segment>
+    </unit>
     <unit id="UtilizationSpace">
       <notes>
-        <note category="location">src/app/explorer/dashboard/dashboard.component.ts:98</note>
+        <note category="location">src/app/explorer/dashboard/dashboard.component.ts:112,116</note>
       </notes>
       <segment>
         <source>Utilization Space</source>
@@ -274,7 +265,7 @@
     </unit>
     <unit id="EstimatedSpace">
       <notes>
-        <note category="location">src/app/explorer/dashboard/dashboard.component.ts:98</note>
+        <note category="location">src/app/explorer/dashboard/dashboard.component.ts:125</note>
       </notes>
       <segment>
         <source>Estimated Space</source>
@@ -282,7 +273,7 @@
     </unit>
     <unit id="8616757634091748553">
       <notes>
-        <note category="location">src/app/explorer/dashboard/dashboard.component.ts:98</note>
+        <note category="location">src/app/explorer/dashboard/dashboard.component.ts:125</note>
       </notes>
       <segment>
         <source>Blocks Found</source>
@@ -290,25 +281,35 @@
     </unit>
     <unit id="6410467948610503551">
       <notes>
-        <note category="location">src/app/explorer/dashboard/dashboard.component.ts:98</note>
+        <note category="location">src/app/explorer/dashboard/dashboard.component.ts:125</note>
       </notes>
       <segment>
         <source>Index</source>
       </segment>
     </unit>
-    <unit id="3973931101896534797">
+    <unit id="Date">
       <notes>
-        <note category="location">src/app/explorer/dashboard/dashboard.component.ts:98</note>
-        <note category="location">src/app/explorer/dashboard/dashboard.component.ts:98</note>
-        <note category="location">src/app/explorer/farmer/farmer.component.ts:164</note>
+        <note category="location">src/app/explorer/dashboard/dashboard.component.ts:125</note>
+        <note category="location">src/app/explorer/farmer/farmer.component.html:207,214</note>
+        <note category="location">src/app/explorer/farmer/farmer.component.html:243</note>
+        <note category="location">src/app/explorer/farmer/farmer.component.html:243</note>
+        <note category="location">src/app/explorer/payout/payout.component.ts:32</note>
       </notes>
       <segment>
         <source>Date</source>
       </segment>
     </unit>
-    <unit id="3223637037001251732">
+    <unit id="Effort">
       <notes>
-        <note category="location">src/app/explorer/dashboard/dashboard.component.ts:98</note>
+        <note category="location">src/app/explorer/dashboard/dashboard.component.ts:125</note>
+      </notes>
+      <segment>
+        <source>Effort</source>
+      </segment>
+    </unit>
+    <unit id="Farmer">
+      <notes>
+        <note category="location">src/app/explorer/dashboard/dashboard.component.ts:125</note>
       </notes>
       <segment>
         <source>Farmer</source>
@@ -316,7 +317,7 @@
     </unit>
     <unit id="1987379316591371803">
       <notes>
-        <note category="location">src/app/explorer/dashboard/dashboard.component.ts:98</note>
+        <note category="location">src/app/explorer/dashboard/dashboard.component.ts:125</note>
       </notes>
       <segment>
         <source>Payouts</source>
@@ -324,17 +325,25 @@
     </unit>
     <unit id="ID">
       <notes>
-        <note category="location">src/app/explorer/dashboard/dashboard.component.ts:98</note>
+        <note category="location">src/app/explorer/dashboard/dashboard.component.ts:125</note>
       </notes>
       <segment>
         <source>ID</source>
       </segment>
     </unit>
+    <unit id="3973931101896534797">
+      <notes>
+        <note category="location">src/app/explorer/dashboard/dashboard.component.ts:125</note>
+      </notes>
+      <segment>
+        <source>Date</source>
+      </segment>
+    </unit>
     <unit id="Amount">
       <notes>
-        <note category="location">src/app/explorer/dashboard/dashboard.component.ts:98</note>
-        <note category="location">src/app/explorer/farmer/farmer.component.ts:164</note>
-        <note category="location">src/app/explorer/farmer/farmer.component.ts:164</note>
+        <note category="location">src/app/explorer/dashboard/dashboard.component.ts:125</note>
+        <note category="location">src/app/explorer/farmer/farmer.component.html:243</note>
+        <note category="location">src/app/explorer/farmer/farmer.component.html:243</note>
         <note category="location">src/app/explorer/payout/payout.component.ts:32</note>
         <note category="location">src/app/explorer/payout/payout.component.ts:32</note>
       </notes>
@@ -344,7 +353,7 @@
     </unit>
     <unit id="2318140886847115923">
       <notes>
-        <note category="location">src/app/explorer/dashboard/dashboard.component.ts:98</note>
+        <note category="location">src/app/explorer/dashboard/dashboard.component.ts:125</note>
       </notes>
       <segment>
         <source>Pool server real-time log</source>
@@ -352,7 +361,7 @@
     </unit>
     <unit id="91968095428425686">
       <notes>
-        <note category="location">src/app/explorer/dashboard/dashboard.component.ts:98</note>
+        <note category="location">src/app/explorer/dashboard/dashboard.component.ts:125</note>
       </notes>
       <segment>
         <source>XCH Price</source>
@@ -360,7 +369,7 @@
     </unit>
     <unit id="6428143771369644145">
       <notes>
-        <note category="location">src/app/explorer/dashboard/dashboard.component.ts:98</note>
+        <note category="location">src/app/explorer/dashboard/dashboard.component.ts:125</note>
       </notes>
       <segment>
         <source>Pool Space</source>
@@ -368,7 +377,7 @@
     </unit>
     <unit id="1004766315783326842">
       <notes>
-        <note category="location">src/app/explorer/dashboard/dashboard.component.ts:98</note>
+        <note category="location">src/app/explorer/dashboard/dashboard.component.ts:125</note>
       </notes>
       <segment>
         <source>ETW</source>
@@ -376,116 +385,28 @@
     </unit>
     <unit id="8398056438540085583">
       <notes>
-        <note category="location">src/app/explorer/dashboard/dashboard.component.ts:98</note>
+        <note category="location">src/app/explorer/dashboard/dashboard.component.ts:125</note>
       </notes>
       <segment>
         <source><ph id="0" equiv="INTERPOLATION" disp="{{ estimate_win / 60 / 24 | number }}"/> days</source>
       </segment>
     </unit>
-    <unit id="24036095495322476">
-      <notes>
-        <note category="location">src/app/explorer/farmer/farmer.component.ts:16,17</note>
-      </notes>
-      <segment>
-        <source>Last Partials (24 hours)</source>
-      </segment>
-    </unit>
-    <unit id="8497528947328199741">
-      <notes>
-        <note category="location">src/app/explorer/farmer/farmer.component.ts:17,19</note>
-      </notes>
-      <segment>
-        <source>Time</source>
-      </segment>
-    </unit>
-    <unit id="2264932589847833892">
-      <notes>
-        <note category="location">src/app/explorer/farmer/farmer.component.ts:28,38</note>
-      </notes>
-      <segment>
-        <source>Farmer Details</source>
-      </segment>
-    </unit>
-    <unit id="6880713934119717799">
-      <notes>
-        <note category="location">src/app/explorer/farmer/farmer.component.ts:52,60</note>
-      </notes>
-      <segment>
-        <source>Friendly Name</source>
-      </segment>
-    </unit>
-    <unit id="5043891966437752386">
-      <notes>
-        <note category="location">src/app/explorer/farmer/farmer.component.ts:89,99</note>
-      </notes>
-      <segment>
-        <source>Launcher ID</source>
-      </segment>
-    </unit>
-    <unit id="760044993052786414">
-      <notes>
-        <note category="location">src/app/explorer/farmer/farmer.component.ts:139,147</note>
-      </notes>
-      <segment>
-        <source>Estimated Size </source>
-      </segment>
-    </unit>
-    <unit id="1774008180173753624">
-      <notes>
-        <note category="location">src/app/explorer/farmer/farmer.component.ts:141,142</note>
-      </notes>
-      <segment>
-        <source>Successful Partials</source>
-      </segment>
-    </unit>
-    <unit id="2756022432863940642">
-      <notes>
-        <note category="location">src/app/explorer/farmer/farmer.component.ts:147,148</note>
-      </notes>
-      <segment>
-        <source>Failed Partials</source>
-      </segment>
-    </unit>
     <unit id="Partials">
       <notes>
-        <note category="location">src/app/explorer/farmer/farmer.component.ts:164</note>
-        <note category="location">src/app/explorer/farmer/farmer.component.ts:164</note>
-        <note category="location">src/app/explorer/farmer/farmer.component.ts:164</note>
-        <note category="location">src/app/explorer/farmer/farmer.component.ts:164</note>
-        <note category="location">src/app/explorer/farmer/farmer.component.ts:164</note>
+        <note category="location">src/app/explorer/farmer/farmer.component.html:54,57</note>
+        <note category="location">src/app/explorer/farmer/farmer.component.html:107,111</note>
+        <note category="location">src/app/explorer/farmer/farmer.component.html:132,140</note>
+        <note category="location">src/app/explorer/farmer/farmer.component.html:147,151</note>
+        <note category="location">src/app/explorer/farmer/farmer.component.ts:163</note>
       </notes>
       <segment>
         <source>Partials</source>
       </segment>
     </unit>
-    <unit id="Warning">
-      <notes>
-        <note category="location">src/app/explorer/farmer/farmer.component.ts:164</note>
-      </notes>
-      <segment>
-        <source>Warning</source>
-      </segment>
-    </unit>
-    <unit id="4062617929041832221">
-      <notes>
-        <note category="location">src/app/explorer/farmer/farmer.component.ts:164</note>
-      </notes>
-      <segment>
-        <source>farmer doesn&apos;t exist, has left and/or has been removed.</source>
-      </segment>
-    </unit>
-    <unit id="2153109973251079314">
-      <notes>
-        <note category="location">src/app/explorer/farmer/farmer.component.ts:164</note>
-      </notes>
-      <segment>
-        <source>Learn how to set name here.</source>
-      </segment>
-    </unit>
     <unit id="Hrs24">
       <notes>
-        <note category="location">src/app/explorer/farmer/farmer.component.ts:164</note>
-        <note category="location">src/app/explorer/farmer/farmer.component.ts:164</note>
+        <note category="location">src/app/explorer/farmer/farmer.component.html:65,68</note>
+        <note category="location">src/app/explorer/farmer/farmer.component.html:86,90</note>
       </notes>
       <segment>
         <source>24 hours</source>
@@ -493,7 +414,7 @@
     </unit>
     <unit id="Successful">
       <notes>
-        <note category="location">src/app/explorer/farmer/farmer.component.ts:164</note>
+        <note category="location">src/app/explorer/farmer/farmer.component.html:96,102</note>
       </notes>
       <segment>
         <source>Successful</source>
@@ -501,7 +422,7 @@
     </unit>
     <unit id="Failed">
       <notes>
-        <note category="location">src/app/explorer/farmer/farmer.component.ts:164</note>
+        <note category="location">src/app/explorer/farmer/farmer.component.html:116,125</note>
       </notes>
       <segment>
         <source>Failed</source>
@@ -509,7 +430,7 @@
     </unit>
     <unit id="Performance">
       <notes>
-        <note category="location">src/app/explorer/farmer/farmer.component.ts:164</note>
+        <note category="location">src/app/explorer/farmer/farmer.component.html:155,157</note>
       </notes>
       <segment>
         <source>Performance</source>
@@ -517,7 +438,7 @@
     </unit>
     <unit id="Harversters">
       <notes>
-        <note category="location">src/app/explorer/farmer/farmer.component.ts:164</note>
+        <note category="location">src/app/explorer/farmer/farmer.component.html:160,164</note>
       </notes>
       <segment>
         <source>Harvesters</source>
@@ -525,7 +446,7 @@
     </unit>
     <unit id="Count">
       <notes>
-        <note category="location">src/app/explorer/farmer/farmer.component.ts:164</note>
+        <note category="location">src/app/explorer/farmer/farmer.component.html:166,173</note>
       </notes>
       <segment>
         <source>Count</source>
@@ -533,31 +454,23 @@
     </unit>
     <unit id="6930616437385085682">
       <notes>
-        <note category="location">src/app/explorer/farmer/farmer.component.ts:164</note>
+        <note category="location">src/app/explorer/farmer/farmer.component.html:183,188</note>
       </notes>
       <segment>
         <source>Partials</source>
       </segment>
     </unit>
-    <unit id="2669308838649487392">
+    <unit id="9059627454378411922">
       <notes>
-        <note category="location">src/app/explorer/farmer/farmer.component.ts:164</note>
+        <note category="location">src/app/explorer/farmer/farmer.component.html:195,200</note>
       </notes>
       <segment>
         <source>Show failed partials only</source>
       </segment>
     </unit>
-    <unit id="1063462873103909661">
-      <notes>
-        <note category="location">src/app/explorer/farmer/farmer.component.ts:164</note>
-      </notes>
-      <segment>
-        <source>Difficulty</source>
-      </segment>
-    </unit>
     <unit id="4894182895116318049">
       <notes>
-        <note category="location">src/app/explorer/farmer/farmer.component.ts:164</note>
+        <note category="location">src/app/explorer/farmer/farmer.component.html:236,243</note>
       </notes>
       <segment>
         <source>Harvester ID</source>
@@ -565,7 +478,7 @@
     </unit>
     <unit id="5911214550882917183">
       <notes>
-        <note category="location">src/app/explorer/farmer/farmer.component.ts:164</note>
+        <note category="location">src/app/explorer/farmer/farmer.component.html:243</note>
       </notes>
       <segment>
         <source>State</source>
@@ -573,7 +486,7 @@
     </unit>
     <unit id="7452975614303290488">
       <notes>
-        <note category="location">src/app/explorer/farmer/farmer.component.ts:164</note>
+        <note category="location">src/app/explorer/farmer/farmer.component.html:243</note>
       </notes>
       <segment>
         <source>No partials found!</source>
@@ -581,7 +494,7 @@
     </unit>
     <unit id="Transaction">
       <notes>
-        <note category="location">src/app/explorer/farmer/farmer.component.ts:164</note>
+        <note category="location">src/app/explorer/farmer/farmer.component.html:243</note>
         <note category="location">src/app/explorer/payout/payout.component.ts:32</note>
       </notes>
       <segment>
@@ -590,7 +503,7 @@
     </unit>
     <unit id="TransactionBlock">
       <notes>
-        <note category="location">src/app/explorer/farmer/farmer.component.ts:164</note>
+        <note category="location">src/app/explorer/farmer/farmer.component.html:243</note>
       </notes>
       <segment>
         <source>Transaction Block</source>
@@ -598,51 +511,212 @@
     </unit>
     <unit id="Height">
       <notes>
-        <note category="location">src/app/explorer/farmer/farmer.component.ts:164</note>
+        <note category="location">src/app/explorer/farmer/farmer.component.html:243</note>
       </notes>
       <segment>
         <source>Height</source>
       </segment>
     </unit>
-    <unit id="Date">
-      <notes>
-        <note category="location">src/app/explorer/farmer/farmer.component.ts:164</note>
-        <note category="location">src/app/explorer/payout/payout.component.ts:32</note>
-      </notes>
-      <segment>
-        <source>Date</source>
-      </segment>
-    </unit>
     <unit id="3900702001221590652">
       <notes>
-        <note category="location">src/app/explorer/farmer/farmer.component.ts:164</note>
+        <note category="location">src/app/explorer/farmer/farmer.component.html:243</note>
       </notes>
       <segment>
         <source>No blocks found by this farmer!</source>
       </segment>
     </unit>
-    <unit id="7780941567931401606">
+    <unit id="24036095495322476">
       <notes>
-        <note category="location">src/app/explorer/login/login.component.ts:42,53</note>
+        <note category="location">src/app/explorer/farmer/farmer.component.ts:15,16</note>
       </notes>
       <segment>
-        <source>Farmer Update</source>
+        <source>Last Partials (24 hours)</source>
       </segment>
     </unit>
-    <unit id="3768927257183755959">
+    <unit id="8497528947328199741">
       <notes>
-        <note category="location">src/app/explorer/login/login.component.ts:60,68</note>
+        <note category="location">src/app/explorer/farmer/farmer.component.ts:16,18</note>
+      </notes>
+      <segment>
+        <source>Time</source>
+      </segment>
+    </unit>
+    <unit id="2264932589847833892">
+      <notes>
+        <note category="location">src/app/explorer/farmer/farmer.component.ts:27,37</note>
+      </notes>
+      <segment>
+        <source>Farmer Details</source>
+      </segment>
+    </unit>
+    <unit id="6880713934119717799">
+      <notes>
+        <note category="location">src/app/explorer/farmer/farmer.component.ts:51,59</note>
+      </notes>
+      <segment>
+        <source>Friendly Name</source>
+      </segment>
+    </unit>
+    <unit id="5043891966437752386">
+      <notes>
+        <note category="location">src/app/explorer/farmer/farmer.component.ts:88,98</note>
+      </notes>
+      <segment>
+        <source>Launcher ID</source>
+      </segment>
+    </unit>
+    <unit id="760044993052786414">
+      <notes>
+        <note category="location">src/app/explorer/farmer/farmer.component.ts:138,146</note>
+      </notes>
+      <segment>
+        <source>Estimated Size </source>
+      </segment>
+    </unit>
+    <unit id="1774008180173753624">
+      <notes>
+        <note category="location">src/app/explorer/farmer/farmer.component.ts:140,141</note>
+      </notes>
+      <segment>
+        <source>Successful Partials</source>
+      </segment>
+    </unit>
+    <unit id="2756022432863940642">
+      <notes>
+        <note category="location">src/app/explorer/farmer/farmer.component.ts:146,147</note>
+      </notes>
+      <segment>
+        <source>Failed Partials</source>
+      </segment>
+    </unit>
+    <unit id="Joined">
+      <notes>
+        <note category="location">src/app/explorer/farmer/farmer.component.ts:163</note>
+      </notes>
+      <segment>
+        <source>Joined At</source>
+      </segment>
+    </unit>
+    <unit id="Warning">
+      <notes>
+        <note category="location">src/app/explorer/farmer/farmer.component.ts:163</note>
+      </notes>
+      <segment>
+        <source>Warning</source>
+      </segment>
+    </unit>
+    <unit id="4062617929041832221">
+      <notes>
+        <note category="location">src/app/explorer/farmer/farmer.component.ts:163</note>
+      </notes>
+      <segment>
+        <source>farmer doesn&apos;t exist, has left and/or has been removed.</source>
+      </segment>
+    </unit>
+    <unit id="2153109973251079314">
+      <notes>
+        <note category="location">src/app/explorer/farmer/farmer.component.ts:163</note>
+      </notes>
+      <segment>
+        <source>Learn how to set name here.</source>
+      </segment>
+    </unit>
+    <unit id="4591435416961869603">
+      <notes>
+        <note category="location">src/app/explorer/farmer/farmer.component.ts:163</note>
+      </notes>
+      <segment>
+        <source> (unknown) <pc id="0" equivStart="START_ITALIC_TEXT" equivEnd="CLOSE_ITALIC_TEXT" type="fmt" dispStart="&lt;i class=&quot;fas fa-info-circle&quot;
+                ngbTooltip=&quot;Unknown because this user arrived before the integration of this function in pool.&quot;&gt;" dispEnd="&lt;/i&gt;"></pc></source>
+      </segment>
+    </unit>
+    <unit id="Save">
+      <notes>
+        <note category="location">src/app/explorer/login/login.component.html:77,82</note>
       </notes>
       <segment>
         <source>Save</source>
       </segment>
     </unit>
+    <unit id="9050075434132831491">
+      <notes>
+        <note category="location">src/app/explorer/login/login.component.html:89,95</note>
+      </notes>
+      <segment>
+        <source>Referral Link</source>
+      </segment>
+    </unit>
+    <unit id="5493504549864464172">
+      <notes>
+        <note category="location">src/app/explorer/login/login.component.html:107</note>
+      </notes>
+      <segment>
+        <source>Use above link to refer people to this pool. They will be required to join the pool and login to the website to confirm the referral.</source>
+      </segment>
+    </unit>
+    <unit id="LauncherID">
+      <notes>
+        <note category="location">src/app/explorer/login/login.component.html:107</note>
+      </notes>
+      <segment>
+        <source>Launcher ID</source>
+      </segment>
+    </unit>
+    <unit id="Fee">
+      <notes>
+        <note category="location">src/app/explorer/login/login.component.html:107</note>
+        <note category="location">src/app/explorer/payout/payout.component.ts:32</note>
+      </notes>
+      <segment>
+        <source>Fee</source>
+      </segment>
+    </unit>
+    <unit id="TotalIncome">
+      <notes>
+        <note category="location">src/app/explorer/login/login.component.html:107</note>
+      </notes>
+      <segment>
+        <source>Total Income</source>
+      </segment>
+    </unit>
+    <unit id="4862418072620251283">
+      <notes>
+        <note category="location">src/app/explorer/login/login.component.html:107</note>
+      </notes>
+      <segment>
+        <source>No referrals found for this farmer!</source>
+      </segment>
+    </unit>
+    <unit id="3223637037001251732">
+      <notes>
+        <note category="location">src/app/explorer/login/login.component.ts:48,57</note>
+      </notes>
+      <segment>
+        <source>Farmer</source>
+      </segment>
+    </unit>
     <unit id="1783078519944991756">
       <notes>
-        <note category="location">src/app/explorer/login/login.component.ts:68</note>
+        <note category="location">src/app/explorer/login/login.component.ts:75,84</note>
       </notes>
       <segment>
         <source>Failed to authenticate! Check your URL and try again.</source>
+      </segment>
+    </unit>
+    <unit id="Details">
+      <notes>
+        <note category="location">src/app/explorer/login/login.component.ts:94,99</note>
+      </notes>
+      <segment>
+        <source>Details</source>
+      </segment>
+    </unit>
+    <unit id="Referrals">
+      <notes>
+        <note category="location">src/app/explorer/login/login.component.ts:111</note>
+      </notes>
+      <segment>
+        <source>Referrals <pc id="0" equivStart="START_TAG_SPAN" equivEnd="CLOSE_TAG_SPAN" type="other" dispStart="&lt;span class=&quot;beta&quot;&gt;" dispEnd="&lt;/span&gt;">BETA</pc></source>
       </segment>
     </unit>
     <unit id="6445111019676735745">
@@ -651,14 +725,6 @@
       </notes>
       <segment>
         <source>Payout</source>
-      </segment>
-    </unit>
-    <unit id="Fee">
-      <notes>
-        <note category="location">src/app/explorer/payout/payout.component.ts:32</note>
-      </notes>
-      <segment>
-        <source>Fee</source>
       </segment>
     </unit>
     <unit id="Blocks">
@@ -776,7 +842,6 @@
     <unit id="5012084291992448490">
       <notes>
         <note category="location">src/app/fees/fees.component.ts:16</note>
-        <note category="location">src/app/shared/navbar/navbar.component.ts:48</note>
       </notes>
       <segment>
         <source>Fees</source>
@@ -1089,28 +1154,28 @@
         <source>Distribution System: PPLNS</source>
       </segment>
     </unit>
-    <unit id="9201971930509716006">
+    <unit id="2469056745486120197">
       <notes>
         <note category="location">src/app/landing/landing.component.ts:46</note>
       </notes>
       <segment>
-        <source>Fee: 0%</source>
+        <source>Fee: 1%</source>
       </segment>
     </unit>
-    <unit id="5784227755295047072">
+    <unit id="3888743417810877091">
       <notes>
         <note category="location">src/app/landing/landing.component.ts:46</note>
       </notes>
       <segment>
-        <source>0% Fee</source>
+        <source>1% Fee</source>
       </segment>
     </unit>
-    <unit id="2041082387182328462">
+    <unit id="136762463398753526">
       <notes>
         <note category="location">src/app/landing/landing.component.ts:46</note>
       </notes>
       <segment>
-        <source>Enjoy 0% pool fee until October 2021.</source>
+        <source>Low fee with referral option.</source>
       </segment>
     </unit>
     <unit id="5880915392762070234">
@@ -1161,14 +1226,6 @@
         <source>We have nothing to hide. Full blown explorer and live logs.</source>
       </segment>
     </unit>
-    <unit id="841934696444961534">
-      <notes>
-        <note category="location">src/app/landing/landing.component.ts:46</note>
-      </notes>
-      <segment>
-        <source>News</source>
-      </segment>
-    </unit>
     <unit id="6741838149332998818">
       <notes>
         <note category="location">src/app/landing/landing.component.ts:46</note>
@@ -1217,9 +1274,18 @@
         <source>Software Engineer</source>
       </segment>
     </unit>
+    <unit id="1007625284753612149">
+      <notes>
+        <note category="location">src/app/landing/landing.component.ts:46</note>
+      </notes>
+      <segment>
+        <source>Frontend Developer</source>
+      </segment>
+    </unit>
     <unit id="Partners">
       <notes>
         <note category="location">src/app/partners/partners.component.ts:16</note>
+        <note category="location">src/app/shared/navbar/navbar.component.ts:48</note>
       </notes>
       <segment>
         <source>Partners</source>
@@ -1250,6 +1316,111 @@
         href=&quot;https://vivid-pool.info/&quot; target=&quot;_blank&quot;&gt;" dispEnd="&lt;/a&gt;">Vivid Pool</pc>.</source>
       </segment>
     </unit>
+    <unit id="Referral">
+      <notes>
+        <note category="location">src/app/referral/referral.component.ts:16</note>
+        <note category="location">src/app/shared/navbar/navbar.component.ts:48</note>
+      </notes>
+      <segment>
+        <source>Referral</source>
+      </segment>
+    </unit>
+    <unit id="Beta">
+      <notes>
+        <note category="location">src/app/referral/referral.component.ts:16</note>
+      </notes>
+      <segment>
+        <source>BETA</source>
+      </segment>
+    </unit>
+    <unit id="6609923537067370114">
+      <notes>
+        <note category="location">src/app/referral/referral.component.ts:16</note>
+      </notes>
+      <segment>
+        <source>Earn XCH by referring your friends to this pool!</source>
+      </segment>
+    </unit>
+    <unit id="879650116501482755">
+      <notes>
+        <note category="location">src/app/referral/referral.component.ts:16</note>
+      </notes>
+      <segment>
+        <source>How does it work?</source>
+      </segment>
+    </unit>
+    <unit id="7375935383488695163">
+      <notes>
+        <note category="location">src/app/referral/referral.component.ts:16</note>
+      </notes>
+      <segment>
+        <source>Refer your friends to this pool using the URL https://openchia.io?referrer=YOUR_LAUNCHER_ID. Replace YOUR_LAUNCHER_ID with the Launcher ID from your Plot NFT. </source>
+      </segment>
+    </unit>
+    <unit id="1401585310581586757">
+      <notes>
+        <note category="location">src/app/referral/referral.component.ts:16</note>
+      </notes>
+      <segment>
+        <source>Have your friend join the pool and login to the pool website using the Plot NFT login link. He will confirm you are his referrer. (Referrer is filled automatically if he visited the website with your link)</source>
+      </segment>
+    </unit>
+    <unit id="2261097846853869505">
+      <notes>
+        <note category="location">src/app/referral/referral.component.ts:16</note>
+      </notes>
+      <segment>
+        <source>You will receive 20% of the pool fee for every payment made to your friend. That value comes out of the pool and not from your friend reward!</source>
+      </segment>
+    </unit>
+    <unit id="5860197662083362352">
+      <notes>
+        <note category="location">src/app/referral/referral.component.ts:16</note>
+      </notes>
+      <segment>
+        <source>How do I check my referrals?</source>
+      </segment>
+    </unit>
+    <unit id="1921163817420022648">
+      <notes>
+        <note category="location">src/app/referral/referral.component.ts:16</note>
+      </notes>
+      <segment>
+        <source>Login to the pool website using your Plot NFT login link and go to the &quot;Referrals&quot; tab.</source>
+      </segment>
+    </unit>
+    <unit id="4645345687322304891">
+      <notes>
+        <note category="location">src/app/referral/referral.component.ts:16</note>
+      </notes>
+      <segment>
+        <source>Rules</source>
+      </segment>
+    </unit>
+    <unit id="5407189743553466183">
+      <notes>
+        <note category="location">src/app/referral/referral.component.ts:16</note>
+      </notes>
+      <segment>
+        <source>Use of good faith and don&apos;t refer yourself in any shape or form.</source>
+      </segment>
+    </unit>
+    <unit id="1718704299775385181">
+      <notes>
+        <note category="location">src/app/referral/referral.component.ts:16</note>
+      </notes>
+      <segment>
+        <source>Do not attempt close loop of referral. e.g. A -&gt; B -&gt; C -&gt; A.</source>
+      </segment>
+    </unit>
+    <unit id="1289545646802926160">
+      <notes>
+        <note category="location">src/app/referral/referral.component.ts:16</note>
+      </notes>
+      <segment>
+        <source>We reserve the right to change fees for new referrals at any time.</source>
+      </segment>
+    </unit>
     <unit id="4188492714860880995">
       <notes>
         <note category="location">src/app/shared/footer/footer.component.ts:21</note>
@@ -1264,6 +1435,14 @@
       </notes>
       <segment>
         <source>Let&apos;s get in touch on any of these platforms.</source>
+      </segment>
+    </unit>
+    <unit id="API">
+      <notes>
+        <note category="location">src/app/shared/footer/footer.component.ts:21</note>
+      </notes>
+      <segment>
+        <source>API</source>
       </segment>
     </unit>
     <unit id="Terms">
@@ -1290,9 +1469,9 @@
         <source>MIT License</source>
       </segment>
     </unit>
-    <unit id="2821179408673282599">
+    <unit id="Home">
       <notes>
-        <note category="location">src/app/shared/navbar/navbar.component.ts:22,26</note>
+        <note category="location">src/app/shared/navbar/navbar.component.ts:21,26</note>
       </notes>
       <segment>
         <source>Home</source>
@@ -1306,28 +1485,20 @@
         <source>Explorer</source>
       </segment>
     </unit>
-    <unit id="3687194426938367329">
+    <unit id="Fees">
       <notes>
         <note category="location">src/app/shared/navbar/navbar.component.ts:48</note>
       </notes>
       <segment>
-        <source>Partners</source>
+        <source>Fees</source>
       </segment>
     </unit>
-    <unit id="2806917038528218276">
+    <unit id="FAQ">
       <notes>
         <note category="location">src/app/shared/navbar/navbar.component.ts:48</note>
       </notes>
       <segment>
         <source>FAQ</source>
-      </segment>
-    </unit>
-    <unit id="8942351587754185907">
-      <notes>
-        <note category="location">src/app/shared/navbar/navbar.component.ts:48</note>
-      </notes>
-      <segment>
-        <source>API</source>
       </segment>
     </unit>
   </file>
