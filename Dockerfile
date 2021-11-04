@@ -18,7 +18,7 @@ RUN npm i
 RUN npm run build
 
 RUN mkdir -p /var/www/openchia
-RUN cp -a ./dist/ /var/www/openchia/
+RUN cp -a ./dist/static/* /var/www/openchia/
 
 COPY ./nginx/conf.d/ /etc/nginx/conf.d/
 COPY ./nginx/sites-enabled/ /etc/nginx/sites-enabled/
