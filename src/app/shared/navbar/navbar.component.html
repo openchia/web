@@ -95,6 +95,12 @@
             <span class="nav-link-inner--text" i18n="@@JoinPool">Join our pool</span>
           </a>
         </li>
+        <li class="nav-item d-none d-lg-block ml-lg-4">
+          <label class="switch">
+            <input type="checkbox" (click)="updateTheme()">
+            <span class="slider round" ngbTooltip="Enable or disable dark mode"></span>
+          </label>
+        </li>
         <li ngbDropdown class="nav-item dropdown">
           <a ngbDropdownToggle class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"
             aria-expanded="false" id="languageDropdown" role="button">
