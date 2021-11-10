@@ -118,6 +118,12 @@ export class DataService {
     return this.httpClient.get(`${this.REST_API_SERVER}loggedin`);
   }
 
+  getGiveaways(): Observable<any> {
+    var params = new HttpParams();
+    params.set('ordering', '-draw_datetime');
+    return this.httpClient.get(`${this.REST_API_SERVER}giveaway/round`, { params });
+  }
+
   get blocks$() { return this._blocks$.asObservable(); }
 
   get launchers$() { return this._launchers$.asObservable(); }
