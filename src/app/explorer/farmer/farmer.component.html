@@ -237,6 +237,67 @@
           </div>
         </ng-template>
       </li>
+      <!--
+      <li class="display-4" [ngbNavItem]="4">
+        <a ngbNavLink>Giveaways</a>
+        <ng-template ngbNavContent>
+          <table class="table table-sm table-striped table-responsive-lg">
+            <thead>
+              <tr>
+                <th scope="col">Draw Date</th>
+                <th scope="col">Winner</th>
+                <th scope="col">Amount</th>
+                <th scope="col">Tickets Issued</th>
+              </tr>
+            </thead>
+            <tbody >
+              <tr *ngFor="let giveaway of giveaways; let i = index">
+                <td>{{ giveaway.draw_datetime | date:"medium" }}</td>
+                <td>{{ giveaway.winner || "To be defined" }}</td>
+                <td>{{ giveaway.prize_amount / 1000000000000 }} XCH</td>
+                <td>{{ giveaway.issued_tickets }} (<a href="javascript:void();" (click)="openGiveaway(content)">Show
+                    mine</a>)</td>
+              </tr>
+              <tr *ngIf="giveaways.length == 0">
+                <td colspan="3" i18n>No giveaways available!</td>
+              </tr>
+            </tbody>
+          </table>
+          <ng-template #content let-modal>
+            <div class="modal-header">
+              <h4 class="modal-title">Tickets</h4>
+              <button type="button" class="close" aria-label="Close" (click)="modal.dismiss('Cross click')">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <table class="table table-sm table-striped table-responsive-lg">
+                <thead>
+                  <tr>
+                    <th scope="col">Date</th>
+                    <th scope="col">Estimated Size</th>
+                    <th scope="col">Tickets Issued</th>
+                  </tr>
+                </thead>
+                <tbody *ngFor="let ticket of (ticketsRound$ | async); let i = index">
+                  <tr>
+                    <td>{{ ticket.created_at | date:"short" }}</td>
+                    <td>{{ ticket.estimated_size | filesize:{"standard": "iec"} }}</td>
+                    <td>{{ ticket.number_tickets }}</td>
+                  </tr>
+                  <tr>
+                    <td colspan="3"><span *ngFor="let t of ticket.tickets">{{ t }} </span></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-light" (click)="modal.close('Close click')">Close</button>
+            </div>
+          </ng-template>
+        </ng-template>
+      </li>
+    -->
     </ul>
     <div [ngbNavOutlet]="nav" class="mt-2"></div>
   </div>

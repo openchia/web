@@ -67,7 +67,7 @@
         <tr>
           <td>0-100 TiB</td>
           <td>1 TiB</td>
-          <td>56.7TiB = 56 tickets</td>
+          <td>56.7TiB = 56 tickets/day</td>
         </tr>
         <tr>
           <td>100-200 TiB</td>
@@ -108,7 +108,10 @@
       </thead>
       <tbody>
         <tr
-          *ngFor="let partial of giveaways | slice: (giveawaysPage-1) * giveawaysPageSize : giveawaysPage * giveawaysPageSize">
+          *ngFor="let giveaway of giveaways | slice: (giveawaysPage-1) * giveawaysPageSize : giveawaysPage * giveawaysPageSize">
+          <td>{{ giveaway.draw_datetime | date:"full" }}</td>
+          <td></td>
+          <td></td>
         </tr>
         <tr *ngIf="giveaways.length == 0">
           <td colspan="4" i18n>No previous giveaways found!</td>

@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 import { HttpClient, HttpParams } from '@angular/common/http';
-import { BehaviorSubject, Observable, of, Subject } from 'rxjs';
+import { BehaviorSubject, Observable, of, Subject, Subscription } from 'rxjs';
 import { webSocket, WebSocketSubject } from "rxjs/webSocket";
 
 @Injectable({
@@ -10,10 +10,12 @@ export class DataService {
 
   private REST_API_SERVER = "/api/v1.0/";
   private _blocks$ = new BehaviorSubject<any[]>([]);
+  private _giveaways$ = new BehaviorSubject<any[]>([]);
   private _launchers$ = new Subject<any[]>();
   private _payouts$ = new BehaviorSubject<any[]>([]);
   private _payoutaddrs$ = new BehaviorSubject<any[]>([]);
   private _referrals$ = new BehaviorSubject<any[]>([]);
+  private _ticketsRound$ = new BehaviorSubject<any[]>([]);
   private _log$ = new BehaviorSubject<string>('');
   private socket$: WebSocketSubject<any>;
 
@@ -29,6 +31,14 @@ export class DataService {
     if(offset) params.push(`offset=${offset}`);
     return this.httpClient.get(this.REST_API_SERVER + 'block/?' + params.join('&')).subscribe(data => {
       this._blocks$.next(data['results']);
+    });
+  }
+
+  getGiveaways(): Subscription {
+    var params = new HttpParams();
+    params = params.set('ordering', '-draw_datetime');
+    return this.httpClient.get(`${this.REST_API_SERVER}giveaway/round`, { params }).subscribe(data => {
+      this._giveaways$.next(data['results']);
     });
   }
 
@@ -101,9 +111,24 @@ export class DataService {
   }
 
   getPartials(launcher, offset?) {
+    var params = new HttpParams();
     var timestamp = new Date().getTime();
     timestamp = Math.floor(timestamp / 1000) - 60 * 60 * 24;
-    return this.httpClient.get(this.REST_API_SERVER + 'partial/?ordering=-timestamp&min_timestamp=' + timestamp.toString() + '&launcher=' + launcher + '&offset=' + (offset || ''));
+    params = params.set('ordering', '-timestamp');
+    params = params.set('min_timestamp', timestamp.toString());
+    params = params.set('launcher', launcher);
+    params = params.set('offset', (offset || ''));
+    params = params.set('limit', 700);
+    return this.httpClient.get(`${this.REST_API_SERVER}partial/`, { params });
+  }
+
+  getTicketsRound(launcher?, giveaway?) {
+    var params = new HttpParams();
+    if(launcher) params = params.set('launcher', launcher);
+    if(giveaway) params = params.set('giveaway', giveaway);
+    return this.httpClient.get(`${this.REST_API_SERVER}giveaway/tickets/`, { params }).subscribe(data => {
+      this._ticketsRound$.next(data['results']);
+    });
   }
 
   getNext(url) {
@@ -111,20 +136,16 @@ export class DataService {
   }
 
   doLogin(params) {
-    return this.httpClient.post(this.REST_API_SERVER + 'login', params);
+    return this.httpClient.post(`${this.REST_API_SERVER}login`, params);
   }
 
   getLoggedIn() {
     return this.httpClient.get(`${this.REST_API_SERVER}loggedin`);
   }
 
-  getGiveaways(): Observable<any> {
-    var params = new HttpParams();
-    params.set('ordering', '-draw_datetime');
-    return this.httpClient.get(`${this.REST_API_SERVER}giveaway/round`, { params });
-  }
-
   get blocks$() { return this._blocks$.asObservable(); }
+
+  get giveaways$() { return this._giveaways$.asObservable(); }
 
   get launchers$() { return this._launchers$.asObservable(); }
 
@@ -135,6 +156,8 @@ export class DataService {
   get payoutaddrs$() { return this._payoutaddrs$.asObservable(); }
 
   get referrals$() { return this._referrals$.asObservable(); }
+
+  get ticketsRound$() { return this._ticketsRound$.asObservable(); }
 
   connectLog(msgCallback?) {
     var proto = (window.location.protocol == 'https:') ? 'wss://' : 'ws://';

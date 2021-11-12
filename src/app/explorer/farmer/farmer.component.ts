@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { Router, ActivatedRoute } from '@angular/router';
 import { DataService } from '../../data.service';
 import { Observable } from 'rxjs';
+import { NgbModal } from '@ng-bootstrap/ng-bootstrap';
 
 @Component({
   selector: 'app-farmer',
@@ -39,6 +40,10 @@ export class FarmerComponent implements OnInit {
   blocksPage: number = 1;
   blocksPageSize: number = 100;
 
+  giveaways$: Observable<any[]>;
+
+  ticketsRound$: Observable<any[]>;
+
   colorScheme = {
     domain: ['#129b00', '#e00000']
   };
@@ -46,14 +51,17 @@ export class FarmerComponent implements OnInit {
   private farmerid: string;
   public farmer: any = {};
 
-  constructor(private dataService: DataService, private route: ActivatedRoute,) {
+  constructor(private dataService: DataService, private route: ActivatedRoute, private modal: NgbModal) {
     this.blocks$ = dataService.blocks$;
+    this.giveaways$ = dataService.giveaways$;
     this.payoutaddrs$ = dataService.payoutaddrs$;
+    this.ticketsRound$ = dataService.ticketsRound$;
   }
 
   ngOnInit(): void {
     this.route.paramMap.subscribe(data => {
       this.farmerid = data['params']['id'];
+      //this.dataService.getGiveaways();
       this.dataService.getLauncher(this.farmerid).subscribe(launcher => {
         this.farmer = launcher;
         this.getPartialsData(this.farmerid);
@@ -94,11 +102,11 @@ export class FarmerComponent implements OnInit {
 
   }
 
-  refreshBlocks() {
+  refreshBlocks(): void {
     this.dataService.getBlocks(this.farmerid, (this.blocksPage - 1) * this.blocksPageSize);
   }
 
-  toggleFailedPartials(event) {
+  toggleFailedPartials(event): void {
     this.failedPartials = event.target.checked;
     this.filterPartials();
   }
@@ -157,6 +165,11 @@ export class FarmerComponent implements OnInit {
 
   partialsXAxisFormat(data) {
     return new Date(data * 1000).toLocaleTimeString();
+  }
+
+  openGiveaway(content, id) {
+    this.dataService.getTicketsRound(this.farmerid, id);
+    this.modal.open(content, { size: 'lg' });
   }
 
 }
