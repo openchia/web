@@ -237,7 +237,6 @@
           </div>
         </ng-template>
       </li>
-      <!--
       <li class="display-4" [ngbNavItem]="4">
         <a ngbNavLink>Giveaways</a>
         <ng-template ngbNavContent>
@@ -250,7 +249,7 @@
                 <th scope="col">Tickets Issued</th>
               </tr>
             </thead>
-            <tbody >
+            <tbody>
               <tr *ngFor="let giveaway of giveaways; let i = index">
                 <td>{{ giveaway.draw_datetime | date:"medium" }}</td>
                 <td>{{ giveaway.winner || "To be defined" }}</td>
@@ -297,7 +296,6 @@
           </ng-template>
         </ng-template>
       </li>
-    -->
     </ul>
     <div [ngbNavOutlet]="nav" class="mt-2"></div>
   </div>
