@@ -16,7 +16,7 @@
 <section class="section section-sm">
   <div class="container">
     <div class="col-lg-12">
-      <h1 i18n="@@Giveaway">Giveaway</h1>
+      <h1 i18n="@@Giveaway">Weekly Giveaway</h1>
       <div class="col-lg-12">
         <div class="row row-grid">
           <div class="col-lg-3 justify-content-center">
@@ -47,7 +47,7 @@
             <div class="card card-lift shadow border-0">
               <div class="card-body py-3 text-center text-uppercase">
                 <span class="text-primary" i18n="@@TicketsIssued">Tickets Issued</span><br />
-                <span>{{ current.issued_tickets }}</span>
+                <span>{{ current.issued_tickets || "0" }}</span>
               </div>
             </div>
           </div>
@@ -110,8 +110,8 @@
         <tr
           *ngFor="let giveaway of giveaways | slice: (giveawaysPage-1) * giveawaysPageSize : giveawaysPage * giveawaysPageSize">
           <td>{{ giveaway.draw_datetime | date:"full" }}</td>
-          <td></td>
-          <td></td>
+          <td>{{ giveaway.winner.launcher_id }}</td>
+          <td>{{ giveaway.prize_amount / 1000000000000 }}</td>
         </tr>
         <tr *ngIf="giveaways.length == 0">
           <td colspan="4" i18n>No previous giveaways found!</td>
