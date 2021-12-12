@@ -186,9 +186,9 @@
               <div class="row row-grid">
                 <div class="col-lg-4 justify-content-center">
                   <div class="card card-lift shadow border-0">
-                    <div *ngIf="payoutaddrs$ | async; let list" class="card-body py-3 text-center text-uppercase">
+                    <div *ngIf="payoutaddrs$ | async; let payoutaddrs" class="card-body py-3 text-center text-uppercase">
                       <span class="text-primary"><span i18n="">Total transaction(s)</span></span>
-                      <p class="display-3">{{ list.length }}</p>
+                      <p class="display-3">{{ payoutaddrs.length }}</p>
                     </div>
                   </div>
                 </div>
@@ -204,7 +204,10 @@
                   <div class="card card-lift shadow border-0">
                     <div *ngIf="(payoutaddrs$ | async) as payoutaddrs" class="card-body py-3 text-center text-uppercase">
                       <span class="text-primary"><span i18n="">Export CSV</span></span>
-                      <p class="display-3"><button class="btn btn-neutral btn-icon" (click)="payoutDownloadCSV(payoutaddrs)">Download</button></p>
+                      <p class="display-3">
+                        <button *ngIf="payoutaddrs.length>=1" class="btn btn-neutral btn-icon" (click)="payoutDownloadCSV(payoutaddrs)">Download</button>
+                        <button *ngIf="payoutaddrs.length==0" disabled class="btn btn-warning btn-icon" (click)="payoutDownloadCSV(payoutaddrs)">No payout</button>
+                      </p>
                     </div>
                   </div>
                 </div>
