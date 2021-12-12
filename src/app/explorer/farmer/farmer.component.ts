@@ -61,7 +61,7 @@ export class FarmerComponent implements OnInit {
   ngOnInit(): void {
     this.route.paramMap.subscribe(data => {
       this.farmerid = data['params']['id'];
-      //this.dataService.getGiveaways();
+      this.dataService.getGiveaways();
       this.dataService.getLauncher(this.farmerid).subscribe(launcher => {
         this.farmer = launcher;
         this.getPartialsData(this.farmerid);
