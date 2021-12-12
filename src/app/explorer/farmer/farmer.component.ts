@@ -3,6 +3,7 @@ import { Router, ActivatedRoute } from '@angular/router';
 import { DataService } from '../../data.service';
 import { Observable } from 'rxjs';
 import { NgbModal } from '@ng-bootstrap/ng-bootstrap';
+import { AngularCsv } from 'angular-csv-ext/dist/Angular-csv';
 
 @Component({
   selector: 'app-farmer',
@@ -34,6 +35,8 @@ export class FarmerComponent implements OnInit {
   payoutsCollectionSize: number = 0;
   payoutsPage: number = 1;
   payoutsPageSize: number = 100;
+  payoutsCountTotal: number = 0;
+  payoutsAmountTotal: number = 0;
 
   blocks$: Observable<any[]>;
   blocksCollectionSize: number = 0;
@@ -100,6 +103,29 @@ export class FarmerComponent implements OnInit {
       this.filterPartials();
     }
 
+  }
+
+  payoutGetTotalAmount(datas) {
+    let amount_array = [];
+    const out = Object.keys(datas).map(index => {
+      let data = datas[index];
+      amount_array.push(data['amount']);
+    });
+    return amount_array.reduce((a, b) => a + b, 0);
+  }
+
+  payoutDownloadCSV(datas) {
+    let csv_array = [];
+    const out = Object.keys(datas).map(index => {
+      let data = datas[index];
+      csv_array.push({
+        id: data['id'],
+        datetime: data['payout']['datetime'],
+        transaction: data['transaction'],
+        amount: data['amount'] / 1000000000000        
+      });
+    });
+    new AngularCsv(csv_array, 'payouts');
   }
 
   refreshBlocks(): void {
