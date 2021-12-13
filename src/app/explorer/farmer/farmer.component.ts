@@ -125,7 +125,10 @@ export class FarmerComponent implements OnInit {
         amount: data['amount'] / 1000000000000        
       });
     });
-    new AngularCsv(csv_array, 'payouts');
+    var options = {
+      headers: ["Id", "Datetime", "Transaction", "Amount"]
+    };
+    new AngularCsv(csv_array, 'payouts', options);
   }
 
   refreshBlocks(): void {
