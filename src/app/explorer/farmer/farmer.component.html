@@ -218,20 +218,22 @@
           <table class="table table-sm table-striped table-responsive-lg">
             <thead>
               <tr>
-                <th scope="col" i18n="@ID">ID</th>
-                <th scope="col" i18n="@@Transaction">Transaction</th>
+                <th scope="col" i18n="@@ID">ID</th>
                 <th scope="col" i18n="@@Date">Date</th>
-                <th scope="col" i18n="@@TransactionBlock">Transaction Block</th>
+                <th scope="col" i18n="@@Transaction">Transaction</th>
+                <th scope="col" i18n="@@Block">Block</th>
                 <th scope="col" i18n="@@Amount">Amount</th>
+                <th scope="col" i18n="@@Payout">Payout</th>
               </tr>
             </thead>
             <tbody *ngIf="(payoutaddrs$ | async) as payoutaddrs;">
               <tr *ngFor="let payoutaddr of payoutaddrs; let i = index">
                 <td>{{ payoutaddr.id }}</td>
-                <td>{{ payoutaddr.transaction }}</td>
                 <td>{{ payoutaddr.payout.datetime | date:"medium" }}</td>
+                <td>{{ payoutaddr.transaction }}</td>
                 <td>{{ payoutaddr.confirmed_block_index }}</td>
                 <td>{{ payoutaddr.amount / 1000000000000 }} XCH</td>
+                <td><a [routerLink]="['/explorer/payout', payoutaddr.payout.id]">{{ payoutaddr.payout.id }}</a></td>
               </tr>
               <tr *ngIf="payoutaddrs.length == 0">
                 <td colspan="5" i18n="@@NoPayouts">No payouts found!</td>
