@@ -36,19 +36,19 @@ server {
 
   rewrite ^/$ /$accept_language permanent;
 
-  rewrite ^/(landing||join|explorer|fees|partners|faq)$ /$accept_language/$1 permanent;
+  rewrite ^/(landing|join|explorer|fees|partners|faq|giveaway|referral|terms)$ /$accept_language/$1 permanent;
 
   location ~ /.*?/assets/.*\.(jpg|jpeg|png|gif|ico|css|js|woff2)$ {
     root /var/www/openchia;
     expires 365d;
   }
 
-  location ~ ^/(en|es|pt|de|fr|pl|zh-CN)(/explorer/farmer/[a-z0-9]+) {
+  location ~ ^/(cs|en|es|pt|de|fr|hu|pl|ru|sk|zh-CN)(/explorer/farmer/[a-z0-9]+) {
     root /var/www/openchia;
     try_files $uri /$1/explorer/index.html?$args;
   }
 
-  location ~ ^/(en|es|pt|de|fr|pl|zh-CN)(.*) {
+  location ~ ^/(cs|en|es|pt|de|fr|hu|pl|ru|sk|zh-CN)/(.*) {
     root /var/www/openchia;
     try_files $uri /$1/$2/index.html?$args;
   }
