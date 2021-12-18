@@ -14,8 +14,8 @@ export class FarmerComponent implements OnInit {
 
   tabActive = 1;
 
-  yAxisLabel: string = $localize`Last Partials (24 hours)`;
-  xAxisLabel: string = $localize`Time`;
+  partialsYAxisLabel: string = $localize`Last Partials (24 hours)`;
+  partialsXAxisLabel: string = $localize`Time`;
 
   partialsData: any[] = null;
   partialsXTicks: any[] = [];
