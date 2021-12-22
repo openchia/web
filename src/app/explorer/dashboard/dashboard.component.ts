@@ -48,7 +48,6 @@ export class DashboardComponent implements OnInit, AfterViewInit {
   blocksPageSize: number = 10;
 
   constructor(private dataService: DataService, private router: Router) {
-    //this.blocks$ = dataService.blocks$;
     this.blocks$ = this._blocks$.asObservable();
     this.launchers$ = this._launchers$.asObservable();
     this.log$ = dataService.log$;

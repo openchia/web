@@ -34,7 +34,7 @@ export class FarmerComponent implements OnInit {
   payoutaddrs$: Observable<any[]>;
   payoutsCollectionSize: number = 0;
   payoutsPage: number = 1;
-  payoutsPageSize: number = 2;
+  payoutsPageSize: number = 10;
   payoutsCountTotal: number = 0;
   payoutsAmountTotal: number = 0;
 
@@ -42,7 +42,7 @@ export class FarmerComponent implements OnInit {
   _blocks$: Subject<any[]> = new Subject<any[]>();
   blocksCollectionSize: number = 0;
   blocksPage: number = 1;
-  blocksPageSize: number = 3;
+  blocksPageSize: number = 10;
 
   giveaways$: Observable<any[]>;
 
@@ -56,7 +56,6 @@ export class FarmerComponent implements OnInit {
   public farmer: any = {};
 
   constructor(private dataService: DataService, private route: ActivatedRoute, private modal: NgbModal) {
-    //this.blocks$ = dataService.blocks$;
     this.blocks$ = this._blocks$.asObservable();
     this.giveaways$ = dataService.giveaways$;
     this.payoutaddrs$ = dataService.payoutaddrs$;
