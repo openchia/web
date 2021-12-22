@@ -268,7 +268,11 @@
             </thead>
             <tbody *ngIf="(blocks$ | async) as blocks;">
               <tr *ngFor="let block of blocks; let i = index">
-                <td>{{ block.confirmed_block_index }}</td>
+                <td>
+                  <a href="https://xchscan.com/blocks/{{ block.farmed_height }}" target="_blank">
+                    {{ block.farmed_height }}
+                  </a>
+                </td>
                 <td>{{ block.timestamp * 1000 | date:"medium" }}</td>
                 <td>
                   <span *ngIf="block.luck == -1" i18n="@@Unknown">Unknown</span>
