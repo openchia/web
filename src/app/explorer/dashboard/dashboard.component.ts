@@ -30,6 +30,7 @@ export class DashboardComponent implements OnInit, AfterViewInit {
   searchNotFound: boolean = false;
 
   blocks$: Observable<any[]>;
+  _blocks$: Subject<any[]> = new Subject<any[]>();
   launchers$: Observable<any[]>;
   _launchers$: Subject<any[]> = new Subject<any[]>();
   log$: Observable<string>;
@@ -42,8 +43,13 @@ export class DashboardComponent implements OnInit, AfterViewInit {
   farmersPage: number = 1;
   farmersPageSize: number = 30;
 
+  blocksCollectionSize: number = 0;
+  blocksPage: number = 1;
+  blocksPageSize: number = 10;
+
   constructor(private dataService: DataService, private router: Router) {
-    this.blocks$ = dataService.blocks$;
+    //this.blocks$ = dataService.blocks$;
+    this.blocks$ = this._blocks$.asObservable();
     this.launchers$ = this._launchers$.asObservable();
     this.log$ = dataService.log$;
     this.payouts$ = dataService.payouts$;
@@ -70,13 +76,13 @@ export class DashboardComponent implements OnInit, AfterViewInit {
       this.xch_tb_month = data['xch_tb_month'];
       this.average_effort = data['average_effort'];
     });
-    this.dataService.getBlocks();
+
+    this.dataService.getBlocks({ limit: this.blocksPageSize }).subscribe(this.handleBlocks.bind(this));
     this.dataService.getLaunchers({ limit: this.farmersPageSize }).subscribe(this.handleLaunchers.bind(this));
     this.dataService.getPayouts();
-
     this.dataService.connectLog();
-    this.searchSubscription = this.launchers$.subscribe((data) => { this._handleSearch(data); });
 
+    this.searchSubscription = this.launchers$.subscribe((data) => { this._handleSearch(data); });
   }
 
   private secondsToHm(d: number) {
@@ -106,6 +112,11 @@ export class DashboardComponent implements OnInit, AfterViewInit {
     this._launchers$.next(data['results']);
   }
 
+  private handleBlocks(data) {
+    this.blocksCollectionSize = data['count'];
+    this._blocks$.next(data['results']);
+  }
+
   searchFarmer() {
     this.searchNotFound = false;
     this.farmersPage = 1;
@@ -114,6 +125,10 @@ export class DashboardComponent implements OnInit, AfterViewInit {
 
   refreshFarmers() {
     this.dataService.getLaunchers({ search: this.searchInput.nativeElement.value, offset: (this.farmersPage - 1) * this.farmersPageSize, limit: this.farmersPageSize }).subscribe(this.handleLaunchers.bind(this));
+  }
+
+  refreshBlocks() {
+    this.dataService.getBlocks({ offset: (this.blocksPage - 1) * this.blocksPageSize, limit: this.blocksPageSize }).subscribe(this.handleBlocks.bind(this));
   }
 
   ngOnDestroy() {

@@ -247,8 +247,9 @@
           </div>
         </ng-template>
       </li>
-      <li class="display-4" [ngbNavItem]="3">
-        <a ngbNavLink>Blocks</a>
+
+      <li class="display-4" [ngbNavItem]="3" (click)="refreshBlocks()">
+        <a ngbNavLink >Blocks</a>
         <ng-template ngbNavContent>
           <table class="table table-sm table-striped table-responsive-lg">
             <thead>
@@ -294,6 +295,7 @@
           </div>
         </ng-template>
       </li>
+
       <li class="display-4" [ngbNavItem]="4">
         <a ngbNavLink>Giveaways</a>
         <ng-template ngbNavContent>
@@ -354,6 +356,7 @@
           </ng-template>
         </ng-template>
       </li>
+
     </ul>
     <div [ngbNavOutlet]="nav" class="mt-2"></div>
   </div>

@@ -25,13 +25,14 @@ export class DataService {
     return this.httpClient.get(this.REST_API_SERVER + 'stats');
   }
 
-  getBlocks(launcher?, offset?) {
-    var params = [];
-    if(launcher) params.push(`farmed_by=${launcher}`);
-    if(offset) params.push(`offset=${offset}`);
-    return this.httpClient.get(this.REST_API_SERVER + 'block/?' + params.join('&')).subscribe(data => {
-      this._blocks$.next(data['results']);
-    });
+  getBlocks(attrs) {
+    var params = new HttpParams();
+    if(attrs) {
+      if(attrs.launcher) params = params.set('farmed_by', attrs.launcher);
+      if(attrs.limit) params = params.set('limit', attrs.limit);
+      if(attrs.offset) params = params.set('offset', attrs.offset);
+    }
+    return this.httpClient.get(`${this.REST_API_SERVER}block/`, { params });
   }
 
   getGiveaways(): Subscription {

@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Router, ActivatedRoute } from '@angular/router';
 import { DataService } from '../../data.service';
-import { Observable } from 'rxjs';
+import { Observable, Subject } from 'rxjs';
 import { NgbModal } from '@ng-bootstrap/ng-bootstrap';
 import { AngularCsv } from 'angular-csv-ext/dist/Angular-csv';
 
@@ -23,7 +23,7 @@ export class FarmerComponent implements OnInit {
   partialsFiltered: any[] = [];
   partialsCollectionSize: number = 0;
   partialsPage: number = 1;
-  partialsPageSize: number = 100;
+  partialsPageSize: number = 10;
   partialsSuccessful: number = 0;
   partialsFailed: number = 0;
   partialsPoints: number = 0;
@@ -34,14 +34,15 @@ export class FarmerComponent implements OnInit {
   payoutaddrs$: Observable<any[]>;
   payoutsCollectionSize: number = 0;
   payoutsPage: number = 1;
-  payoutsPageSize: number = 100;
+  payoutsPageSize: number = 2;
   payoutsCountTotal: number = 0;
   payoutsAmountTotal: number = 0;
 
   blocks$: Observable<any[]>;
+  _blocks$: Subject<any[]> = new Subject<any[]>();
   blocksCollectionSize: number = 0;
   blocksPage: number = 1;
-  blocksPageSize: number = 100;
+  blocksPageSize: number = 3;
 
   giveaways$: Observable<any[]>;
 
@@ -55,7 +56,8 @@ export class FarmerComponent implements OnInit {
   public farmer: any = {};
 
   constructor(private dataService: DataService, private route: ActivatedRoute, private modal: NgbModal) {
-    this.blocks$ = dataService.blocks$;
+    //this.blocks$ = dataService.blocks$;
+    this.blocks$ = this._blocks$.asObservable();
     this.giveaways$ = dataService.giveaways$;
     this.payoutaddrs$ = dataService.payoutaddrs$;
     this.ticketsRound$ = dataService.ticketsRound$;
@@ -69,9 +71,9 @@ export class FarmerComponent implements OnInit {
         this.farmer = launcher;
         this.getPartialsData(this.farmerid);
         this.dataService.getPayoutAddrs({ launcher: this.farmerid });
-        this.dataService.getBlocks(this.farmerid);
       });
     });
+    this.dataService.getBlocks({ launcher: this.farmerid, limit: this.blocksPageSize }).subscribe(this.handleBlocks.bind(this));
   }
 
   _handlePartial(subscriber, data, successes, errors, hours) {
@@ -131,8 +133,17 @@ export class FarmerComponent implements OnInit {
     new AngularCsv(csv_array, 'payouts', options);
   }
 
-  refreshBlocks(): void {
-    this.dataService.getBlocks(this.farmerid, (this.blocksPage - 1) * this.blocksPageSize);
+  private handleBlocks(data) {
+    this.blocksCollectionSize = data['count'];
+    this._blocks$.next(data['results']);
+  }
+
+  refreshBlocks() {
+    this.dataService.getBlocks({
+      launcher: this.farmerid,
+      offset: (this.blocksPage - 1) * this.blocksPageSize,
+      limit: this.blocksPageSize
+    }).subscribe(this.handleBlocks.bind(this));
   }
 
   toggleFailedPartials(event): void {
