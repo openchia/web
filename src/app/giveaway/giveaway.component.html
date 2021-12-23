@@ -57,7 +57,7 @@
     <br />
     <p>All farmers participating in our pool are automatically eligible in our giveaway!</p>
     <p>Every day farmers will be issued tickets based on their estimated farm size.</p>
-    <table class="col-lg-8 table table-sm table-striped table-responsive-lg">
+    <table class="col-lg-12 table table-sm table-striped table-responsive-lg">
       <thead>
         <th>Tier</th>
         <th>Ticket Each</th>
@@ -110,11 +110,14 @@
         <tr
           *ngFor="let giveaway of giveaways | slice: (giveawaysPage-1) * giveawaysPageSize : giveawaysPage * giveawaysPageSize">
           <td>{{ giveaway.draw_datetime | date:"full" }}</td>
-          <td>{{ giveaway.winner.launcher_id }}</td>
-          <td>{{ giveaway.prize_amount / 1000000000000 }}</td>
+          <td *ngIf="giveaway.winner">
+            <a [routerLink]="['/explorer/farmer', giveaway.winner.launcher_id]">{{ giveaway.winner.launcher_id }}</a> ({{ giveaway.winner.name }})
+          </td>
+          <td *ngIf="!giveaway.winner">?</td>
+          <td>{{ giveaway.prize_amount / 1000000000000 }} XCH</td>
         </tr>
         <tr *ngIf="giveaways.length == 0">
-          <td colspan="4" i18n>No previous giveaways found!</td>
+          <td colspan="3" i18n>No previous giveaways found!</td>
         </tr>
       </tbody>
     </table>
