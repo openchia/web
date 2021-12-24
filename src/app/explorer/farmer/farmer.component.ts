@@ -23,7 +23,7 @@ export class FarmerComponent implements OnInit {
   partialsFiltered: any[] = [];
   partialsCollectionSize: number = 0;
   partialsPage: number = 1;
-  partialsPageSize: number = 10;
+  partialsPageSize: number = 100;
   partialsSuccessful: number = 0;
   partialsFailed: number = 0;
   partialsPoints: number = 0;
