@@ -61,7 +61,7 @@ export class DataService {
       if(attrs.limit) params = params.set('limit', attrs.limit);
       if(attrs.offset) params = params.set('offset', attrs.offset);
     }
-    return this.httpClient.get(`${this.REST_API_SERVER}/payout/`, { params });
+    return this.httpClient.get(`${this.REST_API_SERVER}payout/`, { params });
   }
 
   getPayoutAddrs(attrs: any, offset?) {
