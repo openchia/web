@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Router, ActivatedRoute } from '@angular/router';
 import { DataService } from '../../data.service';
-import { Observable, Subject } from 'rxjs';
+import { Observable, BehaviorSubject } from 'rxjs';
 import { NgbModal } from '@ng-bootstrap/ng-bootstrap';
 import { AngularCsv } from 'angular-csv-ext/dist/Angular-csv';
 
@@ -39,7 +39,7 @@ export class FarmerComponent implements OnInit {
   payoutsAmountTotal: number = 0;
 
   blocks$: Observable<any[]>;
-  _blocks$: Subject<any[]> = new Subject<any[]>();
+  _blocks$ = new BehaviorSubject<any[]>([]);
   blocksCollectionSize: number = 0;
   blocksPage: number = 1;
   blocksPageSize: number = 10;
@@ -66,13 +66,13 @@ export class FarmerComponent implements OnInit {
     this.route.paramMap.subscribe(data => {
       this.farmerid = data['params']['id'];
       this.dataService.getGiveaways();
+      this.refreshBlocks();
       this.dataService.getLauncher(this.farmerid).subscribe(launcher => {
         this.farmer = launcher;
         this.getPartialsData(this.farmerid);
         this.dataService.getPayoutAddrs({ launcher: this.farmerid });
       });
     });
-    this.dataService.getBlocks({ launcher: this.farmerid, limit: this.blocksPageSize }).subscribe(this.handleBlocks.bind(this));
   }
 
   _handlePartial(subscriber, data, successes, errors, hours) {
@@ -123,7 +123,7 @@ export class FarmerComponent implements OnInit {
         id: data['id'],
         datetime: data['payout']['datetime'],
         transaction: data['transaction'],
-        amount: data['amount'] / 1000000000000        
+        amount: data['amount'] / 1000000000000
       });
     });
     var options = {
@@ -142,7 +142,7 @@ export class FarmerComponent implements OnInit {
       launcher: this.farmerid,
       offset: (this.blocksPage - 1) * this.blocksPageSize,
       limit: this.blocksPageSize
-    }).subscribe(this.handleBlocks.bind(this));
+    }).subscribe(data => this.handleBlocks(data));
   }
 
   toggleFailedPartials(event): void {
