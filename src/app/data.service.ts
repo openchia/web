@@ -54,13 +54,14 @@ export class DataService {
     return this.httpClient.get(`${this.REST_API_SERVER}launcher/`, { params });
   }
 
-  getPayouts(launcher?, offset?) {
-    var params = [];
-    if(launcher) params.push(`launcher=${launcher}`);
-    if(offset) params.push(`offset=${offset}`);
-    return this.httpClient.get(this.REST_API_SERVER + 'payout/?' + params.join('&')).subscribe(data => {
-      this._payouts$.next(data['results']);
-    });
+  getPayouts(attrs) {
+    var params = new HttpParams();
+    if(attrs) {
+      if(attrs.launcher) params = params.set('launcher', attrs.launcher);
+      if(attrs.limit) params = params.set('limit', attrs.limit);
+      if(attrs.offset) params = params.set('offset', attrs.offset);
+    }
+    return this.httpClient.get(`${this.REST_API_SERVER}/payout/`, { params });
   }
 
   getPayoutAddrs(attrs: any, offset?) {
