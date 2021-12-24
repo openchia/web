@@ -35,6 +35,7 @@ export class DashboardComponent implements OnInit, AfterViewInit {
   _launchers$: Subject<any[]> = new Subject<any[]>();
   log$: Observable<string>;
   payouts$: Observable<any[]>;
+  _payouts$: Subject<any[]> = new Subject<any[]>();
   searchSubscription: Subscription;
 
   leaderboard: Array<any> = new Array();
@@ -47,11 +48,15 @@ export class DashboardComponent implements OnInit, AfterViewInit {
   blocksPage: number = 1;
   blocksPageSize: number = 10;
 
+  payoutsCollectionSize: number = 0;
+  payoutsPage: number = 1;
+  payoutsPageSize: number = 10;
+
   constructor(private dataService: DataService, private router: Router) {
     this.blocks$ = this._blocks$.asObservable();
     this.launchers$ = this._launchers$.asObservable();
+    this.payouts$ = this._payouts$.asObservable();
     this.log$ = dataService.log$;
-    this.payouts$ = dataService.payouts$;
   }
 
   ngAfterViewInit() {
@@ -78,7 +83,7 @@ export class DashboardComponent implements OnInit, AfterViewInit {
 
     this.dataService.getBlocks({ limit: this.blocksPageSize }).subscribe(this.handleBlocks.bind(this));
     this.dataService.getLaunchers({ limit: this.farmersPageSize }).subscribe(this.handleLaunchers.bind(this));
-    this.dataService.getPayouts();
+    this.dataService.getPayouts({ limit: this.payoutsPageSize }).subscribe(this.handlePayouts.bind(this));
     this.dataService.connectLog();
 
     this.searchSubscription = this.launchers$.subscribe((data) => { this._handleSearch(data); });
@@ -116,6 +121,11 @@ export class DashboardComponent implements OnInit, AfterViewInit {
     this._blocks$.next(data['results']);
   }
 
+  private handlePayouts(data) {
+    this.payoutsCollectionSize = data['count'];
+    this._payouts$.next(data['results']);
+  }
+
   searchFarmer() {
     this.searchNotFound = false;
     this.farmersPage = 1;
@@ -128,6 +138,10 @@ export class DashboardComponent implements OnInit, AfterViewInit {
 
   refreshBlocks() {
     this.dataService.getBlocks({ offset: (this.blocksPage - 1) * this.blocksPageSize, limit: this.blocksPageSize }).subscribe(this.handleBlocks.bind(this));
+  }
+
+  refreshPayouts() {
+    this.dataService.getPayouts({ offset: (this.payoutsPage - 1) * this.payoutsPageSize, limit: this.payoutsPageSize }).subscribe(this.handlePayouts.bind(this));
   }
 
   ngOnDestroy() {

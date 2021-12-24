@@ -258,6 +258,9 @@
         </tr>
       </tbody>
     </table>
+    <ngb-pagination [collectionSize]="payoutsCollectionSize" [(page)]="payoutsPage" [pageSize]="payoutsPageSize"
+      (pageChange)="refreshPayouts()">
+    </ngb-pagination>
   </div>
 </section>
 
