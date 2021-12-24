@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Router, ActivatedRoute } from '@angular/router';
 import { DataService } from '../../data.service';
-import { Observable } from 'rxjs';
+import { Observable, BehaviorSubject } from 'rxjs';
 import { NgbModal } from '@ng-bootstrap/ng-bootstrap';
 import { AngularCsv } from 'angular-csv-ext/dist/Angular-csv';
 
@@ -34,14 +34,15 @@ export class FarmerComponent implements OnInit {
   payoutaddrs$: Observable<any[]>;
   payoutsCollectionSize: number = 0;
   payoutsPage: number = 1;
-  payoutsPageSize: number = 100;
+  payoutsPageSize: number = 10;
   payoutsCountTotal: number = 0;
   payoutsAmountTotal: number = 0;
 
   blocks$: Observable<any[]>;
+  _blocks$ = new BehaviorSubject<any[]>([]);
   blocksCollectionSize: number = 0;
   blocksPage: number = 1;
-  blocksPageSize: number = 100;
+  blocksPageSize: number = 10;
 
   giveaways$: Observable<any[]>;
 
@@ -55,7 +56,7 @@ export class FarmerComponent implements OnInit {
   public farmer: any = {};
 
   constructor(private dataService: DataService, private route: ActivatedRoute, private modal: NgbModal) {
-    this.blocks$ = dataService.blocks$;
+    this.blocks$ = this._blocks$.asObservable();
     this.giveaways$ = dataService.giveaways$;
     this.payoutaddrs$ = dataService.payoutaddrs$;
     this.ticketsRound$ = dataService.ticketsRound$;
@@ -65,11 +66,11 @@ export class FarmerComponent implements OnInit {
     this.route.paramMap.subscribe(data => {
       this.farmerid = data['params']['id'];
       this.dataService.getGiveaways();
+      this.refreshBlocks();
       this.dataService.getLauncher(this.farmerid).subscribe(launcher => {
         this.farmer = launcher;
         this.getPartialsData(this.farmerid);
         this.dataService.getPayoutAddrs({ launcher: this.farmerid });
-        this.dataService.getBlocks(this.farmerid);
       });
     });
   }
@@ -122,7 +123,7 @@ export class FarmerComponent implements OnInit {
         id: data['id'],
         datetime: data['payout']['datetime'],
         transaction: data['transaction'],
-        amount: data['amount'] / 1000000000000        
+        amount: data['amount'] / 1000000000000
       });
     });
     var options = {
@@ -131,8 +132,17 @@ export class FarmerComponent implements OnInit {
     new AngularCsv(csv_array, 'payouts', options);
   }
 
-  refreshBlocks(): void {
-    this.dataService.getBlocks(this.farmerid, (this.blocksPage - 1) * this.blocksPageSize);
+  private handleBlocks(data) {
+    this.blocksCollectionSize = data['count'];
+    this._blocks$.next(data['results']);
+  }
+
+  refreshBlocks() {
+    this.dataService.getBlocks({
+      launcher: this.farmerid,
+      offset: (this.blocksPage - 1) * this.blocksPageSize,
+      limit: this.blocksPageSize
+    }).subscribe(data => this.handleBlocks(data));
   }
 
   toggleFailedPartials(event): void {

@@ -229,6 +229,9 @@
         </tr>
       </tbody>
     </table>
+    <ngb-pagination [collectionSize]="blocksCollectionSize" [(page)]="blocksPage" [pageSize]="blocksPageSize"
+      (pageChange)="refreshBlocks()">
+    </ngb-pagination>
   </div>
 </section>
 

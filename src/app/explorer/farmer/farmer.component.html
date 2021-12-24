@@ -53,9 +53,9 @@
         <ng-template ngbNavContent>
           <div class="row justify-content-center">
             <ngx-charts-area-chart [scheme]="colorScheme" [legend]="false" [showXAxisLabel]="false"
-              [showYAxisLabel]="true" [xAxis]="true" [yAxis]="true" [xAxisLabel]="partialsXAxisLabel" [yAxisLabel]="partialsYAxisLabel"
-              [timeline]="false" [results]="partialsData" [xAxisTickFormatting]="partialsXAxisFormat"
-              [xAxisTicks]="partialsXTicks">
+              [showYAxisLabel]="true" [xAxis]="true" [yAxis]="true" [xAxisLabel]="partialsXAxisLabel"
+              [yAxisLabel]="partialsYAxisLabel" [timeline]="false" [results]="partialsData"
+              [xAxisTickFormatting]="partialsXAxisFormat" [xAxisTicks]="partialsXTicks">
             </ngx-charts-area-chart>
           </div>
           <br />
@@ -180,13 +180,14 @@
       <li class="display-4" [ngbNavItem]="2">
         <a ngbNavLink>Payouts</a>
         <ng-template ngbNavContent>
-          <br/>
+          <br />
           <div class="row justify-content-center">
             <div class="col-lg-12">
               <div class="row row-grid">
                 <div class="col-lg-4 justify-content-center">
                   <div class="card card-lift shadow border-0">
-                    <div *ngIf="payoutaddrs$ | async; let payoutaddrs" class="card-body py-3 text-center text-uppercase">
+                    <div *ngIf="payoutaddrs$ | async; let payoutaddrs"
+                      class="card-body py-3 text-center text-uppercase">
                       <span class="text-primary"><span i18n="">Total transaction(s)</span></span>
                       <p class="display-3">{{ payoutaddrs.length }}</p>
                     </div>
@@ -194,19 +195,24 @@
                 </div>
                 <div class="col-lg-4 justify-content-center">
                   <div class="card card-lift shadow border-0">
-                    <div *ngIf="(payoutaddrs$ | async) as payoutaddrs" class="card-body py-3 text-center text-uppercase">
+                    <div *ngIf="(payoutaddrs$ | async) as payoutaddrs"
+                      class="card-body py-3 text-center text-uppercase">
                       <span class="text-primary"><span i18n="">Total payout(s)</span></span>
-                      <p class="display-3">{{ payoutGetTotalAmount(payoutaddrs) / 1000000000000 | number:'1.8' }} XCH</p>
+                      <p class="display-3">{{ payoutGetTotalAmount(payoutaddrs) / 1000000000000 | number:'1.8' }} XCH
+                      </p>
                     </div>
                   </div>
                 </div>
                 <div class="col-lg-4 justify-content-center">
                   <div class="card card-lift shadow border-0">
-                    <div *ngIf="(payoutaddrs$ | async) as payoutaddrs" class="card-body py-3 text-center text-uppercase">
+                    <div *ngIf="(payoutaddrs$ | async) as payoutaddrs"
+                      class="card-body py-3 text-center text-uppercase">
                       <span class="text-primary"><span i18n="">Export CSV</span></span>
                       <p class="display-3">
-                        <button *ngIf="payoutaddrs.length>=1" class="btn btn-neutral btn-icon" (click)="payoutDownloadCSV(payoutaddrs)">Download</button>
-                        <button *ngIf="payoutaddrs.length==0" disabled class="btn btn-warning btn-icon" (click)="payoutDownloadCSV(payoutaddrs)">No payout</button>
+                        <button *ngIf="payoutaddrs.length>=1" class="btn btn-neutral btn-icon"
+                          (click)="payoutDownloadCSV(payoutaddrs)">Download</button>
+                        <button *ngIf="payoutaddrs.length==0" disabled class="btn btn-warning btn-icon"
+                          (click)="payoutDownloadCSV(payoutaddrs)">No payout</button>
                       </p>
                     </div>
                   </div>
@@ -214,7 +220,7 @@
               </div>
             </div>
           </div>
-          <br/>
+          <br />
           <table class="table table-sm table-striped table-responsive-lg">
             <thead>
               <tr>
@@ -247,6 +253,7 @@
           </div>
         </ng-template>
       </li>
+
       <li class="display-4" [ngbNavItem]="3">
         <a ngbNavLink>Blocks</a>
         <ng-template ngbNavContent>
@@ -257,8 +264,10 @@
                 <th scope="col" i18n="@@Date">Date</th>
                 <th scope="col"><span i18n="@@Effort">Effort</span>
                   <ng-template #effortTooltip>
-                    <span i18n>The effort that was required to farm the block. 100% is the expected estimated time to win.
-                      Lower than 100% means we farmed the block before the estimation. Higher than 100% means we took longer
+                    <span i18n>The effort that was required to farm the block. 100% is the expected estimated time to
+                      win.
+                      Lower than 100% means we farmed the block before the estimation. Higher than 100% means we took
+                      longer
                       than anticipated.</span>
                   </ng-template>
                   &nbsp;<i class="fas fa-info-circle" closeDelay="4000" [ngbTooltip]="effortTooltip"></i>
@@ -294,6 +303,7 @@
           </div>
         </ng-template>
       </li>
+
       <li class="display-4" [ngbNavItem]="4">
         <a ngbNavLink>Giveaways</a>
         <ng-template ngbNavContent>
@@ -309,10 +319,12 @@
             <tbody *ngIf="(giveaways$ | async) as giveaways;">
               <tr *ngFor="let giveaway of giveaways; let i = index">
                 <td>{{ giveaway.draw_datetime | date:"medium" }}</td>
-                <td *ngIf="giveaway.winner"><a [routerLink]="['/explorer/farmer', giveaway.winner.launcher_id]">{{ giveaway.winner.name }}</a></td>
+                <td *ngIf="giveaway.winner"><a [routerLink]="['/explorer/farmer', giveaway.winner.launcher_id]">{{
+                    giveaway.winner.name }}</a></td>
                 <td *ngIf="!giveaway.winner">?</td>
                 <td>{{ giveaway.prize_amount / 1000000000000 }} XCH</td>
-                <td>{{ giveaway.issued_tickets || "None" }} (<a href="javascript:void();" (click)="openGiveaway(content)">Show
+                <td>{{ giveaway.issued_tickets || "None" }} (<a href="javascript:void();"
+                    (click)="openGiveaway(content)">Show
                     mine</a>)</td>
               </tr>
               <tr *ngIf="giveaways.length == 0">
@@ -354,6 +366,7 @@
           </ng-template>
         </ng-template>
       </li>
+
     </ul>
     <div [ngbNavOutlet]="nav" class="mt-2"></div>
   </div>
