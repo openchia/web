@@ -6,15 +6,16 @@ import { Router } from '@angular/router';
     templateUrl: './footer.component.html',
     styleUrls: ['./footer.component.scss']
 })
+
 export class FooterComponent implements OnInit {
-    test : Date = new Date();
+    currentYear : Date = new Date();
 
     constructor(private router: Router ) {}
 
-    ngOnInit() {
+    ngOnInit() {}
 
-    }
     getPath(){
       return this.router.url;
     }
 }
+
