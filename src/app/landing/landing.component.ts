@@ -32,7 +32,11 @@ export class LandingComponent implements OnInit {
       this.data = [{
         "name": "Size",
         "series": (<any[]>d).map((item) => {
-          return ({"name": item['date'], "value": item['size'], "label": (item['size'] / 1024 / 1024 / 1024 / 1024).toFixed(2).toString() + ' TiB'})
+          return ({
+            "name": (new Date(item['date']).toLocaleString()),
+            "value": item['size'],
+            "label": (item['size'] / 1024 / 1024 / 1024 / 1024).toFixed(2).toString() + ' TiB',
+          })
         })
       }];
     });
