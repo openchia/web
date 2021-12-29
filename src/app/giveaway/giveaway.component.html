@@ -108,7 +108,7 @@
       </thead>
       <tbody *ngIf="(giveaways$ | async) as giveaways;">
         <tr
-          *ngFor="let giveaway of giveaways | slice: (giveawaysPage-1) * giveawaysPageSize : giveawaysPage * giveawaysPageSize; let i = index">
+          *ngFor="let giveaway of giveaways | slice: (giveawaysPage-1) * giveawaysPageSize : giveawaysPage * giveawaysPageSize">
           <td>{{ giveaway.draw_datetime | date:"full" }}</td>
           <td *ngIf="giveaway.winner">
             <a [routerLink]="['/explorer/farmer', giveaway.winner.launcher_id]">{{ giveaway.winner.launcher_id }}</a> ({{ giveaway.winner.name }})
