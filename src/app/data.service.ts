@@ -38,7 +38,7 @@ export class DataService {
   getGiveaways(): Subscription {
     var params = new HttpParams();
     params = params.set('ordering', '-draw_datetime');
-    return this.httpClient.get(`${this.REST_API_SERVER}giveaway/round`, { params }).subscribe(data => {
+    return this.httpClient.get(`${this.REST_API_SERVER}giveaway/round/`, { params }).subscribe(data => {
       this._giveaways$.next(data['results']);
     });
   }
