@@ -26,6 +26,7 @@
     "@angular/platform-browser-dynamic": "12.1.2",
     "@angular/router": "12.1.2",
     "@ng-bootstrap/ng-bootstrap": "^10.0.0",
+    "@ngx-lite/progress": "^0.3.6",
     "@scullyio/init": "^1.1.4",
     "@scullyio/ng-lib": "^1.0.0",
     "@scullyio/scully": "^1.1.1-BETA.62759",

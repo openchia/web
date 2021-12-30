@@ -174,7 +174,9 @@
               launcher.launcher_id | maxLength:20 }}</a></td>
           <td>{{ launcher.points }}</td>
           <td>{{ launcher.difficulty }}</td>
-          <td>{{ launcher.points_of_total | number:'2.5' }}%</td>
+          <td>
+            <ngx-progress-bar [value]="launcher.points_of_total | number:'2.2'"></ngx-progress-bar>
+          </td>
           <td>{{ launcher.estimated_size | filesize:{"standard": "iec"} }}</td>
         </tr>
         <tr *ngIf="searchNotFound">

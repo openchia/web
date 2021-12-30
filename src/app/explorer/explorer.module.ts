@@ -6,6 +6,7 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { NgxChartsModule } from '@swimlane/ngx-charts';
 import { NgxFilesizeModule } from 'ngx-filesize';
 import { NgTerminalModule } from 'ng-terminal';
+import { NgxProgressModule } from '@ngx-lite/progress';
 
 import { MaxLengthPipe } from '../pipes/maxlength.pipe';
 
@@ -24,6 +25,7 @@ import { PayoutComponent } from './payout/payout.component';
     NgxChartsModule,
     NgxFilesizeModule,
     NgTerminalModule,
+    NgxProgressModule,
   ]
 })
 export class ExplorerModule { }

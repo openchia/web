@@ -213,3 +213,10 @@
     padding-top: 10px;
     letter-spacing: .05rem;
 }
+
+// Progress bar default color
+.ngx-progress-bar {
+    --color-bar: #129b00;
+    --color-value: #525f7f;
+    --color-inset-background: #dfdfdf;
+}
