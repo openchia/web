@@ -150,19 +150,8 @@
                 <td>{{ partial.difficulty }}</td>
                 <td ngbTooltip="{{ partial.harvester_id }}" placement="left" container="body">{{ partial.harvester_id |
                   maxLength:20 }}</td>
-                <td *ngIf="partial.error==='INVALID_TOO_LATE'">{{ partial.error }} <i class="fas fa-info-circle"
-                    ngbTooltip="Farmer took too long to validate the partial proof of space."></i></td>
-                <td *ngIf="partial.error==='DOUBLE_SIGNAGE_POINT'">{{ partial.error }} <i class="fas fa-info-circle"
-                    ngbTooltip="Same partial proof was sent more than once."></i></td>
-                <td *ngIf="partial.error==='INVALID_SIGNAGE_OR_EOS'">{{ partial.error }} <i class="fas fa-info-circle"
-                    ngbTooltip="Signage point is invalid or was not found in pool's node blockchain."></i></td>
-                <td *ngIf="partial.error==='PROOF_NOT_GOOD_ENOUGH'">{{ partial.error }} <i class="fas fa-info-circle"
-                    ngbTooltip="The proof sent is not good enough for the current difficulty of the farmer."></i></td>
-                <td *ngIf="partial.error==='SINGLETON_NOT_POOL'">{{ partial.error }} <i class="fas fa-info-circle"
-                    ngbTooltip="Plot NFT (pool smart contract) no longer in the pool."></i></td>
-                <td
-                  *ngIf="partial.error && !['SINGLETON_NOT_POOL', 'INVALID_SIGNAGE_OR_EOS', 'DOUBLE_SIGNAGE_POINT', 'INVALID_TOO_LATE', 'PROOF_NOT_GOOD_ENOUGH'].includes(partial.error)">
-                  {{ partial.error }} <i class="fas fa-info-circle" ngbTooltip="This error is not referenced."></i></td>
+                <td *ngIf="partial.error">{{ partial.error }} <a href="javascript:void();"
+                  (click)="showPartialError(content)"><i class="fas fa-info-circle fa-partial-error"></i></a>
                 <td *ngIf="!partial.error">OK</td>
               </tr>
               <tr *ngIf="partialsFiltered.length == 0">
@@ -174,6 +163,69 @@
             <ngb-pagination [collectionSize]="partialsFiltered.length" [(page)]="partialsPage"
               [pageSize]="partialsPageSize">
             </ngb-pagination>
+          </div>
+        </ng-template>
+        <ng-template #content let-modal>
+          <div class="modal-header">
+            <h4 class="modal-title">Partial error details</h4>
+            <button type="button" class="close" aria-label="Close" (click)="modal.dismiss('Cross click')">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <table class="table table-sm table-striped table-responsive-lg">
+              <thead>
+                <tr>
+                  <th scope="col" i18n>Error</th>
+                  <th scope="col" i18n>Details</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>INVALID_TOO_LATE</td>
+                  <td i18n>Farmer took too long to validate the partial proof of space.</td>
+                </tr>
+                <tr>
+                  <td>DOUBLE_SIGNAGE_POINT</td>
+                  <td i18n>Same partial proof was sent more than once.</td>
+                </tr>
+                <tr>
+                  <td>INVALID_SIGNAGE_OR_EOS</td>
+                  <td i18n>Signage point is invalid or was not found in pool's node blockchain.</td>
+                </tr>
+                <tr>
+                  <td>PROOF_NOT_GOOD_ENOUGH</td>
+                  <td i18n>The proof sent is not good enough for the current difficulty of the farmer.</td>
+                </tr>
+                <tr>
+                  <td>SINGLETON_NOT_POOL</td>
+                  <td i18n>Plot NFT (pool smart contract) no longer in the pool.</td>
+                </tr>
+                <tr>
+                  <td>INVALID_SINGLETON</td>
+                  <td i18n>?</td>
+                </tr>
+                <tr>
+                  <td>SP_REVERTED</td>
+                  <td i18n>?</td>
+                </tr>
+                <tr>
+                  <td>EOS_REVERTED</td>
+                  <td i18n>?</td>
+                </tr>
+                <tr>
+                  <td>INVALID_POOL_CONTRACT</td>
+                  <td i18n>?</td>
+                </tr>
+                <tr>
+                  <td>INVALID_PROOF_OF_SPACE</td>
+                  <td i18n>?</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-light" (click)="modal.close('Close click')">Close</button>
           </div>
         </ng-template>
       </li>

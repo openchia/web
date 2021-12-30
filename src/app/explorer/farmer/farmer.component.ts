@@ -211,4 +211,8 @@ export class FarmerComponent implements OnInit {
     this.modal.open(content, { size: 'lg' });
   }
 
+  showPartialError(content) {
+    this.modal.open(content, { size: 'xl' });
+  }
+
 }
