@@ -205,6 +205,12 @@
             &nbsp;<i class="fas fa-info-circle" closeDelay="4000" [ngbTooltip]="effortTooltip"></i>
           </th>
           <th scope="col" i18n="@@Farmer">Farmer</th>
+          <th scope="col"><span i18n="@@Poolspace">Pool Space</span>
+            <ng-template #poolspaceTooltip>
+              <span i18n>Pool space when the block has been won.</span>
+            </ng-template>
+            &nbsp;<i class="fas fa-info-circle" closeDelay="4000" [ngbTooltip]="poolspaceTooltip"></i>
+          </th>
         </tr>
       </thead>
       <tbody *ngIf="(blocks$ | async) as blocks;">
@@ -221,11 +227,15 @@
               )
             </span>
           </td>
-          <td><a [routerLink]="['/explorer/farmer', block.farmed_by.launcher_id]">{{ block.farmed_by.name ||
-              block.farmed_by.launcher_id | maxLength:20 }}</a></td>
+          <td>
+            <a [routerLink]="['/explorer/farmer', block.farmed_by.launcher_id]">
+              {{ block.farmed_by.name || block.farmed_by.launcher_id | maxLength:20 }}
+            </a>
+          </td>
+          <td>{{ block.pool_space | filesize:{"standard": "iec"} }}</td>
         </tr>
         <tr *ngIf="blocks.length == 0">
-          <td colspan="4" i18n>No blocks found!</td>
+          <td colspan="5" i18n>No blocks found!</td>
         </tr>
       </tbody>
     </table>
@@ -248,8 +258,11 @@
       </thead>
       <tbody *ngIf="(payouts$ | async) as payouts;">
         <tr *ngFor="let payout of payouts; let i = index">
-          <td><a [routerLink]="['/explorer/payout', payout.id]" routerLinkActive="router-link-active">{{ payout.id
-              }}</a></td>
+          <td>
+            <a [routerLink]="['/explorer/payout', payout.id]" routerLinkActive="router-link-active">
+              {{ payout.id }}
+            </a>
+          </td>
           <td>{{ payout.datetime | date:"medium" }}</td>
           <td>{{ payout.amount / 1000000000000 | number }} XCH</td>
         </tr>
