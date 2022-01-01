@@ -95,7 +95,7 @@
               </thead>
               <tbody *ngIf="(referrals$ | async) as referrals;">
                 <tr *ngFor="let referral of referrals; let i = index">
-                  <td>{{ referral.launcher.name || referral.launcher.launcher_id | maxLength:15 }}</td>
+                  <td>{{ referral.launcher.name || referral.launcher.launcher_id | maxLength:16 }}</td>
                   <td>20%</td>
                   <td>{{ referral.total_income / 1000000000000 }} XCH</td>
                 </tr>

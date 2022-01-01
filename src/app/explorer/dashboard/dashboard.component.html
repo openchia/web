@@ -125,13 +125,13 @@
               <div class="card-body py-3">
                 <h4 *ngIf="i + 1 == 1" class="text-primary">🥇 <a
                     [routerLink]="['/explorer/farmer', launcher.launcher_id]">{{ launcher.name || launcher.launcher_id |
-                    maxLength:15 }}</a></h4>
+                    maxLength:16 }}</a></h4>
                 <h4 *ngIf="i + 1 == 2" class="text-primary">🥈 <a
                     [routerLink]="['/explorer/farmer', launcher.launcher_id]">{{ launcher.name || launcher.launcher_id |
-                    maxLength:15 }}</a></h4>
+                    maxLength:16 }}</a></h4>
                 <h4 *ngIf="i + 1 == 3" class="text-primary">🥉 <a
                     [routerLink]="['/explorer/farmer', launcher.launcher_id]">{{ launcher.name || launcher.launcher_id |
-                    maxLength:15 }}</a></h4>
+                    maxLength:16 }}</a></h4>
                 <div class="leaderboard-top">#{{ i + 1 }}</div>
                 <p class="description mt-3">{{ launcher.estimated_size | filesize:{"standard": "iec"} }}, {{
                   launcher.points }} points</p>
