@@ -23,7 +23,8 @@
             <div class="card card-lift shadow border-0">
               <div class="card-body py-3">
                 <h6 class="text-success text-uppercase" i18n>ETW</h6>
-                <p class="description mt-3" i18n>{{ estimate_win / 60 / 24 | number }} days</p>
+                <p *ngIf="(estimate_win / 60 ) > 24" class="description mt-3" i18n>{{ estimate_win / 60 / 24 | number:".2-2" }} days(s)</p>
+                <p *ngIf="(estimate_win / 60 ) <= 24" class="description mt-3" i18n>{{ estimate_win / 60 | number:".2-2" }} hour(s)</p>
               </div>
             </div>
           </div>
