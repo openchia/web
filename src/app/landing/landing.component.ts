@@ -35,7 +35,7 @@ export class LandingComponent implements OnInit {
           return ({
             "name": (new Date(item['date']).toLocaleString()),
             "value": item['size'],
-            "label": (item['size'] / 1024 / 1024 / 1024 / 1024).toFixed(2).toString() + ' TiB',
+            "label": (item['size'] / 1024 / 1024 / 1024 / 1024 / 1024).toFixed(2).toString() + ' PiB',
           })
         })
       }];
@@ -43,7 +43,7 @@ export class LandingComponent implements OnInit {
   }
 
   yAxisFormat(data) {
-    return (data / 1024 / 1024 / 1024 / 1024).toFixed(2).toString() + ' TiB';
+    return (data / 1024 / 1024 / 1024 / 1024 / 1024).toFixed(2).toString() + ' PiB';
   }
 
 }

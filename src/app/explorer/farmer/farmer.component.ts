@@ -31,6 +31,9 @@ export class FarmerComponent implements OnInit {
 
   harvesters: Set<string> = new Set();
 
+  xch_current_price_usd: number = 0;
+  xch_tb_month: number = 0;
+
   payoutaddrs$: Observable<any[]>;
   payoutsCollectionSize: number = 0;
   payoutsPage: number = 1;
@@ -72,6 +75,10 @@ export class FarmerComponent implements OnInit {
         this.getPartialsData(this.farmerid);
         this.dataService.getPayoutAddrs({ launcher: this.farmerid });
       });
+      this.dataService.getStats().subscribe(data => {
+        this.xch_current_price_usd = data['xch_current_price']['usd'];
+        this.xch_tb_month = data['xch_tb_month'];
+      })
     });
   }
 
