@@ -8,6 +8,10 @@
     <table class="table table-sm table-striped table-responsive-lg">
       <tbody>
         <tr>
+          <th i18n>Launcher ID</th>
+          <td colspan="3">{{ farmer.launcher_id }}</td>
+        </tr>
+        <tr>
           <th i18n>Friendly Name</th>
           <td>
             <span *ngIf="farmer.name">{{ farmer.name }}</span>
@@ -20,11 +24,7 @@
             </span>
           </td>
           <th i18n="@@Points">Points</th>
-          <td>{{ farmer.points }} ({{ farmer.points_of_total }}%)</td>
-        </tr>
-        <tr>
-          <th i18n>Launcher ID</th>
-          <td colspan="3">{{ farmer.launcher_id }}</td>
+          <td>{{ farmer.points }} ({{ farmer.points_of_total | number:"2.3" }}%)</td>
         </tr>
         <tr>
           <th i18n="@@Difficulty">Difficulty</th>
@@ -32,7 +32,7 @@
           <th><span i18n>Estimated Size </span><i class="fas fa-info-circle"
               ngbTooltip="Be aware this is a rough estimate and will vary based on the partials sent for the last 24 hours! This is by no means a representation of your actual farm size."></i>
           </th>
-          <td>{{ farmer.estimated_size || 0 | filesize:{"standard": "iec"} }}</td>
+          <td>{{ farmer.estimated_size || 0 | filesize:{"standard": "iec" } }}</td>
         </tr>
         <tr>
           <th i18n="@@Joined">Joined At</th>
@@ -42,6 +42,16 @@
               (unknown) <i class="fas fa-info-circle"
                 ngbTooltip="Unknown because this user arrived before the integration of this function in pool."></i>
             </span>
+          </td>
+          <th scope="col"><span i18n="@@EstimatedReward">Estimated Reward</span>
+            <ng-template #estimatedrewardTooltip>
+              <span i18n>Profitability based on blocks farmed on last 30 days. Estimate based on your farm space.</span>
+            </ng-template>
+            &nbsp;<i class="fas fa-info-circle" closeDelay="4000" [ngbTooltip]="estimatedrewardTooltip"></i>
+          </th>
+          <td>
+            {{ xch_tb_month * (farmer.estimated_size / 1024 / 1024 / 1024 / 1024) | number:".4" }} XCH/day
+            (${{ xch_current_price_usd * (xch_tb_month * (farmer.estimated_size / 1024 / 1024 / 1024 / 1024)) | number:".2" }})
           </td>
         </tr>
       </tbody>
@@ -249,7 +259,7 @@
                   <div class="card card-lift shadow border-0">
                     <div *ngIf="(payoutaddrs$ | async) as payoutaddrs"
                       class="card-body py-3 text-center text-uppercase">
-                      <span class="text-primary"><span i18n="">Total payout(s)</span></span>
+                      <span class="text-primary"><span i18n="">Total payout(s) in XCH</span></span>
                       <p class="display-3">{{ payoutGetTotalAmount(payoutaddrs) / 1000000000000 | number:'1.8' }} XCH
                       </p>
                     </div>
@@ -294,7 +304,7 @@
                 <td><a [routerLink]="['/explorer/payout', payoutaddr.payout.id]">{{ payoutaddr.payout.id }}</a></td>
               </tr>
               <tr *ngIf="payoutaddrs.length == 0">
-                <td colspan="5" i18n="@@NoPayouts">No payouts found!</td>
+                <td colspan="6" i18n="@@NoPayouts">No payouts found!</td>
               </tr>
             </tbody>
           </table>
