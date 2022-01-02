@@ -43,15 +43,27 @@
                 ngbTooltip="Unknown because this user arrived before the integration of this function in pool."></i>
             </span>
           </td>
-          <th scope="col"><span i18n="@@EstimatedReward">Estimated Reward</span>
-            <ng-template #estimatedrewardTooltip>
-              <span i18n>Profitability based on blocks farmed on last 30 days. Estimate based on your farm space.</span>
+        </tr>
+        <tr>
+          <th scope="col"><span i18n="@@EstimatedRewardDay">Estimated Reward (day)</span>
+            <ng-template #estimatedrewardDayTooltip>
+              <span i18n>Profitability based on blocks farmed on last 30 days. Estimate per day, based on your farm space.</span>
             </ng-template>
-            &nbsp;<i class="fas fa-info-circle" closeDelay="4000" [ngbTooltip]="estimatedrewardTooltip"></i>
+            &nbsp;<i class="fas fa-info-circle" closeDelay="4000" [ngbTooltip]="estimatedrewardDayTooltip"></i>
           </th>
           <td>
-            {{ xch_tb_month * (farmer.estimated_size / 1024 / 1024 / 1024 / 1024) | number:".4" }} XCH/day
-            (${{ xch_current_price_usd * (xch_tb_month * (farmer.estimated_size / 1024 / 1024 / 1024 / 1024)) | number:".2" }})
+            {{ xch_tb_month * (farmer.estimated_size / 1024 / 1024 / 1024 / 1024) | number:".4" }} XCH,
+            ${{ xch_current_price_usd * (xch_tb_month * (farmer.estimated_size / 1024 / 1024 / 1024 / 1024)) | number:".2" }}
+          </td>
+          <th scope="col"><span i18n="@@EstimatedRewardMonth">Estimated Reward (month)</span>
+            <ng-template #estimatedrewardMonthTooltip>
+              <span i18n>Profitability based on blocks farmed on last 30 days. Estimate per month, based on your farm space.</span>
+            </ng-template>
+            &nbsp;<i class="fas fa-info-circle" closeDelay="4000" [ngbTooltip]="estimatedrewardMonthTooltip"></i>
+          </th>
+          <td>
+            {{ xch_tb_month * (farmer.estimated_size / 1024 / 1024 / 1024 / 1024) * 31 | number:".4" }} XCH,
+            ${{ xch_current_price_usd * (xch_tb_month * (farmer.estimated_size / 1024 / 1024 / 1024 / 1024) * 31) | number:".2" }}
           </td>
         </tr>
       </tbody>
