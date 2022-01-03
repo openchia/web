@@ -15,6 +15,10 @@ export class CalculatorComponent implements OnInit {
   xch_tb_month: number = 0;
   calculator: number = 0;
 
+  calculator_plots_min: number = 20;
+  calculator_plots_max: number = 20000;
+  calculator_plots_current: number = 1000;
+
   constructor(private dataService: DataService, private route: ActivatedRoute){
   }
 
@@ -23,6 +27,9 @@ export class CalculatorComponent implements OnInit {
       this.dataService.getStats().subscribe(data => {
         this.xch_current_price = data['xch_current_price'];
         this.xch_tb_month = data['xch_tb_month'];
+        this.calculator_plots_min = this.calculator_plots_min;
+        this.calculator_plots_max = this.calculator_plots_max;
+        this.calculator_plots_current = this.calculator_plots_current;
       })
     });
   }
