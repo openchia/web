@@ -52,8 +52,8 @@
             &nbsp;<i class="fas fa-info-circle" closeDelay="4000" [ngbTooltip]="estimatedrewardDayTooltip"></i>
           </th>
           <td>
-            {{ xch_tb_month * (farmer.estimated_size / 1024 / 1024 / 1024 / 1024) | number:".4" }} XCH,
-            ${{ xch_current_price_usd * (xch_tb_month * (farmer.estimated_size / 1024 / 1024 / 1024 / 1024)) | number:".2" }}
+            {{ xch_tb_month * (farmer.estimated_size / 1024 / 1024 / 1024 / 1024) | number:".4" }} XCH 
+            (${{ xch_current_price_usd * (xch_tb_month * (farmer.estimated_size / 1024 / 1024 / 1024 / 1024)) | number:".2" }})
           </td>
           <th scope="col"><span i18n="@@EstimatedRewardMonth">Estimated Reward (month)</span>
             <ng-template #estimatedrewardMonthTooltip>
@@ -62,8 +62,8 @@
             &nbsp;<i class="fas fa-info-circle" closeDelay="4000" [ngbTooltip]="estimatedrewardMonthTooltip"></i>
           </th>
           <td>
-            {{ xch_tb_month * (farmer.estimated_size / 1024 / 1024 / 1024 / 1024) * 31 | number:".4" }} XCH,
-            ${{ xch_current_price_usd * (xch_tb_month * (farmer.estimated_size / 1024 / 1024 / 1024 / 1024) * 31) | number:".2" }}
+            {{ xch_tb_month * (farmer.estimated_size / 1024 / 1024 / 1024 / 1024) * 31 | number:".4" }} XCH 
+            (${{ xch_current_price_usd * (xch_tb_month * (farmer.estimated_size / 1024 / 1024 / 1024 / 1024) * 31) | number:".2" }})
           </td>
         </tr>
       </tbody>
