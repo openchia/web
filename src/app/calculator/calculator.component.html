@@ -1,114 +1,116 @@
 <div class="position-relative">
-    <section class="section section-md section-shaped">
-      <div class="shape shape-style-1 shape-default">
-        <span></span>
-        <span></span>
-        <span class="effect-left-right"></span>
-        <span class="effect-top-bottom"></span>
-        <span class="effect-top-bottom"></span>
-        <span class="effect-morph"></span>
-        <span></span>
-        <span class="effect-morph"></span>
-        <span></span>
-      </div>
-    </section>
-  </div>
-  <section class="section section-sm text-center">
-    <div class="container">
-      <h1 i18n="@@Calculator">Calculator</h1>
-        <h3>Estimated Earings</h3>
-        <p>View is based on a snapshot of today's price and a constant total network space.</p>
-        <br />
-              <div class="form-group">
-                <input #ranger class="form-control" type="range" id="rangeInput" name="rangeInput" min="20" max="40000" value="1000"
-                (input)="$event.target.value">
-              </div>
-        <br />
-                <div class="row justify-content-center">
-                    <div class="col-lg-12">
-                      <div class="row row-grid">
-                        <div class="col-lg-6 justify-content-center">
-                          <div class="card card-lift shadow border-0">
-                            <div class="card-body py-3 text-center">
-                              <span class="text-primary text-uppercase"><span i18n="">Number of plots (k32)</span></span>
-                              <p class="display-4">{{ ranger.value }}</p>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="col-lg-6 justify-content-center">
-                          <div class="card card-lift shadow border-0">
-                            <div class="card-body py-3 text-center">
-                              <span class="text-primary text-uppercase"><span i18n="">Estimated space</span></span>
-                              <p class="display-4">{{ ConvertPlotsToSpace(ranger.value) | number:".2-2"}} TiB</p>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <br />
-                  <br />
-      <div class="row justify-content-center">
-        <div class="col-lg-12">
-          <div class="row row-grid">
-            <div class="col-lg-4 justify-content-center">
-              <div class="card card-lift shadow border-0">
-                <div class="card-body py-3 text-center">
-                  <span class="text-primary text-uppercase"><span i18n="">Hourly XCH</span></span>
-                  <p class="display-4">{{ estimate_day(ranger.value) / 24 | number:".2-2"}} / hour</p>
-                </div>
+  <section class="section section-md section-shaped">
+    <div class="shape shape-style-1 shape-default">
+      <span></span>
+      <span></span>
+      <span class="effect-left-right"></span>
+      <span class="effect-top-bottom"></span>
+      <span class="effect-top-bottom"></span>
+      <span class="effect-morph"></span>
+      <span></span>
+      <span class="effect-morph"></span>
+      <span></span>
+    </div>
+  </section>
+</div>
+<section class="section section-sm text-center">
+  <div class="container">
+    <h1 i18n="@@Calculator">Calculator</h1>
+    <h3>Estimated Earings</h3>
+    <p>View is based on a snapshot of today's price and a constant total network space.</p>
+    <br />
+    <div class="form-group">
+      <input #calculator class="form-control" type="range"
+        id="calculatorInput" name="calculatorInput" min="20" max="40000"
+        value="1000" (input)="$event.target.value">
+    </div>
+    <hr/>
+    <br/>
+    <div class="row justify-content-center">
+      <div class="col-lg-12">
+        <div class="row row-grid">
+          <div class="col-lg-6 justify-content-center">
+            <div class="card card-lift shadow border-0">
+              <div class="card-body py-3 text-center">
+                <span class="text-primary text-uppercase"><span i18n="">Number of plots (k32)</span></span>
+                <p class="display-4">{{ calculator.value }}</p>
               </div>
             </div>
-            <div class="col-lg-4 justify-content-center">
-              <div class="card card-lift shadow border-0">
-                <div class="card-body py-3 text-center">
-                  <span class="text-primary text-uppercase"><span i18n="">Daily XCH</span></span>
-                  <p class="display-4">{{ estimate_day(ranger.value) | number:".2-2"}} / day</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-4 justify-content-center">
-                <div class="card card-lift shadow border-0">
-                  <div class="card-body py-3 text-center">
-                    <span class="text-primary text-uppercase"><span i18n="">Monthly XCH</span></span>
-                    <p class="display-4">{{ estimate_day(ranger.value) * 31 | number:".2-2"}} / month</p>
-                  </div>
-                </div>
-              </div>
           </div>
-        </div>
-      </div>
-      <br />
-      <br />
-      <div class="row justify-content-center">
-        <div class="col-lg-12">
-          <div class="row row-grid">
-            <div class="col-lg-4 justify-content-center">
-              <div class="card card-lift shadow border-0">
-                <div class="card-body py-3 text-center">
-                  <span class="text-primary text-uppercase"><span i18n="">Hourly USD</span></span>
-                  <p class="display-4">${{ estimateXCHtoUSD(ranger.value) / 24 | number:".2-2" }}</p>
-                </div>
+          <div class="col-lg-6 justify-content-center">
+            <div class="card card-lift shadow border-0">
+              <div class="card-body py-3 text-center">
+                <span class="text-primary text-uppercase"><span i18n="">Estimated space</span></span>
+                <p class="display-4">{{ convertPlotsToSpace(calculator.value) | number:".2-2"}} TiB</p>
               </div>
             </div>
-            <div class="col-lg-4 justify-content-center">
-              <div class="card card-lift shadow border-0">
-                <div class="card-body py-3 text-center">
-                  <span class="text-primary text-uppercase"><span i18n="">Daily USD</span></span>
-                  <p class="display-4">${{ estimateXCHtoUSD(ranger.value) | number:".2-2" }}</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-4 justify-content-center">
-                <div class="card card-lift shadow border-0">
-                  <div class="card-body py-3 text-center">
-                    <span class="text-primary text-uppercase"><span i18n="">Monthly USD</span></span>
-                    <p class="display-4">${{ estimateXCHtoUSD(ranger.value) * 31 | number:".2-2" }}</p>
-                  </div>
-                </div>
-              </div>
           </div>
         </div>
       </div>
     </div>
-  </section>
+    <br />
+    <br />
+    <div class="row justify-content-center">
+      <div class="col-lg-12">
+        <div class="row row-grid">
+          <div class="col-lg-4 justify-content-center">
+            <div class="card card-lift shadow border-0">
+              <div class="card-body py-3 text-center">
+                <span class="text-primary text-uppercase"><span i18n="">Hourly XCH</span></span>
+                <p class="display-4">{{ estimateDayXCH(calculator.value) / 24 | number:".2-2"}} / hour</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 justify-content-center">
+            <div class="card card-lift shadow border-0">
+              <div class="card-body py-3 text-center">
+                <span class="text-primary text-uppercase"><span i18n="">Daily XCH</span></span>
+                <p class="display-4">{{ estimateDayXCH(calculator.value) | number:".2-2"}} / day</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 justify-content-center">
+            <div class="card card-lift shadow border-0">
+              <div class="card-body py-3 text-center">
+                <span class="text-primary text-uppercase"><span i18n="">Monthly XCH</span></span>
+                <p class="display-4">{{ estimateDayXCH(calculator.value) * 31 | number:".2-2"}} / month</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br />
+    <br />
+    <div class="row justify-content-center">
+      <div class="col-lg-12">
+        <div class="row row-grid">
+          <div class="col-lg-4 justify-content-center">
+            <div class="card card-lift shadow border-0">
+              <div class="card-body py-3 text-center">
+                <span class="text-primary text-uppercase"><span i18n="">Hourly USD</span></span>
+                <p class="display-4">${{ estimateDayUSD(calculator.value) / 24 | number:".2-2" }}</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 justify-content-center">
+            <div class="card card-lift shadow border-0">
+              <div class="card-body py-3 text-center">
+                <span class="text-primary text-uppercase"><span i18n="">Daily USD</span></span>
+                <p class="display-4">${{ estimateDayUSD(calculator.value) | number:".2-2" }}</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 justify-content-center">
+            <div class="card card-lift shadow border-0">
+              <div class="card-body py-3 text-center">
+                <span class="text-primary text-uppercase"><span i18n="">Monthly USD</span></span>
+                <p class="display-4">${{ estimateDayUSD(calculator.value) * 31 | number:".2-2" }}</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
