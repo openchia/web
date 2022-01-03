@@ -21,6 +21,7 @@ import { PartnersComponent } from './partners/partners.component';
 import { ScullyLibModule } from '@scullyio/ng-lib';
 import { ReferralComponent } from './referral/referral.component';
 import { GiveawayComponent } from './giveaway/giveaway.component';
+import { CalculatorComponent } from './calculator/calculator.component';
 
 
 @NgModule({
@@ -35,6 +36,7 @@ import { GiveawayComponent } from './giveaway/giveaway.component';
     PartnersComponent,
     ReferralComponent,
     GiveawayComponent,
+    CalculatorComponent,
   ],
   imports: [
     BrowserModule,
