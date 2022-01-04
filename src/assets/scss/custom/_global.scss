@@ -217,3 +217,11 @@
 .fa-partial-error {
     color: #525f7f;
 }
+
+// Progress bar default color
+.ngx-progress-bar {
+    --color-bar: #129b00;
+    --color-value: #525f7f;
+    --color-inset-background: #dfdfdf;
+}
+
