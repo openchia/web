@@ -160,7 +160,7 @@
         <tr>
           <th scope="col">#</th>
           <th scope="col">Launcher ID</th>
-          <th scope="col" i18n="@@Points">Points</th>
+          <th scope="col" i18n="@@Points">Points (24 hours)</th>
           <th scope="col" i18n="@@Difficulty">Difficulty</th>
           <th scope="col" i18n="@@UtilizationSpace">Utilization Space</th>
           <th scope="col" i18n="@@EstimatedSpace">Estimated Space</th>
@@ -172,10 +172,10 @@
           <th scope="row">{{ i + 1 + (farmersPageSize * (farmersPage - 1)) }}</th>
           <td class="link"><a [routerLink]="['/explorer/farmer', launcher.launcher_id]">{{ launcher.name ||
               launcher.launcher_id | maxLength:20 }}</a></td>
-          <td>{{ launcher.points }}</td>
+          <td>{{ launcher.points_pplns }}</td>
           <td>{{ launcher.difficulty }}</td>
           <td>
-            <ngx-progress-bar [value]="launcher.points_of_total | number:'2.2'"></ngx-progress-bar>
+            <ngx-progress-bar [value]="launcher.share_pplns * 100 | number:'2.2'"></ngx-progress-bar>
           </td>
           <td>{{ launcher.estimated_size | filesize:{"standard": "iec"} }}</td>
         </tr>
