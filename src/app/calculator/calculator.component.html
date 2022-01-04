@@ -20,9 +20,25 @@
     <p i18n>View is based on a snapshot of today's XCH price, a pool luck and a constant total network space. Plots of size k=32 (101.4 GiB).</p>
     <br />
     <div class="form-group">
-      <input #calculator class="form-control" type="range"
-        id="calculatorInput" name="calculatorInput" min="{{ calculator_plots_min }}" max="{{ calculator_plots_max }}"
-        value="{{ calculator_plots_current }}" (input)="$event.target.value">
+      <div class="justify-centent">
+        <div class="col-lg-12">
+          <div class="row row-grid">
+            <div class="col-lg-4 justify-content-center">
+              <input #calculator class="form-control" type="text"
+                id="calculatorTextInput" name="calculatorTextInput"
+                value="{{ calculator_plots_current }}" (input)="$event.target.value"
+                oninput="calculatorRangeInput.value=calculatorTextInput.value">
+            </div>
+            <div class="col-lg-8 justify-content-center">
+              <input #calculator class="form-control" type="range"
+                id="calculatorRangeInput" name="calculatorRangeInput"
+                min="{{ calculator_plots_min }}" max="{{ calculator_plots_max }}"
+                value="{{ calculator_plots_current }}" (input)="$event.target.value"
+                oninput="calculatorTextInput.value=calculatorRangeInput.value">
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
     <hr/>
     <br/>
