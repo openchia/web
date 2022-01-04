@@ -46,6 +46,7 @@ export class DataService {
   getLaunchers(attrs) {
     var params = new HttpParams();
     params = params.set('is_pool_member', 'true');
+    params = params.set('ordering', '-points_pplns');
     if(attrs) {
       if(attrs.offset) params = params.set('offset', attrs.offset);
       if(attrs.limit) params = params.set('limit', attrs.limit);
