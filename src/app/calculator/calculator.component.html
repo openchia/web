@@ -30,7 +30,7 @@
                 oninput="calculatorRangeInput.value=calculatorTextInput.value">
             </div>
             <div class="col-lg-8 justify-content-center">
-              <input #calculator class="form-control" type="range"
+              <input #calculator class="form-control form-control-range-bar" type="range"
                 id="calculatorRangeInput" name="calculatorRangeInput"
                 min="{{ calculator_plots_min }}" max="{{ calculator_plots_max }}"
                 value="{{ calculator_plots_current }}" (input)="$event.target.value"

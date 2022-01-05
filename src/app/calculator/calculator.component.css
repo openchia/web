@@ -1,0 +1,26 @@
+/*
+ * Custom form-control without border for range bar
+ */
+.form-control-range-bar {
+  border: 0px;
+}
+
+/*
+ * Custom range bar color on Firefox
+ */
+ input[type='range']::-moz-range-progress {
+  background-color: #129b00;
+}
+input[type='range']::-moz-range-track {  
+  background-color: #cad1d7;
+}
+
+/*
+ * Custom range bar color on IE
+ */
+input[type="range"]::-ms-fill-lower {
+  background-color: #129b00; 
+}
+input[type="range"]::-ms-fill-upper {  
+  background-color: #cad1d7;
+}
