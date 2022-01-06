@@ -9,6 +9,7 @@ import { Observable, Subject, Subscription } from 'rxjs';
   templateUrl: './dashboard.component.html',
   styleUrls: ['./dashboard.component.css']
 })
+
 export class DashboardComponent implements OnInit, AfterViewInit {
   @ViewChild('term', { static: true }) child: NgTerminal;
   @ViewChild('searchinput') searchInput: ElementRef;
@@ -43,6 +44,7 @@ export class DashboardComponent implements OnInit, AfterViewInit {
   farmersCollectionSize: number = 0;
   farmersPage: number = 1;
   farmersPageSize: number = 30;
+  farmersFilterActive: number = 1;
 
   blocksCollectionSize: number = 0;
   blocksPage: number = 1;
@@ -81,9 +83,19 @@ export class DashboardComponent implements OnInit, AfterViewInit {
       this.average_effort = data['average_effort'];
     });
 
-    this.dataService.getBlocks({ limit: this.blocksPageSize }).subscribe(this.handleBlocks.bind(this));
-    this.dataService.getLaunchers({ limit: this.farmersPageSize }).subscribe(this.handleLaunchers.bind(this));
-    this.dataService.getPayouts({ limit: this.payoutsPageSize }).subscribe(this.handlePayouts.bind(this));
+    this.dataService.getBlocks({
+      limit: this.blocksPageSize
+    }).subscribe(this.handleBlocks.bind(this));
+
+    this.dataService.getLaunchers({
+      limit: this.farmersPageSize,
+      points_pplns__gt: this.farmersFilterActive
+    }).subscribe(this.handleLaunchers.bind(this));
+
+    this.dataService.getPayouts({
+      limit: this.payoutsPageSize
+    }).subscribe(this.handlePayouts.bind(this));
+
     this.dataService.connectLog();
 
     this.searchSubscription = this.launchers$.subscribe((data) => { this._handleSearch(data); });
@@ -129,19 +141,35 @@ export class DashboardComponent implements OnInit, AfterViewInit {
   searchFarmer() {
     this.searchNotFound = false;
     this.farmersPage = 1;
-    this.dataService.getLaunchers({ search: this.searchInput.nativeElement.value, limit: this.farmersPageSize, offset: (this.farmersPage - 1) * this.farmersPageSize }).subscribe(this.handleLaunchers.bind(this));
+    this.dataService.getLaunchers({
+      search: this.searchInput.nativeElement.value,
+      limit: this.farmersPageSize,
+      offset: (this.farmersPage - 1) * this.farmersPageSize
+    }).subscribe(this.handleLaunchers.bind(this));
   }
 
-  refreshFarmers() {
-    this.dataService.getLaunchers({ search: this.searchInput.nativeElement.value, offset: (this.farmersPage - 1) * this.farmersPageSize, limit: this.farmersPageSize }).subscribe(this.handleLaunchers.bind(this));
+  refreshFarmers(filter) {
+    this.farmersFilterActive = parseInt(filter);
+    this.dataService.getLaunchers({
+      search: this.searchInput.nativeElement.value,
+      offset: (this.farmersPage - 1) * this.farmersPageSize,
+      limit: this.farmersPageSize,
+      points_pplns__gt: this.farmersFilterActive
+    }).subscribe(this.handleLaunchers.bind(this));
   }
 
   refreshBlocks() {
-    this.dataService.getBlocks({ offset: (this.blocksPage - 1) * this.blocksPageSize, limit: this.blocksPageSize }).subscribe(this.handleBlocks.bind(this));
+    this.dataService.getBlocks({
+      offset: (this.blocksPage - 1) * this.blocksPageSize,
+      limit: this.blocksPageSize
+    }).subscribe(this.handleBlocks.bind(this));
   }
 
   refreshPayouts() {
-    this.dataService.getPayouts({ offset: (this.payoutsPage - 1) * this.payoutsPageSize, limit: this.payoutsPageSize }).subscribe(this.handlePayouts.bind(this));
+    this.dataService.getPayouts({
+      offset: (this.payoutsPage - 1) * this.payoutsPageSize,
+      limit: this.payoutsPageSize
+    }).subscribe(this.handlePayouts.bind(this));
   }
 
   ngOnDestroy() {
