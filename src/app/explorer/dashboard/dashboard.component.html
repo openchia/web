@@ -170,8 +170,8 @@
         <tr *ngFor="let launcher of launchers$ | async; let i = index"
           [routerLink]="['/explorer/farmer', launcher.launcher_id]">
           <th scope="row">{{ i + 1 + (farmersPageSize * (farmersPage - 1)) }}</th>
-          <td class="link"><a [routerLink]="['/explorer/farmer', launcher.launcher_id]">{{ launcher.name ||
-              launcher.launcher_id | maxLength:20 }}</a></td>
+          <td class="link text-left farmers-padding-left"><a [routerLink]="['/explorer/farmer', launcher.launcher_id]">{{ launcher.name ||
+              launcher.launcher_id | maxLength:30 }}</a></td>
           <td>{{ launcher.points_pplns }}</td>
           <td>{{ launcher.difficulty }}</td>
           <td>
