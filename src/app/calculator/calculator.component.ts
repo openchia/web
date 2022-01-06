@@ -1,6 +1,5 @@
-import { calcPossibleSecurityContexts } from '@angular/compiler/src/template_parser/binding_parser';
 import { Component, OnInit } from '@angular/core';
-import { Router, ActivatedRoute } from '@angular/router';
+import { ActivatedRoute } from '@angular/router';
 import { DataService } from '../data.service';
 
 @Component({
@@ -13,6 +12,7 @@ export class CalculatorComponent implements OnInit {
 
   xch_current_price: number = 0;
   xch_tb_month: number = 0;
+  pool_space: number = 0;
   calculator: number = 0;
 
   calculator_plots_min: number = 20;
@@ -27,6 +27,7 @@ export class CalculatorComponent implements OnInit {
       this.dataService.getStats().subscribe(data => {
         this.xch_current_price = data['xch_current_price'];
         this.xch_tb_month = data['xch_tb_month'];
+        this.pool_space = data['pool_space'];
         this.calculator_plots_min = this.calculator_plots_min;
         this.calculator_plots_max = this.calculator_plots_max;
         this.calculator_plots_current = this.calculator_plots_current;
@@ -36,6 +37,10 @@ export class CalculatorComponent implements OnInit {
 
   convertPlotsToSpace(value) {
     return value * 101.4 / 1024;
+  }
+
+  convertPlotsToUtilization(value) {
+    return this.convertPlotsToSpace(value) * 100 / ((this.pool_space / 1024 / 1024 / 1024 / 1024) + this.convertPlotsToSpace(value));
   }
 
   estimateDayXCH(value) {
