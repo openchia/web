@@ -152,10 +152,10 @@
         <input #searchinput type="text" placeholder="Name or Launcher ID" class="form-control" />
       </div>
       <div class="col-lg-2">
-        <button class="btn btn-neutral" type="button" (click)="searchFarmer()" i18n="@@Search">Search</button>
+        <button class="btn btn-neutral btn-block" type="button" (click)="searchFarmer()" i18n="@@Search">Search</button>
       </div>
       <div class="col-lg-2">
-        <select #farmersFilter class="btn btn-neutral" (change)="refreshFarmers($event.target.value)">
+        <select #farmersFilter class="btn btn-neutral btn-block" (change)="refreshFarmers($event.target.value)">
           <option value="1" default i18n>Show active only</option>
           <option value="0" i18n>Show all farmers</option>
         </select>
