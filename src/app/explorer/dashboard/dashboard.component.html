@@ -148,11 +148,17 @@
   <div class="container">
     <h3 class="display-3" i18n="@@Farmers">Farmers</h3>
     <div class="form-group col-lg-12 row row-grid">
-      <div class="col-lg-10">
+      <div class="col-lg-8">
         <input #searchinput type="text" placeholder="Name or Launcher ID" class="form-control" />
       </div>
       <div class="col-lg-2">
-        <button class="btn btn-neutral" type="button" (click)="searchFarmer()" i18n="@@Search">Search</button>
+        <button class="btn btn-neutral btn-block" type="button" (click)="searchFarmer()" i18n="@@Search">Search</button>
+      </div>
+      <div class="col-lg-2">
+        <select #farmersFilter class="btn btn-neutral btn-block" (change)="refreshFarmers($event.target.value)">
+          <option value="1" default i18n>Show active only</option>
+          <option value="0" i18n>Show all farmers</option>
+        </select>
       </div>
     </div>
     <table class="table table-sm table-striped text-center table-responsive-lg">
@@ -185,7 +191,7 @@
       </tbody>
     </table>
     <ngb-pagination [collectionSize]="farmersCollectionSize" [(page)]="farmersPage" [pageSize]="farmersPageSize"
-      (pageChange)="refreshFarmers()">
+      (pageChange)="refreshFarmers(farmersFilter.value)">
     </ngb-pagination>
   </div>
 </section>

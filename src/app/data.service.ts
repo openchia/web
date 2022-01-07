@@ -51,6 +51,7 @@ export class DataService {
       if(attrs.offset) params = params.set('offset', attrs.offset);
       if(attrs.limit) params = params.set('limit', attrs.limit);
       if(attrs.search) params = params.set('search', attrs.search);
+      if(attrs.points_pplns__gt) params = params.set('points_pplns__gt', attrs.points_pplns__gt);
     }
     return this.httpClient.get(`${this.REST_API_SERVER}launcher/`, { params });
   }
