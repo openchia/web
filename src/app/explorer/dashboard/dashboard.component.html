@@ -134,7 +134,7 @@
                     maxLength:16 }}</a></h4>
                 <div class="leaderboard-top">#{{ i + 1 }}</div>
                 <p class="description mt-3">{{ launcher.estimated_size | filesize:{"standard": "iec"} }}, {{
-                  launcher.points }} points</p>
+                  launcher.points_pplns }} points</p>
               </div>
             </div>
           </div>
@@ -159,7 +159,7 @@
       <thead>
         <tr>
           <th scope="col">#</th>
-          <th scope="col">Launcher ID</th>
+          <th scope="col" class="text-left farmers-padding-left">Launcher ID</th>
           <th scope="col" i18n="@@Points">Points (24 hours)</th>
           <th scope="col" i18n="@@Difficulty">Difficulty</th>
           <th scope="col" i18n="@@UtilizationSpace">Utilization Space</th>
