@@ -393,8 +393,9 @@
             <tbody *ngIf="(giveaways$ | async) as giveaways;">
               <tr *ngFor="let giveaway of giveaways; let i = index">
                 <td>{{ giveaway.draw_datetime | date:"medium" }}</td>
-                <td *ngIf="giveaway.winner"><a [routerLink]="['/explorer/farmer', giveaway.winner.launcher_id]">{{
-                    giveaway.winner.name }}</a></td>
+                <td *ngIf="giveaway.winner">
+                  <a [routerLink]="['/explorer/farmer', giveaway.winner.launcher_id]">{{ giveaway.winner.launcher_id }}</a> ({{ giveaway.winner.name || "not set" }})
+                </td>
                 <td *ngIf="!giveaway.winner">?</td>
                 <td>{{ giveaway.prize_amount / 1000000000000 }} XCH</td>
                 <td>{{ giveaway.issued_tickets || "None" }} (<a href="javascript:void();"
