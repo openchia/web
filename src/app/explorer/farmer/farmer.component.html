@@ -331,6 +331,32 @@
       <li class="display-4" [ngbNavItem]="3">
         <a ngbNavLink>Blocks</a>
         <ng-template ngbNavContent>
+          <br />
+          <div class="row justify-content-center">
+            <div class="col-lg-12">
+              <div class="row row-grid">
+                <div class="col-lg-6 justify-content-center">
+                  <div class="card card-lift shadow border-0">
+                    <div *ngIf="blocks$ | async; let blocks"
+                      class="card-body py-3 text-center text-uppercase">
+                      <span class="text-primary"><span i18n="">Total block(s)</span></span>
+                      <p class="display-3">{{ blocks.length }}</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-6 justify-content-center">
+                  <div class="card card-lift shadow border-0">
+                    <div *ngIf="(blocks$ | async) as blocks"
+                      class="card-body py-3 text-center text-uppercase">
+                      <span class="text-primary"><span i18n="">Effort average</span></span>
+                      <p class="display-3">{{ blocksEffortAverage(blocks) / blocks.length | number:'1.0-0' }}%</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <br />
           <table class="table table-sm table-striped table-responsive-lg">
             <thead>
               <tr>
@@ -347,6 +373,12 @@
                   &nbsp;<i class="fas fa-info-circle" closeDelay="4000" [ngbTooltip]="effortTooltip"></i>
                 </th>
                 <th scope="col" i18n="@@Amount">Amount</th>
+                <th scope="col"><span i18n="@@Poolspace">Pool Space</span>
+                  <ng-template #poolspaceTooltip>
+                    <span i18n>Pool space when the block has been won.</span>
+                  </ng-template>
+                  &nbsp;<i class="fas fa-info-circle" closeDelay="4000" [ngbTooltip]="poolspaceTooltip"></i>
+                </th>
               </tr>
             </thead>
             <tbody *ngIf="(blocks$ | async) as blocks;">
@@ -364,6 +396,7 @@
                   </span>
                 </td>
                 <td>{{ block.amount / 1000000000000 }} XCH</td>
+                <td>{{ block.pool_space | filesize:{"standard": "iec"} }}</td>
               </tr>
               <tr *ngIf="blocks.length == 0">
                 <td colspan="4" i18n>No blocks found by this farmer!</td>

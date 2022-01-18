@@ -113,6 +113,15 @@ export class FarmerComponent implements OnInit {
 
   }
 
+  blocksEffortAverage(datas) {
+    let blocks_array = [];
+    const out = Object.keys(datas).map(index => {
+      let data = datas[index];
+      blocks_array.push(data['luck']);
+    });
+    return blocks_array.reduce((a, b) => a + b);
+  }
+
   payoutGetTotalAmount(datas) {
     let amount_array = [];
     const out = Object.keys(datas).map(index => {
