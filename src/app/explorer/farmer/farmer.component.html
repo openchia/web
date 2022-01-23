@@ -205,7 +205,11 @@
               <tbody>
                 <tr>
                   <td>INVALID_TOO_LATE</td>
-                  <td i18n>Farmer took too long to validate the partial proof of space.</td>
+                  <td i18n>
+                    Farmer took too long to validate the partial proof of space. Make sure your proof of space lookups are fast, 
+                    and network connectivity is good. Response must happen in less than 25 seconds. Your NAS or network farming 
+                    can be an issue. This happens when your disks are in use (plotting) or when waking up.
+                  </td>
                 </tr>
                 <tr>
                   <td>DOUBLE_SIGNAGE_POINT</td>
@@ -221,7 +225,7 @@
                 </tr>
                 <tr>
                   <td>SINGLETON_NOT_POOL</td>
-                  <td i18n>Plot NFT (pool smart contract) no longer in the pool.</td>
+                  <td i18n>Plot NFT (pool smart contract) no longer in the pool. Farmer left the pool.</td>
                 </tr>
                 <tr>
                   <td>INVALID_SINGLETON</td>
@@ -349,7 +353,8 @@
                     <div *ngIf="(blocks$ | async) as blocks"
                       class="card-body py-3 text-center text-uppercase">
                       <span class="text-primary"><span i18n="">Effort average</span></span>
-                      <p class="display-3">{{ blocksEffortAverage(blocks) / blocks.length | number:'1.0-0' }}%</p>
+                      <p *ngIf="blocks.length != 0" class="display-3">{{ blocksEffortAverage(blocks) / blocks.length | number:'1.0-0' }}%</p>
+                      <p *ngIf="blocks.length == 0" class="display-3">-</p>
                     </div>
                   </div>
                 </div>
@@ -399,7 +404,7 @@
                 <td>{{ block.pool_space | filesize:{"standard": "iec"} }}</td>
               </tr>
               <tr *ngIf="blocks.length == 0">
-                <td colspan="4" i18n>No blocks found by this farmer!</td>
+                <td colspan="5" i18n>No blocks found by this farmer!</td>
               </tr>
             </tbody>
           </table>
