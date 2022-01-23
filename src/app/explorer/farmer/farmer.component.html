@@ -287,9 +287,9 @@
                       class="card-body py-3 text-center text-uppercase">
                       <span class="text-primary"><span i18n="">Export CSV</span></span>
                       <p class="display-3">
-                        <button *ngIf="payoutaddrs.length>=1" class="btn btn-neutral btn-icon"
+                        <button *ngIf="payoutaddrs.length>=1" class="btn btn-neutral btn-icon btn-openchia"
                           (click)="payoutDownloadCSV(payoutaddrs)">Download</button>
-                        <button *ngIf="payoutaddrs.length==0" disabled class="btn btn-warning btn-icon"
+                        <button *ngIf="payoutaddrs.length==0" disabled class="btn btn-warning btn-icon btn-openchia"
                           (click)="payoutDownloadCSV(payoutaddrs)">No payout</button>
                       </p>
                     </div>
