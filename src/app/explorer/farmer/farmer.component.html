@@ -310,8 +310,8 @@
               <tr *ngFor="let payoutaddr of payoutaddrs; let i = index">
                 <td>{{ payoutaddr.id }}</td>
                 <td>{{ payoutaddr.payout.datetime | date:"medium" }}</td>
-                <td>{{ payoutaddr.transaction }}</td>
-                <td>{{ payoutaddr.confirmed_block_index }}</td>
+                <td>{{ payoutaddr.transaction?.transaction }}</td>
+                <td>{{ payoutaddr.transaction?.confirmed_block_index }}</td>
                 <td>{{ payoutaddr.amount / 1000000000000 }} XCH</td>
                 <td><a [routerLink]="['/explorer/payout', payoutaddr.payout.id]">{{ payoutaddr.payout.id }}</a></td>
               </tr>
