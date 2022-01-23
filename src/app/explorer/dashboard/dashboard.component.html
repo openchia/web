@@ -149,7 +149,7 @@
     <h3 class="display-3" i18n="@@Farmers">Farmers</h3>
     <div class="form-group col-lg-12 row row-grid">
       <div class="col-lg-6">
-        <input #searchinput type="text" placeholder="Name or Launcher ID" class="form-control" />
+        <input #searchinput type="text" placeholder="Name or Launcher ID" class="form-control" (keydown.enter)="searchFarmer()" />
       </div>
       <div class="col-lg-2">
         <button class="btn btn-neutral btn-block" type="button" (click)="searchFarmer()" i18n="@@Search">Search</button>
