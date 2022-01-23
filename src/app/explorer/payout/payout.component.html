@@ -38,7 +38,7 @@
               {{ (payoutaddr.launcher?.name || payoutaddr.launcher?.launcher_id || '') | maxLength:20 }}
             </a>
           </td>
-          <td>{{ payoutaddr.transaction }}</td>
+          <td>{{ payoutaddr.transaction?.transaction }}</td>
           <td>{{ payoutaddr.amount / 1000000000000 }} XCH</td>
         </tr>
         <tr *ngIf="payoutaddrs.length == 0">
