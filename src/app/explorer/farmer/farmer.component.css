@@ -1,3 +1,9 @@
 .partialErrorRow {
   font-weight: bold;
 }
+
+.btn-openchia {
+  background-color: #129b00;
+  border-color: #129b00;
+  color: white;
+}
