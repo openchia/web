@@ -28,21 +28,28 @@
           <th scope="col" i18n="@@Launcher">Launcher ID</th>
           <th scope="col" i18n="@@Transaction">Transaction</th>
           <th scope="col" i18n="@@Amount">Amount</th>
+          <th scope="col" i18n="@@Price">Price</th>
         </tr>
       </thead>
       <tbody *ngIf="(payoutaddrs$ | async) as payoutaddrs;">
         <tr *ngFor="let payoutaddr of payoutaddrs; let i = index">
           <td>{{ payoutaddr.id }}</td>
           <td>
-            <a [routerLink]="['/explorer/farmer', payoutaddr.launcher?.launcher_id]" routerLinkActive="router-link-active">
+            <a [routerLink]="['/explorer/farmer', payoutaddr.launcher?.launcher_id]"
+              routerLinkActive="router-link-active">
               {{ (payoutaddr.launcher?.name || payoutaddr.launcher?.launcher_id || '') | maxLength:20 }}
             </a>
           </td>
           <td>{{ payoutaddr.transaction?.transaction }}</td>
           <td>{{ payoutaddr.amount / 1000000000000 }} XCH</td>
+          <td>
+            <span *ngIf="payoutaddr.transaction && payoutaddr.transaction.xch_price">${{
+              payoutaddr.transaction.xch_price.usd * (payoutaddr.amount / 1000000000000) | number }} USD</span>
+            <span *ngIf="!payoutaddr.transaction || !payoutaddr.transaction.xch_price" i18n="@@Unknown">Unknown</span>
+          </td>
         </tr>
         <tr *ngIf="payoutaddrs.length == 0">
-          <td colspan="4" i18n="@@NoPayoutsAddrs">No payouts addresses found!</td>
+          <td colspan="5" i18n="@@NoPayoutsAddrs">No payouts addresses found!</td>
         </tr>
       </tbody>
     </table>

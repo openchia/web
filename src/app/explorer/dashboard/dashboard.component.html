@@ -23,8 +23,10 @@
             <div class="card card-lift shadow border-0">
               <div class="card-body py-3">
                 <h6 class="text-success text-uppercase" i18n>ETW</h6>
-                <p *ngIf="(estimate_win / 60 ) > 24" class="description mt-3" i18n>{{ estimate_win / 60 / 24 | number:".2-2" }} days(s)</p>
-                <p *ngIf="(estimate_win / 60 ) <= 24" class="description mt-3" i18n>{{ estimate_win / 60 | number:".2-2" }} hour(s)</p>
+                <p *ngIf="(estimate_win / 60 ) > 24" class="description mt-3" i18n>{{ estimate_win / 60 / 24 |
+                  number:".2-2" }} days(s)</p>
+                <p *ngIf="(estimate_win / 60 ) <= 24" class="description mt-3" i18n>{{ estimate_win / 60 | number:".2-2"
+                  }} hour(s)</p>
               </div>
             </div>
           </div>
@@ -98,7 +100,7 @@
               <div class="card-body py-3">
                 <h6 class="text-primary text-uppercase"><span i18n="@@Profitability">Profitability</span>
                   <ng-template #profTooltip>
-                    <span i18n>Profitability based on blocks farmed on last 30 days. Estimated value (XCH) 
+                    <span i18n>Profitability based on blocks farmed on last 30 days. Estimated value (XCH)
                       a farmer would get per TiB per day.</span>
                   </ng-template>
                   &nbsp;<i class="fas fa-info-circle" closeDelay="4000" [ngbTooltip]="profTooltip"></i>
@@ -149,7 +151,8 @@
     <h3 class="display-3" i18n="@@Farmers">Farmers</h3>
     <div class="form-group col-lg-12 row row-grid">
       <div class="col-lg-6">
-        <input #searchinput type="text" placeholder="Name or Launcher ID" class="form-control" (keydown.enter)="searchFarmer()" />
+        <input #searchinput type="text" placeholder="Name or Launcher ID" class="form-control"
+          (keydown.enter)="searchFarmer()" />
       </div>
       <div class="col-lg-2">
         <button class="btn btn-neutral btn-block" type="button" (click)="searchFarmer()" i18n="@@Search">Search</button>
@@ -176,7 +179,8 @@
         <tr *ngFor="let launcher of launchers$ | async; let i = index"
           [routerLink]="['/explorer/farmer', launcher.launcher_id]">
           <th scope="row">{{ i + 1 + (farmersPageSize * (farmersPage - 1)) }}</th>
-          <td class="link text-left farmers-padding-left"><a [routerLink]="['/explorer/farmer', launcher.launcher_id]">{{ launcher.name ||
+          <td class="link text-left farmers-padding-left"><a
+              [routerLink]="['/explorer/farmer', launcher.launcher_id]">{{ launcher.name ||
               launcher.launcher_id | maxLength:30 }}</a></td>
           <td>{{ launcher.points_pplns }}</td>
           <td>{{ launcher.difficulty }}</td>

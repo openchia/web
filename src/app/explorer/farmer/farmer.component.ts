@@ -138,12 +138,13 @@ export class FarmerComponent implements OnInit {
       csv_array.push({
         id: data['id'],
         datetime: data['payout']['datetime'],
-        transaction: data['transaction'],
-        amount: data['amount'] / 1000000000000
+        transaction: (data['transaction']) ? data['transaction']['transaction'] : "",
+        amount: data['amount'] / 1000000000000,
+        price: (data['transaction'] && data['transaction']['xch_price']) ? data['transaction']['xch_price']['usd'] * (data['amount'] / 1000000000000) : ""
       });
     });
     var options = {
-      headers: ["Id", "Datetime", "Transaction", "Amount"]
+      headers: ["Id", "Datetime", "Transaction", "Amount", "Price USD"]
     };
     new AngularCsv(csv_array, 'payouts', options);
   }
