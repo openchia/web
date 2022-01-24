@@ -66,20 +66,15 @@ export class DataService {
     return this.httpClient.get(`${this.REST_API_SERVER}payout/`, { params });
   }
 
-  getPayoutAddrs(attrs: any, offset?) {
+  getPayoutAddrs(attrs) {
     var params = new HttpParams();
-    if(attrs.id) {
-      params = params.set('payout', attrs.id);
+    if(attrs) {
+      if(attrs.id) params = params.set('payout', attrs.id);
+      if(attrs.launcher) params = params.set('launcher', attrs.launcher);
+      if(attrs.limit) params = params.set('limit', attrs.limit);
+      if(attrs.offset) params = params.set('offset', attrs.offset);
     }
-    if(attrs.launcher) {
-      params = params.set('launcher', attrs.launcher);
-    }
-    if(offset) {
-      params = params.set('offset', offset);
-    }
-    return this.httpClient.get(`${this.REST_API_SERVER}payoutaddress/`, { params }).subscribe(data => {
-      this._payoutaddrs$.next(data['results']);
-    });
+    return this.httpClient.get(`${this.REST_API_SERVER}payoutaddress/`, { params });
   }
 
   getReferrals(attrs: any, offset?) {
