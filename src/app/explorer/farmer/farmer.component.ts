@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Router, ActivatedRoute } from '@angular/router';
 import { DataService } from '../../data.service';
-import { Observable, BehaviorSubject } from 'rxjs';
+import { Observable, Subject, BehaviorSubject } from 'rxjs';
 import { NgbModal } from '@ng-bootstrap/ng-bootstrap';
 import { AngularCsv } from 'angular-csv-ext/dist/Angular-csv';
 
@@ -35,9 +35,10 @@ export class FarmerComponent implements OnInit {
   xch_tb_month: number = 0;
 
   payoutaddrs$: Observable<any[]>;
+  _payoutaddrs$ = new BehaviorSubject<any[]>([]);
   payoutsCollectionSize: number = 0;
   payoutsPage: number = 1;
-  payoutsPageSize: number = 10;
+  payoutsPageSize: number = 1000;
   payoutsCountTotal: number = 0;
   payoutsAmountTotal: number = 0;
 
@@ -61,7 +62,7 @@ export class FarmerComponent implements OnInit {
   constructor(private dataService: DataService, private route: ActivatedRoute, private modal: NgbModal) {
     this.blocks$ = this._blocks$.asObservable();
     this.giveaways$ = dataService.giveaways$;
-    this.payoutaddrs$ = dataService.payoutaddrs$;
+    this.payoutaddrs$ = this._payoutaddrs$.asObservable();
     this.ticketsRound$ = dataService.ticketsRound$;
   }
 
@@ -70,10 +71,10 @@ export class FarmerComponent implements OnInit {
       this.farmerid = data['params']['id'];
       this.dataService.getGiveaways();
       this.refreshBlocks();
+      this.refreshPayouts();
       this.dataService.getLauncher(this.farmerid).subscribe(launcher => {
         this.farmer = launcher;
         this.getPartialsData(this.farmerid);
-        this.dataService.getPayoutAddrs({ launcher: this.farmerid });
       });
       this.dataService.getStats().subscribe(data => {
         this.xch_current_price_usd = data['xch_current_price']['usd'];
@@ -160,6 +161,19 @@ export class FarmerComponent implements OnInit {
       offset: (this.blocksPage - 1) * this.blocksPageSize,
       limit: this.blocksPageSize
     }).subscribe(data => this.handleBlocks(data));
+  }
+
+  private handlePayouts(data) {
+    this.payoutsCollectionSize = data['count'];
+    this._payoutaddrs$.next(data['results']);
+  }
+
+  refreshPayouts() {
+    this.dataService.getPayoutAddrs({
+      launcher: this.farmerid,
+      offset: (this.payoutsPage - 1) * this.payoutsPageSize,
+      limit: this.payoutsPageSize
+    }).subscribe(data => this.handlePayouts(data));
   }
 
   toggleFailedPartials(event): void {

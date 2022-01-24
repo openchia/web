@@ -53,5 +53,8 @@
         </tr>
       </tbody>
     </table>
+    <ngb-pagination [collectionSize]="payoutaddrsCollectionSize" [(page)]="payoutaddrsPage" [pageSize]="payoutaddrsPageSize"
+    (pageChange)="refreshPayoutAddrs()">
+  </ngb-pagination>
   </div>
 </section>
