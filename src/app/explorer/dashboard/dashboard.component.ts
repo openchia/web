@@ -73,7 +73,7 @@ export class DashboardComponent implements OnInit, AfterViewInit {
       this.estimate_win = data['estimate_win'];
       this.rewards_blocks = data['rewards_blocks'];
       this.rewards_amount = data['rewards_amount'];
-      this.farmers = data['farmers'];
+      this.farmers = data['farmers_active'];
       this.netspace = data['blockchain_space'];
       this.xch_current_price = data['xch_current_price'];
       this.pool_wallets = data['pool_wallets'];
