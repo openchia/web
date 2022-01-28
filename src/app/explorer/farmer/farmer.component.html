@@ -1,5 +1,10 @@
 <section class="section section-sm pt-sm">
-  <div class="container">
+  <div *ngIf="!farmer.launcher_id" class="container">
+    <div class="alert alert-warning" role="alert">
+      <strong i18n="@@Warning">Warning</strong>: <span i18n>farmer doesn't exist (404).</span>
+    </div>
+  </div>
+  <div *ngIf="farmer.launcher_id" class="container">
     <div *ngIf="farmer.is_pool_member===false" class="alert alert-warning" role="alert">
       <strong i18n="@@Warning">Warning</strong>: <span i18n>farmer doesn't exist, has left and/or has been
         removed.</span>
