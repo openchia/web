@@ -14,6 +14,7 @@ import { AppComponent } from './app.component';
 import { LandingComponent } from './landing/landing.component';
 import { NavbarComponent } from './shared/navbar/navbar.component';
 import { FooterComponent } from './shared/footer/footer.component';
+import { StatsComponent } from './stats/stats.component';
 import { FeesComponent } from './fees/fees.component';
 import { FaqComponent } from './faq/faq.component';
 import { TermsComponent } from './terms/terms.component';
@@ -30,6 +31,7 @@ import { CalculatorComponent } from './calculator/calculator.component';
     LandingComponent,
     NavbarComponent,
     FooterComponent,
+    StatsComponent,
     FeesComponent,
     FaqComponent,
     TermsComponent,

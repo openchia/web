@@ -4,6 +4,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { Routes, RouterModule } from '@angular/router';
 
 import { FaqComponent } from './faq/faq.component';
+import { StatsComponent } from './stats/stats.component';
 import { FeesComponent } from './fees/fees.component';
 import { GiveawayComponent } from './giveaway/giveaway.component';
 import { JoinComponent } from './join/join.component';
@@ -16,6 +17,7 @@ import { CalculatorComponent } from './calculator/calculator.component';
 const routes: Routes = [
   { path: 'join', component: JoinComponent },
   { path: 'faq', component: FaqComponent },
+  { path: 'stats', component: StatsComponent },
   { path: 'fees', component: FeesComponent },
   { path: 'giveaway', component: GiveawayComponent },
   { path: 'landing', component: LandingComponent },
