@@ -225,3 +225,19 @@
     --color-inset-background: #dfdfdf;
 }
 
+// Alert animation delay
+.alert-delay-1s {
+    animation: show-alert 0s 1s forwards;
+    visibility: hidden;
+}
+
+.alert-delay-2s {
+    animation: show-alert 0s 2s forwards;
+    visibility: hidden;
+}
+  
+@keyframes show-alert {
+    to {
+        visibility: visible;
+    }
+}
