@@ -1,5 +1,5 @@
 <section class="section section-sm pt-sm">
-  <div *ngIf="!farmer.estimated_size && !farmer.launcher_id" class="container">
+  <div *ngIf="!farmer.launcher_id" class="container">
     <div class="alert alert-warning alert-delay-1s" role="alert">
       <strong i18n="@@Warning">Warning</strong>: <span i18n>farmer doesn't exist (404).</span>
     </div>
