@@ -97,3 +97,26 @@
         @include transition($transition-base);
     }
 }
+
+// Team cards
+
+.card-team-profile {
+    padding: 1.25rem 1.5rem;
+    margin-bottom: 0;
+    border-bottom: 0.0625rem solid rgba(0, 0, 0, 0.05);
+    background: #fff;
+}
+
+// Landing cards
+
+.card-landing {
+    padding: 1.25rem 1.5rem;
+    margin-bottom: 0;
+    border-bottom: 0.0625rem solid rgba(0, 0, 0, 0.05);
+    background: transparent !important;
+    border: none !important;
+}
+
+.card-landing-right {
+    margin-left: 50%;
+}
