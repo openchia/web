@@ -1,6 +1,5 @@
 <main>
   <div class="position-relative">
-    <!-- shape Hero -->
     <section class="section section-md section-shaped">
       <div class="shape shape-style-1 shape-default">
         <span></span>
@@ -14,57 +13,129 @@
         <span></span>
       </div>
     </section>
-    <!-- 1st Hero Variation -->
   </div>
-  <section class="section section-sm">
-    <div class="container">
-      <div class="row row-grid justify-content-center">
-        <div class="col-lg-8 text-left">
-          <h2 class="display-3" i18n>How to join us</h2>
-          <p class="lead"><a
-              href="https://github.com/Chia-Network/chia-blockchain/wiki/Pooling-User-Guide#how-to-start-pooling-in-6-steps"
-              target="_blank" i18n>Official Chia Instructions.</a></p>
-          <p class="lead" i18n>Make sure you are running official Chia client 1.2.0 or later.</p>
-          <h3 class="display-4" i18n>Connection</h3>
-          <p class="lead">https://pool.openchia.io (Global server)</p>
-          <p class="lead">https://pool-asia.openchia.io (Asia server)</p>
 
-          <h4><strong><span i18n="@@Step">Step</span> 1</strong>: <span i18n>Sync your full node and wallet</span></h4>
-          <ul>
-            <li i18n>before joining the pool, your node and wallet must be fully synchronized with Chia
-              blockchain</li>
-          </ul>
-
-          <h4><strong><span i18n="@@Step">Step</span> 2</strong>: <span i18n>Receive some XCH</span></h4>
-          <ul>
-            <li><span i18n>you are going to need 1 mojo (0.000000000001 XCH) which you can get through our faucet
-                service on
-                Discord channel or through Faucet website:</span>&nbsp;<a href="https://faucet.chia.net/"
-                target="_blank">https://faucet.chia.net/</a></li>
-            <li><span i18n>join</span>&nbsp;<a href="https://discord.gg/2URS9H7RZn" target="_blank">Discord</a></li>
-            <li i18n>go to “faucet” text channel</li>
-            <li i18n>type in message box:</li>
-            <li><code i18n>.faucet &lt;wallet address&gt;</code></li>
-          </ul>
-
-          <h4><strong><span i18n="@@Step">Step</span> 3</strong>: <span i18n>Create Plot NFT</span></h4>
-          <ul>
-            <li i18n>go to the “Pool” tab, and click on “Join the Pool”</li>
-            <li i18n>choose “Connect to pool” and enter the url: https://pool.openchia.io (exactly, no ending slash)
-              then wait for pool description to appear</li>
-            <li i18n>click the “Create” button. In the next couple of minutes, the Plot NFT will be created, and it
-              will appear in your “Pool” tab</li>
-            <li i18n>You can now start creating Plots in “Plots” tab using this new Plot NFT to start farming XCH</li>
-          </ul>
-
-          <h4>Switching pools</h4>
-          <ul>
-            <li i18n>Go to "Pool" menu in the left menu</li>
-            <li i18n>If you already have a Plot NFT select "Change Pool" then enter https://pool.openchia.io</li>
-            <li i18n>Click “Change” button</li>
-          </ul>
+  <!-- How to join OpenChia -->
+  <section class="section section-md">
+    <div id="accordion" class="cd-section">
+      <div class="accordion-1">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6 mx-auto text-center">
+              <h2 class="title mb-3 mt-5">🌱 How to join OpenChia</h2>
+            </div>
+          </div>
+          <br/>
+          <div class="row">
+            <div class="col-md-12 ml-auto">
+              <div id="accordionJoinPool" class="accordion">
+                <div class="card">
+                  <div id="headingOne" class="card-header card-join">
+                    <h5 class="mb-0">
+                      <button aria-controls="collapseOne" id="collapseOne" 
+                        type="button" class="btn btn-link w-100 text-primary text-left" 
+                        aria-expanded="true" i18n>Pre-requisites <i class="ni ni-bold-down float-right pt-1"></i>
+                      </button>
+                    </h5>
+                  </div>
+                  <div aria-labelledby="headingOne" data-parent="#accordionJoinPool"
+                    id="collapseOne" class="show collapse in" style="display: block;"
+                    aria-expanded="false" aria-hidden="false">
+                    <div class="card-body opacity-8" i18n>
+                      Make sure you are official Chia client supporting pool plots (1.2.0 or later). Show
+                      <a href="https://github.com/Chia-Network/chia-blockchain/wiki/Pooling-User-Guide#how-to-start-pooling-in-6-steps">
+                      official Chia instructions here</a>.<br/><br/>
+                      Before joining pool, your node and wallet must be fully synchronized with Chia blockchain.<br/><br/>
+                      You are going to need 1 Mojo (0.000000000001 XCH) which you can get through our faucet services:<br/>
+                      <ul>
+                        <li>OpenChia Discord : <a href="https://discord.gg/2URS9H7RZn">#faucet channel</a></li>
+                        <li>Faucet website : <a href="https://faucet.chia.net">https://faucet.chia.net</a></li>
+                      </ul><br/>
+                      Depending on your location, use one of the following connections:
+                      <ul>
+                        <li>Global server: <a href="https://pool.openchia.io">https://pool.openchia.io</a></li>
+                        <li>Asia server: <a href="https://pool-asia.openchia.io">https://pool-asia.openchia.io</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div id="headingTwo" class="card-header card-join">
+                    <h5 class="mb-0">
+                      <button aria-controls="collapseTwo" id="collapseTwo"
+                        type="button" class="btn btn-link w-100 text-primary text-left collapsed"
+                        aria-expanded="true" i18n>Join pool from CLI <i class="ni ni-bold-down float-right pt-1"></i>
+                      </button>
+                    </h5>
+                  </div>
+                  <div aria-labelledby="headingTwo" data-parent="#accordionJoinPool"
+                    id="collapseTwo" style="display: block; overflow: hidden;"
+                    aria-expanded="true" aria-hidden="false" class="collapse in show">
+                    <div class="card-body opacity-8" i18n>
+                      Get your wallet ID:<br/><br/>
+                      <div class="card-shell">
+                        <code class="code-shell">
+                          $ chia plotnft show
+                        </code>
+                      </div><br/>
+                      Joining OpenChia pool with:<br/><br/>
+                      <div class="card-shell">
+                        <code class="code-shell">
+                          $ chia plotnft join -i WALLET_ID -u https://pool.openchia.io
+                        </code>
+                      </div><br/>
+                      It will ask for your confirmation, check all details and confirm with Y.<br/>
+                      Wait few minutes and enjoy! 🎉
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div id="headingThree" class="card-header card-join">
+                    <h5 class="mb-0">
+                      <button aria-controls="collapseThree" id="collapseThree"
+                        type="button" class="btn btn-link w-100 text-primary text-left collapsed"
+                        aria-expanded="false" i18n>Join pool from GUI <i class="ni ni-bold-down float-right pt-1"></i>
+                      </button>
+                    </h5>
+                  </div>
+                  <div aria-labelledby="headingThree" data-parent="#accordionJoinPool"
+                    id="collapseThree" style="display: block; overflow: hidden;"
+                    aria-expanded="true" aria-hidden="false" class="collapse in show">
+                    <div class="card-body opacity-8" i18n>
+                      Open the Chia GUI and click "Pool" and then "Join a pool":<br/><br/>
+                      <img src="./assets/img/join/gui/en/screenshot-1.png" width="100%" />
+                      Choose "Connect to pool" and enter this URL "https://pool.openchia.io" (exactly, no ending slash),
+                      verify pool details and click on "Create" button:<br/><br/>
+                      <img src="./assets/img/join/gui/en/screenshot-2.png" width="100%" />
+                      Wait few minutes and appreciate! 🎉
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div id="headingFour" class="card-header card-join">
+                    <h5 class="mb-0">
+                      <button aria-controls="collapseFour" id="collapseFour"
+                        type="button" class="btn btn-link w-100 text-primary text-left collapsed"
+                        aria-expanded="false" i18n>Need help?<i class="ni ni-bold-down float-right pt-1"></i>
+                      </button>
+                    </h5>
+                  </div>
+                  <div aria-labelledby="headingFour" data-parent="#accordionJoinPool"
+                    id="collapseFour" style="display: block; overflow: hidden;"
+                    aria-expanded="true" aria-hidden="false" class="collapse in show">
+                    <div class="card-body opacity-8" i18n>
+                      Should you run into issues, reach out in <a href="https://discord.gg/2URS9H7RZn">#farming</a> Discord
+                      channel if you have any questions.<br/>
+                      OpenChia have a great community 🌽
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-    </div>
+    </div>  
   </section>
+
 </main>
