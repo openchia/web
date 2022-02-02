@@ -13,43 +13,84 @@
     </div>
   </section>
 </div>
-<section class="section section-sm">
-  <div class="container">
-    <div class="row row-grid justify-content-center">
-      <h2 class="display-3" i18n>Fees</h2>
-      <div class="col-md-12 text-left">
-        <span i18n>Fees are structured this way</span>:
-        <ul>
-          <li><span i18n>Until 1st October 2021 (2021/10/01)</span>: <strong>0%</strong></li>
-          <li><span>After 1st October 2021 (2021/10/01)</span>: <strong>1%</strong></li>
-        </ul>
-        <span i18n>Examples</span>:
-        <ul>
-          <li><i i18n>Before 1st October</i>: <span i18n>A reward of 1.75 XCH will be distributed to pool farmers, 0 XCH
-              (nothing) is kept to the pool.</span></li>
-          <li><i i18n>After 1st October</i>: <span i18n>If a reward of 1.75 XCH is found, only 1% of that, 0.0175 will
-              be kept to the pool as a fee. The remaining 1.7325 XCH will be distributed to pool farmers.</span></li>
-        </ul>
-      </div>
-      <h2 class="display-3" i18n>Reward Distribution</h2>
-      <div class="col-md-12 text-left" i18n>
-        We use PPLNS (Pay Per Last N Shares) to distribute rewards.<br />
-        When a block is won, we look at the valid partials (shares) submitted by all users in the pool since last payout
-        and distribute the reward value based on your share among all farmers in the pool.<br />
-        In our case Last N Shares refers to partials since last payout. We believe this system is far more fair for less
-        frequent rewards (when Last N Shares means only last few hours), since people contributing for more time will
-        get more rewards.<br />
-        Once our estimated time to win gets below 48 hours we plan on changing the Last N Shares to 48 hours of valid
-        partials.
-      </div>
-      <h2 class="display-3" i18n="@@Payouts">Payouts</h2>
-      <div class="col-md-12 text-left" i18n>
-        Payouts will happen within 5 minutes of the farmed block.<br />
-        <p>
-          These terms are subjected to change and will be communicated 1 week prior to the change in this website and on
-          Discord channel.
-        </p>
+
+<!-- How to join OpenChia -->
+<section class="section section-md">
+  <div id="accordion" class="cd-section">
+    <div class="accordion-1">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 mx-auto text-center">
+            <h2 class="title mb-3 mt-5">💰 Fees</h2>
+          </div>
+        </div>
+        <br/>
+        <div class="row">
+          <div class="col-md-12 ml-auto">
+            <div id="accordionJoinPool" class="accordion">
+              <div class="card">
+                <div id="headingOne" class="card-header card-join">
+                  <h5 class="mb-0">
+                    <button aria-controls="collapseOne" id="collapseOne" 
+                      type="button" class="btn btn-link w-100 text-primary text-left" 
+                      aria-expanded="true" i18n>Fees <i class="ni ni-bold-down float-right pt-1"></i>
+                    </button>
+                  </h5>
+                </div>
+                <div aria-labelledby="headingOne" data-parent="#accordionJoinPool"
+                  id="collapseOne" class="show collapse in" style="display: block;"
+                  aria-expanded="false" aria-hidden="false">
+                  <div class="card-body opacity-8" i18n>
+                    Currently we charge 1% fee. If a reward of 1.75 XCH is found, only 1% of that, 0.0175 will be kept to the pool as a
+                    fee. The remaining 1.7325 XCH will be distributed to pool farmers.
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div id="headingOne" class="card-header card-join">
+                  <h5 class="mb-0">
+                    <button aria-controls="collapseOne" id="collapseOne" 
+                      type="button" class="btn btn-link w-100 text-primary text-left" 
+                      aria-expanded="true" i18n>Reward Distribution <i class="ni ni-bold-down float-right pt-1"></i>
+                    </button>
+                  </h5>
+                </div>
+                <div aria-labelledby="headingOne" data-parent="#accordionJoinPool"
+                  id="collapseOne" class="show collapse in" style="display: block;"
+                  aria-expanded="false" aria-hidden="false">
+                  <div class="card-body opacity-8" i18n>
+                    We use PPLNS (Pay Per Last N Shares) to distribute rewards.<br/><br/>
+                    When a block is won, we look at the valid partials (shares) submitted by all users in the pool since last payout
+                    and distribute the reward value based on your share among all farmers in the pool. In our case Last N Shares refers
+                    to partials since last payout. We believe this system is far more fair for less frequent rewards (when Last N Shares
+                    means only last few hours), since people contributing for more time will get more rewards. Once our estimated time
+                    to win gets below 48 hours we plan on changing the Last N Shares to 48 hours of valid partials.
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div id="headingTwo" class="card-header card-join">
+                  <h5 class="mb-0">
+                    <button aria-controls="collapseTwo" id="collapseTwo"
+                      type="button" class="btn btn-link w-100 text-primary text-left collapsed"
+                      aria-expanded="true" i18n>Payouts <i class="ni ni-bold-down float-right pt-1"></i>
+                    </button>
+                  </h5>
+                </div>
+                <div aria-labelledby="headingTwo" data-parent="#accordionJoinPool"
+                  id="collapseTwo" style="display: block; overflow: hidden;"
+                  aria-expanded="true" aria-hidden="false" class="collapse in show">
+                  <div class="card-body opacity-8" i18n>
+                    Payouts will happen within 5 minutes of the farmed block.<br/>
+                    These terms are subjected to change and will be communicated
+                    1 week prior to the change in this website and on Discord channel.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
-  </div>
+  </div>  
 </section>
