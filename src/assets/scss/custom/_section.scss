@@ -540,27 +540,28 @@
     }
 }
 
-
 .floating-cards {
- -webkit-perspective:1500px;
- perspective:1500px;
- position:relative;
- -webkit-box-align:center;
- -ms-flex-align:center;
- align-items:center
+    -webkit-perspective: 1500px;
+    perspective: 1500px;
+    position: relative;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
 }
-.floating-cards>div {
- position:absolute;
- -ms-flex-negative:0;
- flex-shrink:0;
- border-radius:8px;
- overflow:hidden
+
+.floating-cards > div {
+    position: absolute;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    border-radius: 8px;
+    overflow: hidden;
 }
+
 .floating-cards .shine {
- position:absolute;
- left:0;
- right:0;
- top:0;
- bottom:0;
- pointer-events:none
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    pointer-events: none;
 }
