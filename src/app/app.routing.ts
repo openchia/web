@@ -13,6 +13,7 @@ import { PartnersComponent } from './partners/partners.component';
 import { ReferralComponent } from './referral/referral.component'
 import { TermsComponent } from './terms/terms.component';
 import { CalculatorComponent } from './calculator/calculator.component';
+import { PagenotfoundComponent } from './errors/pagenotfound/pagenotfound.component';
 
 const routes: Routes = [
   { path: 'join', component: JoinComponent },
@@ -25,6 +26,7 @@ const routes: Routes = [
   { path: 'referral', component: ReferralComponent },
   { path: 'terms', component: TermsComponent },
   { path: 'calculator', component: CalculatorComponent },
+  { path: '**', component: PagenotfoundComponent, pathMatch: 'full'},
   { path: '', redirectTo: 'landing', pathMatch: 'full' }
 ];
 
