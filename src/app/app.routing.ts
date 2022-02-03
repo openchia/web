@@ -26,7 +26,8 @@ const routes: Routes = [
   { path: 'referral', component: ReferralComponent },
   { path: 'terms', component: TermsComponent },
   { path: 'calculator', component: CalculatorComponent },
-  { path: '**', component: PagenotfoundComponent, pathMatch: 'full'},
+  { path: '404', component: PagenotfoundComponent },
+  //{ path: '**', redirectTo: '404', pathMatch: 'full'},
   { path: '', redirectTo: 'landing', pathMatch: 'full' }
 ];
 
