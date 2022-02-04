@@ -80,7 +80,6 @@
           </div>
         </div>
       </div>
-      <!-- SVG separator -->
       <div class="separator separator-bottom separator-skew">
         <svg
           x="0"
@@ -94,8 +93,9 @@
         </svg>
       </div>
     </section>
-    <!-- 1st Hero Variation -->
   </div>
+
+  <!-- Cards -->
   <section class="section section-md pt-lg-0 mt--200">
     <div class="container">
       <div class="row justify-content-center">
@@ -162,47 +162,6 @@
       </div>
     </div>
   </section>
-  <section class="section section-sm">
-    <div class="container">
-      <div class="row row-grid align-items-center">
-        <div class="col-md-8">
-          <div class="pl-md-7" #ContainerRef>
-            <ngx-charts-area-chart
-              [view]="[ContainerRef.offsetWidth]"
-              [scheme]="colorScheme"
-              [legend]="legend"
-              [showXAxisLabel]="showXAxisLabel"
-              [showYAxisLabel]="showYAxisLabel"
-              [xAxis]="xAxis"
-              [yAxis]="yAxis"
-              [yAxisLabel]="yAxisLabel"
-              [timeline]="timeline"
-              [results]="data"
-              [yAxisTickFormatting]="yAxisFormat"
-              [autoScale]="true"
-            >
-              <ng-template #seriesTooltipTemplate let-model="model">
-                {{ model[0].label }}<br />
-                {{ model[0].name }}
-              </ng-template>
-              <ng-template #tooltipTemplate let-model="model">
-                {{ model.label }}<br />
-                {{ model.name }}
-              </ng-template>
-            </ngx-charts-area-chart>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <a
-            class="twitter-timeline"
-            data-height="500"
-            href="https://twitter.com/OpenChia?ref_src=twsrc%5Etfw"
-            >Tweets by OpenChia</a
-          >
-        </div>
-      </div>
-    </div>
-  </section>
 
   <!-- Join pool -->
   <section class="pricing-5" id="pricing-6">
@@ -217,67 +176,29 @@
             either the Chia GUI/CLI. Our OpenChia community can help you on the
             Discord server. Ready? Let's go!
           </p>
-          <a
-            class="btn btn-neutral btn-icon btn-discord"
-            href="/join"
-            target="_blank"
-            i18n
-            >Join community on Discord</a
-          >
+          <a class="btn btn-neutral btn-icon btn-discord" target="_blank"
+            href="https://discord.gg/2URS9H7RZn" i18n>
+            Join community on Discord
+          </a>
         </div>
         <div class="ml-auto mr-auto col-md-8 col-lg-7">
           <div class="tab-content tab-space">
             <div class="tab-pane active">
-              <div class="row">
+              <div class="row justify-content-center">
                 <div class="col-md-6">
-                  <div
-                    class="card-pricing card-landing-join bg-white border-0 text-center mb-4 card"
-                  >
-                    <div class="bg-transparent card-header">
-                      <h6 class="text-uppercase ls-1 py-3 mb-0 text-primary">
-                        <b i18n>OpenChia Pool</b>
-                      </h6>
-                    </div>
-                    <div class="card-body">
-                      <div class="display-2" i18n>1%</div>
-                      <span i18n>Pool Fee</span>
-                      <ul class="list-unstyled my-4">
-                        <li class="align-items-center" i18n>
-                          Weekly giveaways
-                        </li>
-                        <li class="align-items-center" i18n>All opensource</li>
-                        <li class="align-items-center" i18n>
-                          Native mobile app
-                        </li>
-                        <li class="align-items-center" i18n>Complete APIs</li>
-                      </ul>
-                    </div>
+                  <div class="card-pricing card-landing-join bg-white border-0 text-center mb-4 card">
+                    <a class="twitter-timeline" data-height="400"
+                      href="https://twitter.com/OpenChia?ref_src=twsrc%5Etfw" i18n>
+                      Tweets by OpenChia
+                    </a>
                   </div>
                 </div>
                 <div class="col-md-6">
-                  <div
-                    class="card-pricing card-landing-join bg-white border-0 text-center mb-4 card"
-                  >
-                    <div class="bg-transparent card-header">
-                      <h6
-                        class="text-uppercase ls-1 py-3 mb-0 text-primary"
-                        i18n
-                      >
-                        Other Pools
-                      </h6>
-                    </div>
-                    <div class="card-body">
-                      <div class="display-2" i18n>1%</div>
-                      <span i18n>Pool Fee</span>
-                      <ul class="list-unstyled my-4">
-                        <li class="align-items-center" i18n>No giveaways</li>
-                        <li class="align-items-center" i18n>No opensource</li>
-                        <li class="align-items-center" i18n>
-                          Not often mobile app
-                        </li>
-                        <li class="align-items-center" i18n>Small APIs</li>
-                      </ul>
-                    </div>
+                  <div class="card-pricing card-landing-join bg-white border-0 text-center mb-4 card">
+                    <a class="twitter-timeline" data-height="400"
+                      href="https://twitter.com/chia_project?ref_src=twsrc%5Etfw" i18n>
+                      Tweets by OpenChia
+                    </a>
                   </div>
                 </div>
               </div>
@@ -314,7 +235,7 @@
             our giveaway!
           </p>
           <div class="btn-wrapper">
-            <a href="/giveaway" class="btn btn-neutral btn-icon">Read more</a>
+            <a class="btn btn-neutral btn-icon" [routerLink]="['/giveaway']" i18n>Read more</a>
           </div>
         </div>
       </div>
@@ -393,9 +314,10 @@
             It's easy and anyone can participate!
           </p>
           <div class="btn-wrapper">
-            <a href="./examples/register.html" class="btn btn-neutral btn-icon"
-              ><i class="fab fa-github"></i> Open GitHub</a
-            >
+            <a class="btn btn-neutral btn-icon" alt="GitHub" target="_blank"
+              href="https://github.com/openchia/web" i18n>
+              <i class="fab fa-github"></i> Open GitHub
+            </a>
           </div>
         </div>
         <div class="col-lg-5 mb-lg-auto">
