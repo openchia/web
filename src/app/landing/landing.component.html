@@ -217,13 +217,10 @@
             either the Chia GUI/CLI. Our OpenChia community can help you on the
             Discord server. Ready? Let's go!
           </p>
-          <a
-            class="btn btn-neutral btn-icon btn-discord"
-            href="/join"
-            target="_blank"
-            i18n
-            >Join community on Discord</a
-          >
+          <a class="btn btn-neutral btn-icon btn-discord" target="_blank"
+            href="https://discord.gg/2URS9H7RZn" i18n>
+            Join community on Discord
+          </a>
         </div>
         <div class="ml-auto mr-auto col-md-8 col-lg-7">
           <div class="tab-content tab-space">
@@ -314,7 +311,7 @@
             our giveaway!
           </p>
           <div class="btn-wrapper">
-            <a href="/giveaway" class="btn btn-neutral btn-icon">Read more</a>
+            <a class="btn btn-neutral btn-icon" [routerLink]="['/giveaway']" i18n>Read more</a>
           </div>
         </div>
       </div>
@@ -393,9 +390,10 @@
             It's easy and anyone can participate!
           </p>
           <div class="btn-wrapper">
-            <a href="./examples/register.html" class="btn btn-neutral btn-icon"
-              ><i class="fab fa-github"></i> Open GitHub</a
-            >
+            <a class="btn btn-neutral btn-icon" alt="GitHub" target="_blank"
+              href="https://github.com/openchia/web" i18n>
+              <i class="fab fa-github"></i> Open GitHub
+            </a>
           </div>
         </div>
         <div class="col-lg-5 mb-lg-auto">
