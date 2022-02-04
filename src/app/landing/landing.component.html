@@ -54,7 +54,6 @@
           </div>
         </div>
       </div>
-      <!-- SVG separator -->
       <div class="separator separator-bottom separator-skew">
         <svg x="0" y="0" viewBox="0 0 2560 100" preserveAspectRatio="none" version="1.1"
           xmlns="http://www.w3.org/2000/svg">
@@ -62,8 +61,9 @@
         </svg>
       </div>
     </section>
-    <!-- 1st Hero Variation -->
   </div>
+
+  <!-- Cards -->
   <section class="section section-md pt-lg-0 mt--200">
     <div class="container">
       <div class="row justify-content-center">
@@ -113,29 +113,6 @@
                 </div>
               </div>
             </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <section class="section section-sm">
-    <div class="container">
-      <div class="row row-grid align-items-center">
-        <div class="col-md-12">
-          <div class="pl-md-7" #ContainerRef>
-            <ngx-charts-area-chart [view]="[ContainerRef.offsetWidth]" [scheme]="colorScheme"
-              [legend]="legend" [showXAxisLabel]="showXAxisLabel" [showYAxisLabel]="showYAxisLabel"
-              [xAxis]="xAxis" [yAxis]="yAxis" [yAxisLabel]="yAxisLabel" [timeline]="timeline"
-              [results]="data" [yAxisTickFormatting]="yAxisFormat" [autoScale]="true">
-              <ng-template #seriesTooltipTemplate let-model="model">
-                {{ model[0].label }}<br />
-                {{ model[0].name }}
-              </ng-template>
-              <ng-template #tooltipTemplate let-model="model">
-                {{ model.label }}<br />
-                {{ model.name }}
-              </ng-template>
-            </ngx-charts-area-chart>
           </div>
         </div>
       </div>
