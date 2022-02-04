@@ -165,7 +165,7 @@
   <section class="section section-sm">
     <div class="container">
       <div class="row row-grid align-items-center">
-        <div class="col-md-8">
+        <div class="col-md-12">
           <div class="pl-md-7" #ContainerRef>
             <ngx-charts-area-chart
               [view]="[ContainerRef.offsetWidth]"
@@ -192,14 +192,6 @@
             </ngx-charts-area-chart>
           </div>
         </div>
-        <div class="col-md-4">
-          <a
-            class="twitter-timeline"
-            data-height="500"
-            href="https://twitter.com/OpenChia?ref_src=twsrc%5Etfw"
-            >Tweets by OpenChia</a
-          >
-        </div>
       </div>
     </div>
   </section>
@@ -225,56 +217,21 @@
         <div class="ml-auto mr-auto col-md-8 col-lg-7">
           <div class="tab-content tab-space">
             <div class="tab-pane active">
-              <div class="row">
+              <div class="row justify-content-center">
                 <div class="col-md-6">
-                  <div
-                    class="card-pricing card-landing-join bg-white border-0 text-center mb-4 card"
-                  >
-                    <div class="bg-transparent card-header">
-                      <h6 class="text-uppercase ls-1 py-3 mb-0 text-primary">
-                        <b i18n>OpenChia Pool</b>
-                      </h6>
-                    </div>
-                    <div class="card-body">
-                      <div class="display-2" i18n>1%</div>
-                      <span i18n>Pool Fee</span>
-                      <ul class="list-unstyled my-4">
-                        <li class="align-items-center" i18n>
-                          Weekly giveaways
-                        </li>
-                        <li class="align-items-center" i18n>All opensource</li>
-                        <li class="align-items-center" i18n>
-                          Native mobile app
-                        </li>
-                        <li class="align-items-center" i18n>Complete APIs</li>
-                      </ul>
-                    </div>
+                  <div class="card-pricing card-landing-join bg-white border-0 text-center mb-4 card">
+                    <a class="twitter-timeline" data-height="400"
+                      href="https://twitter.com/OpenChia?ref_src=twsrc%5Etfw" i18n>
+                      Tweets by OpenChia
+                    </a>
                   </div>
                 </div>
                 <div class="col-md-6">
-                  <div
-                    class="card-pricing card-landing-join bg-white border-0 text-center mb-4 card"
-                  >
-                    <div class="bg-transparent card-header">
-                      <h6
-                        class="text-uppercase ls-1 py-3 mb-0 text-primary"
-                        i18n
-                      >
-                        Other Pools
-                      </h6>
-                    </div>
-                    <div class="card-body">
-                      <div class="display-2" i18n>1%</div>
-                      <span i18n>Pool Fee</span>
-                      <ul class="list-unstyled my-4">
-                        <li class="align-items-center" i18n>No giveaways</li>
-                        <li class="align-items-center" i18n>No opensource</li>
-                        <li class="align-items-center" i18n>
-                          Not often mobile app
-                        </li>
-                        <li class="align-items-center" i18n>Small APIs</li>
-                      </ul>
-                    </div>
+                  <div class="card-pricing card-landing-join bg-white border-0 text-center mb-4 card">
+                    <a class="twitter-timeline" data-height="400"
+                      href="https://twitter.com/chia_project?ref_src=twsrc%5Etfw" i18n>
+                      Tweets by OpenChia
+                    </a>
                   </div>
                 </div>
               </div>
