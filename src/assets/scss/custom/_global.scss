@@ -219,6 +219,7 @@
 }
 
 // Progress bar default color
+
 .ngx-progress-bar {
     --color-bar: #129b00;
     --color-value: #525f7f;
@@ -226,6 +227,7 @@
 }
 
 // Alert animation delay
+
 .alert-delay-1s {
     animation: show-alert 0s 1s forwards;
     visibility: hidden;
@@ -240,4 +242,29 @@
     to {
         visibility: visible;
     }
+}
+
+// Shell code
+
+.card-shell {
+    border-radius: 5px;
+    color: #f4f5f7;
+    background-color: #000;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.code-shell {
+    color: #fff;
+    padding-left: 20px;
+}
+
+// Text
+
+.text-shadow {
+    text-shadow: 1px 1px 5px rgba(0,0,100,.2);
+}
+
+.justify-content-bottom {
+    padding-bottom: 20px;
 }
