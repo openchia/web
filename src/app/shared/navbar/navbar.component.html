@@ -28,15 +28,15 @@
           </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" role="button" [routerLink]="['/stats']">
-            <i class="ni ni-ui-04 d-lg-none"></i>
-            <span class="nav-link-inner" i18n="@@Stats">Stats</span>
-          </a>
-        </li>
-        <li class="nav-item">
           <a class="nav-link" role="button" [routerLink]="['/explorer']">
             <i class="ni ni-ui-04 d-lg-none"></i>
             <span class="nav-link-inner" i18n="@@Explorer">Explorer</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" role="button" [routerLink]="['/giveaway']">
+            <i class="ni ni-ui-04 d-lg-none"></i>
+            <span class="nav-link-inner" i18n="@@Giveaway">Giveaway</span>
           </a>
         </li>
         <li ngbDropdown class="nav-item dropdown">
@@ -46,6 +46,10 @@
             <span class="nav-link-inner" i18n="@@More">More</span>
           </a>
           <div class="dropdown-menu" aria-labelledby="moreDropdown" ngbDropdownMenu>
+            <a ngbDropdownItem class="dropdown-item" role="button" [routerLink]="['/stats']">
+              <i class="ni ni-ui-04 d-lg-none"></i>
+              <span class="nav-link-inner" i18n="@@Stats">Stats</span>
+            </a>
             <a ngbDropdownItem class="dropdown-item" role="button" [routerLink]="['/calculator']">
               <i class="ni ni-ui-04 d-lg-none"></i>
               <span class="nav-link-inner" i18n="@@Calculator">Calculator</span>
@@ -53,10 +57,6 @@
             <a ngbDropdownItem class="dropdown-item" role="button" [routerLink]="['/referral']">
               <i class="ni ni-ui-04 d-lg-none"></i>
               <span class="nav-link-inner" i18n="@@Referral">Referral</span>
-            </a>
-            <a ngbDropdownItem class="dropdown-item" role="button" [routerLink]="['/giveaway']">
-              <i class="ni ni-ui-04 d-lg-none"></i>
-              <span class="nav-link-inner" i18n="@@Giveaway">Giveaway</span>
             </a>
             <a ngbDropdownItem class="dropdown-item" role="button" [routerLink]="['/fees']">
               <i class="ni ni-ui-04 d-lg-none"></i>
