@@ -39,25 +39,13 @@
             <span class="nav-link-inner" i18n="@@Explorer">Explorer</span>
           </a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" role="button" [routerLink]="['/fees']">
-            <i class="ni ni-ui-04 d-lg-none"></i>
-            <span class="nav-link-inner" i18n="@@Fees">Fees</span>
-          </a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" role="button" [routerLink]="['/giveaway']">
-            <i class="ni ni-ui-04 d-lg-none"></i>
-            <span class="nav-link-inner" i18n="@@Giveaway">Giveaway</span>
-          </a>
-        </li>
         <li ngbDropdown class="nav-item dropdown">
           <a ngbDropdownToggle class="nav-link dropdown-toggle" data-toggle="dropdown"
-          aria-haspopup="true" aria-expanded="false" id="extrasDropdown" role="button">
+          aria-haspopup="true" aria-expanded="false" id="moreDropdown" role="button">
             <i class="ni ni-collection d-lg-none"></i>
-            <span class="nav-link-inner" i18n="@@Extras">Extras</span>
+            <span class="nav-link-inner" i18n="@@More">More</span>
           </a>
-          <div class="dropdown-menu" aria-labelledby="extrasDropdown" ngbDropdownMenu>
+          <div class="dropdown-menu" aria-labelledby="moreDropdown" ngbDropdownMenu>
             <a ngbDropdownItem class="dropdown-item" role="button" [routerLink]="['/calculator']">
               <i class="ni ni-ui-04 d-lg-none"></i>
               <span class="nav-link-inner" i18n="@@Calculator">Calculator</span>
@@ -65,6 +53,14 @@
             <a ngbDropdownItem class="dropdown-item" role="button" [routerLink]="['/referral']">
               <i class="ni ni-ui-04 d-lg-none"></i>
               <span class="nav-link-inner" i18n="@@Referral">Referral</span>
+            </a>
+            <a ngbDropdownItem class="dropdown-item" role="button" [routerLink]="['/giveaway']">
+              <i class="ni ni-ui-04 d-lg-none"></i>
+              <span class="nav-link-inner" i18n="@@Giveaway">Giveaway</span>
+            </a>
+            <a ngbDropdownItem class="dropdown-item" role="button" [routerLink]="['/fees']">
+              <i class="ni ni-ui-04 d-lg-none"></i>
+              <span class="nav-link-inner" i18n="@@Fees">Fees</span>
             </a>
             <a ngbDropdownItem class="dropdown-item" role="button" href="/api/doc/" target="_blank">
               <i class="ni ni-ui-04 d-lg-none"></i>
@@ -114,31 +110,55 @@
           <a ngbDropdownToggle class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"
             aria-expanded="false" id="languageDropdown" role="button">
             <i class="ni ni-collection d-lg-none"></i>
-            <span class="nav-link-inner--text">{{ locale | uppercase }}</span>
+            <span class="nav-link-inner--text">
+              <span class="nav-link-inner--text">{{ locale | uppercase }}</span>
+            </span>
           </a>
           <div class="dropdown-menu" aria-labelledby="languageDropdown" ngbDropdownMenu>
-            <a ngbDropdownItem href="/cs/" class="dropdown-item"><img src="./assets/img/flags/cs.png" class="mr-2"
-                style="width:20px">Čeština</a>
-            <a ngbDropdownItem href="/de/" class="dropdown-item"><img src="./assets/img/flags/de.png" class="mr-2"
-                style="width:20px">Deutsch</a>
-            <a ngbDropdownItem href="/en/" class="dropdown-item"><img src="./assets/img/flags/en.png" class="mr-2"
-                style="width:20px">English</a>
-            <a ngbDropdownItem href="/es/" class="dropdown-item"><img src="./assets/img/flags/es.png" class="mr-2"
-                style="width:20px">Español</a>
-            <a ngbDropdownItem href="/fr/" class="dropdown-item"><img src="./assets/img/flags/fr.png" class="mr-2"
-                style="width:20px">Français</a>
-            <a ngbDropdownItem href="/hu/" class="dropdown-item"><img src="./assets/img/flags/hu.png" class="mr-2"
-                style="width:20px">Magyar</a>
-            <a ngbDropdownItem href="/pl/" class="dropdown-item"><img src="./assets/img/flags/pl.png" class="mr-2"
-                style="width:20px">Polski</a>
-            <a ngbDropdownItem href="/pt/" class="dropdown-item"><img src="./assets/img/flags/pt.png" class="mr-2"
-                style="width:20px">Português</a>
-            <a ngbDropdownItem href="/ru/" class="dropdown-item"><img src="./assets/img/flags/ru.png" class="mr-2"
-                style="width:20px">Pусский</a>
-            <a ngbDropdownItem href="/sk/" class="dropdown-item"><img src="./assets/img/flags/sk.png" class="mr-2"
-                style="width:20px">Slovenčina</a>
-            <a ngbDropdownItem href="/zh-CN/" class="dropdown-item"><img src="./assets/img/flags/zh-CN.png" class="mr-2"
-                style="width:20px">简体中文</a>
+            <a ngbDropdownItem href="/cs/" class="dropdown-item">
+              <img src="./assets/img/flags/cs.png" class="mr-2 flags" />
+              Čeština
+            </a>
+            <a ngbDropdownItem href="/de/" class="dropdown-item">
+              <img src="./assets/img/flags/de.png" class="mr-2 flags" />
+              Deutsch
+            </a>
+            <a ngbDropdownItem href="/en/" class="dropdown-item">
+              <img src="./assets/img/flags/en.png" class="mr-2 flags" />
+              English
+            </a>
+            <a ngbDropdownItem href="/es/" class="dropdown-item">
+              <img src="./assets/img/flags/es.png" class="mr-2 flags" />
+              Español
+            </a>
+            <a ngbDropdownItem href="/fr/" class="dropdown-item">
+              <img src="./assets/img/flags/fr.png" class="mr-2 flags" />
+              Français
+            </a>
+            <a ngbDropdownItem href="/hu/" class="dropdown-item">
+              <img src="./assets/img/flags/hu.png" class="mr-2 flags" />
+              Magyar
+            </a>
+            <a ngbDropdownItem href="/pl/" class="dropdown-item">
+              <img src="./assets/img/flags/pl.png" class="mr-2 flags" />
+              Polski
+            </a>
+            <a ngbDropdownItem href="/pt/" class="dropdown-item">
+              <img src="./assets/img/flags/pt.png" class="mr-2 flags" />
+              Português
+            </a>
+            <a ngbDropdownItem href="/ru/" class="dropdown-item">
+              <img src="./assets/img/flags/ru.png" class="mr-2 flags" />
+              Pусский
+            </a>
+            <a ngbDropdownItem href="/sk/" class="dropdown-item">
+              <img src="./assets/img/flags/sk.png" class="mr-2 flags" />
+              Slovenčina
+            </a>
+            <a ngbDropdownItem href="/zh-CN/" class="dropdown-item">
+              <img src="./assets/img/flags/zh-CN.png" class="mr-2 flags" />
+              简体中文
+            </a>
           </div>
         </li>
       </ul>
