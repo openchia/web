@@ -22,14 +22,14 @@
     <div class="form-group">
       <div class="justify-centent">
         <div class="col-lg-12">
-          <div class="row row-grid">
+          <div class="row row-grid justify-content-center">
             <div class="col-lg-2 justify-content-center">
               <input #calculator class="form-control" type="text"
                 id="calculatorTextInput" name="calculatorTextInput"
                 value="{{ calculator_plots_current }}" (input)="$event.target.value"
                 oninput="calculatorRangeInput.value=calculatorTextInput.value">
             </div>
-            <div class="col-lg-8 justify-content-center">
+            <div class="col-lg-10 justify-content-center">
               <input #calculator class="form-control form-control-range-bar" type="range"
                 id="calculatorRangeInput" name="calculatorRangeInput"
                 min="{{ calculator_plots_min }}" max="{{ calculator_plots_max }}"
