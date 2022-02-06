@@ -1,4 +1,6 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ViewChild } from '@angular/core';
+import { NgTerminal } from 'ng-terminal';
+import { Observable } from 'rxjs';
 import { DataService } from '../data.service';
 
 @Component({
@@ -8,6 +10,7 @@ import { DataService } from '../data.service';
 })
 
 export class StatsComponent implements OnInit {
+  @ViewChild('term', { static: true }) child: NgTerminal;
 
   // Pool Space chart options
   spaceLegend: boolean = false;
@@ -33,11 +36,15 @@ export class StatsComponent implements OnInit {
   blocksData: any[] = null;
   blocksDays: number = 7;
 
+  log$: Observable<string>;
+
   colorScheme = {
     domain: ['#129b00']
   };
 
-  constructor(private dataService: DataService) { }
+  constructor(private dataService: DataService) {
+    this.log$ = dataService.log$;
+  }
 
   ngOnInit() {
 
