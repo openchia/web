@@ -16,29 +16,85 @@
 <section class="section section-sm text-center">
   <div class="container">
 
-    <!-- Pool space chart -->
-    <section class="section section-sm">
-      <div class="container">
-        <div class="row row-grid align-items-center">
-          <div class="col-md-12">
-            <div class="pl-md-7" #ContainerRef>
-              <ngx-charts-area-chart [view]="[ContainerRef.offsetWidth]" [scheme]="colorScheme"
-                [legend]="legend" [showXAxisLabel]="showXAxisLabel" [showYAxisLabel]="showYAxisLabel"
-                [xAxis]="xAxis" [yAxis]="yAxis" [yAxisLabel]="yAxisLabel" [timeline]="timeline"
-                [results]="data" [yAxisTickFormatting]="yAxisFormat" [autoScale]="true">
-                <ng-template #seriesTooltipTemplate let-model="model">
-                  {{ model[0].label }}<br />
-                  {{ model[0].name }}
-                </ng-template>
-                <ng-template #tooltipTemplate let-model="model">
-                  {{ model.label }}<br />
-                  {{ model.name }}
-                </ng-template>
-              </ngx-charts-area-chart>
+    <section class="section section-md">
+      <div id="accordion" class="cd-section">
+        <div class="accordion-1">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-6 mx-auto text-center">
+                <h2 class="title mb-3 mt-5" i18n>🚀 Stats</h2>
+              </div>
+            </div>
+            <br/>
+            <div class="row">
+              <div class="col-md-12 ml-auto">
+                <div id="accordionFeesPool" class="accordion">
+                  <div class="card">
+                    <div id="headingOne" class="card-header card-join">
+                      <h5 class="mb-0">
+                        <button aria-controls="collapseOne" id="collapseOne" 
+                          type="button" class="btn btn-link w-100 text-primary text-left" 
+                          aria-expanded="true" i18n>Pool Space <i class="ni ni-bold-down float-right pt-1"></i>
+                        </button>
+                      </h5>
+                    </div>
+                    <div aria-labelledby="headingOne" data-parent="#accordionPoolSpace"
+                      id="collapseOne" class="show collapse in" style="display: block;"
+                      aria-expanded="false" aria-hidden="false" #ContainerRef>
+                      <br/>
+                      <ngx-charts-area-chart [view]="[ContainerRef.offsetWidth]" [scheme]="colorScheme"
+                        [legend]="spaceLegend" [showXAxisLabel]="spaceShowAxisXLabel" [showYAxisLabel]="spaceShowAxisYLabel"
+                        [xAxis]="spaceAxisX" [yAxis]="spaceAxisY" [timeline]="spaceShowTimeline"
+                        [results]="spaceData" [yAxisTickFormatting]="spaceFormatAxisY" [autoScale]="true">
+                        <ng-template #seriesTooltipTemplate let-model="model">
+                          {{ model[0].label }}<br />
+                          {{ model[0].name }}
+                        </ng-template>
+                        <ng-template #tooltipTemplate let-model="model">
+                          {{ model.label }}<br />
+                          {{ model.name }}
+                        </ng-template>
+                      </ngx-charts-area-chart>
+                      <br/>
+                    </div>
+                  </div>
+                  <!--
+                  <div class="card">
+                    <div id="headingOne" class="card-header card-join">
+                      <h5 class="mb-0">
+                        <button aria-controls="collapseOne" id="collapseOne" 
+                          type="button" class="btn btn-link w-100 text-primary text-left" 
+                          aria-expanded="true" i18n>Blocks Found <i class="ni ni-bold-down float-right pt-1"></i>
+                        </button>
+                      </h5>
+                    </div>
+                    <div aria-labelledby="headingOne" data-parent="#accordionBlocksFound"
+                      id="collapseOne" class="show collapse in" style="display: block;"
+                      aria-expanded="false" aria-hidden="false" #ContainerRef>
+                      <br/>
+                      <ngx-charts-area-chart [view]="[ContainerRef.offsetWidth]" [scheme]="colorScheme"
+                        [legend]="blocksLegend" [showXAxisLabel]="blocksShowAxisXLabel" [showYAxisLabel]="blocksShowAxisYLabel"
+                        [xAxis]="blocksAxisX" [yAxis]="blocksAxisY" [timeline]="blocksShowTimeline"
+                        [results]="blocksData" [autoScale]="true">
+                        <ng-template #seriesTooltipTemplate let-model="model">
+                          {{ model[0].label }}<br />
+                          {{ model[0].name }}
+                        </ng-template>
+                        <ng-template #tooltipTemplate let-model="model">
+                          {{ model.label }}<br />
+                          {{ model.name }}
+                        </ng-template>
+                      </ngx-charts-area-chart>
+                      <br/>
+                    </div>
+                  </div>
+                  -->
+                </div>
+              </div>
             </div>
           </div>
         </div>
-      </div>
+      </div>  
     </section>
 
   </div>

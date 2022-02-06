@@ -9,17 +9,29 @@ import { DataService } from '../data.service';
 
 export class StatsComponent implements OnInit {
 
-  // options
-  legend: boolean = false;
-  showLabels: boolean = true;
-  animations: boolean = true;
-  xAxis: boolean = false;
-  yAxis: boolean = true;
-  showXAxisLabel: boolean = false;
-  showYAxisLabel: boolean = true;
-  yAxisLabel: string = 'Pool Space';
-  timeline: boolean = false;
-  data: any[] = null;
+  // Pool Space chart options
+  spaceLegend: boolean = false;
+  spaceShowLabels: boolean = false;
+  spaceAnimations: boolean = true;
+  spaceAxisX: boolean = false;
+  spaceAxisY: boolean = true;
+  spaceShowAxisXLabel: boolean = false;
+  spaceShowAxisYLabel: boolean = false;
+  spaceShowTimeline: boolean = false;
+  spaceData: any[] = null;
+  spaceDays: number = 7;
+
+  // Blocks Found chart options
+  blocksLegend: boolean = false;
+  blocksShowLabels: boolean = false;
+  blocksAnimations: boolean = true;
+  blocksAxisX: boolean = false;
+  blocksAxisY: boolean = true;
+  blocksShowAxisXLabel: boolean = false;
+  blocksShowAxisYLabel: boolean = false;
+  blocksShowTimeline: boolean = false;
+  blocksData: any[] = null;
+  blocksDays: number = 7;
 
   colorScheme = {
     domain: ['#129b00']
@@ -28,8 +40,9 @@ export class StatsComponent implements OnInit {
   constructor(private dataService: DataService) { }
 
   ngOnInit() {
-    this.dataService.getPoolSpace().subscribe((d) => {
-      this.data = [{
+
+    this.dataService.getPoolSpace(this.spaceDays).subscribe((d) => {
+      this.spaceData = [{
         "name": "Size",
         "series": (<any[]>d).map((item) => {
           return ({
@@ -40,10 +53,11 @@ export class StatsComponent implements OnInit {
         })
       }];
     });
+
   }
 
-  yAxisFormat(data) {
-    return (data / 1024 / 1024 / 1024 / 1024 / 1024).toFixed(2).toString() + ' PiB';
+  spaceFormatAxisY(spaceData) {
+    return (spaceData / 1024 / 1024 / 1024 / 1024 / 1024).toFixed(2).toString() + ' PiB';
   }
 
 }
