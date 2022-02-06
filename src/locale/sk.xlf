@@ -1,1496 +1,1421 @@
-<?xml version="1.0" encoding="UTF-8"?><xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" srcLang="en" trgLang="sk" version="2.0">
-<file id="ngi18n" original="ng.template">
-<unit id="1004766315783326842">
-<segment>
-<source xml:space="preserve">ETW</source>
-<target xml:space="preserve">Odhadovaný čas na výhru</target>
-</segment>
-</unit>
-<unit id="1007625284753612149">
-<segment>
-<source xml:space="preserve">Frontend Developer</source>
-<target xml:space="preserve">Frontend Developer</target>
-</segment>
-</unit>
-<unit id="1037127944915137232">
-<segment>
-<source xml:space="preserve">Learn how to set name here.</source>
-<target xml:space="preserve">Prečítajte si, ako nastaviť názov.</target>
-</segment>
-</unit>
-<unit id="1063462873103909661">
-<segment>
-<source xml:space="preserve">Difficulty</source>
-<target xml:space="preserve">Zložitosť</target>
-</segment>
-</unit>
-<unit id="1140108877159163263">
-<segment>
-<source xml:space="preserve">No blocks found!</source>
-<target xml:space="preserve">Nenašli sa žiadne bloky!</target>
-</segment>
-</unit>
-<unit id="1175065931767236325">
-<segment>
-<source xml:space="preserve">No farmers found!</source>
-<target xml:space="preserve">Nenájdený žiadny farmár!</target>
-</segment>
-</unit>
-<unit id="1289545646802926160">
-<segment>
-<source xml:space="preserve">We reserve the right to change fees for new referrals at any time.</source>
-<target xml:space="preserve">We reserve the right to change fees for new referrals at any time.</target>
-</segment>
-</unit>
-<unit id="136762463398753526">
-<segment>
-<source xml:space="preserve">Low fee with referral option.</source>
-<target xml:space="preserve">Low fee with referral option.</target>
-</segment>
-</unit>
-<unit id="1401585310581586757">
-<segment>
-<source xml:space="preserve">Have your friend join the pool and login to the pool website using the Plot NFT login link. He will confirm you are his referrer. (Referrer is filled automatically if he visited the website with your link)</source>
-<target xml:space="preserve">Have your friend join the pool and login to the pool website using the Plot NFT login link. He will confirm you are his referrer. (Referrer is filled automatically if he visited the website with your link)</target>
-</segment>
-</unit>
-<unit id="1638630395802416450">
-<segment>
-<source xml:space="preserve"> They&apos;re offering cutting edge cryptocurrency technology of today and tomorrow. Cardano is a cryptocurrency network and open source project that aims to run a public blockchain platform for smart contracts. Cardano&apos;s internal cryptocurrency is called ADA!</source>
-<target xml:space="preserve"> They&apos;re offering cutting edge cryptocurrency technology of today and tomorrow. Cardano is a cryptocurrency network and open source project that aims to run a public blockchain platform for smart contracts. Cardano&apos;s internal cryptocurrency is called ADA!</target>
-</segment>
-</unit>
-<unit id="1718704299775385181">
-<segment>
-<source xml:space="preserve">Do not attempt close loop of referral. e.g. A -&gt; B -&gt; C -&gt; A.</source>
-<target xml:space="preserve">Do not attempt close loop of referral. e.g. A -&gt; B -&gt; C -&gt; A.</target>
-</segment>
-</unit>
-<unit id="1758435593288719047">
-<segment>
-<source xml:space="preserve">go to “faucet” text channel</source>
-<target xml:space="preserve">Pokračovať vo "faucet" vlákne</target>
-</segment>
-</unit>
-<unit id="1774008180173753624">
-<segment>
-<source xml:space="preserve">Successful Partials</source>
-<target xml:space="preserve">Úspešné dielčie bloky</target>
-</segment>
-</unit>
-<unit id="1783078519944991756">
-<segment>
-<source xml:space="preserve">Failed to authenticate! Check your URL and try again.</source>
-<target xml:space="preserve">Nepodarilo sa overiť! Skontrolujte svoju URL adresu a skúste to znova.</target>
-</segment>
-</unit>
-<unit id="1797292337796232493">
-<segment>
-<source xml:space="preserve">OpenChia believes in a future that blockchain and cryptocurrency can exist without degrading the environment and helping make the world a better place. We believe Chia and Cardano can coexist to help make that happen. If you&apos;d like to know more about Cardano and/or join a legitimate staking pool please visit <pc dispEnd="&lt;/a&gt;" dispStart="&lt;a         href=&quot;https://vivid-pool.info/&quot; target=&quot;_blank&quot;&gt;" equivEnd="CLOSE_LINK" equivStart="START_LINK" id="0" type="link">Vivid Pool.</pc>
-</source>
-<target xml:space="preserve">OpenChia believes in a future that blockchain and cryptocurrency can exist without degrading the environment and helping make the world a better place. We believe Chia and Cardano can coexist to help make that happen. If you&apos;d like to know more about Cardano and/or join a legitimate staking pool please visit <pc dispEnd="&lt;/a&gt;" dispStart="&lt;a         href=&quot;https://vivid-pool.info/&quot; target=&quot;_blank&quot;&gt;" equivEnd="CLOSE_LINK" equivStart="START_LINK" id="0" type="link">Vivid Pool.</pc>
-</target>
-</segment>
-</unit>
-<unit id="1918146053125551227">
-<segment>
-<source xml:space="preserve">
-<pc dispEnd="&lt;/a&gt;" dispStart="&lt;a href=&quot;https://vivid-pool.info/&quot; target=&quot;_blank&quot;&gt;" equivEnd="CLOSE_LINK" equivStart="START_LINK" id="0" type="link">Vivid Stake Pool</pc> allows you to stake in Cardano. If you deposit your Fiat Money on your bank account you will receive 1-3 % profit per year which will be paid after at least a few months. In Cardano it is the opposite: you receive high profits as high as 5-8 % per year which is paid every 5 days!</source>
-<target xml:space="preserve">
-<pc dispEnd="&lt;/a&gt;" dispStart="&lt;a href=&quot;https://vivid-pool.info/&quot; target=&quot;_blank&quot;&gt;" equivEnd="CLOSE_LINK" equivStart="START_LINK" id="0" type="link">Vivid Stake Pool</pc> allows you to stake in Cardano. If you deposit your Fiat Money on your bank account you will receive 1-3 % profit per year which will be paid after at least a few months. In Cardano it is the opposite: you receive high profits as high as 5-8 % per year which is paid every 5 days!</target>
-</segment>
-</unit>
-<unit id="1921163817420022648">
-<segment>
-<source xml:space="preserve">Login to the pool website using your Plot NFT login link and go to the &quot;Referrals&quot; tab.</source>
-<target xml:space="preserve">Login to the pool website using your Plot NFT login link and go to the &quot;Referrals&quot; tab.</target>
-</segment>
-</unit>
-<unit id="1931139842666967640">
-<segment>
-<source xml:space="preserve">Have you asked yourself who are the people running Chia pools? Do you trust them? </source>
-<target xml:space="preserve">Pýtali ste sa sami seba, kto sú ľudia prevádzkujúci Chia združenia? Veríte im? </target>
-</segment>
-</unit>
-<unit id="1949302126255810191">
-<segment>
-<source xml:space="preserve">Reward Distribution</source>
-<target xml:space="preserve">Rozdelenie odmien</target>
-</segment>
-</unit>
-<unit id="1976239811515748183">
-<segment>
-<source xml:space="preserve">Until 1st October 2021 (2021/10/01)</source>
-<target xml:space="preserve">Do 1. októbra 2021 (2021/10/01)</target>
-</segment>
-</unit>
-<unit id="1987379316591371803">
-<segment>
-<source xml:space="preserve">Payouts</source>
-<target xml:space="preserve">Výplaty</target>
-</segment>
-</unit>
-<unit id="2026871242381918065">
-<segment>
-<source xml:space="preserve">What are non-portable (OG) and portable plots (NFT)?</source>
-<target xml:space="preserve">Čo sú neprenosné (OG) a prenosné polia (NFT)?</target>
-</segment>
-</unit>
-<unit id="2032214384688052707">
-<segment>
-<source xml:space="preserve">Frequentely Asked Questions (F.A.Q.)</source>
-<target xml:space="preserve">Často kladené otázky (F.A.Q.)</target>
-</segment>
-</unit>
-<unit id="2041082387182328462">
-<segment>
-<source xml:space="preserve">Enjoy 0% pool fee until October 2021.</source>
-<target xml:space="preserve">Užite si 0% poplatok združenia do októbra 2021.</target>
-</segment>
-</unit>
-<unit id="2097611575880598770">
-<segment>
-<source xml:space="preserve">Chat with us</source>
-<target xml:space="preserve">Chatujte s nami</target>
-</segment>
-</unit>
-<unit id="2153109973251079314">
-<segment>
-<source xml:space="preserve">Learn how to set name here.</source>
-<target xml:space="preserve">Prečítajte si, ako nastaviť názov.</target>
-</segment>
-</unit>
-<unit id="223937640624116360">
-<segment>
-<source xml:space="preserve">Can I switch from/to your pool whenever I want?</source>
-<target xml:space="preserve">Môžem sa kedykoľvek odpojiť z vášho združenia alebo sa k nemu kedykoľvek pripojiť?</target>
-</segment>
-</unit>
-<unit id="2252939334456578689">
-<segment>
-<source xml:space="preserve">Go to &quot;Pool&quot; menu in the left menu</source>
-<target xml:space="preserve">Prejdite do ponuky „Združenie“ v ľavom menu</target>
-</segment>
-</unit>
-<unit id="2261097846853869505">
-<segment>
-<source xml:space="preserve">You will receive 20% of the pool fee for every payment made to your friend. That value comes out of the pool and not from your friend reward!</source>
-<target xml:space="preserve">You will receive 20% of the pool fee for every payment made to your friend. That value comes out of the pool and not from your friend reward!</target>
-</segment>
-</unit>
-<unit id="2264932589847833892">
-<segment>
-<source xml:space="preserve">Farmer Details</source>
-<target xml:space="preserve">Prehľad farmy</target>
-</segment>
-</unit>
-<unit id="2303041439224647987">
-<segment>
-<source xml:space="preserve">Connection</source>
-<target xml:space="preserve">Pripojenie</target>
-</segment>
-</unit>
-<unit id="2318140886847115923">
-<segment>
-<source xml:space="preserve">Pool server real-time log</source>
-<target xml:space="preserve">Denník servera združenia v reálnom čase</target>
-</segment>
-</unit>
-<unit id="2351744948046490518">
-<segment>
-<source xml:space="preserve">Join our pool</source>
-<target xml:space="preserve">Pripojte sa do nášho združenia</target>
-</segment>
-</unit>
-<unit id="2396139623688857660">
-<segment>
-<source xml:space="preserve">How to set name in explorer? (alias)</source>
-<target xml:space="preserve">Ako nastaviť názov v prehliadači? (alias)</target>
-</segment>
-</unit>
-<unit id="24036095495322476">
-<segment>
-<source xml:space="preserve">Last Partials (24 hours)</source>
-<target xml:space="preserve">Posledné dielčie bloky (24 hodín)</target>
-</segment>
-</unit>
-<unit id="2469056745486120197">
-<segment>
-<source xml:space="preserve">Fee: 1%</source>
-<target xml:space="preserve">Fee: 1%</target>
-</segment>
-</unit>
-<unit id="2637241189361251661">
-<segment>
-<source xml:space="preserve">.faucet &lt;wallet address&gt;</source>
-<target xml:space="preserve">.faucet &lt;adresa peňaženky&gt;</target>
-</segment>
-</unit>
-<unit id="2644032998932147111">
-<segment>
-<source xml:space="preserve">If a reward of 1.75 XCH is found, only 1% of that, 0.0175 will be kept to the pool as a fee. The remaining 1.7325 XCH will be distributed to pool farmers.</source>
-<target xml:space="preserve">Ak sa získa odmena 1,75 XCH, len 1% z toho (čiže 0,0175) zostane združeniu ako poplatok. Zvyšných 1,7325 XCH sa rozdelí farmárom v rámci združenia.</target>
-</segment>
-</unit>
-<unit id="2669308838649487392">
-<segment>
-<source xml:space="preserve">Show failed partials only</source>
-<target xml:space="preserve">Zobraziť len neúspešné dielčie bloky</target>
-</segment>
-</unit>
-<unit id="2756022432863940642">
-<segment>
-<source xml:space="preserve">Failed Partials</source>
-<target xml:space="preserve">Neúspešné dielčie bloky</target>
-</segment>
-</unit>
-<unit id="2806917038528218276">
-<segment>
-<source xml:space="preserve">FAQ</source>
-<target xml:space="preserve">FAQ</target>
-</segment>
-</unit>
-<unit id="2821179408673282599">
-<segment>
-<source xml:space="preserve">Home</source>
-<target xml:space="preserve">Domov</target>
-</segment>
-</unit>
-<unit id="2905619048308246310">
-<segment>
-<source xml:space="preserve">All our software is open source.</source>
-<target xml:space="preserve">Celý náš softvér je open source.</target>
-</segment>
-</unit>
-<unit id="2921627933919469894">
-<segment>
-<source xml:space="preserve">Farmers</source>
-<target xml:space="preserve">Farmári</target>
-</segment>
-</unit>
-<unit id="2926474126478443738">
-<segment>
-<source xml:space="preserve">Not synced!</source>
-<target xml:space="preserve">Not synced!</target>
-</segment>
-</unit>
-<unit id="2929691011645001388">
-<segment>
-<source xml:space="preserve">% of total</source>
-<target xml:space="preserve">% z celku</target>
-</segment>
-</unit>
-<unit id="3033623772164647792">
-<segment>
-<source xml:space="preserve">Height</source>
-<target xml:space="preserve">Výška</target>
-</segment>
-</unit>
-<unit id="3037348742943406028">
-<segment>
-<source xml:space="preserve"> Payouts will happen within 5 minutes of the farmed block.<ph disp="&lt;br /&gt;" equiv="LINE_BREAK" id="0" type="fmt"/>
-<pc dispEnd="&lt;/p&gt;" dispStart="&lt;p&gt;" equivEnd="CLOSE_PARAGRAPH" equivStart="START_PARAGRAPH" id="1" type="other"> These terms are subjected to change and will be communicated 1 week prior to the change in this website and on Discord channel. </pc>
-</source>
-<target xml:space="preserve"> Payouts will happen within 5 minutes of the farmed block.<ph disp="&lt;br /&gt;" equiv="LINE_BREAK" id="0" type="fmt"/>
-<pc dispEnd="&lt;/p&gt;" dispStart="&lt;p&gt;" equivEnd="CLOSE_PARAGRAPH" equivStart="START_PARAGRAPH" id="1" type="other"> These terms are subjected to change and will be communicated 1 week prior to the change in this website and on Discord channel. </pc>
-</target>
-</segment>
-</unit>
-<unit id="3145581158682357446">
-<segment>
-<source xml:space="preserve">
-<ph disp="{{ rewards_blocks }}" equiv="INTERPOLATION" id="0"/> farmed</source>
-<target xml:space="preserve">
-<ph disp="{{ rewards_blocks }}" equiv="INTERPOLATION" id="0"/> farmed</target>
-</segment>
-</unit>
-<unit id="3173354168032548090">
-<segment>
-<source xml:space="preserve">How many portable plots do I need to join the pool?</source>
-<target xml:space="preserve">Koľko prenosných polí potrebujem na pripojenie sa k združeniu?</target>
-</segment>
-</unit>
-<unit id="3179472790665120358">
-<segment>
-<source xml:space="preserve">Fees are structured this way</source>
-<target xml:space="preserve">Poplatky sú štruktúrované týmto spôsobom</target>
-</segment>
-</unit>
-<unit id="3223637037001251732">
-<segment>
-<source xml:space="preserve">Farmer</source>
-<target xml:space="preserve">Farmár</target>
-</segment>
-</unit>
-<unit id="3406747127815684711">
-<segment>
-<source xml:space="preserve">Netspace</source>
-<target xml:space="preserve">Veľkosť siete</target>
-</segment>
-</unit>
-<unit id="3458332391940035038">
-<segment>
-<source xml:space="preserve">System Administrator</source>
-<target xml:space="preserve">Správca systému</target>
-</segment>
-</unit>
-<unit id="3630057890731840343">
-<segment>
-<source xml:space="preserve">A pool you can trust.</source>
-<target xml:space="preserve">Združenie, ktorému môžete dôverovať.</target>
-</segment>
-</unit>
-<unit id="3687194426938367329">
-<segment>
-<source xml:space="preserve">Partners</source>
-<target xml:space="preserve">Partneri</target>
-</segment>
-</unit>
-<unit id="3720651283513261307">
-<segment>
-<source xml:space="preserve">Instant payout</source>
-<target xml:space="preserve">Okamžitá výplata</target>
-</segment>
-</unit>
-<unit id="3768927257183755959">
-<segment>
-<source xml:space="preserve">Save</source>
-<target xml:space="preserve">Uložiť</target>
-</segment>
-</unit>
-<unit id="3888743417810877091">
-<segment>
-<source xml:space="preserve">1% Fee</source>
-<target xml:space="preserve">1% Fee</target>
-</segment>
-</unit>
-<unit id="3896519408731471839">
-<segment>
-<source xml:space="preserve">OpenChia believes that in a future blockchain and cryptocurrency can exist without degrading the environment and helping make the world a better place. We believe Chia and Cardano can coexist to help make that happen. If you&apos;d like to know more about Cardano and/or join a legitimate staking pool please visit <pc dispEnd="&lt;/a&gt;" dispStart="&lt;a         href=&quot;https://vivid-pool.info/&quot; target=&quot;_blank&quot;&gt;" equivEnd="CLOSE_LINK" equivStart="START_LINK" id="0" type="link">Vivid Pool</pc>.</source>
-<target xml:space="preserve">OpenChia believes that in a future blockchain and cryptocurrency can exist without degrading the environment and helping make the world a better place. We believe Chia and Cardano can coexist to help make that happen. If you&apos;d like to know more about Cardano and/or join a legitimate staking pool please visit <pc dispEnd="&lt;/a&gt;" dispStart="&lt;a         href=&quot;https://vivid-pool.info/&quot; target=&quot;_blank&quot;&gt;" equivEnd="CLOSE_LINK" equivStart="START_LINK" id="0" type="link">Vivid Pool</pc>.</target>
-</segment>
-</unit>
-<unit id="3900702001221590652">
-<segment>
-<source xml:space="preserve">No blocks found by this farmer!</source>
-<target xml:space="preserve">Tento farmár nenašiel žiadne bloky!</target>
-</segment>
-</unit>
-<unit id="3973931101896534797">
-<segment>
-<source xml:space="preserve">Date</source>
-<target xml:space="preserve">Dátum</target>
-</segment>
-</unit>
-<unit id="4033388457681035533">
-<segment>
-<source xml:space="preserve">Business and Marketing</source>
-<target xml:space="preserve">Biznis a marketing</target>
-</segment>
-</unit>
-<unit id="4040786877830825878">
-<segment>
-<source xml:space="preserve"> Payouts will happen within 5 minutes of the farmed block.<ph disp="&lt;br /&gt;" equiv="LINE_BREAK" id="0" type="fmt"/>
-<pc dispEnd="&lt;/p&gt;" dispStart="&lt;p&gt;" equivEnd="CLOSE_PARAGRAPH" equivStart="START_PARAGRAPH" id="1" type="other"> These terms are subjected to change and will be communicated 1 week prior to the change in this website and on Discord channel. </pc>
-</source>
-<target xml:space="preserve"> Payouts will happen within 5 minutes of the farmed block.<ph disp="&lt;br /&gt;" equiv="LINE_BREAK" id="0" type="fmt"/>
-<pc dispEnd="&lt;/p&gt;" dispStart="&lt;p&gt;" equivEnd="CLOSE_PARAGRAPH" equivStart="START_PARAGRAPH" id="1" type="other"> These terms are subjected to change and will be communicated 1 week prior to the change in this website and on Discord channel. </pc>
-</target>
-</segment>
-</unit>
-<unit id="4062617929041832221">
-<segment>
-<source xml:space="preserve">farmer doesn&apos;t exist, has left and/or has been removed.</source>
-<target xml:space="preserve">farmer doesn&apos;t exist, has left and/or has been removed.</target>
-</segment>
-</unit>
-<unit id="4127571452382238225">
-<segment>
-<source xml:space="preserve">Explorer</source>
-<target xml:space="preserve">Prieskumník</target>
-</segment>
-</unit>
-<unit id="4165674190938428121">
-<segment>
-<source xml:space="preserve">Make sure you are running official Chia client 1.2.0 or later.</source>
-<target xml:space="preserve">Uistite sa, že používate oficiálny klient Chia 1.2.0 alebo novší.</target>
-</segment>
-</unit>
-<unit id="4188492714860880995">
-<segment>
-<source xml:space="preserve">Thank you for trusting us!</source>
-<target xml:space="preserve">Ďakujeme, že nám dôverujete!</target>
-</segment>
-</unit>
-<unit id="4239635668959543337">
-<segment>
-<source xml:space="preserve">We have more than 20 years of combined experience in the software development industry.</source>
-<target xml:space="preserve">Po spočítaní našich individuálnych skúseností, máme spolu viac ako 20 rokov skúseností v oblasti vývoja softvéru.</target>
-</segment>
-</unit>
-<unit id="4267952904665583656">
-<segment>
-<source xml:space="preserve">before joining the pool, your node and wallet must be fully synchronized with Chia blockchain</source>
-<target xml:space="preserve">pred vstupom do združenia musia byť váš uzol a peňaženka plne synchronizované s Chia blockchainom</target>
-</segment>
-</unit>
-<unit id="427062538161914083">
-<segment>
-<source xml:space="preserve">Official Chia Instructions.</source>
-<target xml:space="preserve">Oficiálne pokyny Chia.</target>
-</segment>
-</unit>
-<unit id="4420171943937772574">
-<segment>
-<source xml:space="preserve">go to the “Pool” tab, and click on “Join the Pool”</source>
-<target xml:space="preserve">prejdite na kartu „Združenie“ a kliknite na „Pripojiť sa k združeniu“</target>
-</segment>
-</unit>
-<unit id="4423939679955683675">
-<segment>
-<source xml:space="preserve">A reward of 1.75 XCH will be distributed to pool farmers, 0 XCH (nothing) is kept to the pool.</source>
-<target xml:space="preserve">Farmárom v združení bude rozdelená odmena 1,75 XCH. 0 XCH (nič) sa ponechá združeniu.</target>
-</segment>
-</unit>
-<unit id="4500995370545031926">
-<segment>
-<source xml:space="preserve">How Chia pools work?</source>
-<target xml:space="preserve">Ako fungujú Chia združenia?</target>
-</segment>
-</unit>
-<unit id="4501612350036673473">
-<segment>
-<source xml:space="preserve">Get your reward as soon as possible.</source>
-<target xml:space="preserve">Získajte svoju odmenu čo najskôr.</target>
-</segment>
-</unit>
-<unit id="4580988005648117665">
-<segment>
-<source xml:space="preserve">Search</source>
-<target xml:space="preserve">Hľadať</target>
-</segment>
-</unit>
-<unit id="4591435416961869603">
-<segment>
-<source xml:space="preserve"> (unknown) <pc dispEnd="&lt;/i&gt;" dispStart="&lt;i class=&quot;fas fa-info-circle&quot;                 ngbTooltip=&quot;Unknown because this user arrived before the integration of this function in pool.&quot;&gt;" equivEnd="CLOSE_ITALIC_TEXT" equivStart="START_ITALIC_TEXT" id="0" type="fmt"/>
-</source>
-<target xml:space="preserve"> (unknown) <pc dispEnd="&lt;/i&gt;" dispStart="&lt;i class=&quot;fas fa-info-circle&quot;                 ngbTooltip=&quot;Unknown because this user arrived before the integration of this function in pool.&quot;&gt;" equivEnd="CLOSE_ITALIC_TEXT" equivStart="START_ITALIC_TEXT" id="0" type="fmt"/>
-</target>
-</segment>
-</unit>
-<unit id="4645345687322304891">
-<segment>
-<source xml:space="preserve">Rules</source>
-<target xml:space="preserve">Rules</target>
-</segment>
-</unit>
-<unit id="4686179819982655014">
-<segment>
-<source xml:space="preserve">Receive some XCH</source>
-<target xml:space="preserve">Získajte nejaké XCH</target>
-</segment>
-</unit>
-<unit id="4839405892539527393">
-<segment>
-<source xml:space="preserve">Create plots using that plotnft:</source>
-<target xml:space="preserve">Vytvorte polia pomocou toho NFT poľa:</target>
-</segment>
-</unit>
-<unit id="4862418072620251283">
-<segment>
-<source xml:space="preserve">No referrals found for this farmer!</source>
-<target xml:space="preserve">No referrals found for this farmer!</target>
-</segment>
-</unit>
-<unit id="4887086279398746047">
-<segment>
-<source xml:space="preserve">The effort that was required to farm the block. 100% is the expected estimated time to win. Lower than 100% means we farmed the block before the estimation. Higher than 100% means we took longer than anticipated.</source>
-<target xml:space="preserve">The effort that was required to farm the block. 100% is the expected estimated time to win. Lower than 100% means we farmed the block before the estimation. Higher than 100% means we took longer than anticipated.</target>
-</segment>
-</unit>
-<unit id="4894182895116318049">
-<segment>
-<source xml:space="preserve">Harvester ID</source>
-<target xml:space="preserve">ID zberača</target>
-</segment>
-</unit>
-<unit id="498428897195803218">
-<segment>
-<source xml:space="preserve">Distribution System: PPLNS</source>
-<target xml:space="preserve">Systém rozdeľovania odmien: PPLNS</target>
-</segment>
-</unit>
-<unit id="5012084291992448490">
-<segment>
-<source xml:space="preserve">Fees</source>
-<target xml:space="preserve">Poplatky</target>
-</segment>
-</unit>
-<unit id="5043891966437752386">
-<segment>
-<source xml:space="preserve">Launcher ID</source>
-<target xml:space="preserve">ID spúšťača</target>
-</segment>
-</unit>
-<unit id="5088299831715376392">
-<segment>
-<source xml:space="preserve">If a reward of 1.75 XCH is found, only 1% of that, 0.0175 will be kept to the pool as a fee. The remaining 1.7325 XCH will be distributed to pool farmers.</source>
-<target xml:space="preserve">Ak sa získa odmena 1,75 XCH, len 1% z toho (čiže 0,0175) zostane združeniu ako poplatok. Zvyšných 1,7325 XCH sa rozdelí farmárom v rámci združenia.</target>
-</segment>
-</unit>
-<unit id="5200920908020858748">
-<segment>
-<source xml:space="preserve">click the “Create” button. In the next couple of minutes, the Plot NFT will be created, and it will appear in your “Pool” tab</source>
-<target xml:space="preserve">click the “Create” button. In the next couple of minutes, the Plot NFT will be created, and it will appear in your “Pool” tab</target>
-</segment>
-</unit>
-<unit id="5254622645701859101">
-<segment>
-<source xml:space="preserve">Points</source>
-<target xml:space="preserve">Body</target>
-</segment>
-</unit>
-<unit id="5265690573497854746">
-<segment>
-<source xml:space="preserve">You can now start creating Plots in “Plots” tab using this new Plot NFT to start farming XCH</source>
-<target xml:space="preserve">You can now start creating Plots in “Plots” tab using this new Plot NFT to start farming XCH</target>
-</segment>
-</unit>
-<unit id="5407189743553466183">
-<segment>
-<source xml:space="preserve">Use of good faith and don&apos;t refer yourself in any shape or form.</source>
-<target xml:space="preserve">Use of good faith and don&apos;t refer yourself in any shape or form.</target>
-</segment>
-</unit>
-<unit id="5421336367436045349">
-<segment>
-<source xml:space="preserve">All our software is open source. </source>
-<target xml:space="preserve">Celý náš softvér je open source. </target>
-</segment>
-</unit>
-<unit id="5493504549864464172">
-<segment>
-<source xml:space="preserve">Use above link to refer people to this pool. They will be required to join the pool and login to the website to confirm the referral.</source>
-<target xml:space="preserve">Use above link to refer people to this pool. They will be required to join the pool and login to the website to confirm the referral.</target>
-</segment>
-</unit>
-<unit id="5530479554673343767">
-<segment>
-<source xml:space="preserve"> We use PPLNS (Pay Per Last N Shares) to distribute rewards.<ph disp="&lt;br /&gt;" equiv="LINE_BREAK" id="0" type="fmt"/> When a block is won, we look at the valid partials (shares) submitted by all users in the pool since last payout and distribute the reward value based on your share among all farmers in the pool.<ph disp="&lt;br /&gt;" equiv="LINE_BREAK" id="1" type="fmt"/> In our case Last N Shares refers to partials since last payout. We believe this system is far more fair for less frequent rewards (when Last N Shares means only last few hours), since people contributing for more time will get more rewards.<ph disp="&lt;br /&gt;" equiv="LINE_BREAK" id="2" type="fmt"/> Once our estimated time to win gets below 48 hours we plan on changing the Last N Shares to 48 hours of valid partials. </source>
-<target xml:space="preserve"> We use PPLNS (Pay Per Last N Shares) to distribute rewards.<ph disp="&lt;br /&gt;" equiv="LINE_BREAK" id="0" type="fmt"/> When a block is won, we look at the valid partials (shares) submitted by all users in the pool since last payout and distribute the reward value based on your share among all farmers in the pool.<ph disp="&lt;br /&gt;" equiv="LINE_BREAK" id="1" type="fmt"/> In our case Last N Shares refers to partials since last payout. We believe this system is far more fair for less frequent rewards (when Last N Shares means only last few hours), since people contributing for more time will get more rewards.<ph disp="&lt;br /&gt;" equiv="LINE_BREAK" id="2" type="fmt"/> Once our estimated time to win gets below 48 hours we plan on changing the Last N Shares to 48 hours of valid partials. </target>
-</segment>
-</unit>
-<unit id="5667847308793189855">
-<segment>
-<source xml:space="preserve">Average effort to farm a block in the last 30 days.</source>
-<target xml:space="preserve">Average effort to farm a block in the last 30 days.</target>
-</segment>
-</unit>
-<unit id="5683785837580689751">
-<segment>
-<source xml:space="preserve">How to join us</source>
-<target xml:space="preserve">Ako sa k nám pripojiť</target>
-</segment>
-</unit>
-<unit id="5701428712894376039">
-<segment>
-<source xml:space="preserve">Sync your full node and wallet</source>
-<target xml:space="preserve">Synchronizujte celý uzol a peňaženku</target>
-</segment>
-</unit>
-<unit id="571806966107540033">
-<segment>
-<source xml:space="preserve">Can I join a pool with non-portable (OG) plots?</source>
-<target xml:space="preserve">Can I join a pool with non-portable (OG) plots?</target>
-</segment>
-</unit>
-<unit id="573605943360652415">
-<segment>
-<source xml:space="preserve">join</source>
-<target xml:space="preserve">pripojiť sa</target>
-</segment>
-</unit>
-<unit id="5782428644169779738">
-<segment>
-<source xml:space="preserve">Profitability based on blocks farmed on last 30 days. Estimated value (XCH) a farmer would get per TiB per day.</source>
-<target xml:space="preserve">Profitability based on blocks farmed on last 30 days. Estimated value (XCH) a farmer would get per TiB per day.</target>
-</segment>
-</unit>
-<unit id="5784227755295047072">
-<segment>
-<source xml:space="preserve">0% Fee</source>
-<target xml:space="preserve">0% poplatok</target>
-</segment>
-</unit>
-<unit id="5860197662083362352">
-<segment>
-<source xml:space="preserve">How do I check my referrals?</source>
-<target xml:space="preserve">How do I check my referrals?</target>
-</segment>
-</unit>
-<unit id="5880915392762070234">
-<segment>
-<source xml:space="preserve">No minimum payout</source>
-<target xml:space="preserve">Žiadna minimálna výplata</target>
-</segment>
-</unit>
-<unit id="5911214550882917183">
-<segment>
-<source xml:space="preserve">State</source>
-<target xml:space="preserve">Stav</target>
-</segment>
-</unit>
-<unit id="5942490619473756728">
-<segment>
-<source xml:space="preserve">After 1st October</source>
-<target xml:space="preserve">Po 1. októbri</target>
-</segment>
-</unit>
-<unit id="5992977313238905164">
-<segment>
-<source xml:space="preserve">Points (24 hours)</source>
-<target xml:space="preserve">Body (24 hodín)</target>
-</segment>
-</unit>
-<unit id="605761694003152703">
-<segment>
-<source xml:space="preserve">We have nothing to hide. Full blown explorer and live logs.</source>
-<target xml:space="preserve">Nemáme čo skrývať. Plný funkčný prieskumník, a denník servera v reálnom čase.</target>
-</segment>
-</unit>
-<unit id="6327177447190265105">
-<segment>
-<source xml:space="preserve">Verify plotnft and copy contract address:</source>
-<target xml:space="preserve">Overte NFT poľa a skopírujte adresu zmluvy:</target>
-</segment>
-</unit>
-<unit id="6377117377899970613">
-<segment>
-<source xml:space="preserve">Create Plot NFT</source>
-<target xml:space="preserve">Vytvoriť NFT poľa</target>
-</segment>
-</unit>
-<unit id="6410467948610503551">
-<segment>
-<source xml:space="preserve">Index</source>
-<target xml:space="preserve">Index</target>
-</segment>
-</unit>
-<unit id="6423838518528989093">
-<segment>
-<source xml:space="preserve">Before 1st October</source>
-<target xml:space="preserve">Pred 1. októbrom</target>
-</segment>
-</unit>
-<unit id="6428143771369644145">
-<segment>
-<source xml:space="preserve">Pool Space</source>
-<target xml:space="preserve">Veľkosť združenia</target>
-</segment>
-</unit>
-<unit id="6445111019676735745">
-<segment>
-<source xml:space="preserve">Payout</source>
-<target xml:space="preserve">Výplata</target>
-</segment>
-</unit>
-<unit id="6478666049745113178">
-<segment>
-<source xml:space="preserve">A reward of 1.75 XCH will be distributed to pool farmers, 0 XCH (nothing) is kept to the pool.</source>
-<target xml:space="preserve">A reward of 1.75 XCH will be distributed to pool farmers, 0 XCH (nothing) is kept to the pool.</target>
-</segment>
-</unit>
-<unit id="6533918067030990396">
-<segment>
-<source xml:space="preserve">Amount</source>
-<target xml:space="preserve">Suma</target>
-</segment>
-</unit>
-<unit id="6579386880718541736">
-<segment>
-<source xml:space="preserve">type in message box:</source>
-<target xml:space="preserve">napište správu:</target>
-</segment>
-</unit>
-<unit id="6609923537067370114">
-<segment>
-<source xml:space="preserve">Earn XCH by referring your friends to this pool!</source>
-<target xml:space="preserve">Earn XCH by referring your friends to this pool!</target>
-</segment>
-</unit>
-<unit id="6741838149332998818">
-<segment>
-<source xml:space="preserve">Who we are</source>
-<target xml:space="preserve">Kto sme</target>
-</segment>
-</unit>
-<unit id="6816717018247718709">
-<segment>
-<source xml:space="preserve">Official Pool Protocol</source>
-<target xml:space="preserve">Oficiálny protokol pre združenia</target>
-</segment>
-</unit>
-<unit id="6828977561113207354">
-<segment>
-<source xml:space="preserve">If you already have a Plot NFT select &quot;Change Pool&quot; then enter https://pool.openchia.io.</source>
-<target xml:space="preserve">If you already have a Plot NFT select &quot;Change Pool&quot; then enter https://pool.openchia.io.</target>
-</segment>
-</unit>
-<unit id="6880713934119717799">
-<segment>
-<source xml:space="preserve">Friendly Name</source>
-<target xml:space="preserve">Priateľský názov</target>
-</segment>
-</unit>
-<unit id="6901531604019957317">
-<segment>
-<source xml:space="preserve">Software Engineer</source>
-<target xml:space="preserve">Softvérový inžinier</target>
-</segment>
-</unit>
-<unit id="6930616437385085682">
-<segment>
-<source xml:space="preserve">Partials</source>
-<target xml:space="preserve">Dielčie bloky</target>
-</segment>
-</unit>
-<unit id="6948786787037977434">
-<segment>
-<source xml:space="preserve">Blocks</source>
-<target xml:space="preserve">Bloky</target>
-</segment>
-</unit>
-<unit id="6955537025048058867">
-<segment>
-<source xml:space="preserve">
-<ph disp="{{ farmers }}" equiv="INTERPOLATION" id="0"/> total</source>
-<target xml:space="preserve">
-<ph disp="{{ farmers }}" equiv="INTERPOLATION" id="0"/> total</target>
-</segment>
-</unit>
-<unit id="6962632162131341925">
-<segment>
-<source xml:space="preserve">Pool URL</source>
-<target xml:space="preserve">URL adresa združenia</target>
-</segment>
-</unit>
-<unit id="7075059674276878139">
-<segment>
-<source xml:space="preserve">Transparent</source>
-<target xml:space="preserve">Transparentnosť</target>
-</segment>
-</unit>
-<unit id="713513496522359111">
-<segment>
-<source xml:space="preserve">Please meet our partners, together for a better world.</source>
-<target xml:space="preserve">Zoznámte sa s našimi partnermi, spoločne pre lepší svet.</target>
-</segment>
-</unit>
-<unit id="7143444199300614511">
-<segment>
-<source xml:space="preserve">Create Plot NFT:</source>
-<target xml:space="preserve">Vytvoriť NFT poľa:</target>
-</segment>
-</unit>
-<unit id="7290072656116822388">
-<segment>
-<source xml:space="preserve">No payouts found!</source>
-<target xml:space="preserve">Neboli nájdené žiadne výplaty!</target>
-</segment>
-</unit>
-<unit id="7375935383488695163">
-<segment>
-<source xml:space="preserve">Refer your friends to this pool using the URL https://openchia.io?referrer=YOUR_LAUNCHER_ID. Replace YOUR_LAUNCHER_ID with the Launcher ID from your Plot NFT. </source>
-<target xml:space="preserve">Refer your friends to this pool using the URL https://openchia.io?referrer=YOUR_LAUNCHER_ID. Replace YOUR_LAUNCHER_ID with the Launcher ID from your Plot NFT. </target>
-</segment>
-</unit>
-<unit id="7422727091201325409">
-<segment>
-<source xml:space="preserve">Go to &quot;Plots&quot; menu in the left menu.</source>
-<target xml:space="preserve">Go to &quot;Plots&quot; menu in the left menu.</target>
-</segment>
-</unit>
-<unit id="7452975614303290488">
-<segment>
-<source xml:space="preserve">No partials found!</source>
-<target xml:space="preserve">Neboli nájdené žiadne dielčie bloky!</target>
-</segment>
-</unit>
-<unit id="7600229961018223463">
-<segment>
-<source xml:space="preserve">choose “Connect to pool” and enter the url: https://pool.openchia.io (exactly, no ending slash) then wait for pool description to appear</source>
-<target xml:space="preserve">choose “Connect to pool” and enter the url: https://pool.openchia.io (exactly, no ending slash) then wait for pool description to appear</target>
-</segment>
-</unit>
-<unit id="760044993052786414">
-<segment>
-<source xml:space="preserve">Estimated Size </source>
-<target xml:space="preserve">Odhadovaná veľkosť </target>
-</segment>
-</unit>
-<unit id="7623464505437750989">
-<segment>
-<source xml:space="preserve">Welcome to OpenChia.io</source>
-<target xml:space="preserve">Vitajte na OpenChia.io</target>
-</segment>
-</unit>
-<unit id="7682426834922031140">
-<segment>
-<source xml:space="preserve">Why wait to get your rewards?</source>
-<target xml:space="preserve">Why wait to get your rewards?</target>
-</segment>
-</unit>
-<unit id="7780941567931401606">
-<segment>
-<source xml:space="preserve">Farmer Update</source>
-<target xml:space="preserve">Farmer Update</target>
-</segment>
-</unit>
-<unit id="789888685484703987">
-<segment>
-<source xml:space="preserve">Do you have any other questions?</source>
-<target xml:space="preserve">Do you have any other questions?</target>
-</segment>
-</unit>
-<unit id="7904374983883510569">
-<segment>
-<source xml:space="preserve">Partials (24 hours)</source>
-<target xml:space="preserve">Dielčie bloky (24 hodín)</target>
-</segment>
-</unit>
-<unit id="807089867044050822">
-<segment>
-<source xml:space="preserve">No blocks found by this farmed!</source>
-<target xml:space="preserve">Tento farmár nenašiel žiadne bloky!</target>
-</segment>
-</unit>
-<unit id="8311659957519204575">
-<segment>
-<source xml:space="preserve">Estimated Size</source>
-<target xml:space="preserve">Odhadovaná veľkosť</target>
-</segment>
-</unit>
-<unit id="8371722561970711209">
-<segment>
-<source xml:space="preserve">chia plots create -c &lt;contract address from above&gt;</source>
-<target xml:space="preserve">chia plots create -c &lt;contract address from above&gt;</target>
-</segment>
-</unit>
-<unit id="8398056438540085583">
-<segment>
-<source xml:space="preserve">
-<ph disp="{{ estimate_win / 60 / 24 | number }}" equiv="INTERPOLATION" id="0"/> days</source>
-<target xml:space="preserve">
-<ph disp="{{ estimate_win / 60 / 24 | number }}" equiv="INTERPOLATION" id="0"/> days</target>
-</segment>
-</unit>
-<unit id="8407551821312874924">
-<segment>
-<source xml:space="preserve">you are going to need 1 mojo (0.000000000001 XCH) which you can get through our faucet service on Discord channel or through Faucet website:</source>
-<target xml:space="preserve">you are going to need 1 mojo (0.000000000001 XCH) which you can get through our faucet service on Discord channel or through Faucet website:</target>
-</segment>
-</unit>
-<unit id="841934696444961534">
-<segment>
-<source xml:space="preserve">News</source>
-<target xml:space="preserve">Novinky</target>
-</segment>
-</unit>
-<unit id="8440937360712650656">
-<segment>
-<source xml:space="preserve">Since Last Win</source>
-<target xml:space="preserve">Since Last Win</target>
-</segment>
-</unit>
-<unit id="8447672339763475319">
-<segment>
-<source xml:space="preserve">If you already have a Plot NFT select &quot;Change Pool&quot; then enter https://pool.openchia.io</source>
-<target xml:space="preserve">If you already have a Plot NFT select &quot;Change Pool&quot; then enter https://pool.openchia.io</target>
-</segment>
-</unit>
-<unit id="8479159211474411356">
-<segment>
-<source xml:space="preserve"> We use PPLNS (Pay Per Last N Shares) to distribute rewards.<ph disp="&lt;br /&gt;" equiv="LINE_BREAK" id="0" type="fmt"/> When a block is won, we look at the valid partials (shares) submitted by all users in the pool since last payout and distribute the reward value based on your share among all farmers in the pool.<ph disp="&lt;br /&gt;" equiv="LINE_BREAK" id="1" type="fmt"/> In our case Last N Shares refers to partials since last payout. We believe this system is far more fair for less frequent rewards (when Last N Shares means only last few hours), since people contributing for more time will get more rewards.<ph disp="&lt;br /&gt;" equiv="LINE_BREAK" id="2" type="fmt"/> Once our estimated time to win gets below 48 hours we plan on changing the Last N Shares to 48 hours of valid partials. </source>
-<target xml:space="preserve"> We use PPLNS (Pay Per Last N Shares) to distribute rewards.<ph disp="&lt;br /&gt;" equiv="LINE_BREAK" id="0" type="fmt"/> When a block is won, we look at the valid partials (shares) submitted by all users in the pool since last payout and distribute the reward value based on your share among all farmers in the pool.<ph disp="&lt;br /&gt;" equiv="LINE_BREAK" id="1" type="fmt"/> In our case Last N Shares refers to partials since last payout. We believe this system is far more fair for less frequent rewards (when Last N Shares means only last few hours), since people contributing for more time will get more rewards.<ph disp="&lt;br /&gt;" equiv="LINE_BREAK" id="2" type="fmt"/> Once our estimated time to win gets below 48 hours we plan on changing the Last N Shares to 48 hours of valid partials. </target>
-</segment>
-</unit>
-<unit id="8497528947328199741">
-<segment>
-<source xml:space="preserve">Time</source>
-<target xml:space="preserve">Čas</target>
-</segment>
-</unit>
-<unit id="8504648059270671021">
-<segment>
-<source xml:space="preserve">Let&apos;s get in touch on any of these platforms.</source>
-<target xml:space="preserve">Let&apos;s get in touch on any of these platforms.</target>
-</segment>
-</unit>
-<unit id="8559170870663360229">
-<segment>
-<source xml:space="preserve">Examples</source>
-<target xml:space="preserve">Príklady</target>
-</segment>
-</unit>
-<unit id="8616757634091748553">
-<segment>
-<source xml:space="preserve">Blocks Found</source>
-<target xml:space="preserve">Nájdené bloky</target>
-</segment>
-</unit>
-<unit id="8751484695665236751">
-<segment>
-<source xml:space="preserve"> They are offering cutting-edge cryptocurrency technology of today and tomorrow. Vivid Stake Pool allows you to stake in Cardano. If you deposit your Fiat Money on your bank account, you will receive 1-3 % profit per year which will be paid after at least a few months. In Cardano it is the opposite: you receive high profits as high as 5-8 % per year which is paid every 5 days!</source>
-<target xml:space="preserve"> They are offering cutting-edge cryptocurrency technology of today and tomorrow. Vivid Stake Pool allows you to stake in Cardano. If you deposit your Fiat Money on your bank account, you will receive 1-3 % profit per year which will be paid after at least a few months. In Cardano it is the opposite: you receive high profits as high as 5-8 % per year which is paid every 5 days!</target>
-</segment>
-</unit>
-<unit id="8758786563911669380">
-<segment>
-<source xml:space="preserve">Click “Change” button</source>
-<target xml:space="preserve">Click “Change” button</target>
-</segment>
-</unit>
-<unit id="879650116501482755">
-<segment>
-<source xml:space="preserve">How does it work?</source>
-<target xml:space="preserve">How does it work?</target>
-</segment>
-</unit>
-<unit id="8942351587754185907">
-<segment>
-<source xml:space="preserve">API</source>
-<target xml:space="preserve">API</target>
-</segment>
-</unit>
-<unit id="9008803606625370175">
-<segment>
-<source xml:space="preserve">No wallets found!</source>
-<target xml:space="preserve">No wallets found!</target>
-</segment>
-</unit>
-<unit id="9050075434132831491">
-<segment>
-<source xml:space="preserve">Referral Link</source>
-<target xml:space="preserve">Referral Link</target>
-</segment>
-</unit>
-<unit id="9059627454378411922">
-<segment>
-<source xml:space="preserve">Show failed partials only</source>
-<target xml:space="preserve">Show failed partials only</target>
-</segment>
-</unit>
-<unit id="9130593304627753298">
-<segment>
-<source xml:space="preserve">Synced</source>
-<target xml:space="preserve">Synced</target>
-</segment>
-</unit>
-<unit id="91968095428425686">
-<segment>
-<source xml:space="preserve">XCH Price</source>
-<target xml:space="preserve">Cena XCH</target>
-</segment>
-</unit>
-<unit id="9201971930509716006">
-<segment>
-<source xml:space="preserve">Fee: 0%</source>
-<target xml:space="preserve">Poplatok: 0%</target>
-</segment>
-</unit>
-<unit id="API">
-<segment>
-<source xml:space="preserve">API</source>
-<target xml:space="preserve">API</target>
-</segment>
-</unit>
-<unit id="Amount">
-<segment>
-<source xml:space="preserve">Amount</source>
-<target xml:space="preserve">Suma</target>
-</segment>
-</unit>
-<unit id="Average">
-<segment>
-<source xml:space="preserve">Average</source>
-<target xml:space="preserve">Average</target>
-</segment>
-</unit>
-<unit id="Beta">
-<segment>
-<source xml:space="preserve">BETA</source>
-<target xml:space="preserve">BETA</target>
-</segment>
-</unit>
-<unit id="Blocks">
-<segment>
-<source xml:space="preserve">Blocks</source>
-<target xml:space="preserve">Bloky</target>
-</segment>
-</unit>
-<unit id="Count">
-<segment>
-<source xml:space="preserve">Count</source>
-<target xml:space="preserve">Počet</target>
-</segment>
-</unit>
-<unit id="CurrentEffort">
-<segment>
-<source xml:space="preserve">Current Effort</source>
-<target xml:space="preserve">Current Effort</target>
-</segment>
-</unit>
-<unit id="Date">
-<segment>
-<source xml:space="preserve">Date</source>
-<target xml:space="preserve">Dátum</target>
-</segment>
-</unit>
-<unit id="Details">
-<segment>
-<source xml:space="preserve">Details</source>
-<target xml:space="preserve">Details</target>
-</segment>
-</unit>
-<unit id="Difficulty">
-<segment>
-<source xml:space="preserve">Difficulty</source>
-<target xml:space="preserve">Zložitosť</target>
-</segment>
-</unit>
-<unit id="Effort">
-<segment>
-<source xml:space="preserve">Effort</source>
-<target xml:space="preserve">Effort</target>
-</segment>
-</unit>
-<unit id="EstimatedSpace">
-<segment>
-<source xml:space="preserve">Estimated Space</source>
-<target xml:space="preserve">Odhadovaná veľkosť</target>
-</segment>
-</unit>
-<unit id="Explorer">
-<segment>
-<source xml:space="preserve">Explorer</source>
-<target xml:space="preserve">Prieskumník</target>
-</segment>
-</unit>
-<unit id="FAQ">
-<segment>
-<source xml:space="preserve">FAQ</source>
-<target xml:space="preserve">FAQ</target>
-</segment>
-</unit>
-<unit id="Failed">
-<segment>
-<source xml:space="preserve">Failed</source>
-<target xml:space="preserve">Failed</target>
-</segment>
-</unit>
-<unit id="Farmer">
-<segment>
-<source xml:space="preserve">Farmer</source>
-<target xml:space="preserve">Farmer</target>
-</segment>
-</unit>
-<unit id="Farmers">
-<segment>
-<source xml:space="preserve">Farmers</source>
-<target xml:space="preserve">Farmári</target>
-</segment>
-</unit>
-<unit id="Fee">
-<segment>
-<source xml:space="preserve">Fee</source>
-<target xml:space="preserve">Poplatok</target>
-</segment>
-</unit>
-<unit id="Fees">
-<segment>
-<source xml:space="preserve">Fees</source>
-<target xml:space="preserve">Fees</target>
-</segment>
-</unit>
-<unit id="Harversters">
-<segment>
-<source xml:space="preserve">Harvesters</source>
-<target xml:space="preserve">Zberače</target>
-</segment>
-</unit>
-<unit id="Height">
-<segment>
-<source xml:space="preserve">Height</source>
-<target xml:space="preserve">Výška</target>
-</segment>
-</unit>
-<unit id="Home">
-<segment>
-<source xml:space="preserve">Home</source>
-<target xml:space="preserve">Home</target>
-</segment>
-</unit>
-<unit id="Hrs24">
-<segment>
-<source xml:space="preserve">24 hours</source>
-<target xml:space="preserve">24 hodín</target>
-</segment>
-</unit>
-<unit id="ID">
-<segment>
-<source xml:space="preserve">ID</source>
-<target xml:space="preserve">ID</target>
-</segment>
-</unit>
-<unit id="JoinPool">
-<segment>
-<source xml:space="preserve">Join our pool</source>
-<target xml:space="preserve">Pripojte sa k nášmu združeniu</target>
-</segment>
-</unit>
-<unit id="Joined">
-<segment>
-<source xml:space="preserve">Joined At</source>
-<target xml:space="preserve">Joined At</target>
-</segment>
-</unit>
-<unit id="Launcher">
-<segment>
-<source xml:space="preserve">Launcher ID</source>
-<target xml:space="preserve">ID spúšťača</target>
-</segment>
-</unit>
-<unit id="LauncherID">
-<segment>
-<source xml:space="preserve">Launcher ID</source>
-<target xml:space="preserve">Launcher ID</target>
-</segment>
-</unit>
-<unit id="Leaderboard">
-<segment>
-<source xml:space="preserve">Leaderboard</source>
-<target xml:space="preserve">Leaderboard</target>
-</segment>
-</unit>
-<unit id="Lucky">
-<segment>
-<source xml:space="preserve">Lucky</source>
-<target xml:space="preserve">Lucky</target>
-</segment>
-</unit>
-<unit id="MITLicense">
-<segment>
-<source xml:space="preserve">MIT License</source>
-<target xml:space="preserve">Licencia MIT</target>
-</segment>
-</unit>
-<unit id="NoPayouts">
-<segment>
-<source xml:space="preserve">No payouts found!</source>
-<target xml:space="preserve">Neboli nájdené žiadne výplaty!</target>
-</segment>
-</unit>
-<unit id="NoPayoutsAddrs">
-<segment>
-<source xml:space="preserve">No payouts addresses found!</source>
-<target xml:space="preserve">Neboli nájdené žiadne výplatné adresy!</target>
-</segment>
-</unit>
-<unit id="Partials">
-<segment>
-<source xml:space="preserve">Partials</source>
-<target xml:space="preserve">Dielčie bloky</target>
-</segment>
-</unit>
-<unit id="Partners">
-<segment>
-<source xml:space="preserve">Partners</source>
-<target xml:space="preserve">Partneri</target>
-</segment>
-</unit>
-<unit id="PayoutAddresses">
-<segment>
-<source xml:space="preserve">Payout Addresses</source>
-<target xml:space="preserve">Výplatné adresy</target>
-</segment>
-</unit>
-<unit id="Payouts">
-<segment>
-<source xml:space="preserve">Payouts</source>
-<target xml:space="preserve">Výplaty</target>
-</segment>
-</unit>
-<unit id="Performance">
-<segment>
-<source xml:space="preserve">Performance</source>
-<target xml:space="preserve">Výkon</target>
-</segment>
-</unit>
-<unit id="Points">
-<segment>
-<source xml:space="preserve">Points</source>
-<target xml:space="preserve">Body</target>
-</segment>
-</unit>
-<unit id="PoolWallets">
-<segment>
-<source xml:space="preserve">Pool Wallets</source>
-<target xml:space="preserve">Pool Wallets</target>
-</segment>
-</unit>
-<unit id="Profitability">
-<segment>
-<source xml:space="preserve">Profitability</source>
-<target xml:space="preserve">Profitability</target>
-</segment>
-</unit>
-<unit id="Referral">
-<segment>
-<source xml:space="preserve">Referral</source>
-<target xml:space="preserve">Referral</target>
-</segment>
-</unit>
-<unit id="Referrals">
-<segment>
-<source xml:space="preserve">Referrals <pc dispEnd="&lt;/span&gt;" dispStart="&lt;span class=&quot;beta&quot;&gt;" equivEnd="CLOSE_TAG_SPAN" equivStart="START_TAG_SPAN" id="0" type="other">BETA</pc>
-</source>
-<target xml:space="preserve">Referrals <pc dispEnd="&lt;/span&gt;" dispStart="&lt;span class=&quot;beta&quot;&gt;" equivEnd="CLOSE_TAG_SPAN" equivStart="START_TAG_SPAN" id="0" type="other">BETA</pc>
-</target>
-</segment>
-</unit>
-<unit id="Rewards">
-<segment>
-<source xml:space="preserve">Rewards</source>
-<target xml:space="preserve">Rewards</target>
-</segment>
-</unit>
-<unit id="Save">
-<segment>
-<source xml:space="preserve">Save</source>
-<target xml:space="preserve">Save</target>
-</segment>
-</unit>
-<unit id="Search">
-<segment>
-<source xml:space="preserve">Search</source>
-<target xml:space="preserve">Search</target>
-</segment>
-</unit>
-<unit id="Step">
-<segment>
-<source xml:space="preserve">Step</source>
-<target xml:space="preserve">Krok</target>
-</segment>
-</unit>
-<unit id="Successful">
-<segment>
-<source xml:space="preserve">Successful</source>
-<target xml:space="preserve">Úspešné</target>
-</segment>
-</unit>
-<unit id="Terms">
-<segment>
-<source xml:space="preserve">Terms</source>
-<target xml:space="preserve">Zmluvné podmienky</target>
-</segment>
-</unit>
-<unit id="TotalIncome">
-<segment>
-<source xml:space="preserve">Total Income</source>
-<target xml:space="preserve">Total Income</target>
-</segment>
-</unit>
-<unit id="Transaction">
-<segment>
-<source xml:space="preserve">Transaction</source>
-<target xml:space="preserve">Transakcia</target>
-</segment>
-</unit>
-<unit id="TransactionBlock">
-<segment>
-<source xml:space="preserve">Transaction Block</source>
-<target xml:space="preserve">Transakčný blok</target>
-</segment>
-</unit>
-<unit id="Unknown">
-<segment>
-<source xml:space="preserve">Unknown</source>
-<target xml:space="preserve">Unknown</target>
-</segment>
-</unit>
-<unit id="Unlucky">
-<segment>
-<source xml:space="preserve">Unlucky</source>
-<target xml:space="preserve">Unlucky</target>
-</segment>
-</unit>
-<unit id="Uptime">
-<segment>
-<source xml:space="preserve">Uptime</source>
-<target xml:space="preserve">Doba prevádzky</target>
-</segment>
-</unit>
-<unit id="UtilizationSpace">
-<segment>
-<source xml:space="preserve">Utilization Space</source>
-<target xml:space="preserve">Utilization Space</target>
-</segment>
-</unit>
-<unit id="Warning">
-<segment>
-<source xml:space="preserve">Warning</source>
-<target xml:space="preserve">Upozornenie</target>
-</segment>
-</unit>
-<unit id="ngb.alert.close">
-<segment>
-<source xml:space="preserve">Close</source>
-<target xml:space="preserve">Zavrieť</target>
-</segment>
-</unit>
-<unit id="ngb.carousel.next">
-<segment>
-<source xml:space="preserve">Next</source>
-<target xml:space="preserve">Nasledujúce</target>
-</segment>
-</unit>
-<unit id="ngb.carousel.previous">
-<segment>
-<source xml:space="preserve">Previous</source>
-<target xml:space="preserve">Predchádzajúce</target>
-</segment>
-</unit>
-<unit id="ngb.pagination.first-aria">
-<segment>
-<source xml:space="preserve">First</source>
-<target xml:space="preserve">Prvý</target>
-</segment>
-</unit>
-<unit id="ngb.pagination.last-aria">
-<segment>
-<source xml:space="preserve">Last</source>
-<target xml:space="preserve">Posledný</target>
-</segment>
-</unit>
-<unit id="ngb.pagination.next-aria">
-<segment>
-<source xml:space="preserve">Next</source>
-<target xml:space="preserve">Nasledujúce</target>
-</segment>
-</unit>
-<unit id="ngb.pagination.previous-aria">
-<segment>
-<source xml:space="preserve">Previous</source>
-<target xml:space="preserve">Predchádzajúce</target>
-</segment>
-</unit>
-<unit id="ngb.progressbar.value">
-<segment>
-<source xml:space="preserve">
-<ph disp="ber { return th" equiv="INTERPOLATION" id="0"/>
-</source>
-<target xml:space="preserve">
-<ph disp="ber { return th" equiv="INTERPOLATION" id="0"/>
-</target>
-</segment>
-</unit>
-<unit id="ngb.timepicker.AM">
-<segment>
-<source xml:space="preserve">
-<ph disp="or 24H mode." equiv="INTERPOLATION" id="0"/>
-</source>
-<target xml:space="preserve">
-<ph disp="or 24H mode." equiv="INTERPOLATION" id="0"/>
-</target>
-</segment>
-</unit>
-<unit id="ngb.timepicker.HH">
-<segment>
-<source xml:space="preserve">HH</source>
-<target xml:space="preserve">HH</target>
-</segment>
-</unit>
-<unit id="ngb.timepicker.MM">
-<segment>
-<source xml:space="preserve">MM</source>
-<target xml:space="preserve">MM</target>
-</segment>
-</unit>
-<unit id="ngb.timepicker.PM">
-<segment>
-<source xml:space="preserve">
-<ph disp="tring;    disab" equiv="INTERPOLATION" id="0"/>
-</source>
-<target xml:space="preserve">
-<ph disp="tring;    disab" equiv="INTERPOLATION" id="0"/>
-</target>
-</segment>
-</unit>
-<unit id="ngb.timepicker.SS">
-<segment>
-<source xml:space="preserve">SS</source>
-<target xml:space="preserve">SS</target>
-</segment>
-</unit>
-<unit id="ngb.timepicker.decrement-hours">
-<segment>
-<source xml:space="preserve">Decrement hours</source>
-<target xml:space="preserve">Decrement hours</target>
-</segment>
-</unit>
-<unit id="ngb.timepicker.decrement-minutes">
-<segment>
-<source xml:space="preserve">Decrement minutes</source>
-<target xml:space="preserve">Decrement minutes</target>
-</segment>
-</unit>
-<unit id="ngb.timepicker.decrement-seconds">
-<segment>
-<source xml:space="preserve">Decrement seconds</source>
-<target xml:space="preserve">Decrement seconds</target>
-</segment>
-</unit>
-<unit id="ngb.timepicker.hours">
-<segment>
-<source xml:space="preserve">Hours</source>
-<target xml:space="preserve">Hours</target>
-</segment>
-</unit>
-<unit id="ngb.timepicker.increment-hours">
-<segment>
-<source xml:space="preserve">Increment hours</source>
-<target xml:space="preserve">Increment hours</target>
-</segment>
-</unit>
-<unit id="ngb.timepicker.increment-minutes">
-<segment>
-<source xml:space="preserve">Increment minutes</source>
-<target xml:space="preserve">Increment minutes</target>
-</segment>
-</unit>
-<unit id="ngb.timepicker.increment-seconds">
-<segment>
-<source xml:space="preserve">Increment seconds</source>
-<target xml:space="preserve">Increment seconds</target>
-</segment>
-</unit>
-<unit id="ngb.timepicker.minutes">
-<segment>
-<source xml:space="preserve">Minutes</source>
-<target xml:space="preserve">Minutes</target>
-</segment>
-</unit>
-<unit id="ngb.timepicker.seconds">
-<segment>
-<source xml:space="preserve">Seconds</source>
-<target xml:space="preserve">Seconds</target>
-</segment>
-</unit>
-<unit id="ngb.toast.close-aria">
-<segment>
-<source xml:space="preserve">Close</source>
-<target xml:space="preserve">Zavrieť</target>
-</segment>
-</unit>
-</file>
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" srcLang="en" trgLang="sk" version="2.0">
+  <file id="ngi18n" original="ng.template">
+    <unit id="0024befc641c41929ae129967df5b98b18df2a18">
+      <segment>
+        <source>Estimated Size </source>
+        <target>Odhadovaná veľkosť </target>
+      </segment>
+    </unit>
+    <unit id="02fd20c5ba4b3473142384fefa64902516012018">
+      <segment>
+        <source>Before 1st October</source>
+        <target>Pred 1. októbrom</target>
+      </segment>
+    </unit>
+    <unit id="06dac242b2c951e365884c1362470cb82067cce1">
+      <segment>
+        <source>Pool space when the block has been won.</source>
+        <target>Veľkosť združenia v čase vyhratia bloku.</target>
+      </segment>
+    </unit>
+    <unit id="078d78687f7026b46e627ee6fb92d426d74a97ca">
+      <segment>
+        <source>Business and Marketing</source>
+        <target>Biznis a marketing</target>
+      </segment>
+    </unit>
+    <unit id="0972d881bb8dc119602e984ff428593e56a32c4f">
+      <segment>
+        <source>Synced</source>
+        <target>Synchronizované</target>
+      </segment>
+    </unit>
+    <unit id="0b6e7b027880060777afeed9bd83bc46d6fc5945">
+      <segment>
+        <source>Click “Change” button</source>
+        <target>Kliknite na tlačidlo „Zmeniť“</target>
+      </segment>
+    </unit>
+    <unit id="0e42c9f0d6b8f118f1b117c47c8e6253fd1a4d46">
+      <segment>
+        <source>Thank you for trusting us!</source>
+        <target>Ďakujeme, že nám dôverujete!</target>
+      </segment>
+    </unit>
+    <unit id="1108c6553f5774688bcec361e0d25067164817ae">
+      <segment>
+        <source>Software Engineer</source>
+        <target>Softvérový inžinier</target>
+      </segment>
+    </unit>
+    <unit id="113a7515da8736c12e9d40d15ebecdfced283595">
+      <segment>
+        <source>Can I join a pool with non-portable (OG) plots?</source>
+        <target>Môžem sa pripojiť k združeniu s neprenosnými (OG) poľami?</target>
+      </segment>
+    </unit>
+    <unit id="16271bc124e200ff2f18f44d5a5550941b6791fd">
+      <segment>
+        <source> (unknown) </source>
+        <target> (neznáme)</target>
+      </segment>
+    </unit>
+    <unit id="1774008180173753624">
+      <segment>
+        <source>Successful Partials</source>
+        <target>Úspešné dielčie bloky</target>
+      </segment>
+    </unit>
+    <unit id="1bbdc9a4fb285141de0c6ecaf4a675d9dba0d6eb">
+      <segment>
+        <source>View is based on a snapshot of today&#39;s XCH price, a pool luck and a constant total network space. Plots of size k=32 (101.4 GiB).</source>
+        <target>Odhad je založený na dnešnej cene XCH, na úspešnosti združenia a na predpoklade konštantného celkového sieťového priestoru. Polia veľkosti k=32 (101,4 GiB).</target>
+      </segment>
+    </unit>
+    <unit id="1d807733635e1587142d0bf8c9253414da999d08">
+      <segment>
+        <source> farmed</source>
+        <target> vyťažených</target>
+      </segment>
+    </unit>
+    <unit id="2041082387182328462">
+      <segment>
+        <source>Enjoy 0% pool fee until October 2021.</source>
+        <target>Užite si 0% poplatok združenia do októbra 2021.</target>
+      </segment>
+    </unit>
+    <unit id="216a1982a307f6926ef83c3b6f4143a0a9415e56">
+      <segment>
+        <source>Number of plots</source>
+        <target>Počet polí</target>
+      </segment>
+    </unit>
+    <unit id="2351744948046490518">
+      <segment>
+        <source>Join our pool</source>
+        <target>Pripojte sa do nášho združenia</target>
+      </segment>
+    </unit>
+    <unit id="24036095495322476">
+      <segment>
+        <source>Last Partials (24 hours)</source>
+        <target>Posledné dielčie bloky (24 hodín)</target>
+      </segment>
+    </unit>
+    <unit id="2489eefea00931942b91f4a1ae109514b591e2e1">
+      <segment>
+        <source>Rules</source>
+        <target>Pravidlá</target>
+      </segment>
+    </unit>
+    <unit id="2756022432863940642">
+      <segment>
+        <source>Failed Partials</source>
+        <target>Neúspešné dielčie bloky</target>
+      </segment>
+    </unit>
+    <unit id="2905619048308246310">
+      <segment>
+        <source>All our software is open source.</source>
+        <target>Celý náš softvér je open source.</target>
+      </segment>
+    </unit>
+    <unit id="2929691011645001388">
+      <segment>
+        <source>% of total</source>
+        <target>% z celku</target>
+      </segment>
+    </unit>
+    <unit id="2b74c5a60028e165b77a95cd35fede530fd09b6c">
+      <segment>
+        <source>Blocks Found</source>
+        <target>Nájdené bloky</target>
+      </segment>
+    </unit>
+    <unit id="2e39c8f73bf706250110c3bbbcb013216ccd618f">
+      <segment>
+        <source>Hourly XCH</source>
+        <target>XCH za hodinu</target>
+      </segment>
+    </unit>
+    <unit id="2f933b826a570836cab04f683970a2d22068458c">
+      <segment>
+        <source>Date</source>
+        <target>Dátum</target>
+      </segment>
+    </unit>
+    <unit id="2fa043b4c6cd7b30760f254022412f49bf954666">
+      <segment>
+        <source> All farmer participating in our pool are eligible in our giveaway! Tickets on farmer page, read more. </source>
+        <target>Všetci farmári, ktorí sú pripojený do nášho združenia, majú nárok sa zúčastniť žrebovania darčekov! Lístky sú zobrazené na farmárovej stránke, &lt;x ctype=&#34;x-a&#34; equiv-text=&#34;&amp;lt;a [routerLink]=&amp;quot;[&#39;/giveaway&#39;]&amp;quot;&amp;gt;&#34; id=&#34;START_LINK&#34; /&gt;čítať ďalej&lt;x ctype=&#34;x-a&#34; equiv-text=&#34;&amp;lt;/a&amp;gt;&#34; id=&#34;CLOSE_LINK&#34; /&gt;.</target>
+      </segment>
+    </unit>
+    <unit id="31a3292deef4bade8cb245291aa57218d40fff2b">
+      <segment>
+        <source>No giveaways available!</source>
+        <target>Žiadne rozdávania k dispozícii!</target>
+      </segment>
+    </unit>
+    <unit id="31be2990b61fe013066418cf23998427f6094c0f">
+      <segment>
+        <source>Estimated space</source>
+        <target>Odhadovaná veľkosť</target>
+      </segment>
+    </unit>
+    <unit id="3202f6f4bbf4cf1d8fb8c4baa92a222cfdce1907">
+      <segment>
+        <source>Monthly XCH</source>
+        <target>XCH za mesiac</target>
+      </segment>
+    </unit>
+    <unit id="33c2b0464d8ed7c16b233f29bfb6ca3346227230">
+      <segment>
+        <source>Daily USD</source>
+        <target>USD za deň</target>
+      </segment>
+    </unit>
+    <unit id="3458332391940035038">
+      <segment>
+        <source>System Administrator</source>
+        <target>Správca systému</target>
+      </segment>
+    </unit>
+    <unit id="3720651283513261307">
+      <segment>
+        <source>Instant payout</source>
+        <target>Okamžitá výplata</target>
+      </segment>
+    </unit>
+    <unit id="3885db3e53d2d1af7c4c5dd0d95dc900f47fe73f">
+      <segment>
+        <source>Pool server real-time log</source>
+        <target>Denník servera združenia v reálnom čase</target>
+      </segment>
+    </unit>
+    <unit id="3bf86b6688d8e6eb1adf486a10cbe885647e88f5">
+      <segment>
+        <source>Pool Space</source>
+        <target>Veľkosť združenia</target>
+      </segment>
+    </unit>
+    <unit id="3ee4ee9511471a1ba2a1ea15055392a975e1f6dc">
+      <segment>
+        <source>type in message box:</source>
+        <target>napište správu:</target>
+      </segment>
+    </unit>
+    <unit id="41453c3d7e0a1ac2e5c9e73d3f8f5bf9ec23b829">
+      <segment>
+        <source>Export CSV</source>
+        <target>Export CSV</target>
+      </segment>
+    </unit>
+    <unit id="43c054a2884f4a9cc20a5e48158467203f0a1889">
+      <segment>
+        <source>🎁 Weekly Giveaway</source>
+        <target>🎁 Týždenné rozdávanie</target>
+      </segment>
+    </unit>
+    <unit id="4501612350036673473">
+      <segment>
+        <source>Get your reward as soon as possible.</source>
+        <target>Získajte svoju odmenu čo najskôr.</target>
+      </segment>
+    </unit>
+    <unit id="451473325b28a83c75d3a4e5d502033768e25a34">
+      <segment>
+        <source>Payout</source>
+        <target>Výplata</target>
+      </segment>
+    </unit>
+    <unit id="46d4279366821378a367994d734e080cf4b96148">
+      <segment>
+        <source>Use of good faith and don&#39;t refer yourself in any shape or form.</source>
+        <target>Používanie dobrej viery, a neodporúčajte sami seba v žiadnom tvare ani forme.</target>
+      </segment>
+    </unit>
+    <unit id="4839405892539527393">
+      <segment>
+        <source>Create plots using that plotnft:</source>
+        <target>Vytvorte polia pomocou toho NFT poľa:</target>
+      </segment>
+    </unit>
+    <unit id="498428897195803218">
+      <segment>
+        <source>Distribution System: PPLNS</source>
+        <target>Systém rozdeľovania odmien: PPLNS</target>
+      </segment>
+    </unit>
+    <unit id="49d01078dbfe15fed9a06dae914bfdbc405724fd">
+      <segment>
+        <source>How to set name in explorer? (alias)</source>
+        <target>Ako nastaviť názov v prehliadači? (alias)</target>
+      </segment>
+    </unit>
+    <unit id="49fe591f22510803bd1400067a9bdbd7c2fbcd03">
+      <segment>
+        <source>Total payout(s) in XCH</source>
+        <target>Celková výplata(y) v XCH</target>
+      </segment>
+    </unit>
+    <unit id="4a5f24b32e794cd5a3782a4c6f60bbcf4567e2ce">
+      <segment>
+        <source>No previous giveaways found!</source>
+        <target>Neboli nájdené žiadne predchádzajúce rozdávania!</target>
+      </segment>
+    </unit>
+    <unit id="4cf730626ae19afd761284d59a7fecae7b56dfce">
+      <segment>
+        <source>Receive some XCH</source>
+        <target>Získajte nejaké XCH</target>
+      </segment>
+    </unit>
+    <unit id="4dd528d342ff5124d147ccda4b52133fd1cf1f96">
+      <segment>
+        <source>Frequentely Asked Questions (F.A.Q.)</source>
+        <target>Často kladené otázky (F.A.Q.)</target>
+      </segment>
+    </unit>
+    <unit id="4f8b2bb476981727ab34ed40fde1218361f92c45">
+      <segment>
+        <source>Details</source>
+        <target>Detaily</target>
+      </segment>
+    </unit>
+    <unit id="5254622645701859101">
+      <segment>
+        <source>Points</source>
+        <target>Body</target>
+      </segment>
+    </unit>
+    <unit id="5784227755295047072">
+      <segment>
+        <source>0% Fee</source>
+        <target>0% poplatok</target>
+      </segment>
+    </unit>
+    <unit id="5880915392762070234">
+      <segment>
+        <source>No minimum payout</source>
+        <target>Žiadna minimálna výplata</target>
+      </segment>
+    </unit>
+    <unit id="5ad983b6d5cb478599dfaa3014adf0eee4e93b82">
+      <segment>
+        <source>Have you asked yourself who are the people running Chia pools? Do you trust them? </source>
+        <target>Pýtali ste sa sami seba, kto sú ľudia prevádzkujúci Chia združenia? Veríte im? </target>
+      </segment>
+    </unit>
+    <unit id="5b0923e36d77bdbb36da2df838be988092e84f62">
+      <segment>
+        <source>Effort average</source>
+        <target>Priemerné úsilie</target>
+      </segment>
+    </unit>
+    <unit id="5b5248fc0ea859db3ad3980fbc64a790a0460bb0">
+      <segment>
+        <source>The effort that was required to farm the block. 100% is the expected estimated time to win. Lower than 100% means we farmed the block before the estimation. Higher than 100% means we took longer than anticipated.</source>
+        <target>Úsilie, ktoré bolo potrebné na vyťaženie bloku. 100% je očakávaný odhadovaný čas na výhru. Menej ako 100% znamená, že sme blok vyťažili skôr, ako bolo odhadované. Viac ako 100% znamená, že nám to trvalo dlhšie, ako sa očakávalo.</target>
+      </segment>
+    </unit>
+    <unit id="5b7d5e94bccf2165ab93fc0a90952a120febe0c3">
+      <segment>
+        <source>Official Pool Protocol</source>
+        <target>Oficiálny protokol pre združenia</target>
+      </segment>
+    </unit>
+    <unit id="5cc2a963e41509cf7ec174a938a03b53f1ba167b">
+      <segment>
+        <source>choose “Connect to pool” and enter the url: https://pool.openchia.io (exactly, no ending slash) then wait for pool description to appear</source>
+        <target>zvoľte „Pripojiť k združeniu“ a zadajte webovú adresu: https://pool.openchia.io (presne, bez koncovej lomky), potom počkajte, kým sa zobrazí popis združenia</target>
+      </segment>
+    </unit>
+    <unit id="5ce5d91f4237b3e14b2e8a67bbc8450a9ac627a2">
+      <segment>
+        <source>Examples</source>
+        <target>Príklady</target>
+      </segment>
+    </unit>
+    <unit id="5f0da6ce66a56080556f29471c1660b3054ff693">
+      <segment>
+        <source>Total block(s)</source>
+        <target>Celkovo blokov</target>
+      </segment>
+    </unit>
+    <unit id="5f33e65bb2ee2f5227d11d834127eda40736004b">
+      <segment>
+        <source>💰 Instant payout</source>
+        <target> Okamžitá výplata</target>
+      </segment>
+    </unit>
+    <unit id="605761694003152703">
+      <segment>
+        <source>We have nothing to hide. Full blown explorer and live logs.</source>
+        <target>Nemáme čo skrývať. Plný funkčný prieskumník, a denník servera v reálnom čase.</target>
+      </segment>
+    </unit>
+    <unit id="6080b77234e92ad41bb52653b239c4c4f851317d">
+      <segment>
+        <source>Error</source>
+        <target>Chyba</target>
+      </segment>
+    </unit>
+    <unit id="619171a61aa23ace553a260092a2a02105b43174">
+      <segment>
+        <source>Not synced!</source>
+        <target>Nesynchronizované!</target>
+      </segment>
+    </unit>
+    <unit id="619930ccda5d73c24ec795e54ba2ed4dcbd22703">
+      <segment>
+        <source>Do not attempt close loop of referral. e.g. A -&gt; B -&gt; C -&gt; A.</source>
+        <target>Uzavretý cyklus odporúčaní nie je povolený. Napr. A -&gt; B -&gt; C -&gt; A.</target>
+      </segment>
+    </unit>
+    <unit id="6327177447190265105">
+      <segment>
+        <source>Verify plotnft and copy contract address:</source>
+        <target>Overte NFT poľa a skopírujte adresu zmluvy:</target>
+      </segment>
+    </unit>
+    <unit id="6410467948610503551">
+      <segment>
+        <source>Index</source>
+        <target>Index</target>
+      </segment>
+    </unit>
+    <unit id="65992202b465653e2cecba31fd90b33461d0612d">
+      <segment>
+        <source>Monthly USD</source>
+        <target>USD za mesiac</target>
+      </segment>
+    </unit>
+    <unit id="6962632162131341925">
+      <segment>
+        <source>Pool URL</source>
+        <target>URL adresa združenia</target>
+      </segment>
+    </unit>
+    <unit id="69b383cb15575d3b4ca5855d19a1df4a2dd2df83">
+      <segment>
+        <source>Welcome to OpenChia.io</source>
+        <target>Vitajte na OpenChia.io</target>
+      </segment>
+    </unit>
+    <unit id="6b56ac52e1dc20d7fabc0584df202612ee0af25a">
+      <segment>
+        <source>Launcher ID</source>
+        <target>ID spúšťača</target>
+      </segment>
+    </unit>
+    <unit id="6eef650fb15e0615d2312daefbee98c55f37ebce">
+      <segment>
+        <source>All our software is open source. </source>
+        <target>Celý náš softvér je open source. </target>
+      </segment>
+    </unit>
+    <unit id="7075059674276878139">
+      <segment>
+        <source>Transparent</source>
+        <target>Transparentnosť</target>
+      </segment>
+    </unit>
+    <unit id="7143444199300614511">
+      <segment>
+        <source>Create Plot NFT:</source>
+        <target>Vytvoriť NFT poľa:</target>
+      </segment>
+    </unit>
+    <unit id="727c21cfe501b69144cb1579e5a79e6e9d19288a">
+      <segment>
+        <source>Show active only</source>
+        <target>Zobraziť iba aktívnych farmárov</target>
+      </segment>
+    </unit>
+    <unit id="73a23cbe348c5b8529b4149f6d935e095b68bcbd">
+      <segment>
+        <source>join</source>
+        <target>pripojiť sa</target>
+      </segment>
+    </unit>
+    <unit id="7904374983883510569">
+      <segment>
+        <source>Partials (24 hours)</source>
+        <target>Dielčie bloky (24 hodín)</target>
+      </segment>
+    </unit>
+    <unit id="7b10d2270c78655fcdb3eccc34dae791fb87db94">
+      <segment>
+        <source>How many portable plots do I need to join the pool?</source>
+        <target>Koľko prenosných polí potrebujem na pripojenie sa k združeniu?</target>
+      </segment>
+    </unit>
+    <unit id="7b8556a3d84ca426a76fadba4d870ea661958f4b">
+      <segment>
+        <source>Payouts</source>
+        <target>Výplaty</target>
+      </segment>
+    </unit>
+    <unit id="7bdce28bcb7947df99c223c3622648a88db63fc6">
+      <segment>
+        <source>Netspace</source>
+        <target>Veľkosť siete</target>
+      </segment>
+    </unit>
+    <unit id="7c5d76c74b41b4280b4870a73c6b81a51a5c1f7b">
+      <segment>
+        <source>Failed to authenticate! Check your URL and try again.</source>
+        <target>Nepodarilo sa overiť! Skontrolujte svoju URL adresu a skúste to znova.</target>
+      </segment>
+    </unit>
+    <unit id="7f0972731a8098bb14252f2ad1301bddd4f2641e">
+      <segment>
+        <source>What are non-portable (OG) and portable plots (NFT)?</source>
+        <target>Čo sú neprenosné (OG) a prenosné polia (NFT)?</target>
+      </segment>
+    </unit>
+    <unit id="7f47cd80c09ec0d713bd821268699c52c7bc1b8f">
+      <segment>
+        <source>Fees are structured this way</source>
+        <target>Poplatky sú štruktúrované týmto spôsobom</target>
+      </segment>
+    </unit>
+    <unit id="807089867044050822">
+      <segment>
+        <source>No blocks found by this farmed!</source>
+        <target>Tento farmár nenašiel žiadne bloky!</target>
+      </segment>
+    </unit>
+    <unit id="80751f373f69483c6b4040db62cbff2a375eff9f">
+      <segment>
+        <source>A reward of 1.75 XCH will be distributed to pool farmers, 0 XCH (nothing) is kept to the pool.</source>
+        <target>Farmárom v združení bude rozdelená odmena 1,75 XCH. 0 XCH (nič) sa ponechá združeniu.</target>
+      </segment>
+    </unit>
+    <unit id="827fb6485b0596c939c543ba4156f5e4e7acb8d4">
+      <segment>
+        <source>Connection</source>
+        <target>Pripojenie</target>
+      </segment>
+    </unit>
+    <unit id="82c3411ad825e42c40b61c23ae53a09d0283a4b8">
+      <segment>
+        <source>Weekly XCH</source>
+        <target>XCH za týždeň</target>
+      </segment>
+    </unit>
+    <unit id="8311659957519204575">
+      <segment>
+        <source>Estimated Size</source>
+        <target>Odhadovaná veľkosť</target>
+      </segment>
+    </unit>
+    <unit id="841934696444961534">
+      <segment>
+        <source>News</source>
+        <target>Novinky</target>
+      </segment>
+    </unit>
+    <unit id="8475284e753bfd73a337bf58d42cce3a5750f4cf">
+      <segment>
+        <source>Sync your full node and wallet</source>
+        <target>Synchronizujte celý uzol a peňaženku</target>
+      </segment>
+    </unit>
+    <unit id="8497528947328199741">
+      <segment>
+        <source>Time</source>
+        <target>Čas</target>
+      </segment>
+    </unit>
+    <unit id="873b72903b1858a9cd6c8967521030b4d7d1435b">
+      <segment>
+        <source>State</source>
+        <target>Stav</target>
+      </segment>
+    </unit>
+    <unit id="875179292246e09d942eeb4e71cb1e51c94cb60e">
+      <segment>
+        <source>Do you have any other questions?</source>
+        <target>Máte nejaké ďalšie otázky?</target>
+      </segment>
+    </unit>
+    <unit id="8963f37c8e7fa9167301fbf66501d11989cf5906">
+      <segment>
+        <source>Same partial proof was sent more than once.</source>
+        <target>Rovnaký čiastočný dôkaz bol zaslaný viac ako jeden raz.</target>
+      </segment>
+    </unit>
+    <unit id="8a7b4bd44c0ac71b2e72de0398b303257f7d2f54">
+      <segment>
+        <source>Blocks</source>
+        <target>Bloky</target>
+      </segment>
+    </unit>
+    <unit id="8afd6be548086efa18d8416c081a4c39f556853c">
+      <segment>
+        <source>ETW</source>
+        <target>Odhadovaný čas na výhru</target>
+      </segment>
+    </unit>
+    <unit id="8d6b661c3489d627ae6749ed7cb0d20d896a8e22">
+      <segment>
+        <source>farmer doesn&#39;t exist, has left and/or has been removed.</source>
+        <target>Neexistujúci farmár. Buď odišiel alebo bol vylúčený.</target>
+      </segment>
+    </unit>
+    <unit id="8f975c803b91f4c4ad814cf891a7384dc806d497">
+      <segment>
+        <source> total</source>
+        <target> celkom</target>
+      </segment>
+    </unit>
+    <unit id="9201971930509716006">
+      <segment>
+        <source>Fee: 0%</source>
+        <target>Poplatok: 0%</target>
+      </segment>
+    </unit>
+    <unit id="93c4c647ee5f4c146a11aa3e8aade871a4cacbc8">
+      <segment>
+        <source>Until 1st October 2021 (2021/10/01)</source>
+        <target>Do 1. októbra 2021 (2021/10/01)</target>
+      </segment>
+    </unit>
+    <unit id="96c3b01e00677fb6a2b72c71d7adc3c10bd0e745">
+      <segment>
+        <source>before joining the pool, your node and wallet must be fully synchronized with Chia blockchain</source>
+        <target>pred vstupom do združenia musia byť váš uzol a peňaženka plne synchronizované s Chia blockchainom</target>
+      </segment>
+    </unit>
+    <unit id="994cefce55bece12954b80736323ba6def5aad13">
+      <segment>
+        <source>Partials</source>
+        <target>Dielčie bloky</target>
+      </segment>
+    </unit>
+    <unit id="99c327c9e1e22d737142df163e93f2a269847d6a">
+      <segment>
+        <source>Show failed partials only</source>
+        <target>Zobraziť len neúspešné dielčie bloky</target>
+      </segment>
+    </unit>
+    <unit id="9beb860b38dcac32f826add82a1115ddde160c62">
+      <segment>
+        <source>Hourly USD</source>
+        <target>USD za hodinu</target>
+      </segment>
+    </unit>
+    <unit id="9fcae10115b2fe4f2fc9ae62ddf1a92c51140269">
+      <segment>
+        <source>Login to the pool website using your Plot NFT login link and go to the &#34;Referrals&#34; tab.</source>
+        <target>Prihláste sa na webovú stránku pomocou odkazu na prihlásenie do združenia a prejdite na kartu „Odporúčania“.</target>
+      </segment>
+    </unit>
+    <unit id="a186416d755b16ac4cc3c49f7fe4090aadbca239">
+      <segment>
+        <source>Learn how to set name here.</source>
+        <target>Prečítajte si, ako nastaviť názov.</target>
+      </segment>
+    </unit>
+    <unit id="a1dcf7ffffc0aa88ff396abe738ab0f053ddcd7a">
+      <segment>
+        <source>The effort that was required to farm the block. 100% is the expected estimated time to win. Lower than 100% means we farmed the block before the estimation. Higher than 100% means we took longer than anticipated.</source>
+        <target>Úsilie, ktoré bolo potrebné na vyťaženie bloku. 100% je očakávaný odhadovaný čas na výhru. Menej ako 100% znamená, že sme blok vyťažili skôr, ako bolo odhadované. Viac ako 100% znamená, že nám to trvalo dlhšie, ako sa očakávalo.</target>
+      </segment>
+    </unit>
+    <unit id="a1f628ad227ee4387049f2a6dabaa5894eccd1c1">
+      <segment>
+        <source>Total transaction(s)</source>
+        <target>Celkovo transakcií</target>
+      </segment>
+    </unit>
+    <unit id="a389c988a2dececc2e4ec639b50f13c684c61561">
+      <segment>
+        <source>Plot NFT (pool smart contract) no longer in the pool. Farmer left the pool.</source>
+        <target>NFT poľa (smart kontrakt združenia) už nie je v združení. Farmár opustil združenie.</target>
+      </segment>
+    </unit>
+    <unit id="a3f7d3d27afbd375fea8dc12ce36ab81e6a17fcb">
+      <segment>
+        <source>If you already have a Plot NFT select &#34;Change Pool&#34; then enter https://pool.openchia.io</source>
+        <target>Ak už máte NFT poľa, vyberte možnosť „Zmeniť združenie“; potom zadajte https://pool.openchia.io</target>
+      </segment>
+    </unit>
+    <unit id="a43037fc899fd6771b3924922d355916c6459d23">
+      <segment>
+        <source>Signage point is invalid or was not found in pool&#39;s node blockchain.</source>
+        <target>Bod označenia je neplatný alebo nebol nájdený v blockchaine uzla združenia.</target>
+      </segment>
+    </unit>
+    <unit id="a443278806dc546173bc74ff24174b65cacdb55b">
+      <segment>
+        <source>Create Plot NFT</source>
+        <target>Vytvoriť NFT poľa</target>
+      </segment>
+    </unit>
+    <unit id="a44af7b3194a37366510d9a32da8850ba2825447">
+      <segment>
+        <source>We have more than 20 years of combined experience in the software development industry.</source>
+        <target>Po spočítaní našich individuálnych skúseností, máme spolu viac ako 20 rokov skúseností v oblasti vývoja softvéru.</target>
+      </segment>
+    </unit>
+    <unit id="a647db493963ce7a579163b4b3d3445a38afa1c6">
+      <segment>
+        <source>Daily - 00:00 UTC</source>
+        <target>Denne - 00:00 UTC</target>
+      </segment>
+    </unit>
+    <unit id="a91a60516b5081738e593fb71984586e10310351">
+      <segment>
+        <source>No blocks found by this farmer!</source>
+        <target>Tento farmár nenašiel žiadne bloky!</target>
+      </segment>
+    </unit>
+    <unit id="aaef7f3878111be1c1b4c8d2dd18ad0212611d2e">
+      <segment>
+        <source>Mobile Developer</source>
+        <target>Mobilný vývojár</target>
+      </segment>
+    </unit>
+    <unit id="acff6c04d9cb1d1e11cf16251aa404a4835f87fc">
+      <segment>
+        <source>Weekly USD</source>
+        <target>USD za týždeň</target>
+      </segment>
+    </unit>
+    <unit id="ad3b9059f8cabd7b6606beec6d21b33abf862f4e">
+      <segment>
+        <source>Farmer Details</source>
+        <target>Prehľad farmy</target>
+      </segment>
+    </unit>
+    <unit id="ad8de13e783ba1108b406a629d8b7bc808408031">
+      <segment>
+        <source>Use above link to refer people to this pool. They will be required to join the pool and login to the website to confirm the referral.</source>
+        <target>Pomocou vyššie uvedeného odkazu odkážete ľudí na toto združenie. Budú sa musieť pripojiť k združeniu a prihlásiť sa na webovú stránku združenia, aby potvrdili odporúčanie.</target>
+      </segment>
+    </unit>
+    <unit id="ae84bc1382725be6e830f59e7853336563ee3132">
+      <segment>
+        <source>Official Chia Instructions.</source>
+        <target>Oficiálne pokyny Chia.</target>
+      </segment>
+    </unit>
+    <unit id="aee6a265defa5551da91c7829cef94e2a5f900fc">
+      <segment>
+        <source>Reward Distribution</source>
+        <target>Rozdelenie odmien</target>
+      </segment>
+    </unit>
+    <unit id="af1f4ae5e75b2b677ccc03db4452372390447558">
+      <segment>
+        <source>You can now start creating Plots in “Plots” tab using this new Plot NFT to start farming XCH</source>
+        <target>Teraz môžete začať vytvárať polia na karte „Polia“ pomocou tohto nového NFT poľa a začať ťažiť XCH</target>
+      </segment>
+    </unit>
+    <unit id="af9304cc4713eb67765b7077be78c23468ac321d">
+      <segment>
+        <source>Average effort to farm a block in the last 30 days.</source>
+        <target>Priemerné úsilie vynaložené na vyťaženie jedného bloku za posledných 30 dní.</target>
+      </segment>
+    </unit>
+    <unit id="Amount">
+      <segment>
+        <source>Amount</source>
+        <target>Suma</target>
+      </segment>
+    </unit>
+    <unit id="API">
+      <segment>
+        <source>API</source>
+        <target>API</target>
+      </segment>
+    </unit>
+    <unit id="Average">
+      <segment>
+        <source>Average</source>
+        <target>Priemer</target>
+      </segment>
+    </unit>
+    <unit id="b039e850e4668dbcf5d9e092e41af3f2d56bdb5b">
+      <segment>
+        <source>click the “Create” button. In the next couple of minutes, the Plot NFT will be created, and it will appear in your “Pool” tab</source>
+        <target>kliknite na tlačidlo „Vytvoriť“. V nasledujúcich minútach sa vytvorí NFT poľa a zobrazí sa na karte „Združenie“</target>
+      </segment>
+    </unit>
+    <unit id="ba4199b18062e1995804047fb603d3e792cbdac3">
+      <segment>
+        <source>If a reward of 1.75 XCH is found, only 1% of that, 0.0175 will be kept to the pool as a fee. The remaining 1.7325 XCH will be distributed to pool farmers.</source>
+        <target>Ak sa získa odmena 1,75 XCH, len 1% z toho (čiže 0,0175) zostane združeniu ako poplatok. Zvyšných 1,7325 XCH sa rozdelí farmárom v rámci združenia.</target>
+      </segment>
+    </unit>
+    <unit id="bafc26b31ff276358a18ad37ed932b63583f0114">
+      <segment>
+        <source>Go to &#34;Pool&#34; menu in the left menu</source>
+        <target>Prejdite do ponuky „Združenie“ v ľavom menu</target>
+      </segment>
+    </unit>
+    <unit id="bbb53c975f216e03d9bed761cdea97405a9027fb">
+      <segment>
+        <source>Friendly Name</source>
+        <target>Priateľský názov</target>
+      </segment>
+    </unit>
+    <unit id="bc8dc7dc8854f37f1f0258ac25cc8a56e50b1159">
+      <segment>
+        <source>Profitability based on blocks farmed on last 30 days. Estimated value (XCH) a farmer would get per TiB per day.</source>
+        <target>Ziskovosť založená na počte blokov vyťažených za posledných 30 dní. Odhadovaná hodnota (XCH), ktorú by farmár dostal za TiB za deň.</target>
+      </segment>
+    </unit>
+    <unit id="bdc5cd8ee8da3b2611447a34f2fa23b8382d2293">
+      <segment>
+        <source>How does it work?</source>
+        <target>Ako to funguje?</target>
+      </segment>
+    </unit>
+    <unit id="Beta">
+      <segment>
+        <source>BETA</source>
+        <target>BETA</target>
+      </segment>
+    </unit>
+    <unit id="bf55248f3724a903614a92fa62f2c0bd21c5158d">
+      <segment>
+        <source>Previous Giveaways</source>
+        <target>Predchádzajúce rozdávania</target>
+      </segment>
+    </unit>
+    <unit id="Block">
+      <segment>
+        <source>Block</source>
+        <target>Blok</target>
+      </segment>
+    </unit>
+    <unit id="Blocks">
+      <segment>
+        <source>Blocks</source>
+        <target>Bloky</target>
+      </segment>
+    </unit>
+    <unit id="c1270c1bdd9912511f8cbe5152d9d938401a5be5">
+      <segment>
+        <source>We reserve the right to change fees for new referrals at any time.</source>
+        <target>Vyhradzujeme si právo kedykoľvek zmeniť poplatky za nové odporúčania.</target>
+      </segment>
+    </unit>
+    <unit id="c135821495429ff3fd89664f549ec24da765b5d5">
+      <segment>
+        <source>No partials found!</source>
+        <target>Neboli nájdené žiadne dielčie bloky!</target>
+      </segment>
+    </unit>
+    <unit id="c157792655970dcb2e3c7ad6583ec90e3d69edd8">
+      <segment>
+        <source>.faucet &lt;wallet address&gt;</source>
+        <target>.faucet &lt;adresa peňaženky&gt;</target>
+      </segment>
+    </unit>
+    <unit id="c20172223f84462032664d717d739297e5a9e2fe">
+      <segment>
+        <source>Fees</source>
+        <target>Poplatky</target>
+      </segment>
+    </unit>
+    <unit id="c2172cab8c1707c2772d0d521ba4d95231b7a16f">
+      <segment>
+        <source>Farmer</source>
+        <target>Farmár</target>
+      </segment>
+    </unit>
+    <unit id="c2435526c3716ecae495249d4b750e090d961d24">
+      <segment>
+        <source>XCH Price</source>
+        <target>Cena XCH</target>
+      </segment>
+    </unit>
+    <unit id="c27084c949cda7759a61b872848dd9381eefc8e1">
+      <segment>
+        <source>A pool you can trust.</source>
+        <target>Združenie, ktorému môžete dôverovať.</target>
+      </segment>
+    </unit>
+    <unit id="c468ee01ae8a3118c520ded045df2cc3ed16f928">
+      <segment>
+        <source>Let&#39;s get in touch on any of these platforms.</source>
+        <target>Spojme sa na niektorej z týchto platforiem.</target>
+      </segment>
+    </unit>
+    <unit id="c6f82691bd3cdd76945682a38bb82fe68caa1fd4">
+      <segment>
+        <source>How do I check my referrals?</source>
+        <target>Ako skontrolujem svoje odporúčania?</target>
+      </segment>
+    </unit>
+    <unit id="c97b5f1c85fcecad8ca5333e54c6301767e96d4f">
+      <segment>
+        <source>No farmers found!</source>
+        <target>Nenájdený žiadny farmár!</target>
+      </segment>
+    </unit>
+    <unit id="c9b087b017df14ca3ad10ca8df9df6b8ee592625">
+      <segment>
+        <source>Make sure you are running official Chia client 1.2.0 or later.</source>
+        <target>Uistite sa, že používate oficiálny klient Chia 1.2.0 alebo novší.</target>
+      </segment>
+    </unit>
+    <unit id="Calculator">
+      <segment>
+        <source>Profitability Calculator</source>
+        <target>Kalkulačka ziskovosti</target>
+      </segment>
+    </unit>
+    <unit id="cb137bd024242b35a1f084f90e1c3966d8e7a192">
+      <segment>
+        <source>No blocks found!</source>
+        <target>Nenašli sa žiadne bloky!</target>
+      </segment>
+    </unit>
+    <unit id="cc63e91bfbf9d68cc7704bc5ebb522dbc806e376">
+      <segment>
+        <source>The proof sent is not good enough for the current difficulty of the farmer.</source>
+        <target>Odoslaný dôkaz nie je dostatočne dobrý vzhľadom na zložitosť priradenú farmárovi.</target>
+      </segment>
+    </unit>
+    <unit id="ccb0e59fce0569049eb34a12660bb1217107aa83">
+      <segment>
+        <source>How to join us</source>
+        <target>Ako sa k nám pripojiť</target>
+      </segment>
+    </unit>
+    <unit id="cd819aeb3fde6d576c3a06db94df2af062d3c6ae">
+      <segment>
+        <source>Please meet our partners, together for a better world.</source>
+        <target>Zoznámte sa s našimi partnermi, spoločne pre lepší svet.</target>
+      </segment>
+    </unit>
+    <unit id="Count">
+      <segment>
+        <source>Count</source>
+        <target>Počet</target>
+      </segment>
+    </unit>
+    <unit id="CurrentEffort">
+      <segment>
+        <source>Current Effort</source>
+        <target>Aktuálne úsilie</target>
+      </segment>
+    </unit>
+    <unit id="d20bebf39b717eb43cd921e9af351e080d1c15f3">
+      <segment>
+        <source>go to “faucet” text channel</source>
+        <target>Pokračovať vo &#34;faucet&#34; vlákne</target>
+      </segment>
+    </unit>
+    <unit id="d32d7c80cba2c064d69e06a150b115134afa52ed">
+      <segment>
+        <source>Earn XCH by referring your friends to this pool!</source>
+        <target>Zarobte XCH tým, že odkážete svojich priateľov na toto združenie!</target>
+      </segment>
+    </unit>
+    <unit id="Date">
+      <segment>
+        <source>Date</source>
+        <target>Dátum</target>
+      </segment>
+    </unit>
+    <unit id="dc4863bc73bcf8641657b1142293146791063062">
+      <segment>
+        <source>Can I switch from/to your pool whenever I want?</source>
+        <target>Môžem sa kedykoľvek odpojiť z vášho združenia alebo sa k nemu kedykoľvek pripojiť?</target>
+      </segment>
+    </unit>
+    <unit id="dd5a3aea4574fe707a155c528955e96b955335f1">
+      <segment>
+        <source>go to the “Pool” tab, and click on “Join the Pool”</source>
+        <target>prejdite na kartu „Združenie“ a kliknite na „Pripojiť sa k združeniu“</target>
+      </segment>
+    </unit>
+    <unit id="ddd725139809fb0c1184132d3c0eeb16c9432302">
+      <segment>
+        <source>No referrals found for this farmer!</source>
+        <target>Pre tohto farmára neboli nájdené žiadne odporúčania!</target>
+      </segment>
+    </unit>
+    <unit id="Details">
+      <segment>
+        <source>Details</source>
+        <target>Detaily</target>
+      </segment>
+    </unit>
+    <unit id="Difficulty">
+      <segment>
+        <source>Difficulty</source>
+        <target>Zložitosť</target>
+      </segment>
+    </unit>
+    <unit id="DrawDate">
+      <segment>
+        <source>Draw Date</source>
+        <target>Dátum žrebovania</target>
+      </segment>
+    </unit>
+    <unit id="e1c7fd374631fc26f5eefac25afd46152c50613d">
+      <segment>
+        <source>Estimated Earnings</source>
+        <target>Odhadované zárobky</target>
+      </segment>
+    </unit>
+    <unit id="e2829d2a1d6377140b5bf5e324dfda0b73d73814">
+      <segment>
+        <source>Estimated utilization</source>
+        <target>Odhadovaný podiel</target>
+      </segment>
+    </unit>
+    <unit id="e863710e7fd7485e35bf2421115e3f6efe54c155">
+      <segment>
+        <source>Chat with us</source>
+        <target>Chatujte s nami</target>
+      </segment>
+    </unit>
+    <unit id="e95061dd489ae7021fd2217ba4af6af8a9b410ce">
+      <segment>
+        <source>No wallets found!</source>
+        <target>Neboli nájdené žiadne peňaženky!</target>
+      </segment>
+    </unit>
+    <unit id="eb97bb6690238c06861c1f1d1c2cee8adebc9515">
+      <segment>
+        <source>Tickets Issuance</source>
+        <target>Vydanie lístkov</target>
+      </segment>
+    </unit>
+    <unit id="ee8b26c713ceb951a1cc76d3357be0ad5e3bc11c">
+      <segment>
+        <source>How Chia pools work?</source>
+        <target>Ako fungujú Chia združenia?</target>
+      </segment>
+    </unit>
+    <unit id="Effort">
+      <segment>
+        <source>Effort</source>
+        <target>Úsilie</target>
+      </segment>
+    </unit>
+    <unit id="EstimatedRewardDay">
+      <segment>
+        <source>Estimated Reward</source>
+        <target>Odhadovaná odmena</target>
+      </segment>
+    </unit>
+    <unit id="EstimatedSpace">
+      <segment>
+        <source>Estimated Space</source>
+        <target>Odhadovaná veľkosť</target>
+      </segment>
+    </unit>
+    <unit id="Explorer">
+      <segment>
+        <source>Explorer</source>
+        <target>Prieskumník</target>
+      </segment>
+    </unit>
+    <unit id="f28fe410357b7e5eda20cbc152995a24781a591a">
+      <segment>
+        <source>Harvester ID</source>
+        <target>ID zberača</target>
+      </segment>
+    </unit>
+    <unit id="f330889a7289c122f863ba92a9daf83256eb5e63">
+      <segment>
+        <source>Web Developer</source>
+        <target>Webový vývojár</target>
+      </segment>
+    </unit>
+    <unit id="f3e8389d1b2d1d6fc186e3e2fbd3d56ee53ad160">
+      <segment>
+        <source>Show all farmers</source>
+        <target>Zobraziť všetkých farmárov</target>
+      </segment>
+    </unit>
+    <unit id="f6a8cb2287c0c738d3d02ca36e145830c9734db5">
+      <segment>
+        <source>Who we are</source>
+        <target>Kto sme</target>
+      </segment>
+    </unit>
+    <unit id="f806c3f7f84257acbbb0a8554d178e7f2a4fb37f">
+      <segment>
+        <source>📱 Native application</source>
+        <target>📱 Natívna aplikácia</target>
+      </segment>
+    </unit>
+    <unit id="f92636454cc06321476854f21c7392a515fd687f">
+      <segment>
+        <source>Daily XCH</source>
+        <target>XCH za deň</target>
+      </segment>
+    </unit>
+    <unit id="Failed">
+      <segment>
+        <source>Failed</source>
+        <target>Zlyhanie</target>
+      </segment>
+    </unit>
+    <unit id="FAQ">
+      <segment>
+        <source>FAQ</source>
+        <target>FAQ</target>
+      </segment>
+    </unit>
+    <unit id="Farmer">
+      <segment>
+        <source>Farmer</source>
+        <target>Farmár</target>
+      </segment>
+    </unit>
+    <unit id="Farmers">
+      <segment>
+        <source>Farmers</source>
+        <target>Farmári</target>
+      </segment>
+    </unit>
+    <unit id="fbd4fef6bfcae94269adcfc431c9ec05e0be897c">
+      <segment>
+        <source> hour(s)</source>
+        <target> hodín</target>
+      </segment>
+    </unit>
+    <unit id="fc38220bc0ec421ccbabe7813bcc03bb0216d99d">
+      <segment>
+        <source>Since Last Win</source>
+        <target>Od poslednej výhry</target>
+      </segment>
+    </unit>
+    <unit id="fc5eb4c967d9bc41685521abe467df491d676136">
+      <segment>
+        <source>you are going to need 1 mojo (0.000000000001 XCH) which you can get through our faucet service on Discord channel or through Faucet website:</source>
+        <target>budete potrebovať 1 mojo (0,000000000001 XCH), ktoré môžete získať prostredníctvom našej služby faucet na kanáli Discord alebo prostredníctvom webovej stránky Faucet:</target>
+      </segment>
+    </unit>
+    <unit id="fc7d6d36c23b83ffed9fc4187c15d953ca7a9165">
+      <segment>
+        <source>Referral Link</source>
+        <target>Odkaz na odporučenie</target>
+      </segment>
+    </unit>
+    <unit id="fca305780869230f3f65ee56c7e002d6eb11be67">
+      <segment>
+        <source>Profitability based on blocks farmed on last 30 days, based on your farm space.</source>
+        <target>Ziskovosť založená na počte blokov vyťažených za posledných 30 dní. Odhadovaná hodnota (XCH), ktorú by farmár dostal za TiB za deň.</target>
+      </segment>
+    </unit>
+    <unit id="fca70eab89c109a20a6976ec457bcc5220e53fdb">
+      <segment>
+        <source>After 1st October</source>
+        <target>Po 1. októbri</target>
+      </segment>
+    </unit>
+    <unit id="Fee">
+      <segment>
+        <source>Fee</source>
+        <target>Poplatok</target>
+      </segment>
+    </unit>
+    <unit id="Fees">
+      <segment>
+        <source>Fees</source>
+        <target>Poplatky</target>
+      </segment>
+    </unit>
+    <unit id="Giveaway">
+      <segment>
+        <source>Weekly Giveaway</source>
+        <target>Týždenné rozdávanie</target>
+      </segment>
+    </unit>
+    <unit id="Harversters">
+      <segment>
+        <source>Harvesters</source>
+        <target>Zberače</target>
+      </segment>
+    </unit>
+    <unit id="Height">
+      <segment>
+        <source>Height</source>
+        <target>Výška</target>
+      </segment>
+    </unit>
+    <unit id="Home">
+      <segment>
+        <source>Home</source>
+        <target>Domov</target>
+      </segment>
+    </unit>
+    <unit id="Hrs24">
+      <segment>
+        <source>24 hours</source>
+        <target>24 hodín</target>
+      </segment>
+    </unit>
+    <unit id="ID">
+      <segment>
+        <source>ID</source>
+        <target>ID</target>
+      </segment>
+    </unit>
+    <unit id="Joined">
+      <segment>
+        <source>Joined At</source>
+        <target>Pripojené od</target>
+      </segment>
+    </unit>
+    <unit id="JoinPool">
+      <segment>
+        <source>Join our pool</source>
+        <target>Pripojte sa k nášmu združeniu</target>
+      </segment>
+    </unit>
+    <unit id="Launcher">
+      <segment>
+        <source>Launcher ID</source>
+        <target>ID spúšťača</target>
+      </segment>
+    </unit>
+    <unit id="LauncherID">
+      <segment>
+        <source>Launcher ID</source>
+        <target>ID spúšťača</target>
+      </segment>
+    </unit>
+    <unit id="Leaderboard">
+      <segment>
+        <source>Leaderboard</source>
+        <target>Rebríček</target>
+      </segment>
+    </unit>
+    <unit id="Lucky">
+      <segment>
+        <source>Lucky</source>
+        <target>Šťastie</target>
+      </segment>
+    </unit>
+    <unit id="MITLicense">
+      <segment>
+        <source>MIT License</source>
+        <target>Licencia MIT</target>
+      </segment>
+    </unit>
+    <unit id="ngb.alert.close">
+      <segment>
+        <source>Close</source>
+        <target>Zavrieť</target>
+      </segment>
+    </unit>
+    <unit id="ngb.pagination.first-aria">
+      <segment>
+        <source>First</source>
+        <target>Prvý</target>
+      </segment>
+    </unit>
+    <unit id="ngb.pagination.last-aria">
+      <segment>
+        <source>Last</source>
+        <target>Posledný</target>
+      </segment>
+    </unit>
+    <unit id="ngb.pagination.next-aria">
+      <segment>
+        <source>Next</source>
+        <target>Nasledujúce</target>
+      </segment>
+    </unit>
+    <unit id="ngb.pagination.previous-aria">
+      <segment>
+        <source>Previous</source>
+        <target>Predchádzajúce</target>
+      </segment>
+    </unit>
+    <unit id="NoPayouts">
+      <segment>
+        <source>No payouts found!</source>
+        <target>Neboli nájdené žiadne výplaty!</target>
+      </segment>
+    </unit>
+    <unit id="NoPayoutsAddrs">
+      <segment>
+        <source>No payouts addresses found!</source>
+        <target>Neboli nájdené žiadne výplatné adresy!</target>
+      </segment>
+    </unit>
+    <unit id="Partials">
+      <segment>
+        <source>Partials</source>
+        <target>Dielčie bloky</target>
+      </segment>
+    </unit>
+    <unit id="Partners">
+      <segment>
+        <source>Partners</source>
+        <target>Partneri</target>
+      </segment>
+    </unit>
+    <unit id="Payout">
+      <segment>
+        <source>Payout</source>
+        <target>Výplata</target>
+      </segment>
+    </unit>
+    <unit id="PayoutAddresses">
+      <segment>
+        <source>Payout Addresses</source>
+        <target>Výplatné adresy</target>
+      </segment>
+    </unit>
+    <unit id="Payouts">
+      <segment>
+        <source>Payouts</source>
+        <target>Výplaty</target>
+      </segment>
+    </unit>
+    <unit id="Performance">
+      <segment>
+        <source>Performance</source>
+        <target>Výkon</target>
+      </segment>
+    </unit>
+    <unit id="Points">
+      <segment>
+        <source>Points (24 hours)</source>
+        <target>Body (24 hodín)</target>
+      </segment>
+    </unit>
+    <unit id="Poolspace">
+      <segment>
+        <source>Pool Space</source>
+        <target>Veľkosť združenia</target>
+      </segment>
+    </unit>
+    <unit id="PoolWallets">
+      <segment>
+        <source>Pool Wallets</source>
+        <target>Peňaženky združenia</target>
+      </segment>
+    </unit>
+    <unit id="Price">
+      <segment>
+        <source>Price</source>
+        <target>Cena</target>
+      </segment>
+    </unit>
+    <unit id="Profitability">
+      <segment>
+        <source>Profitability</source>
+        <target>Ziskovosť</target>
+      </segment>
+    </unit>
+    <unit id="Referral">
+      <segment>
+        <source>Referral</source>
+        <target>Odporúčanie</target>
+      </segment>
+    </unit>
+    <unit id="Rewards">
+      <segment>
+        <source>Rewards</source>
+        <target>Odmeny</target>
+      </segment>
+    </unit>
+    <unit id="Save">
+      <segment>
+        <source>Save</source>
+        <target>Uložiť</target>
+      </segment>
+    </unit>
+    <unit id="Search">
+      <segment>
+        <source>Search</source>
+        <target>Hľadať</target>
+      </segment>
+    </unit>
+    <unit id="Step">
+      <segment>
+        <source>Step</source>
+        <target>Krok</target>
+      </segment>
+    </unit>
+    <unit id="Successful">
+      <segment>
+        <source>Successful</source>
+        <target>Úspešné</target>
+      </segment>
+    </unit>
+    <unit id="Terms">
+      <segment>
+        <source>Terms</source>
+        <target>Zmluvné podmienky</target>
+      </segment>
+    </unit>
+    <unit id="TicketsIssued">
+      <segment>
+        <source>Tickets Issued</source>
+        <target>Vydané lístky</target>
+      </segment>
+    </unit>
+    <unit id="TotalIncome">
+      <segment>
+        <source>Total Income</source>
+        <target>Celkový príjem</target>
+      </segment>
+    </unit>
+    <unit id="Transaction">
+      <segment>
+        <source>Transaction</source>
+        <target>Transakcia</target>
+      </segment>
+    </unit>
+    <unit id="TransactionBlock">
+      <segment>
+        <source>Transaction Block</source>
+        <target>Transakčný blok</target>
+      </segment>
+    </unit>
+    <unit id="Unknown">
+      <segment>
+        <source>Unknown</source>
+        <target>Neznáme</target>
+      </segment>
+    </unit>
+    <unit id="Unlucky">
+      <segment>
+        <source>Unlucky</source>
+        <target>Smola</target>
+      </segment>
+    </unit>
+    <unit id="Uptime">
+      <segment>
+        <source>Uptime</source>
+        <target>Doba prevádzky</target>
+      </segment>
+    </unit>
+    <unit id="UtilizationSpace">
+      <segment>
+        <source>Utilization Space</source>
+        <target>Podiel priestoru</target>
+      </segment>
+    </unit>
+    <unit id="Warning">
+      <segment>
+        <source>Warning</source>
+        <target>Upozornenie</target>
+      </segment>
+    </unit>
+    <unit id="Winner">
+      <segment>
+        <source>Winner</source>
+        <target>Výherca</target>
+      </segment>
+    </unit>
+  </file>
 </xliff>
