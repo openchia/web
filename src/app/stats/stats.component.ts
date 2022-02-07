@@ -1,4 +1,6 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ViewChild } from '@angular/core';
+import { NgTerminal } from 'ng-terminal';
+import { Observable } from 'rxjs';
 import { DataService } from '../data.service';
 
 @Component({
@@ -8,18 +10,19 @@ import { DataService } from '../data.service';
 })
 
 export class StatsComponent implements OnInit {
+  @ViewChild('term', { static: true }) child: NgTerminal;
 
-  // options
-  legend: boolean = false;
-  showLabels: boolean = true;
-  animations: boolean = true;
-  xAxis: boolean = false;
-  yAxis: boolean = true;
-  showXAxisLabel: boolean = false;
-  showYAxisLabel: boolean = true;
-  yAxisLabel: string = 'Pool Space';
-  timeline: boolean = false;
-  data: any[] = null;
+  // Pool Space chart options
+  spaceLegend: boolean = false;
+  spaceShowLabels: boolean = false;
+  spaceAnimations: boolean = true;
+  spaceAxisX: boolean = false;
+  spaceAxisY: boolean = true;
+  spaceShowAxisXLabel: boolean = true;
+  spaceShowAxisYLabel: boolean = false;
+  spaceShowTimeline: boolean = false;
+  spaceData: any[] = null;
+  spaceDays: number = 7;
 
   colorScheme = {
     domain: ['#129b00']
@@ -28,8 +31,13 @@ export class StatsComponent implements OnInit {
   constructor(private dataService: DataService) { }
 
   ngOnInit() {
-    this.dataService.getPoolSpace().subscribe((d) => {
-      this.data = [{
+    this.refreshSpace(7);
+  }
+
+  refreshSpace(days?) {
+    this.dataService.getPoolSpace(days).subscribe((d) => {
+      this.spaceDays = days;
+      this.spaceData = [{
         "name": "Size",
         "series": (<any[]>d).map((item) => {
           return ({
@@ -42,8 +50,8 @@ export class StatsComponent implements OnInit {
     });
   }
 
-  yAxisFormat(data) {
-    return (data / 1024 / 1024 / 1024 / 1024 / 1024).toFixed(2).toString() + ' PiB';
+  spaceFormatAxisY(spaceData) {
+    return (spaceData / 1024 / 1024 / 1024 / 1024 / 1024).toFixed(2).toString() + ' PiB';
   }
 
 }
