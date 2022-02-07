@@ -46,7 +46,8 @@
                         [legend]="spaceLegend" [showXAxisLabel]="spaceShowAxisXLabel" [autoScale]="false"
                         [showYAxisLabel]="spaceShowAxisYLabel" [yAxis]="spaceAxisY" [autoScale]="false"
                         [timeline]="spaceShowTimeline" [xAxis]="spaceAxisX" [animations]="spaceAnimations"
-                        [results]="spaceData" [yAxisTickFormatting]="spaceFormatAxisY" [autoScale]="false">
+                        [results]="spaceData" [yAxisTickFormatting]="spaceFormatAxisY" [autoScale]="false"
+                        [gradient]="true" [showGridLines]="true">
                         <ng-template #seriesTooltipTemplate let-model="model">
                           {{ model[0].label }}<br />
                           {{ model[0].name }}
