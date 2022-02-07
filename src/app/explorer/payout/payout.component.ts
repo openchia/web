@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-import { Router, ActivatedRoute, ParamMap } from '@angular/router';
+import { ActivatedRoute } from '@angular/router';
+import { Observable, Subject } from 'rxjs';
 import { DataService } from '../../data.service';
-import { Observable, Subject, Subscription } from 'rxjs';
 
 @Component({
   selector: 'app-payout',
@@ -17,9 +17,22 @@ export class PayoutComponent implements OnInit {
 
   payoutaddrsCollectionSize: number = 0;
   payoutaddrsPage: number = 1;
-  payoutaddrsPageSize: number = 50;
+  payoutaddrsPageSize: number = 25;
 
-  constructor(private dataService: DataService, private route: ActivatedRoute,) {
+  // Payoutaddrs chart options
+  payoutaddrsLegend: boolean = false;
+  payoutaddrsShowLabels: boolean = true;
+  payoutaddrsAnimations: boolean = true;
+  payoutaddrsData: any[] = null;
+
+  colorScheme = {
+    domain: [
+      '#004B23','#005812','#006400','#006B00','#007200',
+      '#008000','#38B000','#70E000','#9EF01A','#CCFF33',
+    ]
+  };
+
+  constructor(private dataService: DataService, private route: ActivatedRoute) {
     this.payoutaddrs$ = this._payoutaddrs$.asObservable();
   }
 
@@ -39,6 +52,12 @@ export class PayoutComponent implements OnInit {
   private handlePayoutAddrs(data) {
     this.payoutaddrsCollectionSize = data['count'];
     this._payoutaddrs$.next(data['results']);
+    this.payoutaddrsData = (<any[]>data['results']).map((item) => {
+      return ({
+        "name": (item['launcher'] == null && "?") || (item['launcher']['name'] || item['launcher']['launcher_id']),
+        "value": item['amount'] / 1000000000000,
+      })
+    });
   }
 
   refreshPayoutAddrs() {
