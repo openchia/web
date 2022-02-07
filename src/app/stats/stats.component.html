@@ -16,7 +16,7 @@
 <section class="section section-sm text-center">
   <div class="container">
 
-    <section class="section section-md">
+    <section class="section section-sm">
       <div id="accordion" class="cd-section">
         <div class="accordion-1">
           <div class="container">
@@ -43,9 +43,10 @@
                       aria-expanded="false" aria-hidden="false" #ContainerRef>
                       <br/>
                       <ngx-charts-area-chart [view]="[ContainerRef.offsetWidth]" [scheme]="colorScheme"
-                        [legend]="spaceLegend" [showXAxisLabel]="spaceShowAxisXLabel" [showYAxisLabel]="spaceShowAxisYLabel"
-                        [xAxis]="spaceAxisX" [yAxis]="spaceAxisY" [timeline]="spaceShowTimeline"
-                        [results]="spaceData" [yAxisTickFormatting]="spaceFormatAxisY" [autoScale]="true">
+                        [legend]="spaceLegend" [showXAxisLabel]="spaceShowAxisXLabel" [autoScale]="false"
+                        [showYAxisLabel]="spaceShowAxisYLabel" [yAxis]="spaceAxisY" [autoScale]="false"
+                        [timeline]="spaceShowTimeline" [xAxis]="spaceAxisX" [animations]="spaceAnimations"
+                        [results]="spaceData" [yAxisTickFormatting]="spaceFormatAxisY" [autoScale]="false">
                         <ng-template #seriesTooltipTemplate let-model="model">
                           {{ model[0].label }}<br />
                           {{ model[0].name }}
@@ -56,53 +57,23 @@
                         </ng-template>
                       </ngx-charts-area-chart>
                       <br/>
-                    </div>
-                  </div>
-                  <!--
-                  <div class="card">
-                    <div id="headingOne" class="card-header card-join">
-                      <h5 class="mb-0">
-                        <button aria-controls="collapseOne" id="collapseOne" 
-                          type="button" class="btn btn-link w-100 text-primary text-left" 
-                          aria-expanded="true" i18n>Blocks Found <i class="ni ni-bold-down float-right pt-1"></i>
-                        </button>
-                      </h5>
-                    </div>
-                    <div aria-labelledby="headingOne" data-parent="#accordionBlocksFound"
-                      id="collapseOne" class="show collapse in" style="display: block;"
-                      aria-expanded="false" aria-hidden="false" #ContainerRef>
-                      <br/>
-                      <ngx-charts-area-chart [view]="[ContainerRef.offsetWidth]" [scheme]="colorScheme"
-                        [legend]="blocksLegend" [showXAxisLabel]="blocksShowAxisXLabel" [showYAxisLabel]="blocksShowAxisYLabel"
-                        [xAxis]="blocksAxisX" [yAxis]="blocksAxisY" [timeline]="blocksShowTimeline"
-                        [results]="blocksData" [autoScale]="true">
-                        <ng-template #seriesTooltipTemplate let-model="model">
-                          {{ model[0].label }}<br />
-                          {{ model[0].name }}
-                        </ng-template>
-                        <ng-template #tooltipTemplate let-model="model">
-                          {{ model.label }}<br />
-                          {{ model.name }}
-                        </ng-template>
-                      </ngx-charts-area-chart>
-                      <br/>
-                    </div>
-                  </div>
-                  -->
-                  <div class="card">
-                    <div id="headingOne" class="card-header card-join">
-                      <h5 class="mb-0">
-                        <button aria-controls="collapseOne" id="collapseOne" 
-                          type="button" class="btn btn-link w-100 text-primary text-left" 
-                          aria-expanded="true" i18n>Pool Logs <i class="ni ni-bold-down float-right pt-1"></i>
-                        </button>
-                      </h5>
-                    </div>
-                    <div aria-labelledby="headingOne" data-parent="#accordionPoolLogs"
-                      id="collapseOne" class="show collapse in" style="display: block;"
-                      aria-expanded="false" aria-hidden="false" #ContainerRef>
-                      <br/>
-                      <ng-terminal #term></ng-terminal>
+                      <div class="justify-content-center">
+                        <button class="btn btn-neutral col-sm-2"
+                          type="radio" (click)="refreshSpace(1)"
+                          [disabled]="spaceDays == 1" i18n>1 Day</button>
+                        <button class="btn btn-neutral col-sm-2"
+                          type="radio" (click)="refreshSpace(7)"
+                          [disabled]="spaceDays == 7" i18n>7 Days</button>
+                        <button class="btn btn-neutral col-sm-2"
+                          type="radio" (click)="refreshSpace(30)"
+                          [disabled]="spaceDays == 30" i18n>1 Month</button>
+                        <button class="btn btn-neutral col-sm-2"
+                          type="radio" (click)="refreshSpace(90)"
+                          [disabled]="spaceDays == 90" i18n>3 Months</button>
+                        <button class="btn btn-neutral col-sm-2"
+                          type="radio" (click)="refreshSpace(365)"
+                          [disabled]="spaceDays == 365" i18n>1 Year</button>
+                      </div>
                       <br/>
                     </div>
                   </div>

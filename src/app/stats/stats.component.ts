@@ -18,37 +18,25 @@ export class StatsComponent implements OnInit {
   spaceAnimations: boolean = true;
   spaceAxisX: boolean = false;
   spaceAxisY: boolean = true;
-  spaceShowAxisXLabel: boolean = false;
+  spaceShowAxisXLabel: boolean = true;
   spaceShowAxisYLabel: boolean = false;
   spaceShowTimeline: boolean = false;
   spaceData: any[] = null;
   spaceDays: number = 7;
 
-  // Blocks Found chart options
-  blocksLegend: boolean = false;
-  blocksShowLabels: boolean = false;
-  blocksAnimations: boolean = true;
-  blocksAxisX: boolean = false;
-  blocksAxisY: boolean = true;
-  blocksShowAxisXLabel: boolean = false;
-  blocksShowAxisYLabel: boolean = false;
-  blocksShowTimeline: boolean = false;
-  blocksData: any[] = null;
-  blocksDays: number = 7;
-
-  log$: Observable<string>;
-
   colorScheme = {
     domain: ['#129b00']
   };
 
-  constructor(private dataService: DataService) {
-    this.log$ = dataService.log$;
-  }
+  constructor(private dataService: DataService) { }
 
   ngOnInit() {
+    this.refreshSpace(7);
+  }
 
-    this.dataService.getPoolSpace(this.spaceDays).subscribe((d) => {
+  refreshSpace(days?) {
+    this.dataService.getPoolSpace(days).subscribe((d) => {
+      this.spaceDays = days;
       this.spaceData = [{
         "name": "Size",
         "series": (<any[]>d).map((item) => {
@@ -60,7 +48,6 @@ export class StatsComponent implements OnInit {
         })
       }];
     });
-
   }
 
   spaceFormatAxisY(spaceData) {
