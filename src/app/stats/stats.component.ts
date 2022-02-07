@@ -1,6 +1,4 @@
-import { Component, OnInit, ViewChild } from '@angular/core';
-import { NgTerminal } from 'ng-terminal';
-import { Observable } from 'rxjs';
+import { Component, OnInit } from '@angular/core';
 import { DataService } from '../data.service';
 
 @Component({
@@ -10,7 +8,6 @@ import { DataService } from '../data.service';
 })
 
 export class StatsComponent implements OnInit {
-  @ViewChild('term', { static: true }) child: NgTerminal;
 
   // Pool Space chart options
   spaceLegend: boolean = false;
