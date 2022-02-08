@@ -123,31 +123,24 @@ export class FarmerComponent implements OnInit {
     return blocks_array.reduce((a, b) => a + b);
   }
 
-  payoutGetTotalAmount(datas) {
-    let amount_array = [];
-    const out = Object.keys(datas).map(index => {
-      let data = datas[index];
-      amount_array.push(data['amount']);
-    });
-    return amount_array.reduce((a, b) => a + b, 0);
-  }
+  payoutDownloadCSV() {
+    this.dataService.getPayoutTxs({ launcher: this.farmerid }).subscribe(res => {
 
-  payoutDownloadCSV(datas) {
-    let csv_array = [];
-    const out = Object.keys(datas).map(index => {
-      let data = datas[index];
-      csv_array.push({
-        id: data['id'],
-        datetime: data['payout']['datetime'],
-        transaction: (data['transaction']) ? data['transaction']['transaction'] : "",
-        amount: data['amount'] / 1000000000000,
-        price: (data['transaction'] && data['transaction']['xch_price']) ? data['transaction']['xch_price']['usd'] * (data['amount'] / 1000000000000) : ""
+      let csv_array = [];
+      const out = Object.keys(res['results']).map(index => {
+        let data = res['results'][index];
+        csv_array.push({
+          datetime: data['created_at_time'],
+          transaction: data['transaction_name'],
+          amount: data['amount'] / 1000000000000,
+          price: (data['xch_price']) ? data['xch_price']['usd'] * (data['amount'] / 1000000000000) : "",
+        });
       });
+      var options = {
+        headers: ["Datetime", "Transaction", "Amount", "Price USD"]
+      };
+      new AngularCsv(csv_array, 'payouts', options);
     });
-    var options = {
-      headers: ["Id", "Datetime", "Transaction", "Amount", "Price USD"]
-    };
-    new AngularCsv(csv_array, 'payouts', options);
   }
 
   private handleBlocks(data) {
