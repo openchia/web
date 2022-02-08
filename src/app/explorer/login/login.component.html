@@ -55,7 +55,9 @@
                 <div class="row">
                   <div class="col-lg-6 col-sm-6">
                     <div class="form-group">
-                      Minimum Payout (XCH) <i class="fas fa-info-circle"
+                      Minimum Payout (XCH)
+                      <span class="beta">BETA</span>
+                      <i class="fas fa-info-circle"
                         ngbTooltip="Your launcher will not receive payments until the unpaid balance hits this minimum value."></i>:
                       <input type="input" #minPayout [value]="farmer.minimum_payout / 1000000000000" maxlength="14"
                         placeholder="(not set)" class="form-control" />
@@ -67,6 +69,7 @@
                 <div class="row">
                   <div class="col-lg-6 col-sm-6">
                     <div class="form-group">
+                      <span class="beta">BETA</span>
                       Difficulty <i class="fas fa-info-circle"
                         ngbTooltip="Configure the difficulty for your farm so it can send less or more partials."></i>:
                       <select #customDifficulty class="form-control" [value]="farmer.custom_difficulty || ''">
@@ -108,8 +111,7 @@
           </ng-template>
         </li>
         <li [ngbNavItem]="2">
-          <a class="display-4" ngbNavLink i18n="@@Referrals">Referrals
-            <span class="beta">BETA</span></a>
+          <a class="display-4" ngbNavLink>Referrals</a>
           <ng-template ngbNavContent>
             <p><strong i18n>Referral Link</strong>: https://openchia.io/?referrer={{ farmer.launcher_id }}</p>
             <p i18n>Use above link to refer people to this pool. They will be required to join the pool and login to the
