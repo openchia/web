@@ -14,6 +14,8 @@ export class LoginComponent implements OnInit {
   @ViewChild('name') name: ElementRef;
   @ViewChild('email') email: ElementRef;
   @ViewChild('notifyMissingPartials') notifyMissingPartials: ElementRef;
+  @ViewChild('minPayout') minPayout: ElementRef;
+  @ViewChild('customDifficulty') customDifficulty: ElementRef;
   @ViewChild('referrer') referrer: ElementRef;
 
   tabActive = 1;
@@ -21,9 +23,11 @@ export class LoginComponent implements OnInit {
   loggingIn: boolean = true;
   loggedIn: boolean = false;
   error: boolean = false;
+  customDifficultyError: string = '';
   nameError: string = '';
   emailError: string = '';
   notifyMissingPartialsError: string = '';
+  minPayoutError: string = '';
   referrerError: string = '';
   farmer: any = {};
 
@@ -85,13 +89,17 @@ export class LoginComponent implements OnInit {
   }
 
   submit() {
+    this.customDifficultyError = '';
     this.nameError = '';
     this.emailError = '';
+    this.minPayoutError = '';
     this.notifyMissingPartialsError = '';
     this.referrerError = '';
     this.dataService.updateLauncher(this.farmer.launcher_id, {
+      "custom_difficulty": (this.customDifficulty.nativeElement.value) ? this.customDifficulty.nativeElement.value : null,
       "name": this.name.nativeElement.value,
       "email": (this.email.nativeElement.value) ? this.email.nativeElement.value : null,
+      "minimum_payout": (this.minPayout.nativeElement.value) ? this.minPayout.nativeElement.value * 1000000000000 : null,
       "notify_missing_partials_hours": (this.notifyMissingPartials.nativeElement.checked) ? 1 : null,
       "referrer": (this.referrer.nativeElement.value) ? this.referrer.nativeElement.value : null,
     }).subscribe(

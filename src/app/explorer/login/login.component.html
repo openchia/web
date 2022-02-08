@@ -55,6 +55,35 @@
                 <div class="row">
                   <div class="col-lg-6 col-sm-6">
                     <div class="form-group">
+                      Minimum Payout (XCH) <i class="fas fa-info-circle"
+                        ngbTooltip="Your launcher will not receive payments until the unpaid balance hits this minimum value."></i>:
+                      <input type="input" #minPayout [value]="farmer.minimum_payout / 1000000000000" maxlength="14"
+                        placeholder="(not set)" class="form-control" />
+                      <ngb-alert type="warning" [dismissible]="false" *ngIf="minPayoutError">{{
+                        minPayoutError }}</ngb-alert>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-lg-6 col-sm-6">
+                    <div class="form-group">
+                      Difficulty <i class="fas fa-info-circle"
+                        ngbTooltip="Configure the difficulty for your farm so it can send less or more partials."></i>:
+                      <select #customDifficulty class="form-control" [value]="farmer.custom_difficulty || ''">
+                        <option value="">Default - Around 600 partials sent per day</option>
+                        <option value="LOWEST">Lowest - Double of partials sent per day</option>
+                        <option value="LOW">Low - 50% more partials per day</option>
+                        <option value="HIGH">High - 25% less partials per day</option>
+                        <option value="HIGHEST">Highest - 50% less partials per day</option>
+                      </select>
+                      <ngb-alert type="warning" [dismissible]="false" *ngIf="customDifficultyError">{{
+                        customDifficultyError }}</ngb-alert>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-lg-6 col-sm-6">
+                    <div class="form-group">
                       Referrer (Launcher ID): <input type="text" #referrer [value]="referrerValue || ''"
                         placeholder="(not set)" class="form-control" />
                       <ngb-alert type="warning" [dismissible]="false" *ngIf="referrerError">{{ referrerError }}
