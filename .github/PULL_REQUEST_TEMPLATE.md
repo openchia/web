@@ -4,7 +4,7 @@ Please include a summary of the change and which issue is fixed. Please also inc
 
 ## Test(s)
 
-Please describe the tests that you ran to verify your changes. PLease also note any relevant details for your test configuration.
+Please describe the tests that you ran to verify your changes. Please also note any relevant details for your test configuration.
 
 - [ ] Test 1
 - [ ] Test 2
