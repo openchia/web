@@ -4,7 +4,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve --ssl",
-    "build": "ng build --configuration=production; npm run scully:all; gzipper compress --brotli --include js,css,html --level 6 ./dist/static",
+    "build": "ng build --configuration=production; gzipper compress --brotli --include js,css,html --level 6 ./dist",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
