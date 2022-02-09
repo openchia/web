@@ -19,7 +19,6 @@ import { FeesComponent } from './fees/fees.component';
 import { FaqComponent } from './faq/faq.component';
 import { TermsComponent } from './terms/terms.component';
 import { PartnersComponent } from './partners/partners.component';
-import { ScullyLibModule } from '@scullyio/ng-lib';
 import { ReferralComponent } from './referral/referral.component';
 import { GiveawayComponent } from './giveaway/giveaway.component';
 import { CalculatorComponent } from './calculator/calculator.component';
@@ -51,7 +50,6 @@ import { CalculatorComponent } from './calculator/calculator.component';
     HttpClientModule,
     NgxChartsModule,
     BrowserAnimationsModule,
-    ScullyLibModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

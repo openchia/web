@@ -8,10 +8,7 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "install:clean": "rm -rf node_modules/ && rm -rf package-lock.json && npm install && npm start",
-    "scully": "npx scully --",
-    "scully:all": "for i in en cs de es fr hu pl pt sk ru zh-CN; do env LOCALE=$i scully --scanRoutes; done",
-    "scully:serve": "npx scully serve --"
+    "install:clean": "rm -rf node_modules/ && rm -rf package-lock.json && npm install && npm start"
   },
   "private": true,
   "dependencies": {
@@ -28,10 +25,6 @@
     "@localazy/cli": "^1.6.0",
     "@ng-bootstrap/ng-bootstrap": "^10.0.0",
     "@ngx-lite/progress": "^0.3.6",
-    "@scullyio/init": "^1.1.4",
-    "@scullyio/ng-lib": "^1.0.0",
-    "@scullyio/scully": "^1.1.1-BETA.62759",
-    "@scullyio/scully-plugin-base-href-rewrite": "^1.1.1",
     "@swimlane/ngx-charts": "^18.0.1",
     "angular-csv-ext": "^1.0.5",
     "jw-bootstrap-switch-ng2": "^2.0.5",
@@ -43,7 +36,6 @@
     "popper.js": "1.16.1",
     "rxjs": "6.6.3",
     "rxjs-compat": "6.6.3",
-    "scully-plugin-minify-html": "^6.0.0",
     "zone.js": "^0.11.4"
   },
   "devDependencies": {

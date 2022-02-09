@@ -10,50 +10,37 @@
       "prefix": "app",
       "schematics": {},
       "i18n": {
-        "sourceLocale": {
-          "code": "en",
-          "baseHref": "/"
-        },
+        "sourceLocale": "en",
         "locales": {
           "cs": {
-            "translation": "src/locale/cs.xlf",
-            "baseHref": "/"
+            "translation": "src/locale/cs.xlf"
           },
           "de": {
-            "translation": "src/locale/de.xlf",
-            "baseHref": "/"
+            "translation": "src/locale/de.xlf"
           },
           "es": {
-            "translation": "src/locale/es.xlf",
-            "baseHref": "/"
+            "translation": "src/locale/es.xlf"
           },
           "fr": {
-            "translation": "src/locale/fr.xlf",
-            "baseHref": "/"
+            "translation": "src/locale/fr.xlf"
           },
           "hu": {
-            "translation": "src/locale/hu.xlf",
-            "baseHref": "/"
+            "translation": "src/locale/hu.xlf"
           },
           "pl": {
-            "translation": "src/locale/pl.xlf",
-            "baseHref": "/"
+            "translation": "src/locale/pl.xlf"
           },
           "pt": {
-            "translation": "src/locale/pt-BR.xlf",
-            "baseHref": "/"
+            "translation": "src/locale/pt-BR.xlf"
           },
           "ru": {
-            "translation": "src/locale/ru.xlf",
-            "baseHref": "/"
+            "translation": "src/locale/ru.xlf"
           },
           "sk": {
-            "translation": "src/locale/sk.xlf",
-            "baseHref": "/"
+            "translation": "src/locale/sk.xlf"
           },
           "zh-CN": {
-            "translation": "src/locale/zh-Hans-CN.xlf",
-            "baseHref": "/"
+            "translation": "src/locale/zh-Hans-CN.xlf"
           }
         }
       },
@@ -100,9 +87,7 @@
               "buildOptimizer": true
             },
             "pt": {
-              "localize": [
-                "pt"
-              ]
+              "localize": ["pt"]
             }
           }
         },
