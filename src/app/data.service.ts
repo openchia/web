@@ -77,6 +77,16 @@ export class DataService {
     return this.httpClient.get(`${this.REST_API_SERVER}payoutaddress/`, { params });
   }
 
+  getPayoutTxs(attrs) {
+    var params = new HttpParams();
+    if(attrs) {
+      if(attrs.launcher) params = params.set('launcher', attrs.launcher);
+      if(attrs.limit) params = params.set('limit', attrs.limit);
+      if(attrs.offset) params = params.set('offset', attrs.offset);
+    }
+    return this.httpClient.get(`${this.REST_API_SERVER}payouttransaction/`, { params });
+  }
+
   getReferrals(attrs: any, offset?) {
     var params = new HttpParams();
     if(attrs.launcher) {
