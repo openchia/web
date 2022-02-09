@@ -5,6 +5,8 @@
 
 %%WWW_DOMAIN%% {
 
+	%%TLS%%
+
 	root * /var/www/openchia
 
 	encode zstd gzip
@@ -30,10 +32,15 @@
 
 %%REDIRECT_DOMAIN%% {
 
+	%%TLS%%
+
 	redir https://%%WWW_DOMAIN%%{uri}
 
 }
 
 %%POOL_DOMAIN%% {
-	reverse_proxy %%POOL_HOSTNAME%%:8080
+
+	%%TLS%%
+
+	reverse_proxy %%POOL_HOSTNAME%%:8088
 }
