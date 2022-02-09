@@ -4,7 +4,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve --ssl",
-    "build": "ng build --configuration=production; gzipper compress --brotli --include js,css,html --level 6 ./dist",
+    "build": "ng build --configuration=production; gzipper compress --brotli --include js,css,html --level 6 ./dist; cp src/index.all.html dist/openchia/index.html",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",

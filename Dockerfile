@@ -1,3 +1,4 @@
+FROM caddy:2.4.6-alpine as caddyimage
 FROM ubuntu:rolling
 
 # Identify the maintainer of an image
@@ -6,7 +7,7 @@ LABEL maintainer="contact@openchia.io"
 # Update the image to the latest packages
 RUN apt-get update && apt-get upgrade -y
 
-RUN DEBIAN_FRONTEND=noninteractive apt-get install -y curl cron nginx certbot python3-certbot-nginx nodejs npm
+RUN DEBIAN_FRONTEND=noninteractive apt-get install -y nodejs npm
 
 EXPOSE 80
 EXPOSE 443
@@ -20,9 +21,12 @@ RUN npm run build
 RUN mkdir -p /var/www/openchia
 RUN cp -a ./dist/openchia/* /var/www/openchia/
 
-COPY ./nginx/conf.d/ /etc/nginx/conf.d/
-COPY ./nginx/sites-enabled/ /etc/nginx/sites-enabled/
-COPY ./nginx/snippets/ /etc/nginx/snippets/
+WORKDIR /root
+
+RUN rm -rf /tmp/build
+
+COPY ./caddy/Caddyfile /etc/
 COPY ./docker/entrypoint.sh /root/
+COPY --from=caddyimage /usr/bin/caddy /usr/bin/caddy
 
 CMD ["bash", "/root/entrypoint.sh"]

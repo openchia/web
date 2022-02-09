@@ -1,0 +1,37 @@
+{
+	storage file_system /data/caddy
+
+}
+
+%%WWW_DOMAIN%% {
+
+	root * /var/www/openchia
+
+	encode zstd gzip
+
+	reverse_proxy /api/* %%API_HOSTNAME%%:8000
+
+	reverse_proxy /ws/* %%API_HOSTNAME%%:8000
+
+	@spa {
+		not path */assets/*
+		not path *.js
+		not path *.css
+		path_regexp i18n ^/(.*?)/(.*)
+	}
+
+	rewrite @spa {re.i18n.1}/index.html
+
+	file_server
+
+}
+
+%%REDIRECT_DOMAIN%% {
+
+	redir https://%%WWW_DOMAIN%%{uri}
+
+}
+
+%%POOL_DOMAIN%% {
+	reverse_proxy %%POOL_HOSTNAME%%:8080
+}
