@@ -17,6 +17,8 @@
 		not path */assets/*
 		not path *.js
 		not path *.css
+		not path /api/*
+		not path /ws/*
 		path_regexp i18n ^/(.*?)/(.*)
 	}
 
