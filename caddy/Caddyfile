@@ -1,6 +1,6 @@
 {
 	storage file_system /data/caddy
-
+	email %%EMAIL%%
 }
 
 %%WWW_DOMAIN%% {
