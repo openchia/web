@@ -26,7 +26,6 @@ WORKDIR /root
 RUN rm -rf /tmp/build
 
 COPY ./caddy/Caddyfile /etc/
-COPY ./docker/entrypoint.sh /root/
 COPY --from=caddyimage /usr/bin/caddy /usr/bin/caddy
 
-CMD ["bash", "/root/entrypoint.sh"]
+CMD ["caddy", "run", "-config", "/etc/Caddyfile"]
