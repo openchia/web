@@ -10,6 +10,12 @@ Please describe the tests that you ran to verify your changes. Please also note 
 - [ ] Test 2
 - [ ] Test 3
 
+And through the environments (browser):
+
+- [ ] Desktop
+- [ ] Tablet
+- [ ] Mobile
+
 ## Screenshot(s)
 
 Please include a screenshot if possible.
