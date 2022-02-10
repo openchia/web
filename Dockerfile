@@ -1,31 +1,28 @@
-FROM caddy:2.4.6-alpine as caddyimage
-FROM ubuntu:rolling
+FROM node:16-bullseye as node
 
-# Identify the maintainer of an image
-LABEL maintainer="contact@openchia.io"
-
-# Update the image to the latest packages
-RUN apt-get update && apt-get upgrade -y
-
-RUN DEBIAN_FRONTEND=noninteractive apt-get install -y nodejs npm
-
-EXPOSE 80
-EXPOSE 443
-
+RUN mkdir -p /tmp/build
 WORKDIR /tmp/build
 COPY ./ /tmp/build/
 
 RUN npm i
 RUN npm run build
 
-RUN mkdir -p /var/www/openchia
-RUN cp -a ./dist/openchia/* /var/www/openchia/
+RUN ls -l /tmp/build/dist
+RUN ls -l /tmp/build/dist/openchia/
+
+FROM caddy:2.4.6-alpine
+
+EXPOSE 80
+EXPOSE 443
+
+# Identify the maintainer of an image
+LABEL maintainer="contact@openchia.io"
 
 WORKDIR /root
 
-RUN rm -rf /tmp/build
+RUN mkdir -p /var/www/openchia
 
+COPY --from=node /tmp/build/dist/openchia/ /var/www/openchia/
 COPY ./caddy/Caddyfile /etc/
-COPY --from=caddyimage /usr/bin/caddy /usr/bin/caddy
 
 CMD ["caddy", "run", "-config", "/etc/Caddyfile"]
