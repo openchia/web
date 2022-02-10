@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+  http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+<url>
+  <loc>https://openchia.io/en</loc>
+  <lastmod>2022-02-08T20:23:11+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://openchia.io/en/landing/</loc>
+  <lastmod>2022-02-08T20:23:07+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://openchia.io/en/explorer/</loc>
+  <lastmod>2022-02-08T20:23:10+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://openchia.io/en/giveaway/</loc>
+  <lastmod>2022-02-08T20:23:07+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://openchia.io/en/stats/</loc>
+  <lastmod>2022-02-08T20:23:06+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://openchia.io/en/calculator/</loc>
+  <lastmod>2022-02-08T20:23:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://openchia.io/en/referral/</loc>
+  <lastmod>2022-02-08T20:23:08+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://openchia.io/en/fees/</loc>
+  <lastmod>2022-02-08T20:23:06+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://openchia.io/en/join/</loc>
+  <lastmod>2022-02-08T20:23:05+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://openchia.io/en/faq/</loc>
+  <lastmod>2022-02-08T20:23:05+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://openchia.io/en/terms/</loc>
+  <lastmod>2022-02-08T20:23:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://openchia.io/en/partners/</loc>
+  <lastmod>2022-02-08T20:23:08+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://openchia.io/en/</loc>
+  <lastmod>2022-02-08T20:23:11+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+
+</urlset>
