@@ -1,0 +1,18 @@
+http://%%DOMAIN%% {
+
+	root * /var/www/openchia
+
+	@spa {
+		not path */assets/*
+		not path *.js
+		not path *.css
+		not path /api/*
+		not path /ws/*
+		path_regexp i18n ^/(.*?)/(.*)
+	}
+
+	rewrite @spa {re.i18n.1}/index.html
+
+	file_server
+
+}
