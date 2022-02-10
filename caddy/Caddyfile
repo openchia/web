@@ -1,4 +1,4 @@
-http://localhost {
+http://%%DOMAIN%% {
 
 	root * /var/www/openchia
 
