@@ -17,7 +17,7 @@ http://%%DOMAIN%% {
 
 	log {
 		output stdout
-		format **LOGFORMAT%%
+		format %%LOGFORMAT%%
 		level %%LOGLEVEL%%
 	}
 }
