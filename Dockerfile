@@ -1,28 +1,31 @@
-FROM node:16-bullseye as node
+############################
+# Docker build environment #
+############################
 
-RUN mkdir -p /tmp/build
-WORKDIR /tmp/build
-COPY ./ /tmp/build/
+FROM node:16-bullseye AS build
 
-RUN npm i
-RUN npm run build
+WORKDIR /build
 
-RUN ls -l /tmp/build/dist
-RUN ls -l /tmp/build/dist/openchia/
+COPY . .
+
+RUN npm i && \
+    npm run build
+
+############################
+# Docker final environment #
+############################
 
 FROM caddy:2.4.6-alpine
 
+LABEL maintainer="OpenChia <contact@openchia.io>" \
+      description="OpenChia Angular Website" \
+      repository="https://github.com/openchia/web.git"
+
 EXPOSE 80
+WORKDIR /var/www/openchia
 
-# Identify the maintainer of an image
-LABEL maintainer="contact@openchia.io"
+COPY --from=build /build/dist/openchia .
+COPY ./docker/caddy/Caddyfile /etc/Caddyfile
+COPY ./docker/entrypoint.sh /entrypoint.sh
 
-WORKDIR /root
-
-RUN mkdir -p /var/www/openchia
-
-COPY --from=node /tmp/build/dist/openchia/ /var/www/openchia/
-COPY ./caddy/Caddyfile /etc/
-COPY ./docker/entrypoint.sh /root
-
-CMD ["sh", "/root/entrypoint.sh"]
+CMD ["/bin/sh", "/entrypoint.sh"]
