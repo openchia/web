@@ -15,4 +15,8 @@ http://%%DOMAIN%% {
 
 	file_server
 
+	log {
+		output stdout
+		format json
+	}
 }
