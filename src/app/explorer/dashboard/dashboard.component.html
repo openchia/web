@@ -185,7 +185,8 @@
           <td>{{ launcher.points_pplns }}</td>
           <td>{{ launcher.difficulty }}</td>
           <td>
-            <ngx-progress-bar [value]="launcher.share_pplns * 100 | number:'2.2'"></ngx-progress-bar>
+            <ngb-progressbar [value]="launcher.share_pplns * 100 | number:'2.2'" [showValue]="true">
+            </ngb-progressbar>
           </td>
           <td>{{ launcher.estimated_size | filesize:{"standard": "iec"} }}</td>
         </tr>

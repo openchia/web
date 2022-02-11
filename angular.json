@@ -78,7 +78,6 @@
               "optimization": true,
               "outputHashing": "all",
               "sourceMap": false,
-              "extractCss": true,
               "namedChunks": false,
               "aot": true,
               "localize": true,
@@ -95,8 +94,7 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
             "browserTarget": "openchia:build",
-            "proxyConfig": "src/proxy.conf.json",
-            "optimization": false
+            "proxyConfig": "src/proxy.conf.json"
           },
           "configurations": {
             "production": {
