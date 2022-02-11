@@ -15,4 +15,9 @@ http://%%DOMAIN%% {
 
 	file_server
 
+	log {
+		output stdout
+		format %%LOGFORMAT%%
+		level %%LOGLEVEL%%
+	}
 }
