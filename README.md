@@ -20,9 +20,11 @@
 
 # OpenChia.io Angular Website
 
-All our software (api, pool, bot, web, mobile) are open source and available on [Github][1].
+All our software (api, pool, bot, web, mobile, proxy) are open source and available on [Github][1].
 
 ## Building UI
+
+### From local
 
 Configure the proxy for the API endpoint in `./src/app/proxy.conf.json` and then run:
 
@@ -30,6 +32,24 @@ Configure the proxy for the API endpoint in `./src/app/proxy.conf.json` and then
 $ npm i
 $ npm run start
 ```
+
+After local build, website will be accessible on [https://localhost:4200](https://localhost:4200).
+
+### From docker
+
+```
+$ docker build -t openchia/web .
+$ docker container run --rm --name openchia-web -p 8080:80 openchia/web
+```
+
+After docker build, website will be accessible on [http://localhost:8080](http://localhost:8080).
+
+By default caddy listen on port 80 but we bind it to port 8080 which allows you to launch image without root permissions.
+
+Variables available in the docker environment:
+* `DOMAIN`: website domain (default: `localhost`)
+* `LOGLEVEL`: loglevel in stdout (default: `INFO`)
+* `LOGFORMAT`: log format in stdout (default: `json`)
 
 ## Translation
 
