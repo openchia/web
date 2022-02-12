@@ -79,13 +79,13 @@
     <br />
     <ul ngbNav #nav="ngbNav" [(activeId)]="tabActive" class="nav-tabs navbar-inverse">
       <li [ngbNavItem]="1">
-        <a class="display-4" ngbNavLink i18n="@@Partials">Partials</a>
+        <a class="display-4" ngbNavLink i18n="@@Partials"><i class="fa fa-industry"></i> Partials</a>
         <ng-template ngbNavContent>
           <div class="row justify-content-center">
             <ngx-charts-area-chart [scheme]="colorScheme" [legend]="false" [showXAxisLabel]="false"
               [showYAxisLabel]="true" [xAxis]="true" [yAxis]="true" [xAxisLabel]="partialsXAxisLabel"
               [yAxisLabel]="partialsYAxisLabel" [timeline]="false" [results]="partialsData"
-              [xAxisTickFormatting]="partialsXAxisFormat" [xAxisTicks]="partialsXTicks">
+              [xAxisTickFormatting]="partialsXAxisFormat" [xAxisTicks]="partialsXTicks" [gradient]="partialsGradient">
             </ngx-charts-area-chart>
           </div>
           <br />
@@ -265,8 +265,15 @@
           </div>
         </ng-template>
       </li>
-      <li class="display-4" [ngbNavItem]="2">
-        <a ngbNavLink>Payouts</a>
+
+      <!-- Harvester -->
+      <li [ngbNavItem]="2" [disabled]="true" ngbTooltip="Coming soon">
+        <a class="display-4" ngbNavLink i18n="@@Harvester"><i class="fa fa-tractor"></i> Harvester</a>
+      </li>
+
+      <!-- Payouts -->
+      <li class="display-4" [ngbNavItem]="3">
+        <a ngbNavLink><i class="fa fa-wallet"></i> Payouts</a>
         <ng-template ngbNavContent>
           <br />
           <div class="row justify-content-center">
@@ -359,8 +366,9 @@
         </ng-template>
       </li>
 
-      <li class="display-4" [ngbNavItem]="3">
-        <a ngbNavLink>Blocks</a>
+      <!-- Blocks -->
+      <li class="display-4" [ngbNavItem]="4">
+        <a ngbNavLink><i class="fa fa-cube"></i> Blocks</a>
         <ng-template ngbNavContent>
           <br />
           <div class="row justify-content-center">
@@ -448,8 +456,9 @@
         </ng-template>
       </li>
 
-      <li class="display-4" [ngbNavItem]="4">
-        <a ngbNavLink>Giveaways</a>
+      <!-- Giveaways -->
+      <li class="display-4" [ngbNavItem]="5">
+        <a ngbNavLink><i class="fa fa-gift"></i> Giveaways</a>
         <ng-template ngbNavContent>
           <table class="table table-sm table-striped table-responsive-lg">
             <thead>

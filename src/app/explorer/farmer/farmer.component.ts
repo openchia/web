@@ -17,6 +17,7 @@ export class FarmerComponent implements OnInit {
   partialsYAxisLabel: string = $localize`Last Partials (24 hours)`;
   partialsXAxisLabel: string = $localize`Time`;
 
+  partialsGradient: boolean = true;
   partialsData: any[] = null;
   partialsXTicks: any[] = [];
   partialsTable: any[] = [];
@@ -30,7 +31,7 @@ export class FarmerComponent implements OnInit {
   failedPartials: boolean = false;
 
   harvesters: Set<string> = new Set();
-
+  
   xch_current_price_usd: number = 0;
   xch_tb_month: number = 0;
 
@@ -90,6 +91,10 @@ export class FarmerComponent implements OnInit {
       this.harvesters.add(v['harvester_id']);
       var hour = Math.floor(v['timestamp'] / 3600) * 3600;
       hours.add(hour);
+
+      // Partials by harvester (coming soon)
+
+      // Partials success vs failed
       if(v.error === null) {
         this.partialsSuccessful++;
         this.partialsPoints += v['difficulty'];

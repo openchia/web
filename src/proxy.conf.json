@@ -1,15 +1,18 @@
 {
   "/api": {
     "target": "https://openchia.io",
-    "secure": false
+    "secure": true,
+    "changeOrigin": true
   },
   "/static": {
-    "target": "http://localhost:8001",
-    "secure": false
+    "target": "https://openchia.io",
+    "secure": true,
+    "changeOrigin": true
   },
   "/ws": {
-    "target": "http://localhost:8001",
-    "secure": false,
-    "ws": true
+    "target": "https://openchia.io",
+    "secure": true,
+    "ws": true,
+    "changeOrigin": true
   }
 }
