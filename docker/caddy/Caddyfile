@@ -8,9 +8,9 @@ http://%%DOMAIN%% {
 		not path *.css
 		not path /api/*
 		not path /ws/*
-		not path /robots.txt
-		not path /security.txt
-		not path /sitemap.xml
+		not path /*/robots.txt
+		not path /*/security.txt
+		not path /*/sitemap.xml
 		path_regexp i18n ^/(.*?)/(.*)
 	}
 
