@@ -25,6 +25,12 @@
         <target>Biznis a marketing</target>
       </segment>
     </unit>
+    <unit id="09585f6ba80a69acf080ddc13de32072be1f2069">
+      <segment>
+        <source>🌱 OpenChia Team</source>
+        <target>🌱 Tím OpenChia</target>
+      </segment>
+    </unit>
     <unit id="0972d881bb8dc119602e984ff428593e56a32c4f">
       <segment>
         <source>Synced</source>
@@ -55,10 +61,10 @@
         <target>Môžem sa pripojiť k združeniu s neprenosnými (OG) poľami?</target>
       </segment>
     </unit>
-    <unit id="16271bc124e200ff2f18f44d5a5550941b6791fd">
+    <unit id="14614381245f5e12e4147e44ab09d66788169bf0">
       <segment>
-        <source> (unknown) </source>
-        <target> (neznáme)</target>
+        <source>All our software is open source. </source>
+        <target>Celý náš softvér je open source. </target>
       </segment>
     </unit>
     <unit id="1774008180173753624">
@@ -67,16 +73,28 @@
         <target>Úspešné dielčie bloky</target>
       </segment>
     </unit>
+    <unit id="1b65eaa43d83adf88728f80b9eb6a7b12b5a2e4c">
+      <segment>
+        <source>Join OpenChia pool 🎉</source>
+        <target>Pripojte sa k OpenChia 🎉</target>
+      </segment>
+    </unit>
     <unit id="1bbdc9a4fb285141de0c6ecaf4a675d9dba0d6eb">
       <segment>
-        <source>View is based on a snapshot of today&#39;s XCH price, a pool luck and a constant total network space. Plots of size k=32 (101.4 GiB).</source>
+        <source>View is based on a snapshot of today&apos;s XCH price, a pool luck and a constant total network space. Plots of size k=32 (101.4 GiB).</source>
         <target>Odhad je založený na dnešnej cene XCH, na úspešnosti združenia a na predpoklade konštantného celkového sieťového priestoru. Polia veľkosti k=32 (101,4 GiB).</target>
+      </segment>
+    </unit>
+    <unit id="1ca6cb6b2581d1de7b5aaaa49d7cfe8784369373">
+      <segment>
+        <source>💰 Fees</source>
+        <target>💰 Poplatky</target>
       </segment>
     </unit>
     <unit id="1d807733635e1587142d0bf8c9253414da999d08">
       <segment>
-        <source> farmed</source>
-        <target> vyťažených</target>
+        <source><x id="INTERPOLATION" equiv-text="{{ rewards_blocks }}"/> farmed</source>
+        <target><x id="INTERPOLATION" equiv-text="{{ rewards_blocks }}"/> vyťažených</target>
       </segment>
     </unit>
     <unit id="2041082387182328462">
@@ -109,10 +127,22 @@
         <target>Pravidlá</target>
       </segment>
     </unit>
+    <unit id="24ccb51e854d7dc4268177feaddb071cc7ab4283">
+      <segment>
+        <source>Points / Points PPLNS</source>
+        <target>Body / Body PPLNS</target>
+      </segment>
+    </unit>
     <unit id="2756022432863940642">
       <segment>
         <source>Failed Partials</source>
         <target>Neúspešné dielčie bloky</target>
+      </segment>
+    </unit>
+    <unit id="27eb10916f82b03a3f792459155086ff17c11976">
+      <segment>
+        <source>1 Day</source>
+        <target>1 deň</target>
       </segment>
     </unit>
     <unit id="2905619048308246310">
@@ -211,6 +241,12 @@
         <target>Export CSV</target>
       </segment>
     </unit>
+    <unit id="4323bacd5bc1904cf3952c3f8105baa79fd8ce6a">
+      <segment>
+        <source> Tweets by OpenChia </source>
+        <target> Tweety od OpenChia </target>
+      </segment>
+    </unit>
     <unit id="43c054a2884f4a9cc20a5e48158467203f0a1889">
       <segment>
         <source>🎁 Weekly Giveaway</source>
@@ -231,7 +267,7 @@
     </unit>
     <unit id="46d4279366821378a367994d734e080cf4b96148">
       <segment>
-        <source>Use of good faith and don&#39;t refer yourself in any shape or form.</source>
+        <source>Use of good faith and don&apos;t refer yourself in any shape or form.</source>
         <target>Používanie dobrej viery, a neodporúčajte sami seba v žiadnom tvare ani forme.</target>
       </segment>
     </unit>
@@ -281,12 +317,6 @@
       <segment>
         <source>Details</source>
         <target>Detaily</target>
-      </segment>
-    </unit>
-    <unit id="5254622645701859101">
-      <segment>
-        <source>Points</source>
-        <target>Body</target>
       </segment>
     </unit>
     <unit id="5784227755295047072">
@@ -361,6 +391,12 @@
         <target>Chyba</target>
       </segment>
     </unit>
+    <unit id="6149963f7b6e8339a7db40be653830239841e51b">
+      <segment>
+        <source>1 Month</source>
+        <target>1 mesiac</target>
+      </segment>
+    </unit>
     <unit id="619171a61aa23ace553a260092a2a02105b43174">
       <segment>
         <source>Not synced!</source>
@@ -409,12 +445,6 @@
         <target>ID spúšťača</target>
       </segment>
     </unit>
-    <unit id="6eef650fb15e0615d2312daefbee98c55f37ebce">
-      <segment>
-        <source>All our software is open source. </source>
-        <target>Celý náš softvér je open source. </target>
-      </segment>
-    </unit>
     <unit id="7075059674276878139">
       <segment>
         <source>Transparent</source>
@@ -443,6 +473,12 @@
       <segment>
         <source>Partials (24 hours)</source>
         <target>Dielčie bloky (24 hodín)</target>
+      </segment>
+    </unit>
+    <unit id="7ab035ef4b1e901870fe1ef65433c4ae8c1aa2cf">
+      <segment>
+        <source> 🎁 Weekly Giveaway </source>
+        <target> 🎁 Týždenné rozdávanie </target>
       </segment>
     </unit>
     <unit id="7b10d2270c78655fcdb3eccc34dae791fb87db94">
@@ -556,19 +592,19 @@
     <unit id="8afd6be548086efa18d8416c081a4c39f556853c">
       <segment>
         <source>ETW</source>
-        <target>Odhadovaný čas na výhru</target>
+        <target>OČV</target>
       </segment>
     </unit>
     <unit id="8d6b661c3489d627ae6749ed7cb0d20d896a8e22">
       <segment>
-        <source>farmer doesn&#39;t exist, has left and/or has been removed.</source>
+        <source>farmer doesn&apos;t exist, has left and/or has been removed.</source>
         <target>Neexistujúci farmár. Buď odišiel alebo bol vylúčený.</target>
       </segment>
     </unit>
     <unit id="8f975c803b91f4c4ad814cf891a7384dc806d497">
       <segment>
-        <source> total</source>
-        <target> celkom</target>
+        <source><x id="INTERPOLATION" equiv-text="{{ farmers }}"/> total</source>
+        <target><x id="INTERPOLATION" equiv-text="{{ farmers }}"/> celkovo</target>
       </segment>
     </unit>
     <unit id="9201971930509716006">
@@ -609,7 +645,7 @@
     </unit>
     <unit id="9fcae10115b2fe4f2fc9ae62ddf1a92c51140269">
       <segment>
-        <source>Login to the pool website using your Plot NFT login link and go to the &#34;Referrals&#34; tab.</source>
+        <source>Login to the pool website using your Plot NFT login link and go to the &quot;Referrals&quot; tab.</source>
         <target>Prihláste sa na webovú stránku pomocou odkazu na prihlásenie do združenia a prejdite na kartu „Odporúčania“.</target>
       </segment>
     </unit>
@@ -645,7 +681,7 @@
     </unit>
     <unit id="a43037fc899fd6771b3924922d355916c6459d23">
       <segment>
-        <source>Signage point is invalid or was not found in pool&#39;s node blockchain.</source>
+        <source>Signage point is invalid or was not found in pool&apos;s node blockchain.</source>
         <target>Bod označenia je neplatný alebo nebol nájdený v blockchaine uzla združenia.</target>
       </segment>
     </unit>
@@ -677,6 +713,12 @@
       <segment>
         <source>Mobile Developer</source>
         <target>Mobilný vývojár</target>
+      </segment>
+    </unit>
+    <unit id="ab102e798754de9510d2434b0a2cf2e55cadfa86">
+      <segment>
+        <source>1 Year</source>
+        <target>1 rok</target>
       </segment>
     </unit>
     <unit id="acff6c04d9cb1d1e11cf16251aa404a4835f87fc">
@@ -743,6 +785,12 @@
       <segment>
         <source>click the “Create” button. In the next couple of minutes, the Plot NFT will be created, and it will appear in your “Pool” tab</source>
         <target>kliknite na tlačidlo „Vytvoriť“. V nasledujúcich minútach sa vytvorí NFT poľa a zobrazí sa na karte „Združenie“</target>
+      </segment>
+    </unit>
+    <unit id="b7e16af662bc4ecccd2ec389a29a4e34d48a607c">
+      <segment>
+        <source>7 Days</source>
+        <target>7 dní</target>
       </segment>
     </unit>
     <unit id="ba4199b18062e1995804047fb603d3e792cbdac3">
@@ -817,12 +865,6 @@
         <target>.faucet &lt;adresa peňaženky&gt;</target>
       </segment>
     </unit>
-    <unit id="c20172223f84462032664d717d739297e5a9e2fe">
-      <segment>
-        <source>Fees</source>
-        <target>Poplatky</target>
-      </segment>
-    </unit>
     <unit id="c2172cab8c1707c2772d0d521ba4d95231b7a16f">
       <segment>
         <source>Farmer</source>
@@ -843,7 +885,7 @@
     </unit>
     <unit id="c468ee01ae8a3118c520ded045df2cc3ed16f928">
       <segment>
-        <source>Let&#39;s get in touch on any of these platforms.</source>
+        <source>Let&apos;s get in touch on any of these platforms.</source>
         <target>Spojme sa na niektorej z týchto platforiem.</target>
       </segment>
     </unit>
@@ -857,6 +899,12 @@
       <segment>
         <source>No farmers found!</source>
         <target>Nenájdený žiadny farmár!</target>
+      </segment>
+    </unit>
+    <unit id="c98d891f02a0253ad6442d3be5a5dcc983f85931">
+      <segment>
+        <source> Weekly Giveaway! </source>
+        <target> Týždenné rozdávanie! </target>
       </segment>
     </unit>
     <unit id="c9b087b017df14ca3ad10ca8df9df6b8ee592625">
@@ -913,10 +961,22 @@
         <target>Pokračovať vo &#34;faucet&#34; vlákne</target>
       </segment>
     </unit>
+    <unit id="d2936a0d7a7cd1014fdb81195a40a38fd3d70bc7">
+      <segment>
+        <source>3 Months</source>
+        <target>3 mesiace</target>
+      </segment>
+    </unit>
     <unit id="d32d7c80cba2c064d69e06a150b115134afa52ed">
       <segment>
         <source>Earn XCH by referring your friends to this pool!</source>
         <target>Zarobte XCH tým, že odkážete svojich priateľov na toto združenie!</target>
+      </segment>
+    </unit>
+    <unit id="daeef598c7156cae99eb66dce31eda83e364dfba">
+      <segment>
+        <source> 💰 Instant payout </source>
+        <target> Okamžitá výplata </target>
       </segment>
     </unit>
     <unit id="Date">
@@ -973,6 +1033,12 @@
         <target>Odhadovaný podiel</target>
       </segment>
     </unit>
+    <unit id="e552bcb75fac4281c7297232867f4855d8d5fb0d">
+      <segment>
+        <source>Join community on Discord</source>
+        <target>Pripojte sa ku komunite na Discorde</target>
+      </segment>
+    </unit>
     <unit id="e863710e7fd7485e35bf2421115e3f6efe54c155">
       <segment>
         <source>Chat with us</source>
@@ -1019,6 +1085,12 @@
       <segment>
         <source>Explorer</source>
         <target>Prieskumník</target>
+      </segment>
+    </unit>
+    <unit id="f0f5e8bd6c07172dda2694717c30fc3dee6d0f33">
+      <segment>
+        <source>Payout Chart</source>
+        <target>Výplatný graf</target>
       </segment>
     </unit>
     <unit id="f28fe410357b7e5eda20cbc152995a24781a591a">
@@ -1083,8 +1155,10 @@
     </unit>
     <unit id="fbd4fef6bfcae94269adcfc431c9ec05e0be897c">
       <segment>
-        <source> hour(s)</source>
-        <target> hodín</target>
+        <source><x id="INTERPOLATION" equiv-text="{{ estimate_win / 60 | number:&quot;.2-2&quot;
+                  }}"/> hour(s)</source>
+        <target><x id="INTERPOLATION" equiv-text="{{ estimate_win / 60 | number:&quot;.2-2&quot;
+                  }}"/> hodín</target>
       </segment>
     </unit>
     <unit id="fc38220bc0ec421ccbabe7813bcc03bb0216d99d">
@@ -1115,6 +1189,12 @@
       <segment>
         <source>After 1st October</source>
         <target>Po 1. októbri</target>
+      </segment>
+    </unit>
+    <unit id="fde8d089e5441f8459c6ae22c7fcff640906be0c">
+      <segment>
+        <source> Farmer took too long to validate the partial proof of space. Make sure your proof of space lookups are fast, and network connectivity is good. Response must happen in less than 25 seconds. Your NAS or network farming can be an issue. This happens when your disks are in use (plotting) or when waking up. </source>
+        <target> Farmárovi trvalo príliš dlho, kým potvrdil čiastočný dôkaz priestoru. Uistite sa, že vyhľadávanie dôkazu priestoru je rýchle a že pripojenie k sieti je dobré. Odpoveď musí prebehnúť za menej ako 25 sekúnd. Problémom môže byť váš NAS alebo sieťový súborový systém. Stáva sa to, keď sú vaše disky vyťažené (vykresľovanie) alebo sa prebúdzajú. </target>
       </segment>
     </unit>
     <unit id="Fee">
@@ -1213,6 +1293,18 @@
         <target>Zavrieť</target>
       </segment>
     </unit>
+    <unit id="ngb.carousel.next">
+      <segment>
+        <source>Next</source>
+        <target>Nasledujúce</target>
+      </segment>
+    </unit>
+    <unit id="ngb.carousel.previous">
+      <segment>
+        <source>Previous</source>
+        <target>Predchádzajúce</target>
+      </segment>
+    </unit>
     <unit id="ngb.pagination.first-aria">
       <segment>
         <source>First</source>
@@ -1235,6 +1327,12 @@
       <segment>
         <source>Previous</source>
         <target>Predchádzajúce</target>
+      </segment>
+    </unit>
+    <unit id="ngb.toast.close-aria">
+      <segment>
+        <source>Close</source>
+        <target>Zavrieť</target>
       </segment>
     </unit>
     <unit id="NoPayouts">
@@ -1286,6 +1384,12 @@
       </segment>
     </unit>
     <unit id="Points">
+      <segment>
+        <source>Points</source>
+        <target>Body</target>
+      </segment>
+    </unit>
+    <unit id="Points24hrs">
       <segment>
         <source>Points (24 hours)</source>
         <target>Body (24 hodín)</target>
@@ -1367,6 +1471,18 @@
       <segment>
         <source>Total Income</source>
         <target>Celkový príjem</target>
+      </segment>
+    </unit>
+    <unit id="TotalPaid">
+      <segment>
+        <source>Total paid</source>
+        <target>Celkovo vyplatené</target>
+      </segment>
+    </unit>
+    <unit id="TotalUnpaid">
+      <segment>
+        <source>Total unpaid</source>
+        <target>Celkovo nevyplatené</target>
       </segment>
     </unit>
     <unit id="Transaction">
