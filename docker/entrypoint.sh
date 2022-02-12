@@ -1,8 +1,13 @@
 #!/bin/sh
 set -x
 
-sed -i "s,%%DOMAIN%%,${DOMAIN:=localhost},g" /etc/Caddyfile
-sed -i "s,%%LOGLEVEL%%,${LOGLEVEL:=INFO},g" /etc/Caddyfile
-sed -i "s,%%LOGFORMAT%%,${LOGFORMAT:=json},g" /etc/Caddyfile
+if [ ! -e "/etc/Caddyfile" ]; then
+    sed -i "s,%%DOMAIN%%,${DOMAIN:=localhost},g" /etc/Caddyfile.tpl
+    sed -i "s,%%LOGLEVEL%%,${LOGLEVEL:=INFO},g" /etc/Caddyfile.tpl
+    sed -i "s,%%LOGFORMAT%%,${LOGFORMAT:=json},g" /etc/Caddyfile.tpl
+    mv /etc/Caddyfile.tpl /etc/Caddyfile
+else
+    rm -f /etc/Caddyfile.tpl
+fi
 
 exec caddy run --config /etc/Caddyfile

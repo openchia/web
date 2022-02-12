@@ -25,7 +25,7 @@ EXPOSE 80
 WORKDIR /var/www/openchia
 
 COPY --from=build /build/dist/openchia .
-COPY ./docker/caddy/Caddyfile /etc/Caddyfile
+COPY ./docker/caddy/Caddyfile.tpl /etc/Caddyfile.tpl
 COPY ./docker/entrypoint.sh /entrypoint.sh
 
 CMD ["/bin/sh", "/entrypoint.sh"]
