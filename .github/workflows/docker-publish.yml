@@ -7,11 +7,11 @@ name: Docker
 
 on:
   push:
-    branches: [ main, 'feat/*' ]
+    branches: [ 'main', 'feat/*' ]
     # Publish semver tags as releases.
     tags: [ 'v*.*.*' ]
   pull_request:
-    branches: [ main ]
+    branches: [ 'main' ]
 
 env:
   # Use docker.io for Docker Hub if empty
@@ -19,10 +19,9 @@ env:
   # github.repository as <account>/<repo>
   IMAGE_NAME: ${{ github.repository }}
 
-
 jobs:
-  build:
 
+  build-and-publish:
     runs-on: ubuntu-latest
     permissions:
       contents: read
@@ -59,3 +58,20 @@ jobs:
           push: ${{ github.event_name != 'pull_request' }}
           tags: ${{ steps.meta.outputs.tags }}
           labels: ${{ steps.meta.outputs.labels }}
+
+  trivy-scanner:
+    runs-on: ubuntu-latest
+    needs: build-and-publish
+
+    steps:
+      # Trivy vulnerability scanner
+      # https://github.com/aquasecurity/trivy-action
+      - name: Trivy analyzer
+        uses: aquasecurity/trivy-action@a7a829a4345428ddd92ca57b18257440f6a18c90
+        with:
+          image-ref: ghcr.io/openchia/web:main
+          format: table
+          exit-code: 1
+          ignore-unfixed: true
+          vuln-type: os,library
+          severity: CRITICAL
