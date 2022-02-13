@@ -16,6 +16,10 @@ http://%%DOMAIN%% {
 
 	rewrite @spa {re.i18n.1}/index.html
 
+	rewrite /robots.txt /en/robots.txt
+	rewrite /security.txt /en/security.txt
+	rewrite /sitemap.xml /en/sitemap.xml
+
 	file_server
 
 	log {
