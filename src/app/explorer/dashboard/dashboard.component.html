@@ -186,8 +186,7 @@
           <td>{{ launcher.difficulty }}</td>
           <td>
             <div class="explorer-progress-bar">
-              <div class="explorer-progress-bar__inner" role="progressbar"
-                aria-valuemin="0" aria-valuemax="100"
+              <div class="explorer-progress-bar__inner" role="progressbar" aria-valuemin="0" aria-valuemax="100"
                 aria.valuenow="{{ launcher.share_pplns * 100 | number:'2.2' }}%"
                 style="transform: translateX({{ launcher.share_pplns * 100 | number:'2.2' }}%);">
               </div>
@@ -347,7 +346,8 @@
   <div class="container">
     <h2 class="display-3" i18n>Pool server real-time log</h2>
     <div class="container">
-      <ng-terminal #term></ng-terminal>
+      <button (click)="loadTerm()" class="btn" #viewTerm>Click here to view logs</button>
+      <ng-template #termComponent></ng-template>
     </div>
   </div>
 </section>

@@ -1,6 +1,5 @@
-import { AfterViewInit, Component, ElementRef, OnDestroy, OnInit, ViewChild } from '@angular/core';
+import { AfterViewInit, Component, ComponentFactoryResolver, ElementRef, OnDestroy, OnInit, ViewChild, ViewContainerRef } from '@angular/core';
 import { Router } from '@angular/router';
-import { NgTerminal, NgTerminalComponent } from 'ng-terminal';
 import { DataService } from '../../data.service';
 import { Observable, Subject, Subscription } from 'rxjs';
 
@@ -10,9 +9,10 @@ import { Observable, Subject, Subscription } from 'rxjs';
   styleUrls: ['./dashboard.component.css']
 })
 
-export class DashboardComponent implements OnInit, AfterViewInit {
-  @ViewChild('term', { static: true }) child: NgTerminal;
+export class DashboardComponent implements OnInit {
   @ViewChild('searchinput') searchInput: ElementRef;
+  @ViewChild('viewTerm') viewTerm: ElementRef;
+  @ViewChild("termComponent", { read: ViewContainerRef }) termComponent!: ViewContainerRef;
 
   pool_space: number = 0;
   estimate_win: any;
@@ -34,7 +34,6 @@ export class DashboardComponent implements OnInit, AfterViewInit {
   _blocks$: Subject<any[]> = new Subject<any[]>();
   launchers$: Observable<any[]>;
   _launchers$: Subject<any[]> = new Subject<any[]>();
-  log$: Observable<string>;
   payouts$: Observable<any[]>;
   _payouts$: Subject<any[]> = new Subject<any[]>();
   searchSubscription: Subscription;
@@ -58,13 +57,6 @@ export class DashboardComponent implements OnInit, AfterViewInit {
     this.blocks$ = this._blocks$.asObservable();
     this.launchers$ = this._launchers$.asObservable();
     this.payouts$ = this._payouts$.asObservable();
-    this.log$ = dataService.log$;
-  }
-
-  ngAfterViewInit() {
-    this.log$.subscribe(
-      (msg) => this.child.write(msg.split('\n').join('\r\n')),
-    );
   }
 
   ngOnInit() {
@@ -96,9 +88,14 @@ export class DashboardComponent implements OnInit, AfterViewInit {
       limit: this.payoutsPageSize
     }).subscribe(this.handlePayouts.bind(this));
 
-    this.dataService.connectLog();
-
     this.searchSubscription = this.launchers$.subscribe((data) => { this._handleSearch(data); });
+  }
+
+  async loadTerm() {
+    const { TermComponent } = await import('./term/term.component');
+    this.termComponent.clear();
+    this.termComponent.createComponent(TermComponent);
+    this.viewTerm.nativeElement.remove();
   }
 
   private secondsToHm(d: number) {
@@ -173,7 +170,6 @@ export class DashboardComponent implements OnInit, AfterViewInit {
   }
 
   ngOnDestroy() {
-    this.dataService.disconnectLog();
     this.searchSubscription.unsubscribe();
   }
 
