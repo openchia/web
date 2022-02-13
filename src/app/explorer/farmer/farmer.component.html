@@ -43,7 +43,7 @@
           <th><span i18n>Estimated Size </span><i class="fas fa-info-circle"
               ngbTooltip="Be aware this is a rough estimate and will vary based on the partials sent for the last 24 hours! This is by no means a representation of your actual farm size."></i>
           </th>
-          <td>{{ farmer.estimated_size || 0 | filesize:{"standard": "iec" } }}</td>
+          <td>{{ farmer.estimated_size || 0 | filesize:{"base": 2, "standard": "iec" } }}</td>
         </tr>
         <tr>
           <th i18n>Points / Points PPLNS</th>
@@ -441,7 +441,7 @@
                     }} USD</span>
                   <span *ngIf="!block.xch_price" i18n="@@Unknown">Unknown</span>
                 </td>
-                <td>{{ block.pool_space | filesize:{"standard": "iec"} }}</td>
+                <td>{{ block.pool_space | filesize:{"base": 2, "standard": "iec"} }}</td>
               </tr>
               <tr *ngIf="blocks.length == 0">
                 <td colspan="5" i18n>No blocks found by this farmer!</td>
@@ -506,7 +506,7 @@
                 <tbody *ngFor="let ticket of (ticketsRound$ | async); let i = index">
                   <tr>
                     <td>{{ ticket.created_at | date:"short" }}</td>
-                    <td>{{ ticket.estimated_size | filesize:{"standard": "iec"} }}</td>
+                    <td>{{ ticket.estimated_size | filesize:{"base": 2, "standard": "iec"} }}</td>
                     <td>{{ ticket.number_tickets }}</td>
                   </tr>
                   <tr>

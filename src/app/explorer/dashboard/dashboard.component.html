@@ -15,7 +15,7 @@
             <div class="card card-lift shadow border-0">
               <div class="card-body py-3">
                 <h6 class="text-primary text-uppercase" i18n>Pool Space</h6>
-                <p class="description mt-3">{{ pool_space | filesize:{"standard": "iec"} }}</p>
+                <p class="description mt-3">{{ pool_space | filesize:{"base": 2, "standard": "iec"} }}</p>
               </div>
             </div>
           </div>
@@ -50,7 +50,7 @@
             <div class="card card-lift shadow border-0">
               <div class="card-body py-3">
                 <h6 class="text-info text-uppercase" i18n>Netspace</h6>
-                <p class="description mt-3">{{ netspace | filesize:{"standard": "iec"} }}</p>
+                <p class="description mt-3">{{ netspace | filesize:{"base": 2, "standard": "iec"} }}</p>
               </div>
             </div>
           </div>
@@ -135,7 +135,7 @@
                     [routerLink]="['/explorer/farmer', launcher.launcher_id]">{{ launcher.name || launcher.launcher_id |
                     maxLength:16 }}</a></h4>
                 <div class="leaderboard-top">#{{ i + 1 }}</div>
-                <p class="description mt-3">{{ launcher.estimated_size | filesize:{"standard": "iec"} }}, {{
+                <p class="description mt-3">{{ launcher.estimated_size | filesize:{"base": 2, "standard": "iec"} }}, {{
                   launcher.points_pplns }} points</p>
               </div>
             </div>
@@ -185,9 +185,18 @@
           <td>{{ launcher.points_pplns }}</td>
           <td>{{ launcher.difficulty }}</td>
           <td>
-            <ngx-progress-bar [value]="launcher.share_pplns * 100 | number:'2.2'"></ngx-progress-bar>
+            <div class="explorer-progress-bar">
+              <div class="explorer-progress-bar__inner" role="progressbar"
+                aria-valuemin="0" aria-valuemax="100"
+                aria.valuenow="{{ launcher.share_pplns * 100 | number:'2.2' }}%"
+                style="transform: translateX({{ launcher.share_pplns * 100 | number:'2.2' }}%);">
+              </div>
+              <div class="explorer-progress-bar__value">
+                {{ launcher.share_pplns * 100 | number:'2.2' }}%
+              </div>
+            </div>
           </td>
-          <td>{{ launcher.estimated_size | filesize:{"standard": "iec"} }}</td>
+          <td>{{ launcher.estimated_size | filesize:{"base": 2, "standard": "iec"} }}</td>
         </tr>
         <tr *ngIf="searchNotFound">
           <td colspan="6" i18n>No farmers found!</td>
@@ -244,7 +253,7 @@
               {{ block.farmed_by.name || block.farmed_by.launcher_id | maxLength:20 }}
             </a>
           </td>
-          <td>{{ block.pool_space | filesize:{"standard": "iec"} }}</td>
+          <td>{{ block.pool_space | filesize:{"base": 2, "standard": "iec"} }}</td>
         </tr>
         <tr *ngIf="blocks.length == 0">
           <td colspan="5" i18n>No blocks found!</td>
