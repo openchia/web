@@ -2,6 +2,7 @@ import { Injectable } from '@angular/core';
 import { HttpClient, HttpParams } from '@angular/common/http';
 import { BehaviorSubject, Observable, of, Subject, Subscription } from 'rxjs';
 import { webSocket, WebSocketSubject } from "rxjs/webSocket";
+import { environment } from 'src/environments/environment';
 
 @Injectable({
   providedIn: 'root'
@@ -172,7 +173,13 @@ export class DataService {
 
   connectLog(msgCallback?) {
     var proto = (window.location.protocol == 'https:') ? 'wss://' : 'ws://';
-    this.socket$ = webSocket(proto + window.location.host + '/ws/log/');
+    var wspath;
+    if(environment.production) {
+      wspath = 'ws';
+    } else {
+      wspath = '_proxy_ws'
+    }
+    this.socket$ = webSocket(`${proto}${window.location.host}/${wspath}/log/`);
     this.socket$.subscribe(
       msg => {
         this._log$.next(msg['data']);

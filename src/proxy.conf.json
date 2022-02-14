@@ -9,9 +9,12 @@
     "secure": true,
     "changeOrigin": true
   },
-  "/ws": {
+  "/_proxy_ws": {
     "target": "https://openchia.io",
     "secure": true,
+    "pathRewrite": {
+      "/_proxy_ws": "/ws"
+    },
     "ws": true,
     "changeOrigin": true
   }
