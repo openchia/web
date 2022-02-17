@@ -47,7 +47,7 @@ export class FarmerComponent implements OnInit {
   _blocks$ = new BehaviorSubject<any[]>([]);
   blocksCollectionSize: number = 0;
   blocksPage: number = 1;
-  blocksPageSize: number = 10;
+  blocksPageSize: number = 100;
 
   giveaways$: Observable<any[]>;
 
@@ -117,15 +117,6 @@ export class FarmerComponent implements OnInit {
       this.filterPartials();
     }
 
-  }
-
-  blocksEffortAverage(datas) {
-    let blocks_array = [];
-    const out = Object.keys(datas).map(index => {
-      let data = datas[index];
-      blocks_array.push(data['luck']);
-    });
-    return blocks_array.reduce((a, b) => a + b);
   }
 
   payoutDownloadCSV() {
