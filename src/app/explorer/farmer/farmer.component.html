@@ -374,21 +374,11 @@
           <div class="row justify-content-center">
             <div class="col-lg-12">
               <div class="row row-grid">
-                <div class="col-lg-6 justify-content-center">
+                <div class="col-lg-12 justify-content-center">
                   <div class="card card-lift shadow border-0">
                     <div *ngIf="blocks$ | async; let blocks" class="card-body py-3 text-center text-uppercase">
                       <span class="text-primary"><span i18n="">Total block(s)</span></span>
                       <p class="display-3">{{ blocks.length }}</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-lg-6 justify-content-center">
-                  <div class="card card-lift shadow border-0">
-                    <div *ngIf="(blocks$ | async) as blocks" class="card-body py-3 text-center text-uppercase">
-                      <span class="text-primary"><span i18n="">Effort average</span></span>
-                      <p *ngIf="blocks.length != 0" class="display-3">{{ blocksEffortAverage(blocks) / blocks.length |
-                        number:'1.0-0' }}%</p>
-                      <p *ngIf="blocks.length == 0" class="display-3">-</p>
                     </div>
                   </div>
                 </div>
@@ -401,18 +391,18 @@
               <tr>
                 <th scope="col" i18n="@@Height">Height</th>
                 <th scope="col" i18n="@@Date">Date</th>
-                <th scope="col"><span i18n="@@Effort">Effort</span>
+                <th scope="col" i18n="@@Amount">Amount</th>
+                <th scope="col" i18n="@@Price">Price</th>
+                <th scope="col"><span i18n="@@PoolEffort">Pool Effort</span>
                   <ng-template #effortTooltip>
-                    <span i18n>The effort that was required to farm the block. 100% is the expected estimated time to
-                      win.
-                      Lower than 100% means we farmed the block before the estimation. Higher than 100% means we took
-                      longer
-                      than anticipated.</span>
+                    <span i18n>
+                      The effort that was required to farm the block. 100% is the expected estimated time to win.
+                      Lower than 100% means we farmed the block before the estimation.
+                      Higher than 100% means we took longer than anticipated.
+                    </span>
                   </ng-template>
                   &nbsp;<i class="fas fa-info-circle" closeDelay="4000" [ngbTooltip]="effortTooltip"></i>
                 </th>
-                <th scope="col" i18n="@@Amount">Amount</th>
-                <th scope="col" i18n="@@Price">Price</th>
                 <th scope="col"><span i18n="@@Poolspace">Pool Space</span>
                   <ng-template #poolspaceTooltip>
                     <span i18n>Pool space when the block has been won.</span>
@@ -425,6 +415,12 @@
               <tr *ngFor="let block of blocks; let i = index">
                 <td>{{ block.farmed_height }}</td>
                 <td>{{ block.timestamp * 1000 | date:"medium" }}</td>
+                <td>{{ block.amount / 1000000000000 }} XCH</td>
+                <td>
+                  <span *ngIf="block.xch_price">${{ block.xch_price.usd * (block.amount / 1000000000000) | number
+                    }} USD</span>
+                  <span *ngIf="!block.xch_price" i18n="@@Unknown">Unknown</span>
+                </td>
                 <td>
                   <span *ngIf="block.luck == -1" i18n="@@Unknown">Unknown</span>
                   <span *ngIf="block.luck != -1">
@@ -434,12 +430,6 @@
                     <span *ngIf="block.luck > 120" i18n="@@Unlucky">Unlucky</span>
                     )
                   </span>
-                </td>
-                <td>{{ block.amount / 1000000000000 }} XCH</td>
-                <td>
-                  <span *ngIf="block.xch_price">${{ block.xch_price.usd * (block.amount / 1000000000000) | number
-                    }} USD</span>
-                  <span *ngIf="!block.xch_price" i18n="@@Unknown">Unknown</span>
                 </td>
                 <td>{{ block.pool_space | filesize:{"base": 2, "standard": "iec"} }}</td>
               </tr>
