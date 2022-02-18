@@ -180,12 +180,12 @@
                 <td>{{ partial.timestamp * 1000 | date:"medium" }}</td>
                 <td>{{ partial.difficulty }}</td>
                 <td ngbTooltip="{{ partial.harvester_id }}" placement="top" container="body">
-                  <i class="fal fa-clone fa-clone-farmer" (click)="copyToClipboard(partial.harvester_id)"></i>
+                  <i class="fas fa-copy fa-copy-farmer" (click)="copyToClipboard(partial.harvester_id)"></i>
                   {{ partial.harvester_id | maxLength:20 }}
                 </td>
                 <td ngbTooltip="{{ partial.plot_id }}" placement="top" container="body">
-                  <i class="fal fa-clone fa-clone-farmer" (click)="copyToClipboard(partial.plot_id)"></i>
-                  {{ partial.plot_id | maxLength:25 }}
+                  <i class="fas fa-copy fa-copy-farmer" (click)="copyToClipboard(partial.plot_id)"></i>
+                  {{ partial.plot_id | maxLength:20 }}
                 </td>
                 <td *ngIf="partial.error">{{ partial.error }} <a href="javascript:void();"
                     (click)="showPartialError(content)"><i class="fas fa-info-circle fa-partial-error"></i></a>
