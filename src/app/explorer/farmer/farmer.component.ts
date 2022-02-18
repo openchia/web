@@ -4,12 +4,14 @@ import { DataService } from '../../data.service';
 import { Observable, Subject, BehaviorSubject } from 'rxjs';
 import { NgbModal } from '@ng-bootstrap/ng-bootstrap';
 import { AngularCsv } from 'angular-csv-ext/dist/Angular-csv';
+import { ClipboardService } from 'ngx-clipboard';
 
 @Component({
   selector: 'app-farmer',
   templateUrl: './farmer.component.html',
   styleUrls: ['./farmer.component.css']
 })
+
 export class FarmerComponent implements OnInit {
 
   tabActive = 1;
@@ -60,7 +62,12 @@ export class FarmerComponent implements OnInit {
   private farmerid: string;
   public farmer: any = {};
 
-  constructor(private dataService: DataService, private route: ActivatedRoute, private modal: NgbModal) {
+  constructor(
+    private dataService: DataService,
+    private route: ActivatedRoute,
+    private modal: NgbModal,
+    private clipboardApi: ClipboardService
+  ) {
     this.blocks$ = this._blocks$.asObservable();
     this.giveaways$ = dataService.giveaways$;
     this.payoutaddrs$ = this._payoutaddrs$.asObservable();
@@ -233,6 +240,10 @@ export class FarmerComponent implements OnInit {
 
   showPartialError(content) {
     this.modal.open(content, { size: 'xl' });
+  }
+
+  copyToClipboard(content) {
+    this.clipboardApi.copyFromContent(content);
   }
 
 }
