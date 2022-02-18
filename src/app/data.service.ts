@@ -143,6 +143,23 @@ export class DataService {
     });
   }
 
+  getPoolSize(days?: number) {
+    var params = new HttpParams();
+    if(days) {
+      params = params.set('days', days);
+    }
+    return this.httpClient.get(`${this.REST_API_SERVER}pool_size/`, { params });
+  }
+
+  getLauncherSize(launcher: string, days?: number) {
+    var params = new HttpParams();
+    params = params.set('launcher', launcher);
+    if(days) {
+      params = params.set('days', days);
+    }
+    return this.httpClient.get(`${this.REST_API_SERVER}launcher_size/`, { params });
+  }
+
   getNext(url) {
     return this.httpClient.get(url);
   }

@@ -30,8 +30,12 @@ export class FarmerComponent implements OnInit {
   partialsPoints: number = 0;
   failedPartials: boolean = false;
 
+  sizeYAxisLabel: string = $localize`Estimated Size`;
+  sizeXAxisLabel: string = $localize`Time`;
+  sizeData: any[] = null;
+
   harvesters: Set<string> = new Set();
-  
+
   xch_current_price_usd: number = 0;
   xch_tb_month: number = 0;
 
@@ -76,6 +80,7 @@ export class FarmerComponent implements OnInit {
       this.dataService.getLauncher(this.farmerid).subscribe(launcher => {
         this.farmer = launcher;
         this.getPartialsData(this.farmerid);
+        this.getSize(this.farmerid);
       });
       this.dataService.getStats().subscribe(data => {
         this.xch_current_price_usd = data['xch_current_price']['usd'];
@@ -220,6 +225,39 @@ export class FarmerComponent implements OnInit {
       }
     );
 
+  }
+
+  getSize(launcher_id: string) {
+    this.dataService.getLauncherSize(launcher_id).subscribe((r) => {
+      this.sizeData = [
+        {
+          "name": "Size (24 hours average)",
+          "series": [],
+        },
+        {
+          "name": "Size (8 hours average)",
+          "series": [],
+        },
+      ];
+      (<any[]>r).map((i) => {
+        var where: any[];
+        if(i['field'] == 'size') {
+          where = this.sizeData[0];
+        } else if(i['field'] == 'size_8h') {
+          where = this.sizeData[1];
+        }
+        where['series'].push({
+          'name': new Date(i['datetime']).toLocaleString(),
+          'value': i['value'],
+          'label': where['name'] + ': ' + (i['value'] / 1024 ** 5).toFixed(2).toString() + ' PiB',
+        })
+      });
+
+    });
+  }
+
+  spaceFormatAxisY(spaceData: number) {
+    return (spaceData / 1024 ** 5).toFixed(2).toString() + ' PiB';
   }
 
   partialsXAxisFormat(data) {
