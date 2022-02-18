@@ -57,9 +57,8 @@ export class FarmerComponent implements OnInit {
 
   ticketsRound$: Observable<any[]>;
 
-  colorScheme = {
-    domain: ['#129b00', '#e00000']
-  };
+  partialsChartColors = { domain: ['#129b00', '#e00000'] };
+  sizeChartColors  = { domain: ['#006400', '#9ef01a'] };
 
   private farmerid: string;
   public farmer: any = {};
@@ -249,7 +248,7 @@ export class FarmerComponent implements OnInit {
         where['series'].push({
           'name': new Date(i['datetime']).toLocaleString(),
           'value': i['value'],
-          'label': where['name'] + ': ' + (i['value'] / 1024 ** 5).toFixed(2).toString() + ' PiB',
+          'label': where['name'] + ': ' + (i['value'] / 1024 ** 4).toFixed(2).toString() + ' TiB',
         })
       });
 
@@ -257,7 +256,7 @@ export class FarmerComponent implements OnInit {
   }
 
   spaceFormatAxisY(spaceData: number) {
-    return (spaceData / 1024 ** 5).toFixed(2).toString() + ' PiB';
+    return (spaceData / 1024 ** 4).toFixed(2).toString() + ' TiB';
   }
 
   partialsXAxisFormat(data) {

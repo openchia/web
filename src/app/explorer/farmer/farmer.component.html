@@ -82,7 +82,7 @@
         <a class="display-4" ngbNavLink i18n="@@Partials"><i class="fa fa-industry"></i> Partials</a>
         <ng-template ngbNavContent>
           <div class="row justify-content-center">
-            <ngx-charts-area-chart [scheme]="colorScheme" [legend]="false" [showXAxisLabel]="false"
+            <ngx-charts-area-chart [scheme]="partialsChartColors" [legend]="false" [showXAxisLabel]="false"
               [showYAxisLabel]="true" [xAxis]="true" [yAxis]="true" [xAxisLabel]="partialsXAxisLabel"
               [yAxisLabel]="partialsYAxisLabel" [timeline]="false" [results]="partialsData"
               [xAxisTickFormatting]="partialsXAxisFormat" [xAxisTicks]="partialsXTicks" [gradient]="partialsGradient">
@@ -266,14 +266,14 @@
         </ng-template>
       </li>
 
-      <!-- Harvester -->
+      <!-- Estimated Size -->
       <li class="display-4" [ngbNavItem]="2">
         <a ngbNavLink><i class="fa fa-expand"></i> Estimated Size</a>
         <ng-template ngbNavContent>
           <div class="row justify-content-center">
             <ngx-charts-area-chart [legend]="false" [showXAxisLabel]="false" [showYAxisLabel]="true" [xAxis]="false"
               [yAxis]="true" [xAxisLabel]="sizeXAxisLabel" [yAxisLabel]="sizeYAxisLabel" [timeline]="false"
-              [yAxisTickFormatting]="spaceFormatAxisY" [results]="sizeData" [gradient]="true">
+              [yAxisTickFormatting]="spaceFormatAxisY" [results]="sizeData" [gradient]="true" [scheme]="sizeChartColors">
               <ng-template #seriesTooltipTemplate let-model="model">
                 <div *ngFor="let item of model">
                   {{ item.label }}
