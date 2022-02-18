@@ -5,10 +5,12 @@ import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { RouterModule } from '@angular/router';
-import { AppRoutingModule } from './app.routing';
-import { ExplorerModule } from './explorer/explorer.module';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NgxChartsModule } from '@swimlane/ngx-charts';
+import { ClipboardModule } from 'ngx-clipboard';
+
+import { AppRoutingModule } from './app.routing';
+import { ExplorerModule } from './explorer/explorer.module';
 
 import { AppComponent } from './app.component';
 import { LandingComponent } from './landing/landing.component';
@@ -22,7 +24,6 @@ import { PartnersComponent } from './partners/partners.component';
 import { ReferralComponent } from './referral/referral.component';
 import { GiveawayComponent } from './giveaway/giveaway.component';
 import { CalculatorComponent } from './calculator/calculator.component';
-
 
 @NgModule({
   declarations: [
@@ -50,8 +51,10 @@ import { CalculatorComponent } from './calculator/calculator.component';
     HttpClientModule,
     NgxChartsModule,
     BrowserAnimationsModule,
+    ClipboardModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
 })
+
 export class AppModule { }

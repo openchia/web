@@ -169,6 +169,7 @@
                 <th scope="col" i18n="@@Date">Date</th>
                 <th scope="col" i18n="@@Difficulty">Difficulty</th>
                 <th scope="col" i18n>Harvester ID</th>
+                <th scope="col" i18n>Plot ID</th>
                 <th scope="col" i18n>State</th>
               </tr>
             </thead>
@@ -178,14 +179,20 @@
                 [class]="(partial.error && !failedPartials) ? 'partialErrorRow' : ''">
                 <td>{{ partial.timestamp * 1000 | date:"medium" }}</td>
                 <td>{{ partial.difficulty }}</td>
-                <td ngbTooltip="{{ partial.harvester_id }}" placement="left" container="body">{{ partial.harvester_id |
-                  maxLength:20 }}</td>
+                <td ngbTooltip="{{ partial.harvester_id }}" placement="top" container="body">
+                  <i class="fal fa-clone fa-clone-farmer" (click)="copyToClipboard(partial.harvester_id)"></i>
+                  {{ partial.harvester_id | maxLength:20 }}
+                </td>
+                <td ngbTooltip="{{ partial.plot_id }}" placement="top" container="body">
+                  <i class="fal fa-clone fa-clone-farmer" (click)="copyToClipboard(partial.plot_id)"></i>
+                  {{ partial.plot_id | maxLength:25 }}
+                </td>
                 <td *ngIf="partial.error">{{ partial.error }} <a href="javascript:void();"
                     (click)="showPartialError(content)"><i class="fas fa-info-circle fa-partial-error"></i></a>
-                <td *ngIf="!partial.error">OK</td>
+                <td *ngIf="!partial.error"><i class="fas fa-check fa-check-farmer"></i></td>
               </tr>
               <tr *ngIf="partialsFiltered.length == 0">
-                <td colspan="4" i18n>No partials found!</td>
+                <td colspan="5" i18n>No partials found!</td>
               </tr>
             </tbody>
           </table>
