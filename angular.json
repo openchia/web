@@ -66,8 +66,7 @@
             ],
             "styles": [
               "src/styles.css",
-              "src/assets/scss/argon.scss",
-              "src/assets/vendor/font-awesome/css/all.min.css"
+              "src/assets/scss/argon.scss"
             ],
             "scripts": []
           },
