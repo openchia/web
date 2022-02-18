@@ -179,13 +179,19 @@
                 [class]="(partial.error && !failedPartials) ? 'partialErrorRow' : ''">
                 <td>{{ partial.timestamp * 1000 | date:"medium" }}</td>
                 <td>{{ partial.difficulty }}</td>
-                <td ngbTooltip="{{ partial.harvester_id }}" placement="top" container="body">
-                  <i class="fas fa-copy fa-copy-farmer" (click)="copyToClipboard(partial.harvester_id)"></i>
-                  {{ partial.harvester_id | maxLength:20 }}
+                <td>
+                  <i class="fas fa-copy fa-copy-farmer" (click)="copyToClipboard(partial.harvester_id)"
+                    ngbTooltip="Copy Harvester ID" placement="top" container="body"></i>
+                  <span ngbTooltip="{{ partial.harvester_id }}" placement="top" container="body">
+                    {{ partial.harvester_id | maxLength:20 }}
+                  </span>
                 </td>
-                <td ngbTooltip="{{ partial.plot_id }}" placement="top" container="body">
-                  <i class="fas fa-copy fa-copy-farmer" (click)="copyToClipboard(partial.plot_id)"></i>
-                  {{ partial.plot_id | maxLength:20 }}
+                <td>
+                  <i class="fas fa-copy fa-copy-farmer" (click)="copyToClipboard(partial.plot_id)"
+                    ngbTooltip="Copy Plot ID" placement="top" container="body"></i>
+                  <span ngbTooltip="{{ partial.plot_id }}" placement="top" container="body">
+                    {{ partial.plot_id | maxLength:20 }}
+                  </span>
                 </td>
                 <td *ngIf="partial.error">{{ partial.error }} <a href="javascript:void();"
                     (click)="showPartialError(content)"><i class="fas fa-info-circle fa-partial-error"></i></a>
