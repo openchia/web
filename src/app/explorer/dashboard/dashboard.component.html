@@ -217,12 +217,6 @@
           <th scope="col" i18n="@@Height">Height</th>
           <th scope="col" i18n="@@Date">Date</th>
           <th scope="col" i18n="@@Farmer">Farmer</th>
-          <th scope="col"><span i18n="@@FarmerSize">Farmer Size</span>
-            <ng-template #farmersizeTooltip>
-              <span i18n>Estimated farm size.</span>
-            </ng-template>
-            &nbsp;<i class="fas fa-info-circle" closeDelay="4000" [ngbTooltip]="farmersizeTooltip"></i>
-          </th>
           <th scope="col"><span i18n="@@Poolspace">Pool Space</span>
             <ng-template #poolspaceTooltip>
               <span i18n>Pool space when the block has been won.</span>
@@ -248,7 +242,6 @@
               {{ block.farmed_by.name || block.farmed_by.launcher_id | maxLength:20 }}
             </a>
           </td>
-          <td>{{ block.farmed_by.estimated_size | filesize:{"base": 2, "standard": "iec"} }}</td>
           <td>{{ block.pool_space | filesize:{"base": 2, "standard": "iec"} }}</td>
           <td>
             <span *ngIf="block.luck == -1" i18n="@@Unknown">Unknown</span>
