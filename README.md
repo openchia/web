@@ -2,22 +2,22 @@
 
 <p align="center">
   <a style="text-decoration:none" href="https://github.com/openchia/web/blob/main/LICENSE.md">
-    <img alt="License" src="https://img.shields.io/github/license/openchia/web?logo=github&color=0&label=License">
+    <img alt="License" src="https://img.shields.io/github/license/openchia/web?logo=github&color=0&label=License&style=flat-square">
   </a>
   <a style="text-decoration:none" href="https://github.com/openchia/web/issues">
-    <img alt="Issues" src="https://img.shields.io/github/issues/openchia/web?logo=github&color=0&label=Issues">
+    <img alt="Issues" src="https://img.shields.io/github/issues/openchia/web?logo=github&color=0&label=Issues&style=flat-square">
   </a>
   <a style="text-decoration:none" href="https://github.com/openchia/web/actions/workflows/docker-publish.yml">
-    <img alt="Docker CI/CD" src="https://img.shields.io/github/workflow/status/openchia/web/Docker?logo=github&color=0&label=Docker">
+    <img alt="Docker CI/CD" src="https://img.shields.io/github/workflow/status/openchia/web/Docker?logo=github&color=0&label=Pipeline&style=flat-square">
   </a>
   <a style="text-decoration:none" href="https://discord.gg/2URS9H7RZn">
-    <img alt="Discord" src="https://img.shields.io/discord/865233670938689537?logo=discord&color=0&logoColor=white&label=Discord">
+    <img alt="Discord" src="https://img.shields.io/discord/865233670938689537?logo=discord&color=0&logoColor=white&label=Discord&style=flat-square">
   </a>
   <a style="text-decoration:none" href="https://twitter.com/openchia">
-    <img alt="Twitter" src="https://img.shields.io/twitter/follow/openchia?color=blue&label=Twitter&logo=twitter&logoColor=white&style=plastic">
+    <img alt="Twitter" src="https://img.shields.io/twitter/follow/openchia?color=blue&label=Twitter&logo=twitter&logoColor=white&style=flat-square">
   </a>
   <a style="text-decoration:none" href="https://www.youtube.com/channel/UCL70j_KiPd49rfp_UEqxiyQ">
-    <img alt="YouTube" src="https://img.shields.io/youtube/channel/subscribers/UCL70j_KiPd49rfp_UEqxiyQ?label=YouTube&logo=youtube&logoColor=white&style=plastic">
+    <img alt="YouTube" src="https://img.shields.io/youtube/channel/subscribers/UCL70j_KiPd49rfp_UEqxiyQ?label=YouTube&logo=youtube&logoColor=white&style=flat-square">
   </a>
 </p>
 
