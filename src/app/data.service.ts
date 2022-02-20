@@ -130,7 +130,7 @@ export class DataService {
     params = params.set('min_timestamp', timestamp.toString());
     params = params.set('launcher', launcher);
     params = params.set('offset', (offset || ''));
-    params = params.set('limit', 700);
+    params = params.set('limit', 1300);
     return this.httpClient.get(`${this.REST_API_SERVER}partial/`, { params });
   }
 
