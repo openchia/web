@@ -134,8 +134,9 @@ export class FarmerComponent implements OnInit {
   }
 
   payoutDownloadCSV() {
-    this.dataService.getPayoutTxs({ launcher: this.farmerid }).subscribe(res => {
+    this.dataService.getPayoutTxs({ launcher: this.farmerid, limit: 800 }).subscribe(res => {
 
+      // FIXME: get next pages if count is > limit (800)
       let csv_array = [];
       const out = Object.keys(res['results']).map(index => {
         let data = res['results'][index];
