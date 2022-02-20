@@ -176,7 +176,7 @@
             <tbody *ngIf="partialsTable">
               <tr
                 *ngFor="let partial of partialsFiltered | slice: (partialsPage-1) * partialsPageSize : partialsPage * partialsPageSize"
-                [class]="(partial.error && !failedPartials) ? 'partialErrorRow' : ''">
+                [class]="(partial.error && !failedPartials) ? 'partial-error-row' : ''">
                 <td>{{ partial.timestamp * 1000 | date:"medium" }}</td>
                 <td>{{ partial.difficulty }}</td>
                 <td>
@@ -284,9 +284,10 @@
         <a ngbNavLink><i class="fa fa-expand"></i> Estimated Size</a>
         <ng-template ngbNavContent>
           <div class="row justify-content-center">
-            <ngx-charts-area-chart [legend]="false" [showXAxisLabel]="false" [showYAxisLabel]="true" [xAxis]="false"
-              [yAxis]="true" [xAxisLabel]="sizeXAxisLabel" [yAxisLabel]="sizeYAxisLabel" [timeline]="false"
-              [yAxisTickFormatting]="spaceFormatAxisY" [results]="sizeData" [gradient]="true" [scheme]="sizeChartColors">
+            <ngx-charts-area-chart [showXAxisLabel]="false" [showYAxisLabel]="true" [xAxis]="false" [timeline]="false"
+              [yAxis]="true" [xAxisLabel]="sizeXAxisLabel" [yAxisLabel]="sizeYAxisLabel" [scheme]="sizeChartColors"
+              [yAxisTickFormatting]="spaceFormatAxisY" [results]="sizeData" [gradient]="true" [legend]="sizeLegend"
+              [legendPosition]="sizeLegendPosition" [legendTitle]="sizeLegendTitle">
               <ng-template #seriesTooltipTemplate let-model="model">
                 <div *ngFor="let item of model">
                   {{ item.label }}
@@ -461,7 +462,7 @@
                 <td>{{ block.pool_space | filesize:{"base": 2, "standard": "iec"} }}</td>
               </tr>
               <tr *ngIf="blocks.length == 0">
-                <td colspan="5" i18n>No blocks found by this farmer!</td>
+                <td colspan="6" i18n>No blocks found by this farmer!</td>
               </tr>
             </tbody>
           </table>

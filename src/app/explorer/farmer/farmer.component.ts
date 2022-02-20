@@ -34,6 +34,9 @@ export class FarmerComponent implements OnInit {
 
   sizeYAxisLabel: string = $localize`Estimated Size`;
   sizeXAxisLabel: string = $localize`Time`;
+  sizeLegend: boolean = true;
+  sizeLegendTitle: string = '';
+  sizeLegendPosition: string = 'below';
   sizeData: any[] = null;
 
   harvesters: Set<string> = new Set();

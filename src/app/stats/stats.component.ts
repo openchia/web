@@ -23,6 +23,8 @@ export class StatsComponent implements OnInit {
 
   // New pool space chart
   ngSpaceLegend: boolean = true;
+  nxSpaceLegendPosition: string = 'below';
+  nxSpaceLegendTitle: string = '';
   ngSpaceShowLabels: boolean = true;
   ngSpaceAnimations: boolean = true;
   ngSpaceAxisX: boolean = false;
@@ -33,9 +35,7 @@ export class StatsComponent implements OnInit {
   ngSpaceData: any[] = null;
   ngSpaceDays: number = 7;
 
-  colorScheme = {
-    domain: ['#129b00', '#629a00', '#b29a00']
-  };
+  colorScheme = { domain: ['#149b00', '#006400', '#9ef01a'] };
 
   constructor(private dataService: DataService) { }
 
