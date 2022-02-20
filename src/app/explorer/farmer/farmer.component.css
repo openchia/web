@@ -1,5 +1,10 @@
-.partialErrorRow {
+.partial-error-row {
   font-weight: bold;
+  color: #ff0000;
+}
+
+.fa-partial-error {
+  color: #ff0000 !important;
 }
 
 .btn-openchia {

@@ -43,11 +43,12 @@
                       class="show collapse in" style="display: block;" aria-expanded="false" aria-hidden="false"
                       #ContainerRef>
                       <br />
-                      <ngx-charts-line-chart [view]="[ContainerRef.offsetWidth]" [scheme]="colorScheme"
-                        [legend]="ngSpaceLegend" [showXAxisLabel]="ngSpaceShowAxisXLabel" [autoScale]="false"
+                      <ngx-charts-area-chart [view]="[ContainerRef.offsetWidth]"
+                        [legend]="ngSpaceLegend" [legendPosition]="nxSpaceLegendPosition" [legendTitle]="nxSpaceLegendTitle"
+                        [showXAxisLabel]="ngSpaceShowAxisXLabel" [autoScale]="false" [showGridLines]="true"
                         [showYAxisLabel]="ngSpaceShowAxisYLabel" [yAxis]="ngSpaceAxisY" [timeline]="ngSpaceShowTimeline"
                         [xAxis]="ngSpaceAxisX" [animations]="ngSpaceAnimations" [results]="ngSpaceData"
-                        [yAxisTickFormatting]="ngSpaceFormatAxisY" [gradient]="true" [showGridLines]="true">
+                        [yAxisTickFormatting]="ngSpaceFormatAxisY" [gradient]="true" [scheme]="colorScheme">
                         <ng-template #seriesTooltipTemplate let-model="model">
                           <div *ngFor="let item of model">
                             {{ item.label }}
@@ -58,7 +59,7 @@
                           {{ model.label }}<br />
                           {{ model.name }}
                         </ng-template>
-                      </ngx-charts-line-chart>
+                      </ngx-charts-area-chart>
                       <br />
                       <div class="justify-content-center">
                         <button class="btn btn-neutral col-sm-2" type="radio" (click)="refreshSize(1)"
