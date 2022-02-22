@@ -102,7 +102,11 @@ export class StatsComponent implements OnInit {
         if(!data.has(i['field'])) {
           data.set(i['field'], new Array());
         }
-        data.get(i['field']).push({ 'name': new Date(i['datetime']).toLocaleString(), 'value': i['value'], 'label': i['field'] + ': ' + i['value'] });
+        data.get(i['field']).push({
+          'name': new Date(i['datetime']).toLocaleString(),
+          'value': i['value'].toFixed((['btc', 'eth'].includes(i['field'])) ? 5 : 2),
+          'label': i['field'] + ': ' + i['value'].toFixed((['btc', 'eth'].includes(i['field'])) ? 5 : 2),
+        });
       });
 
       this.priceData = [];
@@ -125,7 +129,7 @@ export class StatsComponent implements OnInit {
           return ({
             "name": (new Date(item['date']).toLocaleString()),
             "value": item['size'],
-            "label": (item['size'] / 1024 / 1024 / 1024 / 1024 / 1024).toFixed(2).toString() + ' PiB',
+            "label": (item['size'] / 1024 ** 5).toFixed(2).toString() + ' PiB',
           })
         })
       }];
@@ -151,15 +155,15 @@ export class StatsComponent implements OnInit {
   }
 
   spaceFormatAxisY(spaceData: number) {
-    return (spaceData / 1024 / 1024 / 1024 / 1024 / 1024).toFixed(2).toString() + ' PiB';
+    return (spaceData / 1024 ** 5).toFixed(2).toString() + ' PiB';
   }
 
   ngSpaceFormatAxisY(spaceData: number) {
-    return (spaceData / 1024 / 1024 / 1024 / 1024 / 1024).toFixed(2).toString() + ' PiB';
+    return (spaceData / 1024 ** 5).toFixed(2).toString() + ' PiB';
   }
 
   netspaceFormatAxisY(spaceData: number) {
-    return (spaceData / 1024 ** 5).toFixed(2).toString() + ' EiB';
+    return (spaceData / 1024 ** 4).toFixed(2).toString() + ' EiB';
   }
 
 }
