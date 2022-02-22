@@ -235,7 +235,8 @@
       </thead>
       <tbody *ngIf="(blocks$ | async) as blocks;">
         <tr *ngFor="let block of blocks; let i = index">
-          <td><a href="https://www.spacescan.io/xch/block/height/{{ block.farmed_height }}" target="_blank">1598032</a>
+          <td><a href="https://www.spacescan.io/xch/block/height/{{ block.farmed_height }}" target="_blank">{{
+              block.farmed_height }}</a>
           </td>
           <td>{{ block.timestamp * 1000 | date:"medium" }}</td>
           <td>
