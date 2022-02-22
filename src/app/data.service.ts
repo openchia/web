@@ -160,6 +160,22 @@ export class DataService {
     return this.httpClient.get(`${this.REST_API_SERVER}launcher_size/`, { params });
   }
 
+  getNetspace(days?: number) {
+    var params = new HttpParams();
+    if(days) {
+      params = params.set('days', days);
+    }
+    return this.httpClient.get(`${this.REST_API_SERVER}stats/netspace/`, { params });
+  }
+
+  getXchPrice(days?: number) {
+    var params = new HttpParams();
+    if(days) {
+      params = params.set('days', days);
+    }
+    return this.httpClient.get(`${this.REST_API_SERVER}stats/xchprice/`, { params });
+  }
+
   getNext(url) {
     return this.httpClient.get(url);
   }

@@ -28,23 +28,22 @@
             <br />
             <div class="row">
               <div class="col-md-12 ml-auto">
-                <div id="accordionFeesPool" class="accordion">
+                <div class="accordion">
                   <div class="card">
-                    <div id="headingOne" class="card-header card-join">
+                    <div class="card-header card-join">
                       <h5 class="mb-0">
-                        <button aria-controls="collapseOne" id="collapseOne" type="button"
+                        <button aria-controls="collapseOne" type="button"
                           class="btn btn-link w-100 text-primary text-left" aria-expanded="true" i18n>Pool Space (After
                           18th February)
                           <i class="ni ni-bold-down float-right pt-1"></i>
                         </button>
                       </h5>
                     </div>
-                    <div aria-labelledby="headingOne" data-parent="#accordionPoolSpace" id="collapseOne"
-                      class="show collapse in" style="display: block;" aria-expanded="false" aria-hidden="false"
-                      #ContainerRef>
+                    <div aria-labelledby="headingOne" class="show collapse in" style="display: block;"
+                      aria-expanded="false" aria-hidden="false" #ngSpaceContainerRef>
                       <br />
-                      <ngx-charts-area-chart [view]="[ContainerRef.offsetWidth]"
-                        [legend]="ngSpaceLegend" [legendPosition]="nxSpaceLegendPosition" [legendTitle]="nxSpaceLegendTitle"
+                      <ngx-charts-area-chart [view]="[ngSpaceContainerRef.offsetWidth]" [legend]="ngSpaceLegend"
+                        [legendPosition]="nxSpaceLegendPosition" [legendTitle]="nxSpaceLegendTitle"
                         [showXAxisLabel]="ngSpaceShowAxisXLabel" [autoScale]="false" [showGridLines]="true"
                         [showYAxisLabel]="ngSpaceShowAxisYLabel" [yAxis]="ngSpaceAxisY" [timeline]="ngSpaceShowTimeline"
                         [xAxis]="ngSpaceAxisX" [animations]="ngSpaceAnimations" [results]="ngSpaceData"
@@ -81,21 +80,119 @@
             </div>
             <div class="row">
               <div class="col-md-12 ml-auto">
-                <div id="accordionFeesPool" class="accordion">
+                <div class="accordion">
                   <div class="card">
-                    <div id="headingOne" class="card-header card-join">
+                    <div class="card-header card-join">
                       <h5 class="mb-0">
-                        <button aria-controls="collapseOne" id="collapseOne" type="button"
+                        <button aria-controls="collapseOne" type="button"
+                          class="btn btn-link w-100 text-primary text-left" aria-expanded="true" i18n>Netspace
+                          <i class="ni ni-bold-down float-right pt-1"></i>
+                        </button>
+                      </h5>
+                    </div>
+                    <div aria-labelledby="headingOne" class="show collapse in" style="display: block;"
+                      aria-expanded="false" aria-hidden="false" #netspaceContainerRef>
+                      <br />
+                      <ngx-charts-area-chart [view]="[netspaceContainerRef.offsetWidth]" [scheme]="colorScheme"
+                        [legend]="netspaceLegend" [showXAxisLabel]="netspaceShowAxisXLabel" [autoScale]="false"
+                        [showYAxisLabel]="netspaceShowAxisYLabel" [yAxis]="netspaceAxisY" [timeline]="false"
+                        [xAxis]="netspaceAxisX" [animations]="netspaceAnimations" [results]="netspaceData"
+                        [yAxisTickFormatting]="netspaceFormatAxisY" [gradient]="true" [showGridLines]="true">
+                        <ng-template #seriesTooltipTemplate let-model="model">
+                          <div *ngFor="let item of model">
+                            {{ item.label }}
+                          </div>
+                          {{ model[0].name }}
+                        </ng-template>
+                        <ng-template #tooltipTemplate let-model="model">
+                          {{ model.label }}<br />
+                          {{ model.name }}
+                        </ng-template>
+                      </ngx-charts-area-chart>
+                      <br />
+                      <div class="justify-content-center">
+                        <button class="btn btn-neutral col-sm-2" type="radio" (click)="getNetspace(1)"
+                          [disabled]="netspaceDays == 1" i18n>1 Day</button>
+                        <button class="btn btn-neutral col-sm-2" type="radio" (click)="getNetspace(7)"
+                          [disabled]="netspaceDays == 7" i18n>7 Days</button>
+                        <button class="btn btn-neutral col-sm-2" type="radio" (click)="getNetspace(30)"
+                          [disabled]="netspaceDays == 30" i18n>1 Month</button>
+                        <button class="btn btn-neutral col-sm-2" type="radio" (click)="getNetspace(90)"
+                          [disabled]="netspaceDays == 90" i18n>3 Months</button>
+                        <button class="btn btn-neutral col-sm-2" type="radio" (click)="getNetspace(365)"
+                          [disabled]="netspaceDays == 365" i18n>1 Year</button>
+                      </div>
+                      <br />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-12 ml-auto">
+                <div class="accordion">
+                  <div class="card">
+                    <div class="card-header card-join">
+                      <h5 class="mb-0">
+                        <button aria-controls="collapseOne" type="button"
+                          class="btn btn-link w-100 text-primary text-left" aria-expanded="true" i18n>XCH Price
+                        </button>
+                      </h5>
+                    </div>
+                    <div aria-labelledby="headingOne" class="show collapse in" style="display: block;"
+                      aria-expanded="false" aria-hidden="false" #priceContainerRef>
+                      <br />
+                      <ngx-charts-line-chart [view]="[priceContainerRef.offsetWidth]" [scheme]="colorScheme"
+                        [legend]="priceLegend" [showXAxisLabel]="priceShowAxisXLabel" [autoScale]="false"
+                        [showYAxisLabel]="priceShowAxisYLabel" [yAxis]="priceAxisY" [timeline]="false"
+                        [xAxis]="priceAxisX" [animations]="priceAnimations" [results]="priceData" [gradient]="true"
+                        [showGridLines]="true">
+                        <ng-template #seriesTooltipTemplate let-model="model">
+                          <div *ngFor="let item of model">
+                            {{ item.label }}
+                          </div>
+                          {{ model[0].name }}
+                        </ng-template>
+                        <ng-template #tooltipTemplate let-model="model">
+                          {{ model.label }}<br />
+                          {{ model.name }}
+                        </ng-template>
+                      </ngx-charts-line-chart>
+                      <br />
+                      <div class="justify-content-center">
+                        <button class="btn btn-neutral col-sm-2" type="radio" (click)="getXchPrice(1)"
+                          [disabled]="priceDays == 1" i18n>1 Day</button>
+                        <button class="btn btn-neutral col-sm-2" type="radio" (click)="getXchPrice(7)"
+                          [disabled]="priceDays == 7" i18n>7 Days</button>
+                        <button class="btn btn-neutral col-sm-2" type="radio" (click)="getXchPrice(30)"
+                          [disabled]="priceDays == 30" i18n>1 Month</button>
+                        <button class="btn btn-neutral col-sm-2" type="radio" (click)="getXchPrice(90)"
+                          [disabled]="priceDays == 90" i18n>3 Months</button>
+                        <button class="btn btn-neutral col-sm-2" type="radio" (click)="getXchPrice(365)"
+                          [disabled]="priceDays == 365" i18n>1 Year</button>
+                      </div>
+                      <br />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-12 ml-auto">
+                <div class="accordion">
+                  <div class="card">
+                    <div class="card-header card-join">
+                      <h5 class="mb-0">
+                        <button aria-controls="collapseOne" type="button"
                           class="btn btn-link w-100 text-primary text-left" aria-expanded="true" i18n>Pool Space <i
                             class="ni ni-bold-down float-right pt-1"></i>
                         </button>
                       </h5>
                     </div>
-                    <div aria-labelledby="headingOne" data-parent="#accordionPoolSpace" id="collapseOne"
-                      class="show collapse in" style="display: block;" aria-expanded="false" aria-hidden="false"
-                      #ContainerRef>
+                    <div aria-labelledby="headingOne" class="show collapse in" style="display: block;"
+                      aria-expanded="false" aria-hidden="false" #spaceContainerRef>
                       <br />
-                      <ngx-charts-area-chart [view]="[ContainerRef.offsetWidth]" [scheme]="colorScheme"
+                      <ngx-charts-area-chart [view]="[spaceContainerRef.offsetWidth]" [scheme]="colorScheme"
                         [legend]="spaceLegend" [showXAxisLabel]="spaceShowAxisXLabel" [autoScale]="false"
                         [showYAxisLabel]="spaceShowAxisYLabel" [yAxis]="spaceAxisY" [autoScale]="false"
                         [timeline]="spaceShowTimeline" [xAxis]="spaceAxisX" [animations]="spaceAnimations"
