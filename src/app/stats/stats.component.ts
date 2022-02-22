@@ -142,7 +142,7 @@ export class StatsComponent implements OnInit {
           return ({
             "name": (new Date(item['datetime']).toLocaleString()),
             "value": item['value'],
-            "label": (item['value'] / 1024 ** 6).toFixed(2).toString() + ' EiB',
+            "label": (item['value'] / 1024 ** 4).toFixed(2).toString() + ' EiB',
           })
         })
       }];
