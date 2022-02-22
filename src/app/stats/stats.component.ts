@@ -35,6 +35,28 @@ export class StatsComponent implements OnInit {
   ngSpaceData: any[] = null;
   ngSpaceDays: number = 7;
 
+  netspaceLegend: boolean = false;
+  netspaceShowLabels: boolean = true;
+  netspaceAnimations: boolean = true;
+  netspaceAxisX: boolean = false;
+  netspaceAxisY: boolean = true;
+  netspaceShowAxisXLabel: boolean = true;
+  netspaceShowAxisYLabel: boolean = false;
+  netspaceShowTimeline: boolean = false;
+  netspaceData: any[] = null;
+  netspaceDays: number = 7;
+
+  priceLegend: boolean = true;
+  priceShowLabels: boolean = true;
+  priceAnimations: boolean = true;
+  priceAxisX: boolean = false;
+  priceAxisY: boolean = true;
+  priceShowAxisXLabel: boolean = true;
+  priceShowAxisYLabel: boolean = false;
+  priceShowTimeline: boolean = false;
+  priceData: any[] = null;
+  priceDays: number = 7;
+
   colorScheme = { domain: ['#149b00', '#006400', '#9ef01a'] };
 
   constructor(private dataService: DataService) { }
@@ -42,6 +64,8 @@ export class StatsComponent implements OnInit {
   ngOnInit() {
     this.refreshSpace(7);
     this.refreshSize(7);
+    this.getNetspace(7);
+    this.getXchPrice(7);
   }
 
   refreshSize(days: number) {
@@ -68,6 +92,30 @@ export class StatsComponent implements OnInit {
     })
   }
 
+  getXchPrice(days: number) {
+    this.dataService.getXchPrice(days).subscribe((d) => {
+
+      this.priceDays = days;
+
+      var data: Map<String, Array<any>> = new Map();
+      (<any[]>d).map((i) => {
+        if(!data.has(i['field'])) {
+          data.set(i['field'], new Array());
+        }
+        data.get(i['field']).push({ 'name': new Date(i['datetime']).toLocaleString(), 'value': i['value'], 'label': i['field'] + ': ' + i['value'] });
+      });
+
+      this.priceData = [];
+      data.forEach((v, k) => {
+        this.priceData.push({
+          "name": k,
+          "series": v,
+        })
+      })
+
+    })
+  }
+
   refreshSpace(days?) {
     this.dataService.getPoolSpace(days).subscribe((d) => {
       this.spaceDays = days;
@@ -84,12 +132,34 @@ export class StatsComponent implements OnInit {
     });
   }
 
+  getNetspace(days: number) {
+    this.dataService.getNetspace(days).subscribe((d) => {
+
+      this.netspaceDays = days;
+      this.netspaceData = [{
+        "name": "Size",
+        "series": (<any[]>d).map((item) => {
+          return ({
+            "name": (new Date(item['datetime']).toLocaleString()),
+            "value": item['value'],
+            "label": (item['value'] / 1024 ** 4).toFixed(2).toString() + ' EiB',
+          })
+        })
+      }];
+
+    })
+  }
+
   spaceFormatAxisY(spaceData: number) {
     return (spaceData / 1024 / 1024 / 1024 / 1024 / 1024).toFixed(2).toString() + ' PiB';
   }
 
   ngSpaceFormatAxisY(spaceData: number) {
     return (spaceData / 1024 / 1024 / 1024 / 1024 / 1024).toFixed(2).toString() + ' PiB';
+  }
+
+  netspaceFormatAxisY(spaceData: number) {
+    return (spaceData / 1024 ** 5).toFixed(2).toString() + ' EiB';
   }
 
 }
