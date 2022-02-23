@@ -62,7 +62,7 @@ export class DashboardComponent implements OnInit {
   ngOnInit() {
     this.dataService.getStats().subscribe(data => {
       this.pool_space = data['pool_space'];
-      this.estimate_win = data['estimate_win'];
+      this.estimate_win = this.secondsToHm(data['estimate_win'] * 60);
       this.rewards_blocks = data['rewards_blocks'];
       this.rewards_amount = data['rewards_amount'];
       this.farmers = data['farmers_active'];
