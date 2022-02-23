@@ -371,7 +371,12 @@
                 <td>{{ payoutaddr.id }}</td>
                 <td>{{ payoutaddr.payout.datetime | date:"medium" }}</td>
                 <td>{{ payoutaddr.transaction?.transaction }}</td>
-                <td>{{ payoutaddr.transaction?.confirmed_block_index }}</td>
+                <td>
+                  <a href="https://www.spacescan.io/xch/block/height/{{ payoutaddr.transaction?.confirmed_block_index }}"
+                    target="_blank">
+                    {{ payoutaddr.transaction?.confirmed_block_index }}
+                  </a>
+                </td>
                 <td>{{ payoutaddr.amount / 1000000000000 }} XCH</td>
                 <td>
                   <span *ngIf="payoutaddr.transaction && payoutaddr.transaction.xch_price">${{
@@ -441,7 +446,11 @@
             </thead>
             <tbody *ngIf="(blocks$ | async) as blocks;">
               <tr *ngFor="let block of blocks; let i = index">
-                <td>{{ block.farmed_height }}</td>
+                <td>
+                  <a href="https://www.spacescan.io/xch/block/height/{{ block.farmed_height }}" target="_blank">
+                    {{ block.farmed_height }}
+                  </a>
+                </td>
                 <td>{{ block.timestamp * 1000 | date:"medium" }}</td>
                 <td>{{ block.amount / 1000000000000 }} XCH</td>
                 <td>
