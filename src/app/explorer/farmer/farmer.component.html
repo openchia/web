@@ -371,12 +371,7 @@
                 <td>{{ payoutaddr.id }}</td>
                 <td>{{ payoutaddr.payout.datetime | date:"medium" }}</td>
                 <td>{{ payoutaddr.transaction?.transaction }}</td>
-                <td>
-                  <a href="https://www.spacescan.io/xch/block/height/{{ payoutaddr.transaction?.confirmed_block_index }}"
-                    target="_blank">
-                    {{ payoutaddr.transaction?.confirmed_block_index }}
-                  </a>
-                </td>
+                <td>{{ payoutaddr.transaction?.confirmed_block_index }}</td>
                 <td>{{ payoutaddr.amount / 1000000000000 }} XCH</td>
                 <td>
                   <span *ngIf="payoutaddr.transaction && payoutaddr.transaction.xch_price">${{
