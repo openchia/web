@@ -1,1494 +1,1006 @@
-<?xml version="1.0" encoding="UTF-8"?><xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" srcLang="en" trgLang="pl" version="2.0">
-<file id="ngi18n" original="ng.template">
-<unit id="1004766315783326842">
-<segment>
-<source xml:space="preserve">ETW</source>
-<target xml:space="preserve">ETW</target>
-</segment>
-</unit>
-<unit id="1007625284753612149">
-<segment>
-<source xml:space="preserve">Frontend Developer</source>
-<target xml:space="preserve">Frontend Developer</target>
-</segment>
-</unit>
-<unit id="1037127944915137232">
-<segment>
-<source xml:space="preserve">Learn how to set name here.</source>
-<target xml:space="preserve">Tutaj możesz dowiedzieć się jak ustawić nazwę.</target>
-</segment>
-</unit>
-<unit id="1063462873103909661">
-<segment>
-<source xml:space="preserve">Difficulty</source>
-<target xml:space="preserve">Poziom Trudności</target>
-</segment>
-</unit>
-<unit id="1140108877159163263">
-<segment>
-<source xml:space="preserve">No blocks found!</source>
-<target xml:space="preserve">Brak znalezionych bloków!</target>
-</segment>
-</unit>
-<unit id="1175065931767236325">
-<segment>
-<source xml:space="preserve">No farmers found!</source>
-<target xml:space="preserve">Farmer nie został znaleziony!</target>
-</segment>
-</unit>
-<unit id="1289545646802926160">
-<segment>
-<source xml:space="preserve">We reserve the right to change fees for new referrals at any time.</source>
-<target xml:space="preserve">We reserve the right to change fees for new referrals at any time.</target>
-</segment>
-</unit>
-<unit id="136762463398753526">
-<segment>
-<source xml:space="preserve">Low fee with referral option.</source>
-<target xml:space="preserve">Low fee with referral option.</target>
-</segment>
-</unit>
-<unit id="1401585310581586757">
-<segment>
-<source xml:space="preserve">Have your friend join the pool and login to the pool website using the Plot NFT login link. He will confirm you are his referrer. (Referrer is filled automatically if he visited the website with your link)</source>
-<target xml:space="preserve">Have your friend join the pool and login to the pool website using the Plot NFT login link. He will confirm you are his referrer. (Referrer is filled automatically if he visited the website with your link)</target>
-</segment>
-</unit>
-<unit id="1638630395802416450">
-<segment>
-<source xml:space="preserve"> They&apos;re offering cutting edge cryptocurrency technology of today and tomorrow. Cardano is a cryptocurrency network and open source project that aims to run a public blockchain platform for smart contracts. Cardano&apos;s internal cryptocurrency is called ADA!</source>
-<target xml:space="preserve">Oferują najnowsze technologię w dziedzinie kryptowalut. Cardano to sieć kryptowalut i projekt open source, którego celem jest uruchomienie publicznej platformy blockchain dla inteligentnych kontraktów. Wewnętrzna kryptowaluta Cardano nazywa się ADA! </target>
-</segment>
-</unit>
-<unit id="1718704299775385181">
-<segment>
-<source xml:space="preserve">Do not attempt close loop of referral. e.g. A -&gt; B -&gt; C -&gt; A.</source>
-<target xml:space="preserve">Do not attempt close loop of referral. e.g. A -&gt; B -&gt; C -&gt; A.</target>
-</segment>
-</unit>
-<unit id="1758435593288719047">
-<segment>
-<source xml:space="preserve">go to “faucet” text channel</source>
-<target xml:space="preserve"> przejdź do kanału tekstowego „faucet” </target>
-</segment>
-</unit>
-<unit id="1774008180173753624">
-<segment>
-<source xml:space="preserve">Successful Partials</source>
-<target xml:space="preserve">Udane partials</target>
-</segment>
-</unit>
-<unit id="1783078519944991756">
-<segment>
-<source xml:space="preserve">Failed to authenticate! Check your URL and try again.</source>
-<target xml:space="preserve">Autentykacja nieudana! Sprawdź swój adres URL i spróbuj ponownie. </target>
-</segment>
-</unit>
-<unit id="1797292337796232493">
-<segment>
-<source xml:space="preserve">OpenChia believes in a future that blockchain and cryptocurrency can exist without degrading the environment and helping make the world a better place. We believe Chia and Cardano can coexist to help make that happen. If you&apos;d like to know more about Cardano and/or join a legitimate staking pool please visit <pc dispEnd="&lt;/a&gt;" dispStart="&lt;a         href=&quot;https://vivid-pool.info/&quot; target=&quot;_blank&quot;&gt;" equivEnd="CLOSE_LINK" equivStart="START_LINK" id="0" type="link">Vivid Pool.</pc>
-</source>
-<target xml:space="preserve">Jako OpenChia uważamy, że w przyszłości blockchainy, jak i kryptowaluty przestaną mieć negatywny impakt na środowisko oraz przyczynić się do uczynienia świata lepszym miejscem. Uważamy, że Chia i Cardano są na dobrej drodze, aby tak się stało. Jeśli chcesz dowiedzieć się więcej o Cardano i/lub dołączyć do "stake pool", odwiedź <pc dispEnd="&lt;/a&gt;" dispStart="&lt;a         href=&quot;https://vivid-pool.info/&quot; target=&quot;_blank&quot;&gt;" equivEnd="CLOSE_LINK" equivStart="START_LINK" id="0" type="link">Vivid Pool. </pc>
-</target>
-</segment>
-</unit>
-<unit id="1918146053125551227">
-<segment>
-<source xml:space="preserve">
-<pc dispEnd="&lt;/a&gt;" dispStart="&lt;a href=&quot;https://vivid-pool.info/&quot; target=&quot;_blank&quot;&gt;" equivEnd="CLOSE_LINK" equivStart="START_LINK" id="0" type="link">Vivid Stake Pool</pc> allows you to stake in Cardano. If you deposit your Fiat Money on your bank account you will receive 1-3 % profit per year which will be paid after at least a few months. In Cardano it is the opposite: you receive high profits as high as 5-8 % per year which is paid every 5 days!</source>
-<target xml:space="preserve">
-<pc dispEnd="&lt;/a&gt;" dispStart="&lt;a href=&quot;https://vivid-pool.info/&quot; target=&quot;_blank&quot;&gt;" equivEnd="CLOSE_LINK" equivStart="START_LINK" id="0" type="link">Vivid Stake Pool</pc> pozwala na "stake" waluty Cardano. Jeśli dokonasz wpłaty pieniądza fiducjarnego na swoje konto oszczędnościowe w banku, otrzymasz 1-3% zysku rocznie, który zostanie wypłacony po co najmniej kilku miesiącach. W Cardano jest odwrotnie: otrzymujesz wyższy zysk aż do 5-8% rocznie, które są wypłacane co 5 dni!</target>
-</segment>
-</unit>
-<unit id="1921163817420022648">
-<segment>
-<source xml:space="preserve">Login to the pool website using your Plot NFT login link and go to the &quot;Referrals&quot; tab.</source>
-<target xml:space="preserve">Login to the pool website using your Plot NFT login link and go to the &quot;Referrals&quot; tab.</target>
-</segment>
-</unit>
-<unit id="1931139842666967640">
-<segment>
-<source xml:space="preserve">Have you asked yourself who are the people running Chia pools? Do you trust them? </source>
-<target xml:space="preserve">Czy zastanawiałeś się nad tym, kim są osoby prowadzące Chia pool? Czy można im zaufać?</target>
-</segment>
-</unit>
-<unit id="1949302126255810191">
-<segment>
-<source xml:space="preserve">Reward Distribution</source>
-<target xml:space="preserve">Podział nagrody</target>
-</segment>
-</unit>
-<unit id="1976239811515748183">
-<segment>
-<source xml:space="preserve">Until 1st October 2021 (2021/10/01)</source>
-<target xml:space="preserve">Do 1 października 2021 r. (2021/10/01)</target>
-</segment>
-</unit>
-<unit id="1987379316591371803">
-<segment>
-<source xml:space="preserve">Payouts</source>
-<target xml:space="preserve">Wypłaty</target>
-</segment>
-</unit>
-<unit id="2026871242381918065">
-<segment>
-<source xml:space="preserve">What are non-portable (OG) and portable plots (NFT)?</source>
-<target xml:space="preserve">Czym są działki nieprzenośne (OG) i przenośne (NFT)?</target>
-</segment>
-</unit>
-<unit id="2032214384688052707">
-<segment>
-<source xml:space="preserve">Frequentely Asked Questions (F.A.Q.)</source>
-<target xml:space="preserve">Często zadawane pytania (F.A.Q.)</target>
-</segment>
-</unit>
-<unit id="2041082387182328462">
-<segment>
-<source xml:space="preserve">Enjoy 0% pool fee until October 2021.</source>
-<target xml:space="preserve">Korzystaj z 0% opłaty za pool do października 2021.</target>
-</segment>
-</unit>
-<unit id="2097611575880598770">
-<segment>
-<source xml:space="preserve">Chat with us</source>
-<target xml:space="preserve">Skontaktuj się z nami</target>
-</segment>
-</unit>
-<unit id="2153109973251079314">
-<segment>
-<source xml:space="preserve">Learn how to set name here.</source>
-<target xml:space="preserve">Tutaj możesz dowiedzieć się jak ustawić nazwę.</target>
-</segment>
-</unit>
-<unit id="223937640624116360">
-<segment>
-<source xml:space="preserve">Can I switch from/to your pool whenever I want?</source>
-<target xml:space="preserve">Czy mogę dołączyć/opuścić pool, kiedy tylko zechcę?</target>
-</segment>
-</unit>
-<unit id="2252939334456578689">
-<segment>
-<source xml:space="preserve">Go to &quot;Pool&quot; menu in the left menu</source>
-<target xml:space="preserve">Przejdź do menu „Pool” w panelu po lewej stronie</target>
-</segment>
-</unit>
-<unit id="2261097846853869505">
-<segment>
-<source xml:space="preserve">You will receive 20% of the pool fee for every payment made to your friend. That value comes out of the pool and not from your friend reward!</source>
-<target xml:space="preserve">You will receive 20% of the pool fee for every payment made to your friend. That value comes out of the pool and not from your friend reward!</target>
-</segment>
-</unit>
-<unit id="2264932589847833892">
-<segment>
-<source xml:space="preserve">Farmer Details</source>
-<target xml:space="preserve">Informacje o farmerze</target>
-</segment>
-</unit>
-<unit id="2303041439224647987">
-<segment>
-<source xml:space="preserve">Connection</source>
-<target xml:space="preserve">Połączenie</target>
-</segment>
-</unit>
-<unit id="2318140886847115923">
-<segment>
-<source xml:space="preserve">Pool server real-time log</source>
-<target xml:space="preserve">Logi z poola w czasie rzeczywistym</target>
-</segment>
-</unit>
-<unit id="2351744948046490518">
-<segment>
-<source xml:space="preserve">Join our pool</source>
-<target xml:space="preserve">Dołącz do poola</target>
-</segment>
-</unit>
-<unit id="2396139623688857660">
-<segment>
-<source xml:space="preserve">How to set name in explorer? (alias)</source>
-<target xml:space="preserve">Jak ustawić nazwę w eksploratorze? (alias)</target>
-</segment>
-</unit>
-<unit id="24036095495322476">
-<segment>
-<source xml:space="preserve">Last Partials (24 hours)</source>
-<target xml:space="preserve">Ostatnie Partials (24 godziny) </target>
-</segment>
-</unit>
-<unit id="2469056745486120197">
-<segment>
-<source xml:space="preserve">Fee: 1%</source>
-<target xml:space="preserve">Fee: 1%</target>
-</segment>
-</unit>
-<unit id="2637241189361251661">
-<segment>
-<source xml:space="preserve">.faucet &lt;wallet address&gt;</source>
-<target xml:space="preserve">.faucet &lt;twój adres portfela&gt;</target>
-</segment>
-</unit>
-<unit id="2644032998932147111">
-<segment>
-<source xml:space="preserve">If a reward of 1.75 XCH is found, only 1% of that, 0.0175 will be kept to the pool as a fee. The remaining 1.7325 XCH will be distributed to pool farmers.</source>
-<target xml:space="preserve">Jeśli pool otrzyma nagrodę za blok w wysokości 1,75 XCH, tylko 1% z tego, 0.0175 zostanie zatrzymane przez pool jako opłata. Pozostałe 1.7325 XCH zostanie rozdane pomiędzy farmerów w poolu.</target>
-</segment>
-</unit>
-<unit id="2669308838649487392">
-<segment>
-<source xml:space="preserve">Show failed partials only</source>
-<target xml:space="preserve">Pokaż tylko nieudane partials</target>
-</segment>
-</unit>
-<unit id="2756022432863940642">
-<segment>
-<source xml:space="preserve">Failed Partials</source>
-<target xml:space="preserve">Nieudane Partials</target>
-</segment>
-</unit>
-<unit id="2806917038528218276">
-<segment>
-<source xml:space="preserve">FAQ</source>
-<target xml:space="preserve">FAQ</target>
-</segment>
-</unit>
-<unit id="2821179408673282599">
-<segment>
-<source xml:space="preserve">Home</source>
-<target xml:space="preserve">Strona główna</target>
-</segment>
-</unit>
-<unit id="2905619048308246310">
-<segment>
-<source xml:space="preserve">All our software is open source.</source>
-<target xml:space="preserve">Nasze oprogramowanie w całości jest open source.</target>
-</segment>
-</unit>
-<unit id="2921627933919469894">
-<segment>
-<source xml:space="preserve">Farmers</source>
-<target xml:space="preserve">Farmerzy</target>
-</segment>
-</unit>
-<unit id="2926474126478443738">
-<segment>
-<source xml:space="preserve">Not synced!</source>
-<target xml:space="preserve">Not synced!</target>
-</segment>
-</unit>
-<unit id="2929691011645001388">
-<segment>
-<source xml:space="preserve">% of total</source>
-<target xml:space="preserve">% ogółu</target>
-</segment>
-</unit>
-<unit id="3033623772164647792">
-<segment>
-<source xml:space="preserve">Height</source>
-<target xml:space="preserve">Wysokość</target>
-</segment>
-</unit>
-<unit id="3037348742943406028">
-<segment>
-<source xml:space="preserve"> Payouts will happen within 5 minutes of the farmed block.<ph disp="&lt;br /&gt;" equiv="LINE_BREAK" id="0" type="fmt"/>
-<pc dispEnd="&lt;/p&gt;" dispStart="&lt;p&gt;" equivEnd="CLOSE_PARAGRAPH" equivStart="START_PARAGRAPH" id="1" type="other"> These terms are subjected to change and will be communicated 1 week prior to the change in this website and on Discord channel. </pc>
-</source>
-<target xml:space="preserve"> Wypłaty nastąpi w ciągu 5 minut od wyfarmienia bloku. <ph disp="&lt;br /&gt;" equiv="LINE_BREAK" id="0" type="fmt"/>
-<pc dispEnd="&lt;/p&gt;" dispStart="&lt;p&gt;" equivEnd="CLOSE_PARAGRAPH" equivStart="START_PARAGRAPH" id="1" type="other">Warunki te mogą ulec zmianie. Wszelakie zmiany zostaną opublikowane z tygodniowym wyprzedzeniem na stronie i serverze Discord. </pc> </target>
-</segment>
-</unit>
-<unit id="3145581158682357446">
-<segment>
-<source xml:space="preserve">
-<ph disp="{{ rewards_blocks }}" equiv="INTERPOLATION" id="0"/> farmed</source>
-<target xml:space="preserve">
-<ph disp="{{ rewards_blocks }}" equiv="INTERPOLATION" id="0"/> wyfarmione</target>
-</segment>
-</unit>
-<unit id="3173354168032548090">
-<segment>
-<source xml:space="preserve">How many portable plots do I need to join the pool?</source>
-<target xml:space="preserve">Ile przenośnych działek potrzebuję, aby dołączyć do poola? </target>
-</segment>
-</unit>
-<unit id="3179472790665120358">
-<segment>
-<source xml:space="preserve">Fees are structured this way</source>
-<target xml:space="preserve">Opłaty wyglądają następująco</target>
-</segment>
-</unit>
-<unit id="3223637037001251732">
-<segment>
-<source xml:space="preserve">Farmer</source>
-<target xml:space="preserve">Farmer</target>
-</segment>
-</unit>
-<unit id="3406747127815684711">
-<segment>
-<source xml:space="preserve">Netspace</source>
-<target xml:space="preserve">Netspace</target>
-</segment>
-</unit>
-<unit id="3458332391940035038">
-<segment>
-<source xml:space="preserve">System Administrator</source>
-<target xml:space="preserve">Administrator systemów</target>
-</segment>
-</unit>
-<unit id="3630057890731840343">
-<segment>
-<source xml:space="preserve">A pool you can trust.</source>
-<target xml:space="preserve">Pool, któremu możesz zaufać.</target>
-</segment>
-</unit>
-<unit id="3687194426938367329">
-<segment>
-<source xml:space="preserve">Partners</source>
-<target xml:space="preserve">Partnerzy</target>
-</segment>
-</unit>
-<unit id="3720651283513261307">
-<segment>
-<source xml:space="preserve">Instant payout</source>
-<target xml:space="preserve">Natychmiastowa wypłata </target>
-</segment>
-</unit>
-<unit id="3768927257183755959">
-<segment>
-<source xml:space="preserve">Save</source>
-<target xml:space="preserve">Zapisz</target>
-</segment>
-</unit>
-<unit id="3888743417810877091">
-<segment>
-<source xml:space="preserve">1% Fee</source>
-<target xml:space="preserve">1% Fee</target>
-</segment>
-</unit>
-<unit id="3896519408731471839">
-<segment>
-<source xml:space="preserve">OpenChia believes that in a future blockchain and cryptocurrency can exist without degrading the environment and helping make the world a better place. We believe Chia and Cardano can coexist to help make that happen. If you&apos;d like to know more about Cardano and/or join a legitimate staking pool please visit <pc dispEnd="&lt;/a&gt;" dispStart="&lt;a         href=&quot;https://vivid-pool.info/&quot; target=&quot;_blank&quot;&gt;" equivEnd="CLOSE_LINK" equivStart="START_LINK" id="0" type="link">Vivid Pool</pc>.</source>
-<target xml:space="preserve">Jako OpenChia uważamy, że w przyszłości blockchainy, jak i kryptowaluty przestaną mieć negatywny impakt na środowisko oraz przyczynić się do uczynienia świata lepszym miejscem. Uważamy, że Chia i Cardano są na dobrej drodze, aby tak się stało. Jeśli chcesz dowiedzieć się więcej o Cardano i/lub dołączyć do "stake pool", odwiedź <pc dispEnd="&lt;/a&gt;" dispStart="&lt;a         href=&quot;https://vivid-pool.info/&quot; target=&quot;_blank&quot;&gt;" equivEnd="CLOSE_LINK" equivStart="START_LINK" id="0" type="link">Vivid Pool</pc>.</target>
-</segment>
-</unit>
-<unit id="3900702001221590652">
-<segment>
-<source xml:space="preserve">No blocks found by this farmer!</source>
-<target xml:space="preserve">Brak znalezionych bloków przez farmera!</target>
-</segment>
-</unit>
-<unit id="3973931101896534797">
-<segment>
-<source xml:space="preserve">Date</source>
-<target xml:space="preserve">Data</target>
-</segment>
-</unit>
-<unit id="4033388457681035533">
-<segment>
-<source xml:space="preserve">Business and Marketing</source>
-<target xml:space="preserve">Biznes i Marketing</target>
-</segment>
-</unit>
-<unit id="4040786877830825878">
-<segment>
-<source xml:space="preserve"> Payouts will happen within 5 minutes of the farmed block.<ph disp="&lt;br /&gt;" equiv="LINE_BREAK" id="0" type="fmt"/>
-<pc dispEnd="&lt;/p&gt;" dispStart="&lt;p&gt;" equivEnd="CLOSE_PARAGRAPH" equivStart="START_PARAGRAPH" id="1" type="other"> These terms are subjected to change and will be communicated 1 week prior to the change in this website and on Discord channel. </pc>
-</source>
-<target xml:space="preserve"> Wypłaty nastąpi w ciągu 5 minut od wyfarmienia bloku. <ph disp="&lt;br /&gt;" equiv="LINE_BREAK" id="0" type="fmt"/>
-<pc dispEnd="&lt;/p&gt;" dispStart="&lt;p&gt;" equivEnd="CLOSE_PARAGRAPH" equivStart="START_PARAGRAPH" id="1" type="other">Warunki te mogą ulec zmianie. Wszelakie zmiany zostaną opublikowane z tygodniowym wyprzedzeniem na stronie i serverze Discord. </pc> </target>
-</segment>
-</unit>
-<unit id="4062617929041832221">
-<segment>
-<source xml:space="preserve">farmer doesn&apos;t exist, has left and/or has been removed.</source>
-<target xml:space="preserve">farmer nie istnieje, opuścił i/lub został usunięty.</target>
-</segment>
-</unit>
-<unit id="4127571452382238225">
-<segment>
-<source xml:space="preserve">Explorer</source>
-<target xml:space="preserve">Eksplorator</target>
-</segment>
-</unit>
-<unit id="4165674190938428121">
-<segment>
-<source xml:space="preserve">Make sure you are running official Chia client 1.2.0 or later.</source>
-<target xml:space="preserve">Upewnij się, że używasz oficjalnego klienta Chia 1.2.0 lub nowszego.</target>
-</segment>
-</unit>
-<unit id="4188492714860880995">
-<segment>
-<source xml:space="preserve">Thank you for trusting us!</source>
-<target xml:space="preserve">Dziękujemy za zaufanie!</target>
-</segment>
-</unit>
-<unit id="4239635668959543337">
-<segment>
-<source xml:space="preserve">We have more than 20 years of combined experience in the software development industry.</source>
-<target xml:space="preserve">Wspólnie mamy ponad 20 lat doświadczenia w branży tworzenia oprogramowania.</target>
-</segment>
-</unit>
-<unit id="4267952904665583656">
-<segment>
-<source xml:space="preserve">before joining the pool, your node and wallet must be fully synchronized with Chia blockchain</source>
-<target xml:space="preserve">przed dołączeniem do poola, twój node i portfel muszą być w pełni zsynchronizowane z Chia blockchain</target>
-</segment>
-</unit>
-<unit id="427062538161914083">
-<segment>
-<source xml:space="preserve">Official Chia Instructions.</source>
-<target xml:space="preserve">Oficjalne instrukcje Chia.</target>
-</segment>
-</unit>
-<unit id="4420171943937772574">
-<segment>
-<source xml:space="preserve">go to the “Pool” tab, and click on “Join the Pool”</source>
-<target xml:space="preserve">przejdź do zakładki „Pool” i kliknij „Join the Pool”</target>
-</segment>
-</unit>
-<unit id="4423939679955683675">
-<segment>
-<source xml:space="preserve">A reward of 1.75 XCH will be distributed to pool farmers, 0 XCH (nothing) is kept to the pool.</source>
-<target xml:space="preserve">W przypadku otrzymania nagrody za blok w wysokości 1.75 XCH, zostanie ona w całości rozdana pomiędzy farmerów w poolu. 0 XCH jest przydzielone dla poola.</target>
-</segment>
-</unit>
-<unit id="4500995370545031926">
-<segment>
-<source xml:space="preserve">How Chia pools work?</source>
-<target xml:space="preserve">Jak działają Chia pool?</target>
-</segment>
-</unit>
-<unit id="4501612350036673473">
-<segment>
-<source xml:space="preserve">Get your reward as soon as possible.</source>
-<target xml:space="preserve">Odbieraj nagrodę za blok tak szybko, jak to możliwe. </target>
-</segment>
-</unit>
-<unit id="4580988005648117665">
-<segment>
-<source xml:space="preserve">Search</source>
-<target xml:space="preserve">Szukaj</target>
-</segment>
-</unit>
-<unit id="4591435416961869603">
-<segment>
-<source xml:space="preserve"> (unknown) <pc dispEnd="&lt;/i&gt;" dispStart="&lt;i class=&quot;fas fa-info-circle&quot;                 ngbTooltip=&quot;Unknown because this user arrived before the integration of this function in pool.&quot;&gt;" equivEnd="CLOSE_ITALIC_TEXT" equivStart="START_ITALIC_TEXT" id="0" type="fmt"/>
-</source>
-<target xml:space="preserve"> (unknown) <pc dispEnd="&lt;/i&gt;" dispStart="&lt;i class=&quot;fas fa-info-circle&quot;                 ngbTooltip=&quot;Unknown because this user arrived before the integration of this function in pool.&quot;&gt;" equivEnd="CLOSE_ITALIC_TEXT" equivStart="START_ITALIC_TEXT" id="0" type="fmt"/>
-</target>
-</segment>
-</unit>
-<unit id="4645345687322304891">
-<segment>
-<source xml:space="preserve">Rules</source>
-<target xml:space="preserve">Rules</target>
-</segment>
-</unit>
-<unit id="4686179819982655014">
-<segment>
-<source xml:space="preserve">Receive some XCH</source>
-<target xml:space="preserve">Odbierz XCH</target>
-</segment>
-</unit>
-<unit id="4839405892539527393">
-<segment>
-<source xml:space="preserve">Create plots using that plotnft:</source>
-<target xml:space="preserve">Utwórz działki za pomocą plotnft: </target>
-</segment>
-</unit>
-<unit id="4862418072620251283">
-<segment>
-<source xml:space="preserve">No referrals found for this farmer!</source>
-<target xml:space="preserve">No referrals found for this farmer!</target>
-</segment>
-</unit>
-<unit id="4887086279398746047">
-<segment>
-<source xml:space="preserve">The effort that was required to farm the block. 100% is the expected estimated time to win. Lower than 100% means we farmed the block before the estimation. Higher than 100% means we took longer than anticipated.</source>
-<target xml:space="preserve">The effort that was required to farm the block. 100% is the expected estimated time to win. Lower than 100% means we farmed the block before the estimation. Higher than 100% means we took longer than anticipated.</target>
-</segment>
-</unit>
-<unit id="4894182895116318049">
-<segment>
-<source xml:space="preserve">Harvester ID</source>
-<target xml:space="preserve">Harvester ID</target>
-</segment>
-</unit>
-<unit id="498428897195803218">
-<segment>
-<source xml:space="preserve">Distribution System: PPLNS</source>
-<target xml:space="preserve">System dystrybucji: PPLNS</target>
-</segment>
-</unit>
-<unit id="5012084291992448490">
-<segment>
-<source xml:space="preserve">Fees</source>
-<target xml:space="preserve">Opłaty</target>
-</segment>
-</unit>
-<unit id="5043891966437752386">
-<segment>
-<source xml:space="preserve">Launcher ID</source>
-<target xml:space="preserve">ID klienta aplikacji</target>
-</segment>
-</unit>
-<unit id="5088299831715376392">
-<segment>
-<source xml:space="preserve">If a reward of 1.75 XCH is found, only 1% of that, 0.0175 will be kept to the pool as a fee. The remaining 1.7325 XCH will be distributed to pool farmers.</source>
-<target xml:space="preserve">Jeśli pool otrzyma nagrodę za blok w wysokości 1,75 XCH, tylko 1% z tego, 0.0175 zostanie zatrzymane przez pool jako opłata. Pozostałe 1.7325 XCH zostanie rozdane pomiędzy farmerów w poolu.</target>
-</segment>
-</unit>
-<unit id="5200920908020858748">
-<segment>
-<source xml:space="preserve">click the “Create” button. In the next couple of minutes, the Plot NFT will be created, and it will appear in your “Pool” tab</source>
-<target xml:space="preserve">kliknij przycisk „Create”. W ciągu najbliższych kilku minut zostanie utworzony plot NFT, który pojawi się w zakładce „Pool”</target>
-</segment>
-</unit>
-<unit id="5254622645701859101">
-<segment>
-<source xml:space="preserve">Points</source>
-<target xml:space="preserve">Punkty</target>
-</segment>
-</unit>
-<unit id="5265690573497854746">
-<segment>
-<source xml:space="preserve">You can now start creating Plots in “Plots” tab using this new Plot NFT to start farming XCH</source>
-<target xml:space="preserve">Teraz możesz zacząć tworzyć działki w zakładce „Działki” dzieki, którym możesz farmić XCH</target>
-</segment>
-</unit>
-<unit id="5407189743553466183">
-<segment>
-<source xml:space="preserve">Use of good faith and don&apos;t refer yourself in any shape or form.</source>
-<target xml:space="preserve">Use of good faith and don&apos;t refer yourself in any shape or form.</target>
-</segment>
-</unit>
-<unit id="5421336367436045349">
-<segment>
-<source xml:space="preserve">All our software is open source. </source>
-<target xml:space="preserve">Nasze oprogramowanie w całości jest open source.</target>
-</segment>
-</unit>
-<unit id="5493504549864464172">
-<segment>
-<source xml:space="preserve">Use above link to refer people to this pool. They will be required to join the pool and login to the website to confirm the referral.</source>
-<target xml:space="preserve">Use above link to refer people to this pool. They will be required to join the pool and login to the website to confirm the referral.</target>
-</segment>
-</unit>
-<unit id="5530479554673343767">
-<segment>
-<source xml:space="preserve"> We use PPLNS (Pay Per Last N Shares) to distribute rewards.<ph disp="&lt;br /&gt;" equiv="LINE_BREAK" id="0" type="fmt"/> When a block is won, we look at the valid partials (shares) submitted by all users in the pool since last payout and distribute the reward value based on your share among all farmers in the pool.<ph disp="&lt;br /&gt;" equiv="LINE_BREAK" id="1" type="fmt"/> In our case Last N Shares refers to partials since last payout. We believe this system is far more fair for less frequent rewards (when Last N Shares means only last few hours), since people contributing for more time will get more rewards.<ph disp="&lt;br /&gt;" equiv="LINE_BREAK" id="2" type="fmt"/> Once our estimated time to win gets below 48 hours we plan on changing the Last N Shares to 48 hours of valid partials. </source>
-<target xml:space="preserve">Do dystrybucji nagród, używamy metody PPLNS (Pay Per Last N Shares). <ph disp="&lt;br /&gt;" equiv="LINE_BREAK" id="0" type="fmt"/>Po wygraniu bloku przyglądamy się wszystkim poprawnym partials (shares), które zostały przesłane po ostatniej wypłacie przez użytkowników. Nagroda za blok rozprowadzana jest pomiędzy farmiących na podstawie ilości poprawnie przesłanych partials.<ph disp="&lt;br /&gt;" equiv="LINE_BREAK" id="1" type="fmt"/>Na chwilę obecną „Last N Shares" odnosi się do poprawnie przesłanych partials od ostatniej wypłaty. Uważamy, że ten system jest bardziej sprawiedliwy w sytuacji, gdy częstotliwość wygrania bloku przez pool jest mniejsza („Last N Shares" oznacza jedynie kilka godzin). Dlatego osoby będące dłużej w pool-u otrzymają większą nagrodę. <ph disp="&lt;br /&gt;" equiv="LINE_BREAK" id="2" type="fmt"/>Gdy szacowany czas na wygraną spadnie poniżej 48 godzin, planujemy zmienić „Last N Shares" na sumę poprawnych partials z ostatnich 48 godzin.</target>
-</segment>
-</unit>
-<unit id="5667847308793189855">
-<segment>
-<source xml:space="preserve">Average effort to farm a block in the last 30 days.</source>
-<target xml:space="preserve">Average effort to farm a block in the last 30 days.</target>
-</segment>
-</unit>
-<unit id="5683785837580689751">
-<segment>
-<source xml:space="preserve">How to join us</source>
-<target xml:space="preserve">Jak do nas dołączyć</target>
-</segment>
-</unit>
-<unit id="5701428712894376039">
-<segment>
-<source xml:space="preserve">Sync your full node and wallet</source>
-<target xml:space="preserve">Synchronizuj node i portfel</target>
-</segment>
-</unit>
-<unit id="571806966107540033">
-<segment>
-<source xml:space="preserve">Can I join a pool with non-portable (OG) plots?</source>
-<target xml:space="preserve">Czy mogę dołączyć do poola z nieprzenośnymi działkami (OG)?</target>
-</segment>
-</unit>
-<unit id="573605943360652415">
-<segment>
-<source xml:space="preserve">join</source>
-<target xml:space="preserve">Dołącz</target>
-</segment>
-</unit>
-<unit id="5782428644169779738">
-<segment>
-<source xml:space="preserve">Profitability based on blocks farmed on last 30 days. Estimated value (XCH) a farmer would get per TiB per day.</source>
-<target xml:space="preserve">Profitability based on blocks farmed on last 30 days. Estimated value (XCH) a farmer would get per TiB per day.</target>
-</segment>
-</unit>
-<unit id="5784227755295047072">
-<segment>
-<source xml:space="preserve">0% Fee</source>
-<target xml:space="preserve">Opłata 0%</target>
-</segment>
-</unit>
-<unit id="5860197662083362352">
-<segment>
-<source xml:space="preserve">How do I check my referrals?</source>
-<target xml:space="preserve">How do I check my referrals?</target>
-</segment>
-</unit>
-<unit id="5880915392762070234">
-<segment>
-<source xml:space="preserve">No minimum payout</source>
-<target xml:space="preserve">Brak minimalnej wypłaty</target>
-</segment>
-</unit>
-<unit id="5911214550882917183">
-<segment>
-<source xml:space="preserve">State</source>
-<target xml:space="preserve">Status</target>
-</segment>
-</unit>
-<unit id="5942490619473756728">
-<segment>
-<source xml:space="preserve">After 1st October</source>
-<target xml:space="preserve">Po 1 października</target>
-</segment>
-</unit>
-<unit id="5992977313238905164">
-<segment>
-<source xml:space="preserve">Points (24 hours)</source>
-<target xml:space="preserve">Punkty (24 godziny)</target>
-</segment>
-</unit>
-<unit id="605761694003152703">
-<segment>
-<source xml:space="preserve">We have nothing to hide. Full blown explorer and live logs.</source>
-<target xml:space="preserve">Nie mamy nic do ukrycia. Pełne logi oraz eksplorator dostępne na stronie w czasie rzeczywistym.</target>
-</segment>
-</unit>
-<unit id="6327177447190265105">
-<segment>
-<source xml:space="preserve">Verify plotnft and copy contract address:</source>
-<target xml:space="preserve"> Sprawdź adres plotnft oraz skopiuj adres umowy: </target>
-</segment>
-</unit>
-<unit id="6377117377899970613">
-<segment>
-<source xml:space="preserve">Create Plot NFT</source>
-<target xml:space="preserve">Utwórz plot NFT:</target>
-</segment>
-</unit>
-<unit id="6410467948610503551">
-<segment>
-<source xml:space="preserve">Index</source>
-<target xml:space="preserve">Indeks</target>
-</segment>
-</unit>
-<unit id="6423838518528989093">
-<segment>
-<source xml:space="preserve">Before 1st October</source>
-<target xml:space="preserve">Przed 1 października</target>
-</segment>
-</unit>
-<unit id="6428143771369644145">
-<segment>
-<source xml:space="preserve">Pool Space</source>
-<target xml:space="preserve">Wielkość poola</target>
-</segment>
-</unit>
-<unit id="6445111019676735745">
-<segment>
-<source xml:space="preserve">Payout</source>
-<target xml:space="preserve">Wypłata</target>
-</segment>
-</unit>
-<unit id="6478666049745113178">
-<segment>
-<source xml:space="preserve">A reward of 1.75 XCH will be distributed to pool farmers, 0 XCH (nothing) is kept to the pool.</source>
-<target xml:space="preserve">W przypadku otrzymania nagrody za blok w wysokości 1.75 XCH, zostanie ona w całości rozdana pomiędzy farmerów w poolu. 0 XCH jest przydzielone dla poola.</target>
-</segment>
-</unit>
-<unit id="6533918067030990396">
-<segment>
-<source xml:space="preserve">Amount</source>
-<target xml:space="preserve">Kwota</target>
-</segment>
-</unit>
-<unit id="6579386880718541736">
-<segment>
-<source xml:space="preserve">type in message box:</source>
-<target xml:space="preserve">w polu do wysyłania wiadomości wpisz:</target>
-</segment>
-</unit>
-<unit id="6609923537067370114">
-<segment>
-<source xml:space="preserve">Earn XCH by referring your friends to this pool!</source>
-<target xml:space="preserve">Earn XCH by referring your friends to this pool!</target>
-</segment>
-</unit>
-<unit id="6741838149332998818">
-<segment>
-<source xml:space="preserve">Who we are</source>
-<target xml:space="preserve">Kim jesteśmy?</target>
-</segment>
-</unit>
-<unit id="6816717018247718709">
-<segment>
-<source xml:space="preserve">Official Pool Protocol</source>
-<target xml:space="preserve">Oficjalny Protokół Chia Pool</target>
-</segment>
-</unit>
-<unit id="6828977561113207354">
-<segment>
-<source xml:space="preserve">If you already have a Plot NFT select &quot;Change Pool&quot; then enter https://pool.openchia.io.</source>
-<target xml:space="preserve">Jeśli masz już działki NFT, wybierz „Zmień pool”, a następnie wprowadź https://pool.openchia.io.</target>
-</segment>
-</unit>
-<unit id="6880713934119717799">
-<segment>
-<source xml:space="preserve">Friendly Name</source>
-<target xml:space="preserve">Umowna nazwa</target>
-</segment>
-</unit>
-<unit id="6901531604019957317">
-<segment>
-<source xml:space="preserve">Software Engineer</source>
-<target xml:space="preserve">Inżynier oprogramowania</target>
-</segment>
-</unit>
-<unit id="6930616437385085682">
-<segment>
-<source xml:space="preserve">Partials</source>
-<target xml:space="preserve">Partials</target>
-</segment>
-</unit>
-<unit id="6948786787037977434">
-<segment>
-<source xml:space="preserve">Blocks</source>
-<target xml:space="preserve">Bloki</target>
-</segment>
-</unit>
-<unit id="6955537025048058867">
-<segment>
-<source xml:space="preserve">
-<ph disp="{{ farmers }}" equiv="INTERPOLATION" id="0"/> total</source>
-<target xml:space="preserve">
-<ph disp="{{ farmers }}" equiv="INTERPOLATION" id="0"/> razem</target>
-</segment>
-</unit>
-<unit id="6962632162131341925">
-<segment>
-<source xml:space="preserve">Pool URL</source>
-<target xml:space="preserve">Pool URL</target>
-</segment>
-</unit>
-<unit id="7075059674276878139">
-<segment>
-<source xml:space="preserve">Transparent</source>
-<target xml:space="preserve"> Przejrzystość</target>
-</segment>
-</unit>
-<unit id="713513496522359111">
-<segment>
-<source xml:space="preserve">Please meet our partners, together for a better world.</source>
-<target xml:space="preserve">Poznajcie naszych partnerów, razem tworzymy świat lepszy.</target>
-</segment>
-</unit>
-<unit id="7143444199300614511">
-<segment>
-<source xml:space="preserve">Create Plot NFT:</source>
-<target xml:space="preserve">Utwórz działkę NFT:</target>
-</segment>
-</unit>
-<unit id="7290072656116822388">
-<segment>
-<source xml:space="preserve">No payouts found!</source>
-<target xml:space="preserve">Nie znaleziono wypłat!</target>
-</segment>
-</unit>
-<unit id="7375935383488695163">
-<segment>
-<source xml:space="preserve">Refer your friends to this pool using the URL https://openchia.io?referrer=YOUR_LAUNCHER_ID. Replace YOUR_LAUNCHER_ID with the Launcher ID from your Plot NFT. </source>
-<target xml:space="preserve">Refer your friends to this pool using the URL https://openchia.io?referrer=YOUR_LAUNCHER_ID. Replace YOUR_LAUNCHER_ID with the Launcher ID from your Plot NFT. </target>
-</segment>
-</unit>
-<unit id="7422727091201325409">
-<segment>
-<source xml:space="preserve">Go to &quot;Plots&quot; menu in the left menu.</source>
-<target xml:space="preserve">Przejdź do &quot;Działki&quot; menu po lewej stronie. </target>
-</segment>
-</unit>
-<unit id="7452975614303290488">
-<segment>
-<source xml:space="preserve">No partials found!</source>
-<target xml:space="preserve">Nie znaleziono partials!</target>
-</segment>
-</unit>
-<unit id="7600229961018223463">
-<segment>
-<source xml:space="preserve">choose “Connect to pool” and enter the url: https://pool.openchia.io (exactly, no ending slash) then wait for pool description to appear</source>
-<target xml:space="preserve">wybierz „Connect to pool” i wpisz adres URL: https://pool.openchia.io (dokładnie, bez ukośnika na końcu), a następnie poczekaj na wyświetlenie opisu poola</target>
-</segment>
-</unit>
-<unit id="760044993052786414">
-<segment>
-<source xml:space="preserve">Estimated Size </source>
-<target xml:space="preserve">Szacowany rozmiar</target>
-</segment>
-</unit>
-<unit id="7623464505437750989">
-<segment>
-<source xml:space="preserve">Welcome to OpenChia.io</source>
-<target xml:space="preserve">Witamy na OpenChia.io</target>
-</segment>
-</unit>
-<unit id="7682426834922031140">
-<segment>
-<source xml:space="preserve">Why wait to get your rewards?</source>
-<target xml:space="preserve">Po co czekać na wypłatę?</target>
-</segment>
-</unit>
-<unit id="7780941567931401606">
-<segment>
-<source xml:space="preserve">Farmer Update</source>
-<target xml:space="preserve">Aktualizacja farmera</target>
-</segment>
-</unit>
-<unit id="789888685484703987">
-<segment>
-<source xml:space="preserve">Do you have any other questions?</source>
-<target xml:space="preserve">Masz jeszcze jakieś pytania?</target>
-</segment>
-</unit>
-<unit id="7904374983883510569">
-<segment>
-<source xml:space="preserve">Partials (24 hours)</source>
-<target xml:space="preserve">Częściowe (24 godziny)</target>
-</segment>
-</unit>
-<unit id="807089867044050822">
-<segment>
-<source xml:space="preserve">No blocks found by this farmed!</source>
-<target xml:space="preserve">Brak znalezionych bloków przez farmera!</target>
-</segment>
-</unit>
-<unit id="8311659957519204575">
-<segment>
-<source xml:space="preserve">Estimated Size</source>
-<target xml:space="preserve">Szacowany rozmiar</target>
-</segment>
-</unit>
-<unit id="8371722561970711209">
-<segment>
-<source xml:space="preserve">chia plots create -c &lt;contract address from above&gt;</source>
-<target xml:space="preserve">chia plots create -c &lt;powyższy adres kontraktu&gt;</target>
-</segment>
-</unit>
-<unit id="8398056438540085583">
-<segment>
-<source xml:space="preserve">
-<ph disp="{{ estimate_win / 60 / 24 | number }}" equiv="INTERPOLATION" id="0"/> days</source>
-<target xml:space="preserve">
-<ph disp="{{ estimate_win / 60 / 24 | number }}" equiv="INTERPOLATION" id="0"/> dni</target>
-</segment>
-</unit>
-<unit id="8407551821312874924">
-<segment>
-<source xml:space="preserve">you are going to need 1 mojo (0.000000000001 XCH) which you can get through our faucet service on Discord channel or through Faucet website:</source>
-<target xml:space="preserve">będziesz potrzebował 1 mojo (0.00000001 XCH), możesz je uzyskać za pośrednictwem naszego serwisu „faucet" na kanale Discord lub za pośrednictwem strony internetowej Faucet:</target>
-</segment>
-</unit>
-<unit id="841934696444961534">
-<segment>
-<source xml:space="preserve">News</source>
-<target xml:space="preserve">Aktualności</target>
-</segment>
-</unit>
-<unit id="8440937360712650656">
-<segment>
-<source xml:space="preserve">Since Last Win</source>
-<target xml:space="preserve">Since Last Win</target>
-</segment>
-</unit>
-<unit id="8447672339763475319">
-<segment>
-<source xml:space="preserve">If you already have a Plot NFT select &quot;Change Pool&quot; then enter https://pool.openchia.io</source>
-<target xml:space="preserve">Jeśli masz już działki NFT, wybierz „Change Pool”, a następnie wprowadź https://pool.openchia.io.</target>
-</segment>
-</unit>
-<unit id="8479159211474411356">
-<segment>
-<source xml:space="preserve"> We use PPLNS (Pay Per Last N Shares) to distribute rewards.<ph disp="&lt;br /&gt;" equiv="LINE_BREAK" id="0" type="fmt"/> When a block is won, we look at the valid partials (shares) submitted by all users in the pool since last payout and distribute the reward value based on your share among all farmers in the pool.<ph disp="&lt;br /&gt;" equiv="LINE_BREAK" id="1" type="fmt"/> In our case Last N Shares refers to partials since last payout. We believe this system is far more fair for less frequent rewards (when Last N Shares means only last few hours), since people contributing for more time will get more rewards.<ph disp="&lt;br /&gt;" equiv="LINE_BREAK" id="2" type="fmt"/> Once our estimated time to win gets below 48 hours we plan on changing the Last N Shares to 48 hours of valid partials. </source>
-<target xml:space="preserve">Do dystrybucji nagród, używamy metody PPLNS (Pay Per Last N Shares). <ph disp="&lt;br /&gt;" equiv="LINE_BREAK" id="0" type="fmt"/>Po wygraniu bloku przyglądamy się wszystkim poprawnym partials (shares), które zostały przesłane po ostatniej wypłacie przez użytkowników. Nagroda za blok rozprowadzana jest pomiędzy farmiących na podstawie ilości poprawnie przesłanych partials.<ph disp="&lt;br /&gt;" equiv="LINE_BREAK" id="1" type="fmt"/>Na chwilę obecną „Last N Shares" odnosi się do poprawnie przesłanych partials od ostatniej wypłaty. Uważamy, że ten system jest bardziej sprawiedliwy w sytuacji, gdy częstotliwość wygrania bloku przez pool jest mniejsza („Last N Shares" oznacza jedynie kilka godzin). Dlatego osoby będące dłużej w pool-u otrzymają większą nagrodę. <ph disp="&lt;br /&gt;" equiv="LINE_BREAK" id="2" type="fmt"/>Gdy szacowany czas na wygraną spadnie poniżej 48 godzin, planujemy zmienić „Last N Shares" na sumę poprawnych partials z ostatnich 48 godzin.</target>
-</segment>
-</unit>
-<unit id="8497528947328199741">
-<segment>
-<source xml:space="preserve">Time</source>
-<target xml:space="preserve">Czas</target>
-</segment>
-</unit>
-<unit id="8504648059270671021">
-<segment>
-<source xml:space="preserve">Let&apos;s get in touch on any of these platforms.</source>
-<target xml:space="preserve">Skontaktuj się z nami przez.</target>
-</segment>
-</unit>
-<unit id="8559170870663360229">
-<segment>
-<source xml:space="preserve">Examples</source>
-<target xml:space="preserve">Przykłady</target>
-</segment>
-</unit>
-<unit id="8616757634091748553">
-<segment>
-<source xml:space="preserve">Blocks Found</source>
-<target xml:space="preserve">Znalezione bloki</target>
-</segment>
-</unit>
-<unit id="8751484695665236751">
-<segment>
-<source xml:space="preserve"> They are offering cutting-edge cryptocurrency technology of today and tomorrow. Vivid Stake Pool allows you to stake in Cardano. If you deposit your Fiat Money on your bank account, you will receive 1-3 % profit per year which will be paid after at least a few months. In Cardano it is the opposite: you receive high profits as high as 5-8 % per year which is paid every 5 days!</source>
-<target xml:space="preserve">Oferują najnowsze technologię w dziedzinie kryptowalut. Vivid Stake Pool pozwala na "stake" waluty Cardano. Jeśli dokonasz wpłaty pieniądza fiducjarnego na swoje konto oszczędnościowe w banku, otrzymasz 1-3% zysku rocznie, który zostanie wypłacony po co najmniej kilku miesiącach. W Cardano jest odwrotnie: otrzymujesz wyższy zysk aż do 5-8% rocznie, które są wypłacane co 5 dni!</target>
-</segment>
-</unit>
-<unit id="8758786563911669380">
-<segment>
-<source xml:space="preserve">Click “Change” button</source>
-<target xml:space="preserve">Kliknij przycisk „Change”</target>
-</segment>
-</unit>
-<unit id="879650116501482755">
-<segment>
-<source xml:space="preserve">How does it work?</source>
-<target xml:space="preserve">How does it work?</target>
-</segment>
-</unit>
-<unit id="8942351587754185907">
-<segment>
-<source xml:space="preserve">API</source>
-<target xml:space="preserve">API</target>
-</segment>
-</unit>
-<unit id="9008803606625370175">
-<segment>
-<source xml:space="preserve">No wallets found!</source>
-<target xml:space="preserve">No wallets found!</target>
-</segment>
-</unit>
-<unit id="9050075434132831491">
-<segment>
-<source xml:space="preserve">Referral Link</source>
-<target xml:space="preserve">Referral Link</target>
-</segment>
-</unit>
-<unit id="9059627454378411922">
-<segment>
-<source xml:space="preserve">Show failed partials only</source>
-<target xml:space="preserve">Show failed partials only</target>
-</segment>
-</unit>
-<unit id="9130593304627753298">
-<segment>
-<source xml:space="preserve">Synced</source>
-<target xml:space="preserve">Synced</target>
-</segment>
-</unit>
-<unit id="91968095428425686">
-<segment>
-<source xml:space="preserve">XCH Price</source>
-<target xml:space="preserve">Cena XCH</target>
-</segment>
-</unit>
-<unit id="9201971930509716006">
-<segment>
-<source xml:space="preserve">Fee: 0%</source>
-<target xml:space="preserve">Opłata: 0%</target>
-</segment>
-</unit>
-<unit id="API">
-<segment>
-<source xml:space="preserve">API</source>
-<target xml:space="preserve">API</target>
-</segment>
-</unit>
-<unit id="Amount">
-<segment>
-<source xml:space="preserve">Amount</source>
-<target xml:space="preserve">Ilość</target>
-</segment>
-</unit>
-<unit id="Average">
-<segment>
-<source xml:space="preserve">Average</source>
-<target xml:space="preserve">Average</target>
-</segment>
-</unit>
-<unit id="Beta">
-<segment>
-<source xml:space="preserve">BETA</source>
-<target xml:space="preserve">BETA</target>
-</segment>
-</unit>
-<unit id="Blocks">
-<segment>
-<source xml:space="preserve">Blocks</source>
-<target xml:space="preserve">Bloki</target>
-</segment>
-</unit>
-<unit id="Count">
-<segment>
-<source xml:space="preserve">Count</source>
-<target xml:space="preserve">Count</target>
-</segment>
-</unit>
-<unit id="CurrentEffort">
-<segment>
-<source xml:space="preserve">Current Effort</source>
-<target xml:space="preserve">Current Effort</target>
-</segment>
-</unit>
-<unit id="Date">
-<segment>
-<source xml:space="preserve">Date</source>
-<target xml:space="preserve">Data</target>
-</segment>
-</unit>
-<unit id="Details">
-<segment>
-<source xml:space="preserve">Details</source>
-<target xml:space="preserve">Details</target>
-</segment>
-</unit>
-<unit id="Difficulty">
-<segment>
-<source xml:space="preserve">Difficulty</source>
-<target xml:space="preserve">Trudności</target>
-</segment>
-</unit>
-<unit id="Effort">
-<segment>
-<source xml:space="preserve">Effort</source>
-<target xml:space="preserve">Effort</target>
-</segment>
-</unit>
-<unit id="EstimatedSpace">
-<segment>
-<source xml:space="preserve">Estimated Space</source>
-<target xml:space="preserve">Szacowany rozmiar</target>
-</segment>
-</unit>
-<unit id="Explorer">
-<segment>
-<source xml:space="preserve">Explorer</source>
-<target xml:space="preserve">Eksplorator</target>
-</segment>
-</unit>
-<unit id="FAQ">
-<segment>
-<source xml:space="preserve">FAQ</source>
-<target xml:space="preserve">FAQ</target>
-</segment>
-</unit>
-<unit id="Failed">
-<segment>
-<source xml:space="preserve">Failed</source>
-<target xml:space="preserve">Failed</target>
-</segment>
-</unit>
-<unit id="Farmer">
-<segment>
-<source xml:space="preserve">Farmer</source>
-<target xml:space="preserve">Farmer</target>
-</segment>
-</unit>
-<unit id="Farmers">
-<segment>
-<source xml:space="preserve">Farmers</source>
-<target xml:space="preserve">Farmerzy</target>
-</segment>
-</unit>
-<unit id="Fee">
-<segment>
-<source xml:space="preserve">Fee</source>
-<target xml:space="preserve">Opłata</target>
-</segment>
-</unit>
-<unit id="Fees">
-<segment>
-<source xml:space="preserve">Fees</source>
-<target xml:space="preserve">Fees</target>
-</segment>
-</unit>
-<unit id="Harversters">
-<segment>
-<source xml:space="preserve">Harvesters</source>
-<target xml:space="preserve">Harvesters</target>
-</segment>
-</unit>
-<unit id="Height">
-<segment>
-<source xml:space="preserve">Height</source>
-<target xml:space="preserve">Wysokość</target>
-</segment>
-</unit>
-<unit id="Home">
-<segment>
-<source xml:space="preserve">Home</source>
-<target xml:space="preserve">Home</target>
-</segment>
-</unit>
-<unit id="Hrs24">
-<segment>
-<source xml:space="preserve">24 hours</source>
-<target xml:space="preserve">24 hours</target>
-</segment>
-</unit>
-<unit id="ID">
-<segment>
-<source xml:space="preserve">ID</source>
-<target xml:space="preserve">ID</target>
-</segment>
-</unit>
-<unit id="JoinPool">
-<segment>
-<source xml:space="preserve">Join our pool</source>
-<target xml:space="preserve">Dołącz do poola</target>
-</segment>
-</unit>
-<unit id="Joined">
-<segment>
-<source xml:space="preserve">Joined At</source>
-<target xml:space="preserve">Joined At</target>
-</segment>
-</unit>
-<unit id="Launcher">
-<segment>
-<source xml:space="preserve">Launcher ID</source>
-<target xml:space="preserve">Launcher ID</target>
-</segment>
-</unit>
-<unit id="LauncherID">
-<segment>
-<source xml:space="preserve">Launcher ID</source>
-<target xml:space="preserve">Launcher ID</target>
-</segment>
-</unit>
-<unit id="Leaderboard">
-<segment>
-<source xml:space="preserve">Leaderboard</source>
-<target xml:space="preserve">Leaderboard</target>
-</segment>
-</unit>
-<unit id="Lucky">
-<segment>
-<source xml:space="preserve">Lucky</source>
-<target xml:space="preserve">Lucky</target>
-</segment>
-</unit>
-<unit id="MITLicense">
-<segment>
-<source xml:space="preserve">MIT License</source>
-<target xml:space="preserve">Licencja MIT</target>
-</segment>
-</unit>
-<unit id="NoPayouts">
-<segment>
-<source xml:space="preserve">No payouts found!</source>
-<target xml:space="preserve">Nie znaleziono wypłat!</target>
-</segment>
-</unit>
-<unit id="NoPayoutsAddrs">
-<segment>
-<source xml:space="preserve">No payouts addresses found!</source>
-<target xml:space="preserve">Adresy wypłat nieodnalezione!</target>
-</segment>
-</unit>
-<unit id="Partials">
-<segment>
-<source xml:space="preserve">Partials</source>
-<target xml:space="preserve">Partials</target>
-</segment>
-</unit>
-<unit id="Partners">
-<segment>
-<source xml:space="preserve">Partners</source>
-<target xml:space="preserve">Partnerzy</target>
-</segment>
-</unit>
-<unit id="PayoutAddresses">
-<segment>
-<source xml:space="preserve">Payout Addresses</source>
-<target xml:space="preserve">Adresy wypłaty</target>
-</segment>
-</unit>
-<unit id="Payouts">
-<segment>
-<source xml:space="preserve">Payouts</source>
-<target xml:space="preserve">Wypłaty</target>
-</segment>
-</unit>
-<unit id="Performance">
-<segment>
-<source xml:space="preserve">Performance</source>
-<target xml:space="preserve">Performance</target>
-</segment>
-</unit>
-<unit id="Points">
-<segment>
-<source xml:space="preserve">Points</source>
-<target xml:space="preserve">Punkty</target>
-</segment>
-</unit>
-<unit id="PoolWallets">
-<segment>
-<source xml:space="preserve">Pool Wallets</source>
-<target xml:space="preserve">Pool Wallets</target>
-</segment>
-</unit>
-<unit id="Profitability">
-<segment>
-<source xml:space="preserve">Profitability</source>
-<target xml:space="preserve">Profitability</target>
-</segment>
-</unit>
-<unit id="Referral">
-<segment>
-<source xml:space="preserve">Referral</source>
-<target xml:space="preserve">Referral</target>
-</segment>
-</unit>
-<unit id="Referrals">
-<segment>
-<source xml:space="preserve">Referrals <pc dispEnd="&lt;/span&gt;" dispStart="&lt;span class=&quot;beta&quot;&gt;" equivEnd="CLOSE_TAG_SPAN" equivStart="START_TAG_SPAN" id="0" type="other">BETA</pc>
-</source>
-<target xml:space="preserve">Referrals <pc dispEnd="&lt;/span&gt;" dispStart="&lt;span class=&quot;beta&quot;&gt;" equivEnd="CLOSE_TAG_SPAN" equivStart="START_TAG_SPAN" id="0" type="other">BETA</pc>
-</target>
-</segment>
-</unit>
-<unit id="Rewards">
-<segment>
-<source xml:space="preserve">Rewards</source>
-<target xml:space="preserve">Rewards</target>
-</segment>
-</unit>
-<unit id="Save">
-<segment>
-<source xml:space="preserve">Save</source>
-<target xml:space="preserve">Save</target>
-</segment>
-</unit>
-<unit id="Search">
-<segment>
-<source xml:space="preserve">Search</source>
-<target xml:space="preserve">Search</target>
-</segment>
-</unit>
-<unit id="Step">
-<segment>
-<source xml:space="preserve">Step</source>
-<target xml:space="preserve">Krok</target>
-</segment>
-</unit>
-<unit id="Successful">
-<segment>
-<source xml:space="preserve">Successful</source>
-<target xml:space="preserve">Successful</target>
-</segment>
-</unit>
-<unit id="Terms">
-<segment>
-<source xml:space="preserve">Terms</source>
-<target xml:space="preserve">Warunki</target>
-</segment>
-</unit>
-<unit id="TotalIncome">
-<segment>
-<source xml:space="preserve">Total Income</source>
-<target xml:space="preserve">Total Income</target>
-</segment>
-</unit>
-<unit id="Transaction">
-<segment>
-<source xml:space="preserve">Transaction</source>
-<target xml:space="preserve">Transakcja</target>
-</segment>
-</unit>
-<unit id="TransactionBlock">
-<segment>
-<source xml:space="preserve">Transaction Block</source>
-<target xml:space="preserve">Blok transakcji</target>
-</segment>
-</unit>
-<unit id="Unknown">
-<segment>
-<source xml:space="preserve">Unknown</source>
-<target xml:space="preserve">Unknown</target>
-</segment>
-</unit>
-<unit id="Unlucky">
-<segment>
-<source xml:space="preserve">Unlucky</source>
-<target xml:space="preserve">Unlucky</target>
-</segment>
-</unit>
-<unit id="Uptime">
-<segment>
-<source xml:space="preserve">Uptime</source>
-<target xml:space="preserve">Czas działania</target>
-</segment>
-</unit>
-<unit id="UtilizationSpace">
-<segment>
-<source xml:space="preserve">Utilization Space</source>
-<target xml:space="preserve">Przestrzeń wykorzystana</target>
-</segment>
-</unit>
-<unit id="Warning">
-<segment>
-<source xml:space="preserve">Warning</source>
-<target xml:space="preserve">Ostrzeżenie</target>
-</segment>
-</unit>
-<unit id="ngb.alert.close">
-<segment>
-<source xml:space="preserve">Close</source>
-<target xml:space="preserve">Zamknij</target>
-</segment>
-</unit>
-<unit id="ngb.carousel.next">
-<segment>
-<source xml:space="preserve">Next</source>
-<target xml:space="preserve">Dalej</target>
-</segment>
-</unit>
-<unit id="ngb.carousel.previous">
-<segment>
-<source xml:space="preserve">Previous</source>
-<target xml:space="preserve">Wstecz</target>
-</segment>
-</unit>
-<unit id="ngb.pagination.first-aria">
-<segment>
-<source xml:space="preserve">First</source>
-<target xml:space="preserve">Pierwszy</target>
-</segment>
-</unit>
-<unit id="ngb.pagination.last-aria">
-<segment>
-<source xml:space="preserve">Last</source>
-<target xml:space="preserve">Ostatni</target>
-</segment>
-</unit>
-<unit id="ngb.pagination.next-aria">
-<segment>
-<source xml:space="preserve">Next</source>
-<target xml:space="preserve">Następny</target>
-</segment>
-</unit>
-<unit id="ngb.pagination.previous-aria">
-<segment>
-<source xml:space="preserve">Previous</source>
-<target xml:space="preserve">Wstecz</target>
-</segment>
-</unit>
-<unit id="ngb.progressbar.value">
-<segment>
-<source xml:space="preserve">
-<ph disp="ber { return th" equiv="INTERPOLATION" id="0"/>
-</source>
-<target xml:space="preserve">
-<ph disp="ber { return th" equiv="INTERPOLATION" id="0"/>
-</target>
-</segment>
-</unit>
-<unit id="ngb.timepicker.AM">
-<segment>
-<source xml:space="preserve">
-<ph disp="or 24H mode." equiv="INTERPOLATION" id="0"/>
-</source>
-<target xml:space="preserve">
-<ph disp="lub tryb 24H." equiv="INTERPOLATION" id="0"/>
-</target>
-</segment>
-</unit>
-<unit id="ngb.timepicker.HH">
-<segment>
-<source xml:space="preserve">HH</source>
-<target xml:space="preserve">GG</target>
-</segment>
-</unit>
-<unit id="ngb.timepicker.MM">
-<segment>
-<source xml:space="preserve">MM</source>
-<target xml:space="preserve">MM</target>
-</segment>
-</unit>
-<unit id="ngb.timepicker.PM">
-<segment>
-<source xml:space="preserve">
-<ph disp="tring;    disab" equiv="INTERPOLATION" id="0"/>
-</source>
-<target xml:space="preserve">
-<ph disp="tring;    disab" equiv="INTERPOLATION" id="0"/>
-</target>
-</segment>
-</unit>
-<unit id="ngb.timepicker.SS">
-<segment>
-<source xml:space="preserve">SS</source>
-<target xml:space="preserve">SS</target>
-</segment>
-</unit>
-<unit id="ngb.timepicker.decrement-hours">
-<segment>
-<source xml:space="preserve">Decrement hours</source>
-<target xml:space="preserve">Zmniejsz godzinę</target>
-</segment>
-</unit>
-<unit id="ngb.timepicker.decrement-minutes">
-<segment>
-<source xml:space="preserve">Decrement minutes</source>
-<target xml:space="preserve">Zmniejsz minuty</target>
-</segment>
-</unit>
-<unit id="ngb.timepicker.decrement-seconds">
-<segment>
-<source xml:space="preserve">Decrement seconds</source>
-<target xml:space="preserve">Zmniejsz sekundy</target>
-</segment>
-</unit>
-<unit id="ngb.timepicker.hours">
-<segment>
-<source xml:space="preserve">Hours</source>
-<target xml:space="preserve">Godziny</target>
-</segment>
-</unit>
-<unit id="ngb.timepicker.increment-hours">
-<segment>
-<source xml:space="preserve">Increment hours</source>
-<target xml:space="preserve">Zwiększ godzinę</target>
-</segment>
-</unit>
-<unit id="ngb.timepicker.increment-minutes">
-<segment>
-<source xml:space="preserve">Increment minutes</source>
-<target xml:space="preserve">Zwiększ minuty</target>
-</segment>
-</unit>
-<unit id="ngb.timepicker.increment-seconds">
-<segment>
-<source xml:space="preserve">Increment seconds</source>
-<target xml:space="preserve">Zwiększ sekundy</target>
-</segment>
-</unit>
-<unit id="ngb.timepicker.minutes">
-<segment>
-<source xml:space="preserve">Minutes</source>
-<target xml:space="preserve">Minuty</target>
-</segment>
-</unit>
-<unit id="ngb.timepicker.seconds">
-<segment>
-<source xml:space="preserve">Seconds</source>
-<target xml:space="preserve">Sekundy</target>
-</segment>
-</unit>
-<unit id="ngb.toast.close-aria">
-<segment>
-<source xml:space="preserve">Close</source>
-<target xml:space="preserve">Zamknij</target>
-</segment>
-</unit>
-</file>
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+ Loco xml export: XLIFF for Angular
+ Project: pl.xlf conversion
+ Release: Working copy
+ Locale: pl, Polish
+ Exported by: Unregistered user
+ Exported at: Fri, 25 Feb 2022 16:58:56 -0300
+-->
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
+  <file original="ng.template" source-language="en" target-language="pl" datatype="plaintext" tool-id="loco">
+    <header>
+      <tool tool-id="loco" tool-name="Loco for Angular" tool-version="1.0.26 20220207-1" tool-company="Loco"/>
+    </header>
+    <body>
+      <trans-unit id="1004766315783326842" datatype="html">
+        <source>ETW</source>
+        <target>ETW</target>
+      </trans-unit>
+      <trans-unit id="1007625284753612149" datatype="html">
+        <source>Frontend Developer</source>
+        <target>Frontend Developer</target>
+      </trans-unit>
+      <trans-unit id="1037127944915137232" datatype="html">
+        <source>Learn how to set name here.</source>
+        <target>Tutaj możesz dowiedzieć się jak ustawić nazwę.</target>
+      </trans-unit>
+      <trans-unit id="1063462873103909661" datatype="html">
+        <source>Difficulty</source>
+        <target>Poziom Trudności</target>
+      </trans-unit>
+      <trans-unit id="1140108877159163263" datatype="html">
+        <source>No blocks found!</source>
+        <target>Brak znalezionych bloków!</target>
+      </trans-unit>
+      <trans-unit id="1175065931767236325" datatype="html">
+        <source>No farmers found!</source>
+        <target>Farmer nie został znaleziony!</target>
+      </trans-unit>
+      <trans-unit id="1289545646802926160" datatype="html">
+        <source>We reserve the right to change fees for new referrals at any time.</source>
+        <target>We reserve the right to change fees for new referrals at any time.</target>
+      </trans-unit>
+      <trans-unit id="136762463398753526" datatype="html">
+        <source>Low fee with referral option.</source>
+        <target>Low fee with referral option.</target>
+      </trans-unit>
+      <trans-unit id="1401585310581586757" datatype="html">
+        <source>Have your friend join the pool and login to the pool website using the Plot NFT login link. He will confirm you are his referrer. (Referrer is filled automatically if he visited the website with your link)</source>
+        <target>Have your friend join the pool and login to the pool website using the Plot NFT login link. He will confirm you are his referrer. (Referrer is filled automatically if he visited the website with your link)</target>
+      </trans-unit>
+      <trans-unit id="1638630395802416450" datatype="html">
+        <source>They're offering cutting edge cryptocurrency technology of today and tomorrow. Cardano is a cryptocurrency network and open source project that aims to run a public blockchain platform for smart contracts. Cardano's internal cryptocurrency is called ADA!</source>
+        <target>Oferują najnowsze technologię w dziedzinie kryptowalut. Cardano to sieć kryptowalut i projekt open source, którego celem jest uruchomienie publicznej platformy blockchain dla inteligentnych kontraktów. Wewnętrzna kryptowaluta Cardano nazywa się ADA!</target>
+      </trans-unit>
+      <trans-unit id="1718704299775385181" datatype="html">
+        <source>Do not attempt close loop of referral. e.g. A -&gt; B -&gt; C -&gt; A.</source>
+        <target>Do not attempt close loop of referral. e.g. A -&gt; B -&gt; C -&gt; A.</target>
+      </trans-unit>
+      <trans-unit id="1758435593288719047" datatype="html">
+        <source>go to “faucet” text channel</source>
+        <target>przejdź do kanału tekstowego „faucet”</target>
+      </trans-unit>
+      <trans-unit id="1774008180173753624" datatype="html">
+        <source>Successful Partials</source>
+        <target>Udane partials</target>
+      </trans-unit>
+      <trans-unit id="1783078519944991756" datatype="html">
+        <source>Failed to authenticate! Check your URL and try again.</source>
+        <target>Autentykacja nieudana! Sprawdź swój adres URL i spróbuj ponownie.</target>
+      </trans-unit>
+      <trans-unit id="1797292337796232493" datatype="html">
+        <source>OpenChia believes in a future that blockchain and cryptocurrency can exist without degrading the environment and helping make the world a better place. We believe Chia and Cardano can coexist to help make that happen. If you'd like to know more about Cardano and/or join a legitimate staking pool please visit <pc dispEnd="&lt;/a&gt;" dispStart="&lt;a         href=&quot;https://vivid-pool.info/&quot; target=&quot;_blank&quot;&gt;" equivEnd="CLOSE_LINK" equivStart="START_LINK" id="0" type="link">Vivid Pool.</pc></source>
+        <target>Jako OpenChia uważamy, że w przyszłości blockchainy, jak i kryptowaluty przestaną mieć negatywny impakt na środowisko oraz przyczynić się do uczynienia świata lepszym miejscem. Uważamy, że Chia i Cardano są na dobrej drodze, aby tak się stało. Jeśli chcesz dowiedzieć się więcej o Cardano i/lub dołączyć do "stake pool", odwiedź <pc dispEnd="&lt;/a&gt;" dispStart="&lt;a         href=&quot;https://vivid-pool.info/&quot; target=&quot;_blank&quot;&gt;" equivEnd="CLOSE_LINK" equivStart="START_LINK" id="0" type="link">Vivid Pool. </pc></target>
+      </trans-unit>
+      <trans-unit id="1918146053125551227" datatype="html">
+        <source><pc dispEnd="&lt;/a&gt;" dispStart="&lt;a href=&quot;https://vivid-pool.info/&quot; target=&quot;_blank&quot;&gt;" equivEnd="CLOSE_LINK" equivStart="START_LINK" id="0" type="link">Vivid Stake Pool</pc> allows you to stake in Cardano. If you deposit your Fiat Money on your bank account you will receive 1-3 % profit per year which will be paid after at least a few months. In Cardano it is the opposite: you receive high profits as high as 5-8 % per year which is paid every 5 days!</source>
+        <target><pc dispEnd="&lt;/a&gt;" dispStart="&lt;a href=&quot;https://vivid-pool.info/&quot; target=&quot;_blank&quot;&gt;" equivEnd="CLOSE_LINK" equivStart="START_LINK" id="0" type="link">Vivid Stake Pool</pc> pozwala na "stake" waluty Cardano. Jeśli dokonasz wpłaty pieniądza fiducjarnego na swoje konto oszczędnościowe w banku, otrzymasz 1-3% zysku rocznie, który zostanie wypłacony po co najmniej kilku miesiącach. W Cardano jest odwrotnie: otrzymujesz wyższy zysk aż do 5-8% rocznie, które są wypłacane co 5 dni!</target>
+      </trans-unit>
+      <trans-unit id="1921163817420022648" datatype="html">
+        <source>Login to the pool website using your Plot NFT login link and go to the "Referrals" tab.</source>
+        <target>Login to the pool website using your Plot NFT login link and go to the "Referrals" tab.</target>
+      </trans-unit>
+      <trans-unit id="1931139842666967640" datatype="html">
+        <source>Have you asked yourself who are the people running Chia pools? Do you trust them?</source>
+        <target>Czy zastanawiałeś się nad tym, kim są osoby prowadzące Chia pool? Czy można im zaufać?</target>
+      </trans-unit>
+      <trans-unit id="1949302126255810191" datatype="html">
+        <source>Reward Distribution</source>
+        <target>Podział nagrody</target>
+      </trans-unit>
+      <trans-unit id="1976239811515748183" datatype="html">
+        <source>Until 1st October 2021 (2021/10/01)</source>
+        <target>Do 1 października 2021 r. (2021/10/01)</target>
+      </trans-unit>
+      <trans-unit id="1987379316591371803" datatype="html">
+        <source>Payouts</source>
+        <target>Wypłaty</target>
+      </trans-unit>
+      <trans-unit id="2026871242381918065" datatype="html">
+        <source>What are non-portable (OG) and portable plots (NFT)?</source>
+        <target>Czym są działki nieprzenośne (OG) i przenośne (NFT)?</target>
+      </trans-unit>
+      <trans-unit id="2032214384688052707" datatype="html">
+        <source>Frequentely Asked Questions (F.A.Q.)</source>
+        <target>Często zadawane pytania (F.A.Q.)</target>
+      </trans-unit>
+      <trans-unit id="2041082387182328462" datatype="html">
+        <source>Enjoy 0% pool fee until October 2021.</source>
+        <target>Korzystaj z 0% opłaty za pool do października 2021.</target>
+      </trans-unit>
+      <trans-unit id="2097611575880598770" datatype="html">
+        <source>Chat with us</source>
+        <target>Skontaktuj się z nami</target>
+      </trans-unit>
+      <trans-unit id="2153109973251079314" datatype="html">
+        <source>Learn how to set name here.</source>
+        <target>Tutaj możesz dowiedzieć się jak ustawić nazwę.</target>
+      </trans-unit>
+      <trans-unit id="223937640624116360" datatype="html">
+        <source>Can I switch from/to your pool whenever I want?</source>
+        <target>Czy mogę dołączyć/opuścić pool, kiedy tylko zechcę?</target>
+      </trans-unit>
+      <trans-unit id="2252939334456578689" datatype="html">
+        <source>Go to "Pool" menu in the left menu</source>
+        <target>Przejdź do menu „Pool” w panelu po lewej stronie</target>
+      </trans-unit>
+      <trans-unit id="2261097846853869505" datatype="html">
+        <source>You will receive 20% of the pool fee for every payment made to your friend. That value comes out of the pool and not from your friend reward!</source>
+        <target>You will receive 20% of the pool fee for every payment made to your friend. That value comes out of the pool and not from your friend reward!</target>
+      </trans-unit>
+      <trans-unit id="2264932589847833892" datatype="html">
+        <source>Farmer Details</source>
+        <target>Informacje o farmerze</target>
+      </trans-unit>
+      <trans-unit id="2303041439224647987" datatype="html">
+        <source>Connection</source>
+        <target>Połączenie</target>
+      </trans-unit>
+      <trans-unit id="2318140886847115923" datatype="html">
+        <source>Pool server real-time log</source>
+        <target>Logi z poola w czasie rzeczywistym</target>
+      </trans-unit>
+      <trans-unit id="2351744948046490518" datatype="html">
+        <source>Join our pool</source>
+        <target>Dołącz do poola</target>
+      </trans-unit>
+      <trans-unit id="2396139623688857660" datatype="html">
+        <source>How to set name in explorer? (alias)</source>
+        <target>Jak ustawić nazwę w eksploratorze? (alias)</target>
+      </trans-unit>
+      <trans-unit id="24036095495322476" datatype="html">
+        <source>Last Partials (24 hours)</source>
+        <target>Ostatnie Partials (24 godziny)</target>
+      </trans-unit>
+      <trans-unit id="2469056745486120197" datatype="html">
+        <source>Fee: 1%</source>
+        <target>Fee: 1%</target>
+      </trans-unit>
+      <trans-unit id="2637241189361251661" datatype="html">
+        <source>.faucet &lt;wallet address&gt;</source>
+        <target>.faucet &lt;twój adres portfela&gt;</target>
+      </trans-unit>
+      <trans-unit id="2644032998932147111" datatype="html">
+        <source>If a reward of 1.75 XCH is found, only 1% of that, 0.0175 will be kept to the pool as a fee. The remaining 1.7325 XCH will be distributed to pool farmers.</source>
+        <target>Jeśli pool otrzyma nagrodę za blok w wysokości 1,75 XCH, tylko 1% z tego, 0.0175 zostanie zatrzymane przez pool jako opłata. Pozostałe 1.7325 XCH zostanie rozdane pomiędzy farmerów w poolu.</target>
+      </trans-unit>
+      <trans-unit id="2669308838649487392" datatype="html">
+        <source>Show failed partials only</source>
+        <target>Pokaż tylko nieudane partials</target>
+      </trans-unit>
+      <trans-unit id="2756022432863940642" datatype="html">
+        <source>Failed Partials</source>
+        <target>Nieudane Partials</target>
+      </trans-unit>
+      <trans-unit id="2806917038528218276" datatype="html">
+        <source>FAQ</source>
+        <target>FAQ</target>
+      </trans-unit>
+      <trans-unit id="2821179408673282599" datatype="html">
+        <source>Home</source>
+        <target>Strona główna</target>
+      </trans-unit>
+      <trans-unit id="2905619048308246310" datatype="html">
+        <source>All our software is open source.</source>
+        <target>Nasze oprogramowanie w całości jest open source.</target>
+      </trans-unit>
+      <trans-unit id="2921627933919469894" datatype="html">
+        <source>Farmers</source>
+        <target>Farmerzy</target>
+      </trans-unit>
+      <trans-unit id="2926474126478443738" datatype="html">
+        <source>Not synced!</source>
+        <target>Not synced!</target>
+      </trans-unit>
+      <trans-unit id="2929691011645001388" datatype="html">
+        <source>% of total</source>
+        <target>% ogółu</target>
+      </trans-unit>
+      <trans-unit id="3033623772164647792" datatype="html">
+        <source>Height</source>
+        <target>Wysokość</target>
+      </trans-unit>
+      <trans-unit id="3037348742943406028" datatype="html">
+        <source>Payouts will happen within 5 minutes of the farmed block.<ph disp="&lt;br /&gt;" equiv="LINE_BREAK" id="0" type="fmt"/>
+<pc dispEnd="&lt;/p&gt;" dispStart="&lt;p&gt;" equivEnd="CLOSE_PARAGRAPH" equivStart="START_PARAGRAPH" id="1" type="other"> These terms are subjected to change and will be communicated 1 week prior to the change in this website and on Discord channel. </pc></source>
+        <target>Wypłaty nastąpi w ciągu 5 minut od wyfarmienia bloku. <ph disp="&lt;br /&gt;" equiv="LINE_BREAK" id="0" type="fmt"/>
+<pc dispEnd="&lt;/p&gt;" dispStart="&lt;p&gt;" equivEnd="CLOSE_PARAGRAPH" equivStart="START_PARAGRAPH" id="1" type="other">Warunki te mogą ulec zmianie. Wszelakie zmiany zostaną opublikowane z tygodniowym wyprzedzeniem na stronie i serverze Discord. </pc></target>
+      </trans-unit>
+      <trans-unit id="3145581158682357446" datatype="html">
+        <source><ph disp="{{ rewards_blocks }}" equiv="INTERPOLATION" id="0"/> farmed</source>
+        <target><ph disp="{{ rewards_blocks }}" equiv="INTERPOLATION" id="0"/> wyfarmione</target>
+      </trans-unit>
+      <trans-unit id="3173354168032548090" datatype="html">
+        <source>How many portable plots do I need to join the pool?</source>
+        <target>Ile przenośnych działek potrzebuję, aby dołączyć do poola?</target>
+      </trans-unit>
+      <trans-unit id="3179472790665120358" datatype="html">
+        <source>Fees are structured this way</source>
+        <target>Opłaty wyglądają następująco</target>
+      </trans-unit>
+      <trans-unit id="3223637037001251732" datatype="html">
+        <source>Farmer</source>
+        <target>Farmer</target>
+      </trans-unit>
+      <trans-unit id="3406747127815684711" datatype="html">
+        <source>Netspace</source>
+        <target>Netspace</target>
+      </trans-unit>
+      <trans-unit id="3458332391940035038" datatype="html">
+        <source>System Administrator</source>
+        <target>Administrator systemów</target>
+      </trans-unit>
+      <trans-unit id="3630057890731840343" datatype="html">
+        <source>A pool you can trust.</source>
+        <target>Pool, któremu możesz zaufać.</target>
+      </trans-unit>
+      <trans-unit id="3687194426938367329" datatype="html">
+        <source>Partners</source>
+        <target>Partnerzy</target>
+      </trans-unit>
+      <trans-unit id="3720651283513261307" datatype="html">
+        <source>Instant payout</source>
+        <target>Natychmiastowa wypłata</target>
+      </trans-unit>
+      <trans-unit id="3768927257183755959" datatype="html">
+        <source>Save</source>
+        <target>Zapisz</target>
+      </trans-unit>
+      <trans-unit id="3888743417810877091" datatype="html">
+        <source>1% Fee</source>
+        <target>1% Fee</target>
+      </trans-unit>
+      <trans-unit id="3896519408731471839" datatype="html">
+        <source>OpenChia believes that in a future blockchain and cryptocurrency can exist without degrading the environment and helping make the world a better place. We believe Chia and Cardano can coexist to help make that happen. If you'd like to know more about Cardano and/or join a legitimate staking pool please visit <pc dispEnd="&lt;/a&gt;" dispStart="&lt;a         href=&quot;https://vivid-pool.info/&quot; target=&quot;_blank&quot;&gt;" equivEnd="CLOSE_LINK" equivStart="START_LINK" id="0" type="link">Vivid Pool</pc>.</source>
+        <target>Jako OpenChia uważamy, że w przyszłości blockchainy, jak i kryptowaluty przestaną mieć negatywny impakt na środowisko oraz przyczynić się do uczynienia świata lepszym miejscem. Uważamy, że Chia i Cardano są na dobrej drodze, aby tak się stało. Jeśli chcesz dowiedzieć się więcej o Cardano i/lub dołączyć do "stake pool", odwiedź <pc dispEnd="&lt;/a&gt;" dispStart="&lt;a         href=&quot;https://vivid-pool.info/&quot; target=&quot;_blank&quot;&gt;" equivEnd="CLOSE_LINK" equivStart="START_LINK" id="0" type="link">Vivid Pool</pc>.</target>
+      </trans-unit>
+      <trans-unit id="3900702001221590652" datatype="html">
+        <source>No blocks found by this farmer!</source>
+        <target>Brak znalezionych bloków przez farmera!</target>
+      </trans-unit>
+      <trans-unit id="3973931101896534797" datatype="html">
+        <source>Date</source>
+        <target>Data</target>
+      </trans-unit>
+      <trans-unit id="4033388457681035533" datatype="html">
+        <source>Business and Marketing</source>
+        <target>Biznes i Marketing</target>
+      </trans-unit>
+      <trans-unit id="4040786877830825878" datatype="html">
+        <source>Payouts will happen within 5 minutes of the farmed block.<ph disp="&lt;br /&gt;" equiv="LINE_BREAK" id="0" type="fmt"/>
+<pc dispEnd="&lt;/p&gt;" dispStart="&lt;p&gt;" equivEnd="CLOSE_PARAGRAPH" equivStart="START_PARAGRAPH" id="1" type="other"> These terms are subjected to change and will be communicated 1 week prior to the change in this website and on Discord channel. </pc></source>
+        <target>Wypłaty nastąpi w ciągu 5 minut od wyfarmienia bloku. <ph disp="&lt;br /&gt;" equiv="LINE_BREAK" id="0" type="fmt"/>
+<pc dispEnd="&lt;/p&gt;" dispStart="&lt;p&gt;" equivEnd="CLOSE_PARAGRAPH" equivStart="START_PARAGRAPH" id="1" type="other">Warunki te mogą ulec zmianie. Wszelakie zmiany zostaną opublikowane z tygodniowym wyprzedzeniem na stronie i serverze Discord. </pc></target>
+      </trans-unit>
+      <trans-unit id="4062617929041832221" datatype="html">
+        <source>farmer doesn't exist, has left and/or has been removed.</source>
+        <target>farmer nie istnieje, opuścił i/lub został usunięty.</target>
+      </trans-unit>
+      <trans-unit id="4127571452382238225" datatype="html">
+        <source>Explorer</source>
+        <target>Eksplorator</target>
+      </trans-unit>
+      <trans-unit id="4165674190938428121" datatype="html">
+        <source>Make sure you are running official Chia client 1.2.0 or later.</source>
+        <target>Upewnij się, że używasz oficjalnego klienta Chia 1.2.0 lub nowszego.</target>
+      </trans-unit>
+      <trans-unit id="4188492714860880995" datatype="html">
+        <source>Thank you for trusting us!</source>
+        <target>Dziękujemy za zaufanie!</target>
+      </trans-unit>
+      <trans-unit id="4239635668959543337" datatype="html">
+        <source>We have more than 20 years of combined experience in the software development industry.</source>
+        <target>Wspólnie mamy ponad 20 lat doświadczenia w branży tworzenia oprogramowania.</target>
+      </trans-unit>
+      <trans-unit id="4267952904665583656" datatype="html">
+        <source>before joining the pool, your node and wallet must be fully synchronized with Chia blockchain</source>
+        <target>przed dołączeniem do poola, twój node i portfel muszą być w pełni zsynchronizowane z Chia blockchain</target>
+      </trans-unit>
+      <trans-unit id="427062538161914083" datatype="html">
+        <source>Official Chia Instructions.</source>
+        <target>Oficjalne instrukcje Chia.</target>
+      </trans-unit>
+      <trans-unit id="4420171943937772574" datatype="html">
+        <source>go to the “Pool” tab, and click on “Join the Pool”</source>
+        <target>przejdź do zakładki „Pool” i kliknij „Join the Pool”</target>
+      </trans-unit>
+      <trans-unit id="4423939679955683675" datatype="html">
+        <source>A reward of 1.75 XCH will be distributed to pool farmers, 0 XCH (nothing) is kept to the pool.</source>
+        <target>W przypadku otrzymania nagrody za blok w wysokości 1.75 XCH, zostanie ona w całości rozdana pomiędzy farmerów w poolu. 0 XCH jest przydzielone dla poola.</target>
+      </trans-unit>
+      <trans-unit id="4500995370545031926" datatype="html">
+        <source>How Chia pools work?</source>
+        <target>Jak działają Chia pool?</target>
+      </trans-unit>
+      <trans-unit id="4501612350036673473" datatype="html">
+        <source>Get your reward as soon as possible.</source>
+        <target>Odbieraj nagrodę za blok tak szybko, jak to możliwe.</target>
+      </trans-unit>
+      <trans-unit id="4580988005648117665" datatype="html">
+        <source>Search</source>
+        <target>Szukaj</target>
+      </trans-unit>
+      <trans-unit id="4591435416961869603" datatype="html">
+        <source>(unknown) <pc dispEnd="&lt;/i&gt;" dispStart="&lt;i class=&quot;fas fa-info-circle&quot;                 ngbTooltip=&quot;Unknown because this user arrived before the integration of this function in pool.&quot;&gt;" equivEnd="CLOSE_ITALIC_TEXT" equivStart="START_ITALIC_TEXT" id="0" type="fmt"/></source>
+        <target>(unknown) <pc dispEnd="&lt;/i&gt;" dispStart="&lt;i class=&quot;fas fa-info-circle&quot;                 ngbTooltip=&quot;Unknown because this user arrived before the integration of this function in pool.&quot;&gt;" equivEnd="CLOSE_ITALIC_TEXT" equivStart="START_ITALIC_TEXT" id="0" type="fmt"/></target>
+      </trans-unit>
+      <trans-unit id="4645345687322304891" datatype="html">
+        <source>Rules</source>
+        <target>Rules</target>
+      </trans-unit>
+      <trans-unit id="4686179819982655014" datatype="html">
+        <source>Receive some XCH</source>
+        <target>Odbierz XCH</target>
+      </trans-unit>
+      <trans-unit id="4839405892539527393" datatype="html">
+        <source>Create plots using that plotnft:</source>
+        <target>Utwórz działki za pomocą plotnft:</target>
+      </trans-unit>
+      <trans-unit id="4862418072620251283" datatype="html">
+        <source>No referrals found for this farmer!</source>
+        <target>No referrals found for this farmer!</target>
+      </trans-unit>
+      <trans-unit id="4887086279398746047" datatype="html">
+        <source>The effort that was required to farm the block. 100% is the expected estimated time to win. Lower than 100% means we farmed the block before the estimation. Higher than 100% means we took longer than anticipated.</source>
+        <target>The effort that was required to farm the block. 100% is the expected estimated time to win. Lower than 100% means we farmed the block before the estimation. Higher than 100% means we took longer than anticipated.</target>
+      </trans-unit>
+      <trans-unit id="4894182895116318049" datatype="html">
+        <source>Harvester ID</source>
+        <target>Harvester ID</target>
+      </trans-unit>
+      <trans-unit id="498428897195803218" datatype="html">
+        <source>Distribution System: PPLNS</source>
+        <target>System dystrybucji: PPLNS</target>
+      </trans-unit>
+      <trans-unit id="5012084291992448490" datatype="html">
+        <source>Fees</source>
+        <target>Opłaty</target>
+      </trans-unit>
+      <trans-unit id="5043891966437752386" datatype="html">
+        <source>Launcher ID</source>
+        <target>ID klienta aplikacji</target>
+      </trans-unit>
+      <trans-unit id="5088299831715376392" datatype="html">
+        <source>If a reward of 1.75 XCH is found, only 1% of that, 0.0175 will be kept to the pool as a fee. The remaining 1.7325 XCH will be distributed to pool farmers.</source>
+        <target>Jeśli pool otrzyma nagrodę za blok w wysokości 1,75 XCH, tylko 1% z tego, 0.0175 zostanie zatrzymane przez pool jako opłata. Pozostałe 1.7325 XCH zostanie rozdane pomiędzy farmerów w poolu.</target>
+      </trans-unit>
+      <trans-unit id="5200920908020858748" datatype="html">
+        <source>click the “Create” button. In the next couple of minutes, the Plot NFT will be created, and it will appear in your “Pool” tab</source>
+        <target>kliknij przycisk „Create”. W ciągu najbliższych kilku minut zostanie utworzony plot NFT, który pojawi się w zakładce „Pool”</target>
+      </trans-unit>
+      <trans-unit id="5254622645701859101" datatype="html">
+        <source>Points</source>
+        <target>Punkty</target>
+      </trans-unit>
+      <trans-unit id="5265690573497854746" datatype="html">
+        <source>You can now start creating Plots in “Plots” tab using this new Plot NFT to start farming XCH</source>
+        <target>Teraz możesz zacząć tworzyć działki w zakładce „Działki” dzieki, którym możesz farmić XCH</target>
+      </trans-unit>
+      <trans-unit id="5407189743553466183" datatype="html">
+        <source>Use of good faith and don't refer yourself in any shape or form.</source>
+        <target>Use of good faith and don't refer yourself in any shape or form.</target>
+      </trans-unit>
+      <trans-unit id="5421336367436045349" datatype="html">
+        <source>All our software is open source.</source>
+        <target>Nasze oprogramowanie w całości jest open source.</target>
+      </trans-unit>
+      <trans-unit id="5493504549864464172" datatype="html">
+        <source>Use above link to refer people to this pool. They will be required to join the pool and login to the website to confirm the referral.</source>
+        <target>Use above link to refer people to this pool. They will be required to join the pool and login to the website to confirm the referral.</target>
+      </trans-unit>
+      <trans-unit id="5530479554673343767" datatype="html">
+        <source>We use PPLNS (Pay Per Last N Shares) to distribute rewards.<ph disp="&lt;br /&gt;" equiv="LINE_BREAK" id="0" type="fmt"/> When a block is won, we look at the valid partials (shares) submitted by all users in the pool since last payout and distribute the reward value based on your share among all farmers in the pool.<ph disp="&lt;br /&gt;" equiv="LINE_BREAK" id="1" type="fmt"/> In our case Last N Shares refers to partials since last payout. We believe this system is far more fair for less frequent rewards (when Last N Shares means only last few hours), since people contributing for more time will get more rewards.<ph disp="&lt;br /&gt;" equiv="LINE_BREAK" id="2" type="fmt"/> Once our estimated time to win gets below 48 hours we plan on changing the Last N Shares to 48 hours of valid partials.</source>
+        <target>Do dystrybucji nagród, używamy metody PPLNS (Pay Per Last N Shares). <ph disp="&lt;br /&gt;" equiv="LINE_BREAK" id="0" type="fmt"/>Po wygraniu bloku przyglądamy się wszystkim poprawnym partials (shares), które zostały przesłane po ostatniej wypłacie przez użytkowników. Nagroda za blok rozprowadzana jest pomiędzy farmiących na podstawie ilości poprawnie przesłanych partials.<ph disp="&lt;br /&gt;" equiv="LINE_BREAK" id="1" type="fmt"/>Na chwilę obecną „Last N Shares" odnosi się do poprawnie przesłanych partials od ostatniej wypłaty. Uważamy, że ten system jest bardziej sprawiedliwy w sytuacji, gdy częstotliwość wygrania bloku przez pool jest mniejsza („Last N Shares" oznacza jedynie kilka godzin). Dlatego osoby będące dłużej w pool-u otrzymają większą nagrodę. <ph disp="&lt;br /&gt;" equiv="LINE_BREAK" id="2" type="fmt"/>Gdy szacowany czas na wygraną spadnie poniżej 48 godzin, planujemy zmienić „Last N Shares" na sumę poprawnych partials z ostatnich 48 godzin.</target>
+      </trans-unit>
+      <trans-unit id="5667847308793189855" datatype="html">
+        <source>Average effort to farm a block in the last 30 days.</source>
+        <target>Average effort to farm a block in the last 30 days.</target>
+      </trans-unit>
+      <trans-unit id="5683785837580689751" datatype="html">
+        <source>How to join us</source>
+        <target>Jak do nas dołączyć</target>
+      </trans-unit>
+      <trans-unit id="5701428712894376039" datatype="html">
+        <source>Sync your full node and wallet</source>
+        <target>Synchronizuj node i portfel</target>
+      </trans-unit>
+      <trans-unit id="571806966107540033" datatype="html">
+        <source>Can I join a pool with non-portable (OG) plots?</source>
+        <target>Czy mogę dołączyć do poola z nieprzenośnymi działkami (OG)?</target>
+      </trans-unit>
+      <trans-unit id="573605943360652415" datatype="html">
+        <source>join</source>
+        <target>Dołącz</target>
+      </trans-unit>
+      <trans-unit id="5782428644169779738" datatype="html">
+        <source>Profitability based on blocks farmed on last 30 days. Estimated value (XCH) a farmer would get per TiB per day.</source>
+        <target>Profitability based on blocks farmed on last 30 days. Estimated value (XCH) a farmer would get per TiB per day.</target>
+      </trans-unit>
+      <trans-unit id="5784227755295047072" datatype="html">
+        <source>0% Fee</source>
+        <target>Opłata 0%</target>
+      </trans-unit>
+      <trans-unit id="5860197662083362352" datatype="html">
+        <source>How do I check my referrals?</source>
+        <target>How do I check my referrals?</target>
+      </trans-unit>
+      <trans-unit id="5880915392762070234" datatype="html">
+        <source>No minimum payout</source>
+        <target>Brak minimalnej wypłaty</target>
+      </trans-unit>
+      <trans-unit id="5911214550882917183" datatype="html">
+        <source>State</source>
+        <target>Status</target>
+      </trans-unit>
+      <trans-unit id="5942490619473756728" datatype="html">
+        <source>After 1st October</source>
+        <target>Po 1 października</target>
+      </trans-unit>
+      <trans-unit id="5992977313238905164" datatype="html">
+        <source>Points (24 hours)</source>
+        <target>Punkty (24 godziny)</target>
+      </trans-unit>
+      <trans-unit id="605761694003152703" datatype="html">
+        <source>We have nothing to hide. Full blown explorer and live logs.</source>
+        <target>Nie mamy nic do ukrycia. Pełne logi oraz eksplorator dostępne na stronie w czasie rzeczywistym.</target>
+      </trans-unit>
+      <trans-unit id="6327177447190265105" datatype="html">
+        <source>Verify plotnft and copy contract address:</source>
+        <target>Sprawdź adres plotnft oraz skopiuj adres umowy:</target>
+      </trans-unit>
+      <trans-unit id="6377117377899970613" datatype="html">
+        <source>Create Plot NFT</source>
+        <target>Utwórz plot NFT:</target>
+      </trans-unit>
+      <trans-unit id="6410467948610503551" datatype="html">
+        <source>Index</source>
+        <target>Indeks</target>
+      </trans-unit>
+      <trans-unit id="6423838518528989093" datatype="html">
+        <source>Before 1st October</source>
+        <target>Przed 1 października</target>
+      </trans-unit>
+      <trans-unit id="6428143771369644145" datatype="html">
+        <source>Pool Space</source>
+        <target>Wielkość poola</target>
+      </trans-unit>
+      <trans-unit id="6445111019676735745" datatype="html">
+        <source>Payout</source>
+        <target>Wypłata</target>
+      </trans-unit>
+      <trans-unit id="6478666049745113178" datatype="html">
+        <source>A reward of 1.75 XCH will be distributed to pool farmers, 0 XCH (nothing) is kept to the pool.</source>
+        <target>W przypadku otrzymania nagrody za blok w wysokości 1.75 XCH, zostanie ona w całości rozdana pomiędzy farmerów w poolu. 0 XCH jest przydzielone dla poola.</target>
+      </trans-unit>
+      <trans-unit id="6533918067030990396" datatype="html">
+        <source>Amount</source>
+        <target>Kwota</target>
+      </trans-unit>
+      <trans-unit id="6579386880718541736" datatype="html">
+        <source>type in message box:</source>
+        <target>w polu do wysyłania wiadomości wpisz:</target>
+      </trans-unit>
+      <trans-unit id="6609923537067370114" datatype="html">
+        <source>Earn XCH by referring your friends to this pool!</source>
+        <target>Earn XCH by referring your friends to this pool!</target>
+      </trans-unit>
+      <trans-unit id="6741838149332998818" datatype="html">
+        <source>Who we are</source>
+        <target>Kim jesteśmy?</target>
+      </trans-unit>
+      <trans-unit id="6816717018247718709" datatype="html">
+        <source>Official Pool Protocol</source>
+        <target>Oficjalny Protokół Chia Pool</target>
+      </trans-unit>
+      <trans-unit id="6828977561113207354" datatype="html">
+        <source>If you already have a Plot NFT select "Change Pool" then enter https://pool.openchia.io.</source>
+        <target>Jeśli masz już działki NFT, wybierz „Zmień pool”, a następnie wprowadź https://pool.openchia.io.</target>
+      </trans-unit>
+      <trans-unit id="6880713934119717799" datatype="html">
+        <source>Friendly Name</source>
+        <target>Umowna nazwa</target>
+      </trans-unit>
+      <trans-unit id="6901531604019957317" datatype="html">
+        <source>Software Engineer</source>
+        <target>Inżynier oprogramowania</target>
+      </trans-unit>
+      <trans-unit id="6930616437385085682" datatype="html">
+        <source>Partials</source>
+        <target>Partials</target>
+      </trans-unit>
+      <trans-unit id="6948786787037977434" datatype="html">
+        <source>Blocks</source>
+        <target>Bloki</target>
+      </trans-unit>
+      <trans-unit id="6955537025048058867" datatype="html">
+        <source><ph disp="{{ farmers }}" equiv="INTERPOLATION" id="0"/> total</source>
+        <target><ph disp="{{ farmers }}" equiv="INTERPOLATION" id="0"/> razem</target>
+      </trans-unit>
+      <trans-unit id="6962632162131341925" datatype="html">
+        <source>Pool URL</source>
+        <target>Pool URL</target>
+      </trans-unit>
+      <trans-unit id="7075059674276878139" datatype="html">
+        <source>Transparent</source>
+        <target>Przejrzystość</target>
+      </trans-unit>
+      <trans-unit id="713513496522359111" datatype="html">
+        <source>Please meet our partners, together for a better world.</source>
+        <target>Poznajcie naszych partnerów, razem tworzymy świat lepszy.</target>
+      </trans-unit>
+      <trans-unit id="7143444199300614511" datatype="html">
+        <source>Create Plot NFT:</source>
+        <target>Utwórz działkę NFT:</target>
+      </trans-unit>
+      <trans-unit id="7290072656116822388" datatype="html">
+        <source>No payouts found!</source>
+        <target>Nie znaleziono wypłat!</target>
+      </trans-unit>
+      <trans-unit id="7375935383488695163" datatype="html">
+        <source>Refer your friends to this pool using the URL https://openchia.io?referrer=YOUR_LAUNCHER_ID. Replace YOUR_LAUNCHER_ID with the Launcher ID from your Plot NFT.</source>
+        <target>Refer your friends to this pool using the URL https://openchia.io?referrer=YOUR_LAUNCHER_ID. Replace YOUR_LAUNCHER_ID with the Launcher ID from your Plot NFT.</target>
+      </trans-unit>
+      <trans-unit id="7422727091201325409" datatype="html">
+        <source>Go to "Plots" menu in the left menu.</source>
+        <target>Przejdź do "Działki" menu po lewej stronie.</target>
+      </trans-unit>
+      <trans-unit id="7452975614303290488" datatype="html">
+        <source>No partials found!</source>
+        <target>Nie znaleziono partials!</target>
+      </trans-unit>
+      <trans-unit id="7600229961018223463" datatype="html">
+        <source>choose “Connect to pool” and enter the url: https://pool.openchia.io (exactly, no ending slash) then wait for pool description to appear</source>
+        <target>wybierz „Connect to pool” i wpisz adres URL: https://pool.openchia.io (dokładnie, bez ukośnika na końcu), a następnie poczekaj na wyświetlenie opisu poola</target>
+      </trans-unit>
+      <trans-unit id="760044993052786414" datatype="html">
+        <source>Estimated Size</source>
+        <target>Szacowany rozmiar</target>
+      </trans-unit>
+      <trans-unit id="7623464505437750989" datatype="html">
+        <source>Welcome to OpenChia.io</source>
+        <target>Witamy na OpenChia.io</target>
+      </trans-unit>
+      <trans-unit id="7682426834922031140" datatype="html">
+        <source>Why wait to get your rewards?</source>
+        <target>Po co czekać na wypłatę?</target>
+      </trans-unit>
+      <trans-unit id="7780941567931401606" datatype="html">
+        <source>Farmer Update</source>
+        <target>Aktualizacja farmera</target>
+      </trans-unit>
+      <trans-unit id="789888685484703987" datatype="html">
+        <source>Do you have any other questions?</source>
+        <target>Masz jeszcze jakieś pytania?</target>
+      </trans-unit>
+      <trans-unit id="7904374983883510569" datatype="html">
+        <source>Partials (24 hours)</source>
+        <target>Częściowe (24 godziny)</target>
+      </trans-unit>
+      <trans-unit id="807089867044050822" datatype="html">
+        <source>No blocks found by this farmed!</source>
+        <target>Brak znalezionych bloków przez farmera!</target>
+      </trans-unit>
+      <trans-unit id="8311659957519204575" datatype="html">
+        <source>Estimated Size</source>
+        <target>Szacowany rozmiar</target>
+      </trans-unit>
+      <trans-unit id="8371722561970711209" datatype="html">
+        <source>chia plots create -c &lt;contract address from above&gt;</source>
+        <target>chia plots create -c &lt;powyższy adres kontraktu&gt;</target>
+      </trans-unit>
+      <trans-unit id="8398056438540085583" datatype="html">
+        <source><ph disp="{{ estimate_win / 60 / 24 | number }}" equiv="INTERPOLATION" id="0"/> days</source>
+        <target><ph disp="{{ estimate_win / 60 / 24 | number }}" equiv="INTERPOLATION" id="0"/> dni</target>
+      </trans-unit>
+      <trans-unit id="8407551821312874924" datatype="html">
+        <source>you are going to need 1 mojo (0.000000000001 XCH) which you can get through our faucet service on Discord channel or through Faucet website:</source>
+        <target>będziesz potrzebował 1 mojo (0.00000001 XCH), możesz je uzyskać za pośrednictwem naszego serwisu „faucet" na kanale Discord lub za pośrednictwem strony internetowej Faucet:</target>
+      </trans-unit>
+      <trans-unit id="841934696444961534" datatype="html">
+        <source>News</source>
+        <target>Aktualności</target>
+      </trans-unit>
+      <trans-unit id="8440937360712650656" datatype="html">
+        <source>Since Last Win</source>
+        <target>Since Last Win</target>
+      </trans-unit>
+      <trans-unit id="8447672339763475319" datatype="html">
+        <source>If you already have a Plot NFT select "Change Pool" then enter https://pool.openchia.io</source>
+        <target>Jeśli masz już działki NFT, wybierz „Change Pool”, a następnie wprowadź https://pool.openchia.io.</target>
+      </trans-unit>
+      <trans-unit id="8479159211474411356" datatype="html">
+        <source>We use PPLNS (Pay Per Last N Shares) to distribute rewards.<ph disp="&lt;br /&gt;" equiv="LINE_BREAK" id="0" type="fmt"/> When a block is won, we look at the valid partials (shares) submitted by all users in the pool since last payout and distribute the reward value based on your share among all farmers in the pool.<ph disp="&lt;br /&gt;" equiv="LINE_BREAK" id="1" type="fmt"/> In our case Last N Shares refers to partials since last payout. We believe this system is far more fair for less frequent rewards (when Last N Shares means only last few hours), since people contributing for more time will get more rewards.<ph disp="&lt;br /&gt;" equiv="LINE_BREAK" id="2" type="fmt"/> Once our estimated time to win gets below 48 hours we plan on changing the Last N Shares to 48 hours of valid partials.</source>
+        <target>Do dystrybucji nagród, używamy metody PPLNS (Pay Per Last N Shares). <ph disp="&lt;br /&gt;" equiv="LINE_BREAK" id="0" type="fmt"/>Po wygraniu bloku przyglądamy się wszystkim poprawnym partials (shares), które zostały przesłane po ostatniej wypłacie przez użytkowników. Nagroda za blok rozprowadzana jest pomiędzy farmiących na podstawie ilości poprawnie przesłanych partials.<ph disp="&lt;br /&gt;" equiv="LINE_BREAK" id="1" type="fmt"/>Na chwilę obecną „Last N Shares" odnosi się do poprawnie przesłanych partials od ostatniej wypłaty. Uważamy, że ten system jest bardziej sprawiedliwy w sytuacji, gdy częstotliwość wygrania bloku przez pool jest mniejsza („Last N Shares" oznacza jedynie kilka godzin). Dlatego osoby będące dłużej w pool-u otrzymają większą nagrodę. <ph disp="&lt;br /&gt;" equiv="LINE_BREAK" id="2" type="fmt"/>Gdy szacowany czas na wygraną spadnie poniżej 48 godzin, planujemy zmienić „Last N Shares" na sumę poprawnych partials z ostatnich 48 godzin.</target>
+      </trans-unit>
+      <trans-unit id="8497528947328199741" datatype="html">
+        <source>Time</source>
+        <target>Czas</target>
+      </trans-unit>
+      <trans-unit id="8504648059270671021" datatype="html">
+        <source>Let's get in touch on any of these platforms.</source>
+        <target>Skontaktuj się z nami przez.</target>
+      </trans-unit>
+      <trans-unit id="8559170870663360229" datatype="html">
+        <source>Examples</source>
+        <target>Przykłady</target>
+      </trans-unit>
+      <trans-unit id="8616757634091748553" datatype="html">
+        <source>Blocks Found</source>
+        <target>Znalezione bloki</target>
+      </trans-unit>
+      <trans-unit id="8751484695665236751" datatype="html">
+        <source>They are offering cutting-edge cryptocurrency technology of today and tomorrow. Vivid Stake Pool allows you to stake in Cardano. If you deposit your Fiat Money on your bank account, you will receive 1-3 % profit per year which will be paid after at least a few months. In Cardano it is the opposite: you receive high profits as high as 5-8 % per year which is paid every 5 days!</source>
+        <target>Oferują najnowsze technologię w dziedzinie kryptowalut. Vivid Stake Pool pozwala na "stake" waluty Cardano. Jeśli dokonasz wpłaty pieniądza fiducjarnego na swoje konto oszczędnościowe w banku, otrzymasz 1-3% zysku rocznie, który zostanie wypłacony po co najmniej kilku miesiącach. W Cardano jest odwrotnie: otrzymujesz wyższy zysk aż do 5-8% rocznie, które są wypłacane co 5 dni!</target>
+      </trans-unit>
+      <trans-unit id="8758786563911669380" datatype="html">
+        <source>Click “Change” button</source>
+        <target>Kliknij przycisk „Change”</target>
+      </trans-unit>
+      <trans-unit id="879650116501482755" datatype="html">
+        <source>How does it work?</source>
+        <target>How does it work?</target>
+      </trans-unit>
+      <trans-unit id="8942351587754185907" datatype="html">
+        <source>API</source>
+        <target>API</target>
+      </trans-unit>
+      <trans-unit id="9008803606625370175" datatype="html">
+        <source>No wallets found!</source>
+        <target>No wallets found!</target>
+      </trans-unit>
+      <trans-unit id="9050075434132831491" datatype="html">
+        <source>Referral Link</source>
+        <target>Referral Link</target>
+      </trans-unit>
+      <trans-unit id="9059627454378411922" datatype="html">
+        <source>Show failed partials only</source>
+        <target>Show failed partials only</target>
+      </trans-unit>
+      <trans-unit id="9130593304627753298" datatype="html">
+        <source>Synced</source>
+        <target>Synced</target>
+      </trans-unit>
+      <trans-unit id="91968095428425686" datatype="html">
+        <source>XCH Price</source>
+        <target>Cena XCH</target>
+      </trans-unit>
+      <trans-unit id="9201971930509716006" datatype="html">
+        <source>Fee: 0%</source>
+        <target>Opłata: 0%</target>
+      </trans-unit>
+      <trans-unit id="API" datatype="html">
+        <source>API</source>
+        <target>API</target>
+      </trans-unit>
+      <trans-unit id="Amount" datatype="html">
+        <source>Amount</source>
+        <target>Ilość</target>
+      </trans-unit>
+      <trans-unit id="Average" datatype="html">
+        <source>Average</source>
+        <target>Average</target>
+      </trans-unit>
+      <trans-unit id="Beta" datatype="html">
+        <source>BETA</source>
+        <target>BETA</target>
+      </trans-unit>
+      <trans-unit id="Blocks" datatype="html">
+        <source>Blocks</source>
+        <target>Bloki</target>
+      </trans-unit>
+      <trans-unit id="Count" datatype="html">
+        <source>Count</source>
+        <target>Count</target>
+      </trans-unit>
+      <trans-unit id="CurrentEffort" datatype="html">
+        <source>Current Effort</source>
+        <target>Current Effort</target>
+      </trans-unit>
+      <trans-unit id="Date" datatype="html">
+        <source>Date</source>
+        <target>Data</target>
+      </trans-unit>
+      <trans-unit id="Details" datatype="html">
+        <source>Details</source>
+        <target>Details</target>
+      </trans-unit>
+      <trans-unit id="Difficulty" datatype="html">
+        <source>Difficulty</source>
+        <target>Trudności</target>
+      </trans-unit>
+      <trans-unit id="Effort" datatype="html">
+        <source>Effort</source>
+        <target>Effort</target>
+      </trans-unit>
+      <trans-unit id="EstimatedSpace" datatype="html">
+        <source>Estimated Space</source>
+        <target>Szacowany rozmiar</target>
+      </trans-unit>
+      <trans-unit id="Explorer" datatype="html">
+        <source>Explorer</source>
+        <target>Eksplorator</target>
+      </trans-unit>
+      <trans-unit id="FAQ" datatype="html">
+        <source>FAQ</source>
+        <target>FAQ</target>
+      </trans-unit>
+      <trans-unit id="Failed" datatype="html">
+        <source>Failed</source>
+        <target>Failed</target>
+      </trans-unit>
+      <trans-unit id="Farmer" datatype="html">
+        <source>Farmer</source>
+        <target>Farmer</target>
+      </trans-unit>
+      <trans-unit id="Farmers" datatype="html">
+        <source>Farmers</source>
+        <target>Farmerzy</target>
+      </trans-unit>
+      <trans-unit id="Fee" datatype="html">
+        <source>Fee</source>
+        <target>Opłata</target>
+      </trans-unit>
+      <trans-unit id="Fees" datatype="html">
+        <source>Fees</source>
+        <target>Fees</target>
+      </trans-unit>
+      <trans-unit id="Harversters" datatype="html">
+        <source>Harvesters</source>
+        <target>Harvesters</target>
+      </trans-unit>
+      <trans-unit id="Height" datatype="html">
+        <source>Height</source>
+        <target>Wysokość</target>
+      </trans-unit>
+      <trans-unit id="Home" datatype="html">
+        <source>Home</source>
+        <target>Home</target>
+      </trans-unit>
+      <trans-unit id="Hrs24" datatype="html">
+        <source>24 hours</source>
+        <target>24 hours</target>
+      </trans-unit>
+      <trans-unit id="ID" datatype="html">
+        <source>ID</source>
+        <target>ID</target>
+      </trans-unit>
+      <trans-unit id="JoinPool" datatype="html">
+        <source>Join our pool</source>
+        <target>Dołącz do poola</target>
+      </trans-unit>
+      <trans-unit id="Joined" datatype="html">
+        <source>Joined At</source>
+        <target>Joined At</target>
+      </trans-unit>
+      <trans-unit id="Launcher" datatype="html">
+        <source>Launcher ID</source>
+        <target>Launcher ID</target>
+      </trans-unit>
+      <trans-unit id="LauncherID" datatype="html">
+        <source>Launcher ID</source>
+        <target>Launcher ID</target>
+      </trans-unit>
+      <trans-unit id="Leaderboard" datatype="html">
+        <source>Leaderboard</source>
+        <target>Leaderboard</target>
+      </trans-unit>
+      <trans-unit id="Lucky" datatype="html">
+        <source>Lucky</source>
+        <target>Lucky</target>
+      </trans-unit>
+      <trans-unit id="MITLicense" datatype="html">
+        <source>MIT License</source>
+        <target>Licencja MIT</target>
+      </trans-unit>
+      <trans-unit id="NoPayouts" datatype="html">
+        <source>No payouts found!</source>
+        <target>Nie znaleziono wypłat!</target>
+      </trans-unit>
+      <trans-unit id="NoPayoutsAddrs" datatype="html">
+        <source>No payouts addresses found!</source>
+        <target>Adresy wypłat nieodnalezione!</target>
+      </trans-unit>
+      <trans-unit id="Partials" datatype="html">
+        <source>Partials</source>
+        <target>Partials</target>
+      </trans-unit>
+      <trans-unit id="Partners" datatype="html">
+        <source>Partners</source>
+        <target>Partnerzy</target>
+      </trans-unit>
+      <trans-unit id="PayoutAddresses" datatype="html">
+        <source>Payout Addresses</source>
+        <target>Adresy wypłaty</target>
+      </trans-unit>
+      <trans-unit id="Payouts" datatype="html">
+        <source>Payouts</source>
+        <target>Wypłaty</target>
+      </trans-unit>
+      <trans-unit id="Performance" datatype="html">
+        <source>Performance</source>
+        <target>Performance</target>
+      </trans-unit>
+      <trans-unit id="Points" datatype="html">
+        <source>Points</source>
+        <target>Punkty</target>
+      </trans-unit>
+      <trans-unit id="PoolWallets" datatype="html">
+        <source>Pool Wallets</source>
+        <target>Pool Wallets</target>
+      </trans-unit>
+      <trans-unit id="Profitability" datatype="html">
+        <source>Profitability</source>
+        <target>Profitability</target>
+      </trans-unit>
+      <trans-unit id="Referral" datatype="html">
+        <source>Referral</source>
+        <target>Referral</target>
+      </trans-unit>
+      <trans-unit id="Referrals" datatype="html">
+        <source>Referrals <pc dispEnd="&lt;/span&gt;" dispStart="&lt;span class=&quot;beta&quot;&gt;" equivEnd="CLOSE_TAG_SPAN" equivStart="START_TAG_SPAN" id="0" type="other">BETA</pc></source>
+        <target>Referrals <pc dispEnd="&lt;/span&gt;" dispStart="&lt;span class=&quot;beta&quot;&gt;" equivEnd="CLOSE_TAG_SPAN" equivStart="START_TAG_SPAN" id="0" type="other">BETA</pc></target>
+      </trans-unit>
+      <trans-unit id="Rewards" datatype="html">
+        <source>Rewards</source>
+        <target>Rewards</target>
+      </trans-unit>
+      <trans-unit id="Save" datatype="html">
+        <source>Save</source>
+        <target>Save</target>
+      </trans-unit>
+      <trans-unit id="Search" datatype="html">
+        <source>Search</source>
+        <target>Search</target>
+      </trans-unit>
+      <trans-unit id="Step" datatype="html">
+        <source>Step</source>
+        <target>Krok</target>
+      </trans-unit>
+      <trans-unit id="Successful" datatype="html">
+        <source>Successful</source>
+        <target>Successful</target>
+      </trans-unit>
+      <trans-unit id="Terms" datatype="html">
+        <source>Terms</source>
+        <target>Warunki</target>
+      </trans-unit>
+      <trans-unit id="TotalIncome" datatype="html">
+        <source>Total Income</source>
+        <target>Total Income</target>
+      </trans-unit>
+      <trans-unit id="Transaction" datatype="html">
+        <source>Transaction</source>
+        <target>Transakcja</target>
+      </trans-unit>
+      <trans-unit id="TransactionBlock" datatype="html">
+        <source>Transaction Block</source>
+        <target>Blok transakcji</target>
+      </trans-unit>
+      <trans-unit id="Unknown" datatype="html">
+        <source>Unknown</source>
+        <target>Unknown</target>
+      </trans-unit>
+      <trans-unit id="Unlucky" datatype="html">
+        <source>Unlucky</source>
+        <target>Unlucky</target>
+      </trans-unit>
+      <trans-unit id="Uptime" datatype="html">
+        <source>Uptime</source>
+        <target>Czas działania</target>
+      </trans-unit>
+      <trans-unit id="UtilizationSpace" datatype="html">
+        <source>Utilization Space</source>
+        <target>Przestrzeń wykorzystana</target>
+      </trans-unit>
+      <trans-unit id="Warning" datatype="html">
+        <source>Warning</source>
+        <target>Ostrzeżenie</target>
+      </trans-unit>
+      <trans-unit id="ngb.alert.close" datatype="html">
+        <source>Close</source>
+        <target>Zamknij</target>
+      </trans-unit>
+      <trans-unit id="ngb.carousel.next" datatype="html">
+        <source>Next</source>
+        <target>Dalej</target>
+      </trans-unit>
+      <trans-unit id="ngb.carousel.previous" datatype="html">
+        <source>Previous</source>
+        <target>Wstecz</target>
+      </trans-unit>
+      <trans-unit id="ngb.pagination.first-aria" datatype="html">
+        <source>First</source>
+        <target>Pierwszy</target>
+      </trans-unit>
+      <trans-unit id="ngb.pagination.last-aria" datatype="html">
+        <source>Last</source>
+        <target>Ostatni</target>
+      </trans-unit>
+      <trans-unit id="ngb.pagination.next-aria" datatype="html">
+        <source>Next</source>
+        <target>Następny</target>
+      </trans-unit>
+      <trans-unit id="ngb.pagination.previous-aria" datatype="html">
+        <source>Previous</source>
+        <target>Wstecz</target>
+      </trans-unit>
+      <trans-unit id="ngb.progressbar.value" datatype="html">
+        <source>
+          <ph disp="ber { return th" equiv="INTERPOLATION" id="0"/>
+        </source>
+        <target>
+          <ph disp="ber { return th" equiv="INTERPOLATION" id="0"/>
+        </target>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.AM" datatype="html">
+        <source>
+          <ph disp="or 24H mode." equiv="INTERPOLATION" id="0"/>
+        </source>
+        <target>
+          <ph disp="lub tryb 24H." equiv="INTERPOLATION" id="0"/>
+        </target>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.HH" datatype="html">
+        <source>HH</source>
+        <target>GG</target>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.MM" datatype="html">
+        <source>MM</source>
+        <target>MM</target>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.PM" datatype="html">
+        <source>
+          <ph disp="tring;    disab" equiv="INTERPOLATION" id="0"/>
+        </source>
+        <target>
+          <ph disp="tring;    disab" equiv="INTERPOLATION" id="0"/>
+        </target>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.SS" datatype="html">
+        <source>SS</source>
+        <target>SS</target>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.decrement-hours" datatype="html">
+        <source>Decrement hours</source>
+        <target>Zmniejsz godzinę</target>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.decrement-minutes" datatype="html">
+        <source>Decrement minutes</source>
+        <target>Zmniejsz minuty</target>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.decrement-seconds" datatype="html">
+        <source>Decrement seconds</source>
+        <target>Zmniejsz sekundy</target>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.hours" datatype="html">
+        <source>Hours</source>
+        <target>Godziny</target>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.increment-hours" datatype="html">
+        <source>Increment hours</source>
+        <target>Zwiększ godzinę</target>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.increment-minutes" datatype="html">
+        <source>Increment minutes</source>
+        <target>Zwiększ minuty</target>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.increment-seconds" datatype="html">
+        <source>Increment seconds</source>
+        <target>Zwiększ sekundy</target>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.minutes" datatype="html">
+        <source>Minutes</source>
+        <target>Minuty</target>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.seconds" datatype="html">
+        <source>Seconds</source>
+        <target>Sekundy</target>
+      </trans-unit>
+      <trans-unit id="ngb.toast.close-aria" datatype="html">
+        <source>Close</source>
+        <target>Zamknij</target>
+      </trans-unit>
+    </body>
+  </file>
 </xliff>
