@@ -63,7 +63,7 @@ export class FarmerComponent implements OnInit {
   ticketsRound$: Observable<any[]>;
 
   partialsChartColors = { domain: ['#129b00', '#e00000'] };
-  sizeChartColors  = { domain: ['#006400', '#9ef01a'] };
+  sizeChartColors = { domain: ['#006400', '#9ef01a'] };
 
   private farmerid: string;
   public farmer: any = {};
