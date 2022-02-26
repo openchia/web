@@ -39,17 +39,19 @@
             <span class="nav-link-inner--text giveaway-bold" i18n="@@Giveaway">Giveaway</span>
           </a>
         </li>
+        <li class="nav-item">
+          <a class="nav-link" role="button" [routerLink]="['/stats']">
+            <i class="ni ni-ui-04 d-lg-none"></i>
+            <span class="nav-link-inner--text" i18n="@@Stats">Stats</span>
+          </a>
+        </li>
         <li ngbDropdown class="nav-item dropdown">
-          <a ngbDropdownToggle class="nav-link dropdown-toggle" data-toggle="dropdown"
-            aria-haspopup="true" aria-expanded="false" id="moreDropdown" role="button">
+          <a ngbDropdownToggle class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"
+            aria-expanded="false" id="moreDropdown" role="button">
             <i class="ni ni-collection d-lg-none"></i>
             <span class="nav-link-inner" i18n="@@More">More</span>
           </a>
           <div class="dropdown-menu" aria-labelledby="moreDropdown" ngbDropdownMenu>
-            <a ngbDropdownItem class="dropdown-item" role="button" [routerLink]="['/stats']">
-              <i class="ni ni-ui-04 d-lg-none"></i>
-              <span class="nav-link-inner text-primary" i18n="@@Stats">Stats</span>
-            </a>
             <a ngbDropdownItem class="dropdown-item" role="button" [routerLink]="['/calculator']">
               <i class="ni ni-ui-04 d-lg-none"></i>
               <span class="nav-link-inner text-primary" i18n="@@Calculator">Calculator</span>
