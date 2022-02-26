@@ -6,8 +6,7 @@
  Locale: pt-BR, Brazilian Portuguese
  Exported by: Unregistered user
  Exported at: Fri, 25 Feb 2022 16:43:39 -0300
--->
-<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
+--><xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
   <file original="ng.template" source-language="pt-BR" target-language="pt-BR" datatype="plaintext" tool-id="loco">
     <header>
       <tool tool-id="loco" tool-name="Loco for Angular" tool-version="1.0.26 20220207-1" tool-company="Loco"/>
@@ -322,8 +321,8 @@
         <target>Pesquisar</target>
       </trans-unit>
       <trans-unit id="4591435416961869603" datatype="html">
-        <source>(unknown) <pc dispEnd="&lt;/i&gt;" dispStart="&lt;i class=&quot;fas fa-info-circle&quot;                 ngbTooltip=&quot;Unknown because this user arrived before the integration of this function in pool.&quot;&gt;" equivEnd="CLOSE_ITALIC_TEXT" equivStart="START_ITALIC_TEXT" id="0" type="fmt"/></source>
-        <target>(unknown) <pc dispEnd="&lt;/i&gt;" dispStart="&lt;i class=&quot;fas fa-info-circle&quot;                 ngbTooltip=&quot;Unknown because this user arrived before the integration of this function in pool.&quot;&gt;" equivEnd="CLOSE_ITALIC_TEXT" equivStart="START_ITALIC_TEXT" id="0" type="fmt"/></target>
+        <source>(unknown) <pc id="0" equivStart="START_ITALIC_TEXT" equivEnd="CLOSE_ITALIC_TEXT" type="fmt" dispStart="&lt;i class=&quot;fas fa" dispEnd="&lt;/i&gt;"/></source>
+        <target>(desconhecido) <pc id="0" equivStart="START_ITALIC_TEXT" equivEnd="CLOSE_ITALIC_TEXT" type="fmt" dispStart="&lt;i class=&quot;fas fa" dispEnd="&lt;/i&gt;"/></target>
       </trans-unit>
       <trans-unit id="4645345687322304891" datatype="html">
         <source>Rules</source>
@@ -1000,6 +999,14 @@
       <trans-unit id="ngb.toast.close-aria" datatype="html">
         <source>Close</source>
         <target>Fechar</target>
+      </trans-unit>
+      <trans-unit id="More" datatype="html">
+        <source>More</source>
+        <target>Mais</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/navbar/navbar.component.html</context>
+          <context context-type="linenumber">46,49</context>
+        </context-group>
       </trans-unit>
     </body>
   </file>
