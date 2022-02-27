@@ -928,13 +928,13 @@
         <source>
           <ph disp="ber { return th" equiv="INTERPOLATION" id="0"/>
         </source>
-        <target><ph id="0" equiv="INTERPOLATION" disp="ar.    *    *"/> </target>
+        <target><x id="INTERPOLATION" equiv-text="ar.    *    *"/></target>
       </trans-unit>
       <trans-unit id="ngb.timepicker.AM" datatype="html">
         <source>
           <ph disp="or 24H mode." equiv="INTERPOLATION" id="0"/>
         </source>
-        <target><ph id="0" equiv="INTERPOLATION"/> </target>
+        <target><x id="INTERPOLATION"/></target>
       </trans-unit>
       <trans-unit id="ngb.timepicker.HH" datatype="html">
         <source>HH</source>
@@ -948,7 +948,7 @@
         <source>
           <ph disp="tring;    disab" equiv="INTERPOLATION" id="0"/>
         </source>
-        <target><ph id="0" equiv="INTERPOLATION"/> </target>
+        <target><x id="INTERPOLATION"/></target>
       </trans-unit>
       <trans-unit id="ngb.timepicker.SS" datatype="html">
         <source>SS</source>
@@ -1625,8 +1625,8 @@
         </context-group>
       </trans-unit>
       <trans-unit id="ngb.carousel.slide-number" datatype="html">
-        <source>Slide <ph id="0" equiv="INTERPOLATION" disp="to interact wit"/> of <ph id="1" equiv="INTERPOLATION_1" disp="carousel using"/></source>
-        <target>Slide <ph id="0" equiv="INTERPOLATION" disp="to interact wit"/> de <ph id="1" equiv="INTERPOLATION_1" disp="carousel using"/></target>
+        <source>Slide <x id="INTERPOLATION" equiv-text="to interact wit"/> of <x id="INTERPOLATION_1" equiv-text="carousel using"/> </source>
+        <target>Slide <x id="INTERPOLATION" equiv-text="to interact wit"/> de <x id="INTERPOLATION_1" equiv-text="carousel using"/> </target>
         <note priority="1" from="description">Currently selected slide number read by screen reader</note>
         <context-group purpose="location">
           <context context-type="sourcefile">node_modules/src/carousel/carousel.ts</context>
@@ -2959,6 +2959,338 @@
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/referral/referral.component.html</context>
           <context context-type="linenumber">23,26</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="20070de52e6da36cd3f434a3267f4a114135d8f2" datatype="html">
+        <source>Make sure you are official Chia client supporting pool plots (1.2.0 or later). Show <x id="START_LINK" ctype="x-a" equiv-text="&lt;a"/> official Chia instructions here<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;&lt;/li&gt;                       &lt;/ul&gt;                     &lt;/div&gt;                   &lt;/div"/>.<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br /&gt;                       Depending on your location, use one of the following connections:                       &lt;ul&gt;                         &lt;li&gt;Global server: &lt;a href=&quot;https://pool.openchia"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br /&gt;                       Depending on your location, use one of the following connections:                       &lt;ul&gt;                         &lt;li&gt;Global server: &lt;a href=&quot;https://pool.openchia"/> Before joining pool, your node and wallet must be fully synchronized with Chia blockchain.<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br /&gt;                       Depending on your location, use one of the following connections:                       &lt;ul&gt;                         &lt;li&gt;Global server: &lt;a href=&quot;https://pool.openchia"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br /&gt;                       Depending on your location, use one of the following connections:                       &lt;ul&gt;                         &lt;li&gt;Global server: &lt;a href=&quot;https://pool.openchia"/> You are going to need 1 Mojo (0.000000000001 XCH) which you can get through our faucet services:<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br /&gt;                       Depending on your location, use one of the following connections:                       &lt;ul&gt;                         &lt;li&gt;Global server: &lt;a href=&quot;https://pool.openchia"/><x id="START_UNORDERED_LIST" ctype="x-ul" equiv-text="&lt;ul&gt;                         &lt;li&gt;Gl"/><x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;Asia server: &lt;a href=&quot;https://pool-asia.openchia.io&quot;&gt;https://po"/>OpenChia Discord : <x id="START_LINK_1" equiv-text="&lt;a href=&quot;https://"/>#faucet channel<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;&lt;/li&gt;                       &lt;/ul&gt;                     &lt;/div&gt;                   &lt;/div"/><x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;                       &lt;/ul&gt;                     &lt;/div&gt;"/><x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;Asia server: &lt;a href=&quot;https://pool-asia.openchia.io&quot;&gt;https://po"/>Faucet website : <x id="START_LINK_2" equiv-text="&lt;a href=&quot;https://"/>https://faucet.chia.net<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;&lt;/li&gt;                       &lt;/ul&gt;                     &lt;/div&gt;                   &lt;/div"/><x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;                       &lt;/ul&gt;                     &lt;/div&gt;"/><x id="CLOSE_UNORDERED_LIST" ctype="x-ul" equiv-text="&lt;/ul&gt;                     &lt;/div&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br /&gt;                       Depending on your location, use one of the following connections:                       &lt;ul&gt;                         &lt;li&gt;Global server: &lt;a href=&quot;https://pool.openchia"/> Depending on your location, use one of the following connections: <x id="START_UNORDERED_LIST" ctype="x-ul" equiv-text="&lt;ul&gt;                         &lt;li&gt;Gl"/><x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;Asia server: &lt;a href=&quot;https://pool-asia.openchia.io&quot;&gt;https://po"/>Global server: <x id="START_LINK_3" equiv-text="&lt;a href=&quot;https://"/>https://pool.openchia.io<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;&lt;/li&gt;                       &lt;/ul&gt;                     &lt;/div&gt;                   &lt;/div"/><x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;                       &lt;/ul&gt;                     &lt;/div&gt;"/><x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;Asia server: &lt;a href=&quot;https://pool-asia.openchia.io&quot;&gt;https://po"/>Asia server: <x id="START_LINK_4" equiv-text="&lt;a href=&quot;https://"/>https://pool-asia.openchia.io<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;&lt;/li&gt;                       &lt;/ul&gt;                     &lt;/div&gt;                   &lt;/div"/><x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;                       &lt;/ul&gt;                     &lt;/div&gt;"/><x id="CLOSE_UNORDERED_LIST" ctype="x-ul" equiv-text="&lt;/ul&gt;                     &lt;/div&gt;"/></source>
+        <target>Certifique-se de utilizar o cliente Chia oficial que suporta plots de pools (1.2.0 ou mais recente). Exibir <x id="START_LINK" ctype="x-a" equiv-text="&lt;a"/> instruções oficiais da Chia aqui<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;&lt;/li&gt;                       &lt;/ul&gt;                     &lt;/div&gt;                   &lt;/div"/>.<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br /&gt;                       Depending on your location, use one of the following connections:                       &lt;ul&gt;                         &lt;li&gt;Global server: &lt;a href=&quot;https://pool.openchia"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br /&gt;                       Depending on your location, use one of the following connections:                       &lt;ul&gt;                         &lt;li&gt;Global server: &lt;a href=&quot;https://pool.openchia"/> Antes de se juntar à pool, seu nó e sua carteira devem estar totalmente sincronizados com a Chia blockchain.<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br /&gt;                       Depending on your location, use one of the following connections:                       &lt;ul&gt;                         &lt;li&gt;Global server: &lt;a href=&quot;https://pool.openchia"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br /&gt;                       Depending on your location, use one of the following connections:                       &lt;ul&gt;                         &lt;li&gt;Global server: &lt;a href=&quot;https://pool.openchia"/> Você vai precisar de 1 Mojo (0.000000000001 XCH) o qual você poderá obter através dos serviços de torneiras:<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br /&gt;                       Dependendo de sua localização, utilize uma das seguintes conexões:                       &lt;ul&gt;                         &lt;li&gt;Global server: &lt;a href=&quot;https://pool.openchia"/><x id="START_UNORDERED_LIST" ctype="x-ul" equiv-text="&lt;ul&gt;                         &lt;li&gt;Gl"/><x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;Asia server: &lt;a href=&quot;https://pool-asia.openchia.io&quot;&gt;https://po"/>OpenChia Discord : <x id="START_LINK_1" equiv-text="&lt;a href=&quot;https://"/>#faucet channel<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;&lt;/li&gt;                       &lt;/ul&gt;                     &lt;/div&gt;                   &lt;/div"/><x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;                       &lt;/ul&gt;                     &lt;/div&gt;"/><x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;Asia server: &lt;a href=&quot;https://pool-asia.openchia.io&quot;&gt;https://po"/>Torneira : <x id="START_LINK_2" equiv-text="&lt;a href=&quot;https://"/>https://faucet.chia.net<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;&lt;/li&gt;                       &lt;/ul&gt;                     &lt;/div&gt;                   &lt;/div"/><x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;                       &lt;/ul&gt;                     &lt;/div&gt;"/><x id="CLOSE_UNORDERED_LIST" ctype="x-ul" equiv-text="&lt;/ul&gt;                     &lt;/div&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br /&gt;                        Dependendo de sua localização, utilize uma das seguintes conexões:                       &lt;ul&gt;                         &lt;li&gt;Global server: &lt;a href=&quot;https://pool.openchia"/> Dependendo de sua localização, utilize uma das seguintes conexões: <x id="START_UNORDERED_LIST" ctype="x-ul" equiv-text="&lt;ul&gt;                         &lt;li&gt;Gl"/><x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;Asia server: &lt;a href=&quot;https://pool-asia.openchia.io&quot;&gt;https://po"/>Global server: <x id="START_LINK_3" equiv-text="&lt;a href=&quot;https://"/>https://pool.openchia.io<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;&lt;/li&gt;                       &lt;/ul&gt;                     &lt;/div&gt;                   &lt;/div"/><x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;                       &lt;/ul&gt;                     &lt;/div&gt;"/><x id="START_LIST_ITEM" ctype="x-li" equiv-text="&lt;li&gt;Asia server: &lt;a href=&quot;https://pool-asia.openchia.io&quot;&gt;https://po"/>Asia server: <x id="START_LINK_4" equiv-text="&lt;a href=&quot;https://"/>https://pool-asia.openchia.io<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;&lt;/li&gt;                       &lt;/ul&gt;                     &lt;/div&gt;                   &lt;/div"/><x id="CLOSE_LIST_ITEM" ctype="x-li" equiv-text="&lt;/li&gt;                       &lt;/ul&gt;                     &lt;/div&gt;"/><x id="CLOSE_UNORDERED_LIST" ctype="x-ul" equiv-text="&lt;/ul&gt;                     &lt;/div&gt;"/></target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/join/join.component.html</context>
+          <context context-type="linenumber">44,46</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="88b1b400d718cced2d6f667695f1ffe702534798" datatype="html">
+        <source>Get your wallet ID:<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br /&gt;                       Wait few minutes and enjoy! 🎉                     &lt;/div&gt;                   &lt;/div&gt;                 &lt;/div&gt;                 &lt;div class=&quot;card&quot;&gt;                   &lt;div id=&quot;headingThree&quot; class=&quot;card-head"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br /&gt;                       Wait few minutes and enjoy! 🎉                     &lt;/div&gt;                   &lt;/div&gt;                 &lt;/div&gt;                 &lt;div class=&quot;card&quot;&gt;                   &lt;div id=&quot;headingThree&quot; class=&quot;card-head"/><x id="START_TAG_DIV" ctype="x-div" equiv-text="&lt;div class=&quot;card-shell&quot;&gt;"/><x id="START_TAG_CODE" ctype="x-code" equiv-text="&lt;code class=&quot;code-shell&quot;&gt;"/> $ chia plotnft show <x id="CLOSE_TAG_CODE" ctype="x-code" equiv-text="&lt;/code&gt;                       &lt;/div&gt;&lt;"/><x id="CLOSE_TAG_DIV" ctype="x-div" equiv-text="&lt;/div&gt;&lt;br /&gt;                       It"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br /&gt;                       Wait few minutes and enjoy! 🎉                     &lt;/div&gt;                   &lt;/div&gt;                 &lt;/div&gt;                 &lt;div class=&quot;card&quot;&gt;                   &lt;div id=&quot;headingThree&quot; class=&quot;card-head"/> Joining OpenChia pool with:<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br /&gt;                       Wait few minutes and enjoy! 🎉                     &lt;/div&gt;                   &lt;/div&gt;                 &lt;/div&gt;                 &lt;div class=&quot;card&quot;&gt;                   &lt;div id=&quot;headingThree&quot; class=&quot;card-head"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br /&gt;                       Wait few minutes and enjoy! 🎉                     &lt;/div&gt;                   &lt;/div&gt;                 &lt;/div&gt;                 &lt;div class=&quot;card&quot;&gt;                   &lt;div id=&quot;headingThree&quot; class=&quot;card-head"/><x id="START_TAG_DIV" ctype="x-div" equiv-text="&lt;div class=&quot;card-shell&quot;&gt;"/><x id="START_TAG_CODE" ctype="x-code" equiv-text="&lt;code class=&quot;code-shell&quot;&gt;"/> $ chia plotnft join -i WALLET_ID -u https://pool.openchia.io <x id="CLOSE_TAG_CODE" ctype="x-code" equiv-text="&lt;/code&gt;                       &lt;/div&gt;&lt;"/><x id="CLOSE_TAG_DIV" ctype="x-div" equiv-text="&lt;/div&gt;&lt;br /&gt;                       It"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br /&gt;                       Wait few minutes and enjoy! 🎉                     &lt;/div&gt;                   &lt;/div&gt;                 &lt;/div&gt;                 &lt;div class=&quot;card&quot;&gt;                   &lt;div id=&quot;headingThree&quot; class=&quot;card-head"/> It will ask for your confirmation, check all details and confirm with Y.<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br /&gt;                       Wait few minutes and enjoy! 🎉                     &lt;/div&gt;                   &lt;/div&gt;                 &lt;/div&gt;                 &lt;div class=&quot;card&quot;&gt;                   &lt;div id=&quot;headingThree&quot; class=&quot;card-head"/> Wait few minutes and enjoy! 🎉 </source>
+        <target>Obtenha seu wallet ID:<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br /&gt;                       Aguarde alguns minutos e aproveite! 🎉                     &lt;/div&gt;                   &lt;/div&gt;                 &lt;/div&gt;                 &lt;div class=&quot;card&quot;&gt;                   &lt;div id=&quot;headingThree&quot; class=&quot;card-head"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br /&gt;                       Aguarde alguns minutos e aproveite! 🎉                     &lt;/div&gt;                   &lt;/div&gt;                 &lt;/div&gt;                 &lt;div class=&quot;card&quot;&gt;                   &lt;div id=&quot;headingThree&quot; class=&quot;card-head"/><x id="START_TAG_DIV" ctype="x-div" equiv-text="&lt;div class=&quot;card-shell&quot;&gt;"/><x id="START_TAG_CODE" ctype="x-code" equiv-text="&lt;code class=&quot;code-shell&quot;&gt;"/> $ chia plotnft show <x id="CLOSE_TAG_CODE" ctype="x-code" equiv-text="&lt;/code&gt;                       &lt;/div&gt;&lt;"/><x id="CLOSE_TAG_DIV" ctype="x-div" equiv-text="&lt;/div&gt;&lt;br /&gt;                       It"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br /&gt;                       Aguarde alguns minutos e aproveite! 🎉                     &lt;/div&gt;                   &lt;/div&gt;                 &lt;/div&gt;                 &lt;div class=&quot;card&quot;&gt;                   &lt;div id=&quot;headingThree&quot; class=&quot;card-head"/> Ingresse na pool OpenChia com:<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br /&gt;                       Aguarde alguns minutos e aproveite! 🎉                     &lt;/div&gt;                   &lt;/div&gt;                 &lt;/div&gt;                 &lt;div class=&quot;card&quot;&gt;                   &lt;div id=&quot;headingThree&quot; class=&quot;card-head"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br /&gt;                       Wait few minutes and enjoy! 🎉                     &lt;/div&gt;                   &lt;/div&gt;                 &lt;/div&gt;                 &lt;div class=&quot;card&quot;&gt;                   &lt;div id=&quot;headingThree&quot; class=&quot;card-head"/><x id="START_TAG_DIV" ctype="x-div" equiv-text="&lt;div class=&quot;card-shell&quot;&gt;"/><x id="START_TAG_CODE" ctype="x-code" equiv-text="&lt;code class=&quot;code-shell&quot;&gt;"/> $ chia plotnft join -i WALLET_ID -u https://pool.openchia.io <x id="CLOSE_TAG_CODE" ctype="x-code" equiv-text="&lt;/code&gt;                       &lt;/div&gt;&lt;"/><x id="CLOSE_TAG_DIV" ctype="x-div" equiv-text="&lt;/div&gt;&lt;br /&gt;                       It"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br /&gt;                       Aguarde alguns minutos e aproveite! 🎉                     &lt;/div&gt;                   &lt;/div&gt;                 &lt;/div&gt;                 &lt;div class=&quot;card&quot;&gt;                   &lt;div id=&quot;headingThree&quot; class=&quot;card-head"/> Será solicitada sua confirmação, verifique todos os detalhes e confirme com Y.<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br /&gt;                      Aguarde alguns minutos e aproveite! 🎉                     &lt;/div&gt;                   &lt;/div&gt;                 &lt;/div&gt;                 &lt;div class=&quot;card&quot;&gt;                   &lt;div id=&quot;headingThree&quot; class=&quot;card-head"/> Aguarde alguns minutos e aproveite! 🎉 </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/join/join.component.html</context>
+          <context context-type="linenumber">77,83</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="d663950411c7c44a04021556c33ee663c8cead4a" datatype="html">
+        <source>Open the Chia GUI and click "Pool" and then "Join a pool":<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br /&gt;                       &lt;img src=&quot;./assets/img/join/gui/en/screenshot-4.png&quot; width=&quot;100%&quot; /&gt;                       And appreciate! 🎉                     &lt;/div&gt;                   &lt;/div&gt;                 &lt;/div&gt;                 &lt;div class=&quot;card&quot;&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br /&gt;                       &lt;img src=&quot;./assets/img/join/gui/en/screenshot-4.png&quot; width=&quot;100%&quot; /&gt;                       And appreciate! 🎉                     &lt;/div&gt;                   &lt;/div&gt;                 &lt;/div&gt;                 &lt;div class=&quot;card&quot;&gt;"/><x id="TAG_IMG" ctype="image" equiv-text="&lt;img src=&quot;./assets/img/join/gui/e"/> Choose "Connect to pool" and enter this URL "https://pool.openchia.io" (exactly, no ending slash), verify pool details and click on "Create" button:<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br /&gt;                       &lt;img src=&quot;./assets/img/join/gui/en/screenshot-4.png&quot; width=&quot;100%&quot; /&gt;                       And appreciate! 🎉                     &lt;/div&gt;                   &lt;/div&gt;                 &lt;/div&gt;                 &lt;div class=&quot;card&quot;&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br /&gt;                       &lt;img src=&quot;./assets/img/join/gui/en/screenshot-4.png&quot; width=&quot;100%&quot; /&gt;                       And appreciate! 🎉                     &lt;/div&gt;                   &lt;/div&gt;                 &lt;/div&gt;                 &lt;div class=&quot;card&quot;&gt;"/><x id="TAG_IMG_1" ctype="x-img_1" equiv-text="&lt;img src=&quot;./assets/img/join/gui/e"/> Wait few minutes...<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br /&gt;                       &lt;img src=&quot;./assets/img/join/gui/en/screenshot-4.png&quot; width=&quot;100%&quot; /&gt;                       And appreciate! 🎉                     &lt;/div&gt;                   &lt;/div&gt;                 &lt;/div&gt;                 &lt;div class=&quot;card&quot;&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br /&gt;                       &lt;img src=&quot;./assets/img/join/gui/en/screenshot-4.png&quot; width=&quot;100%&quot; /&gt;                       And appreciate! 🎉                     &lt;/div&gt;                   &lt;/div&gt;                 &lt;/div&gt;                 &lt;div class=&quot;card&quot;&gt;"/><x id="TAG_IMG_2" ctype="x-img_2" equiv-text="&lt;img src=&quot;./assets/img/join/gui/e"/> Confirm pool connection and you can create Plot NFT:<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br /&gt;                       &lt;img src=&quot;./assets/img/join/gui/en/screenshot-4.png&quot; width=&quot;100%&quot; /&gt;                       And appreciate! 🎉                     &lt;/div&gt;                   &lt;/div&gt;                 &lt;/div&gt;                 &lt;div class=&quot;card&quot;&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br /&gt;                       &lt;img src=&quot;./assets/img/join/gui/en/screenshot-4.png&quot; width=&quot;100%&quot; /&gt;                       And appreciate! 🎉                     &lt;/div&gt;                   &lt;/div&gt;                 &lt;/div&gt;                 &lt;div class=&quot;card&quot;&gt;"/><x id="TAG_IMG_3" ctype="x-img_3" equiv-text="&lt;img src=&quot;./assets/img/join/gui/e"/> And appreciate! 🎉 </source>
+        <target>Abra a interface gráfica e clique em "Pool" e depois em "Join a pool":<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br /&gt;                       &lt;img src=&quot;./assets/img/join/gui/en/screenshot-4.png&quot; width=&quot;100%&quot; /&gt;                       And appreciate! 🎉                     &lt;/div&gt;                   &lt;/div&gt;                 &lt;/div&gt;                 &lt;div class=&quot;card&quot;&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br /&gt;                       &lt;img src=&quot;./assets/img/join/gui/en/screenshot-4.png&quot; width=&quot;100%&quot; /&gt;                       And appreciate! 🎉                     &lt;/div&gt;                   &lt;/div&gt;                 &lt;/div&gt;                 &lt;div class=&quot;card&quot;&gt;"/><x id="TAG_IMG" ctype="image" equiv-text="&lt;img src=&quot;./assets/img/join/gui/e"/> Escolha "Connect to pool" e coloque a URL "https://pool.openchia.io" (exatamente assim, sem barra no final), verifique os detalhes da pool e clique em "Create":<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br /&gt;                       &lt;img src=&quot;./assets/img/join/gui/en/screenshot-4.png&quot; width=&quot;100%&quot; /&gt;                       And appreciate! 🎉                     &lt;/div&gt;                   &lt;/div&gt;                 &lt;/div&gt;                 &lt;div class=&quot;card&quot;&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br /&gt;                       &lt;img src=&quot;./assets/img/join/gui/en/screenshot-4.png&quot; width=&quot;100%&quot; /&gt;                       And appreciate! 🎉                     &lt;/div&gt;                   &lt;/div&gt;                 &lt;/div&gt;                 &lt;div class=&quot;card&quot;&gt;"/><x id="TAG_IMG_1" ctype="x-img_1" equiv-text="&lt;img src=&quot;./assets/img/join/gui/e"/> Wait few minutes...<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br /&gt;                       &lt;img src=&quot;./assets/img/join/gui/en/screenshot-4.png&quot; width=&quot;100%&quot; /&gt;                       And appreciate! 🎉                     &lt;/div&gt;                   &lt;/div&gt;                 &lt;/div&gt;                 &lt;div class=&quot;card&quot;&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br /&gt;                       &lt;img src=&quot;./assets/img/join/gui/en/screenshot-4.png&quot; width=&quot;100%&quot; /&gt;                       And appreciate! 🎉                     &lt;/div&gt;                   &lt;/div&gt;                 &lt;/div&gt;                 &lt;div class=&quot;card&quot;&gt;"/><x id="TAG_IMG_2" ctype="x-img_2" equiv-text="&lt;img src=&quot;./assets/img/join/gui/e"/> Confirm pool connection and you can create Plot NFT:<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br /&gt;                       &lt;img src=&quot;./assets/img/join/gui/en/screenshot-4.png&quot; width=&quot;100%&quot; /&gt;                       And appreciate! 🎉                     &lt;/div&gt;                   &lt;/div&gt;                 &lt;/div&gt;                 &lt;div class=&quot;card&quot;&gt;"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br /&gt;                       &lt;img src=&quot;./assets/img/join/gui/en/screenshot-4.png&quot; width=&quot;100%&quot; /&gt;                       And appreciate! 🎉                     &lt;/div&gt;                   &lt;/div&gt;                 &lt;/div&gt;                 &lt;div class=&quot;card&quot;&gt;"/><x id="TAG_IMG_3" ctype="x-img_3" equiv-text="&lt;img src=&quot;./assets/img/join/gui/e"/> And appreciate! 🎉 </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/join/join.component.html</context>
+          <context context-type="linenumber">107,110</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="35c57566f9ec43d45adc6c1e4b9d69f8a65f3294" datatype="html">
+        <source>All our software (pool, api, website, discord bot, mobile application) are open source and it's very important for the community. <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br /&gt;             You have an idea? Submit your improvement code or cr"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br /&gt;             You have an idea? Submit your improvement code or cr"/> You have an idea? Submit your improvement code or create an issue. It's easy and anyone can participate! </source>
+        <target>Todo nosso software (pool, api, website, bot do discord, aplicativo móvel) é open source e isso é muito importante para a comunidade.<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br /&gt;             Tem alguma ideia? Envie seu código ou cr"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br /&gt;            Tem alguma ideia? Envie seu código ou cr"/> Tem alguma ideia? Envie seu código ou crie um incidente. É fácil e todos podem participar! </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/landing/landing.component.html</context>
+          <context context-type="linenumber">258,262</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="Stats" datatype="html">
+        <source>Stats</source>
+        <target>Estatísticas</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/navbar/navbar.component.html</context>
+          <context context-type="linenumber">51,54</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="02cf8bcf0ca96708b4e474bc5341b2d11b0541d0" datatype="html">
+        <source>Pool Space (After 18th February) <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i class=&quot;ni ni-b"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/></source>
+        <target>Espaço da Pool (Após 18 de Fevereiro) <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i class=&quot;ni ni-b"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/></target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/stats/stats.component.html</context>
+          <context context-type="linenumber">36,38</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="d11711d2d1f92e7a7a720214a60ada2398b75c37" datatype="html">
+        <source>Netspace <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i class=&quot;ni ni-b"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/></source>
+        <target>Netspace <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i class=&quot;ni ni-b"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/></target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/stats/stats.component.html</context>
+          <context context-type="linenumber">115</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8f6de837ab829da31d0ce0ce7cf31b55b72da670" datatype="html">
+        <source>Have your friend join the pool and login to the pool website using the Plot NFT login link. He will confirm you are his referrer. (Referrer is filled automatically if he visited the website with your link)</source>
+        <target>Peça a seu amigo para ingressar na pool e fazer login no nosso website usando o link de login do Plot NFT. Ele deverá confirmar que você o indicou. (O campo onde é informado quem indicou é preenchido automaticamente se ele visitar o site usando o link que você forneceu)</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/referral/referral.component.html</context>
+          <context context-type="linenumber">28,31</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="fc38220bc0ec421ccbabe7813bcc03bb0216d99d" datatype="html">
+        <source>Since Last Win</source>
+        <target>Desde o último bloco ganho</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/explorer/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">82,87</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="0a6f09535da6a0e7b497b53be8d716270a97057b" datatype="html">
+        <source>Join pool from CLI <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i class=&quot;ni ni-b"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/></source>
+        <target>Participe da pool usando a linha de comandos <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i class=&quot;ni ni-b"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/></target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/join/join.component.html</context>
+          <context context-type="linenumber">69</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="d4639383e3060664e1e4db97e70ad3fc439fb3bb" datatype="html">
+        <source>Join pool from GUI <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i class=&quot;ni ni-b"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/></source>
+        <target>Participe da pool usando a interface gráfica <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i class=&quot;ni ni-b"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/></target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/join/join.component.html</context>
+          <context context-type="linenumber">99</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="9feb64134b3293f805df48d086478002d2b6a340" datatype="html">
+        <source>Need help?<x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i class=&quot;ni ni-b"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/></source>
+        <target>Precisa de ajuda?<x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i class=&quot;ni ni-b"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/></target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/join/join.component.html</context>
+          <context context-type="linenumber">125</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="c772e70c6abd70a4eeeabb68cb86749665ff063f" datatype="html">
+        <source>Get your reward as soon as possible with PPLNS distribution system. Only 1% fee, <x id="START_LINK" ctype="x-a" equiv-text="&lt;a [routerLink]=&quot;"/>read more<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;."/>. </source>
+        <target>Receba sua remuneração o mais rápido possível com o sistema de distribuição PPLNS. Apenas 1% de taxa, <x id="START_LINK" ctype="x-a" equiv-text="&lt;a [routerLink]=&quot;"/>saiba mais<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;."/>. </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/landing/landing.component.html</context>
+          <context context-type="linenumber">100,102</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="104bb13941e2ccda84a97fafefb574040c242efc" datatype="html">
+        <source>Should you run into issues, reach out in <x id="START_LINK" ctype="x-a" equiv-text="&lt;a href=&quot;https://d"/>#farming<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/> Discord channel if you have any questions.<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br /&gt;                       OpenCh"/> OpenChia have a great community 🌽 </source>
+        <target>Se você encontrar problemas, acesse o canal <x id="START_LINK" ctype="x-a" equiv-text="&lt;a href=&quot;https://d"/>#farming<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;"/> no Discord. <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br /&gt;                       OpenCh"/>OpenChia possuio uma ótima comunidade 🌽 </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/join/join.component.html</context>
+          <context context-type="linenumber">133</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="f330889a7289c122f863ba92a9daf83256eb5e63" datatype="html">
+        <source>Web Developer</source>
+        <target>Desenvolvedor Web</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/landing/landing.component.html</context>
+          <context context-type="linenumber">344,347</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="e4e4bee53c0a5bf3cbeea905c09e4c8a64d66972" datatype="html">
+        <source>Refer your friends to this pool using the URL https://openchia.io?referrer=YOUR_LAUNCHER_ID. Replace YOUR_LAUNCHER_ID with the Launcher ID from your Plot NFT.</source>
+        <target>Indique seus amigos para nossa pool usando a URL https://openchia.io?referrer=SEU_LAUNCHER_ID. Substitua SEU_LAUNCHER_ID com o Launcher ID de seu Plot NFT.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/referral/referral.component.html</context>
+          <context context-type="linenumber">25,29</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="c6f82691bd3cdd76945682a38bb82fe68caa1fd4" datatype="html">
+        <source>How do I check my referrals?</source>
+        <target>Como eu verifico minhas indicações?</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/referral/referral.component.html</context>
+          <context context-type="linenumber">35,37</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="9fcae10115b2fe4f2fc9ae62ddf1a92c51140269" datatype="html">
+        <source>Login to the pool website using your Plot NFT login link and go to the "Referrals" tab.</source>
+        <target>Faça login no website usando o link de login do seu Plot NFT e vá na aba "Indicações".</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/referral/referral.component.html</context>
+          <context context-type="linenumber">36,40</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2489eefea00931942b91f4a1ae109514b591e2e1" datatype="html">
+        <source>Rules</source>
+        <target>Regras</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/referral/referral.component.html</context>
+          <context context-type="linenumber">38,41</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="46d4279366821378a367994d734e080cf4b96148" datatype="html">
+        <source>Use of good faith and don't refer yourself in any shape or form.</source>
+        <target>Use a boa fé e não indique a si mesmo de forma alguma.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/referral/referral.component.html</context>
+          <context context-type="linenumber">40,42</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="619930ccda5d73c24ec795e54ba2ed4dcbd22703" datatype="html">
+        <source>Do not attempt close loop of referral. e.g. A -&gt; B -&gt; C -&gt; A.</source>
+        <target>Não tente fazer um loop fechado de indicações. Ex: A -&gt; B -&gt; C -&gt; A.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/referral/referral.component.html</context>
+          <context context-type="linenumber">41,45</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="c1270c1bdd9912511f8cbe5152d9d938401a5be5" datatype="html">
+        <source>We reserve the right to change fees for new referrals at any time.</source>
+        <target>Nos reservamos o direito de alterar as taxas para novas indicações a qualquer momento.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/referral/referral.component.html</context>
+          <context context-type="linenumber">42,45</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="0e42c9f0d6b8f118f1b117c47c8e6253fd1a4d46" datatype="html">
+        <source>Thank you for trusting us!</source>
+        <target>Obrigado pela sua confiança!</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/footer/footer.component.html</context>
+          <context context-type="linenumber">5,8</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="c468ee01ae8a3118c520ded045df2cc3ed16f928" datatype="html">
+        <source>Let's get in touch on any of these platforms.</source>
+        <target>Vamos conversar em uma destas plataformas.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/footer/footer.component.html</context>
+          <context context-type="linenumber">6,9</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6419a64d1c82713a79329a9e4476c6e47e831211" datatype="html">
+        <source>You will receive 20% of the pool fee for every payment made to your friend. That value comes out of the pool and not from your friend reward!</source>
+        <target>Você receberá 20% da taxa da pool para cada pagamento feito ao seu amigo. Este valor sai da pool e não da remuneração de seu amigo!</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/referral/referral.component.html</context>
+          <context context-type="linenumber">31,36</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="a90d29cc4f9d39cac908dbbbbd998ad61f164e88" datatype="html">
+        <source>🚀 Stats</source>
+        <target>🚀 Estatísticas</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/stats/stats.component.html</context>
+          <context context-type="linenumber">25,31</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="27eb10916f82b03a3f792459155086ff17c11976" datatype="html">
+        <source>1 Day</source>
+        <target>1 Dia</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/stats/stats.component.html</context>
+          <context context-type="linenumber">65,67</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/stats/stats.component.html</context>
+          <context context-type="linenumber">141,143</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/stats/stats.component.html</context>
+          <context context-type="linenumber">190,192</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/stats/stats.component.html</context>
+          <context context-type="linenumber">239,241</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="b7e16af662bc4ecccd2ec389a29a4e34d48a607c" datatype="html">
+        <source>7 Days</source>
+        <target>7 Dias</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/stats/stats.component.html</context>
+          <context context-type="linenumber">67,69</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/stats/stats.component.html</context>
+          <context context-type="linenumber">143,145</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/stats/stats.component.html</context>
+          <context context-type="linenumber">192,194</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/stats/stats.component.html</context>
+          <context context-type="linenumber">241,243</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6149963f7b6e8339a7db40be653830239841e51b" datatype="html">
+        <source>1 Month</source>
+        <target>1 Mês</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/stats/stats.component.html</context>
+          <context context-type="linenumber">69,71</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/stats/stats.component.html</context>
+          <context context-type="linenumber">145,147</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/stats/stats.component.html</context>
+          <context context-type="linenumber">194,196</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/stats/stats.component.html</context>
+          <context context-type="linenumber">243,245</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="d2936a0d7a7cd1014fdb81195a40a38fd3d70bc7" datatype="html">
+        <source>3 Months</source>
+        <target>3 Meses</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/stats/stats.component.html</context>
+          <context context-type="linenumber">71,73</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/stats/stats.component.html</context>
+          <context context-type="linenumber">147,149</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/stats/stats.component.html</context>
+          <context context-type="linenumber">196,198</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/stats/stats.component.html</context>
+          <context context-type="linenumber">245,247</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ab102e798754de9510d2434b0a2cf2e55cadfa86" datatype="html">
+        <source>1 Year</source>
+        <target>1 Ano</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/stats/stats.component.html</context>
+          <context context-type="linenumber">73,79</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/stats/stats.component.html</context>
+          <context context-type="linenumber">149,155</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/stats/stats.component.html</context>
+          <context context-type="linenumber">198,204</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/stats/stats.component.html</context>
+          <context context-type="linenumber">247,253</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="881c1f8f173d0e8c6012f72d1687d61b70c10cfa" datatype="html">
+        <source>Pool Blocks <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i class=&quot;ni ni-b"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/></source>
+        <target>Blocos da Pool <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i class=&quot;ni ni-b"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/></target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/stats/stats.component.html</context>
+          <context context-type="linenumber">88,89</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3dbdf1f38a8f197e0a77eb460d31e26e1b820841" datatype="html">
+        <source>XCH Price</source>
+        <target>Preço da XCH</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/stats/stats.component.html</context>
+          <context context-type="linenumber">165,168</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4031e66dfb64440787f51a453a5858760c418de7" datatype="html">
+        <source>Pool Space <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/></source>
+        <target>Espaço Space <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/></target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/stats/stats.component.html</context>
+          <context context-type="linenumber">213,214</context>
         </context-group>
       </trans-unit>
     </body>
