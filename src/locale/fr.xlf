@@ -1001,6 +1001,353 @@
         <source>Close</source>
         <target>Fermer</target>
       </trans-unit>
+      <trans-unit id="ngb.datepicker.select-year" datatype="html">
+        <source>Select year</source>
+        <target>Sélectionnez une année</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/datepicker/datepicker-navigation-select.ts</context>
+          <context context-type="linenumber">74</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/datepicker/datepicker-navigation-select.ts</context>
+          <context context-type="linenumber">74</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.datepicker.previous-month" datatype="html">
+        <source>Previous month</source>
+        <target>Mois précédent</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/datepicker/datepicker-navigation.ts</context>
+          <context context-type="linenumber">69</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/datepicker/datepicker-navigation.ts</context>
+          <context context-type="linenumber">69</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.datepicker.next-month" datatype="html">
+        <source>Next month</source>
+        <target>Mois suivant</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/datepicker/datepicker-navigation.ts</context>
+          <context context-type="linenumber">69</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/datepicker/datepicker-navigation.ts</context>
+          <context context-type="linenumber">69</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.pagination.first" datatype="html">
+        <source>««</source>
+        <target>««</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/pagination/pagination.ts</context>
+          <context context-type="linenumber">244,249</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.pagination.previous" datatype="html">
+        <source>«</source>
+        <target>«</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/pagination/pagination.ts</context>
+          <context context-type="linenumber">266,267</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.pagination.next" datatype="html">
+        <source>»</source>
+        <target>»</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/pagination/pagination.ts</context>
+          <context context-type="linenumber">287,290</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.pagination.last" datatype="html">
+        <source>»»</source>
+        <target>»»</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/pagination/pagination.ts</context>
+          <context context-type="linenumber">307,309</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3902147125804476554" datatype="html">
+        <source>Number of plots</source>
+        <target>Nombre de plots</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/calculator/calculator.component.html</context>
+          <context context-type="linenumber">50,55</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="673114254846981155" datatype="html">
+        <source>Estimated space</source>
+        <target>Espace estimé</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/calculator/calculator.component.html</context>
+          <context context-type="linenumber">58,61</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1012458455964808396" datatype="html">
+        <source>Estimated utilization</source>
+        <target>Utilisation estimée</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/calculator/calculator.component.html</context>
+          <context context-type="linenumber">66,69</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8839185623033919417" datatype="html">
+        <source>Hourly XCH</source>
+        <target>XCH par heure</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/calculator/calculator.component.html</context>
+          <context context-type="linenumber">82,85</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7119964054939851572" datatype="html">
+        <source>Daily XCH</source>
+        <target>XCH par jour</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/calculator/calculator.component.html</context>
+          <context context-type="linenumber">90,93</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3241564583385696467" datatype="html">
+        <source>Weekly XCH</source>
+        <target>XCH par semaine</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/calculator/calculator.component.html</context>
+          <context context-type="linenumber">98,101</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="656810302176982624" datatype="html">
+        <source>Monthly XCH</source>
+        <target>XCH par mois</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/calculator/calculator.component.html</context>
+          <context context-type="linenumber">106,109</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3571324080849008756" datatype="html">
+        <source>Hourly USD</source>
+        <target>USD par heure</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/calculator/calculator.component.html</context>
+          <context context-type="linenumber">122,125</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="729423027576351193" datatype="html">
+        <source>Daily USD</source>
+        <target>USD par jour</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/calculator/calculator.component.html</context>
+          <context context-type="linenumber">130,134</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8875965523503145269" datatype="html">
+        <source>Weekly USD</source>
+        <target>USD par semaine</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/calculator/calculator.component.html</context>
+          <context context-type="linenumber">138,141</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7659600549880167119" datatype="html">
+        <source>Monthly USD</source>
+        <target>USD par mois</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/calculator/calculator.component.html</context>
+          <context context-type="linenumber">146,149</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7413281255285324205" datatype="html">
+        <source>404 PAGE NOT FOUND</source>
+        <target>404 PAGE INTROUVABLE</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/errors/pagenotfound/pagenotfound.component.html</context>
+          <context context-type="linenumber">19,21</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1992969422474068836" datatype="html">
+        <source>
+          <ph id="0" equiv="INTERPOLATION" disp="&lt;div c"/>
+        </source>
+        <target><ph id="0" equiv="INTERPOLATION" disp="&lt;div c"/> </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/explorer/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">26,32</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="51768335764027134" datatype="html">
+        <source>Show active only</source>
+        <target>Afficher uniquement les actifs</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/explorer/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">159,164</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2343471293376388469" datatype="html">
+        <source>Show all farmers</source>
+        <target>Afficher tous les farmers</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/explorer/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">160,166</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="Points24hrs" datatype="html">
+        <source>Points (24 hours)</source>
+        <target>Points (24 heures)</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/explorer/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">169,172</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="PoolEffort" datatype="html">
+        <source>Pool Effort</source>
+        <target>Effort du pool</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/explorer/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">223,225</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
+          <context context-type="linenumber">424,427</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8270193125254756032" datatype="html">
+        <source>farmer doesn't exist (404).</source>
+        <target>Le farmer n'existe pas (404).</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
+          <context context-type="linenumber">4,8</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3570122365550846202" datatype="html">
+        <source>Points / Points PPLNS</source>
+        <target>Points / Points PPLNS</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
+          <context context-type="linenumber">49,52</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="EstimatedRewardDay" datatype="html">
+        <source>Estimated Reward</source>
+        <target>Récompense estimée</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
+          <context context-type="linenumber">55,58</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1519954996184640001" datatype="html">
+        <source>Error</source>
+        <target>Erreur</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
+          <context context-type="linenumber">222,228</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5028777105388019087" datatype="html">
+        <source>Details</source>
+        <target>Détails</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
+          <context context-type="linenumber">223,229</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.datepicker.select-month" datatype="html">
+        <source>Select month</source>
+        <target>Sélectionnez un mois</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/datepicker/datepicker-navigation-select.ts</context>
+          <context context-type="linenumber">74</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/datepicker/datepicker-navigation-select.ts</context>
+          <context context-type="linenumber">74</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="Calculator" datatype="html">
+        <source>Profitability Calculator</source>
+        <target>Calculateur de rentabilité</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/calculator/calculator.component.html</context>
+          <context context-type="linenumber">18,21</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/navbar/navbar.component.html</context>
+          <context context-type="linenumber">55,58</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="186856379771852248" datatype="html">
+        <source>Estimated Earnings</source>
+        <target>Revenus estimés</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/calculator/calculator.component.html</context>
+          <context context-type="linenumber">19,21</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8544393260743154057" datatype="html">
+        <source>View is based on a snapshot of today's XCH price, a pool luck and a constant total network space. Plots of size k=32 (101.4 GiB).</source>
+        <target>La vue est basée sur un instantané du prix du XCH d'aujourd'hui, une chance de pool et un espace réseau total constant. Parcelles de taille k=32 (101.4 GiB).</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/calculator/calculator.component.html</context>
+          <context context-type="linenumber">20,26</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="Poolspace" datatype="html">
+        <source>Pool Space</source>
+        <target>Espace du pool</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/explorer/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">217,221</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
+          <context context-type="linenumber">434,437</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1959634921122887357" datatype="html">
+        <source>Pool space when the block has been won.</source>
+        <target>Espace du pool quand le bloc a été gagné.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/explorer/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">219,223</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
+          <context context-type="linenumber">436,439</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2898394851326553510" datatype="html">
+        <source>Profitability based on blocks farmed on last 30 days, based on your farm space.</source>
+        <target>Rentabilité basée sur les blocs cultivés au cours des 30 derniers jours, en fonction de l'espace de votre ferme.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
+          <context context-type="linenumber">57,60</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2971564821020899226" datatype="html">
+        <source>Plot ID</source>
+        <target>Plot ID</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
+          <context context-type="linenumber">172,177</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.carousel.slide-number" datatype="html">
+        <source>Slide <ph id="0" equiv="INTERPOLATION" disp="to interact wit"/> of <ph id="1" equiv="INTERPOLATION_1" disp="carousel using"/></source>
+        <target state="needs-translation">Slide <ph id="0" equiv="INTERPOLATION" disp="to interact wit"/> of <ph id="1" equiv="INTERPOLATION_1" disp="carousel using"/></target>
+        <note priority="1" from="description">Currently selected slide number read by screen reader</note>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/carousel/carousel.ts</context>
+          <context context-type="linenumber">147,157</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3862498836526046287" datatype="html">
+        <source>Profitability based on blocks farmed on last 30 days. Estimated value (XCH) a farmer would get per TiB per day.</source>
+        <target>Rentabilité basée sur les blocs cultivés au cours des 30 derniers jours. Valeur estimée (XCH) qu'un farmer obtiendrait par TiB par jour.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/explorer/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">100,103</context>
+        </context-group>
+      </trans-unit>
     </body>
   </file>
 </xliff>
