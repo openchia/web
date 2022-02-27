@@ -85,6 +85,32 @@
                     <div class="card-header card-join">
                       <h5 class="mb-0">
                         <button aria-controls="collapseOne" type="button"
+                          class="btn btn-link w-100 text-primary text-left" aria-expanded="true" i18n>Pool Blocks
+                          <i class="ni ni-bold-down float-right pt-1"></i>
+                        </button>
+                      </h5>
+                    </div>
+                    <div aria-labelledby="headingOne" class="show collapse in" style="display: block;"
+                      aria-expanded="false" aria-hidden="false" #blocksContainerRef>
+                      <br />
+                      <ngx-charts-bar-vertical [view]="[blocksContainerRef.offsetWidth]"
+                        [showXAxisLabel]="blocksShowAxisXLabel" [showYAxisLabel]="blocksShowAxisYLabel"
+                        [yAxis]="blocksAxisY" [xAxis]="blocksAxisX" [animations]="true" [results]="blocksData"
+                        [scheme]="blocksColorScheme">
+                      </ngx-charts-bar-vertical>
+                      <br />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-12 ml-auto">
+                <div class="accordion">
+                  <div class="card">
+                    <div class="card-header card-join">
+                      <h5 class="mb-0">
+                        <button aria-controls="collapseOne" type="button"
                           class="btn btn-link w-100 text-primary text-left" aria-expanded="true" i18n>Netspace
                           <i class="ni ni-bold-down float-right pt-1"></i>
                         </button>

@@ -10,7 +10,6 @@ import { environment } from 'src/environments/environment';
 export class DataService {
 
   private REST_API_SERVER = "/api/v1.0/";
-  private _blocks$ = new BehaviorSubject<any[]>([]);
   private _giveaways$ = new BehaviorSubject<any[]>([]);
   private _launchers$ = new Subject<any[]>();
   private _payouts$ = new BehaviorSubject<any[]>([]);
@@ -26,7 +25,7 @@ export class DataService {
     return this.httpClient.get(this.REST_API_SERVER + 'stats');
   }
 
-  getBlocks(attrs) {
+  getBlocks(attrs?) {
     var params = new HttpParams();
     if(attrs) {
       if(attrs.launcher) params = params.set('farmed_by', attrs.launcher);
@@ -187,8 +186,6 @@ export class DataService {
   getLoggedIn() {
     return this.httpClient.get(`${this.REST_API_SERVER}loggedin`);
   }
-
-  get blocks$() { return this._blocks$.asObservable(); }
 
   get giveaways$() { return this._giveaways$.asObservable(); }
 

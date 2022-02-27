@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { toInteger } from '@ng-bootstrap/ng-bootstrap/util/util';
 import { DataService } from '../data.service';
 
 @Component({
@@ -57,6 +58,14 @@ export class StatsComponent implements OnInit {
   priceData: any[] = null;
   priceDays: number = 7;
 
+  blocksAxisX: boolean = false;
+  blocksAxisY: boolean = true;
+  blocksShowAxisXLabel: boolean = true;
+  blocksShowAxisYLabel: boolean = false;
+  blocksData: any[] = null;
+
+  blocksColorScheme = { domain: ['#149b00'] };
+
   colorScheme = { domain: ['#149b00', '#006400', '#9ef01a'] };
 
   constructor(private dataService: DataService) { }
@@ -66,6 +75,7 @@ export class StatsComponent implements OnInit {
     this.refreshSize(7);
     this.getNetspace(7);
     this.getXchPrice(7);
+    this.getBlocks();
   }
 
   refreshSize(days: number) {
@@ -152,6 +162,29 @@ export class StatsComponent implements OnInit {
       }];
 
     })
+  }
+
+  getBlocks() {
+
+    var perDay: Map<String, number> = new Map();
+
+    this.dataService.getBlocks().subscribe(d => {
+      (<any[]>d['results']).map((item) => {
+        var date = new Date(Math.floor(item['timestamp'] / 86400 + 1) * 86400 * 1000).toLocaleDateString();
+        perDay.set(date, (perDay.get(date) || 0) + 1);
+      });
+      var series = [];
+      perDay.forEach((v, k) => {
+        series.push({
+          'name': k,
+          'value': v,
+          'label': `${v.toString()} Block(s)`,
+        })
+      });
+      series.reverse();
+      this.blocksData = series;
+
+    });
   }
 
   spaceFormatAxisY(spaceData: number) {
