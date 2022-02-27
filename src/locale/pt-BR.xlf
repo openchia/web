@@ -928,17 +928,13 @@
         <source>
           <ph disp="ber { return th" equiv="INTERPOLATION" id="0"/>
         </source>
-        <target>
-          <ph disp="ber { return th" equiv="INTERPOLATION" id="0"/>
-        </target>
+        <target><ph id="0" equiv="INTERPOLATION" disp="ar.    *    *"/> </target>
       </trans-unit>
       <trans-unit id="ngb.timepicker.AM" datatype="html">
         <source>
           <ph disp="or 24H mode." equiv="INTERPOLATION" id="0"/>
         </source>
-        <target>
-          <ph disp="or 24H mode." equiv="INTERPOLATION" id="0"/>
-        </target>
+        <target><ph id="0" equiv="INTERPOLATION"/> </target>
       </trans-unit>
       <trans-unit id="ngb.timepicker.HH" datatype="html">
         <source>HH</source>
@@ -952,9 +948,7 @@
         <source>
           <ph disp="tring;    disab" equiv="INTERPOLATION" id="0"/>
         </source>
-        <target>
-          <ph disp="tring; disab" equiv="INTERPOLATION" id="0"/>
-        </target>
+        <target><ph id="0" equiv="INTERPOLATION"/> </target>
       </trans-unit>
       <trans-unit id="ngb.timepicker.SS" datatype="html">
         <source>SS</source>
