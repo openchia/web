@@ -1285,6 +1285,22 @@
           <context context-type="linenumber">51,54</context>
         </context-group>
       </trans-unit>
+      <trans-unit id="a90d29cc4f9d39cac908dbbbbd998ad61f164e88" datatype="html">
+        <source>🚀 Stats</source>
+        <target>🚀 Štatistiky</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/stats/stats.component.html</context>
+          <context context-type="linenumber">25,31</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3dbdf1f38a8f197e0a77eb460d31e26e1b820841" datatype="html">
+        <source>XCH Price</source>
+        <target>Cena XCH</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/stats/stats.component.html</context>
+          <context context-type="linenumber">165,168</context>
+        </context-group>
+      </trans-unit>
     </body>
   </file>
 </xliff>
