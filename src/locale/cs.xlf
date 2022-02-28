@@ -924,17 +924,13 @@
         <source>
           <ph disp="ber { return th" equiv="INTERPOLATION" id="0"/>
         </source>
-        <target>
-          <ph disp="ber { return th" equiv="INTERPOLATION" id="0"/>
-        </target>
+        <target state="needs-translation"><ph disp="ber { return th" equiv="INTERPOLATION" id="0"/></target>
       </trans-unit>
       <trans-unit id="ngb.timepicker.AM" datatype="html">
         <source>
           <ph disp="or 24H mode." equiv="INTERPOLATION" id="0"/>
         </source>
-        <target>
-          <ph disp="or 24H mode." equiv="INTERPOLATION" id="0"/>
-        </target>
+        <target state="needs-translation"><ph disp="or 24H mode." equiv="INTERPOLATION" id="0"/></target>
       </trans-unit>
       <trans-unit id="ngb.timepicker.HH" datatype="html">
         <source>HH</source>
@@ -1158,7 +1154,7 @@
       </trans-unit>
       <trans-unit id="ngb.carousel.slide-number" datatype="html">
         <source>Slide <x id="INTERPOLATION" equiv-text="to interact wit"/> of <x id="INTERPOLATION_1" equiv-text="carousel using"/> </source>
-        <target>Slide <x id="INTERPOLATION" equiv-text="to interact wit"/> of<x id="INTERPOLATION_1" equiv-text="carousel using"/> </target>
+        <target state="needs-translation">Slide <x id="INTERPOLATION" equiv-text="to interact wit"/> of<x id="INTERPOLATION_1" equiv-text="carousel using"/> </target>
         <context-group purpose="location">
           <context context-type="sourcefile">node_modules/src/carousel/carousel.ts</context>
           <context context-type="linenumber">147,157</context>
