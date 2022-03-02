@@ -79,7 +79,7 @@
     <br />
     <ul ngbNav #nav="ngbNav" [(activeId)]="tabActive" class="nav-tabs navbar-inverse">
       <li [ngbNavItem]="1">
-        <a class="display-4" ngbNavLink i18n="@@Partials"><i class="fa fa-industry"></i> Partials</a>
+        <a class="display-4" ngbNavLink><i class="fa fa-industry"></i> <span i18n="@@Partials">Partials</span></a>
         <ng-template ngbNavContent>
           <div class="row justify-content-center">
             <ngx-charts-area-chart [scheme]="partialsChartColors" [legend]="false" [showXAxisLabel]="false"
@@ -281,7 +281,7 @@
 
       <!-- Estimated Size -->
       <li class="display-4" [ngbNavItem]="2">
-        <a ngbNavLink><i class="fa fa-expand"></i> Estimated Size</a>
+        <a ngbNavLink><i class="fa fa-expand"></i> <span i18n>Estimated Size</span></a>
         <ng-template ngbNavContent>
           <div class="row justify-content-center">
             <ngx-charts-area-chart [showXAxisLabel]="false" [showYAxisLabel]="true" [xAxis]="false" [timeline]="false"
@@ -301,7 +301,7 @@
 
       <!-- Payouts -->
       <li class="display-4" [ngbNavItem]="3">
-        <a ngbNavLink><i class="fa fa-wallet"></i> Payouts</a>
+        <a ngbNavLink><i class="fa fa-wallet"></i> <span i18n>Payouts</span></a>
         <ng-template ngbNavContent>
           <br />
           <div class="row justify-content-center">
@@ -396,7 +396,7 @@
 
       <!-- Blocks -->
       <li class="display-4" [ngbNavItem]="4">
-        <a ngbNavLink><i class="fa fa-cube"></i> Blocks</a>
+        <a ngbNavLink><i class="fa fa-cube"></i> <span i18n>Blocks</span></a>
         <ng-template ngbNavContent>
           <br />
           <div class="row justify-content-center">
@@ -480,7 +480,7 @@
 
       <!-- Giveaways -->
       <li class="display-4" [ngbNavItem]="5">
-        <a ngbNavLink><i class="fa fa-gift"></i> Giveaways</a>
+        <a ngbNavLink><i class="fa fa-gift"></i> <span i18n="@@Giveaways">Giveaways</span></a>
         <ng-template ngbNavContent>
           <table class="table table-sm table-striped table-responsive-lg">
             <thead>

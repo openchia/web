@@ -7,7 +7,7 @@
  Exported by: Unregistered user
  Exported at: Fri, 25 Feb 2022 16:53:31 -0300
 --><xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
-  <file original="ng2.template" source-language="cs-CZ" target-language="cs" datatype="plaintext" tool-id="loco">
+  <file original="ng2.template" source-language="en" target-language="cs" datatype="plaintext" tool-id="loco">
     <header>
       <tool tool-id="loco" tool-name="Loco for Angular" tool-version="1.0.26 20220207-1" tool-company="Loco"/>
     </header>
@@ -797,8 +797,8 @@
         <target>Žádné výplatní adresy nebyly nalezeny!</target>
       </trans-unit>
       <trans-unit id="Partials" datatype="html">
-        <source><x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="XAxisLabel]=&quot;fals"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt; Partials&lt;/a&gt;"/> Partials</source>
-        <target><x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="XAxisLabel]=&quot;fals"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt; Partials&lt;/a&gt;"/> Důkazy</target>
+        <source>Partials</source>
+        <target>Důkazy</target>
       </trans-unit>
       <trans-unit id="Partners" datatype="html">
         <source>Partners</source>

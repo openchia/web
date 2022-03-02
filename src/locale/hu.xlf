@@ -1364,7 +1364,7 @@
       </trans-unit>
       <trans-unit id="c2a13923fcb747215284f76f021d068ed71dcb2b" datatype="html">
         <source><x id="INTERPOLATION" equiv-text="&lt;div c"/></source>
-        <target><x id="INTERPOLÁCIÓ" equiv-text="&lt;div c"/></target>
+        <target><x id="INTERPOLATION" equiv-text="&lt;div c"/></target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/explorer/dashboard/dashboard.component.html</context>
           <context context-type="linenumber">26,32</context>
@@ -1380,7 +1380,7 @@
       </trans-unit>
       <trans-unit id="8f975c803b91f4c4ad814cf891a7384dc806d497" datatype="html">
         <source><x id="INTERPOLATION" equiv-text="&lt;div class="/> total</source>
-        <target><x id="INTERPOLÁCIÓ" equiv-text="&lt;div class="/> teljes</target>
+        <target><x id="INTERPOLATION" equiv-text="&lt;div class="/> teljes</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/explorer/dashboard/dashboard.component.html</context>
           <context context-type="linenumber">42,48</context>

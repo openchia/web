@@ -886,7 +886,7 @@
         </context-group>
       </trans-unit>
       <trans-unit id="Partials" datatype="html">
-        <source><x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="XAxisLabel]=&quot;fals"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt; Partials&lt;/a&gt;"/> Partials</source>
+        <source>Partials</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
           <context context-type="linenumber">82,85</context>
