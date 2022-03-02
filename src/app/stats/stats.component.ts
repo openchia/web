@@ -188,15 +188,15 @@ export class StatsComponent implements OnInit {
   }
 
   spaceFormatAxisY(spaceData: number) {
-    return (spaceData / 1024 ** 5).toFixed(2).toString() + ' PiB';
+    return (spaceData / 1024 ** 5).toFixed(0).toString() + ' PiB';
   }
 
   ngSpaceFormatAxisY(spaceData: number) {
-    return (spaceData / 1024 ** 5).toFixed(2).toString() + ' PiB';
+    return (spaceData / 1024 ** 5).toFixed(0).toString() + ' PiB';
   }
 
   netspaceFormatAxisY(spaceData: number) {
-    return (spaceData / 1024 ** 4).toFixed(2).toString() + ' EiB';
+    return (spaceData / 1024 ** 4).toFixed(0).toString() + ' EiB';
   }
 
 }
