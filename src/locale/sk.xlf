@@ -786,7 +786,7 @@
       </trans-unit>
       <trans-unit id="fc38220bc0ec421ccbabe7813bcc03bb0216d99d" datatype="html">
         <source>Since Last Win</source>
-        <target>Od poslednej výhry</target>
+        <target>Od minulej výhry</target>
       </trans-unit>
       <trans-unit id="fc5eb4c967d9bc41685521abe467df491d676136" datatype="html">
         <source>you are going to need 1 mojo (0.000000000001 XCH) which you can get through our faucet service on Discord channel or through Faucet website:</source>
@@ -1299,6 +1299,78 @@
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/stats/stats.component.html</context>
           <context context-type="linenumber">165,168</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="f682ea3f1fe444c98598ef7e32db558e74cc1d62" datatype="html">
+        <source>Make sure you are using official Chia client supporting pool plots (1.2.0 or later).</source>
+        <target>Uistite sa, že používate oficiálny klient Chia podporujúci združovacie polia (1.2.0 alebo novší).</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/join/join.component.html</context>
+          <context context-type="linenumber">44,46</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="Translation" datatype="html">
+        <source>Translation</source>
+        <target>Preklad</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/footer/footer.component.html</context>
+          <context context-type="linenumber">39,43</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="Address" datatype="html">
+        <source>Address</source>
+        <target>Adresa</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/explorer/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">317,319</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="da1bcec161d959bf88a99855ca5272e44821e9ec" datatype="html">
+        <source>Estimated Size</source>
+        <target>Odhadovaná veľkosť</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
+          <context context-type="linenumber">284,287</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="Giveaways" datatype="html">
+        <source>Giveaways</source>
+        <target>Rozdávania</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
+          <context context-type="linenumber">483,488</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="91aee72c8447b6dc35b041d098c14e4289644ee0" datatype="html">
+        <source>Show official Chia instructions here</source>
+        <target>Oficiálne pokyny Chia môžete nájsť tu</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/join/join.component.html</context>
+          <context context-type="linenumber">48,49</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4872c78bed407e6941cd9e3f6d877b1a47871341" datatype="html">
+        <source>Asia server</source>
+        <target>Server pre Áziu</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/join/join.component.html</context>
+          <context context-type="linenumber">61,64</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="63c60af5ab55d6c06a49a800c4ed33711d49786d" datatype="html">
+        <source>Global server</source>
+        <target>Globálny server</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/join/join.component.html</context>
+          <context context-type="linenumber">59,61</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="c9bf8a0326ae688e75dc9802fad4a411707e34ec" datatype="html">
+        <source>OpenChia have a great community</source>
+        <target>OpenChia má skvelú komunitu</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/join/join.component.html</context>
+          <context context-type="linenumber">143,150</context>
         </context-group>
       </trans-unit>
     </body>
