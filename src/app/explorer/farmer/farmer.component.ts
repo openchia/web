@@ -5,6 +5,8 @@ import { Observable, Subject, BehaviorSubject } from 'rxjs';
 import { NgbModal } from '@ng-bootstrap/ng-bootstrap';
 import { AngularCsv } from 'angular-csv-ext/dist/Angular-csv';
 import { ClipboardService } from 'ngx-clipboard';
+import { isJSDocThisTag } from 'typescript';
+import { AbstractEmitterVisitor } from '@angular/compiler/src/output/abstract_emitter';
 
 @Component({
   selector: 'app-farmer',
@@ -31,6 +33,11 @@ export class FarmerComponent implements OnInit {
   partialsFailed: number = 0;
   partialsPoints: number = 0;
   failedPartials: boolean = false;
+
+  harvesterYAxisLabel: string = $localize`Partials`;
+  harvesterXAxisLabel: string = $localize`Time`;
+  harvesterXTicks: any[] = [];
+  perHarvesterData: Map<String, object> = new Map();
 
   sizeYAxisLabel: string = $localize`Estimated Size`;
   sizeXAxisLabel: string = $localize`Time`;
@@ -90,6 +97,7 @@ export class FarmerComponent implements OnInit {
         this.farmer = launcher;
         this.getPartialsData(this.farmerid);
         this.getSize(this.farmerid);
+        this.getHarvesters(this.farmerid);
       });
       this.dataService.getStats().subscribe(data => {
         this.xch_current_price_usd = data['xch_current_price']['usd'];
@@ -237,6 +245,52 @@ export class FarmerComponent implements OnInit {
 
   }
 
+  getHarvesters(launcher_id) {
+    var xTicks: Set<number> = new Set();
+    this.perHarvesterData.clear();
+    this.dataService.getPartialsTs({ launcher: launcher_id }).subscribe((d) => {
+      (<any[]>d).forEach(i => {
+
+        var harvester = this.perHarvesterData.get(i['harvester']);
+        if(!harvester) {
+          harvester = {
+            'points_total': 0,
+            'partials_failed': 0,
+            'partials_success': 0,
+            'data': [
+              {
+                "name": $localize`Successful Partials`,
+                "series": [],
+              },
+              {
+                "name": $localize`Failed Partials`,
+                "series": [],
+              },
+            ]
+          };
+          this.perHarvesterData.set(i['harvester'], harvester);
+        }
+        if(i['result'] == 'count') {
+          var date = new Date(i['datetime']);
+          var hour = Math.floor(date.getTime() / (3600 * 1000)) * 3600;
+          xTicks.add(hour);
+          if(i['error']) {
+            harvester['data'][1]['series'].push({ 'name': date, 'value': i['value'], 'label': $localize`Failed Partials` + ': ' + i['value'] });
+            harvester['partials_failed'] += i['value'];
+          } else {
+            harvester['data'][0]['series'].push({ 'name': date, 'value': i['value'], 'label': $localize`Successful Partials` + ': ' + i['value'] });
+            harvester['partials_success'] += i['value'];
+          }
+        } else {
+          if(!i['error']) {
+            harvester['points_total'] += i['value'];
+          }
+        }
+      });
+      this.harvesterXTicks = Array.from(xTicks);
+    });
+  }
+
   getSize(launcher_id: string) {
     this.dataService.getLauncherSize(launcher_id).subscribe((r) => {
       this.sizeData = [
@@ -271,6 +325,10 @@ export class FarmerComponent implements OnInit {
   }
 
   partialsXAxisFormat(data) {
+    return new Date(data * 1000).toLocaleTimeString();
+  }
+
+  harvesterXAxisFormat(data) {
     return new Date(data * 1000).toLocaleTimeString();
   }
 

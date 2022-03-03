@@ -133,6 +133,15 @@ export class DataService {
     return this.httpClient.get(`${this.REST_API_SERVER}partial/`, { params });
   }
 
+  getPartialsTs(attrs?) {
+    var params = new HttpParams();
+    params = params.set('days', '1');
+    if(attrs) {
+      if(attrs.launcher) params = params.set('launcher', attrs.launcher);
+    }
+    return this.httpClient.get(`${this.REST_API_SERVER}stats/partial/`, { params });
+  }
+
   getTicketsRound(launcher?, giveaway?) {
     var params = new HttpParams();
     if(launcher) params = params.set('launcher', launcher);
