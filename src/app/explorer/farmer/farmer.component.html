@@ -78,8 +78,10 @@
     </table>
     <br />
     <ul ngbNav #nav="ngbNav" [(activeId)]="tabActive" class="nav-tabs navbar-inverse">
+
+      <!-- Partials -->
       <li [ngbNavItem]="1">
-        <a class="display-4" ngbNavLink><i class="fa fa-industry"></i> <span i18n="@@Partials">Partials</span></a>
+        <a ngbNavLink><i class="fa fa-industry"></i>&nbsp;<span i18n="@@Partials">Partials</span></a>
         <ng-template ngbNavContent>
           <div class="row justify-content-center">
             <ngx-charts-area-chart [scheme]="partialsChartColors" [legend]="false" [showXAxisLabel]="false"
@@ -279,9 +281,82 @@
         </ng-template>
       </li>
 
+      <!-- Harvesters -->
+      <li [ngbNavItem]="2">
+        <a ngbNavLink><i class="fa fa-tractor"></i>&nbsp;<span i18n="@@Harvesters">Harvesters</span></a>
+        <ng-template ngbNavContent>
+          <div *ngFor="let mapEntry of perHarvesterData | keyvalue">
+            <br />
+            <div class="row">
+              <div class="col-md-12 ml-auto">
+                <div class="accordion">
+                  <div class="card">
+                    <div class="card-header card-join">
+                      <h5 class="mb-0">
+                        <button type="button" class="btn btn-link w-100 text-primary text-left" i18n>
+                          Harvester {{ mapEntry.key }}
+                        </button>
+                      </h5>
+                    </div>
+                    <div aria-labelledby="headingTwo" data-parent="#accordionFeesPool" id="collapseTwo"
+                      class="show collapse in" style="display: block;" aria-expanded="false" aria-hidden="false">
+                      <div class="card-body opacity-8">
+                        <div class="row justify-content-center">
+                          <ngx-charts-area-chart [scheme]="partialsChartColors" [legend]="false" [showXAxisLabel]="false"
+                            [showYAxisLabel]="true" [xAxis]="true" [yAxis]="true" [xAxisLabel]="harvesterXAxisLabel"
+                            [yAxisLabel]="harvesterYAxisLabel" [timeline]="false" [results]="mapEntry.value.data"
+                            [xAxisTicks]="harvesterXTicks" [gradient]="true">
+                            <ng-template #seriesTooltipTemplate let-model="model">
+                              <div *ngFor="let item of model">
+                                {{ item.label }}
+                              </div>
+                              {{ model[0].name | date:"medium" }}
+                            </ng-template>
+                          </ngx-charts-area-chart>
+                        </div>
+                        <div class="row justify-content-center">
+                          <div class="col-lg-12">
+                            <div class="row row-grid">
+                              <div class="col-lg-4 justify-content-center">
+                                <div class="card card-lift shadow border-0">
+                                  <div class="card-body py-3 text-center text-uppercase">
+                                    <span class="text-primary" i18n>Total Points</span>
+                                    <p class="display-3">{{ mapEntry.value.points_total }}</p>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-lg-4 justify-content-center">
+                                <div class="card card-lift shadow border-0">
+                                  <div class="card-body py-3 text-center text-uppercase">
+                                    <span class="text-primary" i18n>Successful Partials</span>
+                                    <p class="display-3">{{ mapEntry.value.partials_success }}</p>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-lg-4 justify-content-center">
+                                <div class="card card-lift shadow border-0">
+                                  <div class="card-body py-3 text-center text-uppercase">
+                                    <span class="text-warning" i18n>Failed Partials</span>
+                                    <p class="display-3">{{ mapEntry.value.partials_failed }}</p>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </ng-template>
+      </li>
+
       <!-- Estimated Size -->
-      <li class="display-4" [ngbNavItem]="2">
-        <a ngbNavLink><i class="fa fa-expand"></i> <span i18n>Estimated Size</span></a>
+      <li [ngbNavItem]="3">
+        <a ngbNavLink><i class="fa fa-expand"></i>&nbsp;<span i18n>Estimated Size</span></a>
         <ng-template ngbNavContent>
           <div class="row justify-content-center">
             <ngx-charts-area-chart [showXAxisLabel]="false" [showYAxisLabel]="true" [xAxis]="false" [timeline]="false"
@@ -300,8 +375,8 @@
       </li>
 
       <!-- Payouts -->
-      <li class="display-4" [ngbNavItem]="3">
-        <a ngbNavLink><i class="fa fa-wallet"></i> <span i18n>Payouts</span></a>
+      <li [ngbNavItem]="4">
+        <a ngbNavLink><i class="fa fa-wallet"></i>&nbsp;<span i18n>Payouts</span></a>
         <ng-template ngbNavContent>
           <br />
           <div class="row justify-content-center">
@@ -395,8 +470,8 @@
       </li>
 
       <!-- Blocks -->
-      <li class="display-4" [ngbNavItem]="4">
-        <a ngbNavLink><i class="fa fa-cube"></i> <span i18n>Blocks</span></a>
+      <li [ngbNavItem]="5">
+        <a ngbNavLink><i class="fa fa-cube"></i>&nbsp;<span i18n>Blocks</span></a>
         <ng-template ngbNavContent>
           <br />
           <div class="row justify-content-center">
@@ -479,8 +554,8 @@
       </li>
 
       <!-- Giveaways -->
-      <li class="display-4" [ngbNavItem]="5">
-        <a ngbNavLink><i class="fa fa-gift"></i> <span i18n="@@Giveaways">Giveaways</span></a>
+      <li [ngbNavItem]="6">
+        <a ngbNavLink><i class="fa fa-gift"></i>&nbsp;<span i18n="@@Giveaways">Giveaways</span></a>
         <ng-template ngbNavContent>
           <table class="table table-sm table-striped table-responsive-lg">
             <thead>
