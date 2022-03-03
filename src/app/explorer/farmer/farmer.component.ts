@@ -114,9 +114,6 @@ export class FarmerComponent implements OnInit {
       var hour = Math.floor(v['timestamp'] / 3600) * 3600;
       hours.add(hour);
 
-      // Partials by harvester (coming soon)
-
-      // Partials success vs failed
       if(v.error === null) {
         this.partialsSuccessful++;
         this.partialsPoints += v['difficulty'];
@@ -325,10 +322,6 @@ export class FarmerComponent implements OnInit {
   }
 
   partialsXAxisFormat(data) {
-    return new Date(data * 1000).toLocaleTimeString();
-  }
-
-  harvesterXAxisFormat(data) {
     return new Date(data * 1000).toLocaleTimeString();
   }
 
