@@ -24,8 +24,8 @@
                 <div class="row">
                   <div class="col-lg-6 col-sm-6">
                     <div class="form-group">
-                      Display name: <input type="text" #name [value]="farmer.name" placeholder="(not set)"
-                        class="form-control" />
+                      <span i18n>Display name</span>: <input type="text" #name [value]="farmer.name"
+                        placeholder="(not set)" class="form-control" />
                       <ngb-alert type="warning" [dismissible]="false" *ngIf="nameError">{{ nameError }}</ngb-alert>
                     </div>
                   </div>
@@ -33,7 +33,7 @@
                 <div class="row">
                   <div class="col-lg-6 col-sm-6">
                     <div class="form-group">
-                      Email: <i class="fas fa-info-circle"
+                      <span i18n>Email</span>: <i class="fas fa-info-circle"
                         ngbTooltip="Email may be used to contact you for any issues identified with your launcher or changes in our Terms of Service."></i><input
                         type="text" #email [value]="farmer.email" placeholder="(not set)" class="form-control" />
                       <ngb-alert type="warning" [dismissible]="false" *ngIf="emailError">{{ emailError }}</ngb-alert>
@@ -43,7 +43,7 @@
                 <div class="row">
                   <div class="col-lg-6 col-sm-6">
                     <div class="form-group">
-                      Notify Missing Partials <i class="fas fa-info-circle"
+                      <span i18n>Notify Missing Partials</span> <i class="fas fa-info-circle"
                         ngbTooltip="If you have an email configured you will receive a notification if your launcher stops sending partials for more than one hour."></i>:
                       <input type="checkbox" #notifyMissingPartials
                         [checked]="farmer.notify_missing_partials_hours !== null" />
@@ -55,8 +55,52 @@
                 <div class="row">
                   <div class="col-lg-6 col-sm-6">
                     <div class="form-group">
-                      Minimum Payout (XCH)
                       <span class="beta">BETA</span>
+                      <span i18n>Notify on Payments</span> <i class="fas fa-info-circle"
+                        ngbTooltip="Send a notification on payments. Only works if you have a minimum payout set."></i>:
+                      <p><input type="checkbox" #notifyPaymentEmail [checked]="farmer.payment.includes('EMAIL')" />
+                        Email</p>
+                      <p><input type="checkbox" #notifyPaymentPush [checked]="farmer.payment.includes('PUSH')" />
+                        Mobile Push Notification</p>
+                      <ngb-alert type="warning" [dismissible]="false" *ngIf="notifyPaymentError">{{
+                        notifyPaymentError }}</ngb-alert>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-lg-6 col-sm-6">
+                    <div class="form-group">
+                      <span class="beta">BETA</span>
+                      <span i18n>Notify on Farm Size Drop</span> <i class="fas fa-info-circle"
+                        ngbTooltip="Send a notification if the farm size has dropped significantly within a period of time."></i>:
+                      <p><input type="checkbox" #notifySizeDropEmail [checked]="farmer.size_drop.includes('EMAIL')" />
+                        Email</p>
+                      <p><input type="checkbox" #notifySizeDropPush [checked]="farmer.size_drop.includes('PUSH')" />
+                        Mobile Push Notification</p>
+                      <ngb-alert type="warning" [dismissible]="false" *ngIf="notifySizeDropError">{{
+                        notifySizeDropError }}</ngb-alert>
+                    </div>
+
+                    <div class="form-group">
+                      <span i18n>Size Drop Percent</span>
+                      <input type="input" #notifySizeDropPercent [value]="farmer.size_drop_percent || ''" maxlength="14"
+                        placeholder="(default to 25%)" class="form-control" />
+                      <ngb-alert type="warning" [dismissible]="false" *ngIf="notifySizeDropPercentError">{{
+                        notifySizeDropPercentError }}</ngb-alert>
+                    </div>
+                    <div class="form-group">
+                      <span i18n>Size Drop Interval (Minutes)</span>
+                      <input type="input" #notifySizeDropInterval [value]="farmer.size_drop_interval || ''"
+                        maxlength="14" placeholder="(default to 60 minutes)" class="form-control" />
+                      <ngb-alert type="warning" [dismissible]="false" *ngIf="notifySizeDropIntervalError">{{
+                        notifySizeDropIntervalError }}</ngb-alert>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-lg-6 col-sm-6">
+                    <div class="form-group">
+                      <span i18n>Minimum Payout (XCH)</span>
                       <i class="fas fa-info-circle"
                         ngbTooltip="Your launcher will not receive payments until the unpaid balance hits this minimum value."></i>:
                       <input type="input" #minPayout [value]="farmer.minimum_payout / 1000000000000" maxlength="14"
@@ -69,15 +113,14 @@
                 <div class="row">
                   <div class="col-lg-6 col-sm-6">
                     <div class="form-group">
-                      <span class="beta">BETA</span>
-                      Difficulty <i class="fas fa-info-circle"
+                      <span i18n>Difficulty</span> <i class="fas fa-info-circle"
                         ngbTooltip="Configure the difficulty for your farm so it can send less or more partials."></i>:
                       <select #customDifficulty class="form-control" [value]="farmer.custom_difficulty || ''">
-                        <option value="">Default - Around 600 partials sent per day</option>
-                        <option value="LOWEST">Lowest - Double of partials sent per day</option>
-                        <option value="LOW">Low - 50% more partials per day</option>
-                        <option value="HIGH">High - 25% less partials per day</option>
-                        <option value="HIGHEST">Highest - 50% less partials per day</option>
+                        <option value="" i18n>Default - Around 600 partials sent per day</option>
+                        <option value="LOWEST" i18n>Lowest - Double of partials sent per day</option>
+                        <option value="LOW" i18n>Low - 50% more partials per day</option>
+                        <option value="HIGH" i18n>High - 25% less partials per day</option>
+                        <option value="HIGHEST" i18n>Highest - 50% less partials per day</option>
                       </select>
                       <ngb-alert type="warning" [dismissible]="false" *ngIf="customDifficultyError">{{
                         customDifficultyError }}</ngb-alert>
@@ -87,8 +130,8 @@
                 <div class="row">
                   <div class="col-lg-6 col-sm-6">
                     <div class="form-group">
-                      Referrer (Launcher ID): <input type="text" #referrer [value]="referrerValue || ''"
-                        placeholder="(not set)" class="form-control" />
+                      <span i18n>Referrer</span> (Launcher ID): <input type="text" #referrer
+                        [value]="referrerValue || ''" placeholder="(not set)" class="form-control" />
                       <ngb-alert type="warning" [dismissible]="false" *ngIf="referrerError">{{ referrerError }}
                       </ngb-alert>
                     </div>
