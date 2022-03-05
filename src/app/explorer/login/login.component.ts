@@ -18,6 +18,13 @@ export class LoginComponent implements OnInit {
   @ViewChild('customDifficulty') customDifficulty: ElementRef;
   @ViewChild('referrer') referrer: ElementRef;
 
+  @ViewChild('notifyPaymentEmail') notifyPaymentEmail: ElementRef;
+  @ViewChild('notifyPaymentPush') notifyPaymentPush: ElementRef;
+  @ViewChild('notifySizeDropEmail') notifySizeDropEmail: ElementRef;
+  @ViewChild('notifySizeDropPush') notifySizeDropPush: ElementRef;
+  @ViewChild('notifySizeDropInterval') notifySizeDropInterval: ElementRef;
+  @ViewChild('notifySizeDropPercent') notifySizeDropPercent: ElementRef;
+
   tabActive = 1;
 
   loggingIn: boolean = true;
@@ -30,6 +37,11 @@ export class LoginComponent implements OnInit {
   minPayoutError: string = '';
   referrerError: string = '';
   farmer: any = {};
+
+  notifyPaymentError: string = '';
+  notifySizeDropError: string = '';
+  notifySizeDropPercentError: string = '';
+  notifySizeDropIntervalError: string = '';
 
   referrals$: Observable<any[]>;
   referralsCollectionSize: number = 0;
@@ -95,6 +107,27 @@ export class LoginComponent implements OnInit {
     this.minPayoutError = '';
     this.notifyMissingPartialsError = '';
     this.referrerError = '';
+    this.notifyPaymentError = '';
+    this.notifySizeDropError = '';
+    this.notifySizeDropIntervalError = '';
+    this.notifySizeDropPercentError = '';
+
+    var payment: string[] = [];
+    if(this.notifyPaymentEmail.nativeElement.checked) {
+      payment.push('EMAIL');
+    }
+    if(this.notifyPaymentPush.nativeElement.checked) {
+      payment.push('PUSH');
+    }
+
+    var size_drop: string[] = [];
+    if(this.notifySizeDropEmail.nativeElement.checked) {
+      size_drop.push('EMAIL');
+    }
+    if(this.notifySizeDropPush.nativeElement.checked) {
+      size_drop.push('PUSH');
+    }
+
     this.dataService.updateLauncher(this.farmer.launcher_id, {
       "custom_difficulty": (this.customDifficulty.nativeElement.value) ? this.customDifficulty.nativeElement.value : null,
       "name": this.name.nativeElement.value,
@@ -102,6 +135,10 @@ export class LoginComponent implements OnInit {
       "minimum_payout": (this.minPayout.nativeElement.value) ? this.minPayout.nativeElement.value * 1000000000000 : null,
       "notify_missing_partials_hours": (this.notifyMissingPartials.nativeElement.checked) ? 1 : null,
       "referrer": (this.referrer.nativeElement.value) ? this.referrer.nativeElement.value : null,
+      "payment": payment,
+      "size_drop": size_drop,
+      "size_drop_interval": (this.notifySizeDropInterval.nativeElement.value) ? this.notifySizeDropInterval.nativeElement.value : null,
+      "size_drop_percent": (this.notifySizeDropPercent.nativeElement.value) ? this.notifySizeDropPercent.nativeElement.value : null,
     }).subscribe(
       data => {
         this.router.navigate(['/explorer/farmer', this.farmer.launcher_id]);
@@ -111,6 +148,10 @@ export class LoginComponent implements OnInit {
         this.emailError = error.error?.email;
         this.notifyMissingPartialsError = error.error?.notify_missing_partials_hours;
         this.referrerError = error.error?.referrer;
+        this.notifyPaymentError = error.error?.payment;
+        this.notifySizeDropError = error.error?.size_drop;
+        this.notifySizeDropIntervalError = error.error?.size_drop_interval;
+        this.notifySizeDropPercentError = error.error?.size_drop_percent;
       }
     );
   }
