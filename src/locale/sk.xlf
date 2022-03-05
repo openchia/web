@@ -1373,6 +1373,182 @@
           <context context-type="linenumber">143,150</context>
         </context-group>
       </trans-unit>
+      <trans-unit id="72c8d24dd54e5dc27746903fa10e1b64a7d9ff96" datatype="html">
+        <source>Total Points</source>
+        <target>Celkovo bodov</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
+          <context context-type="linenumber">323,326</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="d8e4a5559cd9a1d2c11d74955a1a60b8441d519b" datatype="html">
+        <source>Notify on Payments</source>
+        <target>Informovať o platbách</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/explorer/login/login.component.html</context>
+          <context context-type="linenumber">59,60</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="e68caaf8e97671b147f613ee8d940deda4318033" datatype="html">
+        <source>Minimum Payout (XCH)</source>
+        <target>Minimálna výplata (XCH)</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/explorer/login/login.component.html</context>
+          <context context-type="linenumber">103,105</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="393cb54d9e9695f9941a411a448fb8e94f73c20d" datatype="html">
+        <source>Lowest - Double of partials sent per day</source>
+        <target>Najnižšia - dvojnásobok odoslaných dielčich blokov za deň</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/explorer/login/login.component.html</context>
+          <context context-type="linenumber">120,122</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="b2d258cbb83a597ec15b21703e86685cc227c514" datatype="html">
+        <source>Depending on your location, use one of the following connections</source>
+        <target>V závislosti od vašej polohy použite jedno z nasledujúcich pripojení</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/join/join.component.html</context>
+          <context context-type="linenumber">57,60</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4c4a7db4f8a137a1a5f3e503a39b0a127976820c" datatype="html">
+        <source>Before joining pool, your node and wallet must be fully synchronized with Chia blockchain.</source>
+        <target>Váš uzol a peňaženka musia byť pred vstupom do združenia plne synchronizované s Chia blockchainom.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/join/join.component.html</context>
+          <context context-type="linenumber">49,51</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="Harvesters" datatype="html">
+        <source>Harvesters</source>
+        <target>Zberače</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
+          <context context-type="linenumber">286,291</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7394d7b31ddd77f326878e7c4a8d308f6f0da5c6" datatype="html">
+        <source>Successful Partials</source>
+        <target>Úspešné dielčie bloky</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
+          <context context-type="linenumber">331,334</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="146d9ea771a6a5d854d710e14505b9eed4b889e9" datatype="html">
+        <source>Failed Partials</source>
+        <target>Neúspešné dielčie bloky</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
+          <context context-type="linenumber">339,342</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6930616437385085682" datatype="html">
+        <source>Partials</source>
+        <target>Dielčie bloky</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.ts</context>
+          <context context-type="linenumber">37,38</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="bc155f9fc3be3f32083f19b2c77d4ad3b696d9b9" datatype="html">
+        <source>Display name</source>
+        <target>Názov</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/explorer/login/login.component.html</context>
+          <context context-type="linenumber">27,29</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="244aae9346da82b0922506c2d2581373a15641cc" datatype="html">
+        <source>Email</source>
+        <target>Email</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/explorer/login/login.component.html</context>
+          <context context-type="linenumber">36,37</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="35a4fb17cefcb96dd033dea705799c30dc814abc" datatype="html">
+        <source>Notify on Farm Size Drop</source>
+        <target>Upozorniť na pokles veľkosti farmy</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/explorer/login/login.component.html</context>
+          <context context-type="linenumber">74,75</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="f40730a24dac87bc61f87ccd2291296b7dd1bc3b" datatype="html">
+        <source>Notify Missing Partials</source>
+        <target>Upozorniť na chýbajúce dielčie bloky</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/explorer/login/login.component.html</context>
+          <context context-type="linenumber">46,47</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="e170397bdeb391e798638581228da11d377a7d8a" datatype="html">
+        <source>Size Drop Percent</source>
+        <target>Percento poklesu veľkosti</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/explorer/login/login.component.html</context>
+          <context context-type="linenumber">85,87</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3b748643ec77fb5b262464a2b490845c34b2f16c" datatype="html">
+        <source>Size Drop Interval (Minutes)</source>
+        <target>Interval poklesu veľkosti (minúty)</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/explorer/login/login.component.html</context>
+          <context context-type="linenumber">92,94</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="25148835d92465353fc5fe8897c27d5369978e5a" datatype="html">
+        <source>Difficulty</source>
+        <target>Zložitosť</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/explorer/login/login.component.html</context>
+          <context context-type="linenumber">116,117</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3696000f5b33d0a446dfe7e1806983619dde3bfa" datatype="html">
+        <source>Highest - 50% less partials per day</source>
+        <target>Najvyššia - o 50% menej dielčich blokov za deň</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/explorer/login/login.component.html</context>
+          <context context-type="linenumber">123,126</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3c7c6c234195d4fadb4825dc78ad651d6aff5b63" datatype="html">
+        <source>High - 25% less partials per day</source>
+        <target>Vysoká - o 25% menej dielčich blokov za deň</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/explorer/login/login.component.html</context>
+          <context context-type="linenumber">122,125</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="f37c6d2e8620a16a18fc08168ea73d1767beeebf" datatype="html">
+        <source>Low - 50% more partials per day</source>
+        <target>Nízka - o 50% viac dielčich blokov za deň</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/explorer/login/login.component.html</context>
+          <context context-type="linenumber">121,123</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7f48a5e0ee3ccda6a0d377851c9f78fa347759db" datatype="html">
+        <source>Default - Around 600 partials sent per day</source>
+        <target>Predvolená - približne 600 odoslaných dielčich blokov za deň</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/explorer/login/login.component.html</context>
+          <context context-type="linenumber">119,121</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3398352ebbc7b52c9e26a38b9803b5bf7468220a" datatype="html">
+        <source>Referrer</source>
+        <target>Sprostredkovateľ</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/explorer/login/login.component.html</context>
+          <context context-type="linenumber">133,135</context>
+        </context-group>
+      </trans-unit>
     </body>
   </file>
 </xliff>
