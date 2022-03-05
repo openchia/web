@@ -678,7 +678,7 @@
       </trans-unit>
       <trans-unit id="Average" datatype="html">
         <source>Average</source>
-        <target>Average</target>
+        <target>Na média</target>
       </trans-unit>
       <trans-unit id="Beta" datatype="html">
         <source>BETA</source>
@@ -694,7 +694,7 @@
       </trans-unit>
       <trans-unit id="CurrentEffort" datatype="html">
         <source>Current Effort</source>
-        <target>Current Effort</target>
+        <target>Esforço Atual</target>
       </trans-unit>
       <trans-unit id="Date" datatype="html">
         <source>Date</source>
@@ -710,7 +710,7 @@
       </trans-unit>
       <trans-unit id="Effort" datatype="html">
         <source>Effort</source>
-        <target>Effort</target>
+        <target>Esforço</target>
       </trans-unit>
       <trans-unit id="EstimatedSpace" datatype="html">
         <source>Estimated Space</source>
@@ -734,7 +734,7 @@
       </trans-unit>
       <trans-unit id="Farmers" datatype="html">
         <source>Farmers</source>
-        <target>Fazendeiros</target>
+        <target>Farmers</target>
       </trans-unit>
       <trans-unit id="Fee" datatype="html">
         <source>Fee</source>
@@ -742,7 +742,7 @@
       </trans-unit>
       <trans-unit id="Fees" datatype="html">
         <source>Fees</source>
-        <target>Fees</target>
+        <target>Taxas</target>
       </trans-unit>
       <trans-unit id="Harversters" datatype="html">
         <source>Harvesters</source>
@@ -770,7 +770,7 @@
       </trans-unit>
       <trans-unit id="Joined" datatype="html">
         <source>Joined At</source>
-        <target>Joined At</target>
+        <target>Entrou em</target>
       </trans-unit>
       <trans-unit id="Launcher" datatype="html">
         <source>Launcher ID</source>
@@ -782,11 +782,11 @@
       </trans-unit>
       <trans-unit id="Leaderboard" datatype="html">
         <source>Leaderboard</source>
-        <target>Leaderboard</target>
+        <target>Placar</target>
       </trans-unit>
       <trans-unit id="Lucky" datatype="html">
         <source>Lucky</source>
-        <target>Lucky</target>
+        <target>Sortudo</target>
       </trans-unit>
       <trans-unit id="MITLicense" datatype="html">
         <source>MIT License</source>
@@ -826,15 +826,15 @@
       </trans-unit>
       <trans-unit id="PoolWallets" datatype="html">
         <source>Pool Wallets</source>
-        <target>Pool Wallets</target>
+        <target>Carteiras da Pool</target>
       </trans-unit>
       <trans-unit id="Profitability" datatype="html">
         <source>Profitability</source>
-        <target>Profitability</target>
+        <target>Rentabilidade</target>
       </trans-unit>
       <trans-unit id="Referral" datatype="html">
         <source>Referral</source>
-        <target>Referral</target>
+        <target>Referência</target>
       </trans-unit>
       <trans-unit id="Referrals" datatype="html">
         <source>Referrals <pc dispEnd="&lt;/span&gt;" dispStart="&lt;span class=&quot;beta&quot;&gt;" equivEnd="CLOSE_TAG_SPAN" equivStart="START_TAG_SPAN" id="0" type="other">BETA</pc></source>
@@ -842,15 +842,15 @@
       </trans-unit>
       <trans-unit id="Rewards" datatype="html">
         <source>Rewards</source>
-        <target>Rewards</target>
+        <target>Remuneração</target>
       </trans-unit>
       <trans-unit id="Save" datatype="html">
         <source>Save</source>
-        <target>Save</target>
+        <target>Salvar</target>
       </trans-unit>
       <trans-unit id="Search" datatype="html">
         <source>Search</source>
-        <target>Search</target>
+        <target>Buscar</target>
       </trans-unit>
       <trans-unit id="Step" datatype="html">
         <source>Step</source>
@@ -866,7 +866,7 @@
       </trans-unit>
       <trans-unit id="TotalIncome" datatype="html">
         <source>Total Income</source>
-        <target>Total Income</target>
+        <target>Renda Total</target>
       </trans-unit>
       <trans-unit id="Transaction" datatype="html">
         <source>Transaction</source>
@@ -878,11 +878,11 @@
       </trans-unit>
       <trans-unit id="Unknown" datatype="html">
         <source>Unknown</source>
-        <target>Unknown</target>
+        <target>Desconhecido</target>
       </trans-unit>
       <trans-unit id="Unlucky" datatype="html">
         <source>Unlucky</source>
-        <target>Unlucky</target>
+        <target>Azarado</target>
       </trans-unit>
       <trans-unit id="Uptime" datatype="html">
         <source>Uptime</source>
@@ -942,7 +942,7 @@
       </trans-unit>
       <trans-unit id="ngb.timepicker.MM" datatype="html">
         <source>MM</source>
-        <target>MILÍMETRO</target>
+        <target>MM</target>
       </trans-unit>
       <trans-unit id="ngb.timepicker.PM" datatype="html">
         <source>
@@ -2011,7 +2011,7 @@
       </trans-unit>
       <trans-unit id="a389c988a2dececc2e4ec639b50f13c684c61561" datatype="html">
         <source>Plot NFT (pool smart contract) no longer in the pool. Farmer left the pool.</source>
-        <target>O Plot NFT (smart contract do pool) não está mais nesse pool. Fazendeiro saiu do pool.</target>
+        <target>O Plot NFT (smart contract do pool) não está mais nesse pool. O farmer saiu do pool.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
           <context context-type="linenumber">251,257</context>
@@ -2251,7 +2251,7 @@
       </trans-unit>
       <trans-unit id="1d807733635e1587142d0bf8c9253414da999d08" datatype="html">
         <source><x id="INTERPOLATION" equiv-text="&lt;div"/> farmed</source>
-        <target><x id="INTERPOLATION" equiv-text="&lt;div"/> farmado</target>
+        <target><x id="INTERPOLATION" equiv-text="&lt;div"/> encontrado</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/explorer/dashboard/dashboard.component.html</context>
           <context context-type="linenumber">34,40</context>
@@ -2267,7 +2267,7 @@
       </trans-unit>
       <trans-unit id="af9304cc4713eb67765b7077be78c23468ac321d" datatype="html">
         <source>Average effort to farm a block in the last 30 days.</source>
-        <target>Esforço médio para cultivar um bloco nos últimos 30 dias.</target>
+        <target>Esforço médio para ganhar um bloco nos últimos 30 dias.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/explorer/dashboard/dashboard.component.html</context>
           <context context-type="linenumber">71,74</context>
@@ -2283,7 +2283,7 @@
       </trans-unit>
       <trans-unit id="f3e8389d1b2d1d6fc186e3e2fbd3d56ee53ad160" datatype="html">
         <source>Show all farmers</source>
-        <target>Mostrar todos</target>
+        <target>Exibir todos</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/explorer/dashboard/dashboard.component.html</context>
           <context context-type="linenumber">160,166</context>
@@ -2291,7 +2291,7 @@
       </trans-unit>
       <trans-unit id="c97b5f1c85fcecad8ca5333e54c6301767e96d4f" datatype="html">
         <source>No farmers found!</source>
-        <target>Nenhum fazendeiro encontrado!</target>
+        <target>Nenhum farmer encontrado!</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/explorer/dashboard/dashboard.component.html</context>
           <context context-type="linenumber">198,202</context>
@@ -2439,7 +2439,7 @@
       </trans-unit>
       <trans-unit id="f28fe410357b7e5eda20cbc152995a24781a591a" datatype="html">
         <source>Harvester ID</source>
-        <target>ID da Colheitadeira</target>
+        <target>ID do Harvester</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
           <context context-type="linenumber">171,176</context>
@@ -3291,6 +3291,198 @@
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/stats/stats.component.html</context>
           <context context-type="linenumber">213,214</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="f682ea3f1fe444c98598ef7e32db558e74cc1d62" datatype="html">
+        <source>Make sure you are using official Chia client supporting pool plots (1.2.0 or later).</source>
+        <target>Certifique-se de estar usando o cliente Chia oficial com suporte a plots de pools (1.2.0 ou superior).</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/join/join.component.html</context>
+          <context context-type="linenumber">44,46</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="b2d258cbb83a597ec15b21703e86685cc227c514" datatype="html">
+        <source>Depending on your location, use one of the following connections</source>
+        <target>Dependendo de sua localização, use uma das seguintes conexões</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/join/join.component.html</context>
+          <context context-type="linenumber">57,60</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2946c37d18f99ebf224560494d45e8aa73d63c69" datatype="html">
+        <source>Should you run into issues, reach out in</source>
+        <target>Se você encontrar problemas, entre em contato no</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/join/join.component.html</context>
+          <context context-type="linenumber">140,142</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4df37db8f9fefb8537ec32bbd510b552b4a0d980" datatype="html">
+        <source>Choose "Connect to pool" and enter this URL "https://pool.openchia.io" (exactly, no ending slash), verify pool details and click on "Create" button</source>
+        <target state="needs-translation">Escolha "Connect to pool" e insira a URL "https://pool.openchia.io" (exatamente assim, sem barra no final), verifique os detalhes e clique no botão "Create"</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/join/join.component.html</context>
+          <context context-type="linenumber">114,117</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="Address" datatype="html">
+        <source>Address</source>
+        <target>Endereço</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/explorer/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">317,319</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="da1bcec161d959bf88a99855ca5272e44821e9ec" datatype="html">
+        <source>Estimated Size</source>
+        <target>Tamanho Estimado</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
+          <context context-type="linenumber">284,287</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="Giveaways" datatype="html">
+        <source>Giveaways</source>
+        <target>Sorteios</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
+          <context context-type="linenumber">483,488</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="91aee72c8447b6dc35b041d098c14e4289644ee0" datatype="html">
+        <source>Show official Chia instructions here</source>
+        <target>Exibe instruções oficiais da Chia aqui</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/join/join.component.html</context>
+          <context context-type="linenumber">48,49</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4c4a7db4f8a137a1a5f3e503a39b0a127976820c" datatype="html">
+        <source>Before joining pool, your node and wallet must be fully synchronized with Chia blockchain.</source>
+        <target>Entes de juntar-se à pool, seu nó e carteira devem estar totalmente sincronizados com a blockchain da Chia.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/join/join.component.html</context>
+          <context context-type="linenumber">49,51</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="a3f7f5ba3f22d992f65cc57ecac0e796c2d389f7" datatype="html">
+        <source>You are going to need 1 Mojo (0.000000000001 XCH) which you can get through our faucet services</source>
+        <target>Você vai precisar de 1 Mojo (0.000000000001 XCH) o qual você pode conseguir através dos serviços de torneiras</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/join/join.component.html</context>
+          <context context-type="linenumber">51,54</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="63c60af5ab55d6c06a49a800c4ed33711d49786d" datatype="html">
+        <source>Global server</source>
+        <target>Servidor global</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/join/join.component.html</context>
+          <context context-type="linenumber">59,61</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4872c78bed407e6941cd9e3f6d877b1a47871341" datatype="html">
+        <source>Asia server</source>
+        <target>Servidor da Asia</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/join/join.component.html</context>
+          <context context-type="linenumber">61,64</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="016f90328109ecb0a5e9aabc9de8610ea082c106" datatype="html">
+        <source>Join pool from CLI</source>
+        <target>Entrar na pool usando a CLI</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/join/join.component.html</context>
+          <context context-type="linenumber">72,75</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7bd8d87bee680e3c2864194b40b8215887743d2b" datatype="html">
+        <source>Get your wallet ID</source>
+        <target>Obtenha seu wallet ID</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/join/join.component.html</context>
+          <context context-type="linenumber">81,84</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="92b2ee409313a4fdded34d9fa4f93527a9d20e34" datatype="html">
+        <source>Joining OpenChia pool with</source>
+        <target>Entrando na pool OpenChia com</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/join/join.component.html</context>
+          <context context-type="linenumber">87,90</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2c40472450770609c852ada57a456dacb80d9436" datatype="html">
+        <source>It will ask for your confirmation, check all details and confirm with Y.</source>
+        <target>Será solicitada sua confirmação, verifique todos os detalhes e confirme com Y.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/join/join.component.html</context>
+          <context context-type="linenumber">93,97</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="f00b4ad657318902da5754e02c1f4793aded16e2" datatype="html">
+        <source>Wait few minutes and enjoy!</source>
+        <target>Aguarde alguns minutos e aproveite!</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/join/join.component.html</context>
+          <context context-type="linenumber">94,99</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="e0edf26c80aca37596e1e705133c46d418be9a7b" datatype="html">
+        <source>Join pool from GUI</source>
+        <target>Entre na pool usando a GUI</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/join/join.component.html</context>
+          <context context-type="linenumber">104,107</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="aaea572dc2fa3f8ede6fd86fbcaebbddf84c49af" datatype="html">
+        <source>Open the Chia GUI and click "Pool" and then "Join a pool"</source>
+        <target state="needs-translation">Abra a GUI da Chia e clique em "Pool" e depois "Join a pool"</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/join/join.component.html</context>
+          <context context-type="linenumber">112,114</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="cd65cc61760794d063f92f12ab4239bedea399ba" datatype="html">
+        <source>Confirm pool connection and you can create Plot NFT</source>
+        <target>Confirme a conexão com a pool e você pode criar o Plot NFT</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/join/join.component.html</context>
+          <context context-type="linenumber">120,123</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="b028aabd8dc90c34e79118931b4372e5bfb7b16a" datatype="html">
+        <source>Need help?</source>
+        <target>Precisa de ajuda?</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/join/join.component.html</context>
+          <context context-type="linenumber">132,135</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="d331e983ff2c0045b600f49c9d67c131680069c2" datatype="html">
+        <source>Discord channel if you have any questions.</source>
+        <target>canal do Discord se tiver qualquer dúvida.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/join/join.component.html</context>
+          <context context-type="linenumber">142,146</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="c9bf8a0326ae688e75dc9802fad4a411707e34ec" datatype="html">
+        <source>OpenChia have a great community</source>
+        <target>OpenChia tem uma grande comunidade</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/join/join.component.html</context>
+          <context context-type="linenumber">143,150</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="Translation" datatype="html">
+        <source>Translation</source>
+        <target>Tradução</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/footer/footer.component.html</context>
+          <context context-type="linenumber">39,43</context>
         </context-group>
       </trans-unit>
     </body>
