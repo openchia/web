@@ -10,17 +10,21 @@
     <div *ngIf="loggedIn">
 
       <ul ngbNav #nav="ngbNav" [(activeId)]="tabActive" class="nav-tabs navbar-inverse">
+
+        <!-- Settings -->
         <li [ngbNavItem]="1">
-          <a class="display-4" ngbNavLink i18n="@@Details">Details</a>
+          <a ngbNavLink><i class="fa fa-cogs"></i>&nbsp;<span i18n>Settings</span></a>
           <ng-template ngbNavContent>
 
             <div class="row">
               <div class="col-lg-8 col-sm-8">
+                <br />
                 <div class="row">
-                  <div class="col-lg-6 col-sm-6">
-                    Launcher ID: {{ farmer?.launcher_id }}
+                  <div class="col-lg-10 col-sm-10">
+                    <span i18n>Launcher ID</span>: {{ farmer?.launcher_id }}<br />
                   </div>
                 </div>
+                <br />
                 <div class="row">
                   <div class="col-lg-6 col-sm-6">
                     <div class="form-group">
@@ -33,8 +37,14 @@
                 <div class="row">
                   <div class="col-lg-6 col-sm-6">
                     <div class="form-group">
+                      <ng-template #farmerEmailTooltip>
+                        <span i18n>
+                          Email may be used to contact you for any issues identified with 
+                          your launcher or changes in our Terms of Service.
+                        </span>
+                      </ng-template>
                       <span i18n>Email</span>: <i class="fas fa-info-circle"
-                        ngbTooltip="Email may be used to contact you for any issues identified with your launcher or changes in our Terms of Service."></i><input
+                        [ngbTooltip]="farmerEmailTooltip"></i><input
                         type="text" #email [value]="farmer.email" placeholder="(not set)" class="form-control" />
                       <ngb-alert type="warning" [dismissible]="false" *ngIf="emailError">{{ emailError }}</ngb-alert>
                     </div>
@@ -43,10 +53,18 @@
                 <div class="row">
                   <div class="col-lg-6 col-sm-6">
                     <div class="form-group">
-                      <span i18n>Notify Missing Partials</span> <i class="fas fa-info-circle"
-                        ngbTooltip="If you have an email configured you will receive a notification if your launcher stops sending partials for more than one hour."></i>:
-                      <input type="checkbox" #notifyMissingPartials
-                        [checked]="farmer.notify_missing_partials_hours !== null" />
+                      <ng-template #notifyMissingPartialsTooltip>
+                        <span i18n>
+                          If you have an email configured you will receive a notification 
+                          if your launcher stops sending partials for more than one hour.
+                        </span>
+                      </ng-template>
+                      <span i18n>Notify on Missing Partials</span>: <i class="fas fa-info-circle"
+                        [ngbTooltip]="notifyMissingPartialsTooltip"> </i>
+                      <p class="input-checkbox">
+                        <input type="checkbox" #notifyMissingPartials [checked]="farmer.notify_missing_partials_hours !== null" />
+                          Email
+                      </p>
                       <ngb-alert type="warning" [dismissible]="false" *ngIf="notifyMissingPartialsError">{{
                         notifyMissingPartialsError }}</ngb-alert>
                     </div>
@@ -56,14 +74,26 @@
                   <div class="col-lg-6 col-sm-6">
                     <div class="form-group">
                       <span class="beta">BETA</span>
-                      <span i18n>Notify on Payments</span> <i class="fas fa-info-circle"
-                        ngbTooltip="Send a notification on payments. Only works if you have a minimum payout set."></i>:
-                      <p><input type="checkbox" #notifyPaymentEmail [checked]="farmer.payment.includes('EMAIL')" />
-                        Email</p>
-                      <p><input type="checkbox" #notifyPaymentPush [checked]="farmer.payment.includes('PUSH')" />
-                        Mobile Push Notification</p>
-                      <ngb-alert type="warning" [dismissible]="false" *ngIf="notifyPaymentError">{{
-                        notifyPaymentError }}</ngb-alert>
+                      <ng-template #notifyPaymentTooltip>
+                        <span i18n>
+                          Send a notification on payments.
+                          Only works if you have a minimum payout set.
+                        </span>
+                      </ng-template>
+                      <span i18n>Notify on Payments</span>: <i class="fas fa-info-circle"
+                        [ngbTooltip]="notifyPaymentTooltip"> </i>
+                      <br />
+                      <p class="input-checkbox">
+                        <input type="checkbox" #notifyPaymentEmail [checked]="farmer.payment.includes('EMAIL')" />
+                        Email
+                      </p>
+                      <p class="input-checkbox">
+                        <input type="checkbox" #notifyPaymentPush [checked]="farmer.payment.includes('PUSH')" />
+                        Mobile Push Notification
+                      </p>
+                      <ngb-alert type="warning" [dismissible]="false" *ngIf="notifyPaymentError">
+                        {{ notifyPaymentError }}
+                      </ngb-alert>
                     </div>
                   </div>
                 </div>
@@ -71,11 +101,20 @@
                   <div class="col-lg-6 col-sm-6">
                     <div class="form-group">
                       <span class="beta">BETA</span>
-                      <span i18n>Notify on Farm Size Drop</span> <i class="fas fa-info-circle"
-                        ngbTooltip="Send a notification if the farm size has dropped significantly within a period of time."></i>:
-                      <p><input type="checkbox" #notifySizeDropEmail [checked]="farmer.size_drop.includes('EMAIL')" />
-                        Email</p>
-                      <p><input type="checkbox" #notifySizeDropPush [checked]="farmer.size_drop.includes('PUSH')" />
+                      <ng-template #notifySizeDropTooltip>
+                        <span i18n>
+                          Send a notification if the farm size has dropped 
+                          significantly within a period of time.
+                        </span>
+                      </ng-template>
+                      <span i18n>Notify on Farm Size Drop</span>: <i class="fas fa-info-circle"
+                        [ngbTooltip]="notifySizeDropTooltip"></i>
+                      <p class="input-checkbox">
+                        <input type="checkbox" #notifySizeDropEmail [checked]="farmer.size_drop.includes('EMAIL')" />
+                        Email
+                      </p>
+                      <p class="input-checkbox">
+                        <input type="checkbox" #notifySizeDropPush [checked]="farmer.size_drop.includes('PUSH')" />
                         Mobile Push Notification</p>
                       <ngb-alert type="warning" [dismissible]="false" *ngIf="notifySizeDropError">{{
                         notifySizeDropError }}</ngb-alert>
@@ -100,9 +139,14 @@
                 <div class="row">
                   <div class="col-lg-6 col-sm-6">
                     <div class="form-group">
-                      <span i18n>Minimum Payout (XCH)</span>
-                      <i class="fas fa-info-circle"
-                        ngbTooltip="Your launcher will not receive payments until the unpaid balance hits this minimum value."></i>:
+                      <ng-template #minPayoutTooltip>
+                        <span i18n>
+                          Your launcher will not receive payments until 
+                          the unpaid balance hits this minimum value.
+                        </span>
+                      </ng-template>
+                      <span i18n>Minimum Payout (XCH)</span>: <i class="fas fa-info-circle"
+                        [ngbTooltip]="minPayoutTooltip"></i>
                       <input type="input" #minPayout [value]="farmer.minimum_payout / 1000000000000" maxlength="14"
                         placeholder="(not set)" class="form-control" />
                       <ngb-alert type="warning" [dismissible]="false" *ngIf="minPayoutError">{{
@@ -113,8 +157,13 @@
                 <div class="row">
                   <div class="col-lg-6 col-sm-6">
                     <div class="form-group">
-                      <span i18n>Difficulty</span> <i class="fas fa-info-circle"
-                        ngbTooltip="Configure the difficulty for your farm so it can send less or more partials."></i>:
+                      <ng-template #customDifficultyTooltip>
+                        <span i18n>
+                          Configure the difficulty for your farm so it can send less or more partials.
+                        </span>
+                      </ng-template>
+                      <span i18n>Difficulty</span>: <i class="fas fa-info-circle"
+                      [ngbTooltip]="customDifficultyTooltip"></i>
                       <select #customDifficulty class="form-control" [value]="farmer.custom_difficulty || ''">
                         <option value="" i18n>Default - Around 600 partials sent per day</option>
                         <option value="LOWEST" i18n>Lowest - Double of partials sent per day</option>
@@ -138,11 +187,11 @@
                   </div>
                 </div>
               </div>
-              <div class="col-lg-4 col-sm-4">
+              <div class="col-lg-2 col-sm-2 text-center">
                 <svg width="220" height="220">
                   <image xlink:href="/api/v1.0/qrcode" src="qrcode.png" width="220" height="220" />
                 </svg>
-                <p>Mobile Login</p>
+                <p><span i18n>Mobile Login</span></p>
               </div>
             </div>
 
@@ -153,8 +202,10 @@
             </div>
           </ng-template>
         </li>
+
+        <!-- Referrals -->
         <li [ngbNavItem]="2">
-          <a class="display-4" ngbNavLink>Referrals</a>
+          <a ngbNavLink><i class="fa fa-redo"></i>&nbsp;<span i18n>Referrals</span></a>
           <ng-template ngbNavContent>
             <p><strong i18n>Referral Link</strong>: https://openchia.io/?referrer={{ farmer.launcher_id }}</p>
             <p i18n>Use above link to refer people to this pool. They will be required to join the pool and login to the
