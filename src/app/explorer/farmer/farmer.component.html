@@ -387,7 +387,7 @@
                     <div *ngIf="payoutaddrs$ | async; let payoutaddrs"
                       class="card-body py-3 text-center text-uppercase">
                       <span class="text-primary"><span i18n="">Total transaction(s)</span></span>
-                      <p class="display-3">{{ payoutaddrs.length }}</p>
+                      <p class="display-3">{{ payoutsCollectionSize }}</p>
                     </div>
                   </div>
                 </div>
@@ -481,7 +481,7 @@
                   <div class="card card-lift shadow border-0">
                     <div *ngIf="blocks$ | async; let blocks" class="card-body py-3 text-center text-uppercase">
                       <span class="text-primary"><span i18n="">Total block(s)</span></span>
-                      <p class="display-3">{{ blocks.length }}</p>
+                      <p class="display-3">{{ blocksCollectionSize }}</p>
                     </div>
                   </div>
                 </div>

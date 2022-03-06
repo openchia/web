@@ -55,7 +55,7 @@ export class FarmerComponent implements OnInit {
   _payoutaddrs$ = new BehaviorSubject<any[]>([]);
   payoutsCollectionSize: number = 0;
   payoutsPage: number = 1;
-  payoutsPageSize: number = 1000;
+  payoutsPageSize: number = 25;
   payoutsCountTotal: number = 0;
   payoutsAmountTotal: number = 0;
 
@@ -63,7 +63,7 @@ export class FarmerComponent implements OnInit {
   _blocks$ = new BehaviorSubject<any[]>([]);
   blocksCollectionSize: number = 0;
   blocksPage: number = 1;
-  blocksPageSize: number = 100;
+  blocksPageSize: number = 25;
 
   giveaways$: Observable<any[]>;
 
