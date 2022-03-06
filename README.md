@@ -60,7 +60,7 @@ Variables available in the docker environment:
 ## Translation
 
 We are currently using self hosted Weblate.
-All you need to do is create an account and translate to your language using the [website here][2]
+All you need to do is create an account and translate to your language using the [website here][2].
 
 ## Contributing
 
@@ -69,6 +69,11 @@ All contributions are welcome! Please fork main branch and create a new branch, 
 Linear merging is enforced on main and merging requires a completed build and review. Please make sure your code/build is passing.
 The main branch is usually the currently released latest version on website and on the [Docker image][3].
 
+## License
+
+**OpenChia** is made with ♥ by [team][4] and it's released under the MIT license.
+
 [1]: https://github.com/openchia
 [2]: https://translation.openchia.io
 [3]: https://github.com/openchia/web/pkgs/container/web
+[4]: https://github.com/openchia/web/graphs/contributors
