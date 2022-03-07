@@ -2120,7 +2120,7 @@
       </trans-unit>
       <trans-unit id="16271bc124e200ff2f18f44d5a5550941b6791fd" datatype="html">
         <source>(unknown) <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i class=&quot;fas fa"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/></source>
-        <target>(unknown) <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i class=&quot;fas fa"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/></target>
+        <target>(未知) <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i class=&quot;fas fa"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/></target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
           <context context-type="linenumber">35</context>
@@ -2232,7 +2232,7 @@
       </trans-unit>
       <trans-unit id="8963f37c8e7fa9167301fbf66501d11989cf5906" datatype="html">
         <source>Same partial proof was sent more than once.</source>
-        <target>同一个部分的证明发送超过一次</target>
+        <target>同一个部分的证明已发送超过一次。</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
           <context context-type="linenumber">241,245</context>
@@ -2644,7 +2644,7 @@
       </trans-unit>
       <trans-unit id="Giveaways" datatype="html">
         <source>Giveaways</source>
-        <target>给出</target>
+        <target>赠品</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
           <context context-type="linenumber">558,563</context>
@@ -2652,7 +2652,7 @@
       </trans-unit>
       <trans-unit id="31a3292deef4bade8cb245291aa57218d40fff2b" datatype="html">
         <source>No giveaways available!</source>
-        <target>没有给出！</target>
+        <target>没有赠品！</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
           <context context-type="linenumber">583,589</context>
@@ -2844,7 +2844,7 @@
       </trans-unit>
       <trans-unit id="1d807733635e1587142d0bf8c9253414da999d08" datatype="html">
         <source><x id="INTERPOLATION" equiv-text="&lt;div"/> farmed</source>
-        <target><x id="INTERPOLATION" equiv-text="&lt;div"/> farmed</target>
+        <target><x id="INTERPOLATION" equiv-text="&lt;div"/> 已耕种</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/explorer/dashboard/dashboard.component.html</context>
           <context context-type="linenumber">34,40</context>
@@ -2868,7 +2868,7 @@
       </trans-unit>
       <trans-unit id="af9304cc4713eb67765b7077be78c23468ac321d" datatype="html">
         <source>Average effort to farm a block in the last 30 days.</source>
-        <target>过去30天耕种单块平均付出</target>
+        <target>过去30天耕种地块平均时间。</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/explorer/dashboard/dashboard.component.html</context>
           <context context-type="linenumber">71,74</context>
@@ -2944,7 +2944,7 @@
       </trans-unit>
       <trans-unit id="06dac242b2c951e365884c1362470cb82067cce1" datatype="html">
         <source>Pool space when the block has been won.</source>
-        <target>区块获胜时矿池空间</target>
+        <target>区块获胜时矿池空间。</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/explorer/dashboard/dashboard.component.html</context>
           <context context-type="linenumber">219,223</context>
@@ -3028,7 +3028,7 @@
       </trans-unit>
       <trans-unit id="Giveaway" datatype="html">
         <source>Weekly Giveaway</source>
-        <target>每周给出</target>
+        <target>每周赠品</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/giveaway/giveaway.component.html</context>
           <context context-type="linenumber">19,23</context>
@@ -3092,7 +3092,7 @@
       </trans-unit>
       <trans-unit id="4a5f24b32e794cd5a3782a4c6f60bbcf4567e2ce" datatype="html">
         <source>No previous giveaways found!</source>
-        <target>未发现上一个给出！</target>
+        <target>未发现上一个赠品！</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/giveaway/giveaway.component.html</context>
           <context context-type="linenumber">122,127</context>
@@ -3100,7 +3100,7 @@
       </trans-unit>
       <trans-unit id="bf55248f3724a903614a92fa62f2c0bd21c5158d" datatype="html">
         <source>Previous Giveaways</source>
-        <target>上一个给出</target>
+        <target>上一个赠品</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/giveaway/giveaway.component.html</context>
           <context context-type="linenumber">101,105</context>
@@ -3128,6 +3128,647 @@
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/join/join.component.html</context>
           <context context-type="linenumber">89,92</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dbcb1043ef9863a615caf8fe43167602d997a020" datatype="html">
+        <source>Need help?</source>
+        <target>需要帮助吗？</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/join/join.component.html</context>
+          <context context-type="linenumber">133,137</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="a9a644f0d41d3bc59e5718da3567016c8be4f012" datatype="html">
+        <source>Should you run into issues, reach out in</source>
+        <target>如果您遇到问题，请联系</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/join/join.component.html</context>
+          <context context-type="linenumber">141,143</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ec4c16ce1379433827e65540b23881cb96878be1" datatype="html">
+        <source>Discord channel if you have any questions. OpenChia have a great community</source>
+        <target>如果您有任何问题，请访问 Discord 频道。 OpenChia 有一个很棒的社区</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/join/join.component.html</context>
+          <context context-type="linenumber">143,150</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="c772e70c6abd70a4eeeabb68cb86749665ff063f" datatype="html">
+        <source>Get your reward as soon as possible with PPLNS distribution system. Only 1% fee, <x id="START_LINK" ctype="x-a" equiv-text="&lt;a [routerLink]=&quot;"/>read more<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;."/>. </source>
+        <target>使用 PPLNS 分发系统尽快获得您的奖励。 只需1%的费用, <x id="START_LINK" ctype="x-a" equiv-text="&lt;a [routerLink]=&quot;"/>阅读更多<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;."/>. </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/landing/landing.component.html</context>
+          <context context-type="linenumber">102,104</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="e552bcb75fac4281c7297232867f4855d8d5fb0d" datatype="html">
+        <source>Join community on Discord</source>
+        <target>加入 Discord 社区</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/landing/landing.component.html</context>
+          <context context-type="linenumber">156,161</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4323bacd5bc1904cf3952c3f8105baa79fd8ce6a" datatype="html">
+        <source>Tweets by OpenChia</source>
+        <target>OpenChia 的推文</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/landing/landing.component.html</context>
+          <context context-type="linenumber">167,172</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/landing/landing.component.html</context>
+          <context context-type="linenumber">175,182</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="c98d891f02a0253ad6442d3be5a5dcc983f85931" datatype="html">
+        <source>Weekly Giveaway!</source>
+        <target>每周赠品！</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/landing/landing.component.html</context>
+          <context context-type="linenumber">201,205</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="a8a2366d3e2d7a7b9bf8bc282f1f7b83fe1f3e04" datatype="html">
+        <source>All farmers participating in our pool are automatically eligible in our giveaway!</source>
+        <target>所有参与我们矿池的农民都自动有资格获得我们的赠品！</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/landing/landing.component.html</context>
+          <context context-type="linenumber">204,208</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="b084046edbd41cc2cb61cd6393c1bb9f596e90aa" datatype="html">
+        <source>Mobile Application</source>
+        <target>手机应用</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/landing/landing.component.html</context>
+          <context context-type="linenumber">232,235</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="98435160ca361f7566f4cf3152bc697581a8c037" datatype="html">
+        <source>Monitor pool, farm stats, payouts and more anywhere with our mobile app. Available for both Android and iOS.</source>
+        <target>使用我们的手机应用程序随时随地监控矿池、农场统计数据、支出等。 适用于 Android 和 iOS。</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/landing/landing.component.html</context>
+          <context context-type="linenumber">234,238</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="60b9c935e13f4f2eb5c501147e7821a43659859b" datatype="html">
+        <source>OpenChia is open source!</source>
+        <target>OpenChia 是开源的！</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/landing/landing.component.html</context>
+          <context context-type="linenumber">257,261</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="35c57566f9ec43d45adc6c1e4b9d69f8a65f3294" datatype="html">
+        <source>All our software (pool, api, website, discord bot, mobile application) are open source and it's very important for the community. <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br /&gt;             You have an idea? Submit your improvement code or cr"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br /&gt;             You have an idea? Submit your improvement code or cr"/> You have an idea? Submit your improvement code or create an issue. It's easy and anyone can participate! </source>
+        <target>我们所有的软件（矿池、api、网站、discord bot、移动应用程序）都是开源的，这对社区非常重要。<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br /&gt;             你有想法吗？ 提交您的改进代码或 cr"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br /&gt;             你有想法吗？ 提交您的改进代码或 cr"/> 你有想法吗？ 提交您的改进代码或创建问题。这很容易，任何人都可以参与！ </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/landing/landing.component.html</context>
+          <context context-type="linenumber">260,264</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="aaef7f3878111be1c1b4c8d2dd18ad0212611d2e" datatype="html">
+        <source>Mobile Developer</source>
+        <target>移动端开发者</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/landing/landing.component.html</context>
+          <context context-type="linenumber">375,379</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="917a8bd7db233002ab2bf2949f191d3dccbd9da9" datatype="html">
+        <source>Chinese Community Ambassador</source>
+        <target>中文社区大使</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/landing/landing.component.html</context>
+          <context context-type="linenumber">393,397</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="cd819aeb3fde6d576c3a06db94df2af062d3c6ae" datatype="html">
+        <source>Please meet our partners, together for a better world.</source>
+        <target>请认识我们的合作伙伴，共同创造更美好的世界。</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/partners/partners.component.html</context>
+          <context context-type="linenumber">19,23</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2489eefea00931942b91f4a1ae109514b591e2e1" datatype="html">
+        <source>Rules</source>
+        <target>规则</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/referral/referral.component.html</context>
+          <context context-type="linenumber">38,41</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="46d4279366821378a367994d734e080cf4b96148" datatype="html">
+        <source>Use of good faith and don't refer yourself in any shape or form.</source>
+        <target>善意使用，不要以任何形式提及自己。</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/referral/referral.component.html</context>
+          <context context-type="linenumber">40,42</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="619930ccda5d73c24ec795e54ba2ed4dcbd22703" datatype="html">
+        <source>Do not attempt close loop of referral. e.g. A -&gt; B -&gt; C -&gt; A.</source>
+        <target>不要尝试闭环推荐。 例如. A -&gt; B -&gt; C -&gt; A.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/referral/referral.component.html</context>
+          <context context-type="linenumber">41,45</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="c1270c1bdd9912511f8cbe5152d9d938401a5be5" datatype="html">
+        <source>We reserve the right to change fees for new referrals at any time.</source>
+        <target>我们保留随时更改新推荐人费用的权利。</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/referral/referral.component.html</context>
+          <context context-type="linenumber">42,45</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="0e42c9f0d6b8f118f1b117c47c8e6253fd1a4d46" datatype="html">
+        <source>Thank you for trusting us!</source>
+        <target>感谢您对我们的信任！</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/footer/footer.component.html</context>
+          <context context-type="linenumber">5,8</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="d11711d2d1f92e7a7a720214a60ada2398b75c37" datatype="html">
+        <source>Netspace <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i class=&quot;ni ni-b"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/></source>
+        <target>网络空间 <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i class=&quot;ni ni-b"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/></target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/stats/stats.component.html</context>
+          <context context-type="linenumber">115</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3dbdf1f38a8f197e0a77eb460d31e26e1b820841" datatype="html">
+        <source>XCH Price</source>
+        <target>XCH 价格</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/stats/stats.component.html</context>
+          <context context-type="linenumber">165,168</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4df37db8f9fefb8537ec32bbd510b552b4a0d980" datatype="html">
+        <source>Choose "Connect to pool" and enter this URL "https://pool.openchia.io" (exactly, no ending slash), verify pool details and click on "Create" button</source>
+        <target>选择“连接到矿池”并输入此 URL “https://pool.openchia.io”（要准确，末尾没有斜线），验证矿池详细信息并单击“创建”按钮</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/join/join.component.html</context>
+          <context context-type="linenumber">116,119</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="cd65cc61760794d063f92f12ab4239bedea399ba" datatype="html">
+        <source>Confirm pool connection and you can create Plot NFT</source>
+        <target>确认矿池连接，您可以创建 Plot NFT</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/join/join.component.html</context>
+          <context context-type="linenumber">122,125</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2c40472450770609c852ada57a456dacb80d9436" datatype="html">
+        <source>It will ask for your confirmation, check all details and confirm with Y.</source>
+        <target>需要您确认，请检查所有详细信息并按 Y 确认。</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/join/join.component.html</context>
+          <context context-type="linenumber">95,99</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="f00b4ad657318902da5754e02c1f4793aded16e2" datatype="html">
+        <source>Wait few minutes and enjoy!</source>
+        <target>等几分钟然后享受！</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/join/join.component.html</context>
+          <context context-type="linenumber">96,101</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="e0edf26c80aca37596e1e705133c46d418be9a7b" datatype="html">
+        <source>Join pool from GUI</source>
+        <target>从GUI加入矿池</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/join/join.component.html</context>
+          <context context-type="linenumber">106,109</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="aaea572dc2fa3f8ede6fd86fbcaebbddf84c49af" datatype="html">
+        <source>Open the Chia GUI and click "Pool" and then "Join a pool"</source>
+        <target>打开Chia GUI并点击“矿池”然后点击“加入矿池”</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/join/join.component.html</context>
+          <context context-type="linenumber">114,116</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="10f056dd9fa3ce236f04efd38ed65b33a8492181" datatype="html">
+        <source>Read more</source>
+        <target>阅读更多</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/landing/landing.component.html</context>
+          <context context-type="linenumber">208,217</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="105e97dbc94eec7cde7b7faa49bae8a0991eb3d1" datatype="html">
+        <source><x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="d-landing-center&quot;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt; Open GitHub"/> Open GitHub </source>
+        <target><x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="d-landing-center&quot;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt; Open GitHub"/> 打开 GitHub </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/landing/landing.component.html</context>
+          <context context-type="linenumber">270,276</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="09585f6ba80a69acf080ddc13de32072be1f2069" datatype="html">
+        <source>🌱 OpenChia Team</source>
+        <target>🌱 OpenChia 团队</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/landing/landing.component.html</context>
+          <context context-type="linenumber">288,292</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6803242eae1ae02e4cef79e7faebe2ab93b2993f" datatype="html">
+        <source>Have you asked yourself who are the people running Chia pools? Do you trust them? <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br /&gt;             We have more tha"/> We have more than 20 years of combined experience in the software development industry. </source>
+        <target>你有没有问过自己谁是经营Chia矿池的人？ 你信任他们吗？<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br /&gt;             我们有超过"/> 我们在软件开发行业拥有超过 20 年的综合经验。 </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/landing/landing.component.html</context>
+          <context context-type="linenumber">290,293</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="078d78687f7026b46e627ee6fb92d426d74a97ca" datatype="html">
+        <source>Business and Marketing</source>
+        <target>商业和营销</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/landing/landing.component.html</context>
+          <context context-type="linenumber">306,310</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1108c6553f5774688bcec361e0d25067164817ae" datatype="html">
+        <source>Software Engineer</source>
+        <target>软件工程师</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/landing/landing.component.html</context>
+          <context context-type="linenumber">324,327</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="f330889a7289c122f863ba92a9daf83256eb5e63" datatype="html">
+        <source>Web Developer</source>
+        <target>Web开发者</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/landing/landing.component.html</context>
+          <context context-type="linenumber">346,349</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="c6f82691bd3cdd76945682a38bb82fe68caa1fd4" datatype="html">
+        <source>How do I check my referrals?</source>
+        <target>如何查看我的推荐人？</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/referral/referral.component.html</context>
+          <context context-type="linenumber">35,37</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="e8f8bfee9c42759fb958a5d80b93ec339729227f" datatype="html">
+        <source>They are offering cutting-edge cryptocurrency technology of today and tomorrow. Vivid Stake Pool allows you to stake in Cardano. If you deposit your Fiat Money on your bank account, you will receive 1-3 % profit per year which will be paid after at least a few months. In Cardano it is the opposite: you receive high profits as high as 5-8 % per year which is paid every 5 days!</source>
+        <target>他们正在提供当今和未来的尖端加密货币技术。 Vivid Stake Pool 允许您在 Cardano 中进行质押。 如果您将法定货币存入您的银行账户，您每年将获得 1-3% 的利润，这些利润将在至少几个月后支付。 在Cardano ，情况正好相反：您每年获得高达 5-8% 的高额利润，每 5 天支付一次！</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/partners/partners.component.html</context>
+          <context context-type="linenumber">27,32</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="9fcae10115b2fe4f2fc9ae62ddf1a92c51140269" datatype="html">
+        <source>Login to the pool website using your Plot NFT login link and go to the "Referrals" tab.</source>
+        <target>使用您的 Plot NFT 登录链接登录到矿池网站，然后转到“推荐”选项卡。</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/referral/referral.component.html</context>
+          <context context-type="linenumber">36,40</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="73a8ec5516d65d93db9f62e2916eb969a29a842d" datatype="html">
+        <source>OpenChia believes that in a future blockchain and cryptocurrency can exist without degrading the environment and helping make the world a better place. We believe Chia and Cardano can coexist to help make that happen. If you'd like to know more about Cardano and/or join a legitimate staking pool please visit <x id="START_LINK" ctype="x-a" equiv-text="&lt;a         href=&quot;"/>Vivid Pool<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;.&lt;/p&gt;     &lt;a h"/>.</source>
+        <target>OpenChia 相信，未来的区块链和加密货币可以在不破坏环境并帮助世界变得更美好的情况下存在。 我们相信 Chia 和 Cardano 可以共存以帮助实现这一目标。 如果您想了解更多关于 Cardano 和/或加入合法权益池的信息，请访问 <x id="START_LINK" ctype="x-a" equiv-text="&lt;a         href=&quot;"/>Vivid Pool<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;.&lt;/p&gt;     &lt;a h"/>.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/partners/partners.component.html</context>
+          <context context-type="linenumber">31,34</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="d32d7c80cba2c064d69e06a150b115134afa52ed" datatype="html">
+        <source>Earn XCH by referring your friends to this pool!</source>
+        <target>通过将您的朋友推荐到此矿池中来赚取 XCH！</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/referral/referral.component.html</context>
+          <context context-type="linenumber">21,25</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="bdc5cd8ee8da3b2611447a34f2fa23b8382d2293" datatype="html">
+        <source>How does it work?</source>
+        <target>它是如何工作的？</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/referral/referral.component.html</context>
+          <context context-type="linenumber">23,26</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="e4e4bee53c0a5bf3cbeea905c09e4c8a64d66972" datatype="html">
+        <source>Refer your friends to this pool using the URL https://openchia.io?referrer=YOUR_LAUNCHER_ID. Replace YOUR_LAUNCHER_ID with the Launcher ID from your Plot NFT.</source>
+        <target>使用 URL https://openchia.io?referrer=YOUR_LAUNCHER_ID 将您的朋友推荐到此矿池。 将 YOUR_LAUNCHER_ID 替换为 Plot NFT 中的启动器 ID。</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/referral/referral.component.html</context>
+          <context context-type="linenumber">25,29</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8f6de837ab829da31d0ce0ce7cf31b55b72da670" datatype="html">
+        <source>Have your friend join the pool and login to the pool website using the Plot NFT login link. He will confirm you are his referrer. (Referrer is filled automatically if he visited the website with your link)</source>
+        <target>让您的朋友加入矿池并使用 Plot NFT 登录链接登录矿池网站。 他会确认你是他的推荐人。 （如果他访问了带有您的链接的网站，则会自动填写推荐人）</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/referral/referral.component.html</context>
+          <context context-type="linenumber">28,31</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6419a64d1c82713a79329a9e4476c6e47e831211" datatype="html">
+        <source>You will receive 20% of the pool fee for every payment made to your friend. That value comes out of the pool and not from your friend reward!</source>
+        <target>每当矿池向您的朋友付款，您将收到 20% 的矿池费。 该收益来自矿池，而不是来自您的朋友的奖励！</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/referral/referral.component.html</context>
+          <context context-type="linenumber">31,36</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="c468ee01ae8a3118c520ded045df2cc3ed16f928" datatype="html">
+        <source>Let's get in touch on any of these platforms.</source>
+        <target>让我们在这些平台上取得联系。</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/footer/footer.component.html</context>
+          <context context-type="linenumber">6,9</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="Translation" datatype="html">
+        <source>Translation</source>
+        <target>翻译</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/footer/footer.component.html</context>
+          <context context-type="linenumber">39,43</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="Stats" datatype="html">
+        <source>Stats</source>
+        <target>统计</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/navbar/navbar.component.html</context>
+          <context context-type="linenumber">45,49</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="More" datatype="html">
+        <source>More</source>
+        <target>更多</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/navbar/navbar.component.html</context>
+          <context context-type="linenumber">52,55</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="a90d29cc4f9d39cac908dbbbbd998ad61f164e88" datatype="html">
+        <source>🚀 Stats</source>
+        <target>🚀 统计</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/stats/stats.component.html</context>
+          <context context-type="linenumber">25,31</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="02cf8bcf0ca96708b4e474bc5341b2d11b0541d0" datatype="html">
+        <source>Pool Space (After 18th February) <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i class=&quot;ni ni-b"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/></source>
+        <target>矿池池空间（2 月 18 日之后）<x id="START_ITALIC_TEXT" ctype="xi" equiv-text="&lt;i class=&quot;ni ni-b"/><x id="CLOSE_ITALIC_TEXT" ctype="xi" equiv-text="&lt;/i&gt;"/></target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/stats/stats.component.html</context>
+          <context context-type="linenumber">36,38</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="27eb10916f82b03a3f792459155086ff17c11976" datatype="html">
+        <source>1 Day</source>
+        <target>1 天</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/stats/stats.component.html</context>
+          <context context-type="linenumber">65,67</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/stats/stats.component.html</context>
+          <context context-type="linenumber">141,143</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/stats/stats.component.html</context>
+          <context context-type="linenumber">190,192</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/stats/stats.component.html</context>
+          <context context-type="linenumber">239,241</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="b7e16af662bc4ecccd2ec389a29a4e34d48a607c" datatype="html">
+        <source>7 Days</source>
+        <target>7 天</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/stats/stats.component.html</context>
+          <context context-type="linenumber">67,69</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/stats/stats.component.html</context>
+          <context context-type="linenumber">143,145</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/stats/stats.component.html</context>
+          <context context-type="linenumber">192,194</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/stats/stats.component.html</context>
+          <context context-type="linenumber">241,243</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6149963f7b6e8339a7db40be653830239841e51b" datatype="html">
+        <source>1 Month</source>
+        <target>1 月</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/stats/stats.component.html</context>
+          <context context-type="linenumber">69,71</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/stats/stats.component.html</context>
+          <context context-type="linenumber">145,147</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/stats/stats.component.html</context>
+          <context context-type="linenumber">194,196</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/stats/stats.component.html</context>
+          <context context-type="linenumber">243,245</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="d2936a0d7a7cd1014fdb81195a40a38fd3d70bc7" datatype="html">
+        <source>3 Months</source>
+        <target>3 个月</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/stats/stats.component.html</context>
+          <context context-type="linenumber">71,73</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/stats/stats.component.html</context>
+          <context context-type="linenumber">147,149</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/stats/stats.component.html</context>
+          <context context-type="linenumber">196,198</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/stats/stats.component.html</context>
+          <context context-type="linenumber">245,247</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ab102e798754de9510d2434b0a2cf2e55cadfa86" datatype="html">
+        <source>1 Year</source>
+        <target>1 年</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/stats/stats.component.html</context>
+          <context context-type="linenumber">73,79</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/stats/stats.component.html</context>
+          <context context-type="linenumber">149,155</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/stats/stats.component.html</context>
+          <context context-type="linenumber">198,204</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/stats/stats.component.html</context>
+          <context context-type="linenumber">247,253</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="881c1f8f173d0e8c6012f72d1687d61b70c10cfa" datatype="html">
+        <source>Pool Blocks <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i class=&quot;ni ni-b"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/></source>
+        <target>矿池区块 <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i class=&quot;ni ni-b"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/></target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/stats/stats.component.html</context>
+          <context context-type="linenumber">88,89</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4031e66dfb64440787f51a453a5858760c418de7" datatype="html">
+        <source>Pool Space <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/></source>
+        <target>矿池空间 <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/></target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/stats/stats.component.html</context>
+          <context context-type="linenumber">213,214</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6d45cf7845bd83a0d51e6b3b850461cd4b7a70f9" datatype="html">
+        <source>All our software (api, pool, bot, web, mobile) are open source and available on <x id="START_LINK" ctype="x-a" equiv-text="&lt;a href=&quot;https://"/>Github repositories<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;."/>. </source>
+        <target>我们所有的软件（api、pool、bot、web、mobile）都是开源的，可以在 <x id="START_LINK" ctype="x-a" equiv-text="&lt;a href=&quot;https://"/>Github 存储库<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;."/>. </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/landing/landing.component.html</context>
+          <context context-type="linenumber">116,118</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="f316da6d7ebe5692b6f1faff62edb93eee4b8911" datatype="html">
+        <source>All farmer participating in our pool are eligible in our giveaway! Tickets on farmer page, <x id="START_LINK" ctype="x-a" equiv-text="&lt;a [routerLink]=&quot;"/>read more<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;."/>. </source>
+        <target>所有参与我们矿池的农民都有资格获得我们的赠品！ 农民页面上的门票， <x id="START_LINK" ctype="x-a" equiv-text="&lt;a [routerLink]=&quot;"/>阅读更多<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;."/>. </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/landing/landing.component.html</context>
+          <context context-type="linenumber">130,132</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1b65eaa43d83adf88728f80b9eb6a7b12b5a2e4c" datatype="html">
+        <source>Join OpenChia pool 🎉</source>
+        <target>加入OpenChia矿池🎉</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/landing/landing.component.html</context>
+          <context context-type="linenumber">148,151</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="61ce49f38dc9fbff16b2d281d56afca746636bbf" datatype="html">
+        <source>Set <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;text-"/>https://pool.openchia.io<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt; as the pool"/> as the pool URL for your PlotNFT using either the Chia GUI/CLI. Our OpenChia community can help you on the Discord server. Ready? Let's go! </source>
+        <target>设置 <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;text-"/>https://pool.openchia.io<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt; as the pool"/> 使用 Chia GUI/CLI 作为 PlotNFT 的池 URL。 我们的 OpenChia 社区可以在 Discord 服务器上为您提供帮助。 准备好了？ 我们走吧！ </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/landing/landing.component.html</context>
+          <context context-type="linenumber">150</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7ab035ef4b1e901870fe1ef65433c4ae8c1aa2cf" datatype="html">
+        <source>🎁 Weekly Giveaway</source>
+        <target>🎁 每周赠品</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/landing/landing.component.html</context>
+          <context context-type="linenumber">127,130</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.carousel.slide-number" datatype="html">
+        <source>Slide <x id="INTERPOLATION" equiv-text="to interact wit"/> of <x id="INTERPOLATION_1" equiv-text="carousel using"/> </source>
+        <target>滑动 <x id="INTERPOLATION" equiv-text="to interact wit"/> of <x id="INTERPOLATION_1" equiv-text="carousel using"/> </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/carousel/carousel.ts</context>
+          <context context-type="linenumber">147,157</context>
+        </context-group>
+        <note priority="1" from="description">Currently selected slide number read by screen reader</note>
+      </trans-unit>
+      <trans-unit id="69b383cb15575d3b4ca5855d19a1df4a2dd2df83" datatype="html">
+        <source>Welcome to OpenChia.io</source>
+        <target>欢迎来到 OpenChia.io</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/landing/landing.component.html</context>
+          <context context-type="linenumber">21,25</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5b7d5e94bccf2165ab93fc0a90952a120febe0c3" datatype="html">
+        <source>Official Pool Protocol</source>
+        <target>官方矿池协议</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/landing/landing.component.html</context>
+          <context context-type="linenumber">22,25</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="c27084c949cda7759a61b872848dd9381eefc8e1" datatype="html">
+        <source>A pool you can trust.</source>
+        <target>值得您信赖的矿池。</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/landing/landing.component.html</context>
+          <context context-type="linenumber">25,27</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="14614381245f5e12e4147e44ab09d66788169bf0" datatype="html">
+        <source>All our software is open source.</source>
+        <target>我们所有的软件都是开源的。</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/landing/landing.component.html</context>
+          <context context-type="linenumber">25,28</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="e863710e7fd7485e35bf2421115e3f6efe54c155" datatype="html">
+        <source>Chat with us</source>
+        <target>和我们聊聊</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/landing/landing.component.html</context>
+          <context context-type="linenumber">39,44</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="eab22187737c7358587fb76f70037d9d534b906b" datatype="html">
+        <source>📱 Mobile app</source>
+        <target>📱 手机app</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/landing/landing.component.html</context>
+          <context context-type="linenumber">86,89</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="35e0f2081e97e22ed1a33dd3b39f15f1dbf080a7" datatype="html">
+        <source>Native mobile app on both Android and iOS for your travels. Be alerted when blocks are found.</source>
+        <target>适用于您旅行的 Android 和 iOS 上的原生移动应用程序， 发现区块时会发出提醒。</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/landing/landing.component.html</context>
+          <context context-type="linenumber">89,95</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="daeef598c7156cae99eb66dce31eda83e364dfba" datatype="html">
+        <source>💰 Instant payout</source>
+        <target>💰立即支出</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/landing/landing.component.html</context>
+          <context context-type="linenumber">99,102</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="abf76e1915c81c2ee08d800130db163f4ce48007" datatype="html">
+        <source>💻 Open Source</source>
+        <target>💻 开源</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/landing/landing.component.html</context>
+          <context context-type="linenumber">113,116</context>
         </context-group>
       </trans-unit>
     </body>
