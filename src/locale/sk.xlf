@@ -1549,6 +1549,190 @@
           <context context-type="linenumber">133,135</context>
         </context-group>
       </trans-unit>
+      <trans-unit id="117fafda8e512a83d3153b87c3eb9890292ad6da" datatype="html">
+        <source>Send a notification if the farm size has dropped significantly within a period of time.</source>
+        <target>Posielanie upozornení, ak sa veľkosť farmy v priebehu určitého obdobia výrazne zníži.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/explorer/login/login.component.html</context>
+          <context context-type="linenumber">106,110</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="121cc5391cd2a5115bc2b3160379ee5b36cd7716" datatype="html">
+        <source>Settings</source>
+        <target>Nastavenia</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/explorer/login/login.component.html</context>
+          <context context-type="linenumber">16,22</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="fd8f9bce332cbca6215aca75a9787cb0a9884363" datatype="html">
+        <source>Email may be used to contact you for any issues identified with your launcher or changes in our Terms of Service.</source>
+        <target>E-mail môže byť použitý na to, aby sme vás kontaktovali v prípade akýchkoľvek problémov s vaším spúšťačom alebo zmenami v našich Zmluvných podmienkach.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/explorer/login/login.component.html</context>
+          <context context-type="linenumber">42,46</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="701300f5b2c4871d97cc4bec997d16eabedc9bde" datatype="html">
+        <source>If you have an email configured you will receive a notification if your launcher stops sending partials for more than one hour.</source>
+        <target>Ak máte nakonfigurovaný e-mail, dostanete upozornenie, ak váš spúšťač prestane odosielať dielčie bloky viac ako jednu hodinu.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/explorer/login/login.component.html</context>
+          <context context-type="linenumber">58,62</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="59f994cfa3f68cad82a5d0b0e8020784215e4125" datatype="html">
+        <source>Notify on Missing Partials</source>
+        <target>Upozorniť na chýbajúce dielčie bloky</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/explorer/login/login.component.html</context>
+          <context context-type="linenumber">62,64</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="55f7b0b7ba52d5eaeddde449c22db5528c270740" datatype="html">
+        <source>Send a notification on payments. Only works if you have a minimum payout set.</source>
+        <target>Posielanie notifikácií o platbách. Funguje iba vtedy, ak máte nastavenú minimálnu výplatu.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/explorer/login/login.component.html</context>
+          <context context-type="linenumber">79,83</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3f98263d0e020a5a9e17892665e0074be617e359" datatype="html">
+        <source>Your launcher will not receive payments until the unpaid balance hits this minimum value.</source>
+        <target>Váš spúšťač nebude dostávať platby, kým nevyplatený zostatok nedosiahne túto minimálnu hodnotu.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/explorer/login/login.component.html</context>
+          <context context-type="linenumber">144,148</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ca2e09ee5cdd5d5da2697af4d552d9aec72de8b7" datatype="html">
+        <source>Configure the difficulty for your farm so it can send less or more partials.</source>
+        <target>Nakonfigurujte zložitosť pre svoju farmu, aby mohla posielať menej alebo viac dielčich blokov.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/explorer/login/login.component.html</context>
+          <context context-type="linenumber">162,165</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="e4d955d345c60ca3ae072360cb675719c5bfddab" datatype="html">
+        <source>Mobile Login</source>
+        <target>Mobilné prihlásenie</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/explorer/login/login.component.html</context>
+          <context context-type="linenumber">194,199</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5b650a22aa384d42aadae1367aeca2dd7042c962" datatype="html">
+        <source>Referrals</source>
+        <target>Odporúčania</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/explorer/login/login.component.html</context>
+          <context context-type="linenumber">208,210</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="9fa3541c52680eba1974868c25d14614729859f3" datatype="html">
+        <source>Europe server</source>
+        <target>Server pre Európu</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/join/join.component.html</context>
+          <context context-type="linenumber">61,63</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.datepicker.select-month" datatype="html">
+        <source>Select month</source>
+        <target>Vyberte mesiac</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/datepicker/datepicker-navigation-select.ts</context>
+          <context context-type="linenumber">74</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/datepicker/datepicker-navigation-select.ts</context>
+          <context context-type="linenumber">74</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.datepicker.select-year" datatype="html">
+        <source>Select year</source>
+        <target>Vyberte rok</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/datepicker/datepicker-navigation-select.ts</context>
+          <context context-type="linenumber">74</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/datepicker/datepicker-navigation-select.ts</context>
+          <context context-type="linenumber">74</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.hours" datatype="html">
+        <source>Hours</source>
+        <target>Hodiny</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/timepicker/timepicker.ts</context>
+          <context context-type="linenumber">155,158</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.minutes" datatype="html">
+        <source>Minutes</source>
+        <target>Minúty</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/timepicker/timepicker.ts</context>
+          <context context-type="linenumber">189,192</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.increment-hours" datatype="html">
+        <source>Increment hours</source>
+        <target>Zvýšiť hodiny</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/timepicker/timepicker.ts</context>
+          <context context-type="linenumber">206,210</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.decrement-hours" datatype="html">
+        <source>Decrement hours</source>
+        <target>Znížiť hodiny</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/timepicker/timepicker.ts</context>
+          <context context-type="linenumber">228,230</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.increment-minutes" datatype="html">
+        <source>Increment minutes</source>
+        <target>Zvýšiť minúty</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/timepicker/timepicker.ts</context>
+          <context context-type="linenumber">249,254</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.decrement-minutes" datatype="html">
+        <source>Decrement minutes</source>
+        <target>Znížiť minúty</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/timepicker/timepicker.ts</context>
+          <context context-type="linenumber">272,276</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.seconds" datatype="html">
+        <source>Seconds</source>
+        <target>Sekundy</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/timepicker/timepicker.ts</context>
+          <context context-type="linenumber">295</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.increment-seconds" datatype="html">
+        <source>Increment seconds</source>
+        <target>Zvýšiť sekundy</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/timepicker/timepicker.ts</context>
+          <context context-type="linenumber">295</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.timepicker.decrement-seconds" datatype="html">
+        <source>Decrement seconds</source>
+        <target>Znížiť sekundy</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/timepicker/timepicker.ts</context>
+          <context context-type="linenumber">295</context>
+        </context-group>
+      </trans-unit>
     </body>
   </file>
 </xliff>
