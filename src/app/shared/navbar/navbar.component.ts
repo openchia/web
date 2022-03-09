@@ -44,4 +44,14 @@ export class NavbarComponent implements OnInit {
             return false;
         }
     }
+
+    darkModeToggle() {
+        if(document.body.classList.contains('bootstrap-dark')) {
+            document.body.classList.remove('bootstrap-dark');
+            document.body.classList.add('bootstrap');
+        } else {
+            document.body.classList.remove('bootstrap');
+            document.body.classList.add('bootstrap-dark');
+        }
+    }
 }

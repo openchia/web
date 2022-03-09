@@ -1,5 +1,5 @@
 // Contextual backgrounds
-@mixin bg-variant($parent, $color) {
+@mixin bg-variant($parent, $color, $ignore-warning: false) {
     #{$parent} {
         background-color: $color !important;
     }
