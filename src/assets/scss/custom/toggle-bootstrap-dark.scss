@@ -1,5 +1,4 @@
 body.bootstrap-dark {
-
     @import "~bootstrap/scss/functions";
     @import "functions";
 
@@ -9,18 +8,17 @@ body.bootstrap-dark {
 
     @import "~bootstrap/scss/mixins";
     @import "mixins";
-
     @import '~@forevolve/bootstrap-dark/scss/mixins-overrides';
     @import '~@forevolve/bootstrap-dark/scss/dark-mixins';
 
-    margin: 0; // 1
+    margin: 0;
     font-family: $font-family-base;
     @include font-size($font-size-base);
     font-weight: $font-weight-base;
     line-height: $line-height-base;
     color: $body-color;
-    text-align: left; // 3
-    background-color: $body-bg; // 2
+    text-align: left;
+    background-color: $body-bg;
 }
 
 
@@ -37,7 +35,6 @@ body.bootstrap-dark {
     @import "mixins";
     @import '~@forevolve/bootstrap-dark/scss/mixins-overrides';
     @import '~@forevolve/bootstrap-dark/scss/dark-mixins';
-
 
     @import 'node_modules/bootstrap/scss/root';
     @import 'node_modules/bootstrap/scss/reboot';
@@ -64,10 +61,10 @@ body.bootstrap-dark {
     @import 'node_modules/bootstrap/scss/nav';
     @import 'node_modules/bootstrap/scss/navbar';
     @import 'node_modules/bootstrap/scss/card';
-    @import 'node_modules/bootstrap/scss/breadcrumb';
+    //@import 'node_modules/bootstrap/scss/breadcrumb';
     @import 'node_modules/bootstrap/scss/pagination';
     @import 'node_modules/bootstrap/scss/badge';
-    @import 'node_modules/bootstrap/scss/jumbotron';
+    //@import 'node_modules/bootstrap/scss/jumbotron';
     @import 'node_modules/bootstrap/scss/alert';
     @import 'node_modules/bootstrap/scss/progress';
     @import 'node_modules/bootstrap/scss/media';
@@ -77,7 +74,7 @@ body.bootstrap-dark {
     @import 'node_modules/bootstrap/scss/modal';
     @import 'node_modules/bootstrap/scss/tooltip';
     @import 'node_modules/bootstrap/scss/popover';
-    @import 'node_modules/bootstrap/scss/carousel';
+    //@import 'node_modules/bootstrap/scss/carousel';
     @import 'node_modules/bootstrap/scss/spinners';
     @import 'node_modules/bootstrap/scss/utilities';
 
