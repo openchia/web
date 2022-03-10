@@ -1,4 +1,4 @@
-import { LOCALE_ID, Component, Inject, OnInit } from '@angular/core';
+import { LOCALE_ID, Component, Inject, OnInit, ViewChild, ElementRef } from '@angular/core';
 import { Router, NavigationEnd, NavigationStart } from '@angular/router';
 import { Location, PopStateEvent } from '@angular/common';
 
@@ -11,6 +11,8 @@ export class NavbarComponent implements OnInit {
     public isCollapsed = true;
     private lastPoppedUrl: string;
     private yScrollStack: number[] = [];
+    private darkMode: boolean = false;
+    @ViewChild('darkModeIcon') darkModeIcon: ElementRef;
 
     constructor(public location: Location, private router: Router, @Inject(LOCALE_ID) public locale: string) {
     }
@@ -32,6 +34,15 @@ export class NavbarComponent implements OnInit {
         this.location.subscribe((ev: PopStateEvent) => {
             this.lastPoppedUrl = ev.url;
         });
+
+    }
+    ngAfterViewInit() {
+        if(window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+            this.darkMode = true;
+        } else {
+            this.darkMode = false;
+        }
+        this.darkModeSet();
     }
 
     isHome() {
@@ -46,12 +57,21 @@ export class NavbarComponent implements OnInit {
     }
 
     darkModeToggle() {
-        if(document.body.classList.contains('bootstrap-dark')) {
-            document.body.classList.remove('bootstrap-dark');
-            document.body.classList.add('bootstrap');
-        } else {
+        this.darkMode = !this.darkMode;
+        this.darkModeSet();
+    }
+
+    darkModeSet() {
+        if(this.darkMode) {
             document.body.classList.remove('bootstrap');
             document.body.classList.add('bootstrap-dark');
+            this.darkModeIcon.nativeElement.classList.remove('fa-moon');
+            this.darkModeIcon.nativeElement.classList.add('fa-sun');
+        } else {
+            document.body.classList.remove('bootstrap-dark');
+            document.body.classList.add('bootstrap');
+            this.darkModeIcon.nativeElement.classList.add('fa-moon');
+            this.darkModeIcon.nativeElement.classList.remove('fa-sun');
         }
     }
 }

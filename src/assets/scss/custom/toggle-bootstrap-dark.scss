@@ -38,8 +38,6 @@ body.bootstrap-dark {
     @import '~@forevolve/bootstrap-dark/scss/mixins-overrides';
     @import '~@forevolve/bootstrap-dark/scss/dark-mixins';
 
-    @import "all";
-
 
     @import 'node_modules/bootstrap/scss/root';
     @import 'node_modules/bootstrap/scss/reboot';
@@ -86,4 +84,6 @@ body.bootstrap-dark {
     @import '~@forevolve/bootstrap-dark/scss/themed-utilities-dark';
 
     @import '~@forevolve/bootstrap-dark/scss/dark-styles';
+
+    @import "all";
 }
