@@ -67,8 +67,8 @@ $colors: map-merge((
   "gray-dark":  $gray-800
 ), $colors);
 
-$default:       #129b00 !default;
-$primary:       #149b00 !default;
+$default:       #588746 !default;
+$primary:       #588746 !default;
 $secondary:     #2c2c2c !default;
 $success:       $green !default;
 $info:          $teal !default;
@@ -140,9 +140,9 @@ $shapes-primary-colors: map-merge((
 
 $shapes-default-colors: () !default;
 $shapes-default-colors: map-merge((
-  "step-1-gradient-bg":         #51c041,
-  "step-2-gradient-bg":         #129b00,
-  "step-3-gradient-bg":         #129b00,
+  "step-1-gradient-bg":         #447a38,
+  "step-2-gradient-bg":         #243F1E,
+  "step-3-gradient-bg":         #243F1E,
   "span-1-bg":                  #7795f8,
   "span-2-bg":                  #7b9aff,
   "span-3-bg":                  #6f8ff8,
