@@ -916,14 +916,6 @@
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
-          <context context-type="linenumber">119,124</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
-          <context context-type="linenumber">128,133</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
           <context context-type="linenumber">136,139</context>
         </context-group>
       </trans-unit>
@@ -945,18 +937,18 @@
           <context context-type="linenumber">109,112</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="Successful" datatype="html">
-        <source>Successful</source>
+      <trans-unit id="SuccessfulPartials_preline" datatype="html">
+        <source>Successful Partials</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
-          <context context-type="linenumber">118,121</context>
+          <context context-type="linenumber">118,123</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="Failed" datatype="html">
-        <source>Failed</source>
+      <trans-unit id="FailedPartials_preline" datatype="html">
+        <source>Failed Partials</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
-          <context context-type="linenumber">127,130</context>
+          <context context-type="linenumber">128,132</context>
         </context-group>
       </trans-unit>
       <trans-unit id="Performance" datatype="html">
@@ -966,18 +958,11 @@
           <context context-type="linenumber">137,139</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="Harversters" datatype="html">
-        <source>Harvesters</source>
+      <trans-unit id="HarvesterCount_preline" datatype="html">
+        <source>Harvester Count</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
-          <context context-type="linenumber">147,150</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="Count" datatype="html">
-        <source>Count</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
-          <context context-type="linenumber">148,153</context>
+          <context context-type="linenumber">148,152</context>
         </context-group>
       </trans-unit>
       <trans-unit id="994cefce55bece12954b80736323ba6def5aad13" datatype="html">
