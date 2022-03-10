@@ -1,6 +1,8 @@
 .page-item {
     &.active .page-link {
         box-shadow: $pagination-active-box-shadow;
+        background-color: theme-color("primary");
+        border-color: theme-color("primary");
     }
 
     .page-link,

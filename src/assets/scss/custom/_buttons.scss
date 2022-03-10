@@ -64,6 +64,8 @@
 
 .btn-neutral {
     color: theme-color("primary");
+    background-color: theme-color("secondary");
+    border-color: theme-color("secondary");
 }
 
 .btn-discord {

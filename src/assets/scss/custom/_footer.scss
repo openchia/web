@@ -60,7 +60,8 @@
         right: 0;
         top: 600px;
         height: 2000px;
-        background: theme-color("secondary");
+        //background: theme-color("secondary");
+        background: darken($body-bg, 5%);
         transform: skew(0,-8deg);
     }
 

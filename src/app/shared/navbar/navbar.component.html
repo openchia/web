@@ -1,5 +1,5 @@
 <nav id="navbar-main"
-  class="navbar navbar-main navbar-expand-lg navbar-transparent navbar-light headroom headroom--top headroom--pinned">
+  class="navbar navbar-main navbar-expand-lg navbar-transparent headroom headroom--top headroom--pinned">
   <div class="container">
     <a class="navbar-brand mr-lg-5" [routerLink]="['/landing']">
       <img src="./assets/img/brand/logo_white.svg" width="30" height="30"> OpenChia.io
@@ -72,6 +72,11 @@
         </li>
       </ul>
       <ul class="navbar-nav navbar-nav-hover align-items-lg-center ml-lg-auto">
+        <li class="nav-item">
+          <a class="nav-link nav-link-icon" (click)="darkModeToggle()" href="javascript:void(0);" data-toggle="tooltip"
+            title="Toggle Dark Mode"><i #darkModeIcon class="fa fa-moon"></i></a>
+          <span class="nav-link-inner--text d-lg-none">Dark Mode</span>
+        </li>
         <li class="nav-item">
           <a class="nav-link nav-link-icon" href="https://www.youtube.com/channel/UCL70j_KiPd49rfp_UEqxiyQ"
             target="_blank" data-toggle="tooltip" title="Watch us">

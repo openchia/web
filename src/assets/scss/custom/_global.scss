@@ -12,7 +12,7 @@
     position: absolute;
     top: .66rem;
     right: -.67rem;
-    background: #129b00;
+    background: theme-color("primary");
     color: #fff;
     border-radius: 3px;
     box-shadow: 0 0 10px rgba(0,0,100,.2);
@@ -190,7 +190,7 @@
     position: absolute;
     top: .33rem;
     right: -.67rem;
-    background: #129b00;
+    background: theme-color("primary");
     color: #fff;
     border-radius: 3px;
     box-shadow: 0 0 10px rgba(0,0,100,.2);
@@ -221,7 +221,7 @@
 // Progress bar default color
 
 .ngx-progress-bar {
-    --color-bar: #129b00;
+    --color-bar: theme-color("primary");
     --color-value: #525f7f;
     --color-inset-background: #dfdfdf;
 }

@@ -152,10 +152,10 @@
           (keydown.enter)="searchFarmer()" />
       </div>
       <div class="col-lg-2">
-        <button class="btn btn-neutral btn-block" type="button" (click)="searchFarmer()" i18n="@@Search">Search</button>
+        <button class="btn btn-primary btn-block" type="button" (click)="searchFarmer()" i18n="@@Search">Search</button>
       </div>
       <div class="col-lg-4">
-        <select #farmersFilter class="btn btn-neutral btn-block" (change)="refreshFarmers($event.target.value)">
+        <select #farmersFilter class="btn btn-secondary btn-block" (change)="refreshFarmers($event.target.value)">
           <option value="1" default i18n>Show active only</option>
           <option value="0" i18n>Show all farmers</option>
         </select>
@@ -345,7 +345,7 @@
   <div class="container">
     <h2 class="display-3" i18n>Pool server real-time log</h2>
     <div class="container">
-      <button (click)="loadTerm()" class="btn" #viewTerm>Click here to view logs</button>
+      <button (click)="loadTerm()" class="btn btn-primary" #viewTerm>Click here to view logs</button>
       <ng-template #termComponent></ng-template>
     </div>
   </div>
