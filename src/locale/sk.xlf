@@ -1733,6 +1733,30 @@
           <context context-type="linenumber">295</context>
         </context-group>
       </trans-unit>
+      <trans-unit id="SuccessfulPartials_preline" datatype="html">
+        <source>Successful Partials</source>
+        <target>Úspešné dielčie bloky</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
+          <context context-type="linenumber">118,123</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="FailedPartials_preline" datatype="html">
+        <source>Failed Partials</source>
+        <target>Neúspešné dielčie bloky</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
+          <context context-type="linenumber">128,132</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="HarvesterCount_preline" datatype="html">
+        <source>Harvester Count</source>
+        <target>Počet zberačov</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
+          <context context-type="linenumber">148,152</context>
+        </context-group>
+      </trans-unit>
     </body>
   </file>
 </xliff>
