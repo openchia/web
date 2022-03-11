@@ -50,17 +50,6 @@ export class NavbarComponent implements OnInit {
         this.darkModeSet();
     }
 
-    isHome() {
-        var titlee = this.location.prepareExternalUrl(this.location.path());
-
-        if(titlee === '#/landing') {
-            return true;
-        }
-        else {
-            return false;
-        }
-    }
-
     darkModeToggle() {
         this.darkMode = !this.darkMode;
         this.darkModeSet();

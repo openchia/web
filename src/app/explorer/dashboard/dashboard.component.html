@@ -200,7 +200,7 @@
       </tbody>
     </table>
     <ngb-pagination [collectionSize]="farmersCollectionSize" [(page)]="farmersPage" [pageSize]="farmersPageSize"
-      (pageChange)="refreshFarmers(farmersFilter.value)">
+      [maxSize]="10" [rotate]="true" [boundaryLinks]="true" (pageChange)="refreshFarmers(farmersFilter.value)">
     </ngb-pagination>
   </div>
 </section>
@@ -259,7 +259,7 @@
       </tbody>
     </table>
     <ngb-pagination [collectionSize]="blocksCollectionSize" [(page)]="blocksPage" [pageSize]="blocksPageSize"
-      (pageChange)="refreshBlocks()">
+      [maxSize]="10" [rotate]="true" [boundaryLinks]="true" (pageChange)="refreshBlocks()">
     </ngb-pagination>
   </div>
 </section>
@@ -291,7 +291,7 @@
       </tbody>
     </table>
     <ngb-pagination [collectionSize]="payoutsCollectionSize" [(page)]="payoutsPage" [pageSize]="payoutsPageSize"
-      (pageChange)="refreshPayouts()">
+      [maxSize]="10" [rotate]="true" [boundaryLinks]="true" (pageChange)="refreshPayouts()">
     </ngb-pagination>
   </div>
 </section>
