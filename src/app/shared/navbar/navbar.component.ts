@@ -37,10 +37,15 @@ export class NavbarComponent implements OnInit {
 
     }
     ngAfterViewInit() {
-        if(window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
-            this.darkMode = true;
+        var darkMode = localStorage.getItem("darkmode");
+        if(darkMode != '') {
+            this.darkMode = (darkMode == "true") ? true : false;
         } else {
-            this.darkMode = false;
+            if(window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+                this.darkMode = true;
+            } else {
+                this.darkMode = false;
+            }
         }
         this.darkModeSet();
     }
@@ -73,5 +78,6 @@ export class NavbarComponent implements OnInit {
             this.darkModeIcon.nativeElement.classList.add('fa-moon');
             this.darkModeIcon.nativeElement.classList.remove('fa-sun');
         }
+        localStorage.setItem("darkmode", `${this.darkMode}`);
     }
 }
