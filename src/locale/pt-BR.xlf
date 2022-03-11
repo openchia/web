@@ -934,7 +934,7 @@
         <source>
           <ph disp="or 24H mode." equiv="INTERPOLATION" id="0"/>
         </source>
-        <target><x id="INTERPOLATION"/></target>
+        <target><ph id="0" equiv="INTERPOLATION"/></target>
       </trans-unit>
       <trans-unit id="ngb.timepicker.HH" datatype="html">
         <source>HH</source>
