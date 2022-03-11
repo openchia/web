@@ -184,8 +184,8 @@
           <td>
             <div class="explorer-progress-bar">
               <div class="explorer-progress-bar__inner" role="progressbar" aria-valuemin="0" aria-valuemax="100"
-                aria.valuenow="{{ launcher.share_pplns * 100 | number:'2.2' }}%"
-                style="transform: translateX({{ launcher.share_pplns * 100 | number:'2.2' }}%);">
+                aria.valuenow="{{ launcher.share_pplns * 100 | number:'2.2':'en' }}%"
+                style="transform: translateX({{ launcher.share_pplns * 100 | number:'2.2':'en' }}%);">
               </div>
               <div class="explorer-progress-bar__value">
                 {{ launcher.share_pplns * 100 | number:'2.2' }}%
