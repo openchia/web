@@ -58,7 +58,7 @@
       </trans-unit>
       <trans-unit id="1774008180173753624" datatype="html">
         <source>Successful Partials</source>
-        <target>Úspešné dielčie bloky</target>
+        <target>Úspešné parciálne dôkazy</target>
       </trans-unit>
       <trans-unit id="1b65eaa43d83adf88728f80b9eb6a7b12b5a2e4c" datatype="html">
         <source>Join OpenChia pool 🎉</source>
@@ -90,7 +90,7 @@
       </trans-unit>
       <trans-unit id="24036095495322476" datatype="html">
         <source>Last Partials (24 hours)</source>
-        <target>Posledné dielčie bloky (24 hodín)</target>
+        <target>Posledné parciálne dôkazy (24 hodín)</target>
       </trans-unit>
       <trans-unit id="2489eefea00931942b91f4a1ae109514b591e2e1" datatype="html">
         <source>Rules</source>
@@ -102,7 +102,7 @@
       </trans-unit>
       <trans-unit id="2756022432863940642" datatype="html">
         <source>Failed Partials</source>
-        <target>Neúspešné dielčie bloky</target>
+        <target>Neúspešné parciálne dôkazy</target>
       </trans-unit>
       <trans-unit id="27eb10916f82b03a3f792459155086ff17c11976" datatype="html">
         <source>1 Day</source>
@@ -398,7 +398,7 @@
       </trans-unit>
       <trans-unit id="8963f37c8e7fa9167301fbf66501d11989cf5906" datatype="html">
         <source>Same partial proof was sent more than once.</source>
-        <target>Rovnaký čiastočný dôkaz bol zaslaný viac ako jeden raz.</target>
+        <target>Rovnaký parciálny dôkaz bol zaslaný viac ako jeden raz.</target>
       </trans-unit>
       <trans-unit id="8a7b4bd44c0ac71b2e72de0398b303257f7d2f54" datatype="html">
         <source>Blocks</source>
@@ -430,11 +430,11 @@
       </trans-unit>
       <trans-unit id="994cefce55bece12954b80736323ba6def5aad13" datatype="html">
         <source>Partials</source>
-        <target>Dielčie bloky</target>
+        <target>Parciálne dôkazy</target>
       </trans-unit>
       <trans-unit id="99c327c9e1e22d737142df163e93f2a269847d6a" datatype="html">
         <source>Show failed partials only</source>
-        <target>Zobraziť len neúspešné dielčie bloky</target>
+        <target>Zobraziť len neúspešné parciálne dôkazy</target>
       </trans-unit>
       <trans-unit id="9beb860b38dcac32f826add82a1115ddde160c62" datatype="html">
         <source>Hourly USD</source>
@@ -582,7 +582,7 @@
       </trans-unit>
       <trans-unit id="c135821495429ff3fd89664f549ec24da765b5d5" datatype="html">
         <source>No partials found!</source>
-        <target>Neboli nájdené žiadne dielčie bloky!</target>
+        <target>Neboli nájdené žiadne parciálne dôkazy!</target>
       </trans-unit>
       <trans-unit id="c157792655970dcb2e3c7ad6583ec90e3d69edd8" datatype="html">
         <source>.faucet &lt;wallet address&gt;</source>
@@ -910,7 +910,7 @@
       </trans-unit>
       <trans-unit id="Partials" datatype="html">
         <source>Partials</source>
-        <target>Dielčie bloky</target>
+        <target>Parciálne dôkazy</target>
       </trans-unit>
       <trans-unit id="Partners" datatype="html">
         <source>Partners</source>
@@ -1399,7 +1399,7 @@
       </trans-unit>
       <trans-unit id="393cb54d9e9695f9941a411a448fb8e94f73c20d" datatype="html">
         <source>Lowest - Double of partials sent per day</source>
-        <target>Najnižšia - dvojnásobok odoslaných dielčich blokov za deň</target>
+        <target>Najnižšia - dvojnásobok odoslaných parciálnych dôkazov za deň</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/explorer/login/login.component.html</context>
           <context context-type="linenumber">120,122</context>
@@ -1431,7 +1431,7 @@
       </trans-unit>
       <trans-unit id="7394d7b31ddd77f326878e7c4a8d308f6f0da5c6" datatype="html">
         <source>Successful Partials</source>
-        <target>Úspešné dielčie bloky</target>
+        <target>Úspešné parciálne dôkazy</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
           <context context-type="linenumber">331,334</context>
@@ -1439,7 +1439,7 @@
       </trans-unit>
       <trans-unit id="146d9ea771a6a5d854d710e14505b9eed4b889e9" datatype="html">
         <source>Failed Partials</source>
-        <target>Neúspešné dielčie bloky</target>
+        <target>Neúspešné parciálne dôkazy</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
           <context context-type="linenumber">339,342</context>
@@ -1447,7 +1447,7 @@
       </trans-unit>
       <trans-unit id="6930616437385085682" datatype="html">
         <source>Partials</source>
-        <target>Dielčie bloky</target>
+        <target>Parciálne dôkazy</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.ts</context>
           <context context-type="linenumber">37,38</context>
@@ -1511,7 +1511,7 @@
       </trans-unit>
       <trans-unit id="3696000f5b33d0a446dfe7e1806983619dde3bfa" datatype="html">
         <source>Highest - 50% less partials per day</source>
-        <target>Najvyššia - o 50% menej dielčich blokov za deň</target>
+        <target>Najvyššia - o 50% menej parciálnych dôkazov za deň</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/explorer/login/login.component.html</context>
           <context context-type="linenumber">123,126</context>
@@ -1519,7 +1519,7 @@
       </trans-unit>
       <trans-unit id="3c7c6c234195d4fadb4825dc78ad651d6aff5b63" datatype="html">
         <source>High - 25% less partials per day</source>
-        <target>Vysoká - o 25% menej dielčich blokov za deň</target>
+        <target>Vysoká - o 25% menej parciálnych dôkazov za deň</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/explorer/login/login.component.html</context>
           <context context-type="linenumber">122,125</context>
@@ -1527,7 +1527,7 @@
       </trans-unit>
       <trans-unit id="f37c6d2e8620a16a18fc08168ea73d1767beeebf" datatype="html">
         <source>Low - 50% more partials per day</source>
-        <target>Nízka - o 50% viac dielčich blokov za deň</target>
+        <target>Nízka - o 50% viac parciálnych dôkazov za deň</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/explorer/login/login.component.html</context>
           <context context-type="linenumber">121,123</context>
@@ -1535,7 +1535,7 @@
       </trans-unit>
       <trans-unit id="7f48a5e0ee3ccda6a0d377851c9f78fa347759db" datatype="html">
         <source>Default - Around 600 partials sent per day</source>
-        <target>Predvolená - približne 600 odoslaných dielčich blokov za deň</target>
+        <target>Predvolená - približne 600 odoslaných parciálnych dôkazov za deň</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/explorer/login/login.component.html</context>
           <context context-type="linenumber">119,121</context>
@@ -1575,7 +1575,7 @@
       </trans-unit>
       <trans-unit id="701300f5b2c4871d97cc4bec997d16eabedc9bde" datatype="html">
         <source>If you have an email configured you will receive a notification if your launcher stops sending partials for more than one hour.</source>
-        <target>Ak máte nakonfigurovaný e-mail, dostanete upozornenie, ak váš spúšťač prestane odosielať dielčie bloky viac ako jednu hodinu.</target>
+        <target>Ak máte nakonfigurovaný e-mail, dostanete upozornenie, ak váš spúšťač prestane odosielať parciálne dôkazy viac ako jednu hodinu.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/explorer/login/login.component.html</context>
           <context context-type="linenumber">58,62</context>
@@ -1583,7 +1583,7 @@
       </trans-unit>
       <trans-unit id="59f994cfa3f68cad82a5d0b0e8020784215e4125" datatype="html">
         <source>Notify on Missing Partials</source>
-        <target>Upozorniť na chýbajúce dielčie bloky</target>
+        <target>Upozorniť na chýbajúce parciálne dôkazy</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/explorer/login/login.component.html</context>
           <context context-type="linenumber">62,64</context>
@@ -1607,7 +1607,7 @@
       </trans-unit>
       <trans-unit id="ca2e09ee5cdd5d5da2697af4d552d9aec72de8b7" datatype="html">
         <source>Configure the difficulty for your farm so it can send less or more partials.</source>
-        <target>Nakonfigurujte zložitosť pre svoju farmu, aby mohla posielať menej alebo viac dielčich blokov.</target>
+        <target>Nakonfigurujte zložitosť pre svoju farmu, aby mohla posielať menej alebo viac parciálnych dôkazov.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/explorer/login/login.component.html</context>
           <context context-type="linenumber">162,165</context>
@@ -1735,7 +1735,7 @@
       </trans-unit>
       <trans-unit id="SuccessfulPartials_preline" datatype="html">
         <source>Successful Partials</source>
-        <target>Úspešné dielčie bloky</target>
+        <target>Úspešné dôkazy</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
           <context context-type="linenumber">118,123</context>
@@ -1743,7 +1743,7 @@
       </trans-unit>
       <trans-unit id="FailedPartials_preline" datatype="html">
         <source>Failed Partials</source>
-        <target>Neúspešné dielčie bloky</target>
+        <target>Neúspešné dôkazy</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
           <context context-type="linenumber">128,132</context>
