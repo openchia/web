@@ -56,12 +56,20 @@
                       </ul><br />
                       <span i18n>Depending on your location, use one of the following connections</span>:
                       <ul>
-                        <li><span i18n>Global server</span>: <a
-                            href="https://pool.openchia.io">https://pool.openchia.io</a></li>
-                        <li><span i18n>Europe server</span>: <a
-                            href="https://pool-eu.openchia.io">https://pool-eu.openchia.io</a></li>
-                        <li><span i18n>Asia server</span>: <a
-                            href="https://pool-asia.openchia.io">https://pool-asia.openchia.io</a></li>
+                        <li>
+                          <span i18n>Global server</span>:
+                          <a href="https://pool.openchia.io">https://pool.openchia.io</a>
+                          <i class="fas fa-copy fa-copy-join" (click)="copyToClipboard('https://pool.openchia.io')"></i>
+                        </li>
+                        <li>
+                          <span i18n>Europe server</span>:
+                          <a href="https://pool-eu.openchia.io">https://pool-eu.openchia.io</a>
+                          <i class="fas fa-copy fa-copy-join" (click)="copyToClipboard('https://pool-eu.openchia.io')"></i>
+                        </li>
+                        <li><span i18n>Asia server</span>:
+                          <a href="https://pool-asia.openchia.io">https://pool-asia.openchia.io</a>
+                          <i class="fas fa-copy fa-copy-join" (click)="copyToClipboard('https://pool-asia.openchia.io')"></i>
+                        </li>
                       </ul>
                     </div>
                   </div>
