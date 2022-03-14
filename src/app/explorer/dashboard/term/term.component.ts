@@ -1,4 +1,4 @@
-import { AfterViewInit, Component, OnInit, ViewChild, ViewContainerRef } from '@angular/core';
+import { AfterViewInit, Component, ElementRef, OnInit, ViewChild, ViewContainerRef } from '@angular/core';
 import { NgTerminal, NgTerminalComponent } from 'ng-terminal';
 import { Observable } from 'rxjs';
 import { DataService } from 'src/app/data.service';
@@ -11,8 +11,10 @@ import { DataService } from 'src/app/data.service';
 export class TermComponent implements OnInit, AfterViewInit {
 
   @ViewChild("term", { read: ViewContainerRef }) term!: ViewContainerRef;
+  @ViewChild('partials') partials: ElementRef;
+  @ViewChild('payment') payment: ElementRef;
 
-  log$: Observable<string>;
+  log$: Observable<object>;
 
   constructor(private dataService: DataService) { }
 
@@ -26,7 +28,19 @@ export class TermComponent implements OnInit, AfterViewInit {
     // FIXME: find a way to wait for component to be created
     setTimeout(() => {
       this.log$.subscribe(
-        (msg) => c.instance.write(msg.split('\n').join('\r\n')),
+        (msg) => {
+          if('message' in msg) {
+            if('funcName' in msg) {
+              if(['update_db', 'post_partial'].includes(msg['funcName']) && !this.partials.nativeElement.checked) {
+                return;
+              }
+              if(['submit_payment_loop', 'create_payment_loop', 'check_and_confirm_partial'].includes(msg['funcName']) && !this.payment.nativeElement.checked) {
+                return;
+              }
+            }
+            c.instance.write(`${msg["timestamp"]}: ${msg["message"]}\r\n`);
+          }
+        },
       );
     }, 1000);
   }

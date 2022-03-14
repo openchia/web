@@ -16,7 +16,7 @@ export class DataService {
   private _payoutaddrs$ = new BehaviorSubject<any[]>([]);
   private _referrals$ = new BehaviorSubject<any[]>([]);
   private _ticketsRound$ = new BehaviorSubject<any[]>([]);
-  private _log$ = new BehaviorSubject<string>('');
+  private _log$ = new BehaviorSubject<any>({});
   private socket$: WebSocketSubject<any>;
 
   constructor(private httpClient: HttpClient) { }
@@ -221,7 +221,11 @@ export class DataService {
     this.socket$ = webSocket(`${proto}${window.location.host}/${wspath}/log/`);
     this.socket$.subscribe(
       msg => {
-        this._log$.next(msg['data']);
+        msg['data'].forEach(element => {
+          if(typeof element !== 'string') {
+            this._log$.next(element);
+          }
+        });
         if(msgCallback) msgCallback(msg);
       },
       err => console.log(err),
