@@ -31,10 +31,10 @@ export class TermComponent implements OnInit, AfterViewInit {
         (msg) => {
           if('message' in msg) {
             if('funcName' in msg) {
-              if(['update_db', 'post_partial'].includes(msg['funcName']) && !this.partials.nativeElement.checked) {
+              if(['update_db', 'post_partial', 'check_and_confirm_partial'].includes(msg['funcName']) && !this.partials.nativeElement.checked) {
                 return;
               }
-              if(['submit_payment_loop', 'create_payment_loop', 'check_and_confirm_partial'].includes(msg['funcName']) && !this.payment.nativeElement.checked) {
+              if(['submit_payment_loop', 'create_payment_loop'].includes(msg['funcName']) && !this.payment.nativeElement.checked) {
                 return;
               }
             }
