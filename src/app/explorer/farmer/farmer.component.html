@@ -49,7 +49,7 @@
           <th i18n>Points / Points PPLNS</th>
           <td>{{ farmer.points }} / {{ farmer.points_pplns }}</td>
           <th i18n="@@UtilizationSpace">Utilization Space</th>
-          <td>{{ farmer.points_of_total | number:"2.3" }}%</td>
+          <td>{{ farmer.share_pplns * 100 | number:"2.3" }}%</td>
         </tr>
         <tr>
           <th scope="col"><span i18n="@@EstimatedRewardDay">Estimated Reward</span>
@@ -115,8 +115,9 @@
                 <div class="col-lg-2 justify-content-center">
                   <div class="card card-lift shadow border-0">
                     <div class="card-body py-3 text-center text-uppercase">
-                      <span class="text-primary"><span i18n="@@SuccessfulPartials_preline" style="word-spacing: 300px">Successful
-                        Partials</span></span>
+                      <span class="text-primary"><span i18n="@@SuccessfulPartials_preline"
+                          style="word-spacing: 300px">Successful
+                          Partials</span></span>
                       <p class="display-3">{{ partialsSuccessful }}</p>
                     </div>
                   </div>
@@ -124,8 +125,9 @@
                 <div class="col-lg-2 justify-content-center">
                   <div class="card card-lift shadow border-0">
                     <div class="card-body py-3 text-center text-uppercase">
-                      <span class="text-warning"><span i18n="@@FailedPartials_preline" style="word-spacing: 300px">Failed
-                        Partials</span></span>
+                      <span class="text-warning"><span i18n="@@FailedPartials_preline"
+                          style="word-spacing: 300px">Failed
+                          Partials</span></span>
                       <p class="display-3">{{ partialsFailed }}</p>
                     </div>
                   </div>
@@ -144,8 +146,9 @@
                 <div class="col-lg-2 justify-content-center">
                   <div class="card card-lift shadow border-0">
                     <div class="card-body py-3 text-center text-uppercase">
-                      <span class="text-primary"><span i18n="@@HarvesterCount_preline" style="word-spacing: 300px">Harvester
-                        Count</span></span>
+                      <span class="text-primary"><span i18n="@@HarvesterCount_preline"
+                          style="word-spacing: 300px">Harvester
+                          Count</span></span>
                       <p class="display-3">{{ harvesters.size }}</p>
                     </div>
                   </div>
@@ -306,10 +309,10 @@
                       class="show collapse in" style="display: block;" aria-expanded="false" aria-hidden="false">
                       <div class="card-body opacity-8">
                         <div class="row justify-content-center">
-                          <ngx-charts-area-chart [scheme]="partialsChartColors" [legend]="false" [showXAxisLabel]="false"
-                            [showYAxisLabel]="true" [xAxis]="true" [yAxis]="true" [xAxisLabel]="harvesterXAxisLabel"
-                            [yAxisLabel]="harvesterYAxisLabel" [timeline]="false" [results]="mapEntry.value.data"
-                            [xAxisTicks]="harvesterXTicks" [gradient]="true">
+                          <ngx-charts-area-chart [scheme]="partialsChartColors" [legend]="false"
+                            [showXAxisLabel]="false" [showYAxisLabel]="true" [xAxis]="true" [yAxis]="true"
+                            [xAxisLabel]="harvesterXAxisLabel" [yAxisLabel]="harvesterYAxisLabel" [timeline]="false"
+                            [results]="mapEntry.value.data" [xAxisTicks]="harvesterXTicks" [gradient]="true">
                             <ng-template #seriesTooltipTemplate let-model="model">
                               <div *ngFor="let item of model">
                                 {{ item.label }}
