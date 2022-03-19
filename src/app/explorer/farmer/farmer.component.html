@@ -43,13 +43,14 @@
           <th><span i18n>Estimated Size </span><i class="fas fa-info-circle"
               ngbTooltip="Be aware this is a rough estimate and will vary based on the partials sent for the last 24 hours! This is by no means a representation of your actual farm size."></i>
           </th>
-          <td>{{ farmer.estimated_size || 0 | filesize:{"base": 2, "standard": "iec" } }}</td>
+          <td>{{ farmer.estimated_size || 0 | filesize:{"base": 2, "standard": "iec" } }} (<span i18n>{{
+              farmer.share_pplns * 100 | number:"2.3" }}% of pool</span>)</td>
         </tr>
         <tr>
           <th i18n>Points / Points PPLNS</th>
           <td>{{ farmer.points }} / {{ farmer.points_pplns }}</td>
-          <th i18n="@@UtilizationSpace">Utilization Space</th>
-          <td>{{ farmer.share_pplns * 100 | number:"2.3" }}%</td>
+          <th i18n>Effective Fee</th>
+          <td>{{ farmer.fee.final * 100 | number:".4"}}%</td>
         </tr>
         <tr>
           <th scope="col"><span i18n="@@EstimatedRewardDay">Estimated Reward</span>
@@ -560,8 +561,43 @@
         </ng-template>
       </li>
 
-      <!-- Giveaways -->
+      <!-- Fee -->
       <li [ngbNavItem]="6">
+        <a ngbNavLink><i class="fa fa-percent"></i>&nbsp;<span i18n>Fee</span></a>
+        <ng-template ngbNavContent>
+          <br />
+          <div class="row justify-content-center">
+            <div class="col-lg-6 justify-content-center">
+
+              <table class="table table-sm table-striped table-responsive-lg">
+                <tbody>
+                  <tr>
+                    <th scope="col" i18n>Pool Base Fee</th>
+                    <td>{{ farmer.fee.pool * 100 | number }}%</td>
+                  </tr>
+                  <tr>
+                    <th scope="col"><i class="fa fa-minus"></i>&nbsp;<span i18n>Length of Stay Discount</span></th>
+                    <td>{{ farmer.fee.stay_length_discount * 100 | number }}% (<span i18n>Max</span>: {{
+                      farmer.fee.stay_length_discount_max * 100 | number }}%)</td>
+                  </tr>
+                  <tr>
+                    <th scope="col"><i class="fa fa-minus"></i>&nbsp;<span i18n>Size Discount</span></th>
+                    <td>{{ farmer.fee.size_discount * 100 | number }}%</td>
+                  </tr>
+                  <tr>
+                    <th scope="col"><i class="fa fa-equals"></i>&nbsp;<span i18n>Effective Fee</span></th>
+                    <td>{{ farmer.fee.final * 100 | number }}%</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+          </div>
+        </ng-template>
+      </li>
+
+      <!-- Giveaways -->
+      <li [ngbNavItem]="7">
         <a ngbNavLink><i class="fa fa-gift"></i>&nbsp;<span i18n="@@Giveaways">Giveaways</span></a>
         <ng-template ngbNavContent>
           <table class="table table-sm table-striped table-responsive-lg">
