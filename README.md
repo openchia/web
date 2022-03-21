@@ -71,7 +71,7 @@ The main branch is usually the currently released latest version on website and 
 
 ## License
 
-**OpenChia** is made with ♥ by [team][4] and it's released under the MIT license.
+**OpenChia** is made with ♥ by [team][4] and it's released under the AGPLv3 license.
 
 [1]: https://github.com/openchia
 [2]: https://translation.openchia.io
