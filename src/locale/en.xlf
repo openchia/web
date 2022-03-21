@@ -245,15 +245,11 @@
           <context context-type="linenumber">106,109</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="Calculator" datatype="html">
+      <trans-unit id="ProfitabilityCalculator" datatype="html">
         <source>Profitability Calculator</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/calculator/calculator.component.html</context>
           <context context-type="linenumber">18,21</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/shared/navbar/navbar.component.html</context>
-          <context context-type="linenumber">57,60</context>
         </context-group>
       </trans-unit>
       <trans-unit id="e1c7fd374631fc26f5eefac25afd46152c50613d" datatype="html">
@@ -390,7 +386,7 @@
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
-          <context context-type="linenumber">474,479</context>
+          <context context-type="linenumber">481,486</context>
         </context-group>
       </trans-unit>
       <trans-unit id="1d807733635e1587142d0bf8c9253414da999d08" datatype="html">
@@ -521,7 +517,7 @@
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
-          <context context-type="linenumber">172,176</context>
+          <context context-type="linenumber">175,179</context>
         </context-group>
       </trans-unit>
       <trans-unit id="UtilizationSpace" datatype="html">
@@ -564,7 +560,7 @@
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
-          <context context-type="linenumber">495,498</context>
+          <context context-type="linenumber">502,505</context>
         </context-group>
       </trans-unit>
       <trans-unit id="Date" datatype="html">
@@ -575,15 +571,15 @@
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
-          <context context-type="linenumber">172,174</context>
+          <context context-type="linenumber">175,177</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
-          <context context-type="linenumber">437,439</context>
+          <context context-type="linenumber">444,446</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
-          <context context-type="linenumber">497,499</context>
+          <context context-type="linenumber">504,506</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/explorer/payout/payout.component.html</context>
@@ -605,7 +601,7 @@
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
-          <context context-type="linenumber">509,512</context>
+          <context context-type="linenumber">516,519</context>
         </context-group>
       </trans-unit>
       <trans-unit id="06dac242b2c951e365884c1362470cb82067cce1" datatype="html">
@@ -616,7 +612,7 @@
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
-          <context context-type="linenumber">511,514</context>
+          <context context-type="linenumber">518,521</context>
         </context-group>
       </trans-unit>
       <trans-unit id="PoolEffort" datatype="html">
@@ -627,7 +623,7 @@
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
-          <context context-type="linenumber">499,502</context>
+          <context context-type="linenumber">506,509</context>
         </context-group>
       </trans-unit>
       <trans-unit id="a1dcf7ffffc0aa88ff396abe738ab0f053ddcd7a" datatype="html">
@@ -645,19 +641,19 @@
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
-          <context context-type="linenumber">455,458</context>
+          <context context-type="linenumber">462,465</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
-          <context context-type="linenumber">529,533</context>
+          <context context-type="linenumber">536,540</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
-          <context context-type="linenumber">532,535</context>
+          <context context-type="linenumber">539,542</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/explorer/payout/payout.component.html</context>
-          <context context-type="linenumber">66,70</context>
+          <context context-type="linenumber">64,68</context>
         </context-group>
       </trans-unit>
       <trans-unit id="Lucky" datatype="html">
@@ -668,7 +664,7 @@
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
-          <context context-type="linenumber">535,537</context>
+          <context context-type="linenumber">542,544</context>
         </context-group>
       </trans-unit>
       <trans-unit id="Average" datatype="html">
@@ -679,7 +675,7 @@
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
-          <context context-type="linenumber">536,541</context>
+          <context context-type="linenumber">543,548</context>
         </context-group>
       </trans-unit>
       <trans-unit id="Unlucky" datatype="html">
@@ -690,7 +686,7 @@
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
-          <context context-type="linenumber">537,541</context>
+          <context context-type="linenumber">544,548</context>
         </context-group>
       </trans-unit>
       <trans-unit id="cb137bd024242b35a1f084f90e1c3966d8e7a192" datatype="html">
@@ -708,7 +704,7 @@
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
-          <context context-type="linenumber">379,384</context>
+          <context context-type="linenumber">386,391</context>
         </context-group>
       </trans-unit>
       <trans-unit id="ID" datatype="html">
@@ -719,7 +715,7 @@
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
-          <context context-type="linenumber">436,438</context>
+          <context context-type="linenumber">443,445</context>
         </context-group>
       </trans-unit>
       <trans-unit id="2f933b826a570836cab04f683970a2d22068458c" datatype="html">
@@ -737,11 +733,11 @@
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
-          <context context-type="linenumber">439,443</context>
+          <context context-type="linenumber">446,450</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
-          <context context-type="linenumber">497,500</context>
+          <context context-type="linenumber">504,507</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/explorer/payout/payout.component.html</context>
@@ -749,7 +745,7 @@
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/explorer/payout/payout.component.html</context>
-          <context context-type="linenumber">48,53</context>
+          <context context-type="linenumber">46,51</context>
         </context-group>
       </trans-unit>
       <trans-unit id="NoPayouts" datatype="html">
@@ -760,7 +756,7 @@
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
-          <context context-type="linenumber">460,465</context>
+          <context context-type="linenumber">467,472</context>
         </context-group>
       </trans-unit>
       <trans-unit id="PoolWallets" datatype="html">
@@ -916,7 +912,7 @@
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
-          <context context-type="linenumber">136,139</context>
+          <context context-type="linenumber">138,141</context>
         </context-group>
       </trans-unit>
       <trans-unit id="Hrs24" datatype="html">
@@ -941,291 +937,291 @@
         <source>Successful Partials</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
-          <context context-type="linenumber">118,123</context>
+          <context context-type="linenumber">119,124</context>
         </context-group>
       </trans-unit>
       <trans-unit id="FailedPartials_preline" datatype="html">
         <source>Failed Partials</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
-          <context context-type="linenumber">128,132</context>
+          <context context-type="linenumber">130,134</context>
         </context-group>
       </trans-unit>
       <trans-unit id="Performance" datatype="html">
         <source>Performance</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
-          <context context-type="linenumber">137,139</context>
+          <context context-type="linenumber">139,141</context>
         </context-group>
       </trans-unit>
       <trans-unit id="HarvesterCount_preline" datatype="html">
         <source>Harvester Count</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
-          <context context-type="linenumber">148,152</context>
+          <context context-type="linenumber">151,155</context>
         </context-group>
       </trans-unit>
       <trans-unit id="994cefce55bece12954b80736323ba6def5aad13" datatype="html">
         <source>Partials</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
-          <context context-type="linenumber">159,162</context>
+          <context context-type="linenumber">162,165</context>
         </context-group>
       </trans-unit>
       <trans-unit id="99c327c9e1e22d737142df163e93f2a269847d6a" datatype="html">
         <source>Show failed partials only</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
-          <context context-type="linenumber">163,168</context>
+          <context context-type="linenumber">166,171</context>
         </context-group>
       </trans-unit>
       <trans-unit id="f28fe410357b7e5eda20cbc152995a24781a591a" datatype="html">
         <source>Harvester ID</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
-          <context context-type="linenumber">173,178</context>
+          <context context-type="linenumber">176,181</context>
         </context-group>
       </trans-unit>
       <trans-unit id="8c79808d7b1e990cda0548f365d6bf85493197d4" datatype="html">
         <source>Plot ID</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
-          <context context-type="linenumber">174,179</context>
+          <context context-type="linenumber">177,182</context>
         </context-group>
       </trans-unit>
       <trans-unit id="873b72903b1858a9cd6c8967521030b4d7d1435b" datatype="html">
         <source>State</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
-          <context context-type="linenumber">175,180</context>
+          <context context-type="linenumber">178,183</context>
         </context-group>
       </trans-unit>
       <trans-unit id="c135821495429ff3fd89664f549ec24da765b5d5" datatype="html">
         <source>No partials found!</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
-          <context context-type="linenumber">203,208</context>
+          <context context-type="linenumber">206,211</context>
         </context-group>
       </trans-unit>
       <trans-unit id="6080b77234e92ad41bb52653b239c4c4f851317d" datatype="html">
         <source>Error</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
-          <context context-type="linenumber">224,230</context>
+          <context context-type="linenumber">227,233</context>
         </context-group>
       </trans-unit>
       <trans-unit id="4f8b2bb476981727ab34ed40fde1218361f92c45" datatype="html">
         <source>Details</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
-          <context context-type="linenumber">225,231</context>
+          <context context-type="linenumber">228,234</context>
         </context-group>
       </trans-unit>
       <trans-unit id="fde8d089e5441f8459c6ae22c7fcff640906be0c" datatype="html">
         <source> Farmer took too long to validate the partial proof of space. Make sure your proof of space lookups are fast, and network connectivity is good. Response must happen in less than 25 seconds. Your NAS or network farming can be an issue. This happens when your disks are in use (plotting) or when waking up. </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
-          <context context-type="linenumber">232,239</context>
+          <context context-type="linenumber">235,242</context>
         </context-group>
       </trans-unit>
       <trans-unit id="8963f37c8e7fa9167301fbf66501d11989cf5906" datatype="html">
         <source>Same partial proof was sent more than once.</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
-          <context context-type="linenumber">241,245</context>
+          <context context-type="linenumber">244,248</context>
         </context-group>
       </trans-unit>
       <trans-unit id="a43037fc899fd6771b3924922d355916c6459d23" datatype="html">
         <source>Signage point is invalid or was not found in pool&apos;s node blockchain.</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
-          <context context-type="linenumber">245,249</context>
+          <context context-type="linenumber">248,252</context>
         </context-group>
       </trans-unit>
       <trans-unit id="cc63e91bfbf9d68cc7704bc5ebb522dbc806e376" datatype="html">
         <source>The proof sent is not good enough for the current difficulty of the farmer.</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
-          <context context-type="linenumber">249,253</context>
+          <context context-type="linenumber">252,256</context>
         </context-group>
       </trans-unit>
       <trans-unit id="a389c988a2dececc2e4ec639b50f13c684c61561" datatype="html">
         <source>Plot NFT (pool smart contract) no longer in the pool. Farmer left the pool.</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
-          <context context-type="linenumber">253,259</context>
+          <context context-type="linenumber">256,262</context>
         </context-group>
       </trans-unit>
       <trans-unit id="70fcfad151d8d88177d28c5ac544e980c46e7878" datatype="html">
         <source>?</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
-          <context context-type="linenumber">258,263</context>
+          <context context-type="linenumber">261,266</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
-          <context context-type="linenumber">262,267</context>
+          <context context-type="linenumber">265,270</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
-          <context context-type="linenumber">266,271</context>
+          <context context-type="linenumber">269,274</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
-          <context context-type="linenumber">270,274</context>
+          <context context-type="linenumber">273,277</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
-          <context context-type="linenumber">274,279</context>
+          <context context-type="linenumber">277,282</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
+          <context context-type="linenumber">281,286</context>
         </context-group>
       </trans-unit>
       <trans-unit id="Harvesters" datatype="html">
         <source>Harvesters</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
-          <context context-type="linenumber">286,291</context>
+          <context context-type="linenumber">293,298</context>
         </context-group>
       </trans-unit>
       <trans-unit id="1e8637d563bf447efb2563a20a30f6091d11fa05" datatype="html">
         <source> Harvester <x id="INTERPOLATION" equiv-text="{{ mapEntry.key"/> </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
-          <context context-type="linenumber">297</context>
+          <context context-type="linenumber">304</context>
         </context-group>
       </trans-unit>
       <trans-unit id="72c8d24dd54e5dc27746903fa10e1b64a7d9ff96" datatype="html">
         <source>Total Points</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
-          <context context-type="linenumber">323,326</context>
+          <context context-type="linenumber">330,333</context>
         </context-group>
       </trans-unit>
       <trans-unit id="7394d7b31ddd77f326878e7c4a8d308f6f0da5c6" datatype="html">
         <source>Successful Partials</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
-          <context context-type="linenumber">331,334</context>
+          <context context-type="linenumber">338,341</context>
         </context-group>
       </trans-unit>
       <trans-unit id="146d9ea771a6a5d854d710e14505b9eed4b889e9" datatype="html">
         <source>Failed Partials</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
-          <context context-type="linenumber">339,342</context>
+          <context context-type="linenumber">346,349</context>
         </context-group>
       </trans-unit>
       <trans-unit id="da1bcec161d959bf88a99855ca5272e44821e9ec" datatype="html">
         <source>Estimated Size</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
-          <context context-type="linenumber">359,362</context>
+          <context context-type="linenumber">366,369</context>
         </context-group>
       </trans-unit>
       <trans-unit id="a1f628ad227ee4387049f2a6dabaa5894eccd1c1" datatype="html">
         <source>Total transaction(s)</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
-          <context context-type="linenumber">389,393</context>
+          <context context-type="linenumber">396,400</context>
         </context-group>
       </trans-unit>
       <trans-unit id="TotalPaid" datatype="html">
         <source>Total paid</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
-          <context context-type="linenumber">398,401</context>
+          <context context-type="linenumber">405,408</context>
         </context-group>
       </trans-unit>
       <trans-unit id="TotalUnpaid" datatype="html">
         <source>Total unpaid</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
-          <context context-type="linenumber">408,411</context>
+          <context context-type="linenumber">415,418</context>
         </context-group>
       </trans-unit>
       <trans-unit id="41453c3d7e0a1ac2e5c9e73d3f8f5bf9ec23b829" datatype="html">
         <source>Export CSV</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
-          <context context-type="linenumber">418,420</context>
+          <context context-type="linenumber">425,427</context>
         </context-group>
       </trans-unit>
       <trans-unit id="Transaction" datatype="html">
         <source>Transaction</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
-          <context context-type="linenumber">437,440</context>
+          <context context-type="linenumber">444,447</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/explorer/payout/payout.component.html</context>
-          <context context-type="linenumber">47,52</context>
+          <context context-type="linenumber">45,50</context>
         </context-group>
       </trans-unit>
       <trans-unit id="Block" datatype="html">
         <source>Block</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
-          <context context-type="linenumber">438,441</context>
+          <context context-type="linenumber">445,448</context>
         </context-group>
       </trans-unit>
       <trans-unit id="Price" datatype="html">
         <source>Price</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
-          <context context-type="linenumber">440,444</context>
+          <context context-type="linenumber">447,451</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
-          <context context-type="linenumber">498,501</context>
+          <context context-type="linenumber">505,508</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/explorer/payout/payout.component.html</context>
-          <context context-type="linenumber">49,53</context>
+          <context context-type="linenumber">47,51</context>
         </context-group>
       </trans-unit>
       <trans-unit id="Payout" datatype="html">
         <source>Payout</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
-          <context context-type="linenumber">441,445</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/explorer/payout/payout.component.html</context>
-          <context context-type="linenumber">45,48</context>
+          <context context-type="linenumber">448,452</context>
         </context-group>
       </trans-unit>
       <trans-unit id="5f0da6ce66a56080556f29471c1660b3054ff693" datatype="html">
         <source>Total block(s)</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
-          <context context-type="linenumber">483,487</context>
+          <context context-type="linenumber">490,494</context>
         </context-group>
       </trans-unit>
       <trans-unit id="84b0b07a20939d16c2253f8d5505cc4d4bc0524e" datatype="html">
         <source> The effort that was required to farm the block. 100% is the expected estimated time to win. Lower than 100% means we farmed the block before the estimation. Higher than 100% means we took longer than anticipated. </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
-          <context context-type="linenumber">502,507</context>
+          <context context-type="linenumber">509,514</context>
         </context-group>
       </trans-unit>
       <trans-unit id="a91a60516b5081738e593fb71984586e10310351" datatype="html">
         <source>No blocks found by this farmer!</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
-          <context context-type="linenumber">544,549</context>
+          <context context-type="linenumber">551,556</context>
         </context-group>
       </trans-unit>
       <trans-unit id="Giveaways" datatype="html">
         <source>Giveaways</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
-          <context context-type="linenumber">558,563</context>
+          <context context-type="linenumber">565,570</context>
         </context-group>
       </trans-unit>
       <trans-unit id="31a3292deef4bade8cb245291aa57218d40fff2b" datatype="html">
         <source>No giveaways available!</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
-          <context context-type="linenumber">583,589</context>
+          <context context-type="linenumber">590,596</context>
         </context-group>
       </trans-unit>
       <trans-unit id="24036095495322476" datatype="html">
@@ -1547,28 +1543,35 @@
         <source>Payout Chart</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/explorer/payout/payout.component.html</context>
-          <context context-type="linenumber">25,28</context>
+          <context context-type="linenumber">25,27</context>
         </context-group>
       </trans-unit>
       <trans-unit id="PayoutAddresses" datatype="html">
         <source>Payout Addresses</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/explorer/payout/payout.component.html</context>
-          <context context-type="linenumber">41,46</context>
+          <context context-type="linenumber">39,44</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="PayoutID" datatype="html">
+        <source>Payout ID</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/explorer/payout/payout.component.html</context>
+          <context context-type="linenumber">43,46</context>
         </context-group>
       </trans-unit>
       <trans-unit id="Launcher" datatype="html">
         <source>Launcher ID</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/explorer/payout/payout.component.html</context>
-          <context context-type="linenumber">46,49</context>
+          <context context-type="linenumber">44,47</context>
         </context-group>
       </trans-unit>
       <trans-unit id="NoPayoutsAddrs" datatype="html">
         <source>No payouts addresses found!</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/explorer/payout/payout.component.html</context>
-          <context context-type="linenumber">70,74</context>
+          <context context-type="linenumber">68,73</context>
         </context-group>
       </trans-unit>
       <trans-unit id="4dd528d342ff5124d147ccda4b52133fd1cf1f96" datatype="html">
@@ -1653,7 +1656,7 @@
         <source>Reward Distribution <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/></source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/fees/fees.component.html</context>
-          <context context-type="linenumber">53,54</context>
+          <context context-type="linenumber">54,55</context>
         </context-group>
       </trans-unit>
       <trans-unit id="65c2add576b6cc0123921ca2c70055d914dd743f" datatype="html">
@@ -1661,14 +1664,14 @@
                     When a"/> When a block is won, each farmer will receive the share correspondent of the last 24 hours of partials sent to the pool. </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/fees/fees.component.html</context>
-          <context context-type="linenumber">61,62</context>
+          <context context-type="linenumber">62,63</context>
         </context-group>
       </trans-unit>
       <trans-unit id="fe2fc19b1e0a9f190d69d6e0205603bd52302256" datatype="html">
         <source>Payouts <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/></source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/fees/fees.component.html</context>
-          <context context-type="linenumber">71,72</context>
+          <context context-type="linenumber">73,74</context>
         </context-group>
       </trans-unit>
       <trans-unit id="156562cbb56af0a84ab8393baae60567447d2f6d" datatype="html">
@@ -1676,26 +1679,14 @@
                     These"/> These terms are subjected to change and will be communicated 1 week prior to the change in this website and on Discord channel. </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/fees/fees.component.html</context>
-          <context context-type="linenumber">80,81</context>
+          <context context-type="linenumber">82,83</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="Giveaway" datatype="html">
+      <trans-unit id="WeeklyGiveaway" datatype="html">
         <source>Weekly Giveaway</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/giveaway/giveaway.component.html</context>
           <context context-type="linenumber">19,23</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/giveaway/giveaway.component.html</context>
-          <context context-type="linenumber">33,38</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/giveaway/giveaway.component.html</context>
-          <context context-type="linenumber">107,112</context>
-        </context-group>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/shared/navbar/navbar.component.html</context>
-          <context context-type="linenumber">39,44</context>
         </context-group>
       </trans-unit>
       <trans-unit id="DrawDate" datatype="html">
@@ -1707,6 +1698,21 @@
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/giveaway/giveaway.component.html</context>
           <context context-type="linenumber">105,110</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="Giveaway" datatype="html">
+        <source>Giveaway</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/giveaway/giveaway.component.html</context>
+          <context context-type="linenumber">33,38</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/giveaway/giveaway.component.html</context>
+          <context context-type="linenumber">107,112</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/navbar/navbar.component.html</context>
+          <context context-type="linenumber">33,38</context>
         </context-group>
       </trans-unit>
       <trans-unit id="eb97bb6690238c06861c1f1d1c2cee8adebc9515" datatype="html">
@@ -1797,112 +1803,112 @@
         <source>Depending on your location, use one of the following connections</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/join/join.component.html</context>
-          <context context-type="linenumber">57,60</context>
+          <context context-type="linenumber">57,61</context>
         </context-group>
       </trans-unit>
       <trans-unit id="63c60af5ab55d6c06a49a800c4ed33711d49786d" datatype="html">
         <source>Global server</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/join/join.component.html</context>
-          <context context-type="linenumber">59,61</context>
+          <context context-type="linenumber">60,62</context>
         </context-group>
       </trans-unit>
       <trans-unit id="9fa3541c52680eba1974868c25d14614729859f3" datatype="html">
         <source>Europe server</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/join/join.component.html</context>
-          <context context-type="linenumber">61,63</context>
+          <context context-type="linenumber">65,67</context>
         </context-group>
       </trans-unit>
       <trans-unit id="4872c78bed407e6941cd9e3f6d877b1a47871341" datatype="html">
         <source>Asia server</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/join/join.component.html</context>
-          <context context-type="linenumber">63,66</context>
+          <context context-type="linenumber">70,72</context>
         </context-group>
       </trans-unit>
       <trans-unit id="016f90328109ecb0a5e9aabc9de8610ea082c106" datatype="html">
         <source>Join pool from CLI</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/join/join.component.html</context>
-          <context context-type="linenumber">74,77</context>
+          <context context-type="linenumber">84,87</context>
         </context-group>
       </trans-unit>
       <trans-unit id="7bd8d87bee680e3c2864194b40b8215887743d2b" datatype="html">
         <source>Get your wallet ID</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/join/join.component.html</context>
-          <context context-type="linenumber">83,86</context>
+          <context context-type="linenumber">93,96</context>
         </context-group>
       </trans-unit>
       <trans-unit id="92b2ee409313a4fdded34d9fa4f93527a9d20e34" datatype="html">
         <source>Joining OpenChia pool with</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/join/join.component.html</context>
-          <context context-type="linenumber">89,92</context>
+          <context context-type="linenumber">99,102</context>
         </context-group>
       </trans-unit>
       <trans-unit id="2c40472450770609c852ada57a456dacb80d9436" datatype="html">
         <source>It will ask for your confirmation, check all details and confirm with Y.</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/join/join.component.html</context>
-          <context context-type="linenumber">95,99</context>
+          <context context-type="linenumber">105,109</context>
         </context-group>
       </trans-unit>
       <trans-unit id="f00b4ad657318902da5754e02c1f4793aded16e2" datatype="html">
         <source>Wait few minutes and enjoy!</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/join/join.component.html</context>
-          <context context-type="linenumber">96,101</context>
+          <context context-type="linenumber">106,112</context>
         </context-group>
       </trans-unit>
       <trans-unit id="e0edf26c80aca37596e1e705133c46d418be9a7b" datatype="html">
         <source>Join pool from GUI</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/join/join.component.html</context>
-          <context context-type="linenumber">106,109</context>
+          <context context-type="linenumber">117,120</context>
         </context-group>
       </trans-unit>
       <trans-unit id="aaea572dc2fa3f8ede6fd86fbcaebbddf84c49af" datatype="html">
         <source>Open the Chia GUI and click &quot;Pool&quot; and then &quot;Join a pool&quot;</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/join/join.component.html</context>
-          <context context-type="linenumber">114,116</context>
+          <context context-type="linenumber">125,127</context>
         </context-group>
       </trans-unit>
       <trans-unit id="4df37db8f9fefb8537ec32bbd510b552b4a0d980" datatype="html">
         <source>Choose &quot;Connect to pool&quot; and enter this URL &quot;https://pool.openchia.io&quot; (exactly, no ending slash), verify pool details and click on &quot;Create&quot; button</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/join/join.component.html</context>
-          <context context-type="linenumber">116,119</context>
+          <context context-type="linenumber">127,130</context>
         </context-group>
       </trans-unit>
       <trans-unit id="cd65cc61760794d063f92f12ab4239bedea399ba" datatype="html">
         <source>Confirm pool connection and you can create Plot NFT</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/join/join.component.html</context>
-          <context context-type="linenumber">122,125</context>
+          <context context-type="linenumber">133,136</context>
         </context-group>
       </trans-unit>
       <trans-unit id="dbcb1043ef9863a615caf8fe43167602d997a020" datatype="html">
         <source>Need help?</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/join/join.component.html</context>
-          <context context-type="linenumber">133,137</context>
+          <context context-type="linenumber">145,149</context>
         </context-group>
       </trans-unit>
       <trans-unit id="a9a644f0d41d3bc59e5718da3567016c8be4f012" datatype="html">
         <source>Should you run into issues, reach out in </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/join/join.component.html</context>
-          <context context-type="linenumber">141,143</context>
+          <context context-type="linenumber">153,155</context>
         </context-group>
       </trans-unit>
       <trans-unit id="ec4c16ce1379433827e65540b23881cb96878be1" datatype="html">
         <source>Discord channel if you have any questions. OpenChia have a great community</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/join/join.component.html</context>
-          <context context-type="linenumber">143,150</context>
+          <context context-type="linenumber">155,162</context>
         </context-group>
       </trans-unit>
       <trans-unit id="69b383cb15575d3b4ca5855d19a1df4a2dd2df83" datatype="html">
@@ -2147,38 +2153,46 @@
           <context context-type="linenumber">393,397</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="Partners" datatype="html">
+      <trans-unit id="e85a30628b502c939d1ad9f651309a0356f40af8" datatype="html">
         <source>Partners</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/partners/partners.component.html</context>
-          <context context-type="linenumber">18,21</context>
+          <context context-type="linenumber">25,32</context>
         </context-group>
+      </trans-unit>
+      <trans-unit id="34490e4cf9382027cfbcdfdc1628c837dccc4fa3" datatype="html">
+        <source>Spacescan</source>
         <context-group purpose="location">
-          <context context-type="sourcefile">src/app/shared/footer/footer.component.html</context>
+          <context context-type="sourcefile">src/app/partners/partners.component.html</context>
+          <context context-type="linenumber">39,43</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ee1c3083db3f81955e946dbc72f585707dab23a5" datatype="html">
+        <source>is new generation Chia blockchain explorer and analytics platform. Developed by a small team of Chia enthusiasts, who aim to bring out in-depth information&apos;s from Blockchain and make it widely available to Chia community and developers</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/partners/partners.component.html</context>
           <context context-type="linenumber">48,52</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="cd819aeb3fde6d576c3a06db94df2af062d3c6ae" datatype="html">
-        <source>Please meet our partners, together for a better world.</source>
+      <trans-unit id="2fea1c5b7fc431b2dfdb3357c425623c7a587090" datatype="html">
+        <source>Vivid Stake Pool</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/partners/partners.component.html</context>
-          <context context-type="linenumber">19,23</context>
+          <context context-type="linenumber">70,74</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="e8f8bfee9c42759fb958a5d80b93ec339729227f" datatype="html">
-        <source> They are offering cutting-edge cryptocurrency technology of today and tomorrow. Vivid Stake Pool allows you to stake in Cardano. If you deposit your Fiat Money on your bank account, you will receive 1-3 % profit per year which will be paid after at least a few months. In Cardano it is the opposite: you receive high profits as high as 5-8 % per year which is paid every 5 days!</source>
+      <trans-unit id="08a08ba19068a7e105cfb8e87f23d1841ae1a9de" datatype="html">
+        <source>They are offering cutting-edge cryptocurrency technology of today and tomorrow. Vivid Stake Pool allows you to stake in Cardano. If you deposit your Fiat Money on your bank account, you will receive 1-3 % profit per year which will be paid after at least a few months. In Cardano it is the opposite: you receive high profits as high as 5-8 % per year which is paid every 5 days!</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/partners/partners.component.html</context>
-          <context context-type="linenumber">27,32</context>
+          <context context-type="linenumber">79,85</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="73a8ec5516d65d93db9f62e2916eb969a29a842d" datatype="html">
-        <source>OpenChia believes that in a future blockchain and cryptocurrency can exist without degrading the environment and helping make the world a better place. We believe Chia and Cardano can coexist to help make that happen. If you&apos;d like to know more about Cardano and/or join a legitimate staking pool please visit <x id="START_LINK" ctype="x-a" equiv-text="&lt;a
-        href=&quot;"/>Vivid Pool<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;.&lt;/p&gt;
-    &lt;a h"/>.</source>
+      <trans-unit id="5f93c1d930c8b25e1521d0419d1065097e89e4b0" datatype="html">
+        <source>OpenChia believes that in a future blockchain and cryptocurrency can exist without degrading the environment and helping make the world a better place. We believe Chia and Cardano can coexist to help make that happen. If you&apos;d like to know more about Cardano and/or join a legitimate staking pool please visit</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/partners/partners.component.html</context>
-          <context context-type="linenumber">31,34</context>
+          <context context-type="linenumber">85,88</context>
         </context-group>
       </trans-unit>
       <trans-unit id="Referral" datatype="html">
@@ -2189,7 +2203,7 @@
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/navbar/navbar.component.html</context>
-          <context context-type="linenumber">61,64</context>
+          <context context-type="linenumber">55,58</context>
         </context-group>
       </trans-unit>
       <trans-unit id="Beta" datatype="html">
@@ -2311,6 +2325,13 @@
           <context context-type="linenumber">45,48</context>
         </context-group>
       </trans-unit>
+      <trans-unit id="Partners" datatype="html">
+        <source>Partners</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/footer/footer.component.html</context>
+          <context context-type="linenumber">48,52</context>
+        </context-group>
+      </trans-unit>
       <trans-unit id="Uptime" datatype="html">
         <source>Uptime</source>
         <context-group purpose="location">
@@ -2318,53 +2339,53 @@
           <context context-type="linenumber">52,57</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="MITLicense" datatype="html">
-        <source>MIT License</source>
+      <trans-unit id="AGPLv3License" datatype="html">
+        <source>AGPLv3 License</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/footer/footer.component.html</context>
           <context context-type="linenumber">55,61</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="Home" datatype="html">
-        <source>Home</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/shared/navbar/navbar.component.html</context>
-          <context context-type="linenumber">27,32</context>
         </context-group>
       </trans-unit>
       <trans-unit id="Explorer" datatype="html">
         <source>Explorer</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/navbar/navbar.component.html</context>
-          <context context-type="linenumber">33,38</context>
+          <context context-type="linenumber">27,32</context>
         </context-group>
       </trans-unit>
       <trans-unit id="Stats" datatype="html">
         <source>Stats</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/navbar/navbar.component.html</context>
-          <context context-type="linenumber">45,49</context>
+          <context context-type="linenumber">39,43</context>
         </context-group>
       </trans-unit>
       <trans-unit id="More" datatype="html">
         <source>More</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/navbar/navbar.component.html</context>
-          <context context-type="linenumber">52,55</context>
+          <context context-type="linenumber">46,49</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="Calculator" datatype="html">
+        <source>Calculator</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/navbar/navbar.component.html</context>
+          <context context-type="linenumber">51,54</context>
         </context-group>
       </trans-unit>
       <trans-unit id="Fees" datatype="html">
         <source>Fees</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/navbar/navbar.component.html</context>
-          <context context-type="linenumber">65,68</context>
+          <context context-type="linenumber">59,62</context>
         </context-group>
       </trans-unit>
       <trans-unit id="API" datatype="html">
         <source>API</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/navbar/navbar.component.html</context>
-          <context context-type="linenumber">69,75</context>
+          <context context-type="linenumber">63,69</context>
         </context-group>
       </trans-unit>
       <trans-unit id="a90d29cc4f9d39cac908dbbbbd998ad61f164e88" datatype="html">
@@ -2389,15 +2410,15 @@
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/stats/stats.component.html</context>
-          <context context-type="linenumber">141,143</context>
+          <context context-type="linenumber">143,145</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/stats/stats.component.html</context>
-          <context context-type="linenumber">190,192</context>
+          <context context-type="linenumber">193,195</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/stats/stats.component.html</context>
-          <context context-type="linenumber">239,241</context>
+          <context context-type="linenumber">243,245</context>
         </context-group>
       </trans-unit>
       <trans-unit id="b7e16af662bc4ecccd2ec389a29a4e34d48a607c" datatype="html">
@@ -2408,15 +2429,15 @@
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/stats/stats.component.html</context>
-          <context context-type="linenumber">143,145</context>
+          <context context-type="linenumber">145,147</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/stats/stats.component.html</context>
-          <context context-type="linenumber">192,194</context>
+          <context context-type="linenumber">195,197</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/stats/stats.component.html</context>
-          <context context-type="linenumber">241,243</context>
+          <context context-type="linenumber">245,247</context>
         </context-group>
       </trans-unit>
       <trans-unit id="6149963f7b6e8339a7db40be653830239841e51b" datatype="html">
@@ -2427,15 +2448,15 @@
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/stats/stats.component.html</context>
-          <context context-type="linenumber">145,147</context>
+          <context context-type="linenumber">147,149</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/stats/stats.component.html</context>
-          <context context-type="linenumber">194,196</context>
+          <context context-type="linenumber">197,199</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/stats/stats.component.html</context>
-          <context context-type="linenumber">243,245</context>
+          <context context-type="linenumber">247,249</context>
         </context-group>
       </trans-unit>
       <trans-unit id="d2936a0d7a7cd1014fdb81195a40a38fd3d70bc7" datatype="html">
@@ -2446,15 +2467,15 @@
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/stats/stats.component.html</context>
-          <context context-type="linenumber">147,149</context>
+          <context context-type="linenumber">149,151</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/stats/stats.component.html</context>
-          <context context-type="linenumber">196,198</context>
+          <context context-type="linenumber">199,201</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/stats/stats.component.html</context>
-          <context context-type="linenumber">245,247</context>
+          <context context-type="linenumber">249,251</context>
         </context-group>
       </trans-unit>
       <trans-unit id="ab102e798754de9510d2434b0a2cf2e55cadfa86" datatype="html">
@@ -2465,43 +2486,43 @@
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/stats/stats.component.html</context>
-          <context context-type="linenumber">149,155</context>
+          <context context-type="linenumber">151,157</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/stats/stats.component.html</context>
-          <context context-type="linenumber">198,204</context>
+          <context context-type="linenumber">201,207</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/stats/stats.component.html</context>
-          <context context-type="linenumber">247,253</context>
+          <context context-type="linenumber">251,257</context>
         </context-group>
       </trans-unit>
       <trans-unit id="881c1f8f173d0e8c6012f72d1687d61b70c10cfa" datatype="html">
         <source>Pool Blocks <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i class=&quot;ni ni-b"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/></source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/stats/stats.component.html</context>
-          <context context-type="linenumber">88,89</context>
+          <context context-type="linenumber">89,90</context>
         </context-group>
       </trans-unit>
       <trans-unit id="d11711d2d1f92e7a7a720214a60ada2398b75c37" datatype="html">
         <source>Netspace <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i class=&quot;ni ni-b"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/></source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/stats/stats.component.html</context>
-          <context context-type="linenumber">115</context>
+          <context context-type="linenumber">117</context>
         </context-group>
       </trans-unit>
       <trans-unit id="3dbdf1f38a8f197e0a77eb460d31e26e1b820841" datatype="html">
         <source>XCH Price </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/stats/stats.component.html</context>
-          <context context-type="linenumber">165,168</context>
+          <context context-type="linenumber">168,171</context>
         </context-group>
       </trans-unit>
       <trans-unit id="4031e66dfb64440787f51a453a5858760c418de7" datatype="html">
         <source>Pool Space <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/></source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/stats/stats.component.html</context>
-          <context context-type="linenumber">213,214</context>
+          <context context-type="linenumber">217,218</context>
         </context-group>
       </trans-unit>
     </body>

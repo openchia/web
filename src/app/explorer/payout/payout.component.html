@@ -23,11 +23,9 @@
     </table>
 
     <h3 class="display-3" i18n>Payout Chart</h3>
-    <ngx-charts-pie-chart [view]="[ContainerRef.offsetWidth]"
-      [legend]="payoutaddrsLegend" [animations]="payoutaddrsAnimations"
-      [results]="payoutaddrsData" [gradient]="true" [labels]="true"
-      [arcWidth]="0.50" [doughnut]="true" [explodeSlices]="false"
-      [scheme]="colorScheme">
+    <ngx-charts-pie-chart [view]="[ContainerRef.offsetWidth]" [legend]="payoutaddrsLegend"
+      [animations]="payoutaddrsAnimations" [results]="payoutaddrsData" [gradient]="true" [labels]="true"
+      [arcWidth]="0.50" [doughnut]="true" [explodeSlices]="false" [scheme]="colorScheme">
       <ng-template #seriesTooltipTemplate let-model="model">
         {{ model[0].name }}<br />
         {{ model[0].value }} XCH
@@ -42,7 +40,7 @@
     <table class="table table-sm table-striped table-responsive-lg">
       <thead>
         <tr>
-          <th scope="col" i18n="@@Payout">Payout ID</th>
+          <th scope="col" i18n="@@PayoutID">Payout ID</th>
           <th scope="col" i18n="@@Launcher">Launcher ID</th>
           <th scope="col" i18n="@@Transaction">Transaction</th>
           <th scope="col" i18n="@@Amount">Amount</th>
@@ -71,8 +69,8 @@
         </tr>
       </tbody>
     </table>
-    <ngb-pagination [collectionSize]="payoutaddrsCollectionSize" [(page)]="payoutaddrsPage" [pageSize]="payoutaddrsPageSize"
-      (pageChange)="refreshPayoutAddrs()">
+    <ngb-pagination [collectionSize]="payoutaddrsCollectionSize" [(page)]="payoutaddrsPage"
+      [pageSize]="payoutaddrsPageSize" (pageChange)="refreshPayoutAddrs()">
     </ngb-pagination>
   </div>
 
