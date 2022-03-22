@@ -621,8 +621,8 @@
         <target>Uistite sa, že používate oficiálny klient Chia 1.2.0 alebo novší.</target>
       </trans-unit>
       <trans-unit id="Calculator" datatype="html">
-        <source>Profitability Calculator</source>
-        <target>Kalkulačka ziskovosti</target>
+        <source>Calculator</source>
+        <target>Kalkulačka</target>
       </trans-unit>
       <trans-unit id="cb137bd024242b35a1f084f90e1c3966d8e7a192" datatype="html">
         <source>No blocks found!</source>
@@ -817,8 +817,8 @@
         <target>Poplatky</target>
       </trans-unit>
       <trans-unit id="Giveaway" datatype="html">
-        <source>Weekly Giveaway</source>
-        <target>Týždenné rozdávanie</target>
+        <source>Giveaway</source>
+        <target>Rozdávanie</target>
       </trans-unit>
       <trans-unit id="Harversters" datatype="html">
         <source>Harvesters</source>
@@ -1755,6 +1755,94 @@
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
           <context context-type="linenumber">148,152</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ProfitabilityCalculator" datatype="html">
+        <source>Profitability Calculator</source>
+        <target>Kalkulačka ziskovosti</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/calculator/calculator.component.html</context>
+          <context context-type="linenumber">18,21</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5f93c1d930c8b25e1521d0419d1065097e89e4b0" datatype="html">
+        <source>OpenChia believes that in a future blockchain and cryptocurrency can exist without degrading the environment and helping make the world a better place. We believe Chia and Cardano can coexist to help make that happen. If you'd like to know more about Cardano and/or join a legitimate staking pool please visit</source>
+        <target>OpenChia verí, že v budúcnosti môžu blockchain a kryptomeny existovať bez toho, aby zhoršovali životné prostredie a pomáhali robiť svet lepším miestom. Veríme, že Chia a Cardano môžu koexistovať, aby tomu pomohli. Ak by ste sa chceli dozvedieť viac o Cardano a/alebo sa pripojiť k legitímnemu vkladovému združeniu, navštívte</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/partners/partners.component.html</context>
+          <context context-type="linenumber">85,88</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="PayoutID" datatype="html">
+        <source>Payout ID</source>
+        <target>ID výplaty</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/explorer/payout/payout.component.html</context>
+          <context context-type="linenumber">43,46</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="WeeklyGiveaway" datatype="html">
+        <source>Weekly Giveaway</source>
+        <target>Týždenné rozdávanie</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/giveaway/giveaway.component.html</context>
+          <context context-type="linenumber">19,23</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8772e3e0fe23c783721bee21d882a580f395e756" datatype="html">
+        <source>How to join OpenChia</source>
+        <target>Ako sa pripojiť k OpenChia</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/join/join.component.html</context>
+          <context context-type="linenumber">25,31</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="e85a30628b502c939d1ad9f651309a0356f40af8" datatype="html">
+        <source>Partners</source>
+        <target>Partneri</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/partners/partners.component.html</context>
+          <context context-type="linenumber">25,32</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="34490e4cf9382027cfbcdfdc1628c837dccc4fa3" datatype="html">
+        <source>Spacescan</source>
+        <target>Spacescan</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/partners/partners.component.html</context>
+          <context context-type="linenumber">39,43</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ee1c3083db3f81955e946dbc72f585707dab23a5" datatype="html">
+        <source>is new generation Chia blockchain explorer and analytics platform. Developed by a small team of Chia enthusiasts, who aim to bring out in-depth information's from Blockchain and make it widely available to Chia community and developers</source>
+        <target>je nová generácia prieskumníka a analytickej platformy pre Chia blockchain. Vyvinutý malým tímom Chia nadšencov, ktorých cieľom je priniesť podrobné informácie z Blockchainu a sprístupniť ich Chia komunite a vývojárom</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/partners/partners.component.html</context>
+          <context context-type="linenumber">48,52</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2fea1c5b7fc431b2dfdb3357c425623c7a587090" datatype="html">
+        <source>Vivid Stake Pool</source>
+        <target>Vivid Stake Pool</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/partners/partners.component.html</context>
+          <context context-type="linenumber">70,74</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="08a08ba19068a7e105cfb8e87f23d1841ae1a9de" datatype="html">
+        <source>They are offering cutting-edge cryptocurrency technology of today and tomorrow. Vivid Stake Pool allows you to stake in Cardano. If you deposit your Fiat Money on your bank account, you will receive 1-3 % profit per year which will be paid after at least a few months. In Cardano it is the opposite: you receive high profits as high as 5-8 % per year which is paid every 5 days!</source>
+        <target>Ponúkajú špičkovú technológiu kryptomien dneška a zajtrajška. Vivid Stake Pool vám umožňuje vklady v Cardano. Ak vložíte svoje Fiat Money na svoj bankový účet, získate 1-3 % zisku ročne, ktorý vám bude vyplatený minimálne po niekoľkých mesiacoch. V Cardane je to naopak: dostanete vysoké zisky až 5-8 % ročne, ktoré sa vyplácajú každých 5 dní!</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/partners/partners.component.html</context>
+          <context context-type="linenumber">79,85</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="AGPLv3License" datatype="html">
+        <source>AGPLv3 License</source>
+        <target>AGPLv3 License</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/footer/footer.component.html</context>
+          <context context-type="linenumber">55,61</context>
         </context-group>
       </trans-unit>
     </body>
