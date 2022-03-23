@@ -184,6 +184,14 @@ export class DataService {
     return this.httpClient.get(`${this.REST_API_SERVER}stats/xchprice/`, { params });
   }
 
+  getMempool(days?: number) {
+    var params = new HttpParams();
+    if(days) {
+      params = params.set('days', days);
+    }
+    return this.httpClient.get(`${this.REST_API_SERVER}stats/mempool/`, { params });
+  }
+
   getNext(url) {
     return this.httpClient.get(url);
   }

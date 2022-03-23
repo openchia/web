@@ -64,6 +64,13 @@ export class StatsComponent implements OnInit {
   blocksShowAxisYLabel: boolean = false;
   blocksData: any[] = null;
 
+  mempoolDays: number = 1;
+  mempoolAxisX: boolean = false;
+  mempoolAxisY: boolean = true;
+  mempoolShowAxisXLabel: boolean = true;
+  mempoolShowAxisYLabel: boolean = false;
+  mempoolData: any[] = null;
+
   blocksColorScheme = { domain: ['#149b00'] };
 
   colorScheme = { domain: ['#006400', '#9ef01a', '#008000', '#70e000'] };
@@ -75,6 +82,7 @@ export class StatsComponent implements OnInit {
     this.refreshSize(7);
     this.getNetspace(7);
     this.getXchPrice(7);
+    this.getMempool(1);
     this.getBlocks();
   }
 
@@ -98,6 +106,24 @@ export class StatsComponent implements OnInit {
           "series": v,
         })
       })
+
+    })
+  }
+
+  getMempool(days: number) {
+    this.dataService.getMempool(days).subscribe((d) => {
+
+      this.mempoolDays = days;
+      this.mempoolData = [{
+        "name": "Full Percentage",
+        "series": (<any[]>d).filter(item => item['field'] == 'full_pct').map((item) => {
+          return ({
+            "name": (new Date(item['datetime']).toLocaleString()),
+            "value": item['value'],
+            "label": `${item['value']}%`,
+          })
+        })
+      }];
 
     })
   }
@@ -197,6 +223,10 @@ export class StatsComponent implements OnInit {
 
   netspaceFormatAxisY(spaceData: number) {
     return (spaceData / 1024 ** 4).toFixed(0).toString() + ' EiB';
+  }
+
+  mempoolFormatAxisY(data: number) {
+    return (data).toFixed(0).toString() + '%';
   }
 
 }

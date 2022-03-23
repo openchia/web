@@ -214,6 +214,60 @@
                     <div class="card-header card-join">
                       <h5 class="mb-0">
                         <button aria-controls="collapseOne" type="button"
+                          class="btn btn-link w-100 text-primary text-left" aria-expanded="true" i18n>Chia Mempool
+                          Occupied
+                          (After
+                          23rd March)
+                          <i class="ni ni-bold-down float-right pt-1"></i>
+                        </button>
+                      </h5>
+                    </div>
+                    <div aria-labelledby="headingOne" class="show collapse in" style="display: block;"
+                      aria-expanded="false" aria-hidden="false" #mempoolContainerRef>
+                      <br />
+                      <ngx-charts-area-chart [view]="[mempoolContainerRef.offsetWidth]" [legend]="false"
+                        [showXAxisLabel]="ngSpaceShowAxisXLabel" [autoScale]="false" [showGridLines]="true"
+                        [showYAxisLabel]="ngSpaceShowAxisYLabel" [yAxis]="ngSpaceAxisY" [timeline]="false"
+                        [xAxis]="ngSpaceAxisX" [animations]="true" [results]="mempoolData"
+                        [yAxisTickFormatting]="mempoolFormatAxisY" [gradient]="true" [scheme]="colorScheme">
+                        <ng-template #seriesTooltipTemplate let-model="model">
+                          <div *ngFor="let item of model">
+                            {{ item.label }}
+                          </div>
+                          {{ model[0].name }}
+                        </ng-template>
+                        <ng-template #tooltipTemplate let-model="model">
+                          {{ model.label }}<br />
+                          {{ model.name }}
+                        </ng-template>
+                      </ngx-charts-area-chart>
+                      <br />
+                      <div class="justify-content-center">
+                        <button class="btn btn-neutral col-sm-2" type="radio" (click)="getMempool(1)"
+                          [disabled]="mempoolDays == 1" i18n>1 Day</button>
+                        <button class="btn btn-neutral col-sm-2" type="radio" (click)="getMempool(7)"
+                          [disabled]="mempoolDays == 7" i18n>7 Days</button>
+                        <button class="btn btn-neutral col-sm-2" type="radio" (click)="getMempool(30)"
+                          [disabled]="mempoolDays == 30" i18n>1 Month</button>
+                        <button class="btn btn-neutral col-sm-2" type="radio" (click)="getMempool(90)"
+                          [disabled]="mempoolDays == 90" i18n>3 Months</button>
+                        <button class="btn btn-neutral col-sm-2" type="radio" (click)="getMempool(365)"
+                          [disabled]="mempoolDays == 365" i18n>1 Year</button>
+                      </div>
+                      <br />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <br />
+            <div class="row">
+              <div class="col-md-12 ml-auto">
+                <div class="accordion">
+                  <div class="card">
+                    <div class="card-header card-join">
+                      <h5 class="mb-0">
+                        <button aria-controls="collapseOne" type="button"
                           class="btn btn-link w-100 text-primary text-left" aria-expanded="true" i18n>Pool Space <i
                             class="ni ni-bold-down float-right pt-1"></i>
                         </button>
