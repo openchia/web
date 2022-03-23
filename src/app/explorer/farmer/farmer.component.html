@@ -28,10 +28,16 @@
               (not set) <i class="fas fa-info-circle" closeDelay="4000" [ngbTooltip]="notsetTooltip"></i>
             </span>
           </td>
-          <th i18n="@@Joined">Joined At</th>
+          <th i18n="@@FirstLastJoined">First/Last Joined At</th>
           <td>
             <span *ngIf="farmer.joined_at">{{ farmer.joined_at | date:"medium" }}</span>
             <span *ngIf="!farmer.joined_at" i18n>
+              (unknown) <i class="fas fa-info-circle"
+                ngbTooltip="Unknown because this user arrived before the integration of this function in pool."></i>
+            </span>
+            /
+            <span *ngIf="farmer.joined_last_at">{{ farmer.joined_last_at | date:"medium" }}</span>
+            <span *ngIf="!farmer.joined_last_at" i18n>
               (unknown) <i class="fas fa-info-circle"
                 ngbTooltip="Unknown because this user arrived before the integration of this function in pool."></i>
             </span>
@@ -573,12 +579,15 @@
                 <tbody>
                   <tr>
                     <th scope="col" i18n>Pool Base Fee</th>
-                    <td>{{ farmer.fee.pool * 100 | number }}%</td>
+                    <td>{{ farmer.fee.pool / farmer.fee.pool | number }}%</td>
                   </tr>
                   <tr>
                     <th scope="col"><i class="fa fa-minus"></i>&nbsp;<span i18n>Length of Stay Discount</span></th>
-                    <td>{{ farmer.fee.stay_length_discount * 100 | number }}% (<span i18n>Max</span>: {{
-                      farmer.fee.stay_length_discount_max * 100 | number }}%)</td>
+                    <td>{{ farmer.fee.stay_length_discount / farmer.fee.pool | number }}% (<span i18n>Max</span>: {{
+                      farmer.fee.stay_length_discount_max / farmer.fee.pool | number }}%, {{ farmer.fee.stay_length_days
+                      / 7 |
+                      number:".0-0" }}/{{
+                      farmer.fee.stay_length_days_max / 7 | number:".0-0" }} <span i18n>weeks</span>)</td>
                   </tr>
                   <tr>
                     <th scope="col"><i class="fa fa-minus"></i>&nbsp;<span i18n>Size Discount</span></th>
@@ -586,7 +595,10 @@
                   </tr>
                   <tr>
                     <th scope="col"><i class="fa fa-equals"></i>&nbsp;<span i18n>Effective Fee</span></th>
-                    <td>{{ farmer.fee.final * 100 | number }}%</td>
+                    <td>{{ farmer.fee.final * 100 | number }}%<span
+                        *ngIf="(farmer.fee.size_discount / farmer.fee.pool + farmer.fee.stay_length_discount / farmer.fee.pool) > farmer.fee.max_discount">
+                        (<span i18n>Maximum
+                          discount reached</span>)</span></td>
                   </tr>
                 </tbody>
               </table>
