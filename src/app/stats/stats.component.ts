@@ -66,7 +66,7 @@ export class StatsComponent implements OnInit {
 
   blocksColorScheme = { domain: ['#149b00'] };
 
-  colorScheme = { domain: ['#149b00', '#006400', '#9ef01a'] };
+  colorScheme = { domain: ['#006400', '#9ef01a', '#008000', '#70e000'] };
 
   constructor(private dataService: DataService) { }
 
