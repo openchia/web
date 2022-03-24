@@ -1845,6 +1845,102 @@
           <context context-type="linenumber">55,61</context>
         </context-group>
       </trans-unit>
+      <trans-unit id="7bd8d87bee680e3c2864194b40b8215887743d2b" datatype="html">
+        <source>Get your wallet ID</source>
+        <target>Zistite ID vašej peňaženky</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/join/join.component.html</context>
+          <context context-type="linenumber">93,96</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="92b2ee409313a4fdded34d9fa4f93527a9d20e34" datatype="html">
+        <source>Joining OpenChia pool with</source>
+        <target>Pripojte sa k združeniu OpenChia pomocou</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/join/join.component.html</context>
+          <context context-type="linenumber">99,102</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2c40472450770609c852ada57a456dacb80d9436" datatype="html">
+        <source>It will ask for your confirmation, check all details and confirm with Y.</source>
+        <target>Po zobrazení požiadavky o potvrdenie, skontrolujte všetky podrobnosti a potvrďte pomocou Y.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/join/join.component.html</context>
+          <context context-type="linenumber">105,109</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="f00b4ad657318902da5754e02c1f4793aded16e2" datatype="html">
+        <source>Wait few minutes and enjoy!</source>
+        <target>Počkajte pár minút a užívajte si!</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/join/join.component.html</context>
+          <context context-type="linenumber">106,112</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="e0edf26c80aca37596e1e705133c46d418be9a7b" datatype="html">
+        <source>Join pool from GUI</source>
+        <target>Pripojte sa k združeniu cez GUI</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/join/join.component.html</context>
+          <context context-type="linenumber">117,120</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dbcb1043ef9863a615caf8fe43167602d997a020" datatype="html">
+        <source>Need help?</source>
+        <target>Potrebujete pomoc?</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/join/join.component.html</context>
+          <context context-type="linenumber">145,149</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="a9a644f0d41d3bc59e5718da3567016c8be4f012" datatype="html">
+        <source>Should you run into issues, reach out in</source>
+        <target>Ak narazíte na problémy, kontaktujte nás na</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/join/join.component.html</context>
+          <context context-type="linenumber">153,155</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ec4c16ce1379433827e65540b23881cb96878be1" datatype="html">
+        <source>Discord channel if you have any questions. OpenChia have a great community</source>
+        <target>Discord kanál, ak máte nejaké otázky. OpenChia má skvelú komunitu</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/join/join.component.html</context>
+          <context context-type="linenumber">155,162</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="289e01482548f4ba123d8dff218beea557d9b3e3" datatype="html">
+        <source>Currently we charge 1% fee. If a reward of 1.75 XCH is found, only 1% of that, 0.0175 will be kept to the pool as a fee.<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br /&gt;                     The re"/> The remaining 1.7325 XCH will be distributed to pool farmers. </source>
+        <target>V súčasnosti účtujeme poplatok vo výške 1 %. Ak sa nájde odmena vo výške 1,75 XCH, iba 1 % z toho (0,0175) sa ponechá združeniu ako poplatok.<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br /&gt;                     The re"/> Zvyšných 1,7325 XCH bude rozdelených medzi farmárov. </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/fees/fees.component.html</context>
+          <context context-type="linenumber">43,45</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="016f90328109ecb0a5e9aabc9de8610ea082c106" datatype="html">
+        <source>Join pool from CLI</source>
+        <target>Pripojte sa k združeniu z príkazového riadka</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/join/join.component.html</context>
+          <context context-type="linenumber">84,87</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="e4e4bee53c0a5bf3cbeea905c09e4c8a64d66972" datatype="html">
+        <source>Refer your friends to this pool using the URL https://openchia.io?referrer=YOUR_LAUNCHER_ID. Replace YOUR_LAUNCHER_ID with the Launcher ID from your Plot NFT.</source>
+        <target>Odporučte svojich priateľov na toto združenie pomocou adresy URL https://openchia.io?referrer=YOUR_LAUNCHER_ID. Nahraďte YOUR_LAUNCHER_ID identifikátorom spúšťača z vášho NFT pre polia.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/referral/referral.component.html</context>
+          <context context-type="linenumber">25,29</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8f6de837ab829da31d0ce0ce7cf31b55b72da670" datatype="html">
+        <source>Have your friend join the pool and login to the pool website using the Plot NFT login link. He will confirm you are his referrer. (Referrer is filled automatically if he visited the website with your link)</source>
+        <target>Požiadajte svojho priateľa alebo svoju priateľku, aby sa pripojili k združeniu a prihláste sa na webovú stránku združenia pomocou HTTP odkazu na prihlásenie do združenia. Tam musí potvrdiť, že ste ho/ju odporučili. (Odporúčajúci sa vyplní automaticky, ak bola webovú stránka navštívená pomocou vášho URL)</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/referral/referral.component.html</context>
+          <context context-type="linenumber">28,31</context>
+        </context-group>
+      </trans-unit>
     </body>
   </file>
 </xliff>
