@@ -21,7 +21,6 @@ export class AppComponent implements OnInit {
 
     @HostListener('window:scroll', ['$event'])
     hasScrolled() {
-
         var st = window.pageYOffset;
         // Make sure they scroll more than delta
         if(Math.abs(lastScrollTop - st) <= delta)
@@ -41,7 +40,7 @@ export class AppComponent implements OnInit {
         } else {
             // Scroll Up
             //  $(window).height()
-            if(st + window.innerHeight < document.body.scrollHeight) {
+            if(st + window.innerHeight < document.body.scrollHeight || st == 0) {
                 // $('.navbar.headroom--unpinned').removeClass('headroom--unpinned').addClass('headroom--pinned');
                 if(navbar.classList.contains('headroom--unpinned')) {
                     navbar.classList.remove('headroom--unpinned');
