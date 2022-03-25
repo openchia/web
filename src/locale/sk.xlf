@@ -1941,6 +1941,62 @@
           <context context-type="linenumber">28,31</context>
         </context-group>
       </trans-unit>
+      <trans-unit id="ee18fc2a4ba7341f62cdebe41cb45a6c8c1146b8" datatype="html">
+        <source>Fees <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/></source>
+        <target>Poplatky <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/></target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/fees/fees.component.html</context>
+          <context context-type="linenumber">36</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="fe2fc19b1e0a9f190d69d6e0205603bd52302256" datatype="html">
+        <source>Payouts <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/></source>
+        <target>Výplaty <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/></target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/fees/fees.component.html</context>
+          <context context-type="linenumber">73,74</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="aaea572dc2fa3f8ede6fd86fbcaebbddf84c49af" datatype="html">
+        <source>Open the Chia GUI and click "Pool" and then "Join a pool"</source>
+        <target>Otvorte Chia GUI a kliknite "Združenie" a potom "Pripojiť sa k združeniu"</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/join/join.component.html</context>
+          <context context-type="linenumber">125,127</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="d11711d2d1f92e7a7a720214a60ada2398b75c37" datatype="html">
+        <source>Netspace <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i class=&quot;ni ni-b"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/></source>
+        <target>Veľkosť siete <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i class=&quot;ni ni-b"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/></target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/stats/stats.component.html</context>
+          <context context-type="linenumber">117</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4031e66dfb64440787f51a453a5858760c418de7" datatype="html">
+        <source>Pool Space <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/></source>
+        <target>Veľkosť združenia <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/></target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/stats/stats.component.html</context>
+          <context context-type="linenumber">217,218</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1e8637d563bf447efb2563a20a30f6091d11fa05" datatype="html">
+        <source>Harvester <x id="INTERPOLATION" equiv-text="{{ mapEntry.key"/> </source>
+        <target>Zberač <x id="INTERPOLATION" equiv-text="{{ mapEntry.key"/> </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
+          <context context-type="linenumber">304</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6419a64d1c82713a79329a9e4476c6e47e831211" datatype="html">
+        <source>You will receive 20% of the pool fee for every payment made to your friend. That value comes out of the pool and not from your friend reward!</source>
+        <target>Za každú platbu združenia odoslanú vášmu priateľovi dostanete 20% z poplatku združenia. Táto hodnota pochádza zo združenia a nie z odmeny vášho priateľa!</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/referral/referral.component.html</context>
+          <context context-type="linenumber">31,36</context>
+        </context-group>
+      </trans-unit>
     </body>
   </file>
 </xliff>
