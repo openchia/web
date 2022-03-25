@@ -124,12 +124,12 @@
               <div class="card card-lift shadow border-0">
                 <div class="card-body py-4">
                   <h6 class="text-primary text-uppercase text-center" i18n>
-                    🎁 Weekly Giveaway
+                    ➗ Fee Discount
                   </h6>
                   <p class="description mt-3" i18n>
-                    All farmer participating in our pool are eligible in our
-                    giveaway! Tickets on farmer page,
-                    <a [routerLink]="['/giveaway']">read more</a>.
+                    Farmers can get up to 0.25% of discount in the pool fee based on their estimated size and length of
+                    stay,
+                    <a [routerLink]="['/fees']">read more</a>.
                   </p>
                 </div>
               </div>
@@ -186,26 +186,25 @@
 
   <br /><br />
 
-  <!-- Giveaway promote -->
+  <!-- Discount promote -->
   <section class="section section-sm section-shaped">
     <div class="shape shape-style-1 shape-default"></div>
     <div class="container py-sm">
       <div class="row row-grid justify-content-between align-items-center">
-        <div class="col-lg-5 mb-lg-auto">
+        <div class="col-lg-4 mb-lg-auto">
           <div class="card-landing align-items-right">
-            <img class="card-landing-center img-gift" src="./assets/img/giveaway/gift-landing.png" />
+            <span style="font-size: 140px"><i class="fa fa-percent"></i></span>
           </div>
         </div>
-        <div class="col-lg-6 text-center">
+        <div class="col-lg-8 text-center">
           <h3 class="display-3 text-white text-shadow" i18n>
-            Weekly Giveaway!
+            Fee Discount!
           </h3>
-          <p class="lead text-white" i18n>
-            All farmers participating in our pool are automatically eligible in
-            our giveaway!
-          </p>
+          <p class="text-white" i18n>The bigger your farmer the bigger the discount!</p>
+          <p class="text-white" i18n>The longer you stay the bigger the discount!</p>
+          <p class="lead text-white" i18n>Up to 0.25% of fee discount, effective final fee of 0.75%.</p>
           <div class="btn-wrapper">
-            <a class="btn btn-neutral btn-icon" [routerLink]="['/giveaway']" i18n>Read more</a>
+            <a class="btn btn-neutral btn-icon" [routerLink]="['/fees']" i18n>Read more</a>
           </div>
         </div>
       </div>
