@@ -71,13 +71,13 @@
               </span>
             </ng-template>
             <span *ngIf="payoutaddr.transaction?.transaction"
-              class="badge badge-pill badge-success" i18n>
-              Confirmed
+              class="badge badge-pill badge-success">
+              <span i18n>Confirmed</span>
             </span>
             <span *ngIf="!payoutaddr.transaction?.transaction"
               closeDelay="4000" [ngbTooltip]="pendingTransactionTooltip"
-              class="badge badge-pill badge-warning" i18n>
-              Pending <i class="fas fa-info-circle"></i>
+              class="badge badge-pill badge-warning">
+              <span i18n>Pending</span>&nbsp;<i class="fas fa-info-circle"></i>
             </span>
           </td>
         </tr>
