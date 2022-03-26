@@ -59,6 +59,14 @@
           <td>{{ farmer.fee.final * 100 | number:".4"}}%</td>
         </tr>
         <tr>
+          <th i18n>Estimated Time to Win (ETW)</th>
+          <td *ngIf="farmer.current_etw">{{ humanize(farmer.current_etw * 1000) }}</td>
+          <td *ngIf="!farmer.current_etw" i18n>Unknown</td>
+          <th i18n>Current Effort</th>
+          <td *ngIf="farmer.current_effort">{{ farmer.current_effort }}%</td>
+          <td *ngIf="!farmer.current_effort" i18n>Unknown</td>
+        </tr>
+        <tr>
           <th scope="col"><span i18n="@@EstimatedRewardDay">Estimated Reward</span>
             <ng-template #estimatedrewardDayTooltip>
               <span i18n>Profitability based on blocks farmed on last 30 days, based on your farm space.</span>
