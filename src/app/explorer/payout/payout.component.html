@@ -45,6 +45,7 @@
           <th scope="col" i18n="@@Transaction">Transaction</th>
           <th scope="col" i18n="@@Amount">Amount</th>
           <th scope="col" i18n="@@Price">Price</th>
+          <th scope="col" i18n="@@State">State</th>
         </tr>
       </thead>
       <tbody *ngIf="(payoutaddrs$ | async) as payoutaddrs;">
@@ -62,6 +63,22 @@
             <span *ngIf="payoutaddr.transaction && payoutaddr.transaction.xch_price">${{
               payoutaddr.transaction.xch_price.usd * (payoutaddr.amount / 1000000000000) | number }} USD</span>
             <span *ngIf="!payoutaddr.transaction || !payoutaddr.transaction.xch_price" i18n="@@Unknown">Unknown</span>
+          </td>
+          <td>
+            <ng-template #pendingTransactionTooltip>
+              <span i18n>
+                The minimum payout has not been reached, transaction will be made at the next payment.
+              </span>
+            </ng-template>
+            <span *ngIf="payoutaddr.transaction?.transaction"
+              class="badge badge-pill badge-success">
+              <span i18n>Confirmed</span>
+            </span>
+            <span *ngIf="!payoutaddr.transaction?.transaction"
+              closeDelay="4000" [ngbTooltip]="pendingTransactionTooltip"
+              class="badge badge-pill badge-warning">
+              <span i18n>Pending</span>&nbsp;<i class="fas fa-info-circle"></i>
+            </span>
           </td>
         </tr>
         <tr *ngIf="payoutaddrs.length == 0">
