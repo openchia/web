@@ -5,8 +5,7 @@ import { Observable, Subject, BehaviorSubject } from 'rxjs';
 import { NgbModal } from '@ng-bootstrap/ng-bootstrap';
 import { AngularCsv } from 'angular-csv-ext/dist/Angular-csv';
 import { ClipboardService } from 'ngx-clipboard';
-import { isJSDocThisTag } from 'typescript';
-import { AbstractEmitterVisitor } from '@angular/compiler/src/output/abstract_emitter';
+import { humanizer } from 'humanize-duration';
 
 @Component({
   selector: 'app-farmer',
@@ -104,6 +103,11 @@ export class FarmerComponent implements OnInit {
         this.xch_tb_month = data['xch_tb_month'];
       })
     });
+  }
+
+  humanize(seconds: number) {
+    var h = humanizer();
+    return h(seconds);
   }
 
   _handlePartial(subscriber, data, successes, errors, hours) {
