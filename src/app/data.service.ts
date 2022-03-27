@@ -242,6 +242,13 @@ export class DataService {
     );
   }
 
+  sendLog(msg) {
+    if(!this.socket$) {
+      return;
+    }
+    this.socket$.next(JSON.stringify(msg));
+  }
+
   disconnectLog() {
     if(this.socket$) {
       this.socket$.unsubscribe();
