@@ -23,6 +23,18 @@ export class TermComponent implements OnInit, AfterViewInit {
     this.dataService.connectLog();
   }
 
+  changeTopic() {
+    var msg = [];
+
+    if(this.partials.nativeElement.checked) {
+      msg.push('partials');
+    }
+    if(this.payment.nativeElement.checked) {
+      msg.push('payments');
+    }
+    this.dataService.sendLog(msg);
+  }
+
   ngAfterViewInit() {
     var c = this.term.createComponent(NgTerminalComponent);
     // FIXME: find a way to wait for component to be created

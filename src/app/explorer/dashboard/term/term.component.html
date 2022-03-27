@@ -1,9 +1,9 @@
 <ng-template #term></ng-template>
 <div class="row col-lg-12">
   <div class="col-lg-3">
-    <input type="checkbox" #partials /> Show partials logs
+    <input type="checkbox" (change)="changeTopic()" #partials /> Show partials logs
   </div>
   <div class="col-lg-3">
-    <input type="checkbox" #payment checked /> Show payment logs
+    <input type="checkbox" (change)="changeTopic()" #payment checked /> Show payment logs
   </div>
 </div>
