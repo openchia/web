@@ -1997,6 +1997,318 @@
           <context context-type="linenumber">31,36</context>
         </context-group>
       </trans-unit>
+      <trans-unit id="36f5ed45c02c58443303bb0f5ac128afee978116" datatype="html">
+        <source>Example: After 6 months (180 days) you will get a discount of 0.0479%, effective pool fee of 0.9520%.</source>
+        <target>Príklad: Po 6 mesiacoch (180 dňoch) získate zľavu 0,0479%, efektívny poplatok združenia je 0,9521%.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/fees/fees.component.html</context>
+          <context context-type="linenumber">55,58</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="530481992eb9a3720538a3eba3ca0604d2560710" datatype="html">
+        <source>Leaving the pool for more than 12 hours will reset the discount!</source>
+        <target>Ak opustíte združenie na viac ako 12 hodín, zľava sa vynuluje!</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/fees/fees.component.html</context>
+          <context context-type="linenumber">57,60</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2afa95c297af9cf1b1649bbcc3684c97a3a43799" datatype="html">
+        <source>Farmers can get up to 0.25% of discount in the pool fee based on their estimated size and length of stay, <x id="START_LINK" ctype="x-a" equiv-text="&lt;a [routerLink]=&quot;"/>read more<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;."/>. </source>
+        <target>Farmári môžu získať až 0,25% zľavu z poplatku združenia na základe ich odhadovanej veľkosti a dĺžky pobytu, <x id="START_LINK" ctype="x-a" equiv-text="&lt;a [routerLink]=&quot;"/>prečítajte si viac<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;."/>. </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/landing/landing.component.html</context>
+          <context context-type="linenumber">130,132</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="42ab40e1b3b054df561416189620d1f3bd9e3e30" datatype="html">
+        <source>Chia Mempool Occupied (After 23rd March) <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i class=&quot;ni ni-bo"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/></source>
+        <target>Obsadenosť Chia Mempool (po 23. marci) <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i class=&quot;ni ni-bo"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/></target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/stats/stats.component.html</context>
+          <context context-type="linenumber">217,221</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="FirstLastJoined" datatype="html">
+        <source>First/Last Joined At</source>
+        <target>Prvé/posledné pripojenie o</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
+          <context context-type="linenumber">31,35</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="622fcb04a0b030ea101d3525330778966df5fecb" datatype="html">
+        <source>Effective Fee</source>
+        <target>Efektívny poplatok</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
+          <context context-type="linenumber">58,63</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
+          <context context-type="linenumber">605,607</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="c9d1ff044a1f8454ba61e33eeb8cae2cebd5051f" datatype="html">
+        <source>Estimated Time to Win (ETW)</source>
+        <target>Odhadovaný čas na výhru (OČV)</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
+          <context context-type="linenumber">62,65</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="e5d8bb389c702588877f039d72178f219453a72d" datatype="html">
+        <source>Unknown</source>
+        <target>Neznáme</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
+          <context context-type="linenumber">64,67</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
+          <context context-type="linenumber">67,71</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="b7122aa7e824953414e6cacb484552f95172b992" datatype="html">
+        <source>Current Effort</source>
+        <target>Aktuálne úsilie</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
+          <context context-type="linenumber">65,68</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="d06bcf60e753d935944af3f39801a43c9ee6169e" datatype="html">
+        <source><x id="INTERPOLATION" equiv-text="s }} / {{ farme"/>% of pool</source>
+        <target><x id="INTERPOLATION" equiv-text="s }} / {{ farme"/>% združenia</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
+          <context context-type="linenumber">53,57</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="160f1ffbd26df073d0fbd02cf8ce0d8cea7603b0" datatype="html">
+        <source>Fee</source>
+        <target>Poplatok</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
+          <context context-type="linenumber">580,584</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4da5f68d3abab9c999777c361b61e01d5e3f7a73" datatype="html">
+        <source>Pool Base Fee</source>
+        <target>Základný poplatok združenia</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
+          <context context-type="linenumber">589,593</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4256010fc2f3e21bf2c442ccf72dcaee9da5f999" datatype="html">
+        <source>Length of Stay Discount</source>
+        <target>Zľava za dĺžku pobytu</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
+          <context context-type="linenumber">593,595</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/fees/fees.component.html</context>
+          <context context-type="linenumber">49,52</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="c3ced4d162a0a55ee233a187ce7208ba5e922418" datatype="html">
+        <source>Max</source>
+        <target>Max</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
+          <context context-type="linenumber">594,596</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="cceaba1ef6ce809232913dc96e1945fb49fea7a9" datatype="html">
+        <source>weeks</source>
+        <target>týždňov</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
+          <context context-type="linenumber">598,601</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8667409dbbbb575bb611e3b1110f54234eef6ff1" datatype="html">
+        <source>Size Discount</source>
+        <target>Zľava za veľkosť</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
+          <context context-type="linenumber">601,605</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/fees/fees.component.html</context>
+          <context context-type="linenumber">60,63</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5e0ea8bc1cfd71052844be8d7f2b80273be89e26" datatype="html">
+        <source>Maximum discount reached</source>
+        <target>Dosiahnutá maximálna zľava</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
+          <context context-type="linenumber">609,616</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="State" datatype="html">
+        <source>State</source>
+        <target>Stav</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/explorer/payout/payout.component.html</context>
+          <context context-type="linenumber">48,52</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ecd422c186c74ee8c3d85e96782c93aae6c4e547" datatype="html">
+        <source>The minimum payout has not been reached, transaction will be made at the next payment.</source>
+        <target>Minimálna výplata nebola dosiahnutá, transakcia sa uskutoční pri ďalšej platbe.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/explorer/payout/payout.component.html</context>
+          <context context-type="linenumber">70,74</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="a1daf43d26259bffdd5eb2d405c61583540b113b" datatype="html">
+        <source>Confirmed</source>
+        <target>Potvrdené</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/explorer/payout/payout.component.html</context>
+          <context context-type="linenumber">75,78</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="e6a27066251ca1e04c5be86ad758380856df2506" datatype="html">
+        <source>Pending</source>
+        <target>Čakajúce</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/explorer/payout/payout.component.html</context>
+          <context context-type="linenumber">80,85</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4ca458fe3274d1c79640b052d57cf3b900b650b6" datatype="html">
+        <source>Base fee</source>
+        <target>Základný poplatok</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/fees/fees.component.html</context>
+          <context context-type="linenumber">43,45</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="95e633621350bdb29f21133adcf4f18981008dce" datatype="html">
+        <source>Farmers that stay with us for longer periods will gradually get discounts over the base fee.</source>
+        <target>Farmári, ktorí u nás zostanú dlhšie, získajú postupne zľavy nad základný poplatok.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/fees/fees.component.html</context>
+          <context context-type="linenumber">51,54</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3929eb84402e553121a3ef47a775bf7f6cc46324" datatype="html">
+        <source>Up to 0.15% of discount will be subtracted from base fee in a period of up to 18 months (548 days), increased weekly.</source>
+        <target>Až 0,15% zľavy sa odpočíta od základného poplatku v období do 18 mesiacov (548 dní), zvyšuje sa týždenne.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/fees/fees.component.html</context>
+          <context context-type="linenumber">53,56</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="16bd47906ca36c11a2af7a476b94b16c30d0a0f0" datatype="html">
+        <source>Currently we charge 1% fee. If a reward of 1.75 XCH is found, only 1% of that, 0.0175 will be kept to the pool as a fee.<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br /&gt;                       The"/> The remaining 1.7325 XCH will be distributed to pool farmers. </source>
+        <target>V súčasnosti účtujeme poplatok vo výške 1%. Ak sa nájde odmena vo výške 1,75 XCH, iba 1% z toho (0,0175), sa ponechá združeniu ako poplatok.<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br /&gt;                       The"/> Zvyšných 1,7325 XCH bude rozdelených medzi farmárov. </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/fees/fees.component.html</context>
+          <context context-type="linenumber">45,47</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="05f663d65d8b53e54e4fb1c394c9aa17feb40f64" datatype="html">
+        <source>Farmers can get discount based on their farm size:</source>
+        <target>Farmári môžu získať zľavu na základe veľkosti farmy:</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/fees/fees.component.html</context>
+          <context context-type="linenumber">62,65</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ae7f270972015b2f0a4fabd3ee191983066aa0fa" datatype="html">
+        <source>Above 200TiB: 0.05%</source>
+        <target>Nad 200 TiB: 0,05%</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/fees/fees.component.html</context>
+          <context context-type="linenumber">63,67</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5f9a83228aa8e4f6b73bcb83e4529ffd9f3044e4" datatype="html">
+        <source>Above 500TiB: 0.1%</source>
+        <target>Nad 500 TiB: 0,1%</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/fees/fees.component.html</context>
+          <context context-type="linenumber">64,68</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8904f85bf6b6eed79fc36bf8de469ca11196e59c" datatype="html">
+        <source>Above 1PiB: 0.15%</source>
+        <target>Nad 1 PiB: 0,15%</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/fees/fees.component.html</context>
+          <context context-type="linenumber">65,69</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="93936b1e5020afa971a36b1599b350c17579b2f0" datatype="html">
+        <source>Maximum Discount</source>
+        <target>Maximálna zľava</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/fees/fees.component.html</context>
+          <context context-type="linenumber">67,71</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="0e151e55944e42be0f48ba4fe7a26865cdea55ff" datatype="html">
+        <source>The combination of discounts will not exceed 0.25%!</source>
+        <target>Kombinácia zliav nepresiahne 0,25%!</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/fees/fees.component.html</context>
+          <context context-type="linenumber">69,75</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2dae9bfa738bc88a06bfdcaae97ef1b54916dd6f" datatype="html">
+        <source>➗ Fee Discount</source>
+        <target>➗ Zľava z poplatku</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/landing/landing.component.html</context>
+          <context context-type="linenumber">127,130</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="d458b860866af8d3566f98656c811dad45be8fcd" datatype="html">
+        <source>Fee Discount!</source>
+        <target>Zľava z poplatku!</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/landing/landing.component.html</context>
+          <context context-type="linenumber">201,204</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ab8eaea728b0a6f2d250aec04a99bc6d50a665c1" datatype="html">
+        <source>The bigger your farmer the bigger the discount!</source>
+        <target>Čím väčšia je vaša farma, tým väčšia zľava!</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/landing/landing.component.html</context>
+          <context context-type="linenumber">203,205</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="c6b2426b19fe2556574bfd22ef8578adc09aff9b" datatype="html">
+        <source>The longer you stay the bigger the discount!</source>
+        <target>Čím dlhšie zostanete, tým väčšia zľava!</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/landing/landing.component.html</context>
+          <context context-type="linenumber">204,207</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="49c8ed913703e527eb863b0f9a4c253e22898d28" datatype="html">
+        <source>Up to 0.25% of fee discount, effective final fee of 0.75%.</source>
+        <target>Až 0,25% zo zľavy z poplatku, efektívny konečný poplatok 0,75%.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/landing/landing.component.html</context>
+          <context context-type="linenumber">205,209</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="02415ae7ba540f633aec0953e5e46244f89c4ce8" datatype="html">
+        <source>Have your friend join the pool and login to the pool website using the Plot NFT login link. He will confirm you are his referrer. (Referrer is filled automatically if he visited the website with your referral URL)</source>
+        <target>Požiadajte svojho priateľa alebo priateľku, aby sa pripojili k združeniu a prihlásili sa na webovú stránku združenia pomocou odkazu na prihlásenie do združenia, kde potvrdí, že ste ich odporučili. (Odporúčajúci sa vyplní automaticky, ak bola webová stránka navštívená pomocou vašej odporúčacej URL adresy)</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/referral/referral.component.html</context>
+          <context context-type="linenumber">28,31</context>
+        </context-group>
+      </trans-unit>
     </body>
   </file>
 </xliff>
