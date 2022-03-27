@@ -872,11 +872,15 @@
           <context context-type="linenumber">41</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="0024befc641c41929ae129967df5b98b18df2a18" datatype="html">
-        <source>Estimated Size </source>
+      <trans-unit id="da1bcec161d959bf88a99855ca5272e44821e9ec" datatype="html">
+        <source>Estimated Size</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
           <context context-type="linenumber">49,50</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
+          <context context-type="linenumber">381,384</context>
         </context-group>
       </trans-unit>
       <trans-unit id="d06bcf60e753d935944af3f39801a43c9ee6169e" datatype="html">
@@ -1155,13 +1159,6 @@
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
           <context context-type="linenumber">361,364</context>
-        </context-group>
-      </trans-unit>
-      <trans-unit id="da1bcec161d959bf88a99855ca5272e44821e9ec" datatype="html">
-        <source>Estimated Size</source>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
-          <context context-type="linenumber">381,384</context>
         </context-group>
       </trans-unit>
       <trans-unit id="a1f628ad227ee4387049f2a6dabaa5894eccd1c1" datatype="html">
