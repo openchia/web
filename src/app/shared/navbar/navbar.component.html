@@ -61,6 +61,17 @@
         </li>
       </ul>
       <ul class="navbar-nav navbar-nav-hover align-items-lg-center ml-lg-auto">
+        <li *ngIf="blockchain_duststorm" class="nav-item">
+          <ng-template #duststormTooltip>
+            <span i18n>
+              Dust storm currently affecting the blockchain. Payouts may be delayed.
+            </span>
+          </ng-template>
+          <a class="nav-link nav-link-icon">
+            <i class="fa-solid fa-triangle-exclamation fa-triangle-duststorm"
+              [ngbTooltip]="duststormTooltip" placement="left auto"></i>
+          </a>
+        </li>
         <li class="nav-item">
           <a class="nav-link nav-link-icon" (click)="darkModeToggle()" href="javascript:void(0);" data-toggle="tooltip"
             title="Toggle Dark Mode"><i #darkModeIcon class="fa-solid fa-moon"></i>
