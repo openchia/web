@@ -1,6 +1,7 @@
 import { LOCALE_ID, Component, Inject, OnInit, ViewChild, ElementRef } from '@angular/core';
 import { Router, NavigationEnd, NavigationStart } from '@angular/router';
 import { Location, PopStateEvent } from '@angular/common';
+import { DataService } from '../../data.service';
 
 @Component({
     selector: 'app-navbar',
@@ -12,10 +13,17 @@ export class NavbarComponent implements OnInit {
     private lastPoppedUrl: string;
     private yScrollStack: number[] = [];
     private darkMode: boolean = false;
+
+    blockchain_duststorm: boolean = false;
+
     @ViewChild('darkModeIcon') darkModeIcon: ElementRef;
 
-    constructor(public location: Location, private router: Router, @Inject(LOCALE_ID) public locale: string) {
-    }
+    constructor(
+        private dataService: DataService,
+        public location: Location,
+        private router: Router,
+        @Inject(LOCALE_ID) public locale: string
+    ) {}
 
     ngOnInit() {
         this.router.events.subscribe((event) => {
@@ -34,8 +42,11 @@ export class NavbarComponent implements OnInit {
         this.location.subscribe((ev: PopStateEvent) => {
             this.lastPoppedUrl = ev.url;
         });
-
+        this.dataService.getStats().subscribe(data => {
+            this.blockchain_duststorm = data['blockchain_duststorm'];
+        });
     }
+
     ngAfterViewInit() {
         var darkMode = localStorage.getItem("darkmode");
         if(darkMode != '') {
@@ -69,4 +80,5 @@ export class NavbarComponent implements OnInit {
         }
         localStorage.setItem("darkmode", `${this.darkMode}`);
     }
+
 }
