@@ -822,15 +822,15 @@
       </trans-unit>
       <trans-unit id="PoolWallets" datatype="html">
         <source>Pool Wallets</source>
-        <target>Pool Wallets</target>
+        <target state="needs-translation">Pool Wallets</target>
       </trans-unit>
       <trans-unit id="Profitability" datatype="html">
         <source>Profitability</source>
-        <target>Profitability</target>
+        <target state="needs-translation">Profitability</target>
       </trans-unit>
       <trans-unit id="Referral" datatype="html">
         <source>Referral</source>
-        <target>Referral</target>
+        <target state="needs-translation">Referral</target>
       </trans-unit>
       <trans-unit id="Referrals" datatype="html">
         <source>Referrals <pc dispEnd="&lt;/span&gt;" dispStart="&lt;span class=&quot;beta&quot;&gt;" equivEnd="CLOSE_TAG_SPAN" equivStart="START_TAG_SPAN" id="0" type="other">BETA</pc></source>
@@ -838,7 +838,7 @@
       </trans-unit>
       <trans-unit id="Rewards" datatype="html">
         <source>Rewards</source>
-        <target>Rewards</target>
+        <target state="needs-translation">Rewards</target>
       </trans-unit>
       <trans-unit id="Save" datatype="html">
         <source>Save</source>
@@ -846,7 +846,7 @@
       </trans-unit>
       <trans-unit id="Search" datatype="html">
         <source>Search</source>
-        <target>Search</target>
+        <target state="needs-translation">Search</target>
       </trans-unit>
       <trans-unit id="Step" datatype="html">
         <source>Step</source>
@@ -1219,7 +1219,7 @@
       </trans-unit>
       <trans-unit id="ngb.pagination.previous" datatype="html">
         <source>«</source>
-        <target state="needs-translation">«</target>
+        <target state="translated">«</target>
         <context-group purpose="location">
           <context context-type="sourcefile">node_modules/src/pagination/pagination.ts</context>
           <context context-type="linenumber">266,267</context>
@@ -1991,6 +1991,170 @@
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/landing/landing.component.html</context>
           <context context-type="linenumber">255,259</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="35a4fb17cefcb96dd033dea705799c30dc814abc" datatype="html">
+        <source>Notify on Farm Size Drop</source>
+        <target>Informovat o poklesu velikosti farmy</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/explorer/login/login.component.html</context>
+          <context context-type="linenumber">110,113</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ProfitabilityCalculator" datatype="html">
+        <source>Profitability Calculator</source>
+        <target>Kalkulačka ziskovosti</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/calculator/calculator.component.html</context>
+          <context context-type="linenumber">18,21</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="121cc5391cd2a5115bc2b3160379ee5b36cd7716" datatype="html">
+        <source>Settings</source>
+        <target>Nastavení</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/explorer/login/login.component.html</context>
+          <context context-type="linenumber">16,22</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="244aae9346da82b0922506c2d2581373a15641cc" datatype="html">
+        <source>Email</source>
+        <target>Email</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/explorer/login/login.component.html</context>
+          <context context-type="linenumber">46,48</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="d8e4a5559cd9a1d2c11d74955a1a60b8441d519b" datatype="html">
+        <source>Notify on Payments</source>
+        <target>Informovat o platbách</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/explorer/login/login.component.html</context>
+          <context context-type="linenumber">83,86</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="Harvesters" datatype="html">
+        <source>Harvesters</source>
+        <target>Sběrače</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
+          <context context-type="linenumber">308,313</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="HarvesterCount_preline" datatype="html">
+        <source>Harvester Count</source>
+        <target>Počet sběračú</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
+          <context context-type="linenumber">166,170</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="Address" datatype="html">
+        <source>Address</source>
+        <target>Adresa</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/explorer/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">317,319</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="e68caaf8e97671b147f613ee8d940deda4318033" datatype="html">
+        <source>Minimum Payout (XCH)</source>
+        <target>Minimální výplata (XCH)</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/explorer/login/login.component.html</context>
+          <context context-type="linenumber">148,150</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="622fcb04a0b030ea101d3525330778966df5fecb" datatype="html">
+        <source>Effective Fee</source>
+        <target>Efektivní poplatek</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
+          <context context-type="linenumber">58,63</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
+          <context context-type="linenumber">605,607</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="b7122aa7e824953414e6cacb484552f95172b992" datatype="html">
+        <source>Current Effort</source>
+        <target>Současné úsilí</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
+          <context context-type="linenumber">65,68</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="da1bcec161d959bf88a99855ca5272e44821e9ec" datatype="html">
+        <source>Estimated Size</source>
+        <target>Odhadovaná velikost</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
+          <context context-type="linenumber">49,50</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
+          <context context-type="linenumber">381,384</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="160f1ffbd26df073d0fbd02cf8ce0d8cea7603b0" datatype="html">
+        <source>Fee</source>
+        <target>Poplatek</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
+          <context context-type="linenumber">580,584</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8667409dbbbb575bb611e3b1110f54234eef6ff1" datatype="html">
+        <source>Size Discount</source>
+        <target>Velikostní sleva</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
+          <context context-type="linenumber">601,605</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/fees/fees.component.html</context>
+          <context context-type="linenumber">60,63</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="e170397bdeb391e798638581228da11d377a7d8a" datatype="html">
+        <source>Size Drop Percent</source>
+        <target>Procento poklesu velikosti</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/explorer/login/login.component.html</context>
+          <context context-type="linenumber">124,126</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3b748643ec77fb5b262464a2b490845c34b2f16c" datatype="html">
+        <source>Size Drop Interval (Minutes)</source>
+        <target>Interval poklesu velikosti (minuty)</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/explorer/login/login.component.html</context>
+          <context context-type="linenumber">131,133</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="a1daf43d26259bffdd5eb2d405c61583540b113b" datatype="html">
+        <source>Confirmed</source>
+        <target>Potvrzeno</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/explorer/payout/payout.component.html</context>
+          <context context-type="linenumber">75,78</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="State" datatype="html">
+        <source>State</source>
+        <target>Stav</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/explorer/payout/payout.component.html</context>
+          <context context-type="linenumber">48,52</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1ca6cb6b2581d1de7b5aaaa49d7cfe8784369373" datatype="html">
+        <source>💰 Fees</source>
+        <target>💰 Poplatky</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/fees/fees.component.html</context>
+          <context context-type="linenumber">24,30</context>
         </context-group>
       </trans-unit>
     </body>
