@@ -15,88 +15,17 @@
 </div>
 <section class="section section-sm">
   <div class="container">
-    <div class="col-lg-12">
-      <h1 i18n="@@WeeklyGiveaway">Weekly Giveaway</h1>
-      <div class="col-lg-12">
-        <div class="row row-grid">
-          <div class="col-lg-3 justify-content-center">
-            <div class="card card-lift shadow border-0">
-              <div class="card-body py-3 text-center text-uppercase">
-                <span class="text-primary" i18n="@@DrawDate">Draw Date</span><br />
-                <span>{{ current.draw_datetime | date:"medium" }}</span>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-2 justify-content-center">
-            <div class="card card-lift shadow border-0">
-              <div class="card-body py-3 text-center text-uppercase">
-                <span class="text-primary" i18n="@@Giveaway">Giveaway</span><br />
-                <strong>{{ current.prize_amount / 1000000000000 }} XCH</strong>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-3 justify-content-center">
-            <div class="card card-lift shadow border-0">
-              <div class="card-body py-3 text-center text-uppercase">
-                <span class="text-primary" i18n>Tickets Issuance</span><br />
-                <span i18n>Daily - 00:00 UTC</span>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-3 justify-content-center">
-            <div class="card card-lift shadow border-0">
-              <div class="card-body py-3 text-center text-uppercase">
-                <span class="text-primary" i18n="@@TicketsIssued">Tickets Issued</span><br />
-                <span>{{ current.issued_tickets || "0" }}</span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <br />
-    <p>All farmers participating in our pool are automatically eligible in our giveaway!</p>
-    <p>Every day farmers will be issued tickets based on their estimated farm size.</p>
-    <table class="col-lg-12 table table-sm table-striped table-responsive-lg">
-      <thead>
-        <th>Tier</th>
-        <th>Ticket Each</th>
-        <th>Example</th>
-      </thead>
-      <tbody>
-        <tr>
-          <td>0-100 TiB</td>
-          <td>1 TiB</td>
-          <td>56.7 TiB = 56 tickets/day</td>
-        </tr>
-        <tr>
-          <td>100-200 TiB</td>
-          <td>2 TiB</td>
-          <td>183.2 TiB = (100/1 + 83.2/2) = 141 tickets/day</td>
-        </tr>
-        <tr>
-          <td>200-500 TiB</td>
-          <td>3 TiB</td>
-          <td>328.5 TiB = (100/1 + 100/2 + 128.5/3) = 192 tickets/day</td>
-        </tr>
-        <tr>
-          <td>500-1000 TiB</td>
-          <td>4 TiB</td>
-          <td>650 TiB = (100/1 + 100/2 + 300/3 + 150/4) = 287 tickets/day</td>
-        </tr>
-        <tr>
-          <td>1000+ TiB</td>
-          <td>5 TiB</td>
-          <td>1100 TiB = (100/1 + 100/2 + 300/3 + 500/4 + 100/5) = 395 tickets/day</td>
-        </tr>
-      </tbody>
-    </table>
-
-    <p>Draw of the ticket number will happen <strong>live</strong> in our YouTube channel and
-      done using Google pseudo random number generator. The winner will be the farmer with the ticket closest to the
-      number draw. If two farmers are within the same range another number will be drawed until there is only one
-      winner.</p>
-    <p>All tickets issued are made available in each farmer detail page.</p>
+    <p i18n>From now on OpenChia will no longer be doing weekly giveaways.</p>
+    <p i18n>We have decided to stop running weekly giveaways for a number of reasons.</p>
+    <p i18n>First of all, we have noticed little to no engagement from our community in regards to that. We often found
+      ourselves doing the livestream to draw the winner number and we did not have anybody watching and the number of
+      views afterwards were also very slim.</p>
+    <p i18n>A poll was made in our Discord and Twitter regarding the giveaway versus discount fees for all farmers. It
+      turns out people preferred discount fees and that is what we implemented and pushed live before ending the
+      giveaway.</p>
+    <p i18n>Finally, the giveaway is no longer creating the interest and return that we were hoping for and given
+      pooling’s thin margins it makes little sense to continue increasing debt unnecessarily. </p>
+    <p i18n>We hope you all understand the decision.</p>
 
     <h3 i18n>Previous Giveaways</h3>
     <table class="table table-sm table-striped table-responsive-lg">
