@@ -63,8 +63,8 @@
           <td *ngIf="farmer.current_etw">{{ humanize(farmer.current_etw * 1000) }}</td>
           <td *ngIf="!farmer.current_etw" i18n>Unknown</td>
           <th i18n>Current Effort</th>
-          <td *ngIf="farmer.current_effort">{{ farmer.current_effort }}%</td>
-          <td *ngIf="!farmer.current_effort" i18n>Unknown</td>
+          <td *ngIf="(farmer.current_effort || 0) >= 0">{{ farmer.current_effort | number }}%</td>
+          <td *ngIf="farmer.current_effort == null" i18n>Unknown</td>
         </tr>
         <tr>
           <th scope="col"><span i18n="@@EstimatedRewardDay">Estimated Reward</span>
