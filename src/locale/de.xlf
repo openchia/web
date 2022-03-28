@@ -6,8 +6,7 @@
  Locale: de, German
  Exported by: Unregistered user
  Exported at: Fri, 25 Feb 2022 16:57:09 -0300
--->
-<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
+--><xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
   <file original="ng2.template" source-language="en" target-language="de" datatype="plaintext" tool-id="loco">
     <header>
       <tool tool-id="loco" tool-name="Loco for Angular" tool-version="1.0.26 20220207-1" tool-company="Loco"/>
@@ -679,7 +678,7 @@
       </trans-unit>
       <trans-unit id="Average" datatype="html">
         <source>Average</source>
-        <target>Average</target>
+        <target state="needs-translation">Average</target>
       </trans-unit>
       <trans-unit id="Beta" datatype="html">
         <source>BETA</source>
@@ -695,7 +694,7 @@
       </trans-unit>
       <trans-unit id="CurrentEffort" datatype="html">
         <source>Current Effort</source>
-        <target>Current Effort</target>
+        <target state="needs-translation">Current Effort</target>
       </trans-unit>
       <trans-unit id="Date" datatype="html">
         <source>Date</source>
@@ -711,11 +710,11 @@
       </trans-unit>
       <trans-unit id="Effort" datatype="html">
         <source>Effort</source>
-        <target>Effort</target>
+        <target state="needs-translation">Effort</target>
       </trans-unit>
       <trans-unit id="EstimatedSpace" datatype="html">
         <source>Estimated Space</source>
-        <target>Estimated Space</target>
+        <target state="needs-translation">Estimated Space</target>
       </trans-unit>
       <trans-unit id="Explorer" datatype="html">
         <source>Explorer</source>
@@ -743,7 +742,7 @@
       </trans-unit>
       <trans-unit id="Fees" datatype="html">
         <source>Fees</source>
-        <target>Fees</target>
+        <target>Gebühren</target>
       </trans-unit>
       <trans-unit id="Harversters" datatype="html">
         <source>Harvesters</source>
@@ -759,7 +758,7 @@
       </trans-unit>
       <trans-unit id="Hrs24" datatype="html">
         <source>24 hours</source>
-        <target>24 hours</target>
+        <target>24 Stunden</target>
       </trans-unit>
       <trans-unit id="ID" datatype="html">
         <source>ID</source>
@@ -783,11 +782,11 @@
       </trans-unit>
       <trans-unit id="Leaderboard" datatype="html">
         <source>Leaderboard</source>
-        <target>Leaderboard</target>
+        <target>Bestenliste</target>
       </trans-unit>
       <trans-unit id="Lucky" datatype="html">
         <source>Lucky</source>
-        <target>Lucky</target>
+        <target state="needs-translation">Lucky</target>
       </trans-unit>
       <trans-unit id="MITLicense" datatype="html">
         <source>MIT License</source>
@@ -795,7 +794,7 @@
       </trans-unit>
       <trans-unit id="NoPayouts" datatype="html">
         <source>No payouts found!</source>
-        <target>Keine Auszahlungen gefunden</target>
+        <target>Keine Auszahlungen gefunden!</target>
       </trans-unit>
       <trans-unit id="NoPayoutsAddrs" datatype="html">
         <source>No payouts addresses found!</source>
@@ -827,15 +826,15 @@
       </trans-unit>
       <trans-unit id="PoolWallets" datatype="html">
         <source>Pool Wallets</source>
-        <target>Pool Wallets</target>
+        <target state="needs-translation">Pool Wallets</target>
       </trans-unit>
       <trans-unit id="Profitability" datatype="html">
         <source>Profitability</source>
-        <target>Profitability</target>
+        <target state="needs-translation">Profitability</target>
       </trans-unit>
       <trans-unit id="Referral" datatype="html">
         <source>Referral</source>
-        <target>Referral</target>
+        <target state="needs-translation">Referral</target>
       </trans-unit>
       <trans-unit id="Referrals" datatype="html">
         <source>Referrals <pc dispEnd="&lt;/span&gt;" dispStart="&lt;span class=&quot;beta&quot;&gt;" equivEnd="CLOSE_TAG_SPAN" equivStart="START_TAG_SPAN" id="0" type="other">BETA</pc></source>
@@ -843,15 +842,15 @@
       </trans-unit>
       <trans-unit id="Rewards" datatype="html">
         <source>Rewards</source>
-        <target>Rewards</target>
+        <target state="needs-translation">Rewards</target>
       </trans-unit>
       <trans-unit id="Save" datatype="html">
         <source>Save</source>
-        <target>Save</target>
+        <target state="needs-translation">Save</target>
       </trans-unit>
       <trans-unit id="Search" datatype="html">
         <source>Search</source>
-        <target>Search</target>
+        <target state="needs-translation">Search</target>
       </trans-unit>
       <trans-unit id="Step" datatype="html">
         <source>Step</source>
@@ -867,7 +866,7 @@
       </trans-unit>
       <trans-unit id="TotalIncome" datatype="html">
         <source>Total Income</source>
-        <target>Total Income</target>
+        <target state="needs-translation">Total Income</target>
       </trans-unit>
       <trans-unit id="Transaction" datatype="html">
         <source>Transaction</source>
@@ -879,11 +878,11 @@
       </trans-unit>
       <trans-unit id="Unknown" datatype="html">
         <source>Unknown</source>
-        <target>Unknown</target>
+        <target>Unbekannt</target>
       </trans-unit>
       <trans-unit id="Unlucky" datatype="html">
         <source>Unlucky</source>
-        <target>Unlucky</target>
+        <target state="needs-translation">Unlucky</target>
       </trans-unit>
       <trans-unit id="Uptime" datatype="html">
         <source>Uptime</source>
@@ -891,11 +890,11 @@
       </trans-unit>
       <trans-unit id="UtilizationSpace" datatype="html">
         <source>Utilization Space</source>
-        <target>Utilization Space</target>
+        <target state="needs-translation">Utilization Space</target>
       </trans-unit>
       <trans-unit id="Warning" datatype="html">
         <source>Warning</source>
-        <target>Warning</target>
+        <target>Warnung</target>
       </trans-unit>
       <trans-unit id="ngb.alert.close" datatype="html">
         <source>Close</source>
@@ -937,9 +936,6 @@
         <source>
           <ph disp="or 24H mode." equiv="INTERPOLATION" id="0"/>
         </source>
-        <target>
-          <ph disp="oder 24H Modus" equiv="INTERPOLATION" id="0"/>
-        </target>
       </trans-unit>
       <trans-unit id="ngb.timepicker.HH" datatype="html">
         <source>HH</source>
@@ -953,9 +949,7 @@
         <source>
           <ph disp="tring;    disab" equiv="INTERPOLATION" id="0"/>
         </source>
-        <target>
-          <ph disp="tring;    disab" equiv="INTERPOLATION" id="0"/>
-        </target>
+        <target><ph disp="tring;    disab" equiv="INTERPOLATION" id="0"/></target>
       </trans-unit>
       <trans-unit id="ngb.timepicker.SS" datatype="html">
         <source>SS</source>
@@ -1000,6 +994,46 @@
       <trans-unit id="ngb.toast.close-aria" datatype="html">
         <source>Close</source>
         <target>Schließen</target>
+      </trans-unit>
+      <trans-unit id="ProfitabilityCalculator" datatype="html">
+        <source>Profitability Calculator</source>
+        <target>Rentabilitätsrechner</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/calculator/calculator.component.html</context>
+          <context context-type="linenumber">18,21</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.pagination.first" datatype="html">
+        <source>««</source>
+        <target>««</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/pagination/pagination.ts</context>
+          <context context-type="linenumber">244,249</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.pagination.previous" datatype="html">
+        <source>«</source>
+        <target>«</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/pagination/pagination.ts</context>
+          <context context-type="linenumber">266,267</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.pagination.next" datatype="html">
+        <source>»</source>
+        <target>»</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/pagination/pagination.ts</context>
+          <context context-type="linenumber">287,290</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.pagination.last" datatype="html">
+        <source>»»</source>
+        <target>»»</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/pagination/pagination.ts</context>
+          <context context-type="linenumber">307,309</context>
+        </context-group>
       </trans-unit>
     </body>
   </file>
