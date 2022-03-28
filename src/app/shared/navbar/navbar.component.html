@@ -70,12 +70,13 @@
           <a class="nav-link nav-link-icon">
             <i class="fa-solid fa-triangle-exclamation fa-triangle-duststorm"
               [ngbTooltip]="duststormTooltip" placement="left auto"></i>
+            <span class="nav-link-inner--text d-lg-none" i18n="@@DustStorm">Dust Storm</span>
           </a>
         </li>
         <li class="nav-item">
           <a class="nav-link nav-link-icon" (click)="darkModeToggle()" href="javascript:void(0);" data-toggle="tooltip"
             title="Toggle Dark Mode"><i #darkModeIcon class="fa-solid fa-moon"></i>
-            <span class="nav-link-inner--text d-lg-none">Dark Mode</span>
+            <span class="nav-link-inner--text d-lg-none" i18n="@@DarkMode">Dark Mode</span>
           </a>
         </li>
         <li class="nav-item">
