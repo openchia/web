@@ -2317,6 +2317,86 @@
           <context context-type="linenumber">79,80</context>
         </context-group>
       </trans-unit>
+      <trans-unit id="9a347bbd6a902e380a01647dcb2667fca05e5251" datatype="html">
+        <source>Farm being offline or stop sending partials will NOT reset the discount.</source>
+        <target>Ak je farma offline alebo prestane odosielať parciálne dôkazy, zľava sa NERESETUJE.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/fees/fees.component.html</context>
+          <context context-type="linenumber">58,62</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="38d5457e7533ba4667e2ea3e94e7dc509576bce0" datatype="html">
+        <source>From now on OpenChia will no longer be doing weekly giveaways.</source>
+        <target>Odteraz už OpenChia nebude robiť týždenné rozdávania.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/giveaway/giveaway.component.html</context>
+          <context context-type="linenumber">18,20</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="00f8259731c8bd7a9b277bc0e7f77cd0883a9c56" datatype="html">
+        <source>We have decided to stop running weekly giveaways for a number of reasons.</source>
+        <target>Rozdávanie týždenných darčekov sme sa rozhodli ukončiť z viacerých dôvodov.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/giveaway/giveaway.component.html</context>
+          <context context-type="linenumber">19,21</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4ae21b04547f3b306d71c4691b63f96017e32fcf" datatype="html">
+        <source>A poll was made in our Discord and Twitter regarding the giveaway versus discount fees for all farmers. It turns out people preferred discount fees and that is what we implemented and pushed live before ending the giveaway.</source>
+        <target>Na našom Discord a Twitteri sa uskutočnil prieskum týkajúci sa rozdávania verzus zľavnené poplatky pre všetkých farmárov. Ukázalo sa, že ľudia uprednostňujú diskontné poplatky a to je to, čo sme implementovali a zaviedli pred ukončením rozdávania.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/giveaway/giveaway.component.html</context>
+          <context context-type="linenumber">23,27</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="d0c9b2e3b5016f413b6c1bf225d890a52b3ce64f" datatype="html">
+        <source>Finally, the giveaway is no longer creating the interest and return that we were hoping for and given pooling’s thin margins it makes little sense to continue increasing debt unnecessarily.</source>
+        <target>Nakoniec, darovanie už nevytvára záujem a výnos, v ktorý sme dúfali, a vzhľadom na nízke marže združenia nemá zmysel zbytočne pokračovať v zvyšovaní dlhu.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/giveaway/giveaway.component.html</context>
+          <context context-type="linenumber">26,31</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="0067a973b2889ba5a591e14f918c6a46256cb4be" datatype="html">
+        <source>We hope you all understand the decision.</source>
+        <target>Dúfame, že toto rozhodnutie všetci chápete.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/giveaway/giveaway.component.html</context>
+          <context context-type="linenumber">28,34</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="DustStorm" datatype="html">
+        <source>Dust Storm</source>
+        <target>Prachová búrka</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/navbar/navbar.component.html</context>
+          <context context-type="linenumber">73,77</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="DarkMode" datatype="html">
+        <source>Dark Mode</source>
+        <target>Tmavý režim</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/navbar/navbar.component.html</context>
+          <context context-type="linenumber">79,83</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7f5408f2d863ac5c3aed35763a6fe78e4aa70361" datatype="html">
+        <source>First of all, we have noticed little to no engagement from our community in regards to that. We often found ourselves doing the livestream to draw the winner number and we did not have anybody watching and the number of views afterwards were also very slim.</source>
+        <target>V prvom rade sme si v tejto súvislosti všimli len malú alebo žiadnu angažovanosť našej komunity. Často sme sa pristihli, že robíme livestream, aby sme vyžrebovali číslo výhercu a nemali sme nikoho, kto by to sledoval a počet pozretí potom bol tiež veľmi nízky.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/giveaway/giveaway.component.html</context>
+          <context context-type="linenumber">20,24</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="e6807841dec3ed42de1240ff85c96a1562377b2a" datatype="html">
+        <source>Dust storm currently affecting the blockchain. Payouts may be delayed.</source>
+        <target>Prachová búrka v súčasnosti ovplyvňuje blockchain. Výplaty môžu byť oneskorené.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/navbar/navbar.component.html</context>
+          <context context-type="linenumber">67,71</context>
+        </context-group>
+      </trans-unit>
     </body>
   </file>
 </xliff>
