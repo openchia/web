@@ -81,15 +81,12 @@ export class FarmerComponent implements OnInit {
     private clipboardApi: ClipboardService
   ) {
     this.blocks$ = this._blocks$.asObservable();
-    this.giveaways$ = dataService.giveaways$;
     this.payoutaddrs$ = this._payoutaddrs$.asObservable();
-    this.ticketsRound$ = dataService.ticketsRound$;
   }
 
   ngOnInit(): void {
     this.route.paramMap.subscribe(data => {
       this.farmerid = data['params']['id'];
-      this.dataService.getGiveaways();
       this.refreshBlocks();
       this.refreshPayouts();
       this.dataService.getLauncher(this.farmerid).subscribe(launcher => {
@@ -327,11 +324,6 @@ export class FarmerComponent implements OnInit {
 
   partialsXAxisFormat(data) {
     return new Date(data * 1000).toLocaleTimeString();
-  }
-
-  openGiveaway(content, id) {
-    this.dataService.getTicketsRound(this.farmerid, id);
-    this.modal.open(content, { size: 'lg' });
   }
 
   showPartialError(content) {
