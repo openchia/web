@@ -1,7 +1,7 @@
 <section class="section section-sm pt-sm-0">
   <div class="container" #ContainerRef>
 
-    <h3 class="display-3" i18n>Payout</h3>
+    <h3 class="display-3" i18n>Reward</h3>
     <table class="table table-sm table-striped table-responsive-lg">
       <tbody>
         <tr>
@@ -17,12 +17,12 @@
         </tr>
         <tr>
           <th i18n="@@Blocks">Blocks</th>
-          <td>{{ payout.blocks?.length }}</td>
+          <td><span *ngFor="let block of payout.blocks">#{{ block?.farmed_height }}&nbsp;</span></td>
         </tr>
       </tbody>
     </table>
 
-    <h3 class="display-3" i18n>Payout Chart</h3>
+    <h3 class="display-3" i18n>Reward Chart</h3>
     <ngx-charts-pie-chart [view]="[ContainerRef.offsetWidth]" [legend]="payoutaddrsLegend"
       [animations]="payoutaddrsAnimations" [results]="payoutaddrsData" [gradient]="true" [labels]="true"
       [arcWidth]="0.50" [doughnut]="true" [explodeSlices]="false" [scheme]="colorScheme">
@@ -36,11 +36,11 @@
       </ng-template>
     </ngx-charts-pie-chart>
 
-    <h3 class="display-3" i18n="@@PayoutAddresses">Payout Addresses</h3>
+    <h3 class="display-3">Farmer Reward</h3>
     <table class="table table-sm table-striped table-responsive-lg">
       <thead>
         <tr>
-          <th scope="col" i18n="@@PayoutID">Payout ID</th>
+          <th scope="col" i18n="@@RewardID">Reward ID</th>
           <th scope="col" i18n="@@Launcher">Launcher ID</th>
           <th scope="col" i18n="@@Transaction">Transaction</th>
           <th scope="col" i18n="@@Amount">Amount</th>
@@ -70,19 +70,17 @@
                 The minimum payout has not been reached, transaction will be made at the next payment.
               </span>
             </ng-template>
-            <span *ngIf="payoutaddr.transaction?.transaction"
-              class="badge badge-pill badge-success">
+            <span *ngIf="payoutaddr.transaction?.transaction" class="badge badge-pill badge-success">
               <span i18n>Confirmed</span>
             </span>
-            <span *ngIf="!payoutaddr.transaction?.transaction"
-              closeDelay="4000" [ngbTooltip]="pendingTransactionTooltip"
-              class="badge badge-pill badge-warning">
+            <span *ngIf="!payoutaddr.transaction?.transaction" closeDelay="4000"
+              [ngbTooltip]="pendingTransactionTooltip" class="badge badge-pill badge-warning">
               <span i18n>Pending</span>&nbsp;<i class="fas fa-info-circle"></i>
             </span>
           </td>
         </tr>
         <tr *ngIf="payoutaddrs.length == 0">
-          <td colspan="5" i18n="@@NoPayoutsAddrs">No payouts addresses found!</td>
+          <td colspan="5">No farmer rewards found!</td>
         </tr>
       </tbody>
     </table>

@@ -4,11 +4,11 @@ import { Observable, Subject } from 'rxjs';
 import { DataService } from '../../data.service';
 
 @Component({
-  selector: 'app-payout',
-  templateUrl: './payout.component.html',
-  styleUrls: ['./payout.component.css']
+  selector: 'app-reward',
+  templateUrl: './reward.component.html',
+  styleUrls: ['./reward.component.css']
 })
-export class PayoutComponent implements OnInit {
+export class RewardComponent implements OnInit {
 
   payout: any = {};
   payoutid: number;
@@ -27,8 +27,8 @@ export class PayoutComponent implements OnInit {
 
   colorScheme = {
     domain: [
-      '#004B23','#005812','#006400','#006B00','#007200',
-      '#008000','#38B000','#70E000','#9EF01A','#CCFF33',
+      '#004B23', '#005812', '#006400', '#006B00', '#007200',
+      '#008000', '#38B000', '#70E000', '#9EF01A', '#CCFF33',
     ]
   };
 
