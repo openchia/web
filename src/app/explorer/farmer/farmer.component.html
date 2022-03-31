@@ -59,10 +59,22 @@
           <td>{{ farmer.fee.final * 100 | number:".4"}}%</td>
         </tr>
         <tr>
-          <th i18n>Estimated Time to Win (ETW)</th>
+          <th><span i18n>Estimated Time to Win (ETW)</span>&nbsp;
+            <ng-template #etwTooltip>
+              <span i18n>Based on farmer estimated size and netspace. This value may vary significantly.</span>
+            </ng-template>
+            <i class="fas fa-info-circle" [ngbTooltip]="etwTooltip"></i>
+          </th>
           <td *ngIf="farmer.current_etw">{{ humanize(farmer.current_etw * 1000) }}</td>
           <td *ngIf="!farmer.current_etw" i18n>Unknown</td>
-          <th i18n>Current Effort</th>
+          <th><span i18n>Current Effort</span>&nbsp;
+            <ng-template #currentEffortTooltip>
+              <span i18n>Estimate based on last block farmed and current estimated time to win. If the farmer never
+                farmed
+                one block then the creation date of the Plot NFT is used as a starting point.</span>
+            </ng-template>
+            <i class="fas fa-info-circle" [ngbTooltip]="currentEffortTooltip"></i>
+          </th>
           <td *ngIf="(farmer.current_effort || 0) >= 0">{{ farmer.current_effort | number }}%</td>
           <td *ngIf="farmer.current_effort == null" i18n>Unknown</td>
         </tr>
