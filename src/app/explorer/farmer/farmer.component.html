@@ -53,8 +53,8 @@
               farmer.share_pplns * 100 | number:"2.3" }}% of pool</span>)</td>
         </tr>
         <tr>
-          <th i18n>Points / Points PPLNS</th>
-          <td>{{ farmer.points }} / {{ farmer.points_pplns }}</td>
+          <th i18n>Points (PPLNS)</th>
+          <td>{{ farmer.points_pplns }}</td>
           <th i18n>Effective Fee</th>
           <td>{{ farmer.fee.final * 100 | number:".4"}}%</td>
         </tr>
@@ -412,8 +412,50 @@
         </ng-template>
       </li>
 
-      <!-- Payouts -->
+      <!-- Rewards -->
       <li [ngbNavItem]="4">
+        <a ngbNavLink><i class="fa-solid fa-coins"></i>&nbsp;<span i18n>Rewards</span></a>
+        <ng-template ngbNavContent>
+          <br />
+          <table class="table table-sm table-striped table-responsive-lg">
+            <thead>
+              <tr>
+                <th scope="col" i18n="@@Date">Date</th>
+                <th scope="col" i18n="@@Blocks">Blocks</th>
+                <th scope="col" i18n="@@Amount">Amount</th>
+                <th scope="col" i18n="@@Paid">Paid</th>
+                <th scope="col" i18n="@@RewardID">Reward ID</th>
+              </tr>
+            </thead>
+            <tbody *ngIf="(payoutaddrs$ | async) as payoutaddrs;">
+              <tr *ngFor="let payoutaddr of payoutaddrs; let i = index">
+                <td>{{ payoutaddr.payout.datetime | date:"medium" }}</td>
+                <td><span *ngFor="let block of payoutaddr.payout.blocks">#{{ block.farmed_height}}&nbsp;</span></td>
+                <td>{{ payoutaddr.amount / 1000000000000 }} XCH</td>
+                <td>
+                  <span *ngIf="payoutaddr.transaction && payoutaddr.transaction.confirmed_block_index" i18n>Yes</span>
+                  <span *ngIf="payoutaddr.transaction && !payoutaddr.transaction.confirmed_block_index"
+                    i18n>Confirming</span>
+                  <span *ngIf="!payoutaddr.transaction" i18n>Pending</span>
+                </td>
+                <td><a [routerLink]="['/explorer/reward', payoutaddr.payout.id]">{{ payoutaddr.payout.id }}</a></td>
+              </tr>
+              <tr *ngIf="payoutaddrs.length == 0">
+                <td colspan="7" i18n="@@NoRewards">No rewards found!</td>
+              </tr>
+            </tbody>
+          </table>
+          <div class="d-flex justify-content-between p-2">
+            <ngb-pagination [collectionSize]="payoutsCollectionSize" [(page)]="payoutsPage" [pageSize]="payoutsPageSize"
+              (pageChange)="refreshPayouts()">
+            </ngb-pagination>
+          </div>
+        </ng-template>
+      </li>
+
+
+      <!-- Payouts -->
+      <li [ngbNavItem]="5">
         <a ngbNavLink><i class="fa fa-wallet"></i>&nbsp;<span i18n>Payouts</span></a>
         <ng-template ngbNavContent>
           <br />
@@ -422,17 +464,15 @@
               <div class="row row-grid">
                 <div class="col-lg-3 justify-content-center">
                   <div class="card card-lift shadow border-0">
-                    <div *ngIf="payoutaddrs$ | async; let payoutaddrs"
-                      class="card-body py-3 text-center text-uppercase">
+                    <div *ngIf="payouttxs$ | async; let payouttxs" class="card-body py-3 text-center text-uppercase">
                       <span class="text-primary"><span i18n="">Total transaction(s)</span></span>
-                      <p class="display-3">{{ payoutsCollectionSize }}</p>
+                      <p class="display-3">{{ payouttxsCollectionSize }}</p>
                     </div>
                   </div>
                 </div>
                 <div class="col-lg-3 justify-content-center">
                   <div class="card card-lift shadow border-0">
-                    <div *ngIf="(payoutaddrs$ | async) as payoutaddrs"
-                      class="card-body py-3 text-center text-uppercase">
+                    <div *ngIf="(payouttxs$ | async) as payouttxs" class="card-body py-3 text-center text-uppercase">
                       <span class="text-primary"><span i18n="@@TotalPaid">Total paid</span></span>
                       <p class="display-3">{{ farmer.payout.total_paid / 1000000000000 | number:'1.6' }} XCH
                       </p>
@@ -441,8 +481,7 @@
                 </div>
                 <div class="col-lg-3 justify-content-center">
                   <div class="card card-lift shadow border-0">
-                    <div *ngIf="(payoutaddrs$ | async) as payoutaddrs"
-                      class="card-body py-3 text-center text-uppercase">
+                    <div *ngIf="(payouttxs$ | async) as payouttxs" class="card-body py-3 text-center text-uppercase">
                       <span class="text-primary"><span i18n="@@TotalUnpaid">Total unpaid</span></span>
                       <p class="display-3">{{ farmer.payout.total_unpaid / 1000000000000 | number:'1.6' }} XCH
                       </p>
@@ -451,13 +490,12 @@
                 </div>
                 <div class="col-lg-3 justify-content-center">
                   <div class="card card-lift shadow border-0">
-                    <div *ngIf="(payoutaddrs$ | async) as payoutaddrs"
-                      class="card-body py-3 text-center text-uppercase">
+                    <div *ngIf="(payouttxs$ | async) as payouttxs" class="card-body py-3 text-center text-uppercase">
                       <span class="text-primary"><span i18n="">Export CSV</span></span>
                       <p class="display-3">
-                        <button *ngIf="payoutaddrs.length>=1" class="btn btn-neutral btn-icon btn-openchia"
+                        <button *ngIf="payouttxs.length>=1" class="btn btn-neutral btn-icon btn-openchia"
                           (click)="payoutDownloadCSV()">Download</button>
-                        <button *ngIf="payoutaddrs.length==0" disabled class="btn btn-warning btn-icon btn-openchia">No
+                        <button *ngIf="payouttxs.length==0" disabled class="btn btn-warning btn-icon btn-openchia">No
                           payout</button>
                       </p>
                     </div>
@@ -470,45 +508,40 @@
           <table class="table table-sm table-striped table-responsive-lg">
             <thead>
               <tr>
-                <th scope="col" i18n="@@ID">ID</th>
                 <th scope="col" i18n="@@Date">Date</th>
                 <th scope="col" i18n="@@Transaction">Transaction</th>
-                <th scope="col" i18n="@@Block">Block</th>
+                <th scope="col" i18n="@@ConfirmedBlock">Confirmed Block</th>
                 <th scope="col" i18n="@@Amount">Amount</th>
                 <th scope="col" i18n="@@Price">Price</th>
-                <th scope="col" i18n="@@Payout">Payout</th>
               </tr>
             </thead>
-            <tbody *ngIf="(payoutaddrs$ | async) as payoutaddrs;">
-              <tr *ngFor="let payoutaddr of payoutaddrs; let i = index">
-                <td>{{ payoutaddr.id }}</td>
-                <td>{{ payoutaddr.payout.datetime | date:"medium" }}</td>
-                <td>{{ payoutaddr.transaction?.transaction }}</td>
-                <td>{{ payoutaddr.transaction?.confirmed_block_index }}</td>
-                <td>{{ payoutaddr.amount / 1000000000000 }} XCH</td>
+            <tbody *ngIf="(payouttxs$ | async) as payouttxs;">
+              <tr *ngFor="let payouttx of payouttxs; let i = index">
+                <td>{{ payouttx.created_at_time | date:"medium" }}</td>
+                <td>{{ payouttx.transaction_name }}</td>
+                <td>{{ payouttx.confirmed_block_index }}</td>
+                <td>{{ payouttx.amount / 1000000000000 }} XCH</td>
                 <td>
-                  <span *ngIf="payoutaddr.transaction && payoutaddr.transaction.xch_price">${{
-                    payoutaddr.transaction?.xch_price?.usd * (payoutaddr.amount / 1000000000000) | number }} USD</span>
-                  <span *ngIf="!payoutaddr.transaction || !payoutaddr.transaction.xch_price"
-                    i18n="@@Unknown">Unknown</span>
+                  <span *ngIf="payouttx.xch_price">${{
+                    payouttx.xch_price?.usd * (payouttx.amount / 1000000000000) | number }} USD</span>
+                  <span *ngIf="!payouttx.xch_price" i18n="@@Unknown">Unknown</span>
                 </td>
-                <td><a [routerLink]="['/explorer/payout', payoutaddr.payout.id]">{{ payoutaddr.payout.id }}</a></td>
               </tr>
-              <tr *ngIf="payoutaddrs.length == 0">
+              <tr *ngIf="payouttxs.length == 0">
                 <td colspan="7" i18n="@@NoPayouts">No payouts found!</td>
               </tr>
             </tbody>
           </table>
           <div class="d-flex justify-content-between p-2">
-            <ngb-pagination [collectionSize]="payoutsCollectionSize" [(page)]="payoutsPage" [pageSize]="payoutsPageSize"
-              (pageChange)="refreshPayouts()">
+            <ngb-pagination [collectionSize]="payouttxsCollectionSize" [(page)]="payouttxsPage"
+              [pageSize]="payouttxsPageSize" (pageChange)="refreshPayoutTxs()">
             </ngb-pagination>
           </div>
         </ng-template>
       </li>
 
       <!-- Blocks -->
-      <li [ngbNavItem]="5">
+      <li [ngbNavItem]="6">
         <a ngbNavLink><i class="fa fa-cube"></i>&nbsp;<span i18n>Blocks</span></a>
         <ng-template ngbNavContent>
           <br />
@@ -592,7 +625,7 @@
       </li>
 
       <!-- Fee -->
-      <li [ngbNavItem]="6">
+      <li [ngbNavItem]="7">
         <a ngbNavLink><i class="fa fa-percent"></i>&nbsp;<span i18n>Fee</span></a>
         <ng-template ngbNavContent>
           <br />
@@ -629,72 +662,6 @@
             </div>
 
           </div>
-        </ng-template>
-      </li>
-
-      <!-- Giveaways -->
-      <li [ngbNavItem]="7">
-        <a ngbNavLink><i class="fa fa-gift"></i>&nbsp;<span i18n="@@Giveaways">Giveaways</span></a>
-        <ng-template ngbNavContent>
-          <table class="table table-sm table-striped table-responsive-lg">
-            <thead>
-              <tr>
-                <th scope="col">Draw Date</th>
-                <th scope="col">Winner</th>
-                <th scope="col">Amount</th>
-                <th scope="col">Tickets Issued</th>
-              </tr>
-            </thead>
-            <tbody *ngIf="(giveaways$ | async) as giveaways;">
-              <tr *ngFor="let giveaway of giveaways; let i = index">
-                <td>{{ giveaway.draw_datetime | date:"medium" }}</td>
-                <td *ngIf="giveaway.winner">
-                  <a [routerLink]="['/explorer/farmer', giveaway.winner.launcher_id]">{{ giveaway.winner.launcher_id
-                    }}</a> ({{ giveaway.winner.name || "not set" }})
-                </td>
-                <td *ngIf="!giveaway.winner">?</td>
-                <td>{{ giveaway.prize_amount / 1000000000000 }} XCH</td>
-                <td>{{ giveaway.issued_tickets || "None" }} (<a href="javascript:void();"
-                    (click)="openGiveaway(content)">Show
-                    mine</a>)</td>
-              </tr>
-              <tr *ngIf="giveaways.length == 0">
-                <td colspan="4" i18n>No giveaways available!</td>
-              </tr>
-            </tbody>
-          </table>
-          <ng-template #content let-modal>
-            <div class="modal-header">
-              <h4 class="modal-title">Tickets</h4>
-              <button type="button" class="close" aria-label="Close" (click)="modal.dismiss('Cross click')">
-                <span aria-hidden="true">&times;</span>
-              </button>
-            </div>
-            <div class="modal-body">
-              <table class="table table-sm table-striped table-responsive-lg">
-                <thead>
-                  <tr>
-                    <th scope="col">Date</th>
-                    <th scope="col">Estimated Size</th>
-                    <th scope="col">Tickets Issued</th>
-                  </tr>
-                </thead>
-                <tbody *ngFor="let ticket of (ticketsRound$ | async); let i = index">
-                  <tr>
-                    <td>{{ ticket.created_at | date:"short" }}</td>
-                    <td>{{ ticket.estimated_size | filesize:{"base": 2, "standard": "iec"} }}</td>
-                    <td>{{ ticket.number_tickets }}</td>
-                  </tr>
-                  <tr>
-                    <td colspan="3"><span *ngFor="let t of ticket.tickets">{{ t }} </span></td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-            <div class="modal-footer">
-              <button type="button" class="btn btn-light" (click)="modal.close('Close click')">Close</button>
-            </div>
-          </ng-template>
         </ng-template>
       </li>
 

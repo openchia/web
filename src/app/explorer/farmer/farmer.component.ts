@@ -58,6 +58,14 @@ export class FarmerComponent implements OnInit {
   payoutsCountTotal: number = 0;
   payoutsAmountTotal: number = 0;
 
+  payouttxs$: Observable<any[]>;
+  _payouttxs$ = new BehaviorSubject<any[]>([]);
+  payouttxsCollectionSize: number = 0;
+  payouttxsPage: number = 1;
+  payouttxsPageSize: number = 25;
+  payouttxsCountTotal: number = 0;
+  payouttxsAmountTotal: number = 0;
+
   blocks$: Observable<any[]>;
   _blocks$ = new BehaviorSubject<any[]>([]);
   blocksCollectionSize: number = 0;
@@ -81,17 +89,16 @@ export class FarmerComponent implements OnInit {
     private clipboardApi: ClipboardService
   ) {
     this.blocks$ = this._blocks$.asObservable();
-    this.giveaways$ = dataService.giveaways$;
     this.payoutaddrs$ = this._payoutaddrs$.asObservable();
-    this.ticketsRound$ = dataService.ticketsRound$;
+    this.payouttxs$ = this._payouttxs$.asObservable();
   }
 
   ngOnInit(): void {
     this.route.paramMap.subscribe(data => {
       this.farmerid = data['params']['id'];
-      this.dataService.getGiveaways();
       this.refreshBlocks();
       this.refreshPayouts();
+      this.refreshPayoutTxs();
       this.dataService.getLauncher(this.farmerid).subscribe(launcher => {
         this.farmer = launcher;
         this.getPartialsData(this.farmerid);
@@ -187,6 +194,19 @@ export class FarmerComponent implements OnInit {
       offset: (this.payoutsPage - 1) * this.payoutsPageSize,
       limit: this.payoutsPageSize
     }).subscribe(data => this.handlePayouts(data));
+  }
+
+  private handlePayoutTxs(data) {
+    this.payouttxsCollectionSize = data['count'];
+    this._payouttxs$.next(data['results']);
+  }
+
+  refreshPayoutTxs() {
+    this.dataService.getPayoutTxs({
+      launcher: this.farmerid,
+      offset: (this.payouttxsPage - 1) * this.payouttxsPageSize,
+      limit: this.payouttxsPageSize
+    }).subscribe(data => this.handlePayoutTxs(data));
   }
 
   toggleFailedPartials(event): void {
@@ -327,11 +347,6 @@ export class FarmerComponent implements OnInit {
 
   partialsXAxisFormat(data) {
     return new Date(data * 1000).toLocaleTimeString();
-  }
-
-  openGiveaway(content, id) {
-    this.dataService.getTicketsRound(this.farmerid, id);
-    this.modal.open(content, { size: 'lg' });
   }
 
   showPartialError(content) {

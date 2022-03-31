@@ -266,7 +266,7 @@
 
 <section class="section section-sm pt-sm-0">
   <div class="container">
-    <h3 class="display-3" i18n>Payouts</h3>
+    <h3 class="display-3" i18n>Rewards</h3>
     <table class="table table-sm table-striped table-responsive-lg">
       <thead>
         <tr>
@@ -278,7 +278,7 @@
       <tbody *ngIf="(payouts$ | async) as payouts;">
         <tr *ngFor="let payout of payouts; let i = index">
           <td>
-            <a [routerLink]="['/explorer/payout', payout.id]" routerLinkActive="router-link-active">
+            <a [routerLink]="['/explorer/reward', payout.id]" routerLinkActive="router-link-active">
               {{ payout.id }}
             </a>
           </td>
@@ -286,7 +286,7 @@
           <td>{{ payout.amount / 1000000000000 | number }} XCH</td>
         </tr>
         <tr *ngIf="payouts.length == 0">
-          <td colspan="3" i18n="@@NoPayouts">No payouts found!</td>
+          <td colspan="3" i18n="@@NoRewards">No rewards found!</td>
         </tr>
       </tbody>
     </table>

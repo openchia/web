@@ -6,7 +6,7 @@ import { DashboardComponent } from './dashboard/dashboard.component';
 import { ExplorerComponent } from './explorer.component';
 import { FarmerComponent } from './farmer/farmer.component';
 import { LoginComponent } from './login/login.component';
-import { PayoutComponent } from './payout/payout.component';
+import { RewardComponent } from './reward/reward.component';
 
 const routes: Routes = [
     {
@@ -26,8 +26,8 @@ const routes: Routes = [
                 component: LoginComponent,
             },
             {
-                path: 'payout/:id',
-                component: PayoutComponent,
+                path: 'reward/:id',
+                component: RewardComponent,
             },
         ]
     }
