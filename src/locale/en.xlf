@@ -386,7 +386,7 @@
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
-          <context context-type="linenumber">545,550</context>
+          <context context-type="linenumber">557,562</context>
         </context-group>
       </trans-unit>
       <trans-unit id="1d807733635e1587142d0bf8c9253414da999d08" datatype="html">
@@ -517,7 +517,7 @@
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
-          <context context-type="linenumber">190,194</context>
+          <context context-type="linenumber">202,206</context>
         </context-group>
       </trans-unit>
       <trans-unit id="UtilizationSpace" datatype="html">
@@ -556,7 +556,7 @@
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
-          <context context-type="linenumber">566,569</context>
+          <context context-type="linenumber">578,581</context>
         </context-group>
       </trans-unit>
       <trans-unit id="Date" datatype="html">
@@ -567,19 +567,19 @@
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
-          <context context-type="linenumber">190,192</context>
+          <context context-type="linenumber">202,204</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
-          <context context-type="linenumber">424,426</context>
+          <context context-type="linenumber">436,438</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
-          <context context-type="linenumber">512,514</context>
+          <context context-type="linenumber">524,526</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
-          <context context-type="linenumber">568,570</context>
+          <context context-type="linenumber">580,582</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/explorer/reward/reward.component.html</context>
@@ -601,7 +601,7 @@
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
-          <context context-type="linenumber">580,583</context>
+          <context context-type="linenumber">592,595</context>
         </context-group>
       </trans-unit>
       <trans-unit id="06dac242b2c951e365884c1362470cb82067cce1" datatype="html">
@@ -612,7 +612,7 @@
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
-          <context context-type="linenumber">582,585</context>
+          <context context-type="linenumber">594,597</context>
         </context-group>
       </trans-unit>
       <trans-unit id="PoolEffort" datatype="html">
@@ -623,7 +623,7 @@
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
-          <context context-type="linenumber">570,573</context>
+          <context context-type="linenumber">582,585</context>
         </context-group>
       </trans-unit>
       <trans-unit id="a1dcf7ffffc0aa88ff396abe738ab0f053ddcd7a" datatype="html">
@@ -641,15 +641,15 @@
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
-          <context context-type="linenumber">527,531</context>
+          <context context-type="linenumber">539,543</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
-          <context context-type="linenumber">600,604</context>
+          <context context-type="linenumber">612,616</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
-          <context context-type="linenumber">603,606</context>
+          <context context-type="linenumber">615,618</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/explorer/reward/reward.component.html</context>
@@ -664,7 +664,7 @@
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
-          <context context-type="linenumber">606,608</context>
+          <context context-type="linenumber">618,620</context>
         </context-group>
       </trans-unit>
       <trans-unit id="Average" datatype="html">
@@ -675,7 +675,7 @@
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
-          <context context-type="linenumber">607,612</context>
+          <context context-type="linenumber">619,624</context>
         </context-group>
       </trans-unit>
       <trans-unit id="Unlucky" datatype="html">
@@ -686,7 +686,7 @@
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
-          <context context-type="linenumber">608,612</context>
+          <context context-type="linenumber">620,624</context>
         </context-group>
       </trans-unit>
       <trans-unit id="cb137bd024242b35a1f084f90e1c3966d8e7a192" datatype="html">
@@ -704,7 +704,7 @@
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
-          <context context-type="linenumber">417,421</context>
+          <context context-type="linenumber">429,433</context>
         </context-group>
       </trans-unit>
       <trans-unit id="ID" datatype="html">
@@ -729,15 +729,15 @@
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
-          <context context-type="linenumber">425,429</context>
+          <context context-type="linenumber">437,441</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
-          <context context-type="linenumber">514,518</context>
+          <context context-type="linenumber">526,530</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
-          <context context-type="linenumber">568,571</context>
+          <context context-type="linenumber">580,583</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/explorer/reward/reward.component.html</context>
@@ -756,7 +756,7 @@
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
-          <context context-type="linenumber">444,449</context>
+          <context context-type="linenumber">456,461</context>
         </context-group>
       </trans-unit>
       <trans-unit id="PoolWallets" datatype="html">
@@ -884,7 +884,7 @@
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
-          <context context-type="linenumber">397,400</context>
+          <context context-type="linenumber">409,412</context>
         </context-group>
       </trans-unit>
       <trans-unit id="d06bcf60e753d935944af3f39801a43c9ee6169e" datatype="html">
@@ -905,286 +905,300 @@
         <source>Effective Fee</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
-          <context context-type="linenumber">58,63</context>
+          <context context-type="linenumber">58,62</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
-          <context context-type="linenumber">654,656</context>
+          <context context-type="linenumber">666,668</context>
         </context-group>
       </trans-unit>
       <trans-unit id="c9d1ff044a1f8454ba61e33eeb8cae2cebd5051f" datatype="html">
         <source>Estimated Time to Win (ETW)</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
-          <context context-type="linenumber">62,65</context>
+          <context context-type="linenumber">62,64</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2b2d199a822c35e264991ca9a12cc28091c67e7f" datatype="html">
+        <source>Based on farmer estimated size and netspace. This value may vary significantly.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
+          <context context-type="linenumber">64,68</context>
         </context-group>
       </trans-unit>
       <trans-unit id="e5d8bb389c702588877f039d72178f219453a72d" datatype="html">
         <source>Unknown</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
-          <context context-type="linenumber">64,67</context>
+          <context context-type="linenumber">69,72</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
-          <context context-type="linenumber">67,71</context>
+          <context context-type="linenumber">79,83</context>
         </context-group>
       </trans-unit>
       <trans-unit id="b7122aa7e824953414e6cacb484552f95172b992" datatype="html">
         <source>Current Effort</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
-          <context context-type="linenumber">65,67</context>
+          <context context-type="linenumber">70,72</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4506ef25cc205e8b8dec267a55e33d9d1ec03da9" datatype="html">
+        <source>Estimate based on last block farmed and current estimated time to win. If the farmer never farmed one block then the creation date of the Plot NFT is used as a starting point.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
+          <context context-type="linenumber">72,77</context>
         </context-group>
       </trans-unit>
       <trans-unit id="EstimatedRewardDay" datatype="html">
         <source>Estimated Reward</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
-          <context context-type="linenumber">70,73</context>
+          <context context-type="linenumber">82,85</context>
         </context-group>
       </trans-unit>
       <trans-unit id="fca305780869230f3f65ee56c7e002d6eb11be67" datatype="html">
         <source>Profitability based on blocks farmed on last 30 days, based on your farm space.</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
-          <context context-type="linenumber">72,75</context>
+          <context context-type="linenumber">84,87</context>
         </context-group>
       </trans-unit>
       <trans-unit id="Partials" datatype="html">
         <source>Partials</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
-          <context context-type="linenumber">99,102</context>
+          <context context-type="linenumber">111,114</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
-          <context context-type="linenumber">115,118</context>
+          <context context-type="linenumber">127,130</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
-          <context context-type="linenumber">153,156</context>
+          <context context-type="linenumber">165,168</context>
         </context-group>
       </trans-unit>
       <trans-unit id="Hrs24" datatype="html">
         <source>24 hours</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
-          <context context-type="linenumber">116,119</context>
+          <context context-type="linenumber">128,131</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
-          <context context-type="linenumber">125,128</context>
+          <context context-type="linenumber">137,140</context>
         </context-group>
       </trans-unit>
       <trans-unit id="Points" datatype="html">
         <source>Points</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
-          <context context-type="linenumber">124,127</context>
+          <context context-type="linenumber">136,139</context>
         </context-group>
       </trans-unit>
       <trans-unit id="SuccessfulPartials_preline" datatype="html">
         <source>Successful Partials</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
-          <context context-type="linenumber">134,139</context>
+          <context context-type="linenumber">146,151</context>
         </context-group>
       </trans-unit>
       <trans-unit id="FailedPartials_preline" datatype="html">
         <source>Failed Partials</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
-          <context context-type="linenumber">145,149</context>
+          <context context-type="linenumber">157,161</context>
         </context-group>
       </trans-unit>
       <trans-unit id="Performance" datatype="html">
         <source>Performance</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
-          <context context-type="linenumber">154,156</context>
+          <context context-type="linenumber">166,168</context>
         </context-group>
       </trans-unit>
       <trans-unit id="HarvesterCount_preline" datatype="html">
         <source>Harvester Count</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
-          <context context-type="linenumber">166,170</context>
+          <context context-type="linenumber">178,182</context>
         </context-group>
       </trans-unit>
       <trans-unit id="994cefce55bece12954b80736323ba6def5aad13" datatype="html">
         <source>Partials</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
-          <context context-type="linenumber">177,180</context>
+          <context context-type="linenumber">189,192</context>
         </context-group>
       </trans-unit>
       <trans-unit id="99c327c9e1e22d737142df163e93f2a269847d6a" datatype="html">
         <source>Show failed partials only</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
-          <context context-type="linenumber">181,186</context>
+          <context context-type="linenumber">193,198</context>
         </context-group>
       </trans-unit>
       <trans-unit id="f28fe410357b7e5eda20cbc152995a24781a591a" datatype="html">
         <source>Harvester ID</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
-          <context context-type="linenumber">191,196</context>
+          <context context-type="linenumber">203,208</context>
         </context-group>
       </trans-unit>
       <trans-unit id="8c79808d7b1e990cda0548f365d6bf85493197d4" datatype="html">
         <source>Plot ID</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
-          <context context-type="linenumber">192,197</context>
+          <context context-type="linenumber">204,209</context>
         </context-group>
       </trans-unit>
       <trans-unit id="873b72903b1858a9cd6c8967521030b4d7d1435b" datatype="html">
         <source>State</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
-          <context context-type="linenumber">193,198</context>
+          <context context-type="linenumber">205,210</context>
         </context-group>
       </trans-unit>
       <trans-unit id="c135821495429ff3fd89664f549ec24da765b5d5" datatype="html">
         <source>No partials found!</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
-          <context context-type="linenumber">221,226</context>
+          <context context-type="linenumber">233,238</context>
         </context-group>
       </trans-unit>
       <trans-unit id="6080b77234e92ad41bb52653b239c4c4f851317d" datatype="html">
         <source>Error</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
-          <context context-type="linenumber">242,248</context>
+          <context context-type="linenumber">254,260</context>
         </context-group>
       </trans-unit>
       <trans-unit id="4f8b2bb476981727ab34ed40fde1218361f92c45" datatype="html">
         <source>Details</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
-          <context context-type="linenumber">243,249</context>
+          <context context-type="linenumber">255,261</context>
         </context-group>
       </trans-unit>
       <trans-unit id="fde8d089e5441f8459c6ae22c7fcff640906be0c" datatype="html">
         <source> Farmer took too long to validate the partial proof of space. Make sure your proof of space lookups are fast, and network connectivity is good. Response must happen in less than 25 seconds. Your NAS or network farming can be an issue. This happens when your disks are in use (plotting) or when waking up. </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
-          <context context-type="linenumber">250,257</context>
+          <context context-type="linenumber">262,269</context>
         </context-group>
       </trans-unit>
       <trans-unit id="ffe2408315ec81b4fdaa269fd9601ae35691ff36" datatype="html">
         <source>Same partial proof was sent more than once. Can happen if there are duplicated plots being harvested or a signane point was advertised twice in the blockchain. Resolution: Verify the same plot id is not present in different harvesters. If you see this only every once in a while you can ignore this error.</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
-          <context context-type="linenumber">259,265</context>
+          <context context-type="linenumber">271,277</context>
         </context-group>
       </trans-unit>
       <trans-unit id="7e83a0e503a236c9c062350b9da653509e7ce09e" datatype="html">
         <source>Signage point is invalid or was not found in pool&apos;s node blockchain. Resolution: make sure your node is synced and connected to enough peers.</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
-          <context context-type="linenumber">266,271</context>
+          <context context-type="linenumber">278,283</context>
         </context-group>
       </trans-unit>
       <trans-unit id="3f7152849bd3d11b9c24a39c9343def2a25969e6" datatype="html">
         <source>The proof sent is not good enough for the current difficulty of the farmer. It may happen when there is a difficulty change in the pool and there were partials already in the queue to be processed. Resolution: No action needed, it should correct itself. If the problem persists contact a pool operator.</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
-          <context context-type="linenumber">271,277</context>
+          <context context-type="linenumber">283,289</context>
         </context-group>
       </trans-unit>
       <trans-unit id="577fe4726eb3b7728e42c38697359fc448cf1cf9" datatype="html">
         <source>Plot NFT (pool smart contract) no longer in the pool. Farmer left the pool. Resolution: Leave and rejoin the pool.</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
-          <context context-type="linenumber">278,283</context>
+          <context context-type="linenumber">290,295</context>
         </context-group>
       </trans-unit>
       <trans-unit id="b332c46e8c180a5c698f691b2d93357b9b22abe1" datatype="html">
         <source>The Plot NFT is in an invalid state. Resolution: Leave and rejoin the pool.</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
-          <context context-type="linenumber">283,287</context>
+          <context context-type="linenumber">295,299</context>
         </context-group>
       </trans-unit>
       <trans-unit id="0a700f6ee3617a04736835112a98422f08bc6f47" datatype="html">
         <source>Can happen when the node is on high load with block propagation delays, resulting in forked sidechains. Resolution: Make sure you are running the latest Chia version and that your computer has the minimal requirments to run a full node.</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
-          <context context-type="linenumber">287,293</context>
+          <context context-type="linenumber">299,305</context>
         </context-group>
       </trans-unit>
       <trans-unit id="811eba8ab93705674c044a6187903fdfbe3cf0ca" datatype="html">
         <source>Same as SP_REVERTED. Can happen when the node is on high load with block propagation delays, resulting in forked sidechains. Resolution: Make sure you are running the latest Chia version and that your computer has the minimal requirements to run a full node.</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
-          <context context-type="linenumber">293,299</context>
+          <context context-type="linenumber">305,311</context>
         </context-group>
       </trans-unit>
       <trans-unit id="7c8e3cb4b7ab50d682420596d87f979cbd364baf" datatype="html">
         <source>The pool contract address for the partial does not match the value in the pool database. Resolution: Leave and rejoin the pool. If the issue persists contact a pool operator.</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
-          <context context-type="linenumber">299,304</context>
+          <context context-type="linenumber">311,316</context>
         </context-group>
       </trans-unit>
       <trans-unit id="dca63c761002f128baffb7095e3f3d327c18df1f" datatype="html">
         <source>The partial proof is not valid. Resolution: Make sure your are running the latest version of Chia.</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
-          <context context-type="linenumber">304,309</context>
+          <context context-type="linenumber">316,321</context>
         </context-group>
       </trans-unit>
       <trans-unit id="166c8d1de4034746ed361a5c74d2e54d8c9c02c7" datatype="html">
         <source>The signature of the farmer does not match the farmer in the database. Resolution: Stop the farmer, remove all pool_list entries in config.yaml file and start the farmer again. If the issue persists leave and rejoin the pool.</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
-          <context context-type="linenumber">309,316</context>
+          <context context-type="linenumber">321,328</context>
         </context-group>
       </trans-unit>
       <trans-unit id="Harvesters" datatype="html">
         <source>Harvesters</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
-          <context context-type="linenumber">324,329</context>
+          <context context-type="linenumber">336,341</context>
         </context-group>
       </trans-unit>
       <trans-unit id="1e8637d563bf447efb2563a20a30f6091d11fa05" datatype="html">
         <source> Harvester <x id="INTERPOLATION" equiv-text="{{ mapEntry.key"/> </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
-          <context context-type="linenumber">335</context>
+          <context context-type="linenumber">347</context>
         </context-group>
       </trans-unit>
       <trans-unit id="72c8d24dd54e5dc27746903fa10e1b64a7d9ff96" datatype="html">
         <source>Total Points</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
-          <context context-type="linenumber">361,364</context>
+          <context context-type="linenumber">373,376</context>
         </context-group>
       </trans-unit>
       <trans-unit id="7394d7b31ddd77f326878e7c4a8d308f6f0da5c6" datatype="html">
         <source>Successful Partials</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
-          <context context-type="linenumber">369,372</context>
+          <context context-type="linenumber">381,384</context>
         </context-group>
       </trans-unit>
       <trans-unit id="146d9ea771a6a5d854d710e14505b9eed4b889e9" datatype="html">
         <source>Failed Partials</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
-          <context context-type="linenumber">377,380</context>
+          <context context-type="linenumber">389,392</context>
         </context-group>
       </trans-unit>
       <trans-unit id="Blocks" datatype="html">
         <source>Blocks</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
-          <context context-type="linenumber">424,427</context>
+          <context context-type="linenumber">436,439</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/explorer/reward/reward.component.html</context>
@@ -1195,14 +1209,14 @@
         <source>Paid</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
-          <context context-type="linenumber">427,430</context>
+          <context context-type="linenumber">439,442</context>
         </context-group>
       </trans-unit>
       <trans-unit id="RewardID" datatype="html">
         <source>Reward ID</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
-          <context context-type="linenumber">427,431</context>
+          <context context-type="linenumber">439,443</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/explorer/reward/reward.component.html</context>
@@ -1213,21 +1227,21 @@
         <source>Yes</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
-          <context context-type="linenumber">436,438</context>
+          <context context-type="linenumber">448,450</context>
         </context-group>
       </trans-unit>
       <trans-unit id="7a9097e4f66451c34b8c3a84ad6f3df0168a490e" datatype="html">
         <source>Confirming</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
-          <context context-type="linenumber">438,441</context>
+          <context context-type="linenumber">450,453</context>
         </context-group>
       </trans-unit>
       <trans-unit id="e6a27066251ca1e04c5be86ad758380856df2506" datatype="html">
         <source>Pending</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
-          <context context-type="linenumber">439,442</context>
+          <context context-type="linenumber">451,454</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/explorer/reward/reward.component.html</context>
@@ -1238,42 +1252,42 @@
         <source>Payouts</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
-          <context context-type="linenumber">459,464</context>
+          <context context-type="linenumber">471,476</context>
         </context-group>
       </trans-unit>
       <trans-unit id="a1f628ad227ee4387049f2a6dabaa5894eccd1c1" datatype="html">
         <source>Total transaction(s)</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
-          <context context-type="linenumber">468,472</context>
+          <context context-type="linenumber">480,484</context>
         </context-group>
       </trans-unit>
       <trans-unit id="TotalPaid" datatype="html">
         <source>Total paid</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
-          <context context-type="linenumber">476,479</context>
+          <context context-type="linenumber">488,491</context>
         </context-group>
       </trans-unit>
       <trans-unit id="TotalUnpaid" datatype="html">
         <source>Total unpaid</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
-          <context context-type="linenumber">485,488</context>
+          <context context-type="linenumber">497,500</context>
         </context-group>
       </trans-unit>
       <trans-unit id="41453c3d7e0a1ac2e5c9e73d3f8f5bf9ec23b829" datatype="html">
         <source>Export CSV</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
-          <context context-type="linenumber">494,496</context>
+          <context context-type="linenumber">506,508</context>
         </context-group>
       </trans-unit>
       <trans-unit id="Transaction" datatype="html">
         <source>Transaction</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
-          <context context-type="linenumber">512,515</context>
+          <context context-type="linenumber">524,527</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/explorer/reward/reward.component.html</context>
@@ -1284,18 +1298,18 @@
         <source>Confirmed Block</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
-          <context context-type="linenumber">513,518</context>
+          <context context-type="linenumber">525,530</context>
         </context-group>
       </trans-unit>
       <trans-unit id="Price" datatype="html">
         <source>Price</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
-          <context context-type="linenumber">515,519</context>
+          <context context-type="linenumber">527,531</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
-          <context context-type="linenumber">569,572</context>
+          <context context-type="linenumber">581,585</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/explorer/reward/reward.component.html</context>
@@ -1306,49 +1320,49 @@
         <source>No payouts found!</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
-          <context context-type="linenumber">531,536</context>
+          <context context-type="linenumber">543,548</context>
         </context-group>
       </trans-unit>
       <trans-unit id="5f0da6ce66a56080556f29471c1660b3054ff693" datatype="html">
         <source>Total block(s)</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
-          <context context-type="linenumber">554,558</context>
+          <context context-type="linenumber">566,570</context>
         </context-group>
       </trans-unit>
       <trans-unit id="84b0b07a20939d16c2253f8d5505cc4d4bc0524e" datatype="html">
         <source> The effort that was required to farm the block. 100% is the expected estimated time to win. Lower than 100% means we farmed the block before the estimation. Higher than 100% means we took longer than anticipated. </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
-          <context context-type="linenumber">573,578</context>
+          <context context-type="linenumber">585,590</context>
         </context-group>
       </trans-unit>
       <trans-unit id="a91a60516b5081738e593fb71984586e10310351" datatype="html">
         <source>No blocks found by this farmer!</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
-          <context context-type="linenumber">615,620</context>
+          <context context-type="linenumber">627,632</context>
         </context-group>
       </trans-unit>
       <trans-unit id="160f1ffbd26df073d0fbd02cf8ce0d8cea7603b0" datatype="html">
         <source>Fee</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
-          <context context-type="linenumber">629,633</context>
+          <context context-type="linenumber">641,645</context>
         </context-group>
       </trans-unit>
       <trans-unit id="4da5f68d3abab9c999777c361b61e01d5e3f7a73" datatype="html">
         <source>Pool Base Fee</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
-          <context context-type="linenumber">638,642</context>
+          <context context-type="linenumber">650,654</context>
         </context-group>
       </trans-unit>
       <trans-unit id="4256010fc2f3e21bf2c442ccf72dcaee9da5f999" datatype="html">
         <source>Length of Stay Discount</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
-          <context context-type="linenumber">642,644</context>
+          <context context-type="linenumber">654,656</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/fees/fees.component.html</context>
@@ -1359,21 +1373,21 @@
         <source>Max</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
-          <context context-type="linenumber">643,645</context>
+          <context context-type="linenumber">655,657</context>
         </context-group>
       </trans-unit>
       <trans-unit id="cceaba1ef6ce809232913dc96e1945fb49fea7a9" datatype="html">
         <source>weeks</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
-          <context context-type="linenumber">647,650</context>
+          <context context-type="linenumber">659,662</context>
         </context-group>
       </trans-unit>
       <trans-unit id="8667409dbbbb575bb611e3b1110f54234eef6ff1" datatype="html">
         <source>Size Discount</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
-          <context context-type="linenumber">650,654</context>
+          <context context-type="linenumber">662,666</context>
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/fees/fees.component.html</context>
@@ -1384,7 +1398,7 @@
         <source>Maximum discount reached</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
-          <context context-type="linenumber">658,665</context>
+          <context context-type="linenumber">670,677</context>
         </context-group>
       </trans-unit>
       <trans-unit id="24036095495322476" datatype="html">
