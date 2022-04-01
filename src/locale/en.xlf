@@ -1089,8 +1089,8 @@
           <context context-type="linenumber">262,269</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="ffe2408315ec81b4fdaa269fd9601ae35691ff36" datatype="html">
-        <source>Same partial proof was sent more than once. Can happen if there are duplicated plots being harvested or a signane point was advertised twice in the blockchain. Resolution: Verify the same plot id is not present in different harvesters. If you see this only every once in a while you can ignore this error.</source>
+      <trans-unit id="e8d16f530545d0822150d4a403a57028bf290418" datatype="html">
+        <source>Same partial proof was sent more than once. Can happen if there are duplicated plots being harvested or a signage point was advertised twice in the blockchain. Resolution: Verify the same plot id is not present in different harvesters. If you see this only every once in a while you can ignore this error.</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
           <context context-type="linenumber">271,277</context>
@@ -1124,8 +1124,8 @@
           <context context-type="linenumber">295,299</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="0a700f6ee3617a04736835112a98422f08bc6f47" datatype="html">
-        <source>Can happen when the node is on high load with block propagation delays, resulting in forked sidechains. Resolution: Make sure you are running the latest Chia version and that your computer has the minimal requirments to run a full node.</source>
+      <trans-unit id="6721a032ae7a6cc16235cf6069299e33fff0536e" datatype="html">
+        <source>Can happen when the node is on high load with block propagation delays, resulting in forked sidechains. Resolution: Make sure you are running the latest Chia version and that your computer has the minimal requirements to run a full node.</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
           <context context-type="linenumber">299,305</context>
