@@ -550,7 +550,7 @@
       </trans-unit>
       <trans-unit id="bbb53c975f216e03d9bed761cdea97405a9027fb" datatype="html">
         <source>Friendly Name</source>
-        <target>Priateľský názov</target>
+        <target>Prezývka</target>
       </trans-unit>
       <trans-unit id="bc8dc7dc8854f37f1f0258ac25cc8a56e50b1159" datatype="html">
         <source>Profitability based on blocks farmed on last 30 days. Estimated value (XCH) a farmer would get per TiB per day.</source>
