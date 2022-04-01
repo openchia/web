@@ -678,7 +678,7 @@
       </trans-unit>
       <trans-unit id="Average" datatype="html">
         <source>Average</source>
-        <target state="needs-translation">Average</target>
+        <target state="translated">Durchschnittlich</target>
       </trans-unit>
       <trans-unit id="Beta" datatype="html">
         <source>BETA</source>
@@ -786,7 +786,7 @@
       </trans-unit>
       <trans-unit id="Lucky" datatype="html">
         <source>Lucky</source>
-        <target state="needs-translation">Lucky</target>
+        <target state="translated">Glücklich</target>
       </trans-unit>
       <trans-unit id="MITLicense" datatype="html">
         <source>MIT License</source>
@@ -830,7 +830,7 @@
       </trans-unit>
       <trans-unit id="Profitability" datatype="html">
         <source>Profitability</source>
-        <target state="needs-translation">Profitability</target>
+        <target state="translated">Rentabilität</target>
       </trans-unit>
       <trans-unit id="Referral" datatype="html">
         <source>Referral</source>
@@ -850,7 +850,7 @@
       </trans-unit>
       <trans-unit id="Search" datatype="html">
         <source>Search</source>
-        <target state="needs-translation">Search</target>
+        <target state="translated">Suchen</target>
       </trans-unit>
       <trans-unit id="Step" datatype="html">
         <source>Step</source>
@@ -882,7 +882,7 @@
       </trans-unit>
       <trans-unit id="Unlucky" datatype="html">
         <source>Unlucky</source>
-        <target state="needs-translation">Unlucky</target>
+        <target state="translated">Unglücklich</target>
       </trans-unit>
       <trans-unit id="Uptime" datatype="html">
         <source>Uptime</source>
@@ -1033,6 +1033,274 @@
         <context-group purpose="location">
           <context context-type="sourcefile">node_modules/src/pagination/pagination.ts</context>
           <context context-type="linenumber">307,309</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="82c3411ad825e42c40b61c23ae53a09d0283a4b8" datatype="html">
+        <source>Weekly XCH</source>
+        <target>Wöchentlich XCH</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/calculator/calculator.component.html</context>
+          <context context-type="linenumber">98,101</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="Address" datatype="html">
+        <source>Address</source>
+        <target>Adresse</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/explorer/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">317,319</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4f8b2bb476981727ab34ed40fde1218361f92c45" datatype="html">
+        <source>Details</source>
+        <target>Einzelheiten</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
+          <context context-type="linenumber">255,261</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="aedda3b43cdef3052511e9c258a531ab10797a2f" datatype="html">
+        <source>Points (PPLNS)</source>
+        <target>Punkte (PPLNS)</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
+          <context context-type="linenumber">56,60</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="873b72903b1858a9cd6c8967521030b4d7d1435b" datatype="html">
+        <source>State</source>
+        <target>Zustand</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
+          <context context-type="linenumber">205,210</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6080b77234e92ad41bb52653b239c4c4f851317d" datatype="html">
+        <source>Error</source>
+        <target>Fehler</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
+          <context context-type="linenumber">254,260</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="622fcb04a0b030ea101d3525330778966df5fecb" datatype="html">
+        <source>Effective Fee</source>
+        <target>Effektive Gebühr</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
+          <context context-type="linenumber">58,62</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
+          <context context-type="linenumber">666,668</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="e5d8bb389c702588877f039d72178f219453a72d" datatype="html">
+        <source>Unknown</source>
+        <target>Unbekannt</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
+          <context context-type="linenumber">69,72</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
+          <context context-type="linenumber">79,83</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6149963f7b6e8339a7db40be653830239841e51b" datatype="html">
+        <source>1 Month</source>
+        <target>1 Monat</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/stats/stats.component.html</context>
+          <context context-type="linenumber">69,71</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/stats/stats.component.html</context>
+          <context context-type="linenumber">147,149</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/stats/stats.component.html</context>
+          <context context-type="linenumber">197,199</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/stats/stats.component.html</context>
+          <context context-type="linenumber">251,253</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/stats/stats.component.html</context>
+          <context context-type="linenumber">301,303</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="d2936a0d7a7cd1014fdb81195a40a38fd3d70bc7" datatype="html">
+        <source>3 Months</source>
+        <target>3 Monate</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/stats/stats.component.html</context>
+          <context context-type="linenumber">71,73</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/stats/stats.component.html</context>
+          <context context-type="linenumber">149,151</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/stats/stats.component.html</context>
+          <context context-type="linenumber">199,201</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/stats/stats.component.html</context>
+          <context context-type="linenumber">253,255</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/stats/stats.component.html</context>
+          <context context-type="linenumber">303,305</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ab102e798754de9510d2434b0a2cf2e55cadfa86" datatype="html">
+        <source>1 Year</source>
+        <target>1 Jahr</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/stats/stats.component.html</context>
+          <context context-type="linenumber">73,79</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/stats/stats.component.html</context>
+          <context context-type="linenumber">151,157</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/stats/stats.component.html</context>
+          <context context-type="linenumber">201,207</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/stats/stats.component.html</context>
+          <context context-type="linenumber">255,261</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/stats/stats.component.html</context>
+          <context context-type="linenumber">305,311</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3dbdf1f38a8f197e0a77eb460d31e26e1b820841" datatype="html">
+        <source>XCH Price</source>
+        <target>XCH-Preis</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/stats/stats.component.html</context>
+          <context context-type="linenumber">168,171</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="e1c7fd374631fc26f5eefac25afd46152c50613d" datatype="html">
+        <source>Estimated Earnings</source>
+        <target>Geschätzter Gewinn</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/calculator/calculator.component.html</context>
+          <context context-type="linenumber">19,21</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2e39c8f73bf706250110c3bbbcb013216ccd618f" datatype="html">
+        <source>Hourly XCH</source>
+        <target>Stündlich XCH</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/calculator/calculator.component.html</context>
+          <context context-type="linenumber">82,85</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="f92636454cc06321476854f21c7392a515fd687f" datatype="html">
+        <source>Daily XCH</source>
+        <target>Täglich XCH</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/calculator/calculator.component.html</context>
+          <context context-type="linenumber">90,93</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3202f6f4bbf4cf1d8fb8c4baa92a222cfdce1907" datatype="html">
+        <source>Monthly XCH</source>
+        <target>Monatlich XCH</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/calculator/calculator.component.html</context>
+          <context context-type="linenumber">106,109</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="cc15f4b8a90535f5eb726ec8fa2ad55360fd0934" datatype="html">
+        <source>404 PAGE NOT FOUND</source>
+        <target>404 Seite nicht gefunden</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/errors/pagenotfound/pagenotfound.component.html</context>
+          <context context-type="linenumber">19,21</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="c2435526c3716ecae495249d4b750e090d961d24" datatype="html">
+        <source>XCH Price</source>
+        <target>XCH-Preis</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/explorer/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">9,14</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8a7b4bd44c0ac71b2e72de0398b303257f7d2f54" datatype="html">
+        <source>Blocks</source>
+        <target>Blöcke</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/explorer/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">33,38</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
+          <context context-type="linenumber">557,562</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7bdce28bcb7947df99c223c3622648a88db63fc6" datatype="html">
+        <source>Netspace</source>
+        <target>Netzgröße</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/explorer/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">49,53</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="727c21cfe501b69144cb1579e5a79e6e9d19288a" datatype="html">
+        <source>Show active only</source>
+        <target>Nur aktiv anzeigen</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/explorer/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">159,164</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="Points24hrs" datatype="html">
+        <source>Points (24 hours)</source>
+        <target>Punkte (24 Stunden)</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/explorer/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">169,172</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="cb137bd024242b35a1f084f90e1c3966d8e7a192" datatype="html">
+        <source>No blocks found!</source>
+        <target>Keine Blöcke gefunden!</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/explorer/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">257,261</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2f933b826a570836cab04f683970a2d22068458c" datatype="html">
+        <source>Date</source>
+        <target>Datum</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/explorer/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">275,279</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="0972d881bb8dc119602e984ff428593e56a32c4f" datatype="html">
+        <source>Synced</source>
+        <target>Synchronisiert</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/explorer/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">329,331</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="619171a61aa23ace553a260092a2a02105b43174" datatype="html">
+        <source>Not synced!</source>
+        <target>Nicht synchronisiert!</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/explorer/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">330,332</context>
         </context-group>
       </trans-unit>
     </body>
