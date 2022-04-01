@@ -2078,8 +2078,8 @@
         </context-group>
       </trans-unit>
       <trans-unit id="d06bcf60e753d935944af3f39801a43c9ee6169e" datatype="html">
-        <source><x id="INTERPOLATION" equiv-text="s }} / {{ farme"/>% of pool</source>
-        <target><x id="INTERPOLATION" equiv-text="s }} / {{ farme"/>% združenia</target>
+        <source><x id="INTERPOLATION" equiv-text="}}&lt;/td&gt;"/>% of pool</source>
+        <target><x id="INTERPOLATION" equiv-text="}}&lt;/td&gt;"/>% združenia</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
           <context context-type="linenumber">53,57</context>
@@ -2395,6 +2395,218 @@
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/navbar/navbar.component.html</context>
           <context context-type="linenumber">67,71</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4506ef25cc205e8b8dec267a55e33d9d1ec03da9" datatype="html">
+        <source>Estimate based on last block farmed and current estimated time to win. If the farmer never farmed one block then the creation date of the Plot NFT is used as a starting point.</source>
+        <target>Odhad na základe posledného vyťaženého bloku a aktuálneho odhadovaného času na výhru. Ak farmár nikdy nevyhral žiadny blok, tak sa ako východiskový bod použije dátum vytvorenia NFT.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
+          <context context-type="linenumber">72,77</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="9141579156b435c7be59df6e592df4b93c134297" datatype="html">
+        <source>Rewards</source>
+        <target>Odmeny</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/explorer/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">269,274</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
+          <context context-type="linenumber">429,433</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="NoRewards" datatype="html">
+        <source>No rewards found!</source>
+        <target>Nenašli sa žiadne odmeny!</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/explorer/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">289,294</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
+          <context context-type="linenumber">456,461</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="aedda3b43cdef3052511e9c258a531ab10797a2f" datatype="html">
+        <source>Points (PPLNS)</source>
+        <target>Body (PPLNS)</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
+          <context context-type="linenumber">56,60</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="Paid" datatype="html">
+        <source>Paid</source>
+        <target>Vyplatené</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
+          <context context-type="linenumber">439,442</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="RewardID" datatype="html">
+        <source>Reward ID</source>
+        <target>ID odmeny</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
+          <context context-type="linenumber">439,443</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/explorer/reward/reward.component.html</context>
+          <context context-type="linenumber">43,46</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4f20f2d5a6882190892e58b85f6ccbedfa737952" datatype="html">
+        <source>Yes</source>
+        <target>Áno</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
+          <context context-type="linenumber">448,450</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7a9097e4f66451c34b8c3a84ad6f3df0168a490e" datatype="html">
+        <source>Confirming</source>
+        <target>Potvrdzuje sa</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
+          <context context-type="linenumber">450,453</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ConfirmedBlock" datatype="html">
+        <source>Confirmed Block</source>
+        <target>Potvrdený blok</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
+          <context context-type="linenumber">525,530</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ffe2408315ec81b4fdaa269fd9601ae35691ff36" datatype="html">
+        <source>Same partial proof was sent more than once. Can happen if there are duplicated plots being harvested or a signane point was advertised twice in the blockchain. Resolution: Verify the same plot id is not present in different harvesters. If you see this only every once in a while you can ignore this error.</source>
+        <target>Rovnaký čiastočný dôkaz bol odoslaný viackrát. Môže sa to stať, ak zberače používajú duplicitné polia alebo ak bol bod označenia v blockchaine inzerovaný dvakrát. Riešenie: Overte, že sa rovnaké ID poľa nenachádza v rôznych zberačoch. Ak túto chybu vidíte len raz za čas, môžete ju ignorovať.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
+          <context context-type="linenumber">271,277</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7e83a0e503a236c9c062350b9da653509e7ce09e" datatype="html">
+        <source>Signage point is invalid or was not found in pool's node blockchain. Resolution: make sure your node is synced and connected to enough peers.</source>
+        <target>Bod označenia je neplatný alebo sa nenašiel v blockchaine uzla združenia. Riešenie: Uistite sa, že váš uzol je synchronizovaný a pripojený k dostatočnému množstvu partnerov.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
+          <context context-type="linenumber">278,283</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="3f7152849bd3d11b9c24a39c9343def2a25969e6" datatype="html">
+        <source>The proof sent is not good enough for the current difficulty of the farmer. It may happen when there is a difficulty change in the pool and there were partials already in the queue to be processed. Resolution: No action needed, it should correct itself. If the problem persists contact a pool operator.</source>
+        <target>Zaslaný dôkaz nie je dostatočne dobrý vzhľadom na aktuálnu zložitosť farmára. Môže sa to stať, keď dôjde k zmene zložitosti v združení, ale vo fronte na spracovanie už boli nejaké parciálne dôkazy. Riešenie: Nie je potrebná žiadna akcia, malo by sa to opraviť samo. Ak problém pretrváva, kontaktujte prevádzkovateľa združenia.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
+          <context context-type="linenumber">283,289</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="b332c46e8c180a5c698f691b2d93357b9b22abe1" datatype="html">
+        <source>The Plot NFT is in an invalid state. Resolution: Leave and rejoin the pool.</source>
+        <target>NFT poľa je v neplatnom stave. Riešenie: Opustite združenie a potom sa k nemu znova pripojte.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
+          <context context-type="linenumber">295,299</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="577fe4726eb3b7728e42c38697359fc448cf1cf9" datatype="html">
+        <source>Plot NFT (pool smart contract) no longer in the pool. Farmer left the pool. Resolution: Leave and rejoin the pool.</source>
+        <target>NFT (pool smart contract) už nie je súčasťou združenia. Farmár opustil združenie. Riešenie: Opustite združenie a potom sa k nemu znova pripojte.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
+          <context context-type="linenumber">290,295</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="0a700f6ee3617a04736835112a98422f08bc6f47" datatype="html">
+        <source>Can happen when the node is on high load with block propagation delays, resulting in forked sidechains. Resolution: Make sure you are running the latest Chia version and that your computer has the minimal requirments to run a full node.</source>
+        <target>Môže sa to stať, keď je uzol vysoko zaťažený a oneskorujú sa posielania blokov, čo vedie k rozvetveným bočným reťazcom. Riešenie: Uistite sa, že používate najnovšiu verziu Chia a že váš počítač má minimálne požiadavky na spustenie úplného uzla.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
+          <context context-type="linenumber">299,305</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="811eba8ab93705674c044a6187903fdfbe3cf0ca" datatype="html">
+        <source>Same as SP_REVERTED. Can happen when the node is on high load with block propagation delays, resulting in forked sidechains. Resolution: Make sure you are running the latest Chia version and that your computer has the minimal requirements to run a full node.</source>
+        <target>Rovnaké ako SP_REVERTED. Môže sa to stať, keď je uzol vysoko zaťažený a oneskorujú sa posielania blokov, čo vedie k rozvetveným bočným reťazcom. Rozlíšenie: Uistite sa, že používate najnovšiu verziu Chia a že váš počítač má minimálne požiadavky na spustenie úplného uzla.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
+          <context context-type="linenumber">305,311</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7c8e3cb4b7ab50d682420596d87f979cbd364baf" datatype="html">
+        <source>The pool contract address for the partial does not match the value in the pool database. Resolution: Leave and rejoin the pool. If the issue persists contact a pool operator.</source>
+        <target>Adresa zmluvy združenia v parciálnom dôkaze sa nezhoduje s hodnotou v databáze združenia. Riešenie: Opustite združenie a potom sa k nemu znova pripojte. Ak problém pretrváva, kontaktujte prevádzkovateľa združenia.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
+          <context context-type="linenumber">311,316</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4df37db8f9fefb8537ec32bbd510b552b4a0d980" datatype="html">
+        <source>Choose "Connect to pool" and enter this URL "https://pool.openchia.io" (exactly, no ending slash), verify pool details and click on "Create" button</source>
+        <target>Vyberte „Pripojiť k združeniu“ a zadajte URL adresu „https://pool.openchia.io“ (presne, bez koncovej lomky), overte podrobnosti o združení a kliknite na tlačidlo „Vytvoriť“</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/join/join.component.html</context>
+          <context context-type="linenumber">127,130</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="02cf8bcf0ca96708b4e474bc5341b2d11b0541d0" datatype="html">
+        <source>Pool Space (After 18th February) <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i class=&quot;ni ni-b"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/></source>
+        <target>Veľkosť združenia (po 18. februári) <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i class=&quot;ni ni-b"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/></target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/stats/stats.component.html</context>
+          <context context-type="linenumber">36,38</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="881c1f8f173d0e8c6012f72d1687d61b70c10cfa" datatype="html">
+        <source>Pool Blocks <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i class=&quot;ni ni-b"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/></source>
+        <target>Bloky združenia <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i class=&quot;ni ni-b"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/></target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/stats/stats.component.html</context>
+          <context context-type="linenumber">89,90</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2b2d199a822c35e264991ca9a12cc28091c67e7f" datatype="html">
+        <source>Based on farmer estimated size and netspace. This value may vary significantly.</source>
+        <target>Na základe odhadovanej veľkosti farmy a veľkosti siete. Táto hodnota môže výrazne kolísať.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
+          <context context-type="linenumber">64,68</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dca63c761002f128baffb7095e3f3d327c18df1f" datatype="html">
+        <source>The partial proof is not valid. Resolution: Make sure your are running the latest version of Chia.</source>
+        <target>Parciálny dôkaz je neplatný. Riešenie: Uistite sa, že používate najnovšiu verziu Chia.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
+          <context context-type="linenumber">316,321</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="166c8d1de4034746ed361a5c74d2e54d8c9c02c7" datatype="html">
+        <source>The signature of the farmer does not match the farmer in the database. Resolution: Stop the farmer, remove all pool_list entries in config.yaml file and start the farmer again. If the issue persists leave and rejoin the pool.</source>
+        <target>Podpis farmára sa nezhoduje s údajmi farmára v databáze. Riešenie: Zastavte farmára, odstráňte všetky položky pool_list v súbore config.yaml a znova spustite farmára. Ak problém pretrváva, opustite združenie a potom sa k nemu znova pripojte.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
+          <context context-type="linenumber">321,328</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="12f86e6747a5ad39e62d3480ddc472b1aeab5b76" datatype="html">
+        <source>Reward</source>
+        <target>Odmena</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/explorer/reward/reward.component.html</context>
+          <context context-type="linenumber">4,9</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="c86179d8421820ff70fd7d7a1b607787e1aca872" datatype="html">
+        <source>Reward Chart</source>
+        <target>Graf odmien</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/explorer/reward/reward.component.html</context>
+          <context context-type="linenumber">25,27</context>
         </context-group>
       </trans-unit>
     </body>
