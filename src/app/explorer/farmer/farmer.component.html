@@ -428,6 +428,44 @@
       <li [ngbNavItem]="4">
         <a ngbNavLink><i class="fa-solid fa-coins"></i>&nbsp;<span i18n>Rewards</span></a>
         <ng-template ngbNavContent>
+          <div class="row justify-content-center">
+            <div class="col-lg-4">
+              <br />
+              <table class="table table-sm table-striped table-responsive-lg">
+                <tbody>
+                  <tr>
+                    <th scope="col" i18n>Today</th>
+                    <td>{{ farmer.rewards.today / 1000000000000 }} XCH</td>
+                  </tr>
+                  <tr>
+                    <th scope="col" i18n>Last 24 hours</th>
+                    <td>{{ farmer.rewards.last_24h / 1000000000000 }} XCH</td>
+                  </tr>
+                  <tr>
+                    <th scope="col" i18n>Last 7 days</th>
+                    <td>{{ farmer.rewards.last_7d / 1000000000000 }} XCH</td>
+                  </tr>
+                  <tr>
+                    <th scope="col" i18n>Last 30 days</th>
+                    <td>{{ farmer.rewards.last_30d / 1000000000000 }} XCH</td>
+                  </tr>
+                </tbody>
+              </table>
+              * Dates above are all in UTC.
+            </div>
+            <div class="col-lg-8" style="display: block;" #rewardsContainerRef>
+              <ngx-charts-area-chart [view]="[rewardsContainerRef.offsetWidth]" [showXAxisLabel]="false"
+                [showYAxisLabel]="true" [xAxis]="false" [timeline]="false" [yAxis]="true"
+                [xAxisLabel]="rewardsXAxisLabel" [yAxisLabel]="rewardsYAxisLabel" [scheme]="sizeChartColors"
+                [yAxisTickFormatting]="rewardsFormatAxisY" [results]="rewardsData" [gradient]="true" [legend]="false">
+                <ng-template #seriesTooltipTemplate let-model="model">
+                  {{ model[0].value / 1000000000000 }} XCH<br />
+                  {{ model[0].name | date:"medium" }}
+                </ng-template>
+              </ngx-charts-area-chart>
+            </div>
+
+          </div>
           <br />
           <table class="table table-sm table-striped table-responsive-lg">
             <thead>
@@ -442,7 +480,7 @@
             <tbody *ngIf="(payoutaddrs$ | async) as payoutaddrs;">
               <tr *ngFor="let payoutaddr of payoutaddrs; let i = index">
                 <td>{{ payoutaddr.payout.datetime | date:"medium" }}</td>
-                <td><span *ngFor="let block of payoutaddr.payout.blocks">#{{ block.farmed_height}}&nbsp;</span></td>
+                <td><span *ngFor="let block of payoutaddr.payout.blocks">#{{ block.farmed_height}} </span></td>
                 <td>{{ payoutaddr.amount / 1000000000000 }} XCH</td>
                 <td>
                   <span *ngIf="payoutaddr.transaction && payoutaddr.transaction.confirmed_block_index" i18n>Yes</span>

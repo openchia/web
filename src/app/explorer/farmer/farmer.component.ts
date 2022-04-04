@@ -45,6 +45,10 @@ export class FarmerComponent implements OnInit {
   sizeLegendPosition: string = 'below';
   sizeData: any[] = null;
 
+  rewardsYAxisLabel: string = $localize`Daily Amount`;
+  rewardsXAxisLabel: string = $localize`Day`;
+  rewardsData: any[] = null;
+
   harvesters: Set<string> = new Set();
 
   xch_current_price_usd: number = 0;
@@ -104,6 +108,7 @@ export class FarmerComponent implements OnInit {
         this.getPartialsData(this.farmerid);
         this.getSize(this.farmerid);
         this.getHarvesters(this.farmerid);
+        this.getRewards();
       });
       this.dataService.getStats().subscribe(data => {
         this.xch_current_price_usd = data['xch_current_price']['usd'];
@@ -168,6 +173,18 @@ export class FarmerComponent implements OnInit {
       };
       new AngularCsv(csv_array, 'payouts', options);
     });
+  }
+
+  getRewards() {
+    this.rewardsData = [
+      {
+        "name": $localize`Daily Rewards`,
+        "series": Array.from(this.farmer.rewards.last_per_day, (i, idx) => {
+          return { "name": i['day'], "value": i['amount'] };
+        }),
+      },
+    ];
+    console.log(this.rewardsData);
   }
 
   private handleBlocks(data) {
@@ -316,11 +333,11 @@ export class FarmerComponent implements OnInit {
     this.dataService.getLauncherSize(launcher_id).subscribe((r) => {
       this.sizeData = [
         {
-          "name": "Size (24 hours average)",
+          "name": $localize`Size (24 hours average)`,
           "series": [],
         },
         {
-          "name": "Size (8 hours average)",
+          "name": $localize`Size (8 hours average)`,
           "series": [],
         },
       ];
@@ -344,6 +361,11 @@ export class FarmerComponent implements OnInit {
   spaceFormatAxisY(spaceData: number) {
     return (spaceData / 1024 ** 4).toFixed(2).toString() + ' TiB';
   }
+
+  rewardsFormatAxisY(data: number) {
+    return (data / 10 ** 12).toFixed(2).toString() + ' XCH';
+  }
+
 
   partialsXAxisFormat(data) {
     return new Date(data * 1000).toLocaleTimeString();
