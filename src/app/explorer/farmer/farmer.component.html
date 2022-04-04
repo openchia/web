@@ -434,12 +434,16 @@
               <table class="table table-sm table-striped table-responsive-lg">
                 <tbody>
                   <tr>
+                    <th scope="col" i18n>Last 24 hours</th>
+                    <td>{{ farmer.rewards.last_24h / 1000000000000 }} XCH</td>
+                  </tr>
+                  <tr>
                     <th scope="col" i18n>Today</th>
                     <td>{{ farmer.rewards.today / 1000000000000 }} XCH</td>
                   </tr>
                   <tr>
-                    <th scope="col" i18n>Last 24 hours</th>
-                    <td>{{ farmer.rewards.last_24h / 1000000000000 }} XCH</td>
+                    <th scope="col" i18n>Yesterday</th>
+                    <td>{{ farmer.rewards.yesterday / 1000000000000 }} XCH</td>
                   </tr>
                   <tr>
                     <th scope="col" i18n>Last 7 days</th>
