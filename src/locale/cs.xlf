@@ -826,7 +826,7 @@
       </trans-unit>
       <trans-unit id="Profitability" datatype="html">
         <source>Profitability</source>
-        <target state="needs-translation">Profitability</target>
+        <target state="translated">Ziskovost</target>
       </trans-unit>
       <trans-unit id="Referral" datatype="html">
         <source>Referral</source>
@@ -838,7 +838,7 @@
       </trans-unit>
       <trans-unit id="Rewards" datatype="html">
         <source>Rewards</source>
-        <target state="needs-translation">Rewards</target>
+        <target state="translated">Odměny</target>
       </trans-unit>
       <trans-unit id="Save" datatype="html">
         <source>Save</source>
@@ -846,7 +846,7 @@
       </trans-unit>
       <trans-unit id="Search" datatype="html">
         <source>Search</source>
-        <target state="needs-translation">Search</target>
+        <target state="translated">Hledat</target>
       </trans-unit>
       <trans-unit id="Step" datatype="html">
         <source>Step</source>
@@ -2155,6 +2155,206 @@
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/fees/fees.component.html</context>
           <context context-type="linenumber">24,30</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="444596756007014580" datatype="html">
+        <source>Size (24 hours average)</source>
+        <target>Velikost (průměr za 24 hodin)</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.ts</context>
+          <context context-type="linenumber">331,335</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5082622611267673412" datatype="html">
+        <source>Size (8 hours average)</source>
+        <target>Velikost (průměr za 8 hodin)</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.ts</context>
+          <context context-type="linenumber">335,339</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1286983255645370171" datatype="html">
+        <source>Day</source>
+        <target>Den</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.ts</context>
+          <context context-type="linenumber">49,51</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2334770517641857367" datatype="html">
+        <source>Daily Amount</source>
+        <target>Denní množství</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.ts</context>
+          <context context-type="linenumber">48,49</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7cddb130c07ee03263c592047d979b5cfa0248eb" datatype="html">
+        <source>Dates above are all in UTC.</source>
+        <target>Výše uvedená data jsou všechna v UTC.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
+          <context context-type="linenumber">454,457</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7668986b9f753fcd72ad4a00b1a0c4861d1f7fb8" datatype="html">
+        <source>Last 30 days</source>
+        <target>Posledních 30 dnů</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
+          <context context-type="linenumber">449,453</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="02e0243b60007368f87dc01e083f232dd025096d" datatype="html">
+        <source>Last 7 days</source>
+        <target>Posledních 7 dnů</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
+          <context context-type="linenumber">445,449</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="9e0ba5f591380a94d594a76288f0c41aa97eb9c2" datatype="html">
+        <source>Last 24 hours</source>
+        <target>Posledních 24 hodin</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
+          <context context-type="linenumber">441,445</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7fb1099e29660162f9154d5b2feee7743a423df6" datatype="html">
+        <source>Today</source>
+        <target>Dnes</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
+          <context context-type="linenumber">437,441</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="DarkMode" datatype="html">
+        <source>Dark Mode</source>
+        <target>Tmavý režim</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/navbar/navbar.component.html</context>
+          <context context-type="linenumber">79,83</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="SuccessfulPartials_preline" datatype="html">
+        <source>Successful Partials</source>
+        <target>Úspěšné důkazy</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
+          <context context-type="linenumber">146,151</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="FailedPartials_preline" datatype="html">
+        <source>Failed Partials</source>
+        <target>Neúspěšné důkazy</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
+          <context context-type="linenumber">157,161</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="9141579156b435c7be59df6e592df4b93c134297" datatype="html">
+        <source>Rewards</source>
+        <target>Odměny</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/explorer/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">269,274</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
+          <context context-type="linenumber">429,433</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="NoRewards" datatype="html">
+        <source>No rewards found!</source>
+        <target>Nebyly nalezeny žádné odměny!</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/explorer/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">289,294</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
+          <context context-type="linenumber">494,499</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="Paid" datatype="html">
+        <source>Paid</source>
+        <target>Vyplaceno</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
+          <context context-type="linenumber">477,480</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="aedda3b43cdef3052511e9c258a531ab10797a2f" datatype="html">
+        <source>Points (PPLNS)</source>
+        <target>Body (PPLNS)</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
+          <context context-type="linenumber">56,60</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="RewardID" datatype="html">
+        <source>Reward ID</source>
+        <target>ID odměny</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
+          <context context-type="linenumber">477,481</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/explorer/reward/reward.component.html</context>
+          <context context-type="linenumber">43,46</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ConfirmedBlock" datatype="html">
+        <source>Confirmed Block</source>
+        <target>Potvrzený blok</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
+          <context context-type="linenumber">563,568</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7a9097e4f66451c34b8c3a84ad6f3df0168a490e" datatype="html">
+        <source>Confirming</source>
+        <target>Potvrzuje se</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
+          <context context-type="linenumber">488,491</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4f20f2d5a6882190892e58b85f6ccbedfa737952" datatype="html">
+        <source>Yes</source>
+        <target>Ano</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
+          <context context-type="linenumber">486,488</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="12f86e6747a5ad39e62d3480ddc472b1aeab5b76" datatype="html">
+        <source>Reward</source>
+        <target>Odměna</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/explorer/reward/reward.component.html</context>
+          <context context-type="linenumber">4,9</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="FirstLastJoined" datatype="html">
+        <source>First/Last Joined At</source>
+        <target>První/poslední připojení v</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
+          <context context-type="linenumber">31,35</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="e5d8bb389c702588877f039d72178f219453a72d" datatype="html">
+        <source>Unknown</source>
+        <target>Neznámo</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
+          <context context-type="linenumber">69,72</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
+          <context context-type="linenumber">79,83</context>
         </context-group>
       </trans-unit>
     </body>
