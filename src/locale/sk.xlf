@@ -786,7 +786,7 @@
       </trans-unit>
       <trans-unit id="fc38220bc0ec421ccbabe7813bcc03bb0216d99d" datatype="html">
         <source>Since Last Win</source>
-        <target>Od minulej výhry</target>
+        <target>Od poslednej výhry</target>
       </trans-unit>
       <trans-unit id="fc5eb4c967d9bc41685521abe467df491d676136" datatype="html">
         <source>you are going to need 1 mojo (0.000000000001 XCH) which you can get through our faucet service on Discord channel or through Faucet website:</source>
@@ -2607,6 +2607,110 @@
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/explorer/reward/reward.component.html</context>
           <context context-type="linenumber">25,27</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="e8d16f530545d0822150d4a403a57028bf290418" datatype="html">
+        <source>Same partial proof was sent more than once. Can happen if there are duplicated plots being harvested or a signage point was advertised twice in the blockchain. Resolution: Verify the same plot id is not present in different harvesters. If you see this only every once in a while you can ignore this error.</source>
+        <target>Rovnaký čiastočný dôkaz bol odoslaný viackrát. Môže sa to stať, ak sa zbiera z duplicitných polí alebo ak bol bod označenia v blockchaine dvakrát. Riešenie: Overte, či sa rovnaké ID poľa nenachádza v rôznych zberačoch. Ak túto chybu vidíte len raz za čas, môžete ju ignorovať.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
+          <context context-type="linenumber">271,277</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6721a032ae7a6cc16235cf6069299e33fff0536e" datatype="html">
+        <source>Can happen when the node is on high load with block propagation delays, resulting in forked sidechains. Resolution: Make sure you are running the latest Chia version and that your computer has the minimal requirements to run a full node.</source>
+        <target>Môže sa to stať, keď je uzol veľmi zaťažený a spôsobuje to oneskorenia pri šírení blokov v sieti, čo vedie k rozvetveným bočným reťazcom. Riešenie: Uistite sa, že používate najnovšiu verziu Chia a že váš počítač má minimálne požiadavky na spustenie celého uzla.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
+          <context context-type="linenumber">299,305</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7fb1099e29660162f9154d5b2feee7743a423df6" datatype="html">
+        <source>Today</source>
+        <target>Dnes</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
+          <context context-type="linenumber">437,441</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="9e0ba5f591380a94d594a76288f0c41aa97eb9c2" datatype="html">
+        <source>Last 24 hours</source>
+        <target>Posledných 24 hodín</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
+          <context context-type="linenumber">441,445</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="02e0243b60007368f87dc01e083f232dd025096d" datatype="html">
+        <source>Last 7 days</source>
+        <target>Posledných 7 dní</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
+          <context context-type="linenumber">445,449</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7668986b9f753fcd72ad4a00b1a0c4861d1f7fb8" datatype="html">
+        <source>Last 30 days</source>
+        <target>Posledných 30 dní</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
+          <context context-type="linenumber">449,453</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7cddb130c07ee03263c592047d979b5cfa0248eb" datatype="html">
+        <source>Dates above are all in UTC.</source>
+        <target>Všetky vyššie uvedené dátumy sú v UTC.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
+          <context context-type="linenumber">454,457</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2334770517641857367" datatype="html">
+        <source>Daily Amount</source>
+        <target>Denná suma</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.ts</context>
+          <context context-type="linenumber">48,49</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1286983255645370171" datatype="html">
+        <source>Day</source>
+        <target>Deň</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.ts</context>
+          <context context-type="linenumber">49,51</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="444596756007014580" datatype="html">
+        <source>Size (24 hours average)</source>
+        <target>Veľkosť (priemer za 24 hodín)</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.ts</context>
+          <context context-type="linenumber">331,335</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5082622611267673412" datatype="html">
+        <source>Size (8 hours average)</source>
+        <target>Veľkosť (priemer za 8 hodín)</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.ts</context>
+          <context context-type="linenumber">335,339</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="105e97dbc94eec7cde7b7faa49bae8a0991eb3d1" datatype="html">
+        <source><x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="d-landing-center&quot;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt; Open GitHub"/> Open GitHub </source>
+        <target><x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="d-landing-center&quot;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt; Open GitHub"/> Otvoriť GitHub </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/landing/landing.component.html</context>
+          <context context-type="linenumber">269,275</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="a3f7f5ba3f22d992f65cc57ecac0e796c2d389f7" datatype="html">
+        <source>You are going to need 1 Mojo (0.000000000001 XCH) which you can get through our faucet services</source>
+        <target>Budete potrebovať 1 Mojo (0,000000000001 XCH), ktoré môžete získať z nášho kohútika (z nášho faucetu)</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/join/join.component.html</context>
+          <context context-type="linenumber">51,54</context>
         </context-group>
       </trans-unit>
     </body>
