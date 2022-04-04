@@ -48,6 +48,7 @@ export class FarmerComponent implements OnInit {
   rewardsYAxisLabel: string = $localize`Daily Amount`;
   rewardsXAxisLabel: string = $localize`Day`;
   rewardsData: any[] = null;
+  rewardsChartColors = { domain: ['#006400'] };
 
   harvesters: Set<string> = new Set();
 
@@ -176,15 +177,9 @@ export class FarmerComponent implements OnInit {
   }
 
   getRewards() {
-    this.rewardsData = [
-      {
-        "name": $localize`Daily Rewards`,
-        "series": Array.from(this.farmer.rewards.last_per_day, (i, idx) => {
-          return { "name": i['day'], "value": i['amount'] };
-        }),
-      },
-    ];
-    console.log(this.rewardsData);
+    this.rewardsData = Array.from(this.farmer.rewards.last_per_day, (i, idx) => {
+      return { "name": i['day'], "value": i['amount'] };
+    });
   }
 
   private handleBlocks(data) {

@@ -454,15 +454,15 @@
               * <span i18n>Dates above are all in UTC.</span>
             </div>
             <div class="col-lg-8" style="display: block;" #rewardsContainerRef>
-              <ngx-charts-area-chart [view]="[rewardsContainerRef.offsetWidth]" [showXAxisLabel]="false"
+              <ngx-charts-bar-vertical [view]="[rewardsContainerRef.offsetWidth]" [showXAxisLabel]="false"
                 [showYAxisLabel]="true" [xAxis]="false" [timeline]="false" [yAxis]="true"
-                [xAxisLabel]="rewardsXAxisLabel" [yAxisLabel]="rewardsYAxisLabel" [scheme]="sizeChartColors"
+                [xAxisLabel]="rewardsXAxisLabel" [yAxisLabel]="rewardsYAxisLabel" [scheme]="rewardsChartColors"
                 [yAxisTickFormatting]="rewardsFormatAxisY" [results]="rewardsData" [gradient]="true" [legend]="false">
-                <ng-template #seriesTooltipTemplate let-model="model">
-                  {{ model[0].value / 1000000000000 }} XCH<br />
-                  {{ model[0].name | date:"medium" }}
+                <ng-template #tooltipTemplate let-model="model">
+                  {{ model.value / 1000000000000 }} XCH<br />
+                  {{ model.name | date:"medium" }}
                 </ng-template>
-              </ngx-charts-area-chart>
+              </ngx-charts-bar-vertical>
             </div>
 
           </div>
