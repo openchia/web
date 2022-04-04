@@ -458,7 +458,7 @@
               * <span i18n>Dates above are all in UTC.</span>
             </div>
             <div class="col-lg-8" style="display: block;" #rewardsContainerRef>
-              <ngx-charts-bar-vertical [view]="[rewardsContainerRef.offsetWidth]" [showXAxisLabel]="false"
+              <ngx-charts-bar-vertical [view]="[rewardsContainerRef.offsetWidth, 280]" [showXAxisLabel]="false"
                 [showYAxisLabel]="true" [xAxis]="false" [timeline]="false" [yAxis]="true"
                 [xAxisLabel]="rewardsXAxisLabel" [yAxisLabel]="rewardsYAxisLabel" [scheme]="rewardsChartColors"
                 [yAxisTickFormatting]="rewardsFormatAxisY" [results]="rewardsData" [gradient]="true" [legend]="false">
