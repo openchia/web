@@ -464,7 +464,7 @@
                 [yAxisTickFormatting]="rewardsFormatAxisY" [results]="rewardsData" [gradient]="true" [legend]="false">
                 <ng-template #tooltipTemplate let-model="model">
                   {{ model.value / 1000000000000 }} XCH<br />
-                  {{ model.name | date:"medium" }}
+                  {{ model.name | date:"longDate":"UTC" }}
                 </ng-template>
               </ngx-charts-bar-vertical>
             </div>
