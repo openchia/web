@@ -1439,6 +1439,86 @@
           <context context-type="linenumber">58,61</context>
         </context-group>
       </trans-unit>
+      <trans-unit id="676b9238181dac1347b8c395c75fd0a9fedf05d9" datatype="html">
+        <source>There are ways to reduce the pool base fee, check them below.</source>
+        <target>Es gibt Möglichkeiten die Pool-Grundgebühr zu reduzieren, siehe unten.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/fees/fees.component.html</context>
+          <context context-type="linenumber">49,53</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7cddb130c07ee03263c592047d979b5cfa0248eb" datatype="html">
+        <source>Dates above are all in UTC.</source>
+        <target>Die oben genannten Daten sind alle in UTC.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
+          <context context-type="linenumber">458,461</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7668986b9f753fcd72ad4a00b1a0c4861d1f7fb8" datatype="html">
+        <source>Last 30 days</source>
+        <target>Letzten 30 Tage</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
+          <context context-type="linenumber">453,457</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="02e0243b60007368f87dc01e083f232dd025096d" datatype="html">
+        <source>Last 7 days</source>
+        <target>Letzten 7 Tage</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
+          <context context-type="linenumber">449,453</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="9e0ba5f591380a94d594a76288f0c41aa97eb9c2" datatype="html">
+        <source>Last 24 hours</source>
+        <target>Letzten 24 Stunden</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
+          <context context-type="linenumber">437,441</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7fb1099e29660162f9154d5b2feee7743a423df6" datatype="html">
+        <source>Today</source>
+        <target>Heute</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
+          <context context-type="linenumber">441,445</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5082622611267673412" datatype="html">
+        <source>Size (8 hours average)</source>
+        <target>Größe (8 Stunden Durchschnitt)</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.ts</context>
+          <context context-type="linenumber">335,339</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="444596756007014580" datatype="html">
+        <source>Size (24 hours average)</source>
+        <target>Größe (24 Stunden Durchschnitt)</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.ts</context>
+          <context context-type="linenumber">331,335</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1286983255645370171" datatype="html">
+        <source>Day</source>
+        <target>Tag</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.ts</context>
+          <context context-type="linenumber">49,51</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="e430eda9c785cd43465b7cbb400ee914f1057247" datatype="html">
+        <source>Yesterday</source>
+        <target>Gestern</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
+          <context context-type="linenumber">445,449</context>
+        </context-group>
+      </trans-unit>
     </body>
   </file>
 </xliff>
