@@ -2721,6 +2721,22 @@
           <context context-type="linenumber">445,449</context>
         </context-group>
       </trans-unit>
+      <trans-unit id="f64f1755180867b4c7752597cca0e078b1e05745" datatype="html">
+        <source>Payouts will happen within 5 minutes of the farmed block.<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br /&gt;                     These"/> These terms are subject to change. Changes will be communicated on this website and on Discord channel 1 week before taking effect. </source>
+        <target>Výplaty sa uskutočnia do 5 minút od vyťaženia bloku.<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br /&gt;                     These"/> Tieto podmienky sa môžu zmeniť. Zmeny budú oznámené na tejto webovej stránke a na Discord kanáli 1 týždeň pred nadobudnutím účinnosti. </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/fees/fees.component.html</context>
+          <context context-type="linenumber">110,111</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="cd65cc61760794d063f92f12ab4239bedea399ba" datatype="html">
+        <source>Confirm pool connection and you can create Plot NFT</source>
+        <target>Potvrďte pripojenie k združeniu, a môžete vytvoriť NFT poľa</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/join/join.component.html</context>
+          <context context-type="linenumber">133,136</context>
+        </context-group>
+      </trans-unit>
     </body>
   </file>
 </xliff>
