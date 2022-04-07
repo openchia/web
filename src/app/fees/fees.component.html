@@ -41,10 +41,12 @@
                   class="show collapse in" style="display: block;" aria-expanded="false" aria-hidden="false">
                   <div class="card-body opacity-8">
                     <h2 i18n>Base fee</h2>
-                    <p i18n>
-                      Currently we charge 1% fee. If a reward of 1.75 XCH is found, only 1% of that, 0.0175 will be kept
-                      to the pool as a fee.<br />
-                      The remaining 1.7325 XCH will be distributed to pool farmers.
+                    <p>
+                      <span i18n>Currently we charge 1% fee (before discounts). That fee is subtracted from each
+                        farmer's reward. For example, if in a given round the farmer is due a share of 0.05 XCH, then 1%
+                        of that (0.0005 XCH) will be kept as a pool fee and the rest (0.0495 XCH) will be credited to
+                        the farmer.</span><br />
+                      <span i18n>There are ways to reduce the pool base fee, check them below.</span>
                     </p>
                     <h3 i18n>Length of Stay Discount</h3>
                     <div>
@@ -55,7 +57,8 @@
                       <p i18n>Example: After 6 months (180 days) you will get a discount of 0.0479%, effective pool fee
                         of 0.9520%.</p>
                       <p><strong i18n>Leaving the pool for more than 12 hours will reset the discount!</strong><br>
-                        <span i18n>Farm being offline or stop sending partials will NOT reset the discount.</span></p>
+                        <span i18n>Farm being offline or stop sending partials will NOT reset the discount.</span>
+                      </p>
                     </div>
                     <h3 i18n>Size Discount</h3>
                     <div>

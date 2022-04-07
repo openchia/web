@@ -1408,7 +1408,7 @@
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/fees/fees.component.html</context>
-          <context context-type="linenumber">49,52</context>
+          <context context-type="linenumber">51,54</context>
         </context-group>
       </trans-unit>
       <trans-unit id="c3ced4d162a0a55ee233a187ce7208ba5e922418" datatype="html">
@@ -1433,7 +1433,7 @@
         </context-group>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/fees/fees.component.html</context>
-          <context context-type="linenumber">60,63</context>
+          <context context-type="linenumber">63,66</context>
         </context-group>
       </trans-unit>
       <trans-unit id="5e0ea8bc1cfd71052844be8d7f2b80273be89e26" datatype="html">
@@ -1888,99 +1888,105 @@
         <source>Base fee</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/fees/fees.component.html</context>
-          <context context-type="linenumber">43,45</context>
+          <context context-type="linenumber">43,46</context>
         </context-group>
       </trans-unit>
-      <trans-unit id="16bd47906ca36c11a2af7a476b94b16c30d0a0f0" datatype="html">
-        <source> Currently we charge 1% fee. If a reward of 1.75 XCH is found, only 1% of that, 0.0175 will be kept to the pool as a fee.<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br /&gt;
-                      The"/> The remaining 1.7325 XCH will be distributed to pool farmers. </source>
+      <trans-unit id="cbeb791e3085bce39929e831a4609253bff491ad" datatype="html">
+        <source>Currently we charge 1% fee (before discounts). That fee is subtracted from each farmer&apos;s reward. For example, if in a given round the farmer is due a share of 0.05 XCH, then 1% of that (0.0005 XCH) will be kept as a pool fee and the rest (0.0495 XCH) will be credited to the farmer.</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/fees/fees.component.html</context>
-          <context context-type="linenumber">45,47</context>
+          <context context-type="linenumber">45,49</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="676b9238181dac1347b8c395c75fd0a9fedf05d9" datatype="html">
+        <source>There are ways to reduce the pool base fee, check them below.</source>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/fees/fees.component.html</context>
+          <context context-type="linenumber">49,53</context>
         </context-group>
       </trans-unit>
       <trans-unit id="95e633621350bdb29f21133adcf4f18981008dce" datatype="html">
         <source>Farmers that stay with us for longer periods will gradually get discounts over the base fee.</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/fees/fees.component.html</context>
-          <context context-type="linenumber">51,54</context>
+          <context context-type="linenumber">53,56</context>
         </context-group>
       </trans-unit>
       <trans-unit id="3929eb84402e553121a3ef47a775bf7f6cc46324" datatype="html">
         <source>Up to 0.15% of discount will be subtracted from base fee in a period of up to 18 months (548 days), increased weekly.</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/fees/fees.component.html</context>
-          <context context-type="linenumber">53,56</context>
+          <context context-type="linenumber">55,58</context>
         </context-group>
       </trans-unit>
       <trans-unit id="36f5ed45c02c58443303bb0f5ac128afee978116" datatype="html">
         <source>Example: After 6 months (180 days) you will get a discount of 0.0479%, effective pool fee of 0.9520%.</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/fees/fees.component.html</context>
-          <context context-type="linenumber">55,58</context>
+          <context context-type="linenumber">57,60</context>
         </context-group>
       </trans-unit>
       <trans-unit id="530481992eb9a3720538a3eba3ca0604d2560710" datatype="html">
         <source>Leaving the pool for more than 12 hours will reset the discount!</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/fees/fees.component.html</context>
-          <context context-type="linenumber">57,59</context>
+          <context context-type="linenumber">59,61</context>
         </context-group>
       </trans-unit>
       <trans-unit id="9a347bbd6a902e380a01647dcb2667fca05e5251" datatype="html">
         <source>Farm being offline or stop sending partials will NOT reset the discount.</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/fees/fees.component.html</context>
-          <context context-type="linenumber">58,62</context>
+          <context context-type="linenumber">60,65</context>
         </context-group>
       </trans-unit>
       <trans-unit id="05f663d65d8b53e54e4fb1c394c9aa17feb40f64" datatype="html">
         <source>Farmers can get discount based on their farm size:</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/fees/fees.component.html</context>
-          <context context-type="linenumber">62,65</context>
+          <context context-type="linenumber">65,68</context>
         </context-group>
       </trans-unit>
       <trans-unit id="ae7f270972015b2f0a4fabd3ee191983066aa0fa" datatype="html">
         <source>Above 200TiB: 0.05%</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/fees/fees.component.html</context>
-          <context context-type="linenumber">63,67</context>
+          <context context-type="linenumber">66,70</context>
         </context-group>
       </trans-unit>
       <trans-unit id="5f9a83228aa8e4f6b73bcb83e4529ffd9f3044e4" datatype="html">
         <source>Above 500TiB: 0.1%</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/fees/fees.component.html</context>
-          <context context-type="linenumber">64,68</context>
+          <context context-type="linenumber">67,71</context>
         </context-group>
       </trans-unit>
       <trans-unit id="8904f85bf6b6eed79fc36bf8de469ca11196e59c" datatype="html">
         <source>Above 1PiB: 0.15%</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/fees/fees.component.html</context>
-          <context context-type="linenumber">65,69</context>
+          <context context-type="linenumber">68,72</context>
         </context-group>
       </trans-unit>
       <trans-unit id="93936b1e5020afa971a36b1599b350c17579b2f0" datatype="html">
         <source>Maximum Discount</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/fees/fees.component.html</context>
-          <context context-type="linenumber">67,71</context>
+          <context context-type="linenumber">70,74</context>
         </context-group>
       </trans-unit>
       <trans-unit id="0e151e55944e42be0f48ba4fe7a26865cdea55ff" datatype="html">
         <source>The combination of discounts will not exceed 0.25%!</source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/fees/fees.component.html</context>
-          <context context-type="linenumber">69,75</context>
+          <context context-type="linenumber">72,78</context>
         </context-group>
       </trans-unit>
       <trans-unit id="f15d120d2177ca9f65b3a3880b86213d992b8020" datatype="html">
         <source>Reward Distribution <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/></source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/fees/fees.component.html</context>
-          <context context-type="linenumber">79,80</context>
+          <context context-type="linenumber">82,83</context>
         </context-group>
       </trans-unit>
       <trans-unit id="65c2add576b6cc0123921ca2c70055d914dd743f" datatype="html">
@@ -1988,14 +1994,14 @@
                     When a"/> When a block is won, each farmer will receive the share correspondent of the last 24 hours of partials sent to the pool. </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/fees/fees.component.html</context>
-          <context context-type="linenumber">87,88</context>
+          <context context-type="linenumber">90,91</context>
         </context-group>
       </trans-unit>
       <trans-unit id="fe2fc19b1e0a9f190d69d6e0205603bd52302256" datatype="html">
         <source>Payouts <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/></source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/fees/fees.component.html</context>
-          <context context-type="linenumber">98,99</context>
+          <context context-type="linenumber">101,102</context>
         </context-group>
       </trans-unit>
       <trans-unit id="f64f1755180867b4c7752597cca0e078b1e05745" datatype="html">
@@ -2003,7 +2009,7 @@
                     These"/> These terms are subject to change. Changes will be communicated on this website and on Discord channel 1 week before taking effect. </source>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/fees/fees.component.html</context>
-          <context context-type="linenumber">107,108</context>
+          <context context-type="linenumber">110,111</context>
         </context-group>
       </trans-unit>
       <trans-unit id="38d5457e7533ba4667e2ea3e94e7dc509576bce0" datatype="html">
