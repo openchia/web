@@ -1399,7 +1399,7 @@
       </trans-unit>
       <trans-unit id="fc38220bc0ec421ccbabe7813bcc03bb0216d99d" datatype="html">
         <source>Since Last Win</source>
-        <target>Od poslední výhry</target>
+        <target>Poslední výhra</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/explorer/dashboard/dashboard.component.html</context>
           <context context-type="linenumber">82,87</context>
@@ -2355,6 +2355,82 @@
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
           <context context-type="linenumber">79,83</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="e430eda9c785cd43465b7cbb400ee914f1057247" datatype="html">
+        <source>Yesterday</source>
+        <target>Včera</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
+          <context context-type="linenumber">445,449</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2b2d199a822c35e264991ca9a12cc28091c67e7f" datatype="html">
+        <source>Based on farmer estimated size and netspace. This value may vary significantly.</source>
+        <target>Na základě odhadované velikosti farmy a velikosti sítě. Tato hodnota může výrazně kolísat.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
+          <context context-type="linenumber">64,68</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1e8637d563bf447efb2563a20a30f6091d11fa05" datatype="html">
+        <source>Harvester <x id="INTERPOLATION" equiv-text="{{ mapEntry.key"/> </source>
+        <target>Sběrač <x id="INTERPOLATION" equiv-text="{{ mapEntry.key"/> </target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
+          <context context-type="linenumber">347</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="72c8d24dd54e5dc27746903fa10e1b64a7d9ff96" datatype="html">
+        <source>Total Points</source>
+        <target>Celkově bodů</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
+          <context context-type="linenumber">373,376</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7394d7b31ddd77f326878e7c4a8d308f6f0da5c6" datatype="html">
+        <source>Successful Partials</source>
+        <target>Úspěšné parciální důkazy</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
+          <context context-type="linenumber">381,384</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="146d9ea771a6a5d854d710e14505b9eed4b889e9" datatype="html">
+        <source>Failed Partials</source>
+        <target>Neúspěšné parciální důkazy</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
+          <context context-type="linenumber">389,392</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="b332c46e8c180a5c698f691b2d93357b9b22abe1" datatype="html">
+        <source>The Plot NFT is in an invalid state. Resolution: Leave and rejoin the pool.</source>
+        <target>NFT pole je v neplatném stavu. Řešení: Opusťte pool a poté se k němu znovu připojte.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
+          <context context-type="linenumber">295,299</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dca63c761002f128baffb7095e3f3d327c18df1f" datatype="html">
+        <source>The partial proof is not valid. Resolution: Make sure your are running the latest version of Chia.</source>
+        <target>Parciální důkaz je neplatný. Řešení: Ujistěte se, že používáte nejnovější verzi Chia.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
+          <context context-type="linenumber">316,321</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="e6a27066251ca1e04c5be86ad758380856df2506" datatype="html">
+        <source>Pending</source>
+        <target>Čekající</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
+          <context context-type="linenumber">493,496</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/explorer/reward/reward.component.html</context>
+          <context context-type="linenumber">78,83</context>
         </context-group>
       </trans-unit>
     </body>
