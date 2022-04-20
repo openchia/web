@@ -44,6 +44,12 @@
           </td>
         </tr>
         <tr>
+          <th i18n="@@ClientVersion">Client Version</th>
+          <td>{{ partialsFiltered[0].chia_version }}</td>
+          <th i18n="@@PoolConnected">Pool Connected</th>
+          <td>{{ partialsFiltered[0].pool_host }}</td>
+        </tr>
+        <tr>
           <th i18n="@@Difficulty">Difficulty</th>
           <td>{{ farmer.difficulty }}</td>
           <th><span i18n>Estimated Size</span>&nbsp;<i class="fas fa-info-circle"
