@@ -2433,6 +2433,30 @@
           <context context-type="linenumber">78,83</context>
         </context-group>
       </trans-unit>
+      <trans-unit id="DustStorm" datatype="html">
+        <source>Dust Storm</source>
+        <target>Prachová bouře</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/navbar/navbar.component.html</context>
+          <context context-type="linenumber">73,77</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="e6807841dec3ed42de1240ff85c96a1562377b2a" datatype="html">
+        <source>Dust storm currently affecting the blockchain. Payouts may be delayed.</source>
+        <target>Prachová bouře aktuálně ovlivňuje blockchain. Výplaty mohou být zpožděny.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/navbar/navbar.component.html</context>
+          <context context-type="linenumber">67,71</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="c86179d8421820ff70fd7d7a1b607787e1aca872" datatype="html">
+        <source>Reward Chart</source>
+        <target>Graf odměn</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/explorer/reward/reward.component.html</context>
+          <context context-type="linenumber">25,27</context>
+        </context-group>
+      </trans-unit>
     </body>
   </file>
 </xliff>
