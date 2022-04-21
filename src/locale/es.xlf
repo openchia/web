@@ -1168,6 +1168,54 @@
           <context context-type="linenumber">275,279</context>
         </context-group>
       </trans-unit>
+      <trans-unit id="7fb1099e29660162f9154d5b2feee7743a423df6" datatype="html">
+        <source>Today</source>
+        <target>Hoy</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
+          <context context-type="linenumber">441,445</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7668986b9f753fcd72ad4a00b1a0c4861d1f7fb8" datatype="html">
+        <source>Last 30 days</source>
+        <target>Últimos 30 días</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
+          <context context-type="linenumber">453,457</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="02e0243b60007368f87dc01e083f232dd025096d" datatype="html">
+        <source>Last 7 days</source>
+        <target>Últimos 7 días</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
+          <context context-type="linenumber">449,453</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="9e0ba5f591380a94d594a76288f0c41aa97eb9c2" datatype="html">
+        <source>Last 24 hours</source>
+        <target>Últimas 24 horas</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
+          <context context-type="linenumber">437,441</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="e430eda9c785cd43465b7cbb400ee914f1057247" datatype="html">
+        <source>Yesterday</source>
+        <target>Ayer</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
+          <context context-type="linenumber">445,449</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1286983255645370171" datatype="html">
+        <source>Day</source>
+        <target>Día</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.ts</context>
+          <context context-type="linenumber">49,51</context>
+        </context-group>
+      </trans-unit>
     </body>
   </file>
 </xliff>
