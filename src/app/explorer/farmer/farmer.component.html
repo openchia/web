@@ -45,9 +45,11 @@
         </tr>
         <tr>
           <th i18n="@@ClientVersion">Client Version</th>
-          <td>{{ partialsFiltered[0].chia_version }}</td>
+          <td *ngIf="partialsFiltered[0]">{{ partialsFiltered[0].chia_version }}</td>
+          <td *ngIf="!partialsFiltered[0]" i18n>Unknown</td>
           <th i18n="@@PoolConnected">Pool Connected</th>
-          <td>{{ partialsFiltered[0].pool_host }}</td>
+          <td *ngIf="partialsFiltered[0]">{{ partialsFiltered[0].pool_host }}</td>
+          <td *ngIf="!partialsFiltered[0]" i18n>Unknown</td>
         </tr>
         <tr>
           <th i18n="@@Difficulty">Difficulty</th>
@@ -81,7 +83,7 @@
             </ng-template>
             <i class="fas fa-info-circle" [ngbTooltip]="currentEffortTooltip"></i>
           </th>
-          <td *ngIf="(farmer.current_effort || 0) >= 0">{{ farmer.current_effort | number }}%</td>
+          <td *ngIf="(farmer.current_effort || 0) > 0">{{ farmer.current_effort | number }}%</td>
           <td *ngIf="farmer.current_effort == null" i18n>Unknown</td>
         </tr>
         <tr>
