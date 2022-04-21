@@ -85,7 +85,8 @@
       </tbody>
     </table>
     <ngb-pagination [collectionSize]="payoutaddrsCollectionSize" [(page)]="payoutaddrsPage"
-      [pageSize]="payoutaddrsPageSize" (pageChange)="refreshPayoutAddrs()">
+      [pageSize]="payoutaddrsPageSize" (pageChange)="refreshPayoutAddrs()" [maxSize]="10"
+      [rotate]="true" [boundaryLinks]="true">
     </ngb-pagination>
   </div>
 

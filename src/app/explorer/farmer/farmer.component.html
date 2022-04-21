@@ -476,7 +476,6 @@
                 </ng-template>
               </ngx-charts-bar-vertical>
             </div>
-
           </div>
           <br />
           <table class="table table-sm table-striped table-responsive-lg">
@@ -509,12 +508,11 @@
           </table>
           <div class="d-flex justify-content-between p-2">
             <ngb-pagination [collectionSize]="payoutsCollectionSize" [(page)]="payoutsPage" [pageSize]="payoutsPageSize"
-              (pageChange)="refreshPayouts()">
+              [maxSize]="10" [rotate]="true" [boundaryLinks]="true" (pageChange)="refreshPayouts()">
             </ngb-pagination>
           </div>
         </ng-template>
       </li>
-
 
       <!-- Payouts -->
       <li [ngbNavItem]="5">
@@ -596,7 +594,8 @@
           </table>
           <div class="d-flex justify-content-between p-2">
             <ngb-pagination [collectionSize]="payouttxsCollectionSize" [(page)]="payouttxsPage"
-              [pageSize]="payouttxsPageSize" (pageChange)="refreshPayoutTxs()">
+              [pageSize]="payouttxsPageSize" (pageChange)="refreshPayoutTxs()" [maxSize]="10"
+              [rotate]="true" [boundaryLinks]="true">
             </ngb-pagination>
           </div>
         </ng-template>
@@ -680,7 +679,7 @@
           </table>
           <div class="d-flex justify-content-between p-2">
             <ngb-pagination [collectionSize]="blocksCollectionSize" [(page)]="blocksPage" [pageSize]="blocksPageSize"
-              (pageChange)="refreshBlocks()">
+            [maxSize]="10" [rotate]="true" [boundaryLinks]="true" (pageChange)="refreshBlocks()">
             </ngb-pagination>
           </div>
         </ng-template>
