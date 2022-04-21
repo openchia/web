@@ -1559,6 +1559,38 @@
           <context context-type="linenumber">210,214</context>
         </context-group>
       </trans-unit>
+      <trans-unit id="7a9097e4f66451c34b8c3a84ad6f3df0168a490e" datatype="html">
+        <source>Confirming</source>
+        <target>Bestätigung läuft</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
+          <context context-type="linenumber">492,495</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4f20f2d5a6882190892e58b85f6ccbedfa737952" datatype="html">
+        <source>Yes</source>
+        <target>Ja</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
+          <context context-type="linenumber">490,492</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="Paid" datatype="html">
+        <source>Paid</source>
+        <target>Bezahlt</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
+          <context context-type="linenumber">481,484</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ConfirmedBlock" datatype="html">
+        <source>Confirmed Block</source>
+        <target>Bestätigter Block</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
+          <context context-type="linenumber">567,572</context>
+        </context-group>
+      </trans-unit>
     </body>
   </file>
 </xliff>
