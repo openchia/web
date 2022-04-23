@@ -1216,6 +1216,114 @@
           <context context-type="linenumber">49,51</context>
         </context-group>
       </trans-unit>
+      <trans-unit id="34490e4cf9382027cfbcdfdc1628c837dccc4fa3" datatype="html">
+        <source>Spacescan</source>
+        <target>Spacescan</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/partners/partners.component.html</context>
+          <context context-type="linenumber">39,43</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="cceaba1ef6ce809232913dc96e1945fb49fea7a9" datatype="html">
+        <source>weeks</source>
+        <target>semanas</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
+          <context context-type="linenumber">701,704</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="c3ced4d162a0a55ee233a187ce7208ba5e922418" datatype="html">
+        <source>Max</source>
+        <target>Máx.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
+          <context context-type="linenumber">697,699</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8904f85bf6b6eed79fc36bf8de469ca11196e59c" datatype="html">
+        <source>Above 1PiB: 0.15%</source>
+        <target>Por encima de 1 PiB: 0,15%</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/fees/fees.component.html</context>
+          <context context-type="linenumber">68,72</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5f9a83228aa8e4f6b73bcb83e4529ffd9f3044e4" datatype="html">
+        <source>Above 500TiB: 0.1%</source>
+        <target>Por encima de 500 TiB: 0,1%</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/fees/fees.component.html</context>
+          <context context-type="linenumber">67,71</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="AGPLv3License" datatype="html">
+        <source>AGPLv3 License</source>
+        <target>Licencia AGPLv3</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/footer/footer.component.html</context>
+          <context context-type="linenumber">58,64</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4f20f2d5a6882190892e58b85f6ccbedfa737952" datatype="html">
+        <source>Yes</source>
+        <target>Sí</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
+          <context context-type="linenumber">490,492</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="160f1ffbd26df073d0fbd02cf8ce0d8cea7603b0" datatype="html">
+        <source>Fee</source>
+        <target>Tarifa</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
+          <context context-type="linenumber">683,687</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4ca458fe3274d1c79640b052d57cf3b900b650b6" datatype="html">
+        <source>Base fee</source>
+        <target>Tarifa básica</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/fees/fees.component.html</context>
+          <context context-type="linenumber">43,46</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="State" datatype="html">
+        <source>State</source>
+        <target>Estado</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/explorer/reward/reward.component.html</context>
+          <context context-type="linenumber">48,52</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dbcb1043ef9863a615caf8fe43167602d997a020" datatype="html">
+        <source>Need help?</source>
+        <target>¿Necesitas ayuda?</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/join/join.component.html</context>
+          <context context-type="linenumber">145,149</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="e5d8bb389c702588877f039d72178f219453a72d" datatype="html">
+        <source>Unknown</source>
+        <target>Desconocido</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
+          <context context-type="linenumber">69,72</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
+          <context context-type="linenumber">79,83</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ae7f270972015b2f0a4fabd3ee191983066aa0fa" datatype="html">
+        <source>Above 200TiB: 0.05%</source>
+        <target>Por encima de 200 TiB: 0,05%</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/fees/fees.component.html</context>
+          <context context-type="linenumber">66,70</context>
+        </context-group>
+      </trans-unit>
     </body>
   </file>
 </xliff>
