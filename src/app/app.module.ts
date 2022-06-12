@@ -8,6 +8,7 @@ import { RouterModule } from '@angular/router';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NgxChartsModule } from '@swimlane/ngx-charts';
 import { ClipboardModule } from 'ngx-clipboard';
+import { NgxFilesizeModule } from 'ngx-filesize';
 
 import { AppRoutingModule } from './app.routing';
 import { ExplorerModule } from './explorer/explorer.module';
@@ -52,6 +53,7 @@ import { CalculatorComponent } from './calculator/calculator.component';
     NgxChartsModule,
     BrowserAnimationsModule,
     ClipboardModule,
+    NgxFilesizeModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

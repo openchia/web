@@ -1,7 +1,7 @@
 <main>
   <div class="position-relative">
     <!-- shape Hero -->
-    <section class="section section-md section-shaped pb-250">
+    <section class="section section-md section-shaped pt-50">
       <div class="shape shape-style-1 shape-default">
         <span></span>
         <span></span>
@@ -28,17 +28,6 @@
                   <i class="text-white fab fa-github"></i>
                 </a>
               </p>
-
-              <div class="btn-wrapper">
-                <a [routerLink]="['/join']" class="btn btn-warning btn-icon mb-3 mb-sm-0">
-                  <span class="btn-inner--text" i18n="@@JoinPool">Join our pool</span>
-                </a>
-
-                <a href="https://discord.gg/2URS9H7RZn" target="_blank" class="btn btn-neutral btn-icon mb-3 mb-sm-0">
-                  <i class="fab fa-discord"></i>
-                  <span class="btn-inner--text" i18n>Chat with us</span>
-                </a>
-              </div>
             </div>
             <div class="col-lg-6 text-right justify-content-center">
               <p class="lead text-white">
@@ -76,61 +65,67 @@
   <!-- Cards -->
   <section class="section section-md pt-lg-0 mt--200">
     <div class="container">
-      <div class="row justify-content-center">
+      <div class="row justify-content-right">
         <div class="col-lg-12">
           <div class="row row-grid">
-            <div class="col-lg-3">
+            <img class="mockup-landing-1" src="./assets/img/landing/mockup-1.png" height="300px"/>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Stats -->
+  <section class="section section-sm pt-lg-0 mt--100">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-12">
+          <div class="row row-grid text-center landing-stats-cards">
+            <div class="col-lg-2">
               <div class="card card-lift shadow border-0">
-                <div class="card-body py-4">
-                  <h6 class="text-primary text-uppercase text-center" i18n>
-                    📱 Mobile app
-                  </h6>
-                  <p class="description mt-3" i18n>
-                    Native mobile app on both Android and iOS for your travels.
-                    Be alerted when blocks are found.
-                  </p>
+                <div class="card-body py-3">
+                  <h6 class="text-primary text-uppercase" i18n>XCH Price</h6>
+                  <p class="description mt-3">${{ xch_current_price.usd | number }}</p>
                 </div>
               </div>
             </div>
-            <div class="col-lg-3">
+            <div class="col-lg-2">
               <div class="card card-lift shadow border-0">
-                <div class="card-body py-4">
-                  <h6 class="text-warning text-uppercase text-center" i18n>
-                    💰 Instant payout
-                  </h6>
-                  <p class="description mt-3" i18n>
-                    Get your reward as soon as possible with PPLNS distribution
-                    system. Only 1% fee,
-                    <a [routerLink]="['/fees']">read more</a>.
-                  </p>
+                <div class="card-body py-3">
+                  <h6 class="text-primary text-uppercase" i18n>Pool Space</h6>
+                  <p class="description mt-3">{{ pool_space | filesize:{"base": 2, "standard": "iec"} }}</p>
                 </div>
               </div>
             </div>
-            <div class="col-lg-3">
+            <div class="col-lg-2">
               <div class="card card-lift shadow border-0">
-                <div class="card-body py-4">
-                  <h6 class="text-info text-uppercase text-center" i18n>
-                    💻 Open Source
-                  </h6>
-                  <p class="description mt-3" i18n>
-                    All our software (api, pool, bot, web, mobile) are open
-                    source and available on
-                    <a href="https://github.com/openchia">Github repositories</a>.
-                  </p>
+                <div class="card-body py-3">
+                  <h6 class="text-success text-uppercase" i18n>ETW</h6>
+                  <p class="description mt-3" i18n>{{ estimate_win }}</p>
                 </div>
               </div>
             </div>
-            <div class="col-lg-3">
+            <div class="col-lg-2">
               <div class="card card-lift shadow border-0">
-                <div class="card-body py-4">
-                  <h6 class="text-primary text-uppercase text-center" i18n>
-                    ➗ Fee Discount
-                  </h6>
-                  <p class="description mt-3" i18n>
-                    Farmers can get up to 0.25% of discount in the pool fee based on their estimated size and length of
-                    stay,
-                    <a [routerLink]="['/fees']">read more</a>.
-                  </p>
+                <div class="card-body py-3">
+                  <h6 class="text-info text-uppercase" i18n>Farmers</h6>
+                  <p class="description mt-3" i18n>{{ farmers }} total</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-2">
+              <div class="card card-lift shadow border-0">
+                <div class="card-body py-3">
+                  <h6 class="text-warning text-uppercase" i18n>Blocks</h6>
+                  <p class="description mt-3" i18n>{{ rewards_blocks }} farmed</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-2">
+              <div class="card card-lift shadow border-0">
+                <div class="card-body py-3">
+                  <h6 class="text-primary text-uppercase" i18n>Profitability</h6>
+                  <p class="description mt-3" i18n>{{ xch_tb_month | number:".8"}} XCH/TiB/day</p>
                 </div>
               </div>
             </div>
@@ -191,12 +186,7 @@
     <div class="shape shape-style-1 shape-default"></div>
     <div class="container py-sm">
       <div class="row row-grid justify-content-between align-items-center">
-        <div class="col-lg-4 mb-lg-auto">
-          <div class="card-landing align-items-right">
-            <span style="font-size: 140px"><i class="fa fa-percent"></i></span>
-          </div>
-        </div>
-        <div class="col-lg-8 text-center">
+        <div class="col-lg-6 text-center">
           <h3 class="display-3 text-white text-shadow" i18n>
             Fee Discount!
           </h3>
@@ -205,6 +195,11 @@
           <p class="lead text-white" i18n>Up to 0.25% of fee discount, effective final fee of 0.75%.</p>
           <div class="btn-wrapper">
             <a class="btn btn-neutral btn-icon" [routerLink]="['/fees']" i18n>Read more</a>
+          </div>
+        </div>
+        <div class="col-lg-6 mb-lg-auto">
+          <div class="card-landing text-center">
+            <img src="./assets/img/landing/mockup-2.png" height="300px"/>
           </div>
         </div>
       </div>
@@ -220,8 +215,8 @@
             <div id="mobile_application" class="carousel slide" data-ride="carousel">
               <div class="carousel-inner">
                 <div class="carousel-item active text-center">
-                  <img class="img-fluid img-mobile" src="./assets/img/mobile/android-1.png" />
-                  <img class="img-fluid img-mobile" src="./assets/img/mobile/android-2.png" />
+                  <img src="./assets/img/landing/mockup-3.png" height="300px" />
+                  <img src="./assets/img/landing/mockup-4.png" height="300px" />
                 </div>
               </div>
             </div>
@@ -238,6 +233,9 @@
               alt="Get it on Google Play"
               src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png"
               width="168px" height="65px" /></a>
+          <a href="https://github.com/openchia/mobile/releases/download/Latest/openchia.apk">
+            <img alt="Download APK" src="./assets/img/mobile/direct-download-apk.png" width="168px" height="65px" />
+          </a>
           <a href="https://apps.apple.com/us/app/openchia/id1595607176"><img alt="Get it on App Store"
               src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" width="135px"
               height="45px" /></a>
@@ -384,7 +382,7 @@
         </div>
         <div class="col-md-6 col-lg-4 mb-5 mb-lg-0">
           <div class="card card-team-profile shadow border-0">
-            <img src="./assets/img/team/team-5.webp" class="rounded-circle img-center img-fluid shadow shadow-lg-hover"
+            <img src="./assets/img/team/team-5.jpg" class="rounded-circle img-center img-fluid shadow shadow-lg-hover"
               style="width: 200px" width="200px" height="197px" />
             <div class="pt-4 text-center">
               <h5 class="title">
