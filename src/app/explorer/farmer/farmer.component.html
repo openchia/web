@@ -44,6 +44,14 @@
           </td>
         </tr>
         <tr>
+          <th i18n="@@ClientVersion">Client Version</th>
+          <td *ngIf="partialsFiltered[0]">{{ partialsFiltered[0].chia_version }}</td>
+          <td *ngIf="!partialsFiltered[0]" i18n>Unknown</td>
+          <th i18n="@@PoolConnected">Pool Connected</th>
+          <td *ngIf="partialsFiltered[0]">{{ partialsFiltered[0].pool_host }}</td>
+          <td *ngIf="!partialsFiltered[0]" i18n>Unknown</td>
+        </tr>
+        <tr>
           <th i18n="@@Difficulty">Difficulty</th>
           <td>{{ farmer.difficulty }}</td>
           <th><span i18n>Estimated Size</span>&nbsp;<i class="fas fa-info-circle"
@@ -75,7 +83,7 @@
             </ng-template>
             <i class="fas fa-info-circle" [ngbTooltip]="currentEffortTooltip"></i>
           </th>
-          <td *ngIf="(farmer.current_effort || 0) >= 0">{{ farmer.current_effort | number }}%</td>
+          <td *ngIf="(farmer.current_effort || 0) > 0">{{ farmer.current_effort | number }}%</td>
           <td *ngIf="farmer.current_effort == null" i18n>Unknown</td>
         </tr>
         <tr>
@@ -468,7 +476,6 @@
                 </ng-template>
               </ngx-charts-bar-vertical>
             </div>
-
           </div>
           <br />
           <table class="table table-sm table-striped table-responsive-lg">
@@ -501,12 +508,11 @@
           </table>
           <div class="d-flex justify-content-between p-2">
             <ngb-pagination [collectionSize]="payoutsCollectionSize" [(page)]="payoutsPage" [pageSize]="payoutsPageSize"
-              (pageChange)="refreshPayouts()">
+              [maxSize]="10" [rotate]="true" [boundaryLinks]="true" (pageChange)="refreshPayouts()">
             </ngb-pagination>
           </div>
         </ng-template>
       </li>
-
 
       <!-- Payouts -->
       <li [ngbNavItem]="5">
@@ -588,7 +594,8 @@
           </table>
           <div class="d-flex justify-content-between p-2">
             <ngb-pagination [collectionSize]="payouttxsCollectionSize" [(page)]="payouttxsPage"
-              [pageSize]="payouttxsPageSize" (pageChange)="refreshPayoutTxs()">
+              [pageSize]="payouttxsPageSize" (pageChange)="refreshPayoutTxs()" [maxSize]="10"
+              [rotate]="true" [boundaryLinks]="true">
             </ngb-pagination>
           </div>
         </ng-template>
@@ -672,7 +679,7 @@
           </table>
           <div class="d-flex justify-content-between p-2">
             <ngb-pagination [collectionSize]="blocksCollectionSize" [(page)]="blocksPage" [pageSize]="blocksPageSize"
-              (pageChange)="refreshBlocks()">
+            [maxSize]="10" [rotate]="true" [boundaryLinks]="true" (pageChange)="refreshBlocks()">
             </ngb-pagination>
           </div>
         </ng-template>

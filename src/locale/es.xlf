@@ -6,8 +6,7 @@
  Locale: es, Spanish
  Exported by: Unregistered user
  Exported at: Fri, 25 Feb 2022 16:57:48 -0300
--->
-<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
+--><xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
   <file original="ng2.template" source-language="en" target-language="es" datatype="plaintext" tool-id="loco">
     <header>
       <tool tool-id="loco" tool-name="Loco for Angular" tool-version="1.0.26 20220207-1" tool-company="Loco"/>
@@ -827,11 +826,11 @@
       </trans-unit>
       <trans-unit id="PoolWallets" datatype="html">
         <source>Pool Wallets</source>
-        <target>Pool Wallets</target>
+        <target state="needs-translation">Pool Wallets</target>
       </trans-unit>
       <trans-unit id="Profitability" datatype="html">
         <source>Profitability</source>
-        <target>Profitability</target>
+        <target>Rentabilidad</target>
       </trans-unit>
       <trans-unit id="Referral" datatype="html">
         <source>Referral</source>
@@ -843,11 +842,11 @@
       </trans-unit>
       <trans-unit id="Rewards" datatype="html">
         <source>Rewards</source>
-        <target>Rewards</target>
+        <target state="needs-translation">Rewards</target>
       </trans-unit>
       <trans-unit id="Save" datatype="html">
         <source>Save</source>
-        <target>Save</target>
+        <target state="needs-translation">Save</target>
       </trans-unit>
       <trans-unit id="Search" datatype="html">
         <source>Search</source>
@@ -1000,6 +999,330 @@
       <trans-unit id="ngb.toast.close-aria" datatype="html">
         <source>Close</source>
         <target>Cerrar</target>
+      </trans-unit>
+      <trans-unit id="ProfitabilityCalculator" datatype="html">
+        <source>Profitability Calculator</source>
+        <target>Calculadora de Rentabilidad</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/calculator/calculator.component.html</context>
+          <context context-type="linenumber">18,21</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="Address" datatype="html">
+        <source>Address</source>
+        <target>Dirección</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/explorer/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">317,319</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="0972d881bb8dc119602e984ff428593e56a32c4f" datatype="html">
+        <source>Synced</source>
+        <target>Sincronizado</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/explorer/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">329,331</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="619171a61aa23ace553a260092a2a02105b43174" datatype="html">
+        <source>Not synced!</source>
+        <target>No sincronizado!</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/explorer/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">330,332</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="aedda3b43cdef3052511e9c258a531ab10797a2f" datatype="html">
+        <source>Points (PPLNS)</source>
+        <target>Puntos (PPLNS)</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
+          <context context-type="linenumber">56,60</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="216a1982a307f6926ef83c3b6f4143a0a9415e56" datatype="html">
+        <source>Number of plots</source>
+        <target>Número de parcelas</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/calculator/calculator.component.html</context>
+          <context context-type="linenumber">50,55</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="9141579156b435c7be59df6e592df4b93c134297" datatype="html">
+        <source>Rewards</source>
+        <target>Recompensas</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/explorer/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">269,274</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
+          <context context-type="linenumber">429,433</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="6b56ac52e1dc20d7fabc0584df202612ee0af25a" datatype="html">
+        <source>Launcher ID</source>
+        <target>ID de lanzador</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
+          <context context-type="linenumber">16,22</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/explorer/login/login.component.html</context>
+          <context context-type="linenumber">24,29</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.pagination.next" datatype="html">
+        <source>»</source>
+        <target>»</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/pagination/pagination.ts</context>
+          <context context-type="linenumber">287,290</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.pagination.last" datatype="html">
+        <source>»»</source>
+        <target>»»</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/pagination/pagination.ts</context>
+          <context context-type="linenumber">307,309</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.pagination.first" datatype="html">
+        <source>««</source>
+        <target>««</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/pagination/pagination.ts</context>
+          <context context-type="linenumber">244,249</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ngb.pagination.previous" datatype="html">
+        <source>«</source>
+        <target>«</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">node_modules/src/pagination/pagination.ts</context>
+          <context context-type="linenumber">266,267</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="31be2990b61fe013066418cf23998427f6094c0f" datatype="html">
+        <source>Estimated space</source>
+        <target>Espacio estimado</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/calculator/calculator.component.html</context>
+          <context context-type="linenumber">58,61</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2e39c8f73bf706250110c3bbbcb013216ccd618f" datatype="html">
+        <source>Hourly XCH</source>
+        <target>XCH por hora</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/calculator/calculator.component.html</context>
+          <context context-type="linenumber">82,85</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="9beb860b38dcac32f826add82a1115ddde160c62" datatype="html">
+        <source>Hourly USD</source>
+        <target>USD por hora</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/calculator/calculator.component.html</context>
+          <context context-type="linenumber">122,125</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="cc15f4b8a90535f5eb726ec8fa2ad55360fd0934" datatype="html">
+        <source>404 PAGE NOT FOUND</source>
+        <target>404 Pagina no encontrada</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/errors/pagenotfound/pagenotfound.component.html</context>
+          <context context-type="linenumber">19,21</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7bdce28bcb7947df99c223c3622648a88db63fc6" datatype="html">
+        <source>Netspace</source>
+        <target>Espacio de red</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/explorer/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">49,53</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="f3e8389d1b2d1d6fc186e3e2fbd3d56ee53ad160" datatype="html">
+        <source>Show all farmers</source>
+        <target>Mostrar todos los agricultores</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/explorer/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">160,166</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="Points24hrs" datatype="html">
+        <source>Points (24 hours)</source>
+        <target>Puntos (24 horas)</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/explorer/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">169,172</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2f933b826a570836cab04f683970a2d22068458c" datatype="html">
+        <source>Date</source>
+        <target>Fecha</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/explorer/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">275,279</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7fb1099e29660162f9154d5b2feee7743a423df6" datatype="html">
+        <source>Today</source>
+        <target>Hoy</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
+          <context context-type="linenumber">441,445</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7668986b9f753fcd72ad4a00b1a0c4861d1f7fb8" datatype="html">
+        <source>Last 30 days</source>
+        <target>Últimos 30 días</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
+          <context context-type="linenumber">453,457</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="02e0243b60007368f87dc01e083f232dd025096d" datatype="html">
+        <source>Last 7 days</source>
+        <target>Últimos 7 días</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
+          <context context-type="linenumber">449,453</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="9e0ba5f591380a94d594a76288f0c41aa97eb9c2" datatype="html">
+        <source>Last 24 hours</source>
+        <target>Últimas 24 horas</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
+          <context context-type="linenumber">437,441</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="e430eda9c785cd43465b7cbb400ee914f1057247" datatype="html">
+        <source>Yesterday</source>
+        <target>Ayer</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
+          <context context-type="linenumber">445,449</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="1286983255645370171" datatype="html">
+        <source>Day</source>
+        <target>Día</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.ts</context>
+          <context context-type="linenumber">49,51</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="34490e4cf9382027cfbcdfdc1628c837dccc4fa3" datatype="html">
+        <source>Spacescan</source>
+        <target>Spacescan</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/partners/partners.component.html</context>
+          <context context-type="linenumber">39,43</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="cceaba1ef6ce809232913dc96e1945fb49fea7a9" datatype="html">
+        <source>weeks</source>
+        <target>semanas</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
+          <context context-type="linenumber">701,704</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="c3ced4d162a0a55ee233a187ce7208ba5e922418" datatype="html">
+        <source>Max</source>
+        <target>Máx.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
+          <context context-type="linenumber">697,699</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="8904f85bf6b6eed79fc36bf8de469ca11196e59c" datatype="html">
+        <source>Above 1PiB: 0.15%</source>
+        <target>Por encima de 1 PiB: 0,15%</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/fees/fees.component.html</context>
+          <context context-type="linenumber">68,72</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="5f9a83228aa8e4f6b73bcb83e4529ffd9f3044e4" datatype="html">
+        <source>Above 500TiB: 0.1%</source>
+        <target>Por encima de 500 TiB: 0,1%</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/fees/fees.component.html</context>
+          <context context-type="linenumber">67,71</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="AGPLv3License" datatype="html">
+        <source>AGPLv3 License</source>
+        <target>Licencia AGPLv3</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/footer/footer.component.html</context>
+          <context context-type="linenumber">58,64</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4f20f2d5a6882190892e58b85f6ccbedfa737952" datatype="html">
+        <source>Yes</source>
+        <target>Sí</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
+          <context context-type="linenumber">490,492</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="160f1ffbd26df073d0fbd02cf8ce0d8cea7603b0" datatype="html">
+        <source>Fee</source>
+        <target>Tarifa</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
+          <context context-type="linenumber">683,687</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4ca458fe3274d1c79640b052d57cf3b900b650b6" datatype="html">
+        <source>Base fee</source>
+        <target>Tarifa básica</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/fees/fees.component.html</context>
+          <context context-type="linenumber">43,46</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="State" datatype="html">
+        <source>State</source>
+        <target>Estado</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/explorer/reward/reward.component.html</context>
+          <context context-type="linenumber">48,52</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="dbcb1043ef9863a615caf8fe43167602d997a020" datatype="html">
+        <source>Need help?</source>
+        <target>¿Necesitas ayuda?</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/join/join.component.html</context>
+          <context context-type="linenumber">145,149</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="e5d8bb389c702588877f039d72178f219453a72d" datatype="html">
+        <source>Unknown</source>
+        <target>Desconocido</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
+          <context context-type="linenumber">69,72</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
+          <context context-type="linenumber">79,83</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ae7f270972015b2f0a4fabd3ee191983066aa0fa" datatype="html">
+        <source>Above 200TiB: 0.05%</source>
+        <target>Por encima de 200 TiB: 0,05%</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/fees/fees.component.html</context>
+          <context context-type="linenumber">66,70</context>
+        </context-group>
       </trans-unit>
     </body>
   </file>

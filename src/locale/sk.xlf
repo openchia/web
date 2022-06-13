@@ -1839,7 +1839,7 @@
       </trans-unit>
       <trans-unit id="AGPLv3License" datatype="html">
         <source>AGPLv3 License</source>
-        <target>AGPLv3 License</target>
+        <target>AGPLv3 Licencia</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/shared/footer/footer.component.html</context>
           <context context-type="linenumber">55,61</context>
@@ -2735,6 +2735,14 @@
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/join/join.component.html</context>
           <context context-type="linenumber">133,136</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="676b9238181dac1347b8c395c75fd0a9fedf05d9" datatype="html">
+        <source>There are ways to reduce the pool base fee, check them below.</source>
+        <target>Existujú spôsoby, ako znížiť základný poplatok za združenie, pozrite si ich nižšie.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/fees/fees.component.html</context>
+          <context context-type="linenumber">49,53</context>
         </context-group>
       </trans-unit>
     </body>

@@ -718,7 +718,7 @@
       </trans-unit>
       <trans-unit id="Explorer" datatype="html">
         <source>Explorer</source>
-        <target>Explorer</target>
+        <target state="needs-translation">Explorer</target>
       </trans-unit>
       <trans-unit id="FAQ" datatype="html">
         <source>FAQ</source>
@@ -1517,6 +1517,78 @@
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
           <context context-type="linenumber">445,449</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="9beb860b38dcac32f826add82a1115ddde160c62" datatype="html">
+        <source>Hourly USD</source>
+        <target>USD pro Stunde</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/calculator/calculator.component.html</context>
+          <context context-type="linenumber">122,125</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="33c2b0464d8ed7c16b233f29bfb6ca3346227230" datatype="html">
+        <source>Daily USD</source>
+        <target>USD pro Tag</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/calculator/calculator.component.html</context>
+          <context context-type="linenumber">130,134</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="acff6c04d9cb1d1e11cf16251aa404a4835f87fc" datatype="html">
+        <source>Weekly USD</source>
+        <target>USD pro Woche</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/calculator/calculator.component.html</context>
+          <context context-type="linenumber">138,141</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="65992202b465653e2cecba31fd90b33461d0612d" datatype="html">
+        <source>Monthly USD</source>
+        <target>USD pro Monat</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/calculator/calculator.component.html</context>
+          <context context-type="linenumber">146,149</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="2b74c5a60028e165b77a95cd35fede530fd09b6c" datatype="html">
+        <source>Blocks Found</source>
+        <target>Gefunden Blöcke</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/explorer/dashboard/dashboard.component.html</context>
+          <context context-type="linenumber">210,214</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="7a9097e4f66451c34b8c3a84ad6f3df0168a490e" datatype="html">
+        <source>Confirming</source>
+        <target>Bestätigung läuft</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
+          <context context-type="linenumber">492,495</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="4f20f2d5a6882190892e58b85f6ccbedfa737952" datatype="html">
+        <source>Yes</source>
+        <target>Ja</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
+          <context context-type="linenumber">490,492</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="Paid" datatype="html">
+        <source>Paid</source>
+        <target>Bezahlt</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
+          <context context-type="linenumber">481,484</context>
+        </context-group>
+      </trans-unit>
+      <trans-unit id="ConfirmedBlock" datatype="html">
+        <source>Confirmed Block</source>
+        <target>Bestätigter Block</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
+          <context context-type="linenumber">567,572</context>
         </context-group>
       </trans-unit>
     </body>
