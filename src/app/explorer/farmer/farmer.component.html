@@ -94,19 +94,49 @@
             &nbsp;<i class="fas fa-info-circle" closeDelay="4000" [ngbTooltip]="estimatedrewardDayTooltip"></i>
           </th>
           <td>
-            {{ xch_tb_month * (farmer.estimated_size / 1024 / 1024 / 1024 / 1024) | number:".4" }} XCH /day
+            {{ xch_tb_month * (farmer.estimated_size / 1024 / 1024 / 1024 / 1024) | number:".4" }} XCH / <span i18n>day</span>
             (${{ xch_current_price_usd * (xch_tb_month * (farmer.estimated_size / 1024 / 1024 / 1024 / 1024)) |
             number:".2" }})
           </td>
           <td>
-            {{ xch_tb_month * (farmer.estimated_size / 1024 / 1024 / 1024 / 1024) * 7 | number:".4" }} XCH / week
+            {{ xch_tb_month * (farmer.estimated_size / 1024 / 1024 / 1024 / 1024) * 7 | number:".4" }} XCH / <span i18n>week</span>
             (${{ xch_current_price_usd * (xch_tb_month * (farmer.estimated_size / 1024 / 1024 / 1024 / 1024) * 7) |
             number:".2" }})
           </td>
           <td>
-            {{ xch_tb_month * (farmer.estimated_size / 1024 / 1024 / 1024 / 1024) * 31 | number:".4" }} XCH / month
+            {{ xch_tb_month * (farmer.estimated_size / 1024 / 1024 / 1024 / 1024) * 31 | number:".4" }} XCH / <span i18n>month</span>
             (${{ xch_current_price_usd * (xch_tb_month * (farmer.estimated_size / 1024 / 1024 / 1024 / 1024) * 31) |
             number:".2" }})
+          </td>
+        </tr>
+        <tr>
+          <th scope="col"><span i18n="@@EarnedRewardDay">Earned Reward</span>
+            <ng-template #earnedrewardDayTooltip>
+              <span i18n>Icons <i class="fas fa-caret-down fa-caret-down-color"></i> and <i class="fas fa-caret-up fa-caret-up-color"></i>
+              are based from estimated rewards. Value rounded to 4 decimal (show details on <b>Rewards</b> tab).</span>
+            </ng-template>
+            &nbsp;<i class="fas fa-info-circle" closeDelay="4000" [ngbTooltip]="earnedrewardDayTooltip"></i>
+          </th>
+          <td>
+            {{ farmer.rewards.last_24h / 1000000000000 | number:".4" }} XCH / <span i18n>day</span>&nbsp;
+            <i *ngIf="(xch_tb_month * (farmer.estimated_size / 1024 / 1024 / 1024 / 1024)) > (farmer.rewards.last_24h / 1000000000000)"
+              class="fas fa-caret-down fa-caret-down-color"></i>
+            <i *ngIf="(xch_tb_month * (farmer.estimated_size / 1024 / 1024 / 1024 / 1024)) < (farmer.rewards.last_24h / 1000000000000)"
+              class="fas fa-caret-up fa-caret-up-color"></i>
+          </td>
+          <td>
+            {{ farmer.rewards.last_7d / 1000000000000 | number:".4" }} XCH / <span i18n>week</span>&nbsp;
+            <i *ngIf="(xch_tb_month * (farmer.estimated_size / 1024 / 1024 / 1024 / 1024) * 7) > (farmer.rewards.last_7d / 1000000000000)"
+              class="fas fa-caret-down fa-caret-down-color"></i>
+            <i *ngIf="(xch_tb_month * (farmer.estimated_size / 1024 / 1024 / 1024 / 1024) * 7) < (farmer.rewards.last_7d / 1000000000000)"
+              class="fas fa-caret-up fa-caret-up-color"></i>
+          </td>
+          <td>
+            {{ farmer.rewards.last_30d / 1000000000000 | number:".4" }} XCH / <span i18n>month</span>&nbsp;
+            <i *ngIf="(xch_tb_month * (farmer.estimated_size / 1024 / 1024 / 1024 / 1024) * 31) > (farmer.rewards.last_30d / 1000000000000)"
+              class="fas fa-caret-down fa-caret-down-color"></i>
+            <i *ngIf="(xch_tb_month * (farmer.estimated_size / 1024 / 1024 / 1024 / 1024) * 31) < (farmer.rewards.last_30d / 1000000000000)"
+              class="fas fa-caret-up fa-caret-up-color"></i>
           </td>
         </tr>
       </tbody>
@@ -553,9 +583,9 @@
                     <div *ngIf="(payouttxs$ | async) as payouttxs" class="card-body py-3 text-center text-uppercase">
                       <span class="text-primary"><span i18n="">Export CSV</span></span>
                       <p class="display-3">
-                        <button *ngIf="payouttxs.length>=1" class="btn btn-neutral btn-icon btn-openchia"
+                        <button *ngIf="payouttxs.length>=1" class="btn btn-primary btn-icon"
                           (click)="payoutDownloadCSV()">Download</button>
-                        <button *ngIf="payouttxs.length==0" disabled class="btn btn-warning btn-icon btn-openchia">No
+                        <button *ngIf="payouttxs.length==0" disabled class="btn btn-primary btn-icon disabled">No
                           payout</button>
                       </p>
                     </div>
