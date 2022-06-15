@@ -7,16 +7,18 @@
   color: #ff0000 !important;
 }
 
-.btn-openchia {
-  background-color: #129b00;
-  border-color: #129b00;
-  color: white;
-}
-
 .fa-copy-farmer {
   padding-right: 4px;
 }
 
 .fa-check-farmer {
   color: #129b00
+}
+
+.fa-caret-down-color {
+ color: #e84256;
+}
+
+.fa-caret-up-color {
+  color: #00b87a;
 }
