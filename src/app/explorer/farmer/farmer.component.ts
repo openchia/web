@@ -54,6 +54,8 @@ export class FarmerComponent implements OnInit {
 
   xch_current_price_usd: number = 0;
   xch_tb_month: number = 0;
+  estimated_rewards_xch: number = 0;
+  estimated_rewards_usd: number = 0;
 
   payoutaddrs$: Observable<any[]>;
   _payoutaddrs$ = new BehaviorSubject<any[]>([]);
@@ -110,11 +112,13 @@ export class FarmerComponent implements OnInit {
         this.getSize(this.farmerid);
         this.getHarvesters(this.farmerid);
         this.getRewards();
+        this.dataService.getStats().subscribe(data => {
+          this.xch_current_price_usd = data['xch_current_price']['usd'];
+          this.xch_tb_month = data['xch_tb_month'];
+          this.estimated_rewards_xch = this.xch_tb_month * (this.farmer['estimated_size'] / (1024 ** 4));
+          this.estimated_rewards_usd = this.xch_current_price_usd * this.estimated_rewards_xch;
+        });
       });
-      this.dataService.getStats().subscribe(data => {
-        this.xch_current_price_usd = data['xch_current_price']['usd'];
-        this.xch_tb_month = data['xch_tb_month'];
-      })
     });
   }
 
