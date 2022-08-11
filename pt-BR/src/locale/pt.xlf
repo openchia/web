@@ -8,7 +8,7 @@
           <context context-type="sourcefile">node_modules/src/alert/alert.ts</context>
           <context context-type="linenumber">76,80</context>
         </context-group>
-        <target state="needs-translation">Close</target>
+        <target state="translated">Fechar</target>
       </trans-unit>
       <trans-unit id="ngb.carousel.slide-number" datatype="html">
         <source> Slide <x id="INTERPOLATION" equiv-text="to interact wit"/> of <x id="INTERPOLATION_1" equiv-text="carousel using"/> </source>
@@ -17,7 +17,7 @@
           <context context-type="linenumber">147,157</context>
         </context-group>
         <note priority="1" from="description">Currently selected slide number read by screen reader</note>
-        <target state="needs-translation"> Slide <x id="INTERPOLATION" equiv-text="to interact wit"/> of <x id="INTERPOLATION_1" equiv-text="carousel using"/> </target>
+        <target state="translated">Slide <x id="INTERPOLATION" equiv-text="to interact wit"/> de <x id="INTERPOLATION_1" equiv-text="carousel using"/> </target>
       </trans-unit>
       <trans-unit id="ngb.carousel.previous" datatype="html">
         <source>Previous</source>
@@ -25,7 +25,7 @@
           <context context-type="sourcefile">node_modules/src/carousel/carousel.ts</context>
           <context context-type="linenumber">174,179</context>
         </context-group>
-        <target state="needs-translation">Previous</target>
+        <target state="translated">Anterior</target>
       </trans-unit>
       <trans-unit id="ngb.carousel.next" datatype="html">
         <source>Next</source>
@@ -33,7 +33,7 @@
           <context context-type="sourcefile">node_modules/src/carousel/carousel.ts</context>
           <context context-type="linenumber">198,200</context>
         </context-group>
-        <target state="needs-translation">Next</target>
+        <target state="translated">Próxima</target>
       </trans-unit>
       <trans-unit id="ngb.datepicker.select-month" datatype="html">
         <source>Select month</source>
@@ -45,7 +45,7 @@
           <context context-type="sourcefile">node_modules/src/datepicker/datepicker-navigation-select.ts</context>
           <context context-type="linenumber">74</context>
         </context-group>
-        <target state="needs-translation">Select month</target>
+        <target state="translated">Selecione o mês</target>
       </trans-unit>
       <trans-unit id="ngb.datepicker.select-year" datatype="html">
         <source>Select year</source>
@@ -57,7 +57,7 @@
           <context context-type="sourcefile">node_modules/src/datepicker/datepicker-navigation-select.ts</context>
           <context context-type="linenumber">74</context>
         </context-group>
-        <target state="needs-translation">Select year</target>
+        <target state="translated">Selecione o ano</target>
       </trans-unit>
       <trans-unit id="ngb.datepicker.previous-month" datatype="html">
         <source>Previous month</source>
@@ -69,7 +69,7 @@
           <context context-type="sourcefile">node_modules/src/datepicker/datepicker-navigation.ts</context>
           <context context-type="linenumber">69</context>
         </context-group>
-        <target state="needs-translation">Previous month</target>
+        <target state="translated">Mês anterior</target>
       </trans-unit>
       <trans-unit id="ngb.datepicker.next-month" datatype="html">
         <source>Next month</source>
@@ -81,7 +81,7 @@
           <context context-type="sourcefile">node_modules/src/datepicker/datepicker-navigation.ts</context>
           <context context-type="linenumber">69</context>
         </context-group>
-        <target state="needs-translation">Next month</target>
+        <target state="translated">Próximo mês</target>
       </trans-unit>
       <trans-unit id="ngb.pagination.first" datatype="html">
         <source>««</source>
@@ -121,7 +121,7 @@
           <context context-type="sourcefile">node_modules/src/pagination/pagination.ts</context>
           <context context-type="linenumber">322,326</context>
         </context-group>
-        <target state="needs-translation">First</target>
+        <target state="translated">Primeiro</target>
       </trans-unit>
       <trans-unit id="ngb.pagination.previous-aria" datatype="html">
         <source>Previous</source>
@@ -129,7 +129,7 @@
           <context context-type="sourcefile">node_modules/src/pagination/pagination.ts</context>
           <context context-type="linenumber">337,339</context>
         </context-group>
-        <target state="needs-translation">Previous</target>
+        <target state="translated">Anterior</target>
       </trans-unit>
       <trans-unit id="ngb.pagination.next-aria" datatype="html">
         <source>Next</source>
@@ -137,7 +137,7 @@
           <context context-type="sourcefile">node_modules/src/pagination/pagination.ts</context>
           <context context-type="linenumber">350,351</context>
         </context-group>
-        <target state="needs-translation">Next</target>
+        <target state="translated">Próximo</target>
       </trans-unit>
       <trans-unit id="ngb.pagination.last-aria" datatype="html">
         <source>Last</source>
@@ -145,7 +145,7 @@
           <context context-type="sourcefile">node_modules/src/pagination/pagination.ts</context>
           <context context-type="linenumber">367,370</context>
         </context-group>
-        <target state="needs-translation">Last</target>
+        <target state="translated">Último</target>
       </trans-unit>
       <trans-unit id="ngb.progressbar.value" datatype="html">
         <source>
@@ -171,7 +171,7 @@
           <context context-type="sourcefile">node_modules/src/timepicker/timepicker.ts</context>
           <context context-type="linenumber">155,158</context>
         </context-group>
-        <target state="needs-translation">Hours</target>
+        <target state="translated">Horas</target>
       </trans-unit>
       <trans-unit id="ngb.timepicker.MM" datatype="html">
         <source>MM</source>
@@ -187,7 +187,7 @@
           <context context-type="sourcefile">node_modules/src/timepicker/timepicker.ts</context>
           <context context-type="linenumber">189,192</context>
         </context-group>
-        <target state="needs-translation">Minutes</target>
+        <target state="translated">Minutos</target>
       </trans-unit>
       <trans-unit id="ngb.timepicker.increment-hours" datatype="html">
         <source>Increment hours</source>
@@ -195,7 +195,7 @@
           <context context-type="sourcefile">node_modules/src/timepicker/timepicker.ts</context>
           <context context-type="linenumber">206,210</context>
         </context-group>
-        <target state="needs-translation">Increment hours</target>
+        <target state="translated">Horas de incremento</target>
       </trans-unit>
       <trans-unit id="ngb.timepicker.decrement-hours" datatype="html">
         <source>Decrement hours</source>
@@ -203,7 +203,7 @@
           <context context-type="sourcefile">node_modules/src/timepicker/timepicker.ts</context>
           <context context-type="linenumber">228,230</context>
         </context-group>
-        <target state="needs-translation">Decrement hours</target>
+        <target state="translated">Horas de decréscimo</target>
       </trans-unit>
       <trans-unit id="ngb.timepicker.increment-minutes" datatype="html">
         <source>Increment minutes</source>
@@ -211,7 +211,7 @@
           <context context-type="sourcefile">node_modules/src/timepicker/timepicker.ts</context>
           <context context-type="linenumber">249,254</context>
         </context-group>
-        <target state="needs-translation">Increment minutes</target>
+        <target state="translated">Incremento de minutos</target>
       </trans-unit>
       <trans-unit id="ngb.timepicker.decrement-minutes" datatype="html">
         <source>Decrement minutes</source>
@@ -219,7 +219,7 @@
           <context context-type="sourcefile">node_modules/src/timepicker/timepicker.ts</context>
           <context context-type="linenumber">272,276</context>
         </context-group>
-        <target state="needs-translation">Decrement minutes</target>
+        <target state="translated">Minutos de decremento</target>
       </trans-unit>
       <trans-unit id="ngb.timepicker.SS" datatype="html">
         <source>SS</source>
@@ -235,7 +235,7 @@
           <context context-type="sourcefile">node_modules/src/timepicker/timepicker.ts</context>
           <context context-type="linenumber">295</context>
         </context-group>
-        <target state="needs-translation">Seconds</target>
+        <target state="translated">Segundos</target>
       </trans-unit>
       <trans-unit id="ngb.timepicker.increment-seconds" datatype="html">
         <source>Increment seconds</source>
@@ -243,7 +243,7 @@
           <context context-type="sourcefile">node_modules/src/timepicker/timepicker.ts</context>
           <context context-type="linenumber">295</context>
         </context-group>
-        <target state="needs-translation">Increment seconds</target>
+        <target state="translated">Incremento de segundos</target>
       </trans-unit>
       <trans-unit id="ngb.timepicker.decrement-seconds" datatype="html">
         <source>Decrement seconds</source>
@@ -251,7 +251,7 @@
           <context context-type="sourcefile">node_modules/src/timepicker/timepicker.ts</context>
           <context context-type="linenumber">295</context>
         </context-group>
-        <target state="needs-translation">Decrement seconds</target>
+        <target state="translated">Decremento de segundos</target>
       </trans-unit>
       <trans-unit id="ngb.timepicker.PM" datatype="html">
         <source>
@@ -277,7 +277,7 @@
           <context context-type="sourcefile">node_modules/src/toast/toast.ts</context>
           <context context-type="linenumber">106,109</context>
         </context-group>
-        <target state="needs-translation">Close</target>
+        <target state="translated">Fechar</target>
       </trans-unit>
       <trans-unit id="ProfitabilityCalculator" datatype="html">
         <source>Profitability Calculator</source>
@@ -293,7 +293,7 @@
           <context context-type="sourcefile">src/app/calculator/calculator.component.html</context>
           <context context-type="linenumber">19,21</context>
         </context-group>
-        <target state="needs-translation">Estimated Earnings</target>
+        <target state="translated">Ganhos Estimados</target>
       </trans-unit>
       <trans-unit id="621d35671c9274ce567f468d1cbed8afdfb58fbe" datatype="html">
         <source>View is based on a snapshot of today&apos;s XCH price, a pool luck and a constant total network space. Plots of size k=32 (101.4 GiB).</source>
@@ -301,7 +301,7 @@
           <context context-type="sourcefile">src/app/calculator/calculator.component.html</context>
           <context context-type="linenumber">20,26</context>
         </context-group>
-        <target state="needs-translation">View is based on a snapshot of today's XCH price, a pool luck and a constant total network space. Plots of size k=32 (101.4 GiB).</target>
+        <target state="translated">A visualização é baseada em um snapshot do valor de hoje da XCH, a sorte da pool e um netspace de tamanho constante. Plots do tamanho k=32 (101.4 GiB).</target>
       </trans-unit>
       <trans-unit id="216a1982a307f6926ef83c3b6f4143a0a9415e56" datatype="html">
         <source>Number of plots</source>
@@ -309,7 +309,7 @@
           <context context-type="sourcefile">src/app/calculator/calculator.component.html</context>
           <context context-type="linenumber">50,55</context>
         </context-group>
-        <target state="needs-translation">Number of plots</target>
+        <target state="translated">Número de plots</target>
       </trans-unit>
       <trans-unit id="31be2990b61fe013066418cf23998427f6094c0f" datatype="html">
         <source>Estimated space</source>
@@ -317,7 +317,7 @@
           <context context-type="sourcefile">src/app/calculator/calculator.component.html</context>
           <context context-type="linenumber">58,61</context>
         </context-group>
-        <target state="needs-translation">Estimated space</target>
+        <target state="translated">Espaço estimado</target>
       </trans-unit>
       <trans-unit id="e2829d2a1d6377140b5bf5e324dfda0b73d73814" datatype="html">
         <source>Estimated utilization</source>
@@ -325,7 +325,7 @@
           <context context-type="sourcefile">src/app/calculator/calculator.component.html</context>
           <context context-type="linenumber">66,69</context>
         </context-group>
-        <target state="needs-translation">Estimated utilization</target>
+        <target state="translated">Utilização estimada</target>
       </trans-unit>
       <trans-unit id="2e39c8f73bf706250110c3bbbcb013216ccd618f" datatype="html">
         <source>Hourly XCH</source>
@@ -333,7 +333,7 @@
           <context context-type="sourcefile">src/app/calculator/calculator.component.html</context>
           <context context-type="linenumber">82,85</context>
         </context-group>
-        <target state="needs-translation">Hourly XCH</target>
+        <target state="translated">XCH/Hora</target>
       </trans-unit>
       <trans-unit id="f92636454cc06321476854f21c7392a515fd687f" datatype="html">
         <source>Daily XCH</source>
@@ -341,7 +341,7 @@
           <context context-type="sourcefile">src/app/calculator/calculator.component.html</context>
           <context context-type="linenumber">90,93</context>
         </context-group>
-        <target state="needs-translation">Daily XCH</target>
+        <target state="translated">XCH/Dia</target>
       </trans-unit>
       <trans-unit id="82c3411ad825e42c40b61c23ae53a09d0283a4b8" datatype="html">
         <source>Weekly XCH</source>
@@ -349,7 +349,7 @@
           <context context-type="sourcefile">src/app/calculator/calculator.component.html</context>
           <context context-type="linenumber">98,101</context>
         </context-group>
-        <target state="needs-translation">Weekly XCH</target>
+        <target state="translated">XCH/Semana</target>
       </trans-unit>
       <trans-unit id="3202f6f4bbf4cf1d8fb8c4baa92a222cfdce1907" datatype="html">
         <source>Monthly XCH</source>
@@ -357,7 +357,7 @@
           <context context-type="sourcefile">src/app/calculator/calculator.component.html</context>
           <context context-type="linenumber">106,109</context>
         </context-group>
-        <target state="needs-translation">Monthly XCH</target>
+        <target state="translated">XCH/Mês</target>
       </trans-unit>
       <trans-unit id="9beb860b38dcac32f826add82a1115ddde160c62" datatype="html">
         <source>Hourly USD</source>
@@ -365,7 +365,7 @@
           <context context-type="sourcefile">src/app/calculator/calculator.component.html</context>
           <context context-type="linenumber">122,125</context>
         </context-group>
-        <target state="needs-translation">Hourly USD</target>
+        <target state="translated">USD/Hora</target>
       </trans-unit>
       <trans-unit id="33c2b0464d8ed7c16b233f29bfb6ca3346227230" datatype="html">
         <source>Daily USD</source>
@@ -373,7 +373,7 @@
           <context context-type="sourcefile">src/app/calculator/calculator.component.html</context>
           <context context-type="linenumber">130,134</context>
         </context-group>
-        <target state="needs-translation">Daily USD</target>
+        <target state="translated">USD/Dia</target>
       </trans-unit>
       <trans-unit id="acff6c04d9cb1d1e11cf16251aa404a4835f87fc" datatype="html">
         <source>Weekly USD</source>
@@ -381,7 +381,7 @@
           <context context-type="sourcefile">src/app/calculator/calculator.component.html</context>
           <context context-type="linenumber">138,141</context>
         </context-group>
-        <target state="needs-translation">Weekly USD</target>
+        <target state="translated">USD/Semana</target>
       </trans-unit>
       <trans-unit id="65992202b465653e2cecba31fd90b33461d0612d" datatype="html">
         <source>Monthly USD</source>
@@ -389,7 +389,7 @@
           <context context-type="sourcefile">src/app/calculator/calculator.component.html</context>
           <context context-type="linenumber">146,149</context>
         </context-group>
-        <target state="needs-translation">Monthly USD</target>
+        <target state="translated">USD/Mês</target>
       </trans-unit>
       <trans-unit id="cc15f4b8a90535f5eb726ec8fa2ad55360fd0934" datatype="html">
         <source>404 PAGE NOT FOUND</source>
@@ -397,7 +397,7 @@
           <context context-type="sourcefile">src/app/errors/pagenotfound/pagenotfound.component.html</context>
           <context context-type="linenumber">19,21</context>
         </context-group>
-        <target state="needs-translation">404 PAGE NOT FOUND</target>
+        <target state="translated">404 PÁGINA NÃO ENCONTRADA</target>
       </trans-unit>
       <trans-unit id="c2435526c3716ecae495249d4b750e090d961d24" datatype="html">
         <source>XCH Price</source>
@@ -405,7 +405,7 @@
           <context context-type="sourcefile">src/app/explorer/dashboard/dashboard.component.html</context>
           <context context-type="linenumber">9,14</context>
         </context-group>
-        <target state="needs-translation">XCH Price</target>
+        <target state="translated">Preço XCH</target>
       </trans-unit>
       <trans-unit id="3bf86b6688d8e6eb1adf486a10cbe885647e88f5" datatype="html">
         <source>Pool Space</source>
@@ -413,7 +413,7 @@
           <context context-type="sourcefile">src/app/explorer/dashboard/dashboard.component.html</context>
           <context context-type="linenumber">17,21</context>
         </context-group>
-        <target state="needs-translation">Pool Space</target>
+        <target state="translated">Tamanho do Pool</target>
       </trans-unit>
       <trans-unit id="8afd6be548086efa18d8416c081a4c39f556853c" datatype="html">
         <source>ETW</source>
@@ -443,7 +443,7 @@
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
           <context context-type="linenumber">599,604</context>
         </context-group>
-        <target state="needs-translation">Blocks</target>
+        <target state="translated">Blocos</target>
       </trans-unit>
       <trans-unit id="1d807733635e1587142d0bf8c9253414da999d08" datatype="html">
         <source><x id="INTERPOLATION" equiv-text="&lt;div"/> farmed</source>
@@ -451,7 +451,7 @@
           <context context-type="sourcefile">src/app/explorer/dashboard/dashboard.component.html</context>
           <context context-type="linenumber">34,40</context>
         </context-group>
-        <target state="needs-translation"><x id="INTERPOLATION" equiv-text="&lt;div"/> farmed</target>
+        <target state="translated"><x id="INTERPOLATION" equiv-text="&lt;div"/> encontrado</target>
       </trans-unit>
       <trans-unit id="Farmers" datatype="html">
         <source>Farmers</source>
@@ -487,7 +487,7 @@
           <context context-type="sourcefile">src/app/explorer/dashboard/dashboard.component.html</context>
           <context context-type="linenumber">61,66</context>
         </context-group>
-        <target state="needs-translation">Current Effort</target>
+        <target state="translated">Esforço Atual</target>
       </trans-unit>
       <trans-unit id="Effort" datatype="html">
         <source>Effort</source>
@@ -495,7 +495,7 @@
           <context context-type="sourcefile">src/app/explorer/dashboard/dashboard.component.html</context>
           <context context-type="linenumber">69,72</context>
         </context-group>
-        <target state="needs-translation">Effort</target>
+        <target state="translated">Esforço</target>
       </trans-unit>
       <trans-unit id="af9304cc4713eb67765b7077be78c23468ac321d" datatype="html">
         <source>Average effort to farm a block in the last 30 days.</source>
@@ -503,7 +503,7 @@
           <context context-type="sourcefile">src/app/explorer/dashboard/dashboard.component.html</context>
           <context context-type="linenumber">71,74</context>
         </context-group>
-        <target state="needs-translation">Average effort to farm a block in the last 30 days.</target>
+        <target state="translated">Esforço médio para ganhar um bloco nos últimos 30 dias.</target>
       </trans-unit>
       <trans-unit id="fc38220bc0ec421ccbabe7813bcc03bb0216d99d" datatype="html">
         <source>Since Last Win</source>
@@ -511,7 +511,7 @@
           <context context-type="sourcefile">src/app/explorer/dashboard/dashboard.component.html</context>
           <context context-type="linenumber">82,87</context>
         </context-group>
-        <target state="needs-translation">Since Last Win</target>
+        <target state="translated">Desde o último bloco ganho</target>
       </trans-unit>
       <trans-unit id="Rewards" datatype="html">
         <source>Rewards</source>
@@ -519,7 +519,7 @@
           <context context-type="sourcefile">src/app/explorer/dashboard/dashboard.component.html</context>
           <context context-type="linenumber">90,95</context>
         </context-group>
-        <target state="needs-translation">Rewards</target>
+        <target state="translated">Remuneração</target>
       </trans-unit>
       <trans-unit id="Profitability" datatype="html">
         <source>Profitability</source>
@@ -527,7 +527,7 @@
           <context context-type="sourcefile">src/app/explorer/dashboard/dashboard.component.html</context>
           <context context-type="linenumber">98,101</context>
         </context-group>
-        <target state="needs-translation">Profitability</target>
+        <target state="translated">Rentabilidade</target>
       </trans-unit>
       <trans-unit id="bc8dc7dc8854f37f1f0258ac25cc8a56e50b1159" datatype="html">
         <source>Profitability based on blocks farmed on last 30 days. Estimated value (XCH) a farmer would get per TiB per day.</source>
@@ -535,7 +535,7 @@
           <context context-type="sourcefile">src/app/explorer/dashboard/dashboard.component.html</context>
           <context context-type="linenumber">100,103</context>
         </context-group>
-        <target state="needs-translation">Profitability based on blocks farmed on last 30 days. Estimated value (XCH) a farmer would get per TiB per day.</target>
+        <target state="translated">Rentabilidade baseada nos blocos ganhos nos últimos 30 dias. Valor estimado (XCH) que um farmer ganharia por TiB por dia.</target>
       </trans-unit>
       <trans-unit id="Leaderboard" datatype="html">
         <source>Leaderboard</source>
@@ -543,7 +543,7 @@
           <context context-type="sourcefile">src/app/explorer/dashboard/dashboard.component.html</context>
           <context context-type="linenumber">117,121</context>
         </context-group>
-        <target state="needs-translation">Leaderboard</target>
+        <target state="translated">Placar</target>
       </trans-unit>
       <trans-unit id="Search" datatype="html">
         <source>Search</source>
@@ -551,7 +551,7 @@
           <context context-type="sourcefile">src/app/explorer/dashboard/dashboard.component.html</context>
           <context context-type="linenumber">155,158</context>
         </context-group>
-        <target state="needs-translation">Search</target>
+        <target state="translated">Buscar</target>
       </trans-unit>
       <trans-unit id="727c21cfe501b69144cb1579e5a79e6e9d19288a" datatype="html">
         <source>Show active only</source>
@@ -559,7 +559,7 @@
           <context context-type="sourcefile">src/app/explorer/dashboard/dashboard.component.html</context>
           <context context-type="linenumber">159,164</context>
         </context-group>
-        <target state="needs-translation">Show active only</target>
+        <target state="translated">Exibir apenas ativos</target>
       </trans-unit>
       <trans-unit id="f3e8389d1b2d1d6fc186e3e2fbd3d56ee53ad160" datatype="html">
         <source>Show all farmers</source>
@@ -567,7 +567,7 @@
           <context context-type="sourcefile">src/app/explorer/dashboard/dashboard.component.html</context>
           <context context-type="linenumber">160,166</context>
         </context-group>
-        <target state="needs-translation">Show all farmers</target>
+        <target state="translated">Exibir todos</target>
       </trans-unit>
       <trans-unit id="Points24hrs" datatype="html">
         <source>Points (24 hours)</source>
@@ -575,7 +575,7 @@
           <context context-type="sourcefile">src/app/explorer/dashboard/dashboard.component.html</context>
           <context context-type="linenumber">169,172</context>
         </context-group>
-        <target state="needs-translation">Points (24 hours)</target>
+        <target state="translated">Pontos (24 horas)</target>
       </trans-unit>
       <trans-unit id="Difficulty" datatype="html">
         <source>Difficulty</source>
@@ -591,7 +591,7 @@
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
           <context context-type="linenumber">202,206</context>
         </context-group>
-        <target state="needs-translation">Difficulty</target>
+        <target state="translated">Dificuldade</target>
       </trans-unit>
       <trans-unit id="UtilizationSpace" datatype="html">
         <source>Utilization Space</source>
@@ -599,7 +599,7 @@
           <context context-type="sourcefile">src/app/explorer/dashboard/dashboard.component.html</context>
           <context context-type="linenumber">171,176</context>
         </context-group>
-        <target state="needs-translation">Utilization Space</target>
+        <target state="translated">Utilização de Espaço</target>
       </trans-unit>
       <trans-unit id="EstimatedSpace" datatype="html">
         <source>Estimated Space</source>
@@ -607,7 +607,7 @@
           <context context-type="sourcefile">src/app/explorer/dashboard/dashboard.component.html</context>
           <context context-type="linenumber">172,177</context>
         </context-group>
-        <target state="needs-translation">Estimated Space</target>
+        <target state="translated">Espaço Estimado</target>
       </trans-unit>
       <trans-unit id="c97b5f1c85fcecad8ca5333e54c6301767e96d4f" datatype="html">
         <source>No farmers found!</source>
@@ -615,7 +615,7 @@
           <context context-type="sourcefile">src/app/explorer/dashboard/dashboard.component.html</context>
           <context context-type="linenumber">198,202</context>
         </context-group>
-        <target state="needs-translation">No farmers found!</target>
+        <target state="translated">Nenhum farmer encontrado!</target>
       </trans-unit>
       <trans-unit id="2b74c5a60028e165b77a95cd35fede530fd09b6c" datatype="html">
         <source>Blocks Found</source>
@@ -623,7 +623,7 @@
           <context context-type="sourcefile">src/app/explorer/dashboard/dashboard.component.html</context>
           <context context-type="linenumber">210,214</context>
         </context-group>
-        <target state="needs-translation">Blocks Found</target>
+        <target state="translated">Blocos encontrados</target>
       </trans-unit>
       <trans-unit id="Height" datatype="html">
         <source>Height</source>
@@ -635,7 +635,7 @@
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
           <context context-type="linenumber">620,623</context>
         </context-group>
-        <target state="needs-translation">Height</target>
+        <target state="translated">Altura</target>
       </trans-unit>
       <trans-unit id="Date" datatype="html">
         <source>Date</source>
@@ -663,7 +663,7 @@
           <context context-type="sourcefile">src/app/explorer/reward/reward.component.html</context>
           <context context-type="linenumber">9,12</context>
         </context-group>
-        <target state="needs-translation">Date</target>
+        <target state="translated">Data</target>
       </trans-unit>
       <trans-unit id="Farmer" datatype="html">
         <source>Farmer</source>
@@ -683,7 +683,7 @@
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
           <context context-type="linenumber">634,637</context>
         </context-group>
-        <target state="needs-translation">Pool Space</target>
+        <target state="translated">Espaço da Pool</target>
       </trans-unit>
       <trans-unit id="06dac242b2c951e365884c1362470cb82067cce1" datatype="html">
         <source>Pool space when the block has been won.</source>
@@ -695,7 +695,7 @@
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
           <context context-type="linenumber">636,639</context>
         </context-group>
-        <target state="needs-translation">Pool space when the block has been won.</target>
+        <target state="translated">Espaço da pool quando o bloco foi ganho.</target>
       </trans-unit>
       <trans-unit id="PoolEffort" datatype="html">
         <source>Pool Effort</source>
@@ -707,7 +707,7 @@
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
           <context context-type="linenumber">624,627</context>
         </context-group>
-        <target state="needs-translation">Pool Effort</target>
+        <target state="translated">Esforço da Pool</target>
       </trans-unit>
       <trans-unit id="a1dcf7ffffc0aa88ff396abe738ab0f053ddcd7a" datatype="html">
         <source>The effort that was required to farm the block. 100% is the expected estimated time to win. Lower than 100% means we farmed the block before the estimation. Higher than 100% means we took longer than anticipated.</source>
@@ -715,7 +715,7 @@
           <context context-type="sourcefile">src/app/explorer/dashboard/dashboard.component.html</context>
           <context context-type="linenumber">225,229</context>
         </context-group>
-        <target state="needs-translation">The effort that was required to farm the block. 100% is the expected estimated time to win. Lower than 100% means we farmed the block before the estimation. Higher than 100% means we took longer than anticipated.</target>
+        <target state="translated">O esforço que foi necessário para ganhar o bloco. 100% é igual ao tempo estimado para ganhar um bloco. Abaixo de 100% significa que ganhamos o bloco antes do tempo estimado. Acima de 100% significa que demoramos mais do que o esperado.</target>
       </trans-unit>
       <trans-unit id="Unknown" datatype="html">
         <source>Unknown</source>
@@ -739,7 +739,7 @@
           <context context-type="sourcefile">src/app/explorer/reward/reward.component.html</context>
           <context context-type="linenumber">65,70</context>
         </context-group>
-        <target state="needs-translation">Unknown</target>
+        <target state="translated">Desconhecido</target>
       </trans-unit>
       <trans-unit id="Lucky" datatype="html">
         <source>Lucky</source>
@@ -751,7 +751,7 @@
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
           <context context-type="linenumber">660,662</context>
         </context-group>
-        <target state="needs-translation">Lucky</target>
+        <target state="translated">Sortudo</target>
       </trans-unit>
       <trans-unit id="Average" datatype="html">
         <source>Average</source>
@@ -763,7 +763,7 @@
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
           <context context-type="linenumber">661,666</context>
         </context-group>
-        <target state="needs-translation">Average</target>
+        <target state="translated">Na média</target>
       </trans-unit>
       <trans-unit id="Unlucky" datatype="html">
         <source>Unlucky</source>
@@ -775,7 +775,7 @@
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
           <context context-type="linenumber">662,666</context>
         </context-group>
-        <target state="needs-translation">Unlucky</target>
+        <target state="translated">Azarado</target>
       </trans-unit>
       <trans-unit id="cb137bd024242b35a1f084f90e1c3966d8e7a192" datatype="html">
         <source>No blocks found!</source>
@@ -783,7 +783,7 @@
           <context context-type="sourcefile">src/app/explorer/dashboard/dashboard.component.html</context>
           <context context-type="linenumber">257,261</context>
         </context-group>
-        <target state="needs-translation">No blocks found!</target>
+        <target state="translated">Nenhum bloco encontrado!</target>
       </trans-unit>
       <trans-unit id="9141579156b435c7be59df6e592df4b93c134297" datatype="html">
         <source>Rewards</source>
@@ -811,7 +811,7 @@
           <context context-type="sourcefile">src/app/explorer/dashboard/dashboard.component.html</context>
           <context context-type="linenumber">275,279</context>
         </context-group>
-        <target state="needs-translation">Date</target>
+        <target state="translated">Data</target>
       </trans-unit>
       <trans-unit id="Amount" datatype="html">
         <source>Amount</source>
@@ -839,7 +839,7 @@
           <context context-type="sourcefile">src/app/explorer/reward/reward.component.html</context>
           <context context-type="linenumber">46,51</context>
         </context-group>
-        <target state="needs-translation">Amount</target>
+        <target state="translated">Valor</target>
       </trans-unit>
       <trans-unit id="NoRewards" datatype="html">
         <source>No rewards found!</source>
@@ -859,7 +859,7 @@
           <context context-type="sourcefile">src/app/explorer/dashboard/dashboard.component.html</context>
           <context context-type="linenumber">301,305</context>
         </context-group>
-        <target state="needs-translation">Pool Wallets</target>
+        <target state="translated">Carteiras da Pool</target>
       </trans-unit>
       <trans-unit id="e95061dd489ae7021fd2217ba4af6af8a9b410ce" datatype="html">
         <source>No wallets found!</source>
@@ -867,7 +867,7 @@
           <context context-type="sourcefile">src/app/explorer/dashboard/dashboard.component.html</context>
           <context context-type="linenumber">308,313</context>
         </context-group>
-        <target state="needs-translation">No wallets found!</target>
+        <target state="translated">Nenhuma carteria encontrada!</target>
       </trans-unit>
       <trans-unit id="Address" datatype="html">
         <source>Address</source>
@@ -875,7 +875,7 @@
           <context context-type="sourcefile">src/app/explorer/dashboard/dashboard.component.html</context>
           <context context-type="linenumber">317,319</context>
         </context-group>
-        <target state="needs-translation">Address</target>
+        <target state="translated">Endereço</target>
       </trans-unit>
       <trans-unit id="0972d881bb8dc119602e984ff428593e56a32c4f" datatype="html">
         <source>Synced</source>
@@ -883,7 +883,7 @@
           <context context-type="sourcefile">src/app/explorer/dashboard/dashboard.component.html</context>
           <context context-type="linenumber">329,331</context>
         </context-group>
-        <target state="needs-translation">Synced</target>
+        <target state="translated">Sincronizado</target>
       </trans-unit>
       <trans-unit id="619171a61aa23ace553a260092a2a02105b43174" datatype="html">
         <source>Not synced!</source>
@@ -891,7 +891,7 @@
           <context context-type="sourcefile">src/app/explorer/dashboard/dashboard.component.html</context>
           <context context-type="linenumber">330,332</context>
         </context-group>
-        <target state="needs-translation">Not synced!</target>
+        <target state="translated">Dessincronizado!</target>
       </trans-unit>
       <trans-unit id="3885db3e53d2d1af7c4c5dd0d95dc900f47fe73f" datatype="html">
         <source>Pool server real-time log</source>
@@ -899,7 +899,7 @@
           <context context-type="sourcefile">src/app/explorer/dashboard/dashboard.component.html</context>
           <context context-type="linenumber">346,349</context>
         </context-group>
-        <target state="needs-translation">Pool server real-time log</target>
+        <target state="translated">Log em tempo real do servidor pool</target>
       </trans-unit>
       <trans-unit id="Warning" datatype="html">
         <source>Warning</source>
@@ -911,7 +911,7 @@
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
           <context context-type="linenumber">9,13</context>
         </context-group>
-        <target state="needs-translation">Warning</target>
+        <target state="translated">Aviso</target>
       </trans-unit>
       <trans-unit id="d9d317323846216a59d3d749dba0da04e1b1d8be" datatype="html">
         <source>farmer doesn&apos;t exist (404).</source>
@@ -919,7 +919,7 @@
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
           <context context-type="linenumber">4,8</context>
         </context-group>
-        <target state="needs-translation">farmer doesn't exist (404).</target>
+        <target state="translated">farmer não existe (404).</target>
       </trans-unit>
       <trans-unit id="8d6b661c3489d627ae6749ed7cb0d20d896a8e22" datatype="html">
         <source>farmer doesn&apos;t exist, has left and/or has been removed.</source>
@@ -927,7 +927,7 @@
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
           <context context-type="linenumber">9,14</context>
         </context-group>
-        <target state="needs-translation">farmer doesn't exist, has left and/or has been removed.</target>
+        <target state="translated">fazendeiro não existe, saiu e/ou foi removido.</target>
       </trans-unit>
       <trans-unit id="ad3b9059f8cabd7b6606beec6d21b33abf862f4e" datatype="html">
         <source>Farmer Details</source>
@@ -935,7 +935,7 @@
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
           <context context-type="linenumber">12,17</context>
         </context-group>
-        <target state="needs-translation">Farmer Details</target>
+        <target state="translated">Detalhes do fazendeiro</target>
       </trans-unit>
       <trans-unit id="6b56ac52e1dc20d7fabc0584df202612ee0af25a" datatype="html">
         <source>Launcher ID</source>
@@ -955,7 +955,7 @@
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
           <context context-type="linenumber">20,24</context>
         </context-group>
-        <target state="needs-translation">Friendly Name</target>
+        <target state="translated">Nome Amigável</target>
       </trans-unit>
       <trans-unit id="a186416d755b16ac4cc3c49f7fe4090aadbca239" datatype="html">
         <source>Learn how to set name here.</source>
@@ -963,7 +963,7 @@
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
           <context context-type="linenumber">24,28</context>
         </context-group>
-        <target state="needs-translation">Learn how to set name here.</target>
+        <target state="translated">Saiba como definir o nome aqui.</target>
       </trans-unit>
       <trans-unit id="FirstLastJoined" datatype="html">
         <source>First/Last Joined At</source>
@@ -983,7 +983,7 @@
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
           <context context-type="linenumber">41</context>
         </context-group>
-        <target state="needs-translation"> (unknown) <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i class=&quot;fas fa"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/></target>
+        <target state="translated">(desconhecido) <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i class=&quot;fas fa"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/></target>
       </trans-unit>
       <trans-unit id="da1bcec161d959bf88a99855ca5272e44821e9ec" datatype="html">
         <source>Estimated Size</source>
@@ -995,7 +995,7 @@
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
           <context context-type="linenumber">409,412</context>
         </context-group>
-        <target state="needs-translation">Estimated Size</target>
+        <target state="translated">Tamanho Estimado</target>
       </trans-unit>
       <trans-unit id="d06bcf60e753d935944af3f39801a43c9ee6169e" datatype="html">
         <source><x id="INTERPOLATION" equiv-text="}}&lt;/td&gt;"/>% of pool</source>
@@ -1075,7 +1075,7 @@
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
           <context context-type="linenumber">82,85</context>
         </context-group>
-        <target state="needs-translation">Estimated Reward</target>
+        <target state="translated">Remuneração Estimada</target>
       </trans-unit>
       <trans-unit id="fca305780869230f3f65ee56c7e002d6eb11be67" datatype="html">
         <source>Profitability based on blocks farmed on last 30 days, based on your farm space.</source>
@@ -1083,7 +1083,7 @@
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
           <context context-type="linenumber">84,87</context>
         </context-group>
-        <target state="needs-translation">Profitability based on blocks farmed on last 30 days, based on your farm space.</target>
+        <target state="translated">Rentabilidade baseada nos blocos ganhos nos últimos 30 dias, baseado no espaço da sua farm.</target>
       </trans-unit>
       <trans-unit id="Partials" datatype="html">
         <source>Partials</source>
@@ -1099,7 +1099,7 @@
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
           <context context-type="linenumber">165,168</context>
         </context-group>
-        <target state="needs-translation">Partials</target>
+        <target state="translated">Parciais</target>
       </trans-unit>
       <trans-unit id="Hrs24" datatype="html">
         <source>24 hours</source>
@@ -1111,7 +1111,7 @@
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
           <context context-type="linenumber">137,140</context>
         </context-group>
-        <target state="needs-translation">24 hours</target>
+        <target state="translated">24 horas</target>
       </trans-unit>
       <trans-unit id="Points" datatype="html">
         <source>Points</source>
@@ -1119,7 +1119,7 @@
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
           <context context-type="linenumber">136,139</context>
         </context-group>
-        <target state="needs-translation">Points</target>
+        <target state="translated">Pontos</target>
       </trans-unit>
       <trans-unit id="SuccessfulPartials_preline" datatype="html">
         <source>Successful Partials</source>
@@ -1143,7 +1143,7 @@
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
           <context context-type="linenumber">166,168</context>
         </context-group>
-        <target state="needs-translation">Performance</target>
+        <target state="translated">Desempenho</target>
       </trans-unit>
       <trans-unit id="HarvesterCount_preline" datatype="html">
         <source>Harvester Count</source>
@@ -1159,7 +1159,7 @@
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
           <context context-type="linenumber">189,192</context>
         </context-group>
-        <target state="needs-translation">Partials</target>
+        <target state="translated">Parciais</target>
       </trans-unit>
       <trans-unit id="99c327c9e1e22d737142df163e93f2a269847d6a" datatype="html">
         <source>Show failed partials only</source>
@@ -1167,7 +1167,7 @@
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
           <context context-type="linenumber">193,198</context>
         </context-group>
-        <target state="needs-translation">Show failed partials only</target>
+        <target state="translated">Mostrar parciais com falha</target>
       </trans-unit>
       <trans-unit id="f28fe410357b7e5eda20cbc152995a24781a591a" datatype="html">
         <source>Harvester ID</source>
@@ -1175,7 +1175,7 @@
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
           <context context-type="linenumber">203,208</context>
         </context-group>
-        <target state="needs-translation">Harvester ID</target>
+        <target state="translated">ID do Harvester</target>
       </trans-unit>
       <trans-unit id="8c79808d7b1e990cda0548f365d6bf85493197d4" datatype="html">
         <source>Plot ID</source>
@@ -1183,7 +1183,7 @@
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
           <context context-type="linenumber">204,209</context>
         </context-group>
-        <target state="needs-translation">Plot ID</target>
+        <target state="translated">ID do Plot</target>
       </trans-unit>
       <trans-unit id="873b72903b1858a9cd6c8967521030b4d7d1435b" datatype="html">
         <source>State</source>
@@ -1191,7 +1191,7 @@
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
           <context context-type="linenumber">205,210</context>
         </context-group>
-        <target state="needs-translation">State</target>
+        <target state="translated">Estado</target>
       </trans-unit>
       <trans-unit id="c135821495429ff3fd89664f549ec24da765b5d5" datatype="html">
         <source>No partials found!</source>
@@ -1199,7 +1199,7 @@
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
           <context context-type="linenumber">233,238</context>
         </context-group>
-        <target state="needs-translation">No partials found!</target>
+        <target state="translated">Não foram encontradas parciais!</target>
       </trans-unit>
       <trans-unit id="6080b77234e92ad41bb52653b239c4c4f851317d" datatype="html">
         <source>Error</source>
@@ -1207,7 +1207,7 @@
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
           <context context-type="linenumber">254,260</context>
         </context-group>
-        <target state="needs-translation">Error</target>
+        <target state="translated">Erro</target>
       </trans-unit>
       <trans-unit id="4f8b2bb476981727ab34ed40fde1218361f92c45" datatype="html">
         <source>Details</source>
@@ -1215,7 +1215,7 @@
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
           <context context-type="linenumber">255,261</context>
         </context-group>
-        <target state="needs-translation">Details</target>
+        <target state="translated">Detalhes</target>
       </trans-unit>
       <trans-unit id="fde8d089e5441f8459c6ae22c7fcff640906be0c" datatype="html">
         <source> Farmer took too long to validate the partial proof of space. Make sure your proof of space lookups are fast, and network connectivity is good. Response must happen in less than 25 seconds. Your NAS or network farming can be an issue. This happens when your disks are in use (plotting) or when waking up. </source>
@@ -1223,7 +1223,7 @@
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
           <context context-type="linenumber">262,269</context>
         </context-group>
-        <target state="needs-translation"> Farmer took too long to validate the partial proof of space. Make sure your proof of space lookups are fast, and network connectivity is good. Response must happen in less than 25 seconds. Your NAS or network farming can be an issue. This happens when your disks are in use (plotting) or when waking up. </target>
+        <target state="translated">Farmer demorou muito tempo para validar a prova parcial de espaço. Certifique-se que suas buscas por provas de espaço são rápidas e a conectividade de rede é boa. As respostas devem ocorrer em menos de 25 segundos. Seu NAS ou sua rede podem ser a origem do problema. Isso normalmente acontece quando os discos estão em uso (plotando, por exemplo) ou quando estão acordando do stand by.</target>
       </trans-unit>
       <trans-unit id="e8d16f530545d0822150d4a403a57028bf290418" datatype="html">
         <source>Same partial proof was sent more than once. Can happen if there are duplicated plots being harvested or a signage point was advertised twice in the blockchain. Resolution: Verify the same plot id is not present in different harvesters. If you see this only every once in a while you can ignore this error.</source>
@@ -1403,7 +1403,7 @@
           <context context-type="sourcefile">src/app/explorer/reward/reward.component.html</context>
           <context context-type="linenumber">19,25</context>
         </context-group>
-        <target state="needs-translation">Blocks</target>
+        <target state="translated">Blocos</target>
       </trans-unit>
       <trans-unit id="Paid" datatype="html">
         <source>Paid</source>
@@ -1459,7 +1459,7 @@
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
           <context context-type="linenumber">513,518</context>
         </context-group>
-        <target state="needs-translation">Payouts</target>
+        <target state="translated">Pagamentos</target>
       </trans-unit>
       <trans-unit id="a1f628ad227ee4387049f2a6dabaa5894eccd1c1" datatype="html">
         <source>Total transaction(s)</source>
@@ -1467,7 +1467,7 @@
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
           <context context-type="linenumber">522,526</context>
         </context-group>
-        <target state="needs-translation">Total transaction(s)</target>
+        <target state="translated">Total de transações</target>
       </trans-unit>
       <trans-unit id="TotalPaid" datatype="html">
         <source>Total paid</source>
@@ -1475,7 +1475,7 @@
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
           <context context-type="linenumber">530,533</context>
         </context-group>
-        <target state="needs-translation">Total paid</target>
+        <target state="translated">Total pago</target>
       </trans-unit>
       <trans-unit id="TotalUnpaid" datatype="html">
         <source>Total unpaid</source>
@@ -1483,7 +1483,7 @@
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
           <context context-type="linenumber">539,542</context>
         </context-group>
-        <target state="needs-translation">Total unpaid</target>
+        <target state="translated">Total à pagar</target>
       </trans-unit>
       <trans-unit id="41453c3d7e0a1ac2e5c9e73d3f8f5bf9ec23b829" datatype="html">
         <source>Export CSV</source>
@@ -1491,7 +1491,7 @@
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
           <context context-type="linenumber">548,550</context>
         </context-group>
-        <target state="needs-translation">Export CSV</target>
+        <target state="translated">Exportar para CSV</target>
       </trans-unit>
       <trans-unit id="Transaction" datatype="html">
         <source>Transaction</source>
@@ -1503,7 +1503,7 @@
           <context context-type="sourcefile">src/app/explorer/reward/reward.component.html</context>
           <context context-type="linenumber">45,49</context>
         </context-group>
-        <target state="needs-translation">Transaction</target>
+        <target state="translated">Transação</target>
       </trans-unit>
       <trans-unit id="ConfirmedBlock" datatype="html">
         <source>Confirmed Block</source>
@@ -1527,7 +1527,7 @@
           <context context-type="sourcefile">src/app/explorer/reward/reward.component.html</context>
           <context context-type="linenumber">47,52</context>
         </context-group>
-        <target state="needs-translation">Price</target>
+        <target state="translated">Preço</target>
       </trans-unit>
       <trans-unit id="NoPayouts" datatype="html">
         <source>No payouts found!</source>
@@ -1535,7 +1535,7 @@
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
           <context context-type="linenumber">585,590</context>
         </context-group>
-        <target state="needs-translation">No payouts found!</target>
+        <target state="translated">Nenhum pagamento encontrado!</target>
       </trans-unit>
       <trans-unit id="5f0da6ce66a56080556f29471c1660b3054ff693" datatype="html">
         <source>Total block(s)</source>
@@ -1543,7 +1543,7 @@
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
           <context context-type="linenumber">608,612</context>
         </context-group>
-        <target state="needs-translation">Total block(s)</target>
+        <target state="translated">Total de blocos</target>
       </trans-unit>
       <trans-unit id="84b0b07a20939d16c2253f8d5505cc4d4bc0524e" datatype="html">
         <source> The effort that was required to farm the block. 100% is the expected estimated time to win. Lower than 100% means we farmed the block before the estimation. Higher than 100% means we took longer than anticipated. </source>
@@ -1551,7 +1551,7 @@
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
           <context context-type="linenumber">627,632</context>
         </context-group>
-        <target state="needs-translation"> The effort that was required to farm the block. 100% is the expected estimated time to win. Lower than 100% means we farmed the block before the estimation. Higher than 100% means we took longer than anticipated. </target>
+        <target state="translated">O esforço que foi necessário para ganhar o bloco. 100% é igual ao tempo estimado para ganhar um bloco. Abaixo de 100% significa que ganhamos o bloco antes do tempo estimado. Acima de 100% significa que demoramos mais do que o esperado.</target>
       </trans-unit>
       <trans-unit id="a91a60516b5081738e593fb71984586e10310351" datatype="html">
         <source>No blocks found by this farmer!</source>
@@ -1559,7 +1559,7 @@
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
           <context context-type="linenumber">669,674</context>
         </context-group>
-        <target state="needs-translation">No blocks found by this farmer!</target>
+        <target state="translated">Nenhum bloco encontrado por este fazendeiro!</target>
       </trans-unit>
       <trans-unit id="160f1ffbd26df073d0fbd02cf8ce0d8cea7603b0" datatype="html">
         <source>Fee</source>
@@ -1631,7 +1631,7 @@
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.ts</context>
           <context context-type="linenumber">20,21</context>
         </context-group>
-        <target state="needs-translation">Last Partials (24 hours)</target>
+        <target state="translated">Últimos Parciais (24 horas)</target>
       </trans-unit>
       <trans-unit id="8497528947328199741" datatype="html">
         <source>Time</source>
@@ -1647,7 +1647,7 @@
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.ts</context>
           <context context-type="linenumber">42,44</context>
         </context-group>
-        <target state="needs-translation">Time</target>
+        <target state="translated">Hora</target>
       </trans-unit>
       <trans-unit id="6930616437385085682" datatype="html">
         <source>Partials</source>
@@ -1655,7 +1655,7 @@
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.ts</context>
           <context context-type="linenumber">36,37</context>
         </context-group>
-        <target state="needs-translation">Partials</target>
+        <target state="translated">Parciais</target>
       </trans-unit>
       <trans-unit id="8311659957519204575" datatype="html">
         <source>Estimated Size</source>
@@ -1663,7 +1663,7 @@
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.ts</context>
           <context context-type="linenumber">41,42</context>
         </context-group>
-        <target state="needs-translation">Estimated Size</target>
+        <target state="translated">Tamanho Estimado</target>
       </trans-unit>
       <trans-unit id="2334770517641857367" datatype="html">
         <source>Daily Amount</source>
@@ -1695,7 +1695,7 @@
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.ts</context>
           <context context-type="linenumber">314,315</context>
         </context-group>
-        <target state="needs-translation">Successful Partials</target>
+        <target state="translated">Parciais bem-sucedidos</target>
       </trans-unit>
       <trans-unit id="2756022432863940642" datatype="html">
         <source>Failed Partials</source>
@@ -1711,7 +1711,7 @@
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.ts</context>
           <context context-type="linenumber">311,312</context>
         </context-group>
-        <target state="needs-translation">Failed Partials</target>
+        <target state="translated">Parciais Falhos</target>
       </trans-unit>
       <trans-unit id="444596756007014580" datatype="html">
         <source>Size (24 hours average)</source>
@@ -1735,7 +1735,7 @@
           <context context-type="sourcefile">src/app/explorer/login/login.component.html</context>
           <context context-type="linenumber">3,8</context>
         </context-group>
-        <target state="needs-translation">Farmer</target>
+        <target state="translated">Fazendeiro</target>
       </trans-unit>
       <trans-unit id="7c5d76c74b41b4280b4870a73c6b81a51a5c1f7b" datatype="html">
         <source>Failed to authenticate! Check your URL and try again.</source>
@@ -1743,7 +1743,7 @@
           <context context-type="sourcefile">src/app/explorer/login/login.component.html</context>
           <context context-type="linenumber">8,14</context>
         </context-group>
-        <target state="needs-translation">Failed to authenticate! Check your URL and try again.</target>
+        <target state="translated">Falha ao autenticar! Verifique sua URL e tente novamente.</target>
       </trans-unit>
       <trans-unit id="121cc5391cd2a5115bc2b3160379ee5b36cd7716" datatype="html">
         <source>Settings</source>
@@ -1935,7 +1935,7 @@
           <context context-type="sourcefile">src/app/explorer/login/login.component.html</context>
           <context context-type="linenumber">201,208</context>
         </context-group>
-        <target state="needs-translation">Save</target>
+        <target state="translated">Salvar</target>
       </trans-unit>
       <trans-unit id="5b650a22aa384d42aadae1367aeca2dd7042c962" datatype="html">
         <source>Referrals</source>
@@ -1951,7 +1951,7 @@
           <context context-type="sourcefile">src/app/explorer/login/login.component.html</context>
           <context context-type="linenumber">210,211</context>
         </context-group>
-        <target state="needs-translation">Referral Link</target>
+        <target state="translated">Link de Referência</target>
       </trans-unit>
       <trans-unit id="ad8de13e783ba1108b406a629d8b7bc808408031" datatype="html">
         <source>Use above link to refer people to this pool. They will be required to join the pool and login to the website to confirm the referral.</source>
@@ -1959,7 +1959,7 @@
           <context context-type="sourcefile">src/app/explorer/login/login.component.html</context>
           <context context-type="linenumber">211,216</context>
         </context-group>
-        <target state="needs-translation">Use above link to refer people to this pool. They will be required to join the pool and login to the website to confirm the referral.</target>
+        <target state="translated">Use o link acima para referir pessoas para esse pool. Será necessário que essa pessoa faça login no website e confirme a referência.</target>
       </trans-unit>
       <trans-unit id="LauncherID" datatype="html">
         <source>Launcher ID</source>
@@ -1979,7 +1979,7 @@
           <context context-type="sourcefile">src/app/explorer/reward/reward.component.html</context>
           <context context-type="linenumber">16,20</context>
         </context-group>
-        <target state="needs-translation">Fee</target>
+        <target state="translated">Taxa</target>
       </trans-unit>
       <trans-unit id="TotalIncome" datatype="html">
         <source>Total Income</source>
@@ -1987,7 +1987,7 @@
           <context context-type="sourcefile">src/app/explorer/login/login.component.html</context>
           <context context-type="linenumber">218,222</context>
         </context-group>
-        <target state="needs-translation">Total Income</target>
+        <target state="translated">Renda Total</target>
       </trans-unit>
       <trans-unit id="ddd725139809fb0c1184132d3c0eeb16c9432302" datatype="html">
         <source>No referrals found for this farmer!</source>
@@ -1995,7 +1995,7 @@
           <context context-type="sourcefile">src/app/explorer/login/login.component.html</context>
           <context context-type="linenumber">228,233</context>
         </context-group>
-        <target state="needs-translation">No referrals found for this farmer!</target>
+        <target state="translated">Não foram encontradas referências para esse fazendeiro!</target>
       </trans-unit>
       <trans-unit id="12f86e6747a5ad39e62d3480ddc472b1aeab5b76" datatype="html">
         <source>Reward</source>
@@ -2051,7 +2051,7 @@
           <context context-type="sourcefile">src/app/faq/faq.component.html</context>
           <context context-type="linenumber">22,26</context>
         </context-group>
-        <target state="needs-translation">Frequentely Asked Questions (F.A.Q.)</target>
+        <target state="translated">Perguntas freqüentemente feitas (FAQ)</target>
       </trans-unit>
       <trans-unit id="7f0972731a8098bb14252f2ad1301bddd4f2641e" datatype="html">
         <source>What are non-portable (OG) and portable plots (NFT)?</source>
@@ -2059,7 +2059,7 @@
           <context context-type="sourcefile">src/app/faq/faq.component.html</context>
           <context context-type="linenumber">26,28</context>
         </context-group>
-        <target state="needs-translation">What are non-portable (OG) and portable plots (NFT)?</target>
+        <target state="translated">O que são plots não portáteis (OG) e portáteis (NFT)?</target>
       </trans-unit>
       <trans-unit id="ee8b26c713ceb951a1cc76d3357be0ad5e3bc11c" datatype="html">
         <source>How Chia pools work?</source>
@@ -2067,7 +2067,7 @@
           <context context-type="sourcefile">src/app/faq/faq.component.html</context>
           <context context-type="linenumber">36,38</context>
         </context-group>
-        <target state="needs-translation">How Chia pools work?</target>
+        <target state="translated">Como funcionam os pools Chia?</target>
       </trans-unit>
       <trans-unit id="113a7515da8736c12e9d40d15ebecdfced283595" datatype="html">
         <source>Can I join a pool with non-portable (OG) plots?</source>
@@ -2075,7 +2075,7 @@
           <context context-type="sourcefile">src/app/faq/faq.component.html</context>
           <context context-type="linenumber">45,47</context>
         </context-group>
-        <target state="needs-translation">Can I join a pool with non-portable (OG) plots?</target>
+        <target state="translated">Posso participar de um pool com parcelas não portáteis (OG)?</target>
       </trans-unit>
       <trans-unit id="dc4863bc73bcf8641657b1142293146791063062" datatype="html">
         <source>Can I switch from/to your pool whenever I want?</source>
@@ -2083,7 +2083,7 @@
           <context context-type="sourcefile">src/app/faq/faq.component.html</context>
           <context context-type="linenumber">53,56</context>
         </context-group>
-        <target state="needs-translation">Can I switch from/to your pool whenever I want?</target>
+        <target state="translated">Posso mudar de/para o seu pool sempre que quiser?</target>
       </trans-unit>
       <trans-unit id="7b10d2270c78655fcdb3eccc34dae791fb87db94" datatype="html">
         <source>How many portable plots do I need to join the pool?</source>
@@ -2091,7 +2091,7 @@
           <context context-type="sourcefile">src/app/faq/faq.component.html</context>
           <context context-type="linenumber">61,66</context>
         </context-group>
-        <target state="needs-translation">How many portable plots do I need to join the pool?</target>
+        <target state="translated">Quantos plots portáteis eu preciso para me juntar ao pool?</target>
       </trans-unit>
       <trans-unit id="49d01078dbfe15fed9a06dae914bfdbc405724fd" datatype="html">
         <source>How to set name in explorer? (alias)</source>
@@ -2099,7 +2099,7 @@
           <context context-type="sourcefile">src/app/faq/faq.component.html</context>
           <context context-type="linenumber">67,69</context>
         </context-group>
-        <target state="needs-translation">How to set name in explorer? (alias)</target>
+        <target state="translated">Como definir o nome no explorador? (apelido)</target>
       </trans-unit>
       <trans-unit id="875179292246e09d942eeb4e71cb1e51c94cb60e" datatype="html">
         <source>Do you have any other questions?</source>
@@ -2107,7 +2107,7 @@
           <context context-type="sourcefile">src/app/faq/faq.component.html</context>
           <context context-type="linenumber">84,86</context>
         </context-group>
-        <target state="needs-translation">Do you have any other questions?</target>
+        <target state="translated">Você tem outras perguntas?</target>
       </trans-unit>
       <trans-unit id="1ca6cb6b2581d1de7b5aaaa49d7cfe8784369373" datatype="html">
         <source>💰 Fees</source>
@@ -2115,7 +2115,7 @@
           <context context-type="sourcefile">src/app/fees/fees.component.html</context>
           <context context-type="linenumber">24,30</context>
         </context-group>
-        <target state="needs-translation">💰 Fees</target>
+        <target state="translated">💰 Taxas</target>
       </trans-unit>
       <trans-unit id="ee18fc2a4ba7341f62cdebe41cb45a6c8c1146b8" datatype="html">
         <source>Fees <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/></source>
@@ -2123,7 +2123,7 @@
           <context context-type="sourcefile">src/app/fees/fees.component.html</context>
           <context context-type="linenumber">36</context>
         </context-group>
-        <target state="needs-translation">Fees <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/></target>
+        <target state="translated">Taxas <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/></target>
       </trans-unit>
       <trans-unit id="4ca458fe3274d1c79640b052d57cf3b900b650b6" datatype="html">
         <source>Base fee</source>
@@ -2243,7 +2243,7 @@
           <context context-type="sourcefile">src/app/fees/fees.component.html</context>
           <context context-type="linenumber">82,83</context>
         </context-group>
-        <target state="needs-translation">Reward Distribution <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/></target>
+        <target state="translated">Distribuição de Recompensas <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/></target>
       </trans-unit>
       <trans-unit id="65c2add576b6cc0123921ca2c70055d914dd743f" datatype="html">
         <source> We use PPLNS (Pay Per Last N Shares) to distribute rewards.<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br /&gt;                     When a"/> When a block is won, each farmer will receive the share correspondent of the last 24 hours of partials sent to the pool. </source>
@@ -2251,7 +2251,7 @@
           <context context-type="sourcefile">src/app/fees/fees.component.html</context>
           <context context-type="linenumber">90,91</context>
         </context-group>
-        <target state="needs-translation"> We use PPLNS (Pay Per Last N Shares) to distribute rewards.<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br /&gt;                     When a"/> When a block is won, each farmer will receive the share correspondent of the last 24 hours of partials sent to the pool. </target>
+        <target state="translated">Nós usamos o sistema PPLNS (Pay Per Last N Shares) para distribuir as recompensas.<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br /&gt;                     When a"/> Quando um bloco é ganho, cada farmer irá receber a parte correspondente às últimas 24 horas de parciais enviadas para a pool. </target>
       </trans-unit>
       <trans-unit id="fe2fc19b1e0a9f190d69d6e0205603bd52302256" datatype="html">
         <source>Payouts <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/></source>
@@ -2259,7 +2259,7 @@
           <context context-type="sourcefile">src/app/fees/fees.component.html</context>
           <context context-type="linenumber">101,102</context>
         </context-group>
-        <target state="needs-translation">Payouts <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/></target>
+        <target state="translated">Pagamentos <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/></target>
       </trans-unit>
       <trans-unit id="f64f1755180867b4c7752597cca0e078b1e05745" datatype="html">
         <source> Payouts will happen within 5 minutes of the farmed block.<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br /&gt;                     These"/> These terms are subject to change. Changes will be communicated on this website and on Discord channel 1 week before taking effect. </source>
@@ -2323,7 +2323,7 @@
           <context context-type="sourcefile">src/app/giveaway/giveaway.component.html</context>
           <context context-type="linenumber">30,34</context>
         </context-group>
-        <target state="needs-translation">Previous Giveaways</target>
+        <target state="translated">Sorteios Anteriores</target>
       </trans-unit>
       <trans-unit id="DrawDate" datatype="html">
         <source>Draw Date</source>
@@ -2331,7 +2331,7 @@
           <context context-type="sourcefile">src/app/giveaway/giveaway.component.html</context>
           <context context-type="linenumber">34,39</context>
         </context-group>
-        <target state="needs-translation">Draw Date</target>
+        <target state="translated">Data do Sorteio</target>
       </trans-unit>
       <trans-unit id="Winner" datatype="html">
         <source>Winner</source>
@@ -2339,7 +2339,7 @@
           <context context-type="sourcefile">src/app/giveaway/giveaway.component.html</context>
           <context context-type="linenumber">35,40</context>
         </context-group>
-        <target state="needs-translation">Winner</target>
+        <target state="translated">Ganhador</target>
       </trans-unit>
       <trans-unit id="Giveaway" datatype="html">
         <source>Giveaway</source>
@@ -2351,7 +2351,7 @@
           <context context-type="sourcefile">src/app/shared/footer/footer.component.html</context>
           <context context-type="linenumber">45,49</context>
         </context-group>
-        <target state="needs-translation">Giveaway</target>
+        <target state="translated">Sorteio Semanal</target>
       </trans-unit>
       <trans-unit id="4a5f24b32e794cd5a3782a4c6f60bbcf4567e2ce" datatype="html">
         <source>No previous giveaways found!</source>
@@ -2359,7 +2359,7 @@
           <context context-type="sourcefile">src/app/giveaway/giveaway.component.html</context>
           <context context-type="linenumber">51,56</context>
         </context-group>
-        <target state="needs-translation">No previous giveaways found!</target>
+        <target state="translated">Nenhum sorteio anterior encontrado!</target>
       </trans-unit>
       <trans-unit id="8772e3e0fe23c783721bee21d882a580f395e756" datatype="html">
         <source>How to join OpenChia</source>
@@ -2375,7 +2375,7 @@
           <context context-type="sourcefile">src/app/join/join.component.html</context>
           <context context-type="linenumber">36,37</context>
         </context-group>
-        <target state="needs-translation">Pre-requisites <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/></target>
+        <target state="translated">Pre-requisitos <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/></target>
       </trans-unit>
       <trans-unit id="f682ea3f1fe444c98598ef7e32db558e74cc1d62" datatype="html">
         <source>Make sure you are using official Chia client supporting pool plots (1.2.0 or later).</source>
@@ -2383,7 +2383,7 @@
           <context context-type="sourcefile">src/app/join/join.component.html</context>
           <context context-type="linenumber">44,46</context>
         </context-group>
-        <target state="needs-translation">Make sure you are using official Chia client supporting pool plots (1.2.0 or later).</target>
+        <target state="translated">Certifique-se de estar usando o cliente Chia oficial com suporte a plots de pools (1.2.0 ou superior).</target>
       </trans-unit>
       <trans-unit id="91aee72c8447b6dc35b041d098c14e4289644ee0" datatype="html">
         <source> Show official Chia instructions here</source>
@@ -2391,7 +2391,7 @@
           <context context-type="sourcefile">src/app/join/join.component.html</context>
           <context context-type="linenumber">48,49</context>
         </context-group>
-        <target state="needs-translation"> Show official Chia instructions here</target>
+        <target state="translated">Exibe instruções oficiais da Chia aqui</target>
       </trans-unit>
       <trans-unit id="4c4a7db4f8a137a1a5f3e503a39b0a127976820c" datatype="html">
         <source>Before joining pool, your node and wallet must be fully synchronized with Chia blockchain.</source>
@@ -2399,7 +2399,7 @@
           <context context-type="sourcefile">src/app/join/join.component.html</context>
           <context context-type="linenumber">49,51</context>
         </context-group>
-        <target state="needs-translation">Before joining pool, your node and wallet must be fully synchronized with Chia blockchain.</target>
+        <target state="translated">Entes de juntar-se à pool, seu nó e carteira devem estar totalmente sincronizados com a blockchain da Chia.</target>
       </trans-unit>
       <trans-unit id="a3f7f5ba3f22d992f65cc57ecac0e796c2d389f7" datatype="html">
         <source>You are going to need 1 Mojo (0.000000000001 XCH) which you can get through our faucet services</source>
@@ -2407,7 +2407,7 @@
           <context context-type="sourcefile">src/app/join/join.component.html</context>
           <context context-type="linenumber">51,54</context>
         </context-group>
-        <target state="needs-translation">You are going to need 1 Mojo (0.000000000001 XCH) which you can get through our faucet services</target>
+        <target state="translated">Você vai precisar de 1 Mojo (0.000000000001 XCH) o qual você pode conseguir através dos serviços de torneiras</target>
       </trans-unit>
       <trans-unit id="b2d258cbb83a597ec15b21703e86685cc227c514" datatype="html">
         <source>Depending on your location, use one of the following connections</source>
@@ -2415,7 +2415,7 @@
           <context context-type="sourcefile">src/app/join/join.component.html</context>
           <context context-type="linenumber">57,61</context>
         </context-group>
-        <target state="needs-translation">Depending on your location, use one of the following connections</target>
+        <target state="translated">Dependendo de sua localização, use uma das seguintes conexões</target>
       </trans-unit>
       <trans-unit id="63c60af5ab55d6c06a49a800c4ed33711d49786d" datatype="html">
         <source>Global server</source>
@@ -2423,7 +2423,7 @@
           <context context-type="sourcefile">src/app/join/join.component.html</context>
           <context context-type="linenumber">60,62</context>
         </context-group>
-        <target state="needs-translation">Global server</target>
+        <target state="translated">Servidor global</target>
       </trans-unit>
       <trans-unit id="9fa3541c52680eba1974868c25d14614729859f3" datatype="html">
         <source>Europe server</source>
@@ -2439,7 +2439,7 @@
           <context context-type="sourcefile">src/app/join/join.component.html</context>
           <context context-type="linenumber">70,72</context>
         </context-group>
-        <target state="needs-translation">Asia server</target>
+        <target state="translated">Servidor da Asia</target>
       </trans-unit>
       <trans-unit id="016f90328109ecb0a5e9aabc9de8610ea082c106" datatype="html">
         <source>Join pool from CLI</source>
@@ -2447,7 +2447,7 @@
           <context context-type="sourcefile">src/app/join/join.component.html</context>
           <context context-type="linenumber">84,87</context>
         </context-group>
-        <target state="needs-translation">Join pool from CLI</target>
+        <target state="translated">Entrar na pool usando a CLI</target>
       </trans-unit>
       <trans-unit id="7bd8d87bee680e3c2864194b40b8215887743d2b" datatype="html">
         <source>Get your wallet ID</source>
@@ -2455,7 +2455,7 @@
           <context context-type="sourcefile">src/app/join/join.component.html</context>
           <context context-type="linenumber">93,96</context>
         </context-group>
-        <target state="needs-translation">Get your wallet ID</target>
+        <target state="translated">Obtenha seu wallet ID</target>
       </trans-unit>
       <trans-unit id="92b2ee409313a4fdded34d9fa4f93527a9d20e34" datatype="html">
         <source>Joining OpenChia pool with</source>
@@ -2463,7 +2463,7 @@
           <context context-type="sourcefile">src/app/join/join.component.html</context>
           <context context-type="linenumber">99,102</context>
         </context-group>
-        <target state="needs-translation">Joining OpenChia pool with</target>
+        <target state="translated">Entrando na pool OpenChia com</target>
       </trans-unit>
       <trans-unit id="2c40472450770609c852ada57a456dacb80d9436" datatype="html">
         <source>It will ask for your confirmation, check all details and confirm with Y.</source>
@@ -2471,7 +2471,7 @@
           <context context-type="sourcefile">src/app/join/join.component.html</context>
           <context context-type="linenumber">105,109</context>
         </context-group>
-        <target state="needs-translation">It will ask for your confirmation, check all details and confirm with Y.</target>
+        <target state="translated">Será solicitada sua confirmação, verifique todos os detalhes e confirme com Y.</target>
       </trans-unit>
       <trans-unit id="f00b4ad657318902da5754e02c1f4793aded16e2" datatype="html">
         <source>Wait few minutes and enjoy!</source>
@@ -2479,7 +2479,7 @@
           <context context-type="sourcefile">src/app/join/join.component.html</context>
           <context context-type="linenumber">106,112</context>
         </context-group>
-        <target state="needs-translation">Wait few minutes and enjoy!</target>
+        <target state="translated">Aguarde alguns minutos e aproveite!</target>
       </trans-unit>
       <trans-unit id="e0edf26c80aca37596e1e705133c46d418be9a7b" datatype="html">
         <source>Join pool from GUI</source>
@@ -2487,7 +2487,7 @@
           <context context-type="sourcefile">src/app/join/join.component.html</context>
           <context context-type="linenumber">117,120</context>
         </context-group>
-        <target state="needs-translation">Join pool from GUI</target>
+        <target state="translated">Entre na pool usando a GUI</target>
       </trans-unit>
       <trans-unit id="aaea572dc2fa3f8ede6fd86fbcaebbddf84c49af" datatype="html">
         <source>Open the Chia GUI and click &quot;Pool&quot; and then &quot;Join a pool&quot;</source>
@@ -2511,7 +2511,7 @@
           <context context-type="sourcefile">src/app/join/join.component.html</context>
           <context context-type="linenumber">133,136</context>
         </context-group>
-        <target state="needs-translation">Confirm pool connection and you can create Plot NFT</target>
+        <target state="translated">Confirme a conexão com a pool e você pode criar o Plot NFT</target>
       </trans-unit>
       <trans-unit id="dbcb1043ef9863a615caf8fe43167602d997a020" datatype="html">
         <source>Need help?</source>
@@ -2543,7 +2543,7 @@
           <context context-type="sourcefile">src/app/landing/landing.component.html</context>
           <context context-type="linenumber">21,25</context>
         </context-group>
-        <target state="needs-translation">Welcome to OpenChia.io</target>
+        <target state="translated">Bem-vindo ao OpenChia.io</target>
       </trans-unit>
       <trans-unit id="5b7d5e94bccf2165ab93fc0a90952a120febe0c3" datatype="html">
         <source>Official Pool Protocol</source>
@@ -2551,7 +2551,7 @@
           <context context-type="sourcefile">src/app/landing/landing.component.html</context>
           <context context-type="linenumber">22,25</context>
         </context-group>
-        <target state="needs-translation">Official Pool Protocol</target>
+        <target state="translated">Protocolo Oficial de Pool</target>
       </trans-unit>
       <trans-unit id="c27084c949cda7759a61b872848dd9381eefc8e1" datatype="html">
         <source>A pool you can trust.</source>
@@ -2559,7 +2559,7 @@
           <context context-type="sourcefile">src/app/landing/landing.component.html</context>
           <context context-type="linenumber">25,27</context>
         </context-group>
-        <target state="needs-translation">A pool you can trust.</target>
+        <target state="translated">Um pool em que você pode confiar.</target>
       </trans-unit>
       <trans-unit id="14614381245f5e12e4147e44ab09d66788169bf0" datatype="html">
         <source>All our software is open source. </source>
@@ -2567,7 +2567,7 @@
           <context context-type="sourcefile">src/app/landing/landing.component.html</context>
           <context context-type="linenumber">25,28</context>
         </context-group>
-        <target state="needs-translation">All our software is open source. </target>
+        <target state="translated">Todo nosso software é open source.</target>
       </trans-unit>
       <trans-unit id="JoinPool" datatype="html">
         <source>Join our pool</source>
@@ -2579,7 +2579,7 @@
           <context context-type="sourcefile">src/app/shared/navbar/navbar.component.html</context>
           <context context-type="linenumber">112,116</context>
         </context-group>
-        <target state="needs-translation">Join our pool</target>
+        <target state="translated">Junte-se ao pool</target>
       </trans-unit>
       <trans-unit id="e863710e7fd7485e35bf2421115e3f6efe54c155" datatype="html">
         <source>Chat with us</source>
@@ -2587,7 +2587,7 @@
           <context context-type="sourcefile">src/app/landing/landing.component.html</context>
           <context context-type="linenumber">39,44</context>
         </context-group>
-        <target state="needs-translation">Chat with us</target>
+        <target state="translated">Converse conosco</target>
       </trans-unit>
       <trans-unit id="eab22187737c7358587fb76f70037d9d534b906b" datatype="html">
         <source> 📱 Mobile app </source>
@@ -2595,7 +2595,7 @@
           <context context-type="sourcefile">src/app/landing/landing.component.html</context>
           <context context-type="linenumber">86,89</context>
         </context-group>
-        <target state="needs-translation"> 📱 Mobile app </target>
+        <target state="translated">📱 Aplicativo móvel</target>
       </trans-unit>
       <trans-unit id="35e0f2081e97e22ed1a33dd3b39f15f1dbf080a7" datatype="html">
         <source> Native mobile app on both Android and iOS for your travels. Be alerted when blocks are found. </source>
@@ -2603,7 +2603,7 @@
           <context context-type="sourcefile">src/app/landing/landing.component.html</context>
           <context context-type="linenumber">89,95</context>
         </context-group>
-        <target state="needs-translation"> Native mobile app on both Android and iOS for your travels. Be alerted when blocks are found. </target>
+        <target state="translated">Aplicativo móvel nativo para Android e iOS. Seja alertado quando blocos forem encontrados.</target>
       </trans-unit>
       <trans-unit id="daeef598c7156cae99eb66dce31eda83e364dfba" datatype="html">
         <source> 💰 Instant payout </source>
@@ -2611,7 +2611,7 @@
           <context context-type="sourcefile">src/app/landing/landing.component.html</context>
           <context context-type="linenumber">99,102</context>
         </context-group>
-        <target state="needs-translation"> 💰 Instant payout </target>
+        <target state="translated">💰 Pagamento imediato</target>
       </trans-unit>
       <trans-unit id="c772e70c6abd70a4eeeabb68cb86749665ff063f" datatype="html">
         <source> Get your reward as soon as possible with PPLNS distribution system. Only 1% fee, <x id="START_LINK" ctype="x-a" equiv-text="&lt;a [routerLink]=&quot;"/>read more<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;."/>. </source>
@@ -2619,7 +2619,7 @@
           <context context-type="sourcefile">src/app/landing/landing.component.html</context>
           <context context-type="linenumber">102,104</context>
         </context-group>
-        <target state="needs-translation"> Get your reward as soon as possible with PPLNS distribution system. Only 1% fee, <x id="START_LINK" ctype="x-a" equiv-text="&lt;a [routerLink]=&quot;"/>read more<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;."/>. </target>
+        <target state="translated">Receba sua remuneração o mais rápido possível com o sistema de distribuição PPLNS. Apenas 1% de taxa, <x id="START_LINK" ctype="x-a" equiv-text="&lt;a [routerLink]=&quot;"/>saiba mais<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;."/>. </target>
       </trans-unit>
       <trans-unit id="abf76e1915c81c2ee08d800130db163f4ce48007" datatype="html">
         <source> 💻 Open Source </source>
@@ -2627,7 +2627,7 @@
           <context context-type="sourcefile">src/app/landing/landing.component.html</context>
           <context context-type="linenumber">113,116</context>
         </context-group>
-        <target state="needs-translation"> 💻 Open Source </target>
+        <target state="translated">💻 Código Aberto</target>
       </trans-unit>
       <trans-unit id="6d45cf7845bd83a0d51e6b3b850461cd4b7a70f9" datatype="html">
         <source> All our software (api, pool, bot, web, mobile) are open source and available on <x id="START_LINK" ctype="x-a" equiv-text="&lt;a href=&quot;https://"/>Github repositories<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;."/>. </source>
@@ -2635,7 +2635,7 @@
           <context context-type="sourcefile">src/app/landing/landing.component.html</context>
           <context context-type="linenumber">116,118</context>
         </context-group>
-        <target state="needs-translation"> All our software (api, pool, bot, web, mobile) are open source and available on <x id="START_LINK" ctype="x-a" equiv-text="&lt;a href=&quot;https://"/>Github repositories<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;."/>. </target>
+        <target state="translated">Todo nosso software (api, pool, bot, web, mobile) são de código aberto e disponível em <x id="START_LINK" ctype="x-a" equiv-text="&lt;a href=&quot;https://"/>repositórios Github<x id="CLOSE_LINK" ctype="x-a" equiv-text="&lt;/a&gt;."/>. </target>
       </trans-unit>
       <trans-unit id="2dae9bfa738bc88a06bfdcaae97ef1b54916dd6f" datatype="html">
         <source> ➗ Fee Discount </source>
@@ -2659,7 +2659,7 @@
           <context context-type="sourcefile">src/app/landing/landing.component.html</context>
           <context context-type="linenumber">148,151</context>
         </context-group>
-        <target state="needs-translation">Join OpenChia pool 🎉</target>
+        <target state="translated">Participe da pool OpenChia 🎉</target>
       </trans-unit>
       <trans-unit id="61ce49f38dc9fbff16b2d281d56afca746636bbf" datatype="html">
         <source> Set <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;text-"/>https://pool.openchia.io<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt; as the pool"/> as the pool URL for your PlotNFT using either the Chia GUI/CLI. Our OpenChia community can help you on the Discord server. Ready? Let&apos;s go! </source>
@@ -2667,7 +2667,7 @@
           <context context-type="sourcefile">src/app/landing/landing.component.html</context>
           <context context-type="linenumber">150</context>
         </context-group>
-        <target state="needs-translation"> Set <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;text-"/>https://pool.openchia.io<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt; as the pool"/> as the pool URL for your PlotNFT using either the Chia GUI/CLI. Our OpenChia community can help you on the Discord server. Ready? Let's go! </target>
+        <target state="translated">Defina <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;text"/>https://pool.openchia.io<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt; as the poo"/> como o pool URL para seu PlotNFT usando Chia GUI/CLI. Nossa comunidade OpenChia pode te ajudar em nosso servidor Discord. Pronto? Vamos lá! </target>
       </trans-unit>
       <trans-unit id="e552bcb75fac4281c7297232867f4855d8d5fb0d" datatype="html">
         <source>Join community on Discord</source>
@@ -2675,7 +2675,7 @@
           <context context-type="sourcefile">src/app/landing/landing.component.html</context>
           <context context-type="linenumber">156,161</context>
         </context-group>
-        <target state="needs-translation">Join community on Discord</target>
+        <target state="translated">Junte-se à comunidade no Discord</target>
       </trans-unit>
       <trans-unit id="4323bacd5bc1904cf3952c3f8105baa79fd8ce6a" datatype="html">
         <source> Tweets by OpenChia </source>
@@ -2687,7 +2687,7 @@
           <context context-type="sourcefile">src/app/landing/landing.component.html</context>
           <context context-type="linenumber">175,182</context>
         </context-group>
-        <target state="needs-translation"> Tweets by OpenChia </target>
+        <target state="translated">Tweets de OpenChia</target>
       </trans-unit>
       <trans-unit id="d458b860866af8d3566f98656c811dad45be8fcd" datatype="html">
         <source> Fee Discount! </source>
@@ -2727,7 +2727,7 @@
           <context context-type="sourcefile">src/app/landing/landing.component.html</context>
           <context context-type="linenumber">207,216</context>
         </context-group>
-        <target state="needs-translation">Read more</target>
+        <target state="translated">Saiba mais</target>
       </trans-unit>
       <trans-unit id="b084046edbd41cc2cb61cd6393c1bb9f596e90aa" datatype="html">
         <source>Mobile Application</source>
@@ -2735,7 +2735,7 @@
           <context context-type="sourcefile">src/app/landing/landing.component.html</context>
           <context context-type="linenumber">231,234</context>
         </context-group>
-        <target state="needs-translation">Mobile Application</target>
+        <target state="translated">Aplicativo Móvel</target>
       </trans-unit>
       <trans-unit id="98435160ca361f7566f4cf3152bc697581a8c037" datatype="html">
         <source> Monitor pool, farm stats, payouts and more anywhere with our mobile app. Available for both Android and iOS. </source>
@@ -2743,7 +2743,7 @@
           <context context-type="sourcefile">src/app/landing/landing.component.html</context>
           <context context-type="linenumber">233,237</context>
         </context-group>
-        <target state="needs-translation"> Monitor pool, farm stats, payouts and more anywhere with our mobile app. Available for both Android and iOS. </target>
+        <target state="translated">Monitora pool, estatísticas, pagamentos e mais em qualquer lugar com seu aplicativo. Disponível para Android e iOS.</target>
       </trans-unit>
       <trans-unit id="60b9c935e13f4f2eb5c501147e7821a43659859b" datatype="html">
         <source> OpenChia is open source! </source>
@@ -2751,7 +2751,7 @@
           <context context-type="sourcefile">src/app/landing/landing.component.html</context>
           <context context-type="linenumber">256,260</context>
         </context-group>
-        <target state="needs-translation"> OpenChia is open source! </target>
+        <target state="translated">OpenChia é open source!</target>
       </trans-unit>
       <trans-unit id="35c57566f9ec43d45adc6c1e4b9d69f8a65f3294" datatype="html">
         <source> All our software (pool, api, website, discord bot, mobile application) are open source and it&apos;s very important for the community. <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br /&gt;             You have an idea? Submit your improvement code or cr"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br /&gt;             You have an idea? Submit your improvement code or cr"/> You have an idea? Submit your improvement code or create an issue. It&apos;s easy and anyone can participate! </source>
@@ -2759,7 +2759,7 @@
           <context context-type="sourcefile">src/app/landing/landing.component.html</context>
           <context context-type="linenumber">259,263</context>
         </context-group>
-        <target state="needs-translation"> All our software (pool, api, website, discord bot, mobile application) are open source and it's very important for the community. <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br /&gt;             You have an idea? Submit your improvement code or cr"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br /&gt;             You have an idea? Submit your improvement code or cr"/> You have an idea? Submit your improvement code or create an issue. It's easy and anyone can participate! </target>
+        <target state="translated">Todo nosso software (pool, api, website, bot do discord, aplicativo móvel) é open source e isso é muito importante para a comunidade.<x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br /&gt;             Tem alguma ideia? Envie seu código ou cr"/><x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br /&gt;            Tem alguma ideia? Envie seu código ou cr"/> Tem alguma ideia? Envie seu código ou crie um incidente. É fácil e todos podem participar! </target>
       </trans-unit>
       <trans-unit id="105e97dbc94eec7cde7b7faa49bae8a0991eb3d1" datatype="html">
         <source><x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="d-landing-center&quot;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt; Open GitHub"/> Open GitHub </source>
@@ -2767,7 +2767,7 @@
           <context context-type="sourcefile">src/app/landing/landing.component.html</context>
           <context context-type="linenumber">269,275</context>
         </context-group>
-        <target state="needs-translation"><x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="d-landing-center&quot;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt; Open GitHub"/> Open GitHub </target>
+        <target state="translated"><x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="d-landing-center&quot;"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt; Open GitHub"/> Abrir Github </target>
       </trans-unit>
       <trans-unit id="09585f6ba80a69acf080ddc13de32072be1f2069" datatype="html">
         <source>🌱 OpenChia Team</source>
@@ -2775,7 +2775,7 @@
           <context context-type="sourcefile">src/app/landing/landing.component.html</context>
           <context context-type="linenumber">287,291</context>
         </context-group>
-        <target state="needs-translation">🌱 OpenChia Team</target>
+        <target state="translated">🌱 Time OpenChia</target>
       </trans-unit>
       <trans-unit id="6803242eae1ae02e4cef79e7faebe2ab93b2993f" datatype="html">
         <source> Have you asked yourself who are the people running Chia pools? Do you trust them? <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br /&gt;             We have more tha"/> We have more than 20 years of combined experience in the software development industry. </source>
@@ -2783,7 +2783,7 @@
           <context context-type="sourcefile">src/app/landing/landing.component.html</context>
           <context context-type="linenumber">289,292</context>
         </context-group>
-        <target state="needs-translation"> Have you asked yourself who are the people running Chia pools? Do you trust them? <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br /&gt;             We have more tha"/> We have more than 20 years of combined experience in the software development industry. </target>
+        <target state="translated">Você já se perguntou quem são as pessoas administrando pools de Chia? Você confia neles? <x id="LINE_BREAK" ctype="lb" equiv-text="&lt;br /&gt;             We have more tha"/> Nós temos mais de 20 anos de experiência combinada na indústria de desenvolvimento de software. </target>
       </trans-unit>
       <trans-unit id="078d78687f7026b46e627ee6fb92d426d74a97ca" datatype="html">
         <source>Business and Marketing</source>
@@ -2791,7 +2791,7 @@
           <context context-type="sourcefile">src/app/landing/landing.component.html</context>
           <context context-type="linenumber">305,309</context>
         </context-group>
-        <target state="needs-translation">Business and Marketing</target>
+        <target state="translated">Negócios e Marketing</target>
       </trans-unit>
       <trans-unit id="1108c6553f5774688bcec361e0d25067164817ae" datatype="html">
         <source>Software Engineer</source>
@@ -2799,7 +2799,7 @@
           <context context-type="sourcefile">src/app/landing/landing.component.html</context>
           <context context-type="linenumber">323,326</context>
         </context-group>
-        <target state="needs-translation">Software Engineer</target>
+        <target state="translated">Engenheiro de software</target>
       </trans-unit>
       <trans-unit id="f330889a7289c122f863ba92a9daf83256eb5e63" datatype="html">
         <source>Web Developer</source>
@@ -2807,7 +2807,7 @@
           <context context-type="sourcefile">src/app/landing/landing.component.html</context>
           <context context-type="linenumber">345,348</context>
         </context-group>
-        <target state="needs-translation">Web Developer</target>
+        <target state="translated">Desenvolvedor Web</target>
       </trans-unit>
       <trans-unit id="aaef7f3878111be1c1b4c8d2dd18ad0212611d2e" datatype="html">
         <source>Mobile Developer</source>
@@ -2815,7 +2815,7 @@
           <context context-type="sourcefile">src/app/landing/landing.component.html</context>
           <context context-type="linenumber">374,378</context>
         </context-group>
-        <target state="needs-translation">Mobile Developer</target>
+        <target state="translated">Desenvolvedor Mobile</target>
       </trans-unit>
       <trans-unit id="917a8bd7db233002ab2bf2949f191d3dccbd9da9" datatype="html">
         <source>Chinese Community Ambassador</source>
@@ -2823,7 +2823,7 @@
           <context context-type="sourcefile">src/app/landing/landing.component.html</context>
           <context context-type="linenumber">392,396</context>
         </context-group>
-        <target state="needs-translation">Chinese Community Ambassador</target>
+        <target state="translated">Embaixador da Comunidade Chinesa</target>
       </trans-unit>
       <trans-unit id="e85a30628b502c939d1ad9f651309a0356f40af8" datatype="html">
         <source>Partners</source>
@@ -2883,7 +2883,7 @@
           <context context-type="sourcefile">src/app/shared/navbar/navbar.component.html</context>
           <context context-type="linenumber">54,57</context>
         </context-group>
-        <target state="needs-translation">Referral</target>
+        <target state="translated">Referência</target>
       </trans-unit>
       <trans-unit id="Beta" datatype="html">
         <source>BETA</source>
@@ -2899,7 +2899,7 @@
           <context context-type="sourcefile">src/app/referral/referral.component.html</context>
           <context context-type="linenumber">21,25</context>
         </context-group>
-        <target state="needs-translation">Earn XCH by referring your friends to this pool!</target>
+        <target state="translated">Ganhe XCH indicando amigos para este pool!</target>
       </trans-unit>
       <trans-unit id="bdc5cd8ee8da3b2611447a34f2fa23b8382d2293" datatype="html">
         <source>How does it work?</source>
@@ -2907,7 +2907,7 @@
           <context context-type="sourcefile">src/app/referral/referral.component.html</context>
           <context context-type="linenumber">23,26</context>
         </context-group>
-        <target state="needs-translation">How does it work?</target>
+        <target state="translated">Como funciona?</target>
       </trans-unit>
       <trans-unit id="e4e4bee53c0a5bf3cbeea905c09e4c8a64d66972" datatype="html">
         <source>Refer your friends to this pool using the URL https://openchia.io?referrer=YOUR_LAUNCHER_ID. Replace YOUR_LAUNCHER_ID with the Launcher ID from your Plot NFT. </source>
@@ -2915,7 +2915,7 @@
           <context context-type="sourcefile">src/app/referral/referral.component.html</context>
           <context context-type="linenumber">25,29</context>
         </context-group>
-        <target state="needs-translation">Refer your friends to this pool using the URL https://openchia.io?referrer=YOUR_LAUNCHER_ID. Replace YOUR_LAUNCHER_ID with the Launcher ID from your Plot NFT. </target>
+        <target state="translated">Indique seus amigos para nossa pool usando a URL https://openchia.io?referrer=SEU_LAUNCHER_ID. Substitua SEU_LAUNCHER_ID com o Launcher ID de seu Plot NFT.</target>
       </trans-unit>
       <trans-unit id="02415ae7ba540f633aec0953e5e46244f89c4ce8" datatype="html">
         <source>Have your friend join the pool and login to the pool website using the Plot NFT login link. He will confirm you are his referrer. (Referrer is filled automatically if he visited the website with your referral URL)</source>
@@ -2931,7 +2931,7 @@
           <context context-type="sourcefile">src/app/referral/referral.component.html</context>
           <context context-type="linenumber">31,36</context>
         </context-group>
-        <target state="needs-translation">You will receive 20% of the pool fee for every payment made to your friend. That value comes out of the pool and not from your friend reward!</target>
+        <target state="translated">Você receberá 20% da taxa da pool para cada pagamento feito ao seu amigo. Este valor sai da pool e não da remuneração de seu amigo!</target>
       </trans-unit>
       <trans-unit id="c6f82691bd3cdd76945682a38bb82fe68caa1fd4" datatype="html">
         <source>How do I check my referrals?</source>
@@ -2939,7 +2939,7 @@
           <context context-type="sourcefile">src/app/referral/referral.component.html</context>
           <context context-type="linenumber">35,37</context>
         </context-group>
-        <target state="needs-translation">How do I check my referrals?</target>
+        <target state="translated">Como eu verifico minhas indicações?</target>
       </trans-unit>
       <trans-unit id="9fcae10115b2fe4f2fc9ae62ddf1a92c51140269" datatype="html">
         <source>Login to the pool website using your Plot NFT login link and go to the &quot;Referrals&quot; tab.</source>
@@ -2947,7 +2947,7 @@
           <context context-type="sourcefile">src/app/referral/referral.component.html</context>
           <context context-type="linenumber">36,40</context>
         </context-group>
-        <target state="needs-translation">Login to the pool website using your Plot NFT login link and go to the "Referrals" tab.</target>
+        <target state="translated">Faça login no website usando o link de login do seu Plot NFT e vá na aba "Indicações".</target>
       </trans-unit>
       <trans-unit id="2489eefea00931942b91f4a1ae109514b591e2e1" datatype="html">
         <source>Rules</source>
@@ -2955,7 +2955,7 @@
           <context context-type="sourcefile">src/app/referral/referral.component.html</context>
           <context context-type="linenumber">38,41</context>
         </context-group>
-        <target state="needs-translation">Rules</target>
+        <target state="translated">Regras</target>
       </trans-unit>
       <trans-unit id="46d4279366821378a367994d734e080cf4b96148" datatype="html">
         <source>Use of good faith and don&apos;t refer yourself in any shape or form.</source>
@@ -2963,7 +2963,7 @@
           <context context-type="sourcefile">src/app/referral/referral.component.html</context>
           <context context-type="linenumber">40,42</context>
         </context-group>
-        <target state="needs-translation">Use of good faith and don't refer yourself in any shape or form.</target>
+        <target state="translated">Use a boa fé e não indique a si mesmo de forma alguma.</target>
       </trans-unit>
       <trans-unit id="619930ccda5d73c24ec795e54ba2ed4dcbd22703" datatype="html">
         <source>Do not attempt close loop of referral. e.g. A -&gt; B -&gt; C -&gt; A.</source>
@@ -2971,7 +2971,7 @@
           <context context-type="sourcefile">src/app/referral/referral.component.html</context>
           <context context-type="linenumber">41,45</context>
         </context-group>
-        <target state="needs-translation">Do not attempt close loop of referral. e.g. A -&gt; B -&gt; C -&gt; A.</target>
+        <target state="translated">Não tente fazer um loop fechado de indicações. Ex: A -&gt; B -&gt; C -&gt; A.</target>
       </trans-unit>
       <trans-unit id="c1270c1bdd9912511f8cbe5152d9d938401a5be5" datatype="html">
         <source>We reserve the right to change fees for new referrals at any time.</source>
@@ -2979,7 +2979,7 @@
           <context context-type="sourcefile">src/app/referral/referral.component.html</context>
           <context context-type="linenumber">42,45</context>
         </context-group>
-        <target state="needs-translation">We reserve the right to change fees for new referrals at any time.</target>
+        <target state="translated">Nos reservamos o direito de alterar as taxas para novas indicações a qualquer momento.</target>
       </trans-unit>
       <trans-unit id="0e42c9f0d6b8f118f1b117c47c8e6253fd1a4d46" datatype="html">
         <source>Thank you for trusting us!</source>
@@ -2987,7 +2987,7 @@
           <context context-type="sourcefile">src/app/shared/footer/footer.component.html</context>
           <context context-type="linenumber">5,8</context>
         </context-group>
-        <target state="needs-translation">Thank you for trusting us!</target>
+        <target state="translated">Obrigado pela sua confiança!</target>
       </trans-unit>
       <trans-unit id="c468ee01ae8a3118c520ded045df2cc3ed16f928" datatype="html">
         <source>Let&apos;s get in touch on any of these platforms.</source>
@@ -2995,7 +2995,7 @@
           <context context-type="sourcefile">src/app/shared/footer/footer.component.html</context>
           <context context-type="linenumber">6,9</context>
         </context-group>
-        <target state="needs-translation">Let's get in touch on any of these platforms.</target>
+        <target state="translated">Vamos conversar em uma destas plataformas.</target>
       </trans-unit>
       <trans-unit id="Translation" datatype="html">
         <source>Translation</source>
@@ -3003,7 +3003,7 @@
           <context context-type="sourcefile">src/app/shared/footer/footer.component.html</context>
           <context context-type="linenumber">39,43</context>
         </context-group>
-        <target state="needs-translation">Translation</target>
+        <target state="translated">Tradução</target>
       </trans-unit>
       <trans-unit id="FAQ" datatype="html">
         <source>FAQ</source>
@@ -3019,7 +3019,7 @@
           <context context-type="sourcefile">src/app/shared/footer/footer.component.html</context>
           <context context-type="linenumber">48,51</context>
         </context-group>
-        <target state="needs-translation">Terms</target>
+        <target state="translated">Termos</target>
       </trans-unit>
       <trans-unit id="Partners" datatype="html">
         <source>Partners</source>
@@ -3027,7 +3027,7 @@
           <context context-type="sourcefile">src/app/shared/footer/footer.component.html</context>
           <context context-type="linenumber">51,55</context>
         </context-group>
-        <target state="needs-translation">Partners</target>
+        <target state="translated">Parceiros</target>
       </trans-unit>
       <trans-unit id="Uptime" datatype="html">
         <source>Uptime</source>
@@ -3051,7 +3051,7 @@
           <context context-type="sourcefile">src/app/shared/navbar/navbar.component.html</context>
           <context context-type="linenumber">27,32</context>
         </context-group>
-        <target state="needs-translation">Explorer</target>
+        <target state="translated">Explorador</target>
       </trans-unit>
       <trans-unit id="Fees" datatype="html">
         <source>Fees</source>
@@ -3059,7 +3059,7 @@
           <context context-type="sourcefile">src/app/shared/navbar/navbar.component.html</context>
           <context context-type="linenumber">32,37</context>
         </context-group>
-        <target state="needs-translation">Fees</target>
+        <target state="translated">Taxas</target>
       </trans-unit>
       <trans-unit id="Stats" datatype="html">
         <source>Stats</source>
@@ -3067,7 +3067,7 @@
           <context context-type="sourcefile">src/app/shared/navbar/navbar.component.html</context>
           <context context-type="linenumber">38,42</context>
         </context-group>
-        <target state="needs-translation">Stats</target>
+        <target state="translated">Estatísticas</target>
       </trans-unit>
       <trans-unit id="More" datatype="html">
         <source>More</source>
@@ -3075,7 +3075,7 @@
           <context context-type="sourcefile">src/app/shared/navbar/navbar.component.html</context>
           <context context-type="linenumber">45,48</context>
         </context-group>
-        <target state="needs-translation">More</target>
+        <target state="translated">Mais</target>
       </trans-unit>
       <trans-unit id="Calculator" datatype="html">
         <source>Calculator</source>
@@ -3083,7 +3083,7 @@
           <context context-type="sourcefile">src/app/shared/navbar/navbar.component.html</context>
           <context context-type="linenumber">50,53</context>
         </context-group>
-        <target state="needs-translation">Calculator</target>
+        <target state="translated">Calculadora de Rentabilidade</target>
       </trans-unit>
       <trans-unit id="API" datatype="html">
         <source>API</source>
@@ -3123,7 +3123,7 @@
           <context context-type="sourcefile">src/app/stats/stats.component.html</context>
           <context context-type="linenumber">25,31</context>
         </context-group>
-        <target state="needs-translation">🚀 Stats</target>
+        <target state="translated">🚀 Estatísticas</target>
       </trans-unit>
       <trans-unit id="02cf8bcf0ca96708b4e474bc5341b2d11b0541d0" datatype="html">
         <source>Pool Space (After 18th February) <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i class=&quot;ni ni-b"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/></source>
@@ -3131,7 +3131,7 @@
           <context context-type="sourcefile">src/app/stats/stats.component.html</context>
           <context context-type="linenumber">36,38</context>
         </context-group>
-        <target state="needs-translation">Pool Space (After 18th February) <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i class=&quot;ni ni-b"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/></target>
+        <target state="translated">Espaço da Pool (Após 18 de Fevereiro) <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i class=&quot;ni ni-b"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/></target>
       </trans-unit>
       <trans-unit id="27eb10916f82b03a3f792459155086ff17c11976" datatype="html">
         <source>1 Day</source>
@@ -3155,7 +3155,7 @@
           <context context-type="sourcefile">src/app/stats/stats.component.html</context>
           <context context-type="linenumber">297,299</context>
         </context-group>
-        <target state="needs-translation">1 Day</target>
+        <target state="translated">1 Dia</target>
       </trans-unit>
       <trans-unit id="b7e16af662bc4ecccd2ec389a29a4e34d48a607c" datatype="html">
         <source>7 Days</source>
@@ -3179,7 +3179,7 @@
           <context context-type="sourcefile">src/app/stats/stats.component.html</context>
           <context context-type="linenumber">299,301</context>
         </context-group>
-        <target state="needs-translation">7 Days</target>
+        <target state="translated">7 Dias</target>
       </trans-unit>
       <trans-unit id="6149963f7b6e8339a7db40be653830239841e51b" datatype="html">
         <source>1 Month</source>
@@ -3203,7 +3203,7 @@
           <context context-type="sourcefile">src/app/stats/stats.component.html</context>
           <context context-type="linenumber">301,303</context>
         </context-group>
-        <target state="needs-translation">1 Month</target>
+        <target state="translated">1 Mês</target>
       </trans-unit>
       <trans-unit id="d2936a0d7a7cd1014fdb81195a40a38fd3d70bc7" datatype="html">
         <source>3 Months</source>
@@ -3227,7 +3227,7 @@
           <context context-type="sourcefile">src/app/stats/stats.component.html</context>
           <context context-type="linenumber">303,305</context>
         </context-group>
-        <target state="needs-translation">3 Months</target>
+        <target state="translated">3 Meses</target>
       </trans-unit>
       <trans-unit id="ab102e798754de9510d2434b0a2cf2e55cadfa86" datatype="html">
         <source>1 Year</source>
@@ -3251,7 +3251,7 @@
           <context context-type="sourcefile">src/app/stats/stats.component.html</context>
           <context context-type="linenumber">305,311</context>
         </context-group>
-        <target state="needs-translation">1 Year</target>
+        <target state="translated">1 Ano</target>
       </trans-unit>
       <trans-unit id="881c1f8f173d0e8c6012f72d1687d61b70c10cfa" datatype="html">
         <source>Pool Blocks <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i class=&quot;ni ni-b"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/></source>
@@ -3259,7 +3259,7 @@
           <context context-type="sourcefile">src/app/stats/stats.component.html</context>
           <context context-type="linenumber">89,90</context>
         </context-group>
-        <target state="needs-translation">Pool Blocks <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i class=&quot;ni ni-b"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/></target>
+        <target state="translated">Blocos da Pool <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i class=&quot;ni ni-b"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/></target>
       </trans-unit>
       <trans-unit id="d11711d2d1f92e7a7a720214a60ada2398b75c37" datatype="html">
         <source>Netspace <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i class=&quot;ni ni-b"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/></source>
@@ -3275,7 +3275,7 @@
           <context context-type="sourcefile">src/app/stats/stats.component.html</context>
           <context context-type="linenumber">168,171</context>
         </context-group>
-        <target state="needs-translation">XCH Price </target>
+        <target state="translated">Preço da XCH</target>
       </trans-unit>
       <trans-unit id="42ab40e1b3b054df561416189620d1f3bd9e3e30" datatype="html">
         <source>Chia Mempool Occupied (After 23rd March) <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i class=&quot;ni ni-bo"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/></source>
@@ -3291,7 +3291,7 @@
           <context context-type="sourcefile">src/app/stats/stats.component.html</context>
           <context context-type="linenumber">271,272</context>
         </context-group>
-        <target state="needs-translation">Pool Space <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/></target>
+        <target state="translated">Espaço Space <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/></target>
       </trans-unit>
     </body>
   </file>
