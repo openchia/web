@@ -8,7 +8,7 @@
           <context context-type="sourcefile">node_modules/src/alert/alert.ts</context>
           <context context-type="linenumber">76,80</context>
         </context-group>
-        <target state="needs-translation">Close</target>
+        <target state="translated">Fermer</target>
       </trans-unit>
       <trans-unit id="ngb.carousel.slide-number" datatype="html">
         <source> Slide <x id="INTERPOLATION" equiv-text="to interact wit"/> of <x id="INTERPOLATION_1" equiv-text="carousel using"/> </source>
@@ -25,7 +25,7 @@
           <context context-type="sourcefile">node_modules/src/carousel/carousel.ts</context>
           <context context-type="linenumber">174,179</context>
         </context-group>
-        <target state="needs-translation">Previous</target>
+        <target state="translated">Précédent</target>
       </trans-unit>
       <trans-unit id="ngb.carousel.next" datatype="html">
         <source>Next</source>
@@ -33,7 +33,7 @@
           <context context-type="sourcefile">node_modules/src/carousel/carousel.ts</context>
           <context context-type="linenumber">198,200</context>
         </context-group>
-        <target state="needs-translation">Next</target>
+        <target state="translated">Suivant</target>
       </trans-unit>
       <trans-unit id="ngb.datepicker.select-month" datatype="html">
         <source>Select month</source>
@@ -45,7 +45,7 @@
           <context context-type="sourcefile">node_modules/src/datepicker/datepicker-navigation-select.ts</context>
           <context context-type="linenumber">74</context>
         </context-group>
-        <target state="needs-translation">Select month</target>
+        <target state="translated">Sélectionnez un mois</target>
       </trans-unit>
       <trans-unit id="ngb.datepicker.select-year" datatype="html">
         <source>Select year</source>
@@ -57,7 +57,7 @@
           <context context-type="sourcefile">node_modules/src/datepicker/datepicker-navigation-select.ts</context>
           <context context-type="linenumber">74</context>
         </context-group>
-        <target state="needs-translation">Select year</target>
+        <target state="translated">Sélectionnez une année</target>
       </trans-unit>
       <trans-unit id="ngb.datepicker.previous-month" datatype="html">
         <source>Previous month</source>
@@ -69,7 +69,7 @@
           <context context-type="sourcefile">node_modules/src/datepicker/datepicker-navigation.ts</context>
           <context context-type="linenumber">69</context>
         </context-group>
-        <target state="needs-translation">Previous month</target>
+        <target state="translated">Mois précédent</target>
       </trans-unit>
       <trans-unit id="ngb.datepicker.next-month" datatype="html">
         <source>Next month</source>
@@ -81,7 +81,7 @@
           <context context-type="sourcefile">node_modules/src/datepicker/datepicker-navigation.ts</context>
           <context context-type="linenumber">69</context>
         </context-group>
-        <target state="needs-translation">Next month</target>
+        <target state="translated">Mois suivant</target>
       </trans-unit>
       <trans-unit id="ngb.pagination.first" datatype="html">
         <source>««</source>
@@ -121,7 +121,7 @@
           <context context-type="sourcefile">node_modules/src/pagination/pagination.ts</context>
           <context context-type="linenumber">322,326</context>
         </context-group>
-        <target state="needs-translation">First</target>
+        <target state="translated">Premier</target>
       </trans-unit>
       <trans-unit id="ngb.pagination.previous-aria" datatype="html">
         <source>Previous</source>
@@ -129,7 +129,7 @@
           <context context-type="sourcefile">node_modules/src/pagination/pagination.ts</context>
           <context context-type="linenumber">337,339</context>
         </context-group>
-        <target state="needs-translation">Previous</target>
+        <target state="translated">Précédent</target>
       </trans-unit>
       <trans-unit id="ngb.pagination.next-aria" datatype="html">
         <source>Next</source>
@@ -137,7 +137,7 @@
           <context context-type="sourcefile">node_modules/src/pagination/pagination.ts</context>
           <context context-type="linenumber">350,351</context>
         </context-group>
-        <target state="needs-translation">Next</target>
+        <target state="translated">Suivant</target>
       </trans-unit>
       <trans-unit id="ngb.pagination.last-aria" datatype="html">
         <source>Last</source>
@@ -145,7 +145,7 @@
           <context context-type="sourcefile">node_modules/src/pagination/pagination.ts</context>
           <context context-type="linenumber">367,370</context>
         </context-group>
-        <target state="needs-translation">Last</target>
+        <target state="translated">Dernier</target>
       </trans-unit>
       <trans-unit id="ngb.progressbar.value" datatype="html">
         <source>
@@ -155,7 +155,9 @@
           <context context-type="sourcefile">node_modules/src/progressbar/progressbar.ts</context>
           <context context-type="linenumber">58,67</context>
         </context-group>
-        <target state="needs-translation"><x id="INTERPOLATION" equiv-text="ar.    *    *"/></target>
+        <target state="translated">
+          <ph disp="ber { return th" equiv="INTERPOLATION" id="0"/>
+        </target>
       </trans-unit>
       <trans-unit id="ngb.timepicker.HH" datatype="html">
         <source>HH</source>
@@ -171,7 +173,7 @@
           <context context-type="sourcefile">node_modules/src/timepicker/timepicker.ts</context>
           <context context-type="linenumber">155,158</context>
         </context-group>
-        <target state="needs-translation">Hours</target>
+        <target state="translated">heures</target>
       </trans-unit>
       <trans-unit id="ngb.timepicker.MM" datatype="html">
         <source>MM</source>
@@ -195,7 +197,7 @@
           <context context-type="sourcefile">node_modules/src/timepicker/timepicker.ts</context>
           <context context-type="linenumber">206,210</context>
         </context-group>
-        <target state="needs-translation">Increment hours</target>
+        <target state="translated">Incrémenter les heures</target>
       </trans-unit>
       <trans-unit id="ngb.timepicker.decrement-hours" datatype="html">
         <source>Decrement hours</source>
@@ -203,7 +205,7 @@
           <context context-type="sourcefile">node_modules/src/timepicker/timepicker.ts</context>
           <context context-type="linenumber">228,230</context>
         </context-group>
-        <target state="needs-translation">Decrement hours</target>
+        <target state="translated">Heures de décrément</target>
       </trans-unit>
       <trans-unit id="ngb.timepicker.increment-minutes" datatype="html">
         <source>Increment minutes</source>
@@ -211,7 +213,7 @@
           <context context-type="sourcefile">node_modules/src/timepicker/timepicker.ts</context>
           <context context-type="linenumber">249,254</context>
         </context-group>
-        <target state="needs-translation">Increment minutes</target>
+        <target state="translated">Incrémenter les minutes</target>
       </trans-unit>
       <trans-unit id="ngb.timepicker.decrement-minutes" datatype="html">
         <source>Decrement minutes</source>
@@ -219,7 +221,7 @@
           <context context-type="sourcefile">node_modules/src/timepicker/timepicker.ts</context>
           <context context-type="linenumber">272,276</context>
         </context-group>
-        <target state="needs-translation">Decrement minutes</target>
+        <target state="translated">Minutes décrément</target>
       </trans-unit>
       <trans-unit id="ngb.timepicker.SS" datatype="html">
         <source>SS</source>
@@ -235,7 +237,7 @@
           <context context-type="sourcefile">node_modules/src/timepicker/timepicker.ts</context>
           <context context-type="linenumber">295</context>
         </context-group>
-        <target state="needs-translation">Seconds</target>
+        <target state="translated">Secondes</target>
       </trans-unit>
       <trans-unit id="ngb.timepicker.increment-seconds" datatype="html">
         <source>Increment seconds</source>
@@ -243,7 +245,7 @@
           <context context-type="sourcefile">node_modules/src/timepicker/timepicker.ts</context>
           <context context-type="linenumber">295</context>
         </context-group>
-        <target state="needs-translation">Increment seconds</target>
+        <target state="translated">Incrémentater les secondes</target>
       </trans-unit>
       <trans-unit id="ngb.timepicker.decrement-seconds" datatype="html">
         <source>Decrement seconds</source>
@@ -251,7 +253,7 @@
           <context context-type="sourcefile">node_modules/src/timepicker/timepicker.ts</context>
           <context context-type="linenumber">295</context>
         </context-group>
-        <target state="needs-translation">Decrement seconds</target>
+        <target state="translated">Secondes de décrément</target>
       </trans-unit>
       <trans-unit id="ngb.timepicker.PM" datatype="html">
         <source>
@@ -277,7 +279,7 @@
           <context context-type="sourcefile">node_modules/src/toast/toast.ts</context>
           <context context-type="linenumber">106,109</context>
         </context-group>
-        <target state="needs-translation">Close</target>
+        <target state="translated">Fermer</target>
       </trans-unit>
       <trans-unit id="ProfitabilityCalculator" datatype="html">
         <source>Profitability Calculator</source>
@@ -309,7 +311,7 @@
           <context context-type="sourcefile">src/app/calculator/calculator.component.html</context>
           <context context-type="linenumber">50,55</context>
         </context-group>
-        <target state="needs-translation">Number of plots</target>
+        <target state="translated">Nombre de plots</target>
       </trans-unit>
       <trans-unit id="31be2990b61fe013066418cf23998427f6094c0f" datatype="html">
         <source>Estimated space</source>
@@ -317,7 +319,7 @@
           <context context-type="sourcefile">src/app/calculator/calculator.component.html</context>
           <context context-type="linenumber">58,61</context>
         </context-group>
-        <target state="needs-translation">Estimated space</target>
+        <target state="translated">Espace estimé</target>
       </trans-unit>
       <trans-unit id="e2829d2a1d6377140b5bf5e324dfda0b73d73814" datatype="html">
         <source>Estimated utilization</source>
@@ -325,7 +327,7 @@
           <context context-type="sourcefile">src/app/calculator/calculator.component.html</context>
           <context context-type="linenumber">66,69</context>
         </context-group>
-        <target state="needs-translation">Estimated utilization</target>
+        <target state="translated">Utilisation estimée</target>
       </trans-unit>
       <trans-unit id="2e39c8f73bf706250110c3bbbcb013216ccd618f" datatype="html">
         <source>Hourly XCH</source>
@@ -333,7 +335,7 @@
           <context context-type="sourcefile">src/app/calculator/calculator.component.html</context>
           <context context-type="linenumber">82,85</context>
         </context-group>
-        <target state="needs-translation">Hourly XCH</target>
+        <target state="translated">XCH par heure</target>
       </trans-unit>
       <trans-unit id="f92636454cc06321476854f21c7392a515fd687f" datatype="html">
         <source>Daily XCH</source>
@@ -341,7 +343,7 @@
           <context context-type="sourcefile">src/app/calculator/calculator.component.html</context>
           <context context-type="linenumber">90,93</context>
         </context-group>
-        <target state="needs-translation">Daily XCH</target>
+        <target state="translated">XCH par jour</target>
       </trans-unit>
       <trans-unit id="82c3411ad825e42c40b61c23ae53a09d0283a4b8" datatype="html">
         <source>Weekly XCH</source>
@@ -349,7 +351,7 @@
           <context context-type="sourcefile">src/app/calculator/calculator.component.html</context>
           <context context-type="linenumber">98,101</context>
         </context-group>
-        <target state="needs-translation">Weekly XCH</target>
+        <target state="translated">XCH par semaine</target>
       </trans-unit>
       <trans-unit id="3202f6f4bbf4cf1d8fb8c4baa92a222cfdce1907" datatype="html">
         <source>Monthly XCH</source>
@@ -357,7 +359,7 @@
           <context context-type="sourcefile">src/app/calculator/calculator.component.html</context>
           <context context-type="linenumber">106,109</context>
         </context-group>
-        <target state="needs-translation">Monthly XCH</target>
+        <target state="translated">XCH par mois</target>
       </trans-unit>
       <trans-unit id="9beb860b38dcac32f826add82a1115ddde160c62" datatype="html">
         <source>Hourly USD</source>
@@ -365,7 +367,7 @@
           <context context-type="sourcefile">src/app/calculator/calculator.component.html</context>
           <context context-type="linenumber">122,125</context>
         </context-group>
-        <target state="needs-translation">Hourly USD</target>
+        <target state="translated">USD par heure</target>
       </trans-unit>
       <trans-unit id="33c2b0464d8ed7c16b233f29bfb6ca3346227230" datatype="html">
         <source>Daily USD</source>
@@ -373,7 +375,7 @@
           <context context-type="sourcefile">src/app/calculator/calculator.component.html</context>
           <context context-type="linenumber">130,134</context>
         </context-group>
-        <target state="needs-translation">Daily USD</target>
+        <target state="translated">USD par jour</target>
       </trans-unit>
       <trans-unit id="acff6c04d9cb1d1e11cf16251aa404a4835f87fc" datatype="html">
         <source>Weekly USD</source>
@@ -381,7 +383,7 @@
           <context context-type="sourcefile">src/app/calculator/calculator.component.html</context>
           <context context-type="linenumber">138,141</context>
         </context-group>
-        <target state="needs-translation">Weekly USD</target>
+        <target state="translated">USD par semaine</target>
       </trans-unit>
       <trans-unit id="65992202b465653e2cecba31fd90b33461d0612d" datatype="html">
         <source>Monthly USD</source>
@@ -389,7 +391,7 @@
           <context context-type="sourcefile">src/app/calculator/calculator.component.html</context>
           <context context-type="linenumber">146,149</context>
         </context-group>
-        <target state="needs-translation">Monthly USD</target>
+        <target state="translated">USD par mois</target>
       </trans-unit>
       <trans-unit id="cc15f4b8a90535f5eb726ec8fa2ad55360fd0934" datatype="html">
         <source>404 PAGE NOT FOUND</source>
@@ -397,7 +399,7 @@
           <context context-type="sourcefile">src/app/errors/pagenotfound/pagenotfound.component.html</context>
           <context context-type="linenumber">19,21</context>
         </context-group>
-        <target state="needs-translation">404 PAGE NOT FOUND</target>
+        <target state="translated">404 PAGE INTROUVABLE</target>
       </trans-unit>
       <trans-unit id="c2435526c3716ecae495249d4b750e090d961d24" datatype="html">
         <source>XCH Price</source>
@@ -405,7 +407,7 @@
           <context context-type="sourcefile">src/app/explorer/dashboard/dashboard.component.html</context>
           <context context-type="linenumber">9,14</context>
         </context-group>
-        <target state="needs-translation">XCH Price</target>
+        <target state="translated">Prix XCH</target>
       </trans-unit>
       <trans-unit id="3bf86b6688d8e6eb1adf486a10cbe885647e88f5" datatype="html">
         <source>Pool Space</source>
@@ -413,7 +415,7 @@
           <context context-type="sourcefile">src/app/explorer/dashboard/dashboard.component.html</context>
           <context context-type="linenumber">17,21</context>
         </context-group>
-        <target state="needs-translation">Pool Space</target>
+        <target state="translated">Taille du pool</target>
       </trans-unit>
       <trans-unit id="8afd6be548086efa18d8416c081a4c39f556853c" datatype="html">
         <source>ETW</source>
@@ -575,7 +577,7 @@
           <context context-type="sourcefile">src/app/explorer/dashboard/dashboard.component.html</context>
           <context context-type="linenumber">169,172</context>
         </context-group>
-        <target state="needs-translation">Points (24 hours)</target>
+        <target state="translated">Points (24 heures)</target>
       </trans-unit>
       <trans-unit id="Difficulty" datatype="html">
         <source>Difficulty</source>
@@ -591,7 +593,7 @@
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
           <context context-type="linenumber">202,206</context>
         </context-group>
-        <target state="needs-translation">Difficulty</target>
+        <target state="translated">Difficulté</target>
       </trans-unit>
       <trans-unit id="UtilizationSpace" datatype="html">
         <source>Utilization Space</source>
@@ -599,7 +601,7 @@
           <context context-type="sourcefile">src/app/explorer/dashboard/dashboard.component.html</context>
           <context context-type="linenumber">171,176</context>
         </context-group>
-        <target state="needs-translation">Utilization Space</target>
+        <target state="translated">Espace utilisé</target>
       </trans-unit>
       <trans-unit id="EstimatedSpace" datatype="html">
         <source>Estimated Space</source>
@@ -607,7 +609,7 @@
           <context context-type="sourcefile">src/app/explorer/dashboard/dashboard.component.html</context>
           <context context-type="linenumber">172,177</context>
         </context-group>
-        <target state="needs-translation">Estimated Space</target>
+        <target state="translated">Espace estimé</target>
       </trans-unit>
       <trans-unit id="c97b5f1c85fcecad8ca5333e54c6301767e96d4f" datatype="html">
         <source>No farmers found!</source>
@@ -635,7 +637,7 @@
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
           <context context-type="linenumber">620,623</context>
         </context-group>
-        <target state="needs-translation">Height</target>
+        <target state="translated">Taille</target>
       </trans-unit>
       <trans-unit id="Date" datatype="html">
         <source>Date</source>
@@ -683,7 +685,7 @@
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
           <context context-type="linenumber">634,637</context>
         </context-group>
-        <target state="needs-translation">Pool Space</target>
+        <target state="translated">Espace du pool</target>
       </trans-unit>
       <trans-unit id="06dac242b2c951e365884c1362470cb82067cce1" datatype="html">
         <source>Pool space when the block has been won.</source>
@@ -707,7 +709,7 @@
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
           <context context-type="linenumber">624,627</context>
         </context-group>
-        <target state="needs-translation">Pool Effort</target>
+        <target state="translated">Effort du pool</target>
       </trans-unit>
       <trans-unit id="a1dcf7ffffc0aa88ff396abe738ab0f053ddcd7a" datatype="html">
         <source>The effort that was required to farm the block. 100% is the expected estimated time to win. Lower than 100% means we farmed the block before the estimation. Higher than 100% means we took longer than anticipated.</source>
@@ -839,7 +841,7 @@
           <context context-type="sourcefile">src/app/explorer/reward/reward.component.html</context>
           <context context-type="linenumber">46,51</context>
         </context-group>
-        <target state="needs-translation">Amount</target>
+        <target state="translated">Montant</target>
       </trans-unit>
       <trans-unit id="NoRewards" datatype="html">
         <source>No rewards found!</source>
@@ -911,7 +913,7 @@
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
           <context context-type="linenumber">9,13</context>
         </context-group>
-        <target state="needs-translation">Warning</target>
+        <target state="translated">Avertissement</target>
       </trans-unit>
       <trans-unit id="d9d317323846216a59d3d749dba0da04e1b1d8be" datatype="html">
         <source>farmer doesn&apos;t exist (404).</source>
@@ -1075,7 +1077,7 @@
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
           <context context-type="linenumber">82,85</context>
         </context-group>
-        <target state="needs-translation">Estimated Reward</target>
+        <target state="translated">Récompense estimée</target>
       </trans-unit>
       <trans-unit id="fca305780869230f3f65ee56c7e002d6eb11be67" datatype="html">
         <source>Profitability based on blocks farmed on last 30 days, based on your farm space.</source>
@@ -1111,7 +1113,7 @@
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
           <context context-type="linenumber">137,140</context>
         </context-group>
-        <target state="needs-translation">24 hours</target>
+        <target state="translated">24 heures</target>
       </trans-unit>
       <trans-unit id="Points" datatype="html">
         <source>Points</source>
@@ -1403,7 +1405,7 @@
           <context context-type="sourcefile">src/app/explorer/reward/reward.component.html</context>
           <context context-type="linenumber">19,25</context>
         </context-group>
-        <target state="needs-translation">Blocks</target>
+        <target state="translated">Blocs</target>
       </trans-unit>
       <trans-unit id="Paid" datatype="html">
         <source>Paid</source>
@@ -1535,7 +1537,7 @@
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
           <context context-type="linenumber">585,590</context>
         </context-group>
-        <target state="needs-translation">No payouts found!</target>
+        <target state="translated">Aucun paiement trouvé !</target>
       </trans-unit>
       <trans-unit id="5f0da6ce66a56080556f29471c1660b3054ff693" datatype="html">
         <source>Total block(s)</source>
@@ -1631,7 +1633,7 @@
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.ts</context>
           <context context-type="linenumber">20,21</context>
         </context-group>
-        <target state="needs-translation">Last Partials (24 hours)</target>
+        <target state="translated">Derniers partials (24 heures)</target>
       </trans-unit>
       <trans-unit id="8497528947328199741" datatype="html">
         <source>Time</source>
@@ -1647,7 +1649,7 @@
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.ts</context>
           <context context-type="linenumber">42,44</context>
         </context-group>
-        <target state="needs-translation">Time</target>
+        <target state="translated">Temps</target>
       </trans-unit>
       <trans-unit id="6930616437385085682" datatype="html">
         <source>Partials</source>
@@ -1663,7 +1665,7 @@
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.ts</context>
           <context context-type="linenumber">41,42</context>
         </context-group>
-        <target state="needs-translation">Estimated Size</target>
+        <target state="translated">Taille estimée</target>
       </trans-unit>
       <trans-unit id="2334770517641857367" datatype="html">
         <source>Daily Amount</source>
@@ -1695,7 +1697,7 @@
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.ts</context>
           <context context-type="linenumber">314,315</context>
         </context-group>
-        <target state="needs-translation">Successful Partials</target>
+        <target state="translated">Partials réussis</target>
       </trans-unit>
       <trans-unit id="2756022432863940642" datatype="html">
         <source>Failed Partials</source>
@@ -1711,7 +1713,7 @@
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.ts</context>
           <context context-type="linenumber">311,312</context>
         </context-group>
-        <target state="needs-translation">Failed Partials</target>
+        <target state="translated">Partials échoués</target>
       </trans-unit>
       <trans-unit id="444596756007014580" datatype="html">
         <source>Size (24 hours average)</source>
@@ -1979,7 +1981,7 @@
           <context context-type="sourcefile">src/app/explorer/reward/reward.component.html</context>
           <context context-type="linenumber">16,20</context>
         </context-group>
-        <target state="needs-translation">Fee</target>
+        <target state="translated">Frais</target>
       </trans-unit>
       <trans-unit id="TotalIncome" datatype="html">
         <source>Total Income</source>
@@ -2579,7 +2581,7 @@
           <context context-type="sourcefile">src/app/shared/navbar/navbar.component.html</context>
           <context context-type="linenumber">112,116</context>
         </context-group>
-        <target state="needs-translation">Join our pool</target>
+        <target state="translated">Rejoindre notre pool</target>
       </trans-unit>
       <trans-unit id="e863710e7fd7485e35bf2421115e3f6efe54c155" datatype="html">
         <source>Chat with us</source>
@@ -3019,7 +3021,7 @@
           <context context-type="sourcefile">src/app/shared/footer/footer.component.html</context>
           <context context-type="linenumber">48,51</context>
         </context-group>
-        <target state="needs-translation">Terms</target>
+        <target state="translated">Conditions</target>
       </trans-unit>
       <trans-unit id="Partners" datatype="html">
         <source>Partners</source>
@@ -3027,7 +3029,7 @@
           <context context-type="sourcefile">src/app/shared/footer/footer.component.html</context>
           <context context-type="linenumber">51,55</context>
         </context-group>
-        <target state="needs-translation">Partners</target>
+        <target state="translated">Partenaires</target>
       </trans-unit>
       <trans-unit id="Uptime" datatype="html">
         <source>Uptime</source>
@@ -3035,7 +3037,7 @@
           <context context-type="sourcefile">src/app/shared/footer/footer.component.html</context>
           <context context-type="linenumber">55,60</context>
         </context-group>
-        <target state="needs-translation">Uptime</target>
+        <target state="translated">Allumé depuis</target>
       </trans-unit>
       <trans-unit id="AGPLv3License" datatype="html">
         <source>AGPLv3 License</source>
@@ -3043,7 +3045,7 @@
           <context context-type="sourcefile">src/app/shared/footer/footer.component.html</context>
           <context context-type="linenumber">58,64</context>
         </context-group>
-        <target state="needs-translation">AGPLv3 License</target>
+        <target state="translated">Licence AGPLv3</target>
       </trans-unit>
       <trans-unit id="Explorer" datatype="html">
         <source>Explorer</source>
@@ -3051,7 +3053,7 @@
           <context context-type="sourcefile">src/app/shared/navbar/navbar.component.html</context>
           <context context-type="linenumber">27,32</context>
         </context-group>
-        <target state="needs-translation">Explorer</target>
+        <target state="translated">Explorateur</target>
       </trans-unit>
       <trans-unit id="Fees" datatype="html">
         <source>Fees</source>
@@ -3083,7 +3085,7 @@
           <context context-type="sourcefile">src/app/shared/navbar/navbar.component.html</context>
           <context context-type="linenumber">50,53</context>
         </context-group>
-        <target state="needs-translation">Calculator</target>
+        <target state="translated">Calculateur de rentabilité</target>
       </trans-unit>
       <trans-unit id="API" datatype="html">
         <source>API</source>
@@ -3099,7 +3101,7 @@
           <context context-type="sourcefile">src/app/shared/navbar/navbar.component.html</context>
           <context context-type="linenumber">67,71</context>
         </context-group>
-        <target state="needs-translation"> Dust storm currently affecting the blockchain. Payouts may be delayed. </target>
+        <target state="translated">Tempête de poussière affectant actuellement la blockchain. Les paiements peuvent être retardés.</target>
       </trans-unit>
       <trans-unit id="DustStorm" datatype="html">
         <source>Dust Storm</source>
@@ -3115,7 +3117,7 @@
           <context context-type="sourcefile">src/app/shared/navbar/navbar.component.html</context>
           <context context-type="linenumber">79,83</context>
         </context-group>
-        <target state="needs-translation">Dark Mode</target>
+        <target state="translated">Mode nuit</target>
       </trans-unit>
       <trans-unit id="a90d29cc4f9d39cac908dbbbbd998ad61f164e88" datatype="html">
         <source>🚀 Stats</source>
@@ -3131,7 +3133,7 @@
           <context context-type="sourcefile">src/app/stats/stats.component.html</context>
           <context context-type="linenumber">36,38</context>
         </context-group>
-        <target state="needs-translation">Pool Space (After 18th February) <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i class=&quot;ni ni-b"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/></target>
+        <target state="translated">Taille du pool (après le 18 Février) <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i class=&quot;ni ni-b"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/></target>
       </trans-unit>
       <trans-unit id="27eb10916f82b03a3f792459155086ff17c11976" datatype="html">
         <source>1 Day</source>
@@ -3155,7 +3157,7 @@
           <context context-type="sourcefile">src/app/stats/stats.component.html</context>
           <context context-type="linenumber">297,299</context>
         </context-group>
-        <target state="needs-translation">1 Day</target>
+        <target state="translated">1 Jour</target>
       </trans-unit>
       <trans-unit id="b7e16af662bc4ecccd2ec389a29a4e34d48a607c" datatype="html">
         <source>7 Days</source>
@@ -3179,7 +3181,7 @@
           <context context-type="sourcefile">src/app/stats/stats.component.html</context>
           <context context-type="linenumber">299,301</context>
         </context-group>
-        <target state="needs-translation">7 Days</target>
+        <target state="translated">7 Jours</target>
       </trans-unit>
       <trans-unit id="6149963f7b6e8339a7db40be653830239841e51b" datatype="html">
         <source>1 Month</source>
@@ -3203,7 +3205,7 @@
           <context context-type="sourcefile">src/app/stats/stats.component.html</context>
           <context context-type="linenumber">301,303</context>
         </context-group>
-        <target state="needs-translation">1 Month</target>
+        <target state="translated">1 Mois</target>
       </trans-unit>
       <trans-unit id="d2936a0d7a7cd1014fdb81195a40a38fd3d70bc7" datatype="html">
         <source>3 Months</source>
@@ -3227,7 +3229,7 @@
           <context context-type="sourcefile">src/app/stats/stats.component.html</context>
           <context context-type="linenumber">303,305</context>
         </context-group>
-        <target state="needs-translation">3 Months</target>
+        <target state="translated">3 Mois</target>
       </trans-unit>
       <trans-unit id="ab102e798754de9510d2434b0a2cf2e55cadfa86" datatype="html">
         <source>1 Year</source>
@@ -3251,7 +3253,7 @@
           <context context-type="sourcefile">src/app/stats/stats.component.html</context>
           <context context-type="linenumber">305,311</context>
         </context-group>
-        <target state="needs-translation">1 Year</target>
+        <target state="translated">1 An</target>
       </trans-unit>
       <trans-unit id="881c1f8f173d0e8c6012f72d1687d61b70c10cfa" datatype="html">
         <source>Pool Blocks <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i class=&quot;ni ni-b"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/></source>
@@ -3259,7 +3261,7 @@
           <context context-type="sourcefile">src/app/stats/stats.component.html</context>
           <context context-type="linenumber">89,90</context>
         </context-group>
-        <target state="needs-translation">Pool Blocks <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i class=&quot;ni ni-b"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/></target>
+        <target state="translated">Blocks du pool <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i class=&quot;ni ni-b"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/></target>
       </trans-unit>
       <trans-unit id="d11711d2d1f92e7a7a720214a60ada2398b75c37" datatype="html">
         <source>Netspace <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i class=&quot;ni ni-b"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/></source>
@@ -3275,7 +3277,7 @@
           <context context-type="sourcefile">src/app/stats/stats.component.html</context>
           <context context-type="linenumber">168,171</context>
         </context-group>
-        <target state="needs-translation">XCH Price </target>
+        <target state="translated">Prix XCH</target>
       </trans-unit>
       <trans-unit id="42ab40e1b3b054df561416189620d1f3bd9e3e30" datatype="html">
         <source>Chia Mempool Occupied (After 23rd March) <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i class=&quot;ni ni-bo"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/></source>
@@ -3283,7 +3285,7 @@
           <context context-type="sourcefile">src/app/stats/stats.component.html</context>
           <context context-type="linenumber">217,221</context>
         </context-group>
-        <target state="needs-translation">Chia Mempool Occupied (After 23rd March) <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i class=&quot;ni ni-bo"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/></target>
+        <target state="translated">Chia Mempool Occupation (après le 23 Mars) <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i class=&quot;ni ni-bo"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/></target>
       </trans-unit>
       <trans-unit id="4031e66dfb64440787f51a453a5858760c418de7" datatype="html">
         <source>Pool Space <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/></source>
@@ -3291,7 +3293,7 @@
           <context context-type="sourcefile">src/app/stats/stats.component.html</context>
           <context context-type="linenumber">271,272</context>
         </context-group>
-        <target state="needs-translation">Pool Space <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/></target>
+        <target state="translated">Espace du pool <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/></target>
       </trans-unit>
     </body>
   </file>
