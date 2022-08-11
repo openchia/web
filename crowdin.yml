@@ -1,0 +1,3 @@
+files:
+  - source: src/locale/en.xlf
+    translation: src/locale/%two_letters_code%.xlf
