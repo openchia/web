@@ -487,7 +487,7 @@
           <context context-type="sourcefile">src/app/explorer/dashboard/dashboard.component.html</context>
           <context context-type="linenumber">61,66</context>
         </context-group>
-        <target state="needs-translation">Current Effort</target>
+        <target state="translated">Současné úsilí</target>
       </trans-unit>
       <trans-unit id="Effort" datatype="html">
         <source>Effort</source>
@@ -671,7 +671,7 @@
           <context context-type="sourcefile">src/app/explorer/dashboard/dashboard.component.html</context>
           <context context-type="linenumber">216,219</context>
         </context-group>
-        <target state="needs-translation">Farmer</target>
+        <target state="translated">Farmář</target>
       </trans-unit>
       <trans-unit id="Poolspace" datatype="html">
         <source>Pool Space</source>
@@ -739,7 +739,7 @@
           <context context-type="sourcefile">src/app/explorer/reward/reward.component.html</context>
           <context context-type="linenumber">65,70</context>
         </context-group>
-        <target state="needs-translation">Unknown</target>
+        <target state="translated">Neznámo</target>
       </trans-unit>
       <trans-unit id="Lucky" datatype="html">
         <source>Lucky</source>
@@ -1551,7 +1551,7 @@
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
           <context context-type="linenumber">627,632</context>
         </context-group>
-        <target state="needs-translation"> The effort that was required to farm the block. 100% is the expected estimated time to win. Lower than 100% means we farmed the block before the estimation. Higher than 100% means we took longer than anticipated. </target>
+        <target state="translated"> Práce, ktera bylo zapotřebí k získání bloku. 100 % je očekávaný odhadovaný čas na výhru. Nižší než 100 % znamená, že jsme blok získali před odhadem. Vyšší než 100 % znamená, že nám to trvalo déle, než se očekávalo. </target>
       </trans-unit>
       <trans-unit id="a91a60516b5081738e593fb71984586e10310351" datatype="html">
         <source>No blocks found by this farmer!</source>
@@ -1655,7 +1655,7 @@
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.ts</context>
           <context context-type="linenumber">36,37</context>
         </context-group>
-        <target state="needs-translation">Partials</target>
+        <target state="translated">Důkazy</target>
       </trans-unit>
       <trans-unit id="8311659957519204575" datatype="html">
         <source>Estimated Size</source>
@@ -1871,7 +1871,7 @@
           <context context-type="sourcefile">src/app/explorer/login/login.component.html</context>
           <context context-type="linenumber">165,167</context>
         </context-group>
-        <target state="needs-translation">Difficulty</target>
+        <target state="translated">Obtížnost</target>
       </trans-unit>
       <trans-unit id="7f48a5e0ee3ccda6a0d377851c9f78fa347759db" datatype="html">
         <source>Default - Around 600 partials sent per day</source>
@@ -1967,7 +1967,7 @@
           <context context-type="sourcefile">src/app/explorer/login/login.component.html</context>
           <context context-type="linenumber">216,220</context>
         </context-group>
-        <target state="needs-translation">Launcher ID</target>
+        <target state="translated">ID farmáře</target>
       </trans-unit>
       <trans-unit id="Fee" datatype="html">
         <source>Fee</source>
@@ -2831,7 +2831,7 @@
           <context context-type="sourcefile">src/app/partners/partners.component.html</context>
           <context context-type="linenumber">25,32</context>
         </context-group>
-        <target state="needs-translation">Partners</target>
+        <target state="translated">Partneři</target>
       </trans-unit>
       <trans-unit id="34490e4cf9382027cfbcdfdc1628c837dccc4fa3" datatype="html">
         <source>Spacescan</source>
@@ -3275,7 +3275,7 @@
           <context context-type="sourcefile">src/app/stats/stats.component.html</context>
           <context context-type="linenumber">168,171</context>
         </context-group>
-        <target state="needs-translation">XCH Price </target>
+        <target state="translated">XCH cena </target>
       </trans-unit>
       <trans-unit id="42ab40e1b3b054df561416189620d1f3bd9e3e30" datatype="html">
         <source>Chia Mempool Occupied (After 23rd March) <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i class=&quot;ni ni-bo"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/></source>
