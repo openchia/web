@@ -445,7 +445,7 @@
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
           <context context-type="linenumber">599,604</context>
         </context-group>
-        <target state="needs-translation">Blocks</target>
+        <target state="translated">Блоки</target>
       </trans-unit>
       <trans-unit id="1d807733635e1587142d0bf8c9253414da999d08" datatype="html">
         <source><x id="INTERPOLATION" equiv-text="&lt;div"/> farmed</source>
@@ -813,7 +813,7 @@
           <context context-type="sourcefile">src/app/explorer/dashboard/dashboard.component.html</context>
           <context context-type="linenumber">275,279</context>
         </context-group>
-        <target state="needs-translation">Date</target>
+        <target state="translated">Дата</target>
       </trans-unit>
       <trans-unit id="Amount" datatype="html">
         <source>Amount</source>
@@ -949,7 +949,7 @@
           <context context-type="sourcefile">src/app/explorer/login/login.component.html</context>
           <context context-type="linenumber">24,29</context>
         </context-group>
-        <target state="needs-translation">Launcher ID</target>
+        <target state="translated">Идентификатор запуска</target>
       </trans-unit>
       <trans-unit id="bbb53c975f216e03d9bed761cdea97405a9027fb" datatype="html">
         <source>Friendly Name</source>
@@ -997,7 +997,7 @@
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
           <context context-type="linenumber">409,412</context>
         </context-group>
-        <target state="needs-translation">Estimated Size</target>
+        <target state="translated">Предположительный размер</target>
       </trans-unit>
       <trans-unit id="d06bcf60e753d935944af3f39801a43c9ee6169e" datatype="html">
         <source><x id="INTERPOLATION" equiv-text="}}&lt;/td&gt;"/>% of pool</source>
@@ -1129,7 +1129,7 @@
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
           <context context-type="linenumber">146,151</context>
         </context-group>
-        <target state="needs-translation">Successful Partials</target>
+        <target state="translated">Успешные частичные</target>
       </trans-unit>
       <trans-unit id="FailedPartials_preline" datatype="html">
         <source>Failed Partials</source>
@@ -1137,7 +1137,7 @@
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
           <context context-type="linenumber">157,161</context>
         </context-group>
-        <target state="needs-translation">Failed Partials</target>
+        <target state="translated">Неудачные частицы</target>
       </trans-unit>
       <trans-unit id="Performance" datatype="html">
         <source>Performance</source>
@@ -1161,7 +1161,7 @@
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
           <context context-type="linenumber">189,192</context>
         </context-group>
-        <target state="needs-translation">Partials</target>
+        <target state="translated">Частицы</target>
       </trans-unit>
       <trans-unit id="99c327c9e1e22d737142df163e93f2a269847d6a" datatype="html">
         <source>Show failed partials only</source>
@@ -1337,7 +1337,7 @@
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
           <context context-type="linenumber">381,384</context>
         </context-group>
-        <target state="needs-translation">Successful Partials</target>
+        <target state="translated">Успешные частичные</target>
       </trans-unit>
       <trans-unit id="146d9ea771a6a5d854d710e14505b9eed4b889e9" datatype="html">
         <source>Failed Partials</source>
@@ -1345,7 +1345,7 @@
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
           <context context-type="linenumber">389,392</context>
         </context-group>
-        <target state="needs-translation">Failed Partials</target>
+        <target state="translated">Неудачные частицы</target>
       </trans-unit>
       <trans-unit id="9e0ba5f591380a94d594a76288f0c41aa97eb9c2" datatype="html">
         <source>Last 24 hours</source>
@@ -1569,7 +1569,7 @@
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
           <context context-type="linenumber">683,687</context>
         </context-group>
-        <target state="needs-translation">Fee</target>
+        <target state="translated">Комиссия</target>
       </trans-unit>
       <trans-unit id="4da5f68d3abab9c999777c361b61e01d5e3f7a73" datatype="html">
         <source>Pool Base Fee</source>
@@ -1873,7 +1873,7 @@
           <context context-type="sourcefile">src/app/explorer/login/login.component.html</context>
           <context context-type="linenumber">165,167</context>
         </context-group>
-        <target state="needs-translation">Difficulty</target>
+        <target state="translated">Сложность</target>
       </trans-unit>
       <trans-unit id="7f48a5e0ee3ccda6a0d377851c9f78fa347759db" datatype="html">
         <source>Default - Around 600 partials sent per day</source>
@@ -1969,7 +1969,7 @@
           <context context-type="sourcefile">src/app/explorer/login/login.component.html</context>
           <context context-type="linenumber">216,220</context>
         </context-group>
-        <target state="needs-translation">Launcher ID</target>
+        <target state="translated">Идентификатор запуска</target>
       </trans-unit>
       <trans-unit id="Fee" datatype="html">
         <source>Fee</source>
@@ -2833,7 +2833,7 @@
           <context context-type="sourcefile">src/app/partners/partners.component.html</context>
           <context context-type="linenumber">25,32</context>
         </context-group>
-        <target state="needs-translation">Partners</target>
+        <target state="translated">Партнёры</target>
       </trans-unit>
       <trans-unit id="34490e4cf9382027cfbcdfdc1628c837dccc4fa3" datatype="html">
         <source>Spacescan</source>
