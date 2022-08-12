@@ -445,7 +445,7 @@
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
           <context context-type="linenumber">599,604</context>
         </context-group>
-        <target state="needs-translation">Blocks</target>
+        <target state="translated">Bloques</target>
       </trans-unit>
       <trans-unit id="1d807733635e1587142d0bf8c9253414da999d08" datatype="html">
         <source><x id="INTERPOLATION" equiv-text="&lt;div"/> farmed</source>
@@ -521,7 +521,7 @@
           <context context-type="sourcefile">src/app/explorer/dashboard/dashboard.component.html</context>
           <context context-type="linenumber">90,95</context>
         </context-group>
-        <target state="needs-translation">Rewards</target>
+        <target state="translated">Recompensas</target>
       </trans-unit>
       <trans-unit id="Profitability" datatype="html">
         <source>Profitability</source>
@@ -741,7 +741,7 @@
           <context context-type="sourcefile">src/app/explorer/reward/reward.component.html</context>
           <context context-type="linenumber">65,70</context>
         </context-group>
-        <target state="needs-translation">Unknown</target>
+        <target state="translated">Desconocido</target>
       </trans-unit>
       <trans-unit id="Lucky" datatype="html">
         <source>Lucky</source>
@@ -997,7 +997,7 @@
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
           <context context-type="linenumber">409,412</context>
         </context-group>
-        <target state="needs-translation">Estimated Size</target>
+        <target state="translated">Tamaño Estimado</target>
       </trans-unit>
       <trans-unit id="d06bcf60e753d935944af3f39801a43c9ee6169e" datatype="html">
         <source><x id="INTERPOLATION" equiv-text="}}&lt;/td&gt;"/>% of pool</source>
@@ -1129,7 +1129,7 @@
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
           <context context-type="linenumber">146,151</context>
         </context-group>
-        <target state="needs-translation">Successful Partials</target>
+        <target state="translated">Parciales Exitosos</target>
       </trans-unit>
       <trans-unit id="FailedPartials_preline" datatype="html">
         <source>Failed Partials</source>
@@ -1137,7 +1137,7 @@
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
           <context context-type="linenumber">157,161</context>
         </context-group>
-        <target state="needs-translation">Failed Partials</target>
+        <target state="translated">Parciales fallidas</target>
       </trans-unit>
       <trans-unit id="Performance" datatype="html">
         <source>Performance</source>
@@ -1161,7 +1161,7 @@
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
           <context context-type="linenumber">189,192</context>
         </context-group>
-        <target state="needs-translation">Partials</target>
+        <target state="translated">Parciales</target>
       </trans-unit>
       <trans-unit id="99c327c9e1e22d737142df163e93f2a269847d6a" datatype="html">
         <source>Show failed partials only</source>
@@ -1193,7 +1193,7 @@
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
           <context context-type="linenumber">205,210</context>
         </context-group>
-        <target state="needs-translation">State</target>
+        <target state="translated">Estado</target>
       </trans-unit>
       <trans-unit id="c135821495429ff3fd89664f549ec24da765b5d5" datatype="html">
         <source>No partials found!</source>
@@ -1337,7 +1337,7 @@
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
           <context context-type="linenumber">381,384</context>
         </context-group>
-        <target state="needs-translation">Successful Partials</target>
+        <target state="translated">Parciales Exitosos</target>
       </trans-unit>
       <trans-unit id="146d9ea771a6a5d854d710e14505b9eed4b889e9" datatype="html">
         <source>Failed Partials</source>
@@ -1345,7 +1345,7 @@
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
           <context context-type="linenumber">389,392</context>
         </context-group>
-        <target state="needs-translation">Failed Partials</target>
+        <target state="translated">Parciales fallidas</target>
       </trans-unit>
       <trans-unit id="9e0ba5f591380a94d594a76288f0c41aa97eb9c2" datatype="html">
         <source>Last 24 hours</source>
@@ -1873,7 +1873,7 @@
           <context context-type="sourcefile">src/app/explorer/login/login.component.html</context>
           <context context-type="linenumber">165,167</context>
         </context-group>
-        <target state="needs-translation">Difficulty</target>
+        <target state="translated">Dificultad</target>
       </trans-unit>
       <trans-unit id="7f48a5e0ee3ccda6a0d377851c9f78fa347759db" datatype="html">
         <source>Default - Around 600 partials sent per day</source>
@@ -1969,7 +1969,7 @@
           <context context-type="sourcefile">src/app/explorer/login/login.component.html</context>
           <context context-type="linenumber">216,220</context>
         </context-group>
-        <target state="needs-translation">Launcher ID</target>
+        <target state="translated">ID de lanzador</target>
       </trans-unit>
       <trans-unit id="Fee" datatype="html">
         <source>Fee</source>
@@ -2021,7 +2021,7 @@
           <context context-type="sourcefile">src/app/explorer/reward/reward.component.html</context>
           <context context-type="linenumber">44,47</context>
         </context-group>
-        <target state="needs-translation">Launcher ID</target>
+        <target state="translated">ID de lanzador</target>
       </trans-unit>
       <trans-unit id="State" datatype="html">
         <source>State</source>
@@ -2833,7 +2833,7 @@
           <context context-type="sourcefile">src/app/partners/partners.component.html</context>
           <context context-type="linenumber">25,32</context>
         </context-group>
-        <target state="needs-translation">Partners</target>
+        <target state="translated">Socios</target>
       </trans-unit>
       <trans-unit id="34490e4cf9382027cfbcdfdc1628c837dccc4fa3" datatype="html">
         <source>Spacescan</source>
