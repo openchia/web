@@ -795,7 +795,7 @@
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
           <context context-type="linenumber">429,433</context>
         </context-group>
-        <target state="needs-translation">Rewards</target>
+        <target state="translated">已发放奖励</target>
       </trans-unit>
       <trans-unit id="ID" datatype="html">
         <source>ID</source>
@@ -1051,7 +1051,7 @@
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
           <context context-type="linenumber">79,83</context>
         </context-group>
-        <target state="needs-translation">Unknown</target>
+        <target state="translated">未知</target>
       </trans-unit>
       <trans-unit id="b7122aa7e824953414e6cacb484552f95172b992" datatype="html">
         <source>Current Effort</source>
@@ -1059,7 +1059,7 @@
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
           <context context-type="linenumber">70,72</context>
         </context-group>
-        <target state="needs-translation">Current Effort</target>
+        <target state="translated">当前蓄力</target>
       </trans-unit>
       <trans-unit id="4506ef25cc205e8b8dec267a55e33d9d1ec03da9" datatype="html">
         <source>Estimate based on last block farmed and current estimated time to win. If the farmer never farmed one block then the creation date of the Plot NFT is used as a starting point.</source>
@@ -1127,7 +1127,7 @@
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
           <context context-type="linenumber">146,151</context>
         </context-group>
-        <target state="needs-translation">Successful Partials</target>
+        <target state="translated">成功部分</target>
       </trans-unit>
       <trans-unit id="FailedPartials_preline" datatype="html">
         <source>Failed Partials</source>
@@ -1135,7 +1135,7 @@
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
           <context context-type="linenumber">157,161</context>
         </context-group>
-        <target state="needs-translation">Failed Partials</target>
+        <target state="translated">失效部分</target>
       </trans-unit>
       <trans-unit id="Performance" datatype="html">
         <source>Performance</source>
@@ -1567,7 +1567,7 @@
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
           <context context-type="linenumber">683,687</context>
         </context-group>
-        <target state="needs-translation">Fee</target>
+        <target state="translated">收费</target>
       </trans-unit>
       <trans-unit id="4da5f68d3abab9c999777c361b61e01d5e3f7a73" datatype="html">
         <source>Pool Base Fee</source>
@@ -2027,7 +2027,7 @@
           <context context-type="sourcefile">src/app/explorer/reward/reward.component.html</context>
           <context context-type="linenumber">48,52</context>
         </context-group>
-        <target state="needs-translation">State</target>
+        <target state="translated">状态</target>
       </trans-unit>
       <trans-unit id="ecd422c186c74ee8c3d85e96782c93aae6c4e547" datatype="html">
         <source> The minimum payout has not been reached, transaction will be made at the next payment. </source>
@@ -2831,7 +2831,7 @@
           <context context-type="sourcefile">src/app/partners/partners.component.html</context>
           <context context-type="linenumber">25,32</context>
         </context-group>
-        <target state="needs-translation">Partners</target>
+        <target state="translated">合作伙伴</target>
       </trans-unit>
       <trans-unit id="34490e4cf9382027cfbcdfdc1628c837dccc4fa3" datatype="html">
         <source>Spacescan</source>
