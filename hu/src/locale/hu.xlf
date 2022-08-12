@@ -949,7 +949,7 @@
           <context context-type="sourcefile">src/app/explorer/login/login.component.html</context>
           <context context-type="linenumber">24,29</context>
         </context-group>
-        <target state="needs-translation">Launcher ID</target>
+        <target state="translated">Gazda ID</target>
       </trans-unit>
       <trans-unit id="bbb53c975f216e03d9bed761cdea97405a9027fb" datatype="html">
         <source>Friendly Name</source>
@@ -997,7 +997,7 @@
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
           <context context-type="linenumber">409,412</context>
         </context-group>
-        <target state="needs-translation">Estimated Size</target>
+        <target state="translated">Becsült méret</target>
       </trans-unit>
       <trans-unit id="d06bcf60e753d935944af3f39801a43c9ee6169e" datatype="html">
         <source><x id="INTERPOLATION" equiv-text="}}&lt;/td&gt;"/>% of pool</source>
@@ -1101,7 +1101,7 @@
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
           <context context-type="linenumber">165,168</context>
         </context-group>
-        <target state="needs-translation">Partials</target>
+        <target state="translated">Részek</target>
       </trans-unit>
       <trans-unit id="Hrs24" datatype="html">
         <source>24 hours</source>
@@ -1129,7 +1129,7 @@
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
           <context context-type="linenumber">146,151</context>
         </context-group>
-        <target state="needs-translation">Successful Partials</target>
+        <target state="translated">Sikeres Partials</target>
       </trans-unit>
       <trans-unit id="FailedPartials_preline" datatype="html">
         <source>Failed Partials</source>
@@ -1137,7 +1137,7 @@
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
           <context context-type="linenumber">157,161</context>
         </context-group>
-        <target state="needs-translation">Failed Partials</target>
+        <target state="translated">Sikeretlen Partials</target>
       </trans-unit>
       <trans-unit id="Performance" datatype="html">
         <source>Performance</source>
@@ -1337,7 +1337,7 @@
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
           <context context-type="linenumber">381,384</context>
         </context-group>
-        <target state="needs-translation">Successful Partials</target>
+        <target state="translated">Sikeres Partials</target>
       </trans-unit>
       <trans-unit id="146d9ea771a6a5d854d710e14505b9eed4b889e9" datatype="html">
         <source>Failed Partials</source>
@@ -1345,7 +1345,7 @@
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
           <context context-type="linenumber">389,392</context>
         </context-group>
-        <target state="needs-translation">Failed Partials</target>
+        <target state="translated">Sikeretlen Partials</target>
       </trans-unit>
       <trans-unit id="9e0ba5f591380a94d594a76288f0c41aa97eb9c2" datatype="html">
         <source>Last 24 hours</source>
@@ -1569,7 +1569,7 @@
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
           <context context-type="linenumber">683,687</context>
         </context-group>
-        <target state="needs-translation">Fee</target>
+        <target state="translated">Díj</target>
       </trans-unit>
       <trans-unit id="4da5f68d3abab9c999777c361b61e01d5e3f7a73" datatype="html">
         <source>Pool Base Fee</source>
@@ -1657,7 +1657,7 @@
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.ts</context>
           <context context-type="linenumber">36,37</context>
         </context-group>
-        <target state="needs-translation">Partials</target>
+        <target state="translated">Részek</target>
       </trans-unit>
       <trans-unit id="8311659957519204575" datatype="html">
         <source>Estimated Size</source>
@@ -1873,7 +1873,7 @@
           <context context-type="sourcefile">src/app/explorer/login/login.component.html</context>
           <context context-type="linenumber">165,167</context>
         </context-group>
-        <target state="needs-translation">Difficulty</target>
+        <target state="translated">Nehézség</target>
       </trans-unit>
       <trans-unit id="7f48a5e0ee3ccda6a0d377851c9f78fa347759db" datatype="html">
         <source>Default - Around 600 partials sent per day</source>
@@ -1969,7 +1969,7 @@
           <context context-type="sourcefile">src/app/explorer/login/login.component.html</context>
           <context context-type="linenumber">216,220</context>
         </context-group>
-        <target state="needs-translation">Launcher ID</target>
+        <target state="translated">Gazda ID</target>
       </trans-unit>
       <trans-unit id="Fee" datatype="html">
         <source>Fee</source>
@@ -2029,7 +2029,7 @@
           <context context-type="sourcefile">src/app/explorer/reward/reward.component.html</context>
           <context context-type="linenumber">48,52</context>
         </context-group>
-        <target state="needs-translation">State</target>
+        <target state="translated">Állapot</target>
       </trans-unit>
       <trans-unit id="ecd422c186c74ee8c3d85e96782c93aae6c4e547" datatype="html">
         <source> The minimum payout has not been reached, transaction will be made at the next payment. </source>
@@ -2833,7 +2833,7 @@
           <context context-type="sourcefile">src/app/partners/partners.component.html</context>
           <context context-type="linenumber">25,32</context>
         </context-group>
-        <target state="needs-translation">Partners</target>
+        <target state="translated">Partnerek</target>
       </trans-unit>
       <trans-unit id="34490e4cf9382027cfbcdfdc1628c837dccc4fa3" datatype="html">
         <source>Spacescan</source>
@@ -3277,7 +3277,7 @@
           <context context-type="sourcefile">src/app/stats/stats.component.html</context>
           <context context-type="linenumber">168,171</context>
         </context-group>
-        <target state="needs-translation">XCH Price </target>
+        <target state="translated">XCH ár </target>
       </trans-unit>
       <trans-unit id="42ab40e1b3b054df561416189620d1f3bd9e3e30" datatype="html">
         <source>Chia Mempool Occupied (After 23rd March) <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i class=&quot;ni ni-bo"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;"/></source>
