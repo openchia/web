@@ -115,12 +115,6 @@ export class DataService {
     return this.httpClient.get(`${this.REST_API_SERVER}payout/${id}/`);
   }
 
-  getPoolSpace(days?) {
-    var params = new HttpParams();
-    params = params.set('days', (days || '7'));
-    return this.httpClient.get(`${this.REST_API_SERVER}space`, { params });
-  }
-
   getPartials(launcher, offset?) {
     var params = new HttpParams();
     var timestamp = new Date().getTime();

@@ -78,7 +78,6 @@ export class StatsComponent implements OnInit {
   constructor(private dataService: DataService) { }
 
   ngOnInit() {
-    this.refreshSpace(7);
     this.refreshSize(7);
     this.getNetspace(7);
     this.getXchPrice(7);
@@ -154,22 +153,6 @@ export class StatsComponent implements OnInit {
       })
 
     })
-  }
-
-  refreshSpace(days?) {
-    this.dataService.getPoolSpace(days).subscribe((d) => {
-      this.spaceDays = days;
-      this.spaceData = [{
-        "name": "Size",
-        "series": (<any[]>d).map((item) => {
-          return ({
-            "name": (new Date(item['date']).toLocaleString()),
-            "value": item['size'],
-            "label": (item['size'] / 1024 ** 5).toFixed(2).toString() + ' PiB',
-          })
-        })
-      }];
-    });
   }
 
   getNetspace(days: number) {
