@@ -287,7 +287,7 @@
           <context context-type="sourcefile">src/app/calculator/calculator.component.html</context>
           <context context-type="linenumber">18,21</context>
         </context-group>
-        <target state="needs-translation">Profitability Calculator</target>
+        <target state="translated">Calculateur de rentabilité</target>
       </trans-unit>
       <trans-unit id="e1c7fd374631fc26f5eefac25afd46152c50613d" datatype="html">
         <source>Estimated Earnings</source>
@@ -295,7 +295,7 @@
           <context context-type="sourcefile">src/app/calculator/calculator.component.html</context>
           <context context-type="linenumber">19,21</context>
         </context-group>
-        <target state="needs-translation">Estimated Earnings</target>
+        <target state="translated">Revenus estimés</target>
       </trans-unit>
       <trans-unit id="621d35671c9274ce567f468d1cbed8afdfb58fbe" datatype="html">
         <source>View is based on a snapshot of today&apos;s XCH price, a pool luck and a constant total network space. Plots of size k=32 (101.4 GiB).</source>
@@ -303,7 +303,7 @@
           <context context-type="sourcefile">src/app/calculator/calculator.component.html</context>
           <context context-type="linenumber">20,26</context>
         </context-group>
-        <target state="needs-translation">View is based on a snapshot of today's XCH price, a pool luck and a constant total network space. Plots of size k=32 (101.4 GiB).</target>
+        <target state="translated">La vue est basée sur un instantané du prix XCH du jour, une chance de pool et un espace réseau total constant. Tracés de taille k=32 (101.4 GiB).</target>
       </trans-unit>
       <trans-unit id="216a1982a307f6926ef83c3b6f4143a0a9415e56" datatype="html">
         <source>Number of plots</source>
@@ -465,7 +465,7 @@
           <context context-type="sourcefile">src/app/explorer/dashboard/dashboard.component.html</context>
           <context context-type="linenumber">148,151</context>
         </context-group>
-        <target state="needs-translation">Farmers</target>
+        <target state="translated">Farmeurs</target>
       </trans-unit>
       <trans-unit id="8f975c803b91f4c4ad814cf891a7384dc806d497" datatype="html">
         <source><x id="INTERPOLATION" equiv-text="&lt;div class="/> total</source>
@@ -529,7 +529,7 @@
           <context context-type="sourcefile">src/app/explorer/dashboard/dashboard.component.html</context>
           <context context-type="linenumber">98,101</context>
         </context-group>
-        <target state="needs-translation">Profitability</target>
+        <target state="translated">Rentabilité</target>
       </trans-unit>
       <trans-unit id="bc8dc7dc8854f37f1f0258ac25cc8a56e50b1159" datatype="html">
         <source>Profitability based on blocks farmed on last 30 days. Estimated value (XCH) a farmer would get per TiB per day.</source>
@@ -537,7 +537,7 @@
           <context context-type="sourcefile">src/app/explorer/dashboard/dashboard.component.html</context>
           <context context-type="linenumber">100,103</context>
         </context-group>
-        <target state="needs-translation">Profitability based on blocks farmed on last 30 days. Estimated value (XCH) a farmer would get per TiB per day.</target>
+        <target state="translated">La rentabilité est basée sur les blocs cultivés sur les 30 derniers jours. La valeur estimée (XCH) qu'un farmeur gagnerait par pourboire par jour.</target>
       </trans-unit>
       <trans-unit id="Leaderboard" datatype="html">
         <source>Leaderboard</source>
@@ -545,7 +545,7 @@
           <context context-type="sourcefile">src/app/explorer/dashboard/dashboard.component.html</context>
           <context context-type="linenumber">117,121</context>
         </context-group>
-        <target state="needs-translation">Leaderboard</target>
+        <target state="translated">Classement</target>
       </trans-unit>
       <trans-unit id="Search" datatype="html">
         <source>Search</source>
@@ -553,7 +553,7 @@
           <context context-type="sourcefile">src/app/explorer/dashboard/dashboard.component.html</context>
           <context context-type="linenumber">155,158</context>
         </context-group>
-        <target state="needs-translation">Search</target>
+        <target state="translated">Recherche</target>
       </trans-unit>
       <trans-unit id="727c21cfe501b69144cb1579e5a79e6e9d19288a" datatype="html">
         <source>Show active only</source>
@@ -569,7 +569,7 @@
           <context context-type="sourcefile">src/app/explorer/dashboard/dashboard.component.html</context>
           <context context-type="linenumber">160,166</context>
         </context-group>
-        <target state="needs-translation">Show all farmers</target>
+        <target state="translated">Voir tous les farmeurs</target>
       </trans-unit>
       <trans-unit id="Points24hrs" datatype="html">
         <source>Points (24 hours)</source>
@@ -617,7 +617,7 @@
           <context context-type="sourcefile">src/app/explorer/dashboard/dashboard.component.html</context>
           <context context-type="linenumber">198,202</context>
         </context-group>
-        <target state="needs-translation">No farmers found!</target>
+        <target state="translated">Aucun farmeur n'a été trouvé !</target>
       </trans-unit>
       <trans-unit id="2b74c5a60028e165b77a95cd35fede530fd09b6c" datatype="html">
         <source>Blocks Found</source>
@@ -665,7 +665,7 @@
           <context context-type="sourcefile">src/app/explorer/reward/reward.component.html</context>
           <context context-type="linenumber">9,12</context>
         </context-group>
-        <target state="needs-translation">Date</target>
+        <target state="translated">Date</target>
       </trans-unit>
       <trans-unit id="Farmer" datatype="html">
         <source>Farmer</source>
@@ -673,7 +673,7 @@
           <context context-type="sourcefile">src/app/explorer/dashboard/dashboard.component.html</context>
           <context context-type="linenumber">216,219</context>
         </context-group>
-        <target state="needs-translation">Farmer</target>
+        <target state="translated">Farmeur</target>
       </trans-unit>
       <trans-unit id="Poolspace" datatype="html">
         <source>Pool Space</source>
@@ -741,7 +741,7 @@
           <context context-type="sourcefile">src/app/explorer/reward/reward.component.html</context>
           <context context-type="linenumber">65,70</context>
         </context-group>
-        <target state="needs-translation">Unknown</target>
+        <target state="translated">Inconnu</target>
       </trans-unit>
       <trans-unit id="Lucky" datatype="html">
         <source>Lucky</source>
@@ -753,7 +753,7 @@
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
           <context context-type="linenumber">660,662</context>
         </context-group>
-        <target state="needs-translation">Lucky</target>
+        <target state="translated">Chanceux</target>
       </trans-unit>
       <trans-unit id="Average" datatype="html">
         <source>Average</source>
@@ -765,7 +765,7 @@
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
           <context context-type="linenumber">661,666</context>
         </context-group>
-        <target state="needs-translation">Average</target>
+        <target state="translated">Moyenne</target>
       </trans-unit>
       <trans-unit id="Unlucky" datatype="html">
         <source>Unlucky</source>
@@ -777,7 +777,7 @@
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
           <context context-type="linenumber">662,666</context>
         </context-group>
-        <target state="needs-translation">Unlucky</target>
+        <target state="translated">Malchanceux</target>
       </trans-unit>
       <trans-unit id="cb137bd024242b35a1f084f90e1c3966d8e7a192" datatype="html">
         <source>No blocks found!</source>
@@ -785,7 +785,7 @@
           <context context-type="sourcefile">src/app/explorer/dashboard/dashboard.component.html</context>
           <context context-type="linenumber">257,261</context>
         </context-group>
-        <target state="needs-translation">No blocks found!</target>
+        <target state="translated">Aucun bloc trouvé!</target>
       </trans-unit>
       <trans-unit id="9141579156b435c7be59df6e592df4b93c134297" datatype="html">
         <source>Rewards</source>
@@ -797,7 +797,7 @@
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
           <context context-type="linenumber">429,433</context>
         </context-group>
-        <target state="needs-translation">Rewards</target>
+        <target state="translated">Récompenses</target>
       </trans-unit>
       <trans-unit id="ID" datatype="html">
         <source>ID</source>
@@ -805,7 +805,7 @@
           <context context-type="sourcefile">src/app/explorer/dashboard/dashboard.component.html</context>
           <context context-type="linenumber">274,278</context>
         </context-group>
-        <target state="needs-translation">ID</target>
+        <target state="translated">ID</target>
       </trans-unit>
       <trans-unit id="2f933b826a570836cab04f683970a2d22068458c" datatype="html">
         <source>Date</source>
@@ -813,7 +813,7 @@
           <context context-type="sourcefile">src/app/explorer/dashboard/dashboard.component.html</context>
           <context context-type="linenumber">275,279</context>
         </context-group>
-        <target state="needs-translation">Date</target>
+        <target state="translated">Date</target>
       </trans-unit>
       <trans-unit id="Amount" datatype="html">
         <source>Amount</source>
@@ -861,7 +861,7 @@
           <context context-type="sourcefile">src/app/explorer/dashboard/dashboard.component.html</context>
           <context context-type="linenumber">301,305</context>
         </context-group>
-        <target state="needs-translation">Pool Wallets</target>
+        <target state="translated">Portefeuille de pool</target>
       </trans-unit>
       <trans-unit id="e95061dd489ae7021fd2217ba4af6af8a9b410ce" datatype="html">
         <source>No wallets found!</source>
@@ -869,7 +869,7 @@
           <context context-type="sourcefile">src/app/explorer/dashboard/dashboard.component.html</context>
           <context context-type="linenumber">308,313</context>
         </context-group>
-        <target state="needs-translation">No wallets found!</target>
+        <target state="translated">Aucun portefeuille trouvé !</target>
       </trans-unit>
       <trans-unit id="Address" datatype="html">
         <source>Address</source>
@@ -877,7 +877,7 @@
           <context context-type="sourcefile">src/app/explorer/dashboard/dashboard.component.html</context>
           <context context-type="linenumber">317,319</context>
         </context-group>
-        <target state="needs-translation">Address</target>
+        <target state="translated">Adresse</target>
       </trans-unit>
       <trans-unit id="0972d881bb8dc119602e984ff428593e56a32c4f" datatype="html">
         <source>Synced</source>
@@ -885,7 +885,7 @@
           <context context-type="sourcefile">src/app/explorer/dashboard/dashboard.component.html</context>
           <context context-type="linenumber">329,331</context>
         </context-group>
-        <target state="needs-translation">Synced</target>
+        <target state="translated">Synchronisé</target>
       </trans-unit>
       <trans-unit id="619171a61aa23ace553a260092a2a02105b43174" datatype="html">
         <source>Not synced!</source>
@@ -1033,7 +1033,7 @@
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
           <context context-type="linenumber">62,64</context>
         </context-group>
-        <target state="needs-translation">Estimated Time to Win (ETW)</target>
+        <target state="translated">Durée prévue pour gagner (ETW)</target>
       </trans-unit>
       <trans-unit id="2b2d199a822c35e264991ca9a12cc28091c67e7f" datatype="html">
         <source>Based on farmer estimated size and netspace. This value may vary significantly.</source>
@@ -1053,7 +1053,7 @@
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
           <context context-type="linenumber">79,83</context>
         </context-group>
-        <target state="needs-translation">Unknown</target>
+        <target state="translated">Inconnu</target>
       </trans-unit>
       <trans-unit id="b7122aa7e824953414e6cacb484552f95172b992" datatype="html">
         <source>Current Effort</source>
@@ -1061,7 +1061,7 @@
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
           <context context-type="linenumber">70,72</context>
         </context-group>
-        <target state="needs-translation">Current Effort</target>
+        <target state="translated">Effort actuel</target>
       </trans-unit>
       <trans-unit id="4506ef25cc205e8b8dec267a55e33d9d1ec03da9" datatype="html">
         <source>Estimate based on last block farmed and current estimated time to win. If the farmer never farmed one block then the creation date of the Plot NFT is used as a starting point.</source>
@@ -1069,7 +1069,7 @@
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
           <context context-type="linenumber">72,77</context>
         </context-group>
-        <target state="needs-translation">Estimate based on last block farmed and current estimated time to win. If the farmer never farmed one block then the creation date of the Plot NFT is used as a starting point.</target>
+        <target state="translated">Estimation basée sur le dernier bloc cultivé et le temps estimé actuel pour gagner. Si le farmeur n'a jamais cultivé un bloc, alors la date de création de la NFT de lot est utilisée comme point de départ.</target>
       </trans-unit>
       <trans-unit id="EstimatedRewardDay" datatype="html">
         <source>Estimated Reward</source>
@@ -1085,7 +1085,7 @@
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
           <context context-type="linenumber">84,87</context>
         </context-group>
-        <target state="needs-translation">Profitability based on blocks farmed on last 30 days, based on your farm space.</target>
+        <target state="translated">La rentabilité est basée sur les blocs cultivés sur les 30 derniers jours, en fonction de votre farm space.</target>
       </trans-unit>
       <trans-unit id="Partials" datatype="html">
         <source>Partials</source>
@@ -1193,7 +1193,7 @@
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
           <context context-type="linenumber">205,210</context>
         </context-group>
-        <target state="needs-translation">State</target>
+        <target state="translated">État</target>
       </trans-unit>
       <trans-unit id="c135821495429ff3fd89664f549ec24da765b5d5" datatype="html">
         <source>No partials found!</source>
@@ -1201,7 +1201,7 @@
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
           <context context-type="linenumber">233,238</context>
         </context-group>
-        <target state="needs-translation">No partials found!</target>
+        <target state="translated">Aucun farmeur n'a été trouvé !</target>
       </trans-unit>
       <trans-unit id="6080b77234e92ad41bb52653b239c4c4f851317d" datatype="html">
         <source>Error</source>
@@ -1209,7 +1209,7 @@
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
           <context context-type="linenumber">254,260</context>
         </context-group>
-        <target state="needs-translation">Error</target>
+        <target state="translated">Erreur</target>
       </trans-unit>
       <trans-unit id="4f8b2bb476981727ab34ed40fde1218361f92c45" datatype="html">
         <source>Details</source>
@@ -1217,7 +1217,7 @@
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
           <context context-type="linenumber">255,261</context>
         </context-group>
-        <target state="needs-translation">Details</target>
+        <target state="translated">Détails</target>
       </trans-unit>
       <trans-unit id="fde8d089e5441f8459c6ae22c7fcff640906be0c" datatype="html">
         <source> Farmer took too long to validate the partial proof of space. Make sure your proof of space lookups are fast, and network connectivity is good. Response must happen in less than 25 seconds. Your NAS or network farming can be an issue. This happens when your disks are in use (plotting) or when waking up. </source>
@@ -1361,7 +1361,7 @@
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
           <context context-type="linenumber">441,445</context>
         </context-group>
-        <target state="needs-translation">Today</target>
+        <target state="translated">Aujourd'hui</target>
       </trans-unit>
       <trans-unit id="e430eda9c785cd43465b7cbb400ee914f1057247" datatype="html">
         <source>Yesterday</source>
@@ -1369,7 +1369,7 @@
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
           <context context-type="linenumber">445,449</context>
         </context-group>
-        <target state="needs-translation">Yesterday</target>
+        <target state="translated">Hier</target>
       </trans-unit>
       <trans-unit id="02e0243b60007368f87dc01e083f232dd025096d" datatype="html">
         <source>Last 7 days</source>
@@ -1377,7 +1377,7 @@
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
           <context context-type="linenumber">449,453</context>
         </context-group>
-        <target state="needs-translation">Last 7 days</target>
+        <target state="translated">Les 7 derniers jours</target>
       </trans-unit>
       <trans-unit id="7668986b9f753fcd72ad4a00b1a0c4861d1f7fb8" datatype="html">
         <source>Last 30 days</source>
@@ -1385,7 +1385,7 @@
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
           <context context-type="linenumber">453,457</context>
         </context-group>
-        <target state="needs-translation">Last 30 days</target>
+        <target state="translated">Les 30 derniers jours</target>
       </trans-unit>
       <trans-unit id="7cddb130c07ee03263c592047d979b5cfa0248eb" datatype="html">
         <source>Dates above are all in UTC.</source>
@@ -1433,7 +1433,7 @@
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
           <context context-type="linenumber">490,492</context>
         </context-group>
-        <target state="needs-translation">Yes</target>
+        <target state="translated">Oui</target>
       </trans-unit>
       <trans-unit id="7a9097e4f66451c34b8c3a84ad6f3df0168a490e" datatype="html">
         <source>Confirming</source>
@@ -1453,7 +1453,7 @@
           <context context-type="sourcefile">src/app/explorer/reward/reward.component.html</context>
           <context context-type="linenumber">78,83</context>
         </context-group>
-        <target state="needs-translation">Pending</target>
+        <target state="translated">En attente</target>
       </trans-unit>
       <trans-unit id="7b8556a3d84ca426a76fadba4d870ea661958f4b" datatype="html">
         <source>Payouts</source>
@@ -1469,7 +1469,7 @@
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
           <context context-type="linenumber">522,526</context>
         </context-group>
-        <target state="needs-translation">Total transaction(s)</target>
+        <target state="translated">Total de(s) transaction(s)</target>
       </trans-unit>
       <trans-unit id="TotalPaid" datatype="html">
         <source>Total paid</source>
@@ -1493,7 +1493,7 @@
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
           <context context-type="linenumber">548,550</context>
         </context-group>
-        <target state="needs-translation">Export CSV</target>
+        <target state="translated">Exporter en CSV</target>
       </trans-unit>
       <trans-unit id="Transaction" datatype="html">
         <source>Transaction</source>
@@ -1505,7 +1505,7 @@
           <context context-type="sourcefile">src/app/explorer/reward/reward.component.html</context>
           <context context-type="linenumber">45,49</context>
         </context-group>
-        <target state="needs-translation">Transaction</target>
+        <target state="translated">Transaction</target>
       </trans-unit>
       <trans-unit id="ConfirmedBlock" datatype="html">
         <source>Confirmed Block</source>
@@ -1513,7 +1513,7 @@
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
           <context context-type="linenumber">567,572</context>
         </context-group>
-        <target state="needs-translation">Confirmed Block</target>
+        <target state="translated">Bloc confirmé</target>
       </trans-unit>
       <trans-unit id="Price" datatype="html">
         <source>Price</source>
@@ -1529,7 +1529,7 @@
           <context context-type="sourcefile">src/app/explorer/reward/reward.component.html</context>
           <context context-type="linenumber">47,52</context>
         </context-group>
-        <target state="needs-translation">Price</target>
+        <target state="translated">Prix</target>
       </trans-unit>
       <trans-unit id="NoPayouts" datatype="html">
         <source>No payouts found!</source>
@@ -1597,7 +1597,7 @@
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
           <context context-type="linenumber">697,699</context>
         </context-group>
-        <target state="needs-translation">Max</target>
+        <target state="translated">Max</target>
       </trans-unit>
       <trans-unit id="cceaba1ef6ce809232913dc96e1945fb49fea7a9" datatype="html">
         <source>weeks</source>
@@ -1605,7 +1605,7 @@
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
           <context context-type="linenumber">701,704</context>
         </context-group>
-        <target state="needs-translation">weeks</target>
+        <target state="translated">semaines</target>
       </trans-unit>
       <trans-unit id="8667409dbbbb575bb611e3b1110f54234eef6ff1" datatype="html">
         <source>Size Discount</source>
@@ -2465,7 +2465,7 @@
           <context context-type="sourcefile">src/app/join/join.component.html</context>
           <context context-type="linenumber">99,102</context>
         </context-group>
-        <target state="needs-translation">Joining OpenChia pool with</target>
+        <target state="translated">Rejoignez OpenChia pool avec 🎉</target>
       </trans-unit>
       <trans-unit id="2c40472450770609c852ada57a456dacb80d9436" datatype="html">
         <source>It will ask for your confirmation, check all details and confirm with Y.</source>
@@ -2661,7 +2661,7 @@
           <context context-type="sourcefile">src/app/landing/landing.component.html</context>
           <context context-type="linenumber">148,151</context>
         </context-group>
-        <target state="needs-translation">Join OpenChia pool 🎉</target>
+        <target state="translated">Rejoignez OpenChia pool 🎉</target>
       </trans-unit>
       <trans-unit id="61ce49f38dc9fbff16b2d281d56afca746636bbf" datatype="html">
         <source> Set <x id="START_TAG_SPAN" ctype="x-span" equiv-text="&lt;span class=&quot;text-"/>https://pool.openchia.io<x id="CLOSE_TAG_SPAN" ctype="x-span" equiv-text="&lt;/span&gt; as the pool"/> as the pool URL for your PlotNFT using either the Chia GUI/CLI. Our OpenChia community can help you on the Discord server. Ready? Let&apos;s go! </source>
