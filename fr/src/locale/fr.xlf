@@ -89,7 +89,7 @@
           <context context-type="sourcefile">node_modules/src/pagination/pagination.ts</context>
           <context context-type="linenumber">244,249</context>
         </context-group>
-        <target state="needs-translation">««</target>
+        <target state="translated">««</target>
       </trans-unit>
       <trans-unit id="ngb.pagination.previous" datatype="html">
         <source>«</source>
@@ -97,7 +97,7 @@
           <context context-type="sourcefile">node_modules/src/pagination/pagination.ts</context>
           <context context-type="linenumber">266,267</context>
         </context-group>
-        <target state="needs-translation">«</target>
+        <target state="translated">«</target>
       </trans-unit>
       <trans-unit id="ngb.pagination.next" datatype="html">
         <source>»</source>
@@ -105,7 +105,7 @@
           <context context-type="sourcefile">node_modules/src/pagination/pagination.ts</context>
           <context context-type="linenumber">287,290</context>
         </context-group>
-        <target state="needs-translation">»</target>
+        <target state="translated">»</target>
       </trans-unit>
       <trans-unit id="ngb.pagination.last" datatype="html">
         <source>»»</source>
@@ -113,7 +113,7 @@
           <context context-type="sourcefile">node_modules/src/pagination/pagination.ts</context>
           <context context-type="linenumber">307,309</context>
         </context-group>
-        <target state="needs-translation">»»</target>
+        <target state="translated">»»</target>
       </trans-unit>
       <trans-unit id="ngb.pagination.first-aria" datatype="html">
         <source>First</source>
@@ -189,7 +189,7 @@
           <context context-type="sourcefile">node_modules/src/timepicker/timepicker.ts</context>
           <context context-type="linenumber">189,192</context>
         </context-group>
-        <target state="needs-translation">Minutes</target>
+        <target state="translated">Minutes</target>
       </trans-unit>
       <trans-unit id="ngb.timepicker.increment-hours" datatype="html">
         <source>Increment hours</source>
@@ -423,7 +423,7 @@
           <context context-type="sourcefile">src/app/explorer/dashboard/dashboard.component.html</context>
           <context context-type="linenumber">26,30</context>
         </context-group>
-        <target state="needs-translation">ETW</target>
+        <target state="translated">ETW</target>
       </trans-unit>
       <trans-unit id="c2a13923fcb747215284f76f021d068ed71dcb2b" datatype="html">
         <source>
@@ -497,7 +497,7 @@
           <context context-type="sourcefile">src/app/explorer/dashboard/dashboard.component.html</context>
           <context context-type="linenumber">69,72</context>
         </context-group>
-        <target state="needs-translation">Effort</target>
+        <target state="translated">Effort</target>
       </trans-unit>
       <trans-unit id="af9304cc4713eb67765b7077be78c23468ac321d" datatype="html">
         <source>Average effort to farm a block in the last 30 days.</source>
@@ -521,7 +521,7 @@
           <context context-type="sourcefile">src/app/explorer/dashboard/dashboard.component.html</context>
           <context context-type="linenumber">90,95</context>
         </context-group>
-        <target state="needs-translation">Rewards</target>
+        <target state="translated">Récompenses</target>
       </trans-unit>
       <trans-unit id="Profitability" datatype="html">
         <source>Profitability</source>
@@ -625,7 +625,7 @@
           <context context-type="sourcefile">src/app/explorer/dashboard/dashboard.component.html</context>
           <context context-type="linenumber">210,214</context>
         </context-group>
-        <target state="needs-translation">Blocks Found</target>
+        <target state="translated">Blocks Trouvés</target>
       </trans-unit>
       <trans-unit id="Height" datatype="html">
         <source>Height</source>
@@ -853,7 +853,7 @@
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
           <context context-type="linenumber">498,503</context>
         </context-group>
-        <target state="needs-translation">No rewards found!</target>
+        <target state="translated">Aucune récompense trouvée!</target>
       </trans-unit>
       <trans-unit id="PoolWallets" datatype="html">
         <source>Pool Wallets</source>
@@ -893,7 +893,7 @@
           <context context-type="sourcefile">src/app/explorer/dashboard/dashboard.component.html</context>
           <context context-type="linenumber">330,332</context>
         </context-group>
-        <target state="needs-translation">Not synced!</target>
+        <target state="translated">Non synchronisé!</target>
       </trans-unit>
       <trans-unit id="3885db3e53d2d1af7c4c5dd0d95dc900f47fe73f" datatype="html">
         <source>Pool server real-time log</source>
@@ -949,7 +949,7 @@
           <context context-type="sourcefile">src/app/explorer/login/login.component.html</context>
           <context context-type="linenumber">24,29</context>
         </context-group>
-        <target state="needs-translation">Launcher ID</target>
+        <target state="translated">Launcher ID</target>
       </trans-unit>
       <trans-unit id="bbb53c975f216e03d9bed761cdea97405a9027fb" datatype="html">
         <source>Friendly Name</source>
@@ -1477,7 +1477,7 @@
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
           <context context-type="linenumber">530,533</context>
         </context-group>
-        <target state="needs-translation">Total paid</target>
+        <target state="translated">Total payé</target>
       </trans-unit>
       <trans-unit id="TotalUnpaid" datatype="html">
         <source>Total unpaid</source>
@@ -1485,7 +1485,7 @@
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
           <context context-type="linenumber">539,542</context>
         </context-group>
-        <target state="needs-translation">Total unpaid</target>
+        <target state="translated">Montant total à payer</target>
       </trans-unit>
       <trans-unit id="41453c3d7e0a1ac2e5c9e73d3f8f5bf9ec23b829" datatype="html">
         <source>Export CSV</source>
@@ -2133,7 +2133,7 @@
           <context context-type="sourcefile">src/app/fees/fees.component.html</context>
           <context context-type="linenumber">43,46</context>
         </context-group>
-        <target state="needs-translation">Base fee</target>
+        <target state="translated">Frais de base</target>
       </trans-unit>
       <trans-unit id="cbeb791e3085bce39929e831a4609253bff491ad" datatype="html">
         <source>Currently we charge 1% fee (before discounts). That fee is subtracted from each farmer&apos;s reward. For example, if in a given round the farmer is due a share of 0.05 XCH, then 1% of that (0.0005 XCH) will be kept as a pool fee and the rest (0.0495 XCH) will be credited to the farmer.</source>
@@ -2173,7 +2173,7 @@
           <context context-type="sourcefile">src/app/fees/fees.component.html</context>
           <context context-type="linenumber">57,60</context>
         </context-group>
-        <target state="needs-translation">Example: After 6 months (180 days) you will get a discount of 0.0479%, effective pool fee of 0.9520%.</target>
+        <target state="translated">Exemple: Après 6 mois (180 jours) vous obtiendrez une réduction de 0,0479%, des frais de pool effectifs de 0,9520%.</target>
       </trans-unit>
       <trans-unit id="530481992eb9a3720538a3eba3ca0604d2560710" datatype="html">
         <source>Leaving the pool for more than 12 hours will reset the discount!</source>
