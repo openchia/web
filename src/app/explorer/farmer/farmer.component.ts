@@ -64,6 +64,7 @@ export class FarmerComponent implements OnInit {
   payoutsPageSize: number = 25;
   payoutsCountTotal: number = 0;
   payoutsAmountTotal: number = 0;
+  payoutsDownloadLimit: number = 50000;
 
   payouttxs$: Observable<any[]>;
   _payouttxs$ = new BehaviorSubject<any[]>([]);
@@ -159,10 +160,8 @@ export class FarmerComponent implements OnInit {
 
   }
 
-  payoutDownloadCSV() {
-    this.dataService.getPayoutTxs({ launcher: this.farmerid, limit: 800 }).subscribe(res => {
-
-      // FIXME: get next pages if count is > limit (800)
+  payoutsDownloadCSV() {
+    this.dataService.getPayoutTxs({ launcher: this.farmerid, limit: this.payoutsDownloadLimit }).subscribe(res => {
       let csv_array = [];
       const out = Object.keys(res['results']).map(index => {
         let data = res['results'][index];
