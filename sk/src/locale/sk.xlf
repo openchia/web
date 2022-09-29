@@ -89,7 +89,7 @@
           <context context-type="sourcefile">node_modules/src/pagination/pagination.ts</context>
           <context context-type="linenumber">244,249</context>
         </context-group>
-        <target state="needs-translation">««</target>
+        <target state="translated">««</target>
       </trans-unit>
       <trans-unit id="ngb.pagination.previous" datatype="html">
         <source>«</source>
@@ -97,7 +97,7 @@
           <context context-type="sourcefile">node_modules/src/pagination/pagination.ts</context>
           <context context-type="linenumber">266,267</context>
         </context-group>
-        <target state="needs-translation">«</target>
+        <target state="translated">«</target>
       </trans-unit>
       <trans-unit id="ngb.pagination.next" datatype="html">
         <source>»</source>
@@ -105,7 +105,7 @@
           <context context-type="sourcefile">node_modules/src/pagination/pagination.ts</context>
           <context context-type="linenumber">287,290</context>
         </context-group>
-        <target state="needs-translation">»</target>
+        <target state="translated">»</target>
       </trans-unit>
       <trans-unit id="ngb.pagination.last" datatype="html">
         <source>»»</source>
@@ -113,7 +113,7 @@
           <context context-type="sourcefile">node_modules/src/pagination/pagination.ts</context>
           <context context-type="linenumber">307,309</context>
         </context-group>
-        <target state="needs-translation">»»</target>
+        <target state="translated">»»</target>
       </trans-unit>
       <trans-unit id="ngb.pagination.first-aria" datatype="html">
         <source>First</source>
@@ -803,7 +803,7 @@
           <context context-type="sourcefile">src/app/explorer/dashboard/dashboard.component.html</context>
           <context context-type="linenumber">274,278</context>
         </context-group>
-        <target state="needs-translation">ID</target>
+        <target state="translated">ID</target>
       </trans-unit>
       <trans-unit id="2f933b826a570836cab04f683970a2d22068458c" datatype="html">
         <source>Date</source>
@@ -1491,7 +1491,7 @@
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
           <context context-type="linenumber">548,550</context>
         </context-group>
-        <target state="needs-translation">Export CSV</target>
+        <target state="translated">Export do CSV</target>
       </trans-unit>
       <trans-unit id="Transaction" datatype="html">
         <source>Transaction</source>
@@ -1595,7 +1595,7 @@
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
           <context context-type="linenumber">697,699</context>
         </context-group>
-        <target state="needs-translation">Max</target>
+        <target state="translated">Max</target>
       </trans-unit>
       <trans-unit id="cceaba1ef6ce809232913dc96e1945fb49fea7a9" datatype="html">
         <source>weeks</source>
@@ -1775,7 +1775,7 @@
           <context context-type="sourcefile">src/app/explorer/login/login.component.html</context>
           <context context-type="linenumber">46,48</context>
         </context-group>
-        <target state="needs-translation">Email</target>
+        <target state="translated">Email</target>
       </trans-unit>
       <trans-unit id="701300f5b2c4871d97cc4bec997d16eabedc9bde" datatype="html">
         <source> If you have an email configured you will receive a notification if your launcher stops sending partials for more than one hour. </source>
@@ -2839,7 +2839,7 @@
           <context context-type="sourcefile">src/app/partners/partners.component.html</context>
           <context context-type="linenumber">39,43</context>
         </context-group>
-        <target state="needs-translation">Spacescan</target>
+        <target state="translated">Spacescan</target>
       </trans-unit>
       <trans-unit id="ee1c3083db3f81955e946dbc72f585707dab23a5" datatype="html">
         <source>is new generation Chia blockchain explorer and analytics platform. Developed by a small team of Chia enthusiasts, who aim to bring out in-depth information&apos;s from Blockchain and make it widely available to Chia community and developers</source>
@@ -2855,7 +2855,7 @@
           <context context-type="sourcefile">src/app/partners/partners.component.html</context>
           <context context-type="linenumber">70,74</context>
         </context-group>
-        <target state="needs-translation">Vivid Stake Pool</target>
+        <target state="translated">Vivid Stake Pool</target>
       </trans-unit>
       <trans-unit id="08a08ba19068a7e105cfb8e87f23d1841ae1a9de" datatype="html">
         <source>They are offering cutting-edge cryptocurrency technology of today and tomorrow. Vivid Stake Pool allows you to stake in Cardano. If you deposit your Fiat Money on your bank account, you will receive 1-3 % profit per year which will be paid after at least a few months. In Cardano it is the opposite: you receive high profits as high as 5-8 % per year which is paid every 5 days!</source>
@@ -2891,7 +2891,7 @@
           <context context-type="sourcefile">src/app/referral/referral.component.html</context>
           <context context-type="linenumber">19,23</context>
         </context-group>
-        <target state="needs-translation">BETA</target>
+        <target state="translated">BETA</target>
       </trans-unit>
       <trans-unit id="d32d7c80cba2c064d69e06a150b115134afa52ed" datatype="html">
         <source>Earn XCH by referring your friends to this pool!</source>
@@ -3011,7 +3011,7 @@
           <context context-type="sourcefile">src/app/shared/footer/footer.component.html</context>
           <context context-type="linenumber">42,45</context>
         </context-group>
-        <target state="needs-translation">FAQ</target>
+        <target state="translated">Najčastejšie otázky</target>
       </trans-unit>
       <trans-unit id="Terms" datatype="html">
         <source>Terms</source>
@@ -3091,7 +3091,7 @@
           <context context-type="sourcefile">src/app/shared/navbar/navbar.component.html</context>
           <context context-type="linenumber">58,64</context>
         </context-group>
-        <target state="needs-translation">API</target>
+        <target state="translated">API</target>
       </trans-unit>
       <trans-unit id="e6807841dec3ed42de1240ff85c96a1562377b2a" datatype="html">
         <source> Dust storm currently affecting the blockchain. Payouts may be delayed. </source>
