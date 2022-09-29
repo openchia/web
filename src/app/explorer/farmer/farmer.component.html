@@ -581,9 +581,9 @@
                       <span class="text-primary"><span i18n="">Export CSV</span></span>
                       <p class="display-3">
                         <button *ngIf="payouttxs.length>=1" class="btn btn-primary btn-icon"
-                          (click)="payoutDownloadCSV()">Download</button>
-                        <button *ngIf="payouttxs.length==0" disabled class="btn btn-primary btn-icon disabled">No
-                          payout</button>
+                          (click)="payoutsDownloadCSV()"><span i18n="">Download</span></button>
+                        <button *ngIf="payouttxs.length==0" disabled class="btn btn-primary btn-icon disabled">
+                          <span i18n="">No payout</span></button>
                       </p>
                     </div>
                   </div>
