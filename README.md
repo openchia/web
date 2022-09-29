@@ -19,8 +19,8 @@
   <a style="text-decoration:none" href="https://www.youtube.com/channel/UCL70j_KiPd49rfp_UEqxiyQ">
     <img alt="YouTube" src="https://img.shields.io/youtube/channel/subscribers/UCL70j_KiPd49rfp_UEqxiyQ?label=YouTube&logo=youtube&logoColor=white&style=flat-square">
   </a>
-  <a href="https://translation.openchia.io/engage/openchia/">
-    <img src="https://translation.openchia.io/widgets/openchia/-/website/svg-badge.svg" alt="Translation status" />
+  <a style="text-decoration:none" href="https://crowdin.com/project/openchia-web">
+    <img alt="Translations" src="https://badges.crowdin.net/openchia-web/localized.svg"/>
   </a>
 </p>
 
