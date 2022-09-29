@@ -1,6 +1,9 @@
 <section class="section section-sm pt-sm">
-  <div *ngIf="!farmer.launcher_id" class="container">
-    <div class="alert alert-warning alert-delay-1s" role="alert">
+  <div *ngIf="!farmer.launcher_id && (farmer | json) == '{}'" class="container">
+    <div class="alert alert-info alert-loading" role="alert">
+      <span i18n>Loading farmer details...</span>
+    </div>
+    <div class="alert alert-warning alert-notfound" role="alert">
       <strong i18n="@@Warning">Warning</strong>: <span i18n>farmer doesn't exist (404).</span>
     </div>
   </div>
