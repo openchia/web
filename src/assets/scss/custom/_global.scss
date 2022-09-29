@@ -228,16 +228,28 @@
 
 // Alert animation delay
 
-.alert-delay-1s {
-    animation: show-alert 0s 1s forwards;
+.alert-loading {
+    -moz-animation: hide-alert 0s 3s forwards;
+    -webkit-animation: hide-alert 0s 3s forwards;
+    -o-animation: hide-alert 0s 3s forwards;
+    animation: hide-alert 0s 3s forwards;
+    visibility: visible;
+}
+
+.alert-notfound {
+    -moz-animation: show-alert 0s 3s forwards;
+    -webkit-animation: show-alert 0s 3s forwards;
+    -o-animation: show-alert 0s 3s forwards;
+    animation: show-alert 0s 3s forwards;
     visibility: hidden;
 }
 
-.alert-delay-2s {
-    animation: show-alert 0s 2s forwards;
-    visibility: hidden;
+@keyframes hide-alert {
+    to {
+        visibility: hidden;
+    }
 }
-  
+
 @keyframes show-alert {
     to {
         visibility: visible;
