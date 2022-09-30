@@ -935,7 +935,7 @@
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
           <context context-type="linenumber">4,7</context>
         </context-group>
-        <target state="needs-translation">Loading farmer details...</target>
+        <target state="translated">Načítava sa prehľad farmy...</target>
       </trans-unit>
       <trans-unit id="Warning" datatype="html">
         <source>Warning</source>
@@ -1027,7 +1027,7 @@
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
           <context context-type="linenumber">50,53</context>
         </context-group>
-        <target state="needs-translation">Client Version</target>
+        <target state="translated">Verzia klienta</target>
       </trans-unit>
       <trans-unit id="e5d8bb389c702588877f039d72178f219453a72d" datatype="html">
         <source>Unknown</source>
@@ -1055,7 +1055,7 @@
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
           <context context-type="linenumber">53,57</context>
         </context-group>
-        <target state="needs-translation">Pool Connected</target>
+        <target state="translated">Pripojenie</target>
       </trans-unit>
       <trans-unit id="da1bcec161d959bf88a99855ca5272e44821e9ec" datatype="html">
         <source>Estimated Size</source>
@@ -1151,7 +1151,7 @@
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
           <context context-type="linenumber">100,104</context>
         </context-group>
-        <target state="needs-translation">day</target>
+        <target state="translated">deň</target>
       </trans-unit>
       <trans-unit id="9e14066c3e4348c3485e35a4c0eb8b1162b6ed54" datatype="html">
         <source>week</source>
@@ -1159,7 +1159,7 @@
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
           <context context-type="linenumber">104,108</context>
         </context-group>
-        <target state="needs-translation">week</target>
+        <target state="translated">týždeň</target>
       </trans-unit>
       <trans-unit id="2790ad2c08306240a508576e942fcfdf271f5a79" datatype="html">
         <source>month</source>
@@ -1167,7 +1167,7 @@
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
           <context context-type="linenumber">108,113</context>
         </context-group>
-        <target state="needs-translation">month</target>
+        <target state="translated">mesiac</target>
       </trans-unit>
       <trans-unit id="EarnedRewardDay" datatype="html">
         <source>Earned Reward</source>
@@ -1175,7 +1175,7 @@
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
           <context context-type="linenumber">113,115</context>
         </context-group>
-        <target state="needs-translation">Earned Reward</target>
+        <target state="translated">Získaná odmena</target>
       </trans-unit>
       <trans-unit id="151071d32073b6b171ce60df96cdcef0b5e5ac66" datatype="html">
         <source>Icons <x id="START_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;i class=&quot;fas fa"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;               are based on est"/> and <x id="START_ITALIC_TEXT_1" equiv-text="&lt;i class=&quot;fas fa"/><x id="CLOSE_ITALIC_TEXT" ctype="x-i" equiv-text="&lt;/i&gt;               are based on est"/> are based on estimated rewards. Value rounded to 4 decimal places (details shown on <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;Rewards&lt;/b&gt; t"/>Rewards<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt; tab).&lt;/span&gt;"/> tab).</source>
@@ -1191,7 +1191,7 @@
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
           <context context-type="linenumber">121,123</context>
         </context-group>
-        <target state="needs-translation">last day</target>
+        <target state="translated">posledný deň</target>
       </trans-unit>
       <trans-unit id="971b306745bcd5c8ec85360d6e7bf0813e9eaeb9" datatype="html">
         <source>last week</source>
@@ -1199,7 +1199,7 @@
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
           <context context-type="linenumber">128,130</context>
         </context-group>
-        <target state="needs-translation">last week</target>
+        <target state="translated">posledný týždeň</target>
       </trans-unit>
       <trans-unit id="71c55ea72d297f1bb083d13fecd2e0ce919857d2" datatype="html">
         <source>last month</source>
@@ -1207,7 +1207,7 @@
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
           <context context-type="linenumber">135,137</context>
         </context-group>
-        <target state="needs-translation">last month</target>
+        <target state="translated">posledný mesiac</target>
       </trans-unit>
       <trans-unit id="Partials" datatype="html">
         <source>Partials</source>
@@ -1623,7 +1623,7 @@
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
           <context context-type="linenumber">587,589</context>
         </context-group>
-        <target state="needs-translation">Download</target>
+        <target state="translated">Stiahnuť</target>
       </trans-unit>
       <trans-unit id="8481f5ae1a7455d7f3dbae6b014eb4d2107de9e5" datatype="html">
         <source>No payout</source>
@@ -1631,7 +1631,7 @@
           <context context-type="sourcefile">src/app/explorer/farmer/farmer.component.html</context>
           <context context-type="linenumber">589,595</context>
         </context-group>
-        <target state="needs-translation">No payout</target>
+        <target state="translated">Žiadna výplata</target>
       </trans-unit>
       <trans-unit id="Transaction" datatype="html">
         <source>Transaction</source>
@@ -2715,7 +2715,7 @@
           <context context-type="sourcefile">src/app/landing/landing.component.html</context>
           <context context-type="linenumber">111,116</context>
         </context-group>
-        <target state="needs-translation">Farmers</target>
+        <target state="translated">Farmári</target>
       </trans-unit>
       <trans-unit id="4fcdaf981f541504defec222d1326c6ae29c8fe5" datatype="html">
         <source>Profitability</source>
@@ -2723,7 +2723,7 @@
           <context context-type="sourcefile">src/app/landing/landing.component.html</context>
           <context context-type="linenumber">127,131</context>
         </context-group>
-        <target state="needs-translation">Profitability</target>
+        <target state="translated">Ziskovosť</target>
       </trans-unit>
       <trans-unit id="81d24cf61f5893f2edf6dfeec9dcfe382f72ca85" datatype="html">
         <source><x id="INTERPOLATION" equiv-text="Join pool --&gt;"/> XCH/TiB/day</source>
