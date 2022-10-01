@@ -60,7 +60,7 @@ export class DashboardComponent implements OnInit {
   }
 
   ngOnInit() {
-    this.farmersFilterActive = (localStorage.getItem('farmer_show_active_only') == 'true') ? 1 : 0;
+    this.farmersFilterActive = (localStorage.getItem('farmer_show_active_only') == 'false') ? 0 : 1;
 
     this.dataService.getStats().subscribe(data => {
       this.pool_space = data['pool_space'];
