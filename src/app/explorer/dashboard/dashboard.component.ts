@@ -60,6 +60,8 @@ export class DashboardComponent implements OnInit {
   }
 
   ngOnInit() {
+    this.farmersFilterActive = (localStorage.getItem('farmer_show_active_only') == 'false') ? 0 : 1;
+
     this.dataService.getStats().subscribe(data => {
       this.pool_space = data['pool_space'];
       this.estimate_win = this.secondsToHm(data['estimate_win'] * 60);
@@ -153,6 +155,7 @@ export class DashboardComponent implements OnInit {
       limit: this.farmersPageSize,
       points_pplns__gt: this.farmersFilterActive
     }).subscribe(this.handleLaunchers.bind(this));
+    localStorage.setItem('farmer_show_active_only', (parseInt(filter) == 1) ? 'true' : 'false');
   }
 
   refreshBlocks() {

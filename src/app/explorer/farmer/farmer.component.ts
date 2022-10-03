@@ -121,6 +121,7 @@ export class FarmerComponent implements OnInit {
         });
       });
     });
+    this.failedPartials = (localStorage.getItem('farmer_failed_partials_checked') == 'true') ? true : false;
   }
 
   humanize(seconds: number) {
@@ -227,6 +228,7 @@ export class FarmerComponent implements OnInit {
   toggleFailedPartials(event): void {
     this.failedPartials = event.target.checked;
     this.filterPartials();
+    localStorage.setItem('farmer_failed_partials_checked', event.target.checked);
   }
 
   filterPartials() {

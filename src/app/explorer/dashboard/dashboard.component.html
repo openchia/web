@@ -156,8 +156,14 @@
       </div>
       <div class="col-lg-4">
         <select #farmersFilter class="btn btn-secondary btn-block" (change)="refreshFarmers($event.target.value)">
-          <option value="1" default i18n>Show active only</option>
-          <option value="0" i18n>Show all farmers</option>
+          <ng-template [ngIf]="farmersFilterActive==1" [ngIfElse]="showAll">
+            <option value="1" selected i18n>Show active only</option>
+            <option value="0" i18n>Show all farmers</option>
+          </ng-template>
+          <ng-template #showAll>
+            <option value="1" i18n>Show active only</option>
+            <option value="0" selected i18n>Show all farmers</option>
+          </ng-template>
         </select>
       </div>
     </div>
