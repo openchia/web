@@ -28,6 +28,7 @@ export class DashboardComponent implements OnInit {
   xch_tb_month: number = 0;
   average_effort: number = 0;
 
+  searchFarmerStr: any;
   searchNotFound: boolean = false;
 
   blocks$: Observable<any[]>;
@@ -138,10 +139,17 @@ export class DashboardComponent implements OnInit {
   }
 
   searchFarmer() {
+    this.searchFarmerStr = this.searchInput.nativeElement.value;
     this.searchNotFound = false;
     this.farmersPage = 1;
+
+    // auto remove '0x' if use full launcherid
+    if(this.searchFarmerStr.length == 66 && this.searchFarmerStr.startsWith('0x')) {
+      this.searchFarmerStr = this.searchFarmerStr.replace(/^0x/, '');
+    }
+
     this.dataService.getLaunchers({
-      search: this.searchInput.nativeElement.value,
+      search: this.searchFarmerStr,
       limit: this.farmersPageSize,
       offset: (this.farmersPage - 1) * this.farmersPageSize
     }).subscribe(this.handleLaunchers.bind(this));
