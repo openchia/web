@@ -20,6 +20,10 @@ And through the environments (browser):
 
 Please include a screenshot if possible.
 
+## Issue(s)
+
+Please include issue reference.
+
 ## Checklist
 
 - [ ] My code follows the style guidelines of this project
@@ -27,3 +31,4 @@ Please include a screenshot if possible.
 - [ ] I have made corresponding changes to the documentation
 - [ ] My changes generate no new warnings
 - [ ] Any dependent changes have been merged and published in downstream modules
+
