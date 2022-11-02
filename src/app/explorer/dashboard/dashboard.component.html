@@ -292,8 +292,11 @@
           </td>
           <td>{{ payout.datetime | date:"medium" }}</td>
           <td>
-            <a href="https://www.spacescan.io/xch/block/height/{{ payout.blocks[0].farmed_height }}"
-            target="_blank">{{ payout.blocks[0].farmed_height }}</a>
+            <span *ngFor="let block of payout.blocks; let last = last">
+              <a href="https://www.spacescan.io/xch/block/height/{{ block.farmed_height }}"
+                target="_blank">{{ block.farmed_height }}</a>
+              <span *ngIf="!last">,&nbsp;</span>
+            </span>
           </td>
           <td>{{ payout.amount / 1000000000000 | number }} XCH</td>
           <td>{{ payout.fee / 1000000000000 | number }} XCH</td>
