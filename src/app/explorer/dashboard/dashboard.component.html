@@ -278,7 +278,9 @@
         <tr>
           <th scope="col" i18n="@@ID">ID</th>
           <th scope="col" i18n>Date</th>
+          <th scope="col" i18n="@@Height">Height</th>
           <th scope="col" i18n="@@Amount">Amount</th>
+          <th scope="col" i18n="@@Fee">Fee</th>
         </tr>
       </thead>
       <tbody *ngIf="(payouts$ | async) as payouts;">
@@ -289,10 +291,18 @@
             </a>
           </td>
           <td>{{ payout.datetime | date:"medium" }}</td>
+          <td>
+            <span *ngFor="let block of payout.blocks; let last = last">
+              <a href="https://www.spacescan.io/xch/block/height/{{ block.farmed_height }}"
+                target="_blank">{{ block.farmed_height }}</a>
+              <span *ngIf="!last">,&nbsp;</span>
+            </span>
+          </td>
           <td>{{ payout.amount / 1000000000000 | number }} XCH</td>
+          <td>{{ payout.fee / 1000000000000 | number }} XCH</td>
         </tr>
         <tr *ngIf="payouts.length == 0">
-          <td colspan="3" i18n="@@NoRewards">No rewards found!</td>
+          <td colspan="5" i18n="@@NoRewards">No rewards found!</td>
         </tr>
       </tbody>
     </table>

@@ -513,25 +513,38 @@
           <table class="table table-sm table-striped table-responsive-lg">
             <thead>
               <tr>
+                <th scope="col" i18n="@@RewardID">Reward ID</th>
                 <th scope="col" i18n="@@Date">Date</th>
                 <th scope="col" i18n="@@Blocks">Blocks</th>
                 <th scope="col" i18n="@@Amount">Amount</th>
                 <th scope="col" i18n="@@Paid">Paid</th>
-                <th scope="col" i18n="@@RewardID">Reward ID</th>
               </tr>
             </thead>
             <tbody *ngIf="(payoutaddrs$ | async) as payoutaddrs;">
               <tr *ngFor="let payoutaddr of payoutaddrs; let i = index">
+                <td><a [routerLink]="['/explorer/reward', payoutaddr.payout.id]">{{ payoutaddr.payout.id }}</a></td>
                 <td>{{ payoutaddr.payout.datetime | date:"medium" }}</td>
                 <td><span *ngFor="let block of payoutaddr.payout.blocks">#{{ block.farmed_height}} </span></td>
                 <td>{{ payoutaddr.amount / 1000000000000 }} XCH</td>
                 <td>
-                  <span *ngIf="payoutaddr.transaction && payoutaddr.transaction.confirmed_block_index" i18n>Yes</span>
+                  <ng-template #pendingTransactionTooltip>
+                    <span i18n>
+                      The minimum payout has not been reached, transaction will be made at the next payment.
+                    </span>
+                  </ng-template>
+                  <span *ngIf="payoutaddr.transaction && payoutaddr.transaction.confirmed_block_index"
+                    class="badge badge-pill badge-success">
+                    <span i18n>Confirmed</span>
+                  </span>
                   <span *ngIf="payoutaddr.transaction && !payoutaddr.transaction.confirmed_block_index"
-                    i18n>Confirming</span>
-                  <span *ngIf="!payoutaddr.transaction" i18n>Pending</span>
+                    class="badge badge-pill badge-warning">
+                    <span i18n>Confirming</span>
+                  </span>
+                  <span *ngIf="!payoutaddr.transaction" closeDelay="4000"
+                    [ngbTooltip]="pendingTransactionTooltip" class="badge badge-pill badge-warning">
+                    <span i18n>Pending</span>&nbsp;<i class="fas fa-info-circle"></i>
+                  </span>
                 </td>
-                <td><a [routerLink]="['/explorer/reward', payoutaddr.payout.id]">{{ payoutaddr.payout.id }}</a></td>
               </tr>
               <tr *ngIf="payoutaddrs.length == 0">
                 <td colspan="7" i18n="@@NoRewards">No rewards found!</td>
