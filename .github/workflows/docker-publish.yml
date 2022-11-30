@@ -66,12 +66,21 @@ jobs:
     steps:
       # Trivy vulnerability scanner
       # https://github.com/aquasecurity/trivy-action
-      - name: Trivy analyzer
+      - name: Run Trivy vulnerability scanner
+        if: github.event_name != 'pull_request'
         uses: aquasecurity/trivy-action@a7a829a4345428ddd92ca57b18257440f6a18c90
         with:
           image-ref: ghcr.io/openchia/web:main
-          format: table
-          exit-code: 1
-          ignore-unfixed: true
+          format: sarif
+          ignore-unfixed: false
           vuln-type: os,library
-          severity: CRITICAL
+          output: trivy-results.sarif
+
+      # Trivy github reporting
+      # https://github.com/marketplace/actions/aqua-security-trivy
+      - name: Upload Trivy results to Github
+        if: github.event_name != 'pull_request'
+        uses: github/codeql-action/upload-sarif@v2
+        with:
+          sarif_file: trivy-results.sarif
+
