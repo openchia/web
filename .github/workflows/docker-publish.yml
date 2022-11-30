@@ -76,6 +76,7 @@ jobs:
           image-ref: 'ghcr.io/openchia/web:main'
           format: 'sarif'
           vuln-type: 'os,library'
+          severity: 'CRITICAL'
           output: 'trivy-results.sarif'
 
       # Trivy github reporting
