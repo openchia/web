@@ -62,19 +62,22 @@ jobs:
   trivy-scanner:
     runs-on: ubuntu-latest
     needs: build-and-publish
+    permissions:
+      contents: read
+      security-events: write
 
     steps:
       # Trivy vulnerability scanner
       # https://github.com/aquasecurity/trivy-action
       - name: Run Trivy vulnerability scanner
         if: github.event_name != 'pull_request'
-        uses: aquasecurity/trivy-action@a7a829a4345428ddd92ca57b18257440f6a18c90
+        uses: aquasecurity/trivy-action@7b7aa264d83dc58691451798b4d117d53d21edfe
         with:
-          image-ref: ghcr.io/openchia/web:main
-          format: sarif
-          ignore-unfixed: false
-          vuln-type: os,library
-          output: trivy-results.sarif
+          image-ref: 'ghcr.io/openchia/web:main'
+          format: 'template'
+          template: '@/contrib/sarif.tpl'
+          vuln-type: 'os,library'
+          output: 'trivy-results.sarif'
 
       # Trivy github reporting
       # https://github.com/marketplace/actions/aqua-security-trivy
@@ -82,5 +85,4 @@ jobs:
         if: github.event_name != 'pull_request'
         uses: github/codeql-action/upload-sarif@v2
         with:
-          sarif_file: trivy-results.sarif
-
+          sarif_file: 'trivy-results.sarif'
