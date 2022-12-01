@@ -10,7 +10,7 @@ on:
 
 jobs:
 
-  trivy-image-scan:
+  trivy-code-scan:
     runs-on: ubuntu-latest
 
     steps:
