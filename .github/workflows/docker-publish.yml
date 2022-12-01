@@ -59,7 +59,7 @@ jobs:
           tags: ${{ steps.meta.outputs.tags }}
           labels: ${{ steps.meta.outputs.labels }}
 
-  trivy-scanner:
+  trivy-image-scan:
     runs-on: ubuntu-latest
     needs: build-and-publish
 
