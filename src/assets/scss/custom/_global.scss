@@ -307,3 +307,10 @@
     background: transparent !important;
     text-align: center !important;
 }
+
+// Bootstrap Pagination Override
+
+.pagination .page-item.active span.visually-hidden {
+    display: none !important;
+}
+
