@@ -14,10 +14,9 @@ on:
     branches: [ 'main' ]
 
 env:
-  # Use docker.io for Docker Hub if empty
   REGISTRY: ghcr.io
-  # github.repository as <account>/<repo>
   IMAGE_NAME: ${{ github.repository }}
+  TRIVY_FILE: trivy-results.sarif
 
 jobs:
 
@@ -72,12 +71,12 @@ jobs:
         if: github.event_name != 'pull_request'
         uses: aquasecurity/trivy-action@master
         with:
-          image-ref: 'ghcr.io/openchia/web:main'
+          image-ref: ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}:main
           format: 'sarif'
           ignore-unfixed: 'false'
           vuln-type: 'os,library'
           severity: 'CRITICAL,HIGH'
-          output: 'trivy-results.sarif'
+          output: ${{ env.TRIVY_FILE }}
 
       # Trivy github reporting
       # https://github.com/marketplace/actions/aqua-security-trivy
@@ -85,5 +84,5 @@ jobs:
         if: github.event_name != 'pull_request'
         uses: github/codeql-action/upload-sarif@v2
         with:
-          sarif_file: 'trivy-results.sarif'
+          sarif_file: ${{ env.TRIVY_FILE }}
 
