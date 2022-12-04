@@ -1,11 +1,11 @@
 body.bootstrap {
-    @import "~bootstrap/scss/functions";
+    @import "bootstrap/scss/functions";
     @import "functions";
 
     @import "variables";
-    @import "~bootstrap/scss/variables";
+    @import "bootstrap/scss/variables";
 
-    @import "~bootstrap/scss/mixins";
+    @import "bootstrap/scss/mixins";
     @import "mixins";
 
     margin: 0;
@@ -20,13 +20,13 @@ body.bootstrap {
 
 .bootstrap {
     
-    @import "~bootstrap/scss/functions";
+    @import "bootstrap/scss/functions";
     @import "functions";
 
     @import "variables";
-    @import "~bootstrap/scss/variables";
+    @import "bootstrap/scss/variables";
 
-    @import "~bootstrap/scss/mixins";
+    @import "bootstrap/scss/mixins";
     @import "mixins";
 
     @import 'node_modules/bootstrap/scss/root';
@@ -37,7 +37,7 @@ body.bootstrap {
     @import 'node_modules/bootstrap/scss/grid';
     @import 'node_modules/bootstrap/scss/tables';
     @import 'node_modules/bootstrap/scss/forms';
-    //@import '~@forevolve/bootstrap-dark/scss/form-overrides';
+    //@import '@forevolve/bootstrap-dark/scss/form-overrides';
 
     @import 'node_modules/bootstrap/scss/buttons';
     @import 'node_modules/bootstrap/scss/transitions';
