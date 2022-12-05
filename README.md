@@ -59,8 +59,12 @@ Variables available in the docker environment:
 
 ## Translation
 
-We are currently using self hosted Weblate.
+We are currently using [Crowdin](https://crowdin.com/).
 All you need to do is create an account and translate to your language using the [website here][2].
+
+## Security
+
+Code and Docker image are scanned by [Trivy](https://github.com/aquasecurity/trivy). All results are in [GitHub Security tab](https://github.com/openchia/web/security/code-scanning).
 
 ## Contributing
 
