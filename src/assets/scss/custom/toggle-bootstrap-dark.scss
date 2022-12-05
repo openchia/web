@@ -1,15 +1,15 @@
 body.bootstrap-dark {
-    @import "~bootstrap/scss/functions";
+    @import "bootstrap/scss/functions";
     @import "functions";
 
 	@import "variables-dark";
-    @import "~bootstrap/scss/variables";
-    @import '~@forevolve/bootstrap-dark/scss/dark-variables';
+    @import "bootstrap/scss/variables";
+    @import '@forevolve/bootstrap-dark/scss/dark-variables';
 
-    @import "~bootstrap/scss/mixins";
+    @import "bootstrap/scss/mixins";
     @import "mixins";
-    @import '~@forevolve/bootstrap-dark/scss/mixins-overrides';
-    @import '~@forevolve/bootstrap-dark/scss/dark-mixins';
+    @import '@forevolve/bootstrap-dark/scss/mixins-overrides';
+    @import '@forevolve/bootstrap-dark/scss/dark-mixins';
 
     margin: 0;
     font-family: $font-family-base;
@@ -24,17 +24,17 @@ body.bootstrap-dark {
 
 .bootstrap-dark {
 
-    @import "~bootstrap/scss/functions";
+    @import "bootstrap/scss/functions";
     @import "functions";
 
 	@import "variables-dark";
-    @import "~bootstrap/scss/variables";
-    @import '~@forevolve/bootstrap-dark/scss/dark-variables';
+    @import "bootstrap/scss/variables";
+    @import '@forevolve/bootstrap-dark/scss/dark-variables';
 
-    @import "~bootstrap/scss/mixins";
+    @import "bootstrap/scss/mixins";
     @import "mixins";
-    @import '~@forevolve/bootstrap-dark/scss/mixins-overrides';
-    @import '~@forevolve/bootstrap-dark/scss/dark-mixins';
+    @import '@forevolve/bootstrap-dark/scss/mixins-overrides';
+    @import '@forevolve/bootstrap-dark/scss/dark-mixins';
 
     @import 'node_modules/bootstrap/scss/root';
     @import 'node_modules/bootstrap/scss/reboot';
@@ -44,10 +44,10 @@ body.bootstrap-dark {
     @import 'node_modules/bootstrap/scss/grid';
 
     @import 'node_modules/bootstrap/scss/tables';
-    @import '~@forevolve/bootstrap-dark/scss/dark-tables';
+    @import '@forevolve/bootstrap-dark/scss/dark-tables';
 
     @import 'node_modules/bootstrap/scss/forms';
-    @import '~@forevolve/bootstrap-dark/scss/form-overrides';
+    @import '@forevolve/bootstrap-dark/scss/form-overrides';
 
     @import 'node_modules/bootstrap/scss/buttons';
     @import 'node_modules/bootstrap/scss/transitions';
@@ -55,7 +55,7 @@ body.bootstrap-dark {
     @import 'node_modules/bootstrap/scss/button-group';
 
     @import 'node_modules/bootstrap/scss/input-group';
-    @import '~@forevolve/bootstrap-dark/scss/dark-input-group';
+    @import '@forevolve/bootstrap-dark/scss/dark-input-group';
 
     @import 'node_modules/bootstrap/scss/custom-forms';
     @import 'node_modules/bootstrap/scss/nav';
@@ -78,9 +78,9 @@ body.bootstrap-dark {
     @import 'node_modules/bootstrap/scss/spinners';
     @import 'node_modules/bootstrap/scss/utilities';
 
-    @import '~@forevolve/bootstrap-dark/scss/themed-utilities-dark';
+    @import '@forevolve/bootstrap-dark/scss/themed-utilities-dark';
 
-    @import '~@forevolve/bootstrap-dark/scss/dark-styles';
+    @import '@forevolve/bootstrap-dark/scss/dark-styles';
 
     @import "all";
 }
