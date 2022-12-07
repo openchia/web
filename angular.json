@@ -66,8 +66,7 @@
             ],
             "styles": [
               "src/styles.css",
-              "src/assets/scss/argon.scss",
-              "node_modules/flag-icons/css/flag-icons.min.css"
+              "src/assets/scss/argon.scss"
             ],
             "scripts": []
           },
