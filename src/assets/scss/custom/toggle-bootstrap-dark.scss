@@ -19,6 +19,24 @@ body.bootstrap-dark {
     color: $body-color;
     text-align: left;
     background-color: $body-bg;
+
+    // Custom override
+    .dropdown-menu,
+    .dropdown-menu::before,
+    .dropdown-menu::after,
+    .navbar-nav .dropdown-menu::before {
+        background-color: #212529;
+    }
+
+    .form-control {
+        background-color: #212529;
+        border: 0px solid;
+    }
+
+    .page-link,
+    .page-item.disabled .page-link {
+        background-color: #212529;
+    }
 }
 
 .bootstrap-dark {

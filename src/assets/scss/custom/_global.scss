@@ -313,11 +313,3 @@
 .pagination .page-item.active span.visually-hidden {
     display: none !important;
 }
-
-// Custom dark override
-
-.bootstrap-dark,
-.page-link,
-.page-item.disabled .page-link {
-    background-color: #212529;
-}

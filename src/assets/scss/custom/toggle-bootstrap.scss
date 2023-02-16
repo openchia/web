@@ -19,7 +19,6 @@ body.bootstrap {
 }
 
 .bootstrap {
-    
     @import "bootstrap/scss/functions";
     @import "functions";
 
@@ -66,5 +65,4 @@ body.bootstrap {
     @import 'node_modules/bootstrap/scss/utilities';
 
     @import "all";
-
 }
