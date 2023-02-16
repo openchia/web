@@ -24,7 +24,7 @@
     "@forevolve/bootstrap-dark": "^2.1.0",
     "@localazy/cli": "^1.0.0",
     "@ng-bootstrap/ng-bootstrap": "^13.1.1",
-    "@swimlane/ngx-charts": "^20.1.0",
+    "@swimlane/ngx-charts": "^20.1.2",
     "@types/humanize-duration": "^3.27.1",
     "angular-csv-ext": "^1.0.5",
     "bootstrap": "^4.6.1",
