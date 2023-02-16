@@ -358,3 +358,13 @@
         transform: translate(0, 10px);
     }
 }
+
+// Custom dark override
+
+.bootstrap-dark,
+.dropdown-menu,
+.dropdown-menu::before,
+.dropdown-menu::after,
+.navbar-nav .dropdown-menu::before {
+    background-color: #212529 !important;
+}
