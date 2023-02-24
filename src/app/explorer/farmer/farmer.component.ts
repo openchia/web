@@ -375,7 +375,8 @@ export class FarmerComponent implements OnInit {
     this.modal.open(content, {
       size: 'xl',
       keyboard: true,
-      backdrop: false
+      backdrop: false,
+      scrollable: true
     });
   }
 
