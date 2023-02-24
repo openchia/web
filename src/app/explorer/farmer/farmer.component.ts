@@ -372,7 +372,12 @@ export class FarmerComponent implements OnInit {
   }
 
   showPartialError(content) {
-    this.modal.open(content, { size: 'xl' });
+    this.modal.open(content, {
+      size: 'xl',
+      keyboard: true,
+      backdrop: false,
+      scrollable: true
+    });
   }
 
   copyToClipboard(content) {
