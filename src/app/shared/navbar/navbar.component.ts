@@ -1,6 +1,7 @@
 import { LOCALE_ID, Component, Inject, OnInit, ViewChild, ElementRef } from '@angular/core';
 import { Router, NavigationEnd, NavigationStart } from '@angular/router';
 import { Location, PopStateEvent } from '@angular/common';
+import { NgbModal } from '@ng-bootstrap/ng-bootstrap';
 import { DataService } from '../../data.service';
 
 @Component({
@@ -22,6 +23,7 @@ export class NavbarComponent implements OnInit {
         private dataService: DataService,
         public location: Location,
         private router: Router,
+        private modal: NgbModal,
         @Inject(LOCALE_ID) public locale: string
     ) {}
 
@@ -79,6 +81,15 @@ export class NavbarComponent implements OnInit {
             this.darkModeIcon.nativeElement.classList.remove('fa-sun');
         }
         localStorage.setItem("darkmode", `${this.darkMode}`);
+    }
+
+    showFarmerLogin(content) {
+        this.modal.open(content, {
+            size: 'xl',
+            keyboard: true,
+            backdrop: false,
+            scrollable: true
+        })
     }
 
 }
