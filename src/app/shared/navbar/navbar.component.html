@@ -112,6 +112,57 @@
             <span class="nav-link-inner--text" i18n="@@JoinPool">Join our pool</span>
           </a>
         </li>
+        <li class="nav-item d-none d-lg-block ml-lg-4">
+          <a class="btn btn-neutral btn-icon" (click)="showFarmerLogin(content)">
+            <span class="nav-link-inner--text">
+              <i class="fa-solid fa-user"></i>
+            </span>
+          </a>
+        </li>
+        <ng-template #content let-modal>
+          <div class="modal-header">
+            <h4 class="modal-title">
+              <i class="fa-solid fa-user"></i>&nbsp;<span i18n>How to login?</span>
+            </h4>
+            <button type="button" class="close" aria-label="Close" (click)="modal.close()">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="col-lg-12 text-left">
+              <b i18n>OpenChia farm settings page allows to:</b>
+              <br />
+              &nbsp;&nbsp;- <span i18n>Edit your farm alias</span><br />
+              &nbsp;&nbsp;- <span i18n>Email for notifications (any issues, ...)</span><br />
+              &nbsp;&nbsp;- <span i18n>Edit missing partials notifications</span><br />
+              &nbsp;&nbsp;- <span i18n>Edit payments notifications (email, mobile app)</span><br />
+              &nbsp;&nbsp;- <span i18n>Edit notifications for size drop (percent or interval)</span><br />
+              &nbsp;&nbsp;- <span i18n>Edit your minimum payout amount (xch)</span><br />
+              &nbsp;&nbsp;- <span i18n>Edit difficulty</span><br />
+              &nbsp;&nbsp;- <span i18n>Edit referrer</span><br />
+              &nbsp;&nbsp;- <span i18>Get your QR code to verify farm on the mobile app (and receive push notifications)</span><br />
+              <br />
+              <b i18n>What is Launcher ID?</b><br />
+              <span i18n>Launcher ID is how a farmer is identified for each Plot NFT. That is a long hexadecimal string and not user
+                friendly. For easier identification in our pool we allow users to set a friendly name for the explorer, an alias for
+                your Launcher ID.
+              </span>
+              <br /><br />
+              <b i18n>Using the command line:</b><br />
+              &nbsp;&nbsp;- <span i18n>Grab your Launcher ID:</span>&nbsp;<code>chia plotnft show</code><br />
+              &nbsp;&nbsp;- <span i18n>With your Launcher ID, get the link:</span>&nbsp;<code>chia plotnft get_login_link -l LAUNCHER_ID</code><br />
+              &nbsp;&nbsp;- <span i18n>Open link in your browser, and configure your settings</span>
+              <br /><br />
+              <b i18n>Using the GUI:</b><br />
+              &nbsp;&nbsp;- <span i18n>Under Pools menu, select your Plot NFT</span><br />
+              &nbsp;&nbsp;- <span i18n>Click the 3 dot menu and the View pool login link, and copy link</span><br />
+              &nbsp;&nbsp;- <span i18n>Open link in your browser, and configure your settings</span>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" (click)="modal.close()">Close</button>
+          </div>
+        </ng-template>
         <li ngbDropdown class="nav-item dropdown">
           <a ngbDropdownToggle class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"
             aria-expanded="false" id="languageDropdown" role="button">
