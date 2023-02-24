@@ -42,4 +42,8 @@ testem.log
 .DS_Store
 Thumbs.db
 
+# Localazy file
 localazy.json
+
+# Automatic git-version file
+src/environments/git-version.ts

@@ -29,7 +29,11 @@
       <div class="col-md-6">
         <div class="copyright">
           &copy; {{ currentYear | date: 'yyyy' }}
-          OpenChia.io
+          OpenChia.io,&nbsp;
+          <a target="_blank" ngbTooltip="Last commit {{ gitVersion.commitShort }}"
+            href="https://github.com/openchia/web/tree/{{ gitVersion.branchName }}">
+            {{ gitVersion.branchName }}
+          </a>
         </div>
       </div>
       <div class="col-md-6">

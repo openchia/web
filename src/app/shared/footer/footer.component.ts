@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
+import { gitVersion } from '../../../environments/git-version';
 
 @Component({
     selector: 'app-footer',
@@ -9,13 +10,13 @@ import { Router } from '@angular/router';
 
 export class FooterComponent implements OnInit {
     currentYear : Date = new Date();
+    gitVersion = gitVersion;
 
-    constructor(private router: Router ) {}
+    constructor(private router: Router) {}
 
     ngOnInit() {}
 
-    getPath(){
+    getPath() {
       return this.router.url;
     }
 }
-
