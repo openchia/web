@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve --ssl",
-    "build": "ng build --configuration=production && gzipper compress --brotli --include js,css,html --level 6 ./dist && cp src/index.all.html dist/openchia/index.html",
+    "start": "node angular-git-version.js && ng serve --ssl",
+    "build": "node angular-git-version.js && ng build --configuration=production && gzipper compress --brotli --include js,css,html --level 6 ./dist && cp src/index.all.html dist/openchia/index.html",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
@@ -30,6 +30,7 @@
     "bootstrap": "^4.6.1",
     "core-js": "^3.26.1",
     "flag-icons": "^6.6.6",
+    "git-rev-sync": "^3.0.2",
     "humanize-duration": "^3.27.1",
     "jw-bootstrap-switch-ng2": "^2.0.5",
     "moment": "^2.29.4",
