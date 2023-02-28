@@ -71,9 +71,16 @@ export class StatsComponent implements OnInit {
   mempoolShowAxisYLabel: boolean = false;
   mempoolData: any[] = null;
 
-  blocksColorScheme = { domain: ['#149b00'] };
+  luckAnimations: boolean = true;
+  luckGradient: boolean = true;
+  luckAxisX: boolean = false;
+  luckAxisY: boolean = true;
+  luckShowAxisXLabel: boolean = true;
+  luckShowAxisYLabel: boolean = false;
+  luckData: any[] = null;
 
-  colorScheme = { domain: ['#006400', '#9ef01a', '#008000', '#70e000'] };
+  oneColorScheme = { domain: ['#149b00'] };
+  multiColorScheme = { domain: ['#006400', '#9ef01a', '#008000', '#70e000'] };
 
   constructor(private dataService: DataService) { }
 
@@ -83,6 +90,7 @@ export class StatsComponent implements OnInit {
     this.getXchPrice(7);
     this.getMempool(1);
     this.getBlocks();
+    this.getLuck();
   }
 
   refreshSize(days: number) {
@@ -196,6 +204,21 @@ export class StatsComponent implements OnInit {
     });
   }
 
+  getLuck() {
+    this.dataService.getBlocks().subscribe((d) => {
+      var data = [];
+      (<any[]>d['results']).map((item) => {
+        data.push({
+          "name": item['farmed_height'].toString() + ", " + (new Date(Math.floor(item['timestamp'] / 86400 + 1) * 86400 * 1000).toLocaleDateString()),
+          "value": item['luck'],
+          "label": `Luck ${item['luck']}%`
+        })
+      })
+      data.reverse();
+      this.luckData = data;
+    });
+  }
+
   spaceFormatAxisY(spaceData: number) {
     return (spaceData / 1024 ** 5).toFixed(0).toString() + ' PiB';
   }
@@ -209,6 +232,10 @@ export class StatsComponent implements OnInit {
   }
 
   mempoolFormatAxisY(data: number) {
+    return (data).toFixed(0).toString() + '%';
+  }
+
+  luckFormatAxisY(data: number) {
     return (data).toFixed(0).toString() + '%';
   }
 
