@@ -90,7 +90,6 @@ export class StatsComponent implements OnInit {
     this.getXchPrice(7);
     this.getMempool(1);
     this.getBlocks();
-    this.getLuck();
   }
 
   refreshSize(days: number) {
@@ -182,40 +181,32 @@ export class StatsComponent implements OnInit {
   }
 
   getBlocks() {
-
-    var perDay: Map<String, number> = new Map();
-
+    var blocksPerDay: Map<String, number> = new Map();
     this.dataService.getBlocks().subscribe(d => {
+      // used in blocks per day chart
       (<any[]>d['results']).map((item) => {
         var date = new Date(Math.floor(item['timestamp'] / 86400 + 1) * 86400 * 1000).toLocaleDateString();
-        perDay.set(date, (perDay.get(date) || 0) + 1);
+        blocksPerDay.set(date, (blocksPerDay.get(date) || 0) + 1);
       });
-      var series = [];
-      perDay.forEach((v, k) => {
-        series.push({
+      var seriesBlocks = [];
+      blocksPerDay.forEach((v, k) => {
+        seriesBlocks.push({
           'name': k,
           'value': v,
           'label': `${v.toString()} Block(s)`,
         })
       });
-      series.reverse();
-      this.blocksData = series;
-
-    });
-  }
-
-  getLuck() {
-    this.dataService.getBlocks().subscribe((d) => {
-      var data = [];
+      this.blocksData = seriesBlocks.reverse();
+      // used in pool luck chart
+      var seriesLuck = [];
       (<any[]>d['results']).map((item) => {
-        data.push({
+        seriesLuck.push({
           "name": item['farmed_height'].toString() + ", " + (new Date(Math.floor(item['timestamp'] / 86400 + 1) * 86400 * 1000).toLocaleDateString()),
           "value": item['luck'],
           "label": `Luck ${item['luck']}%`
         })
       })
-      data.reverse();
-      this.luckData = data;
+      this.luckData = seriesLuck.reverse();
     });
   }
 
