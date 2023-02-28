@@ -47,7 +47,7 @@
                         [showXAxisLabel]="ngSpaceShowAxisXLabel" [autoScale]="false" [showGridLines]="true"
                         [showYAxisLabel]="ngSpaceShowAxisYLabel" [yAxis]="ngSpaceAxisY" [timeline]="ngSpaceShowTimeline"
                         [xAxis]="ngSpaceAxisX" [animations]="ngSpaceAnimations" [results]="ngSpaceData"
-                        [yAxisTickFormatting]="ngSpaceFormatAxisY" [gradient]="true" [scheme]="colorScheme">
+                        [yAxisTickFormatting]="ngSpaceFormatAxisY" [gradient]="true" [scheme]="multiColorScheme">
                         <ng-template #seriesTooltipTemplate let-model="model">
                           <div *ngFor="let item of model">
                             {{ item.label }}
@@ -99,7 +99,41 @@
                       <ngx-charts-bar-vertical [view]="[blocksContainerRef.offsetWidth]"
                         [showXAxisLabel]="blocksShowAxisXLabel" [showYAxisLabel]="blocksShowAxisYLabel"
                         [yAxis]="blocksAxisY" [xAxis]="blocksAxisX" [animations]="true" [results]="blocksData"
-                        [scheme]="blocksColorScheme">
+                        [scheme]="oneColorScheme">
+                      </ngx-charts-bar-vertical>
+                      <br />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <br />
+
+            <!-- pool luck -->
+            <div class="row">
+              <div class="col-md-12 ml-auto">
+                <div class="accordion">
+                  <div class="card">
+                    <div class="card-header card-join">
+                      <h5 class="mb-0">
+                        <button aria-controls="collapseOne" type="button"
+                          class="btn btn-link w-100 text-primary text-left"
+                          aria-expanded="true" i18n>Pool Luck
+                          <i class="ni ni-bold-down float-right pt-1"></i>
+                        </button>
+                      </h5>
+                    </div>
+                    <div aria-labelledby="headingOne" class="show collapse in" style="display: block;"
+                      aria-expanded="false" aria-hidden="false" #luckContainerRef>
+                      <br />
+                      <ngx-charts-bar-vertical [view]="[luckContainerRef.offsetWidth]"
+                        [showXAxisLabel]="luckShowAxisXLabel" [showYAxisLabel]="luckShowAxisYLabel"
+                        [yAxis]="luckAxisY" [xAxis]="luckAxisX" [animations]="luckAnimations"
+                        [results]="luckData" [scheme]="oneColorScheme" [yAxisTickFormatting]="luckFormatAxisY"
+                        [gradient]="luckGradient" [showGridLines]="true">
+                        <ng-template #tooltipTemplate let-model="model">
+                          {{ model.name }}<br />Luck {{ model.value }}%
+                        </ng-template>
                       </ngx-charts-bar-vertical>
                       <br />
                     </div>
@@ -125,7 +159,7 @@
                     <div aria-labelledby="headingOne" class="show collapse in" style="display: block;"
                       aria-expanded="false" aria-hidden="false" #netspaceContainerRef>
                       <br />
-                      <ngx-charts-area-chart [view]="[netspaceContainerRef.offsetWidth]" [scheme]="colorScheme"
+                      <ngx-charts-area-chart [view]="[netspaceContainerRef.offsetWidth]" [scheme]="multiColorScheme"
                         [legend]="netspaceLegend" [showXAxisLabel]="netspaceShowAxisXLabel" [autoScale]="false"
                         [showYAxisLabel]="netspaceShowAxisYLabel" [yAxis]="netspaceAxisY" [timeline]="false"
                         [xAxis]="netspaceAxisX" [animations]="netspaceAnimations" [results]="netspaceData"
@@ -177,8 +211,7 @@
                     <div aria-labelledby="headingOne" class="show collapse in" style="display: block;"
                       aria-expanded="false" aria-hidden="false" #priceContainerRef>
                       <br />
-                      <ngx-charts-line-chart [view]="[priceContainerRef.offsetWidth]" [scheme]="colorScheme"
-                        [legendPosition]="priceLegendPosition" [legendTitle]="priceLegendTitle"
+                      <ngx-charts-line-chart [view]="[priceContainerRef.offsetWidth]" [scheme]="multiColorScheme"
                         [legend]="priceLegend" [showXAxisLabel]="priceShowAxisXLabel" [autoScale]="false"
                         [showYAxisLabel]="priceShowAxisYLabel" [yAxis]="priceAxisY" [timeline]="false"
                         [xAxis]="priceAxisX" [animations]="priceAnimations" [results]="priceData" [gradient]="true"
@@ -235,7 +268,7 @@
                         [showXAxisLabel]="ngSpaceShowAxisXLabel" [autoScale]="false" [showGridLines]="true"
                         [showYAxisLabel]="ngSpaceShowAxisYLabel" [yAxis]="ngSpaceAxisY" [timeline]="false"
                         [xAxis]="ngSpaceAxisX" [animations]="true" [results]="mempoolData"
-                        [yAxisTickFormatting]="mempoolFormatAxisY" [gradient]="true" [scheme]="colorScheme">
+                        [yAxisTickFormatting]="mempoolFormatAxisY" [gradient]="true" [scheme]="multiColorScheme">
                         <ng-template #seriesTooltipTemplate let-model="model">
                           <div *ngFor="let item of model">
                             {{ item.label }}

@@ -73,9 +73,16 @@ export class StatsComponent implements OnInit {
   mempoolShowAxisYLabel: boolean = false;
   mempoolData: any[] = null;
 
-  blocksColorScheme = { domain: ['#149b00'] };
+  luckAnimations: boolean = true;
+  luckGradient: boolean = true;
+  luckAxisX: boolean = false;
+  luckAxisY: boolean = true;
+  luckShowAxisXLabel: boolean = true;
+  luckShowAxisYLabel: boolean = false;
+  luckData: any[] = null;
 
-  colorScheme = { domain: ['#006400', '#9ef01a', '#008000', '#70e000'] };
+  oneColorScheme = { domain: ['#149b00'] };
+  multiColorScheme = { domain: ['#006400', '#9ef01a', '#008000', '#70e000'] };
 
   constructor(private dataService: DataService) { }
 
@@ -164,22 +171,32 @@ export class StatsComponent implements OnInit {
   }
 
   getBlocks() {
-    var perDay: Map<String, number> = new Map();
+    var blocksPerDay: Map<String, number> = new Map();
     this.dataService.getBlocks().subscribe(d => {
+      // used in blocks per day chart
       (<any[]>d['results']).map((item) => {
         var date = new Date(Math.floor(item['timestamp'] / 86400 + 1) * 86400 * 1000).toLocaleDateString();
-        perDay.set(date, (perDay.get(date) || 0) + 1);
+        blocksPerDay.set(date, (blocksPerDay.get(date) || 0) + 1);
       });
-      var series = [];
-      perDay.forEach((v, k) => {
-        series.push({
+      var seriesBlocks = [];
+      blocksPerDay.forEach((v, k) => {
+        seriesBlocks.push({
           'name': k,
           'value': v,
           'label': `${v.toString()} Block(s)`,
         })
       });
-      series.reverse();
-      this.blocksData = series;
+      this.blocksData = seriesBlocks.reverse();
+      // used in pool luck chart
+      var seriesLuck = [];
+      (<any[]>d['results']).map((item) => {
+        seriesLuck.push({
+          "name": item['farmed_height'].toString() + ", " + (new Date(Math.floor(item['timestamp'] / 86400 + 1) * 86400 * 1000).toLocaleDateString()),
+          "value": item['luck'],
+          "label": `Luck ${item['luck']}%`
+        })
+      })
+      this.luckData = seriesLuck.reverse();
     });
   }
 
@@ -196,6 +213,10 @@ export class StatsComponent implements OnInit {
   }
 
   mempoolFormatAxisY(data: number) {
+    return (data).toFixed(0).toString() + '%';
+  }
+
+  luckFormatAxisY(data: number) {
     return (data).toFixed(0).toString() + '%';
   }
 
