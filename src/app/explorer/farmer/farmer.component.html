@@ -114,7 +114,7 @@
         <tr>
           <th scope="col"><span i18n="@@EarnedRewardDay">Earned Reward</span>
             <ng-template #earnedrewardDayTooltip>
-              <span i18n>Icons <i class="fas fa-caret-down fa-caret-down-color"></i> and <i class="fas fa-caret-up fa-caret-up-color"></i>
+              <span i18n>Icons <i class="fa-regular fa-circle-down fa-circle-down-color"></i> and <i class="fa-regular fa-circle-up fa-circle-up-color"></i>
               are based on estimated rewards. Value rounded to 4 decimal places (details shown on <b>Rewards</b> tab).</span>
             </ng-template>
             &nbsp;<i class="fas fa-info-circle" closeDelay="4000" [ngbTooltip]="earnedrewardDayTooltip"></i>
@@ -122,23 +122,23 @@
           <td>
             {{ farmer.rewards.last_24h / 1000000000000 | number:".4" }} XCH / <span i18n>last day</span>&nbsp;
             <i *ngIf="estimated_rewards_xch > (farmer.rewards.last_24h / 1000000000000)"
-              class="fas fa-caret-down fa-caret-down-color"></i>
+              class="fa-regular fa-circle-down fa-circle-down-color"></i>
             <i *ngIf="estimated_rewards_xch < (farmer.rewards.last_24h / 1000000000000)"
-              class="fas fa-caret-up fa-caret-up-color"></i>
+              class="fa-regular fa-circle-up fa-circle-up-color"></i>
           </td>
           <td>
             {{ farmer.rewards.last_7d / 1000000000000 | number:".4" }} XCH / <span i18n>last week</span>&nbsp;
             <i *ngIf="(estimated_rewards_xch * 7) > (farmer.rewards.last_7d / 1000000000000)"
-              class="fas fa-caret-down fa-caret-down-color"></i>
+              class="fa-regular fa-circle-down fa-circle-down-color"></i>
             <i *ngIf="(estimated_rewards_xch * 7) < (farmer.rewards.last_7d / 1000000000000)"
-              class="fas fa-caret-up fa-caret-up-color"></i>
+              class="fa-regular fa-circle-up fa-circle-up-color"></i>
           </td>
           <td>
             {{ farmer.rewards.last_30d / 1000000000000 | number:".4" }} XCH / <span i18n>last month</span>&nbsp;
             <i *ngIf="(estimated_rewards_xch * 30) > (farmer.rewards.last_30d / 1000000000000)"
-              class="fas fa-caret-down fa-caret-down-color"></i>
+              class="fa-regular fa-circle-down fa-circle-down-color"></i>
             <i *ngIf="(estimated_rewards_xch * 30) < (farmer.rewards.last_30d / 1000000000000)"
-              class="fas fa-caret-up fa-caret-up-color"></i>
+              class="fa-regular fa-circle-up fa-circle-up-color"></i>
           </td>
         </tr>
       </tbody>
