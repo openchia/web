@@ -114,7 +114,7 @@
         <tr>
           <th scope="col"><span i18n="@@EarnedRewardDay">Earned Reward</span>
             <ng-template #earnedrewardDayTooltip>
-              <span i18n>Icons <i class="fas fa-caret-down fa-caret-down-color"></i> and <i class="fas fa-caret-up fa-caret-up-color"></i>
+              <span i18n>Icons <i class="fa-regular fa-circle-down fa-circle-down-color"></i> and <i class="fa-regular fa-circle-up fa-circle-up-color"></i>
               are based on estimated rewards. Value rounded to 4 decimal places (details shown on <b>Rewards</b> tab).</span>
             </ng-template>
             &nbsp;<i class="fas fa-info-circle" closeDelay="4000" [ngbTooltip]="earnedrewardDayTooltip"></i>
@@ -122,23 +122,23 @@
           <td>
             {{ farmer.rewards.last_24h / 1000000000000 | number:".4" }} XCH / <span i18n>last day</span>&nbsp;
             <i *ngIf="estimated_rewards_xch > (farmer.rewards.last_24h / 1000000000000)"
-              class="fas fa-caret-down fa-caret-down-color"></i>
+              class="fa-regular fa-circle-down fa-circle-down-color"></i>
             <i *ngIf="estimated_rewards_xch < (farmer.rewards.last_24h / 1000000000000)"
-              class="fas fa-caret-up fa-caret-up-color"></i>
+              class="fa-regular fa-circle-up fa-circle-up-color"></i>
           </td>
           <td>
             {{ farmer.rewards.last_7d / 1000000000000 | number:".4" }} XCH / <span i18n>last week</span>&nbsp;
             <i *ngIf="(estimated_rewards_xch * 7) > (farmer.rewards.last_7d / 1000000000000)"
-              class="fas fa-caret-down fa-caret-down-color"></i>
+              class="fa-regular fa-circle-down fa-circle-down-color"></i>
             <i *ngIf="(estimated_rewards_xch * 7) < (farmer.rewards.last_7d / 1000000000000)"
-              class="fas fa-caret-up fa-caret-up-color"></i>
+              class="fa-regular fa-circle-up fa-circle-up-color"></i>
           </td>
           <td>
             {{ farmer.rewards.last_30d / 1000000000000 | number:".4" }} XCH / <span i18n>last month</span>&nbsp;
             <i *ngIf="(estimated_rewards_xch * 30) > (farmer.rewards.last_30d / 1000000000000)"
-              class="fas fa-caret-down fa-caret-down-color"></i>
+              class="fa-regular fa-circle-down fa-circle-down-color"></i>
             <i *ngIf="(estimated_rewards_xch * 30) < (farmer.rewards.last_30d / 1000000000000)"
-              class="fas fa-caret-up fa-caret-up-color"></i>
+              class="fa-regular fa-circle-up fa-circle-up-color"></i>
           </td>
         </tr>
       </tbody>
@@ -596,12 +596,18 @@
                 <div class="col-lg-3 justify-content-center">
                   <div class="card card-lift shadow border-0">
                     <div *ngIf="(payouttxs$ | async) as payouttxs" class="card-body py-3 text-center text-uppercase">
-                      <span class="text-primary"><span i18n="">Export CSV</span></span>
+                      <span class="text-primary">
+                        <i class="fa-solid fa-download"></i>&nbsp;
+                        <span i18n="">Export CSV</span>
+                      </span>
                       <p class="display-3">
                         <button *ngIf="payouttxs.length>=1" class="btn btn-primary btn-icon"
-                          (click)="payoutsDownloadCSV()"><span i18n="">Download</span></button>
+                          (click)="payoutsDownloadCSV()">
+                          <i class="fa-solid"><span i18n="">Download</span></i>
+                        </button>
                         <button *ngIf="payouttxs.length==0" disabled class="btn btn-primary btn-icon disabled">
-                          <span i18n="">No payout</span></button>
+                          <i class="fa-solid"><span i18n="">No payout</span></i>
+                        </button>
                       </p>
                     </div>
                   </div>
