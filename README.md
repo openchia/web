@@ -1,8 +1,8 @@
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: light)" srcset="https://github.com/openchia/web/blob/main/.github/assets/landing-light.png">
-    <source media="(prefers-color-scheme: dark)" srcset="https://github.com/openchia/web/blob/main/.github/assets/landing-dark.png">
-    <img src="https://github.com/openchia/web/blob/main/.github/assets/landing-light.png">
+    <source media="(prefers-color-scheme: light)" srcset=".github/assets/landing-light.png">
+    <source media="(prefers-color-scheme: dark)" srcset=".github/assets/landing-dark.png">
+    <img src=".github/assets/landing-light.png">
   </picture>
 </p>
 
