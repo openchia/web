@@ -28,12 +28,36 @@
     <div class="row align-items-center justify-content-md-between">
       <div class="col-md-6">
         <div class="copyright">
-          &copy; {{ currentYear | date: 'yyyy' }}
-          OpenChia.io,&nbsp;
-          <a target="_blank" ngbTooltip="Last commit {{ gitVersion.commitShort }}"
-            href="https://github.com/openchia/web/tree/{{ gitVersion.branchName }}">
-            {{ gitVersion.branchName }}
+          <a class="fab fa-github" ngbTooltip="Show Github Details"
+            (click)="showGithubDetails(content)">
+            <span class="nav-link-inner--text"></span>
           </a>
+          <ng-template #content let-modal>
+            <div class="modal-header">
+              <h4 class="modal-title">
+                <i class="fab fa-github"></i>&nbsp;<span i18n="">Github Details</span>
+              </h4>
+              <button type="button" class="close" aria-label="Close" (click)="modal.close()">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <div class="col-lg-12 text-left">
+                <i class="fa-solid fa-code-branch"></i>&nbsp;&nbsp;
+                <b i18n="">Branch</b>: <a target="_blank"
+                  href="https://github.com/openchia/web/tree/{{ gitVersion.branchName }}">
+                  {{ gitVersion.branchName }}</a><br />
+                <i class="fa-solid fa-code-commit"></i>&nbsp;
+                <b i18n="">Commit</b>: <a target="_blank"
+                  href="https://github.com/openchia/web/commit/{{ gitVersion.commitLong }}">
+                  {{ gitVersion.commitLong }}</a>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" (click)="modal.close()">Close</button>
+            </div>
+          </ng-template>
+          &nbsp;&nbsp;&copy; {{ currentYear | date: 'yyyy' }} OpenChia.io
         </div>
       </div>
       <div class="col-md-6">
