@@ -172,6 +172,7 @@
         <tr>
           <th scope="col">#</th>
           <th scope="col" class="text-left farmers-padding-left">Launcher ID</th>
+          <th scope="col"></th>
           <th scope="col" i18n="@@Points24hrs">Points (24 hours)</th>
           <th scope="col" i18n="@@Difficulty">Difficulty</th>
           <th scope="col" i18n="@@UtilizationSpace">Utilization Space</th>
@@ -185,6 +186,10 @@
           <td class="link text-left farmers-padding-left"><a
               [routerLink]="['/explorer/farmer', launcher.launcher_id]">{{ launcher.name ||
               launcher.launcher_id | maxLength:30 }}</a></td>
+          <td *ngIf="(blocks$ | async) as blocks;">
+            <span *ngIf="blocks[0].farmed_by.launcher_id==launcher.launcher_id"
+              ngbTooltip="Won the last block">🏆</span>
+          </td>
           <td>{{ launcher.points_pplns }}</td>
           <td>{{ launcher.difficulty }}</td>
           <td>
@@ -201,7 +206,7 @@
           <td>{{ launcher.estimated_size | filesize:{"base": 2, "standard": "iec"} }}</td>
         </tr>
         <tr *ngIf="searchNotFound">
-          <td colspan="6" i18n>No farmers found!</td>
+          <td colspan="7" i18n>No farmers found!</td>
         </tr>
       </tbody>
     </table>
