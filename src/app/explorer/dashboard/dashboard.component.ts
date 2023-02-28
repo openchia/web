@@ -156,6 +156,7 @@ export class DashboardComponent implements OnInit {
   }
 
   refreshFarmers(filter) {
+    this.refreshBlocks();
     this.farmersFilterActive = parseInt(filter);
     this.dataService.getLaunchers({
       search: this.searchInput.nativeElement.value,
