@@ -48,6 +48,8 @@ export class StatsComponent implements OnInit {
   netspaceDays: number = 7;
 
   priceLegend: boolean = true;
+  priceLegendPosition: string = 'below';
+  priceLegendTitle: string = '';
   priceShowLabels: boolean = true;
   priceAnimations: boolean = true;
   priceAxisX: boolean = false;
@@ -87,9 +89,7 @@ export class StatsComponent implements OnInit {
 
   refreshSize(days: number) {
     this.dataService.getPoolSize(days).subscribe((d) => {
-
       this.ngSpaceDays = days;
-
       var data: Map<String, Array<any>> = new Map();
       (<any[]>d).map((i) => {
         if(!data.has(i['field'])) {
@@ -97,7 +97,6 @@ export class StatsComponent implements OnInit {
         }
         data.get(i['field']).push({ 'name': new Date(i['datetime']).toLocaleString(), 'value': i['value'], 'label': i['field'] + ': ' + (i['value'] / 1024 ** 5).toFixed(2).toString() + ' PiB' });
       });
-
       this.ngSpaceData = [];
       data.forEach((v, k) => {
         this.ngSpaceData.push({
@@ -105,13 +104,11 @@ export class StatsComponent implements OnInit {
           "series": v,
         })
       })
-
     })
   }
 
   getMempool(days: number) {
     this.dataService.getMempool(days).subscribe((d) => {
-
       this.mempoolDays = days;
       this.mempoolData = [{
         "name": "Full Percentage",
@@ -123,15 +120,12 @@ export class StatsComponent implements OnInit {
           })
         })
       }];
-
     })
   }
 
   getXchPrice(days: number) {
     this.dataService.getXchPrice(days).subscribe((d) => {
-
       this.priceDays = days;
-
       var data: Map<String, Array<any>> = new Map();
       (<any[]>d).map((i) => {
         if(!data.has(i['field'])) {
@@ -143,7 +137,6 @@ export class StatsComponent implements OnInit {
           'label': i['field'] + ': ' + i['value'].toFixed((['btc', 'eth'].includes(i['field'])) ? 5 : 2),
         });
       });
-
       this.priceData = [];
       data.forEach((v, k) => {
         this.priceData.push({
@@ -151,13 +144,11 @@ export class StatsComponent implements OnInit {
           "series": v,
         })
       })
-
     })
   }
 
   getNetspace(days: number) {
     this.dataService.getNetspace(days).subscribe((d) => {
-
       this.netspaceDays = days;
       this.netspaceData = [{
         "name": "Size",
@@ -169,14 +160,11 @@ export class StatsComponent implements OnInit {
           })
         })
       }];
-
     })
   }
 
   getBlocks() {
-
     var perDay: Map<String, number> = new Map();
-
     this.dataService.getBlocks().subscribe(d => {
       (<any[]>d['results']).map((item) => {
         var date = new Date(Math.floor(item['timestamp'] / 86400 + 1) * 86400 * 1000).toLocaleDateString();
@@ -192,7 +180,6 @@ export class StatsComponent implements OnInit {
       });
       series.reverse();
       this.blocksData = series;
-
     });
   }
 
