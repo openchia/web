@@ -186,8 +186,8 @@
           <td class="link text-left farmers-padding-left"><a
               [routerLink]="['/explorer/farmer', launcher.launcher_id]">{{ launcher.name ||
               launcher.launcher_id | maxLength:30 }}</a></td>
-          <td *ngIf="(blocks$ | async) as blocks;">
-            <span *ngIf="blocks[0].farmed_by.launcher_id==launcher.launcher_id"
+          <td *ngIf="lastBlock">
+            <span *ngIf="lastBlock.farmed_by.launcher_id == launcher.launcher_id"
               ngbTooltip="Won the last block">🏆</span>
           </td>
           <td>{{ launcher.points_pplns }}</td>

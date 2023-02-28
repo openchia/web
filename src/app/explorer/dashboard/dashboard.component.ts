@@ -40,6 +40,7 @@ export class DashboardComponent implements OnInit {
   searchSubscription: Subscription;
 
   leaderboard: Array<any> = new Array();
+  lastBlock: any;
 
   farmersCollectionSize: number = 0;
   farmersPage: number = 1;
@@ -131,6 +132,7 @@ export class DashboardComponent implements OnInit {
   private handleBlocks(data) {
     this.blocksCollectionSize = data['count'];
     this._blocks$.next(data['results']);
+    this.lastBlock = data['results'][0];
   }
 
   private handlePayouts(data) {
@@ -156,7 +158,6 @@ export class DashboardComponent implements OnInit {
   }
 
   refreshFarmers(filter) {
-    this.refreshBlocks();
     this.farmersFilterActive = parseInt(filter);
     this.dataService.getLaunchers({
       search: this.searchInput.nativeElement.value,
