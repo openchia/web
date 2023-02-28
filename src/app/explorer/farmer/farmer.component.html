@@ -596,12 +596,18 @@
                 <div class="col-lg-3 justify-content-center">
                   <div class="card card-lift shadow border-0">
                     <div *ngIf="(payouttxs$ | async) as payouttxs" class="card-body py-3 text-center text-uppercase">
-                      <span class="text-primary"><span i18n="">Export CSV</span></span>
+                      <span class="text-primary">
+                        <i class="fa-solid fa-download"></i>&nbsp;
+                        <span i18n="">Export CSV</span>
+                      </span>
                       <p class="display-3">
                         <button *ngIf="payouttxs.length>=1" class="btn btn-primary btn-icon"
-                          (click)="payoutsDownloadCSV()"><span i18n="">Download</span></button>
+                          (click)="payoutsDownloadCSV()">
+                          <i class="fa-solid"><span i18n="">Download</span></i>
+                        </button>
                         <button *ngIf="payouttxs.length==0" disabled class="btn btn-primary btn-icon disabled">
-                          <span i18n="">No payout</span></button>
+                          <i class="fa-solid"><span i18n="">No payout</span></i>
+                        </button>
                       </p>
                     </div>
                   </div>
