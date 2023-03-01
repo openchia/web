@@ -79,6 +79,7 @@ export class FarmerComponent implements OnInit {
   blocksCollectionSize: number = 0;
   blocksPage: number = 1;
   blocksPageSize: number = 25;
+  blocksLuckAverage: number = 0;
 
   giveaways$: Observable<any[]>;
 
@@ -187,6 +188,11 @@ export class FarmerComponent implements OnInit {
   }
 
   private handleBlocks(data) {
+    var blocksLuckCount: number = 0;
+    data['results'].forEach(v => {
+      blocksLuckCount = blocksLuckCount + v['luck'];
+    });
+    this.blocksLuckAverage = blocksLuckCount / data['count'];
     this.blocksCollectionSize = data['count'];
     this._blocks$.next(data['results']);
   }
