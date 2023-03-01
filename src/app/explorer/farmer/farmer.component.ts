@@ -104,15 +104,9 @@ export class FarmerComponent implements OnInit {
   ngOnInit(): void {
     this.route.paramMap.subscribe(data => {
       this.farmerid = data['params']['id'];
-      this.refreshBlocks();
-      this.refreshPayouts();
-      this.refreshPayoutTxs();
       this.dataService.getLauncher(this.farmerid).subscribe(launcher => {
         this.farmer = launcher;
         this.getPartialsData(this.farmerid);
-        this.getSize(this.farmerid);
-        this.getHarvesters(this.farmerid);
-        this.getRewards();
         this.dataService.getStats().subscribe(data => {
           this.xch_current_price_usd = data['xch_current_price']['usd'];
           this.xch_tb_month = data['xch_tb_month'];

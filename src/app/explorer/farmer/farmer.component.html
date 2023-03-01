@@ -372,7 +372,7 @@
       </li>
 
       <!-- Harvesters -->
-      <li [ngbNavItem]="2">
+      <li [ngbNavItem]="2" (click)="getHarvesters(farmer.launcher_id)">
         <a ngbNavLink><i class="fa fa-tractor"></i>&nbsp;<span i18n="@@Harvesters">Harvesters</span></a>
         <ng-template ngbNavContent>
           <div *ngFor="let mapEntry of perHarvesterData | keyvalue">
@@ -445,7 +445,7 @@
       </li>
 
       <!-- Estimated Size -->
-      <li [ngbNavItem]="3">
+      <li [ngbNavItem]="3" (click)="getSize(farmer.launcher_id)">
         <a ngbNavLink><i class="fa fa-expand"></i>&nbsp;<span i18n>Estimated Size</span></a>
         <ng-template ngbNavContent>
           <div class="row justify-content-center">
@@ -465,7 +465,7 @@
       </li>
 
       <!-- Rewards -->
-      <li [ngbNavItem]="4">
+      <li [ngbNavItem]="4" (click)="getRewards(); refreshPayouts()">
         <a ngbNavLink><i class="fa-solid fa-coins"></i>&nbsp;<span i18n>Rewards</span></a>
         <ng-template ngbNavContent>
           <div class="row justify-content-center">
@@ -560,7 +560,7 @@
       </li>
 
       <!-- Payouts -->
-      <li [ngbNavItem]="5">
+      <li [ngbNavItem]="5" (click)="refreshPayoutTxs()">
         <a ngbNavLink><i class="fa fa-wallet"></i>&nbsp;<span i18n>Payouts</span></a>
         <ng-template ngbNavContent>
           <br />
@@ -653,7 +653,7 @@
       </li>
 
       <!-- Blocks -->
-      <li [ngbNavItem]="6">
+      <li [ngbNavItem]="6" (click)="refreshBlocks()">
         <a ngbNavLink><i class="fa fa-cube"></i>&nbsp;<span i18n>Blocks</span></a>
         <ng-template ngbNavContent>
           <br />
