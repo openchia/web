@@ -73,13 +73,15 @@ export class StatsComponent implements OnInit {
   mempoolShowAxisYLabel: boolean = false;
   mempoolData: any[] = null;
 
-  luckAnimations: boolean = true;
-  luckGradient: boolean = true;
-  luckAxisX: boolean = false;
-  luckAxisY: boolean = true;
-  luckShowAxisXLabel: boolean = true;
-  luckShowAxisYLabel: boolean = false;
-  luckData: any[] = null;
+  luckPerBlockLegend: boolean = true;
+  luckPerBlockLegendTitle: string = 'Per block'
+  luckPerBlockAnimations: boolean = true;
+  luckPerBlockGradient: boolean = true;
+  luckPerBlockAxisX: boolean = false;
+  luckPerBlockAxisY: boolean = true;
+  luckPerBlockShowAxisXLabel: boolean = true;
+  luckPerBlockShowAxisYLabel: boolean = false;
+  luckPerBlockData: any[] = null;
 
   oneColorScheme = { domain: ['#149b00'] };
   multiColorScheme = { domain: ['#006400', '#9ef01a', '#008000', '#70e000'] };
@@ -187,16 +189,16 @@ export class StatsComponent implements OnInit {
         })
       });
       this.blocksData = seriesBlocks.reverse();
-      // used in pool luck chart
-      var seriesLuck = [];
+      // used in pool luck chart (per block)
+      var seriesLuckPerBlock = [];
       (<any[]>d['results']).map((item) => {
-        seriesLuck.push({
+        seriesLuckPerBlock.push({
           "name": item['farmed_height'].toString() + ", " + (new Date(Math.floor(item['timestamp'] / 86400 + 1) * 86400 * 1000).toLocaleDateString()),
           "value": item['luck'],
           "label": `Luck ${item['luck']}%`
         })
       })
-      this.luckData = seriesLuck.reverse();
+      this.luckPerBlockData = seriesLuckPerBlock.reverse();
     });
   }
 
@@ -216,7 +218,7 @@ export class StatsComponent implements OnInit {
     return (data).toFixed(0).toString() + '%';
   }
 
-  luckFormatAxisY(data: number) {
+  luckPerBlockFormatAxisY(data: number) {
     return (data).toFixed(0).toString() + '%';
   }
 
