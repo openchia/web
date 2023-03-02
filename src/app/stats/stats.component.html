@@ -124,13 +124,16 @@
                       </h5>
                     </div>
                     <div aria-labelledby="headingOne" class="show collapse in" style="display: block;"
-                      aria-expanded="false" aria-hidden="false" #luckContainerRef>
+                      aria-expanded="false" aria-hidden="false" #luckPerBlockContainerRef>
                       <br />
-                      <ngx-charts-bar-vertical [view]="[luckContainerRef.offsetWidth]"
-                        [showXAxisLabel]="luckShowAxisXLabel" [showYAxisLabel]="luckShowAxisYLabel"
-                        [yAxis]="luckAxisY" [xAxis]="luckAxisX" [animations]="luckAnimations"
-                        [results]="luckData" [scheme]="oneColorScheme" [yAxisTickFormatting]="luckFormatAxisY"
-                        [gradient]="luckGradient" [showGridLines]="true">
+                      <!-- per block -->
+                      <ngx-charts-bar-vertical [view]="[luckPerBlockContainerRef.offsetWidth]"
+                        [legend]="luckPerBlockLegend" [legendTitle]="luckPerBlockLegendTitle"
+                        [showXAxisLabel]="luckPerBlockShowAxisXLabel" [showYAxisLabel]="luckPerBlockShowAxisYLabel"
+                        [yAxis]="luckPerBlockAxisY" [xAxis]="luckPerBlockAxisX" [animations]="luckPerBlockAnimations"
+                        [results]="luckPerBlockData" [scheme]="oneColorScheme" [yAxisTickFormatting]="luckPerBlockFormatAxisY"
+                        [gradient]="luckPerBlockGradient" [showGridLines]="true" [barPadding]="3"
+                        [roundEdges]="false" [noBarWhenZero]="false">
                         <ng-template #tooltipTemplate let-model="model">
                           {{ model.name }}<br />Luck {{ model.value }}%
                         </ng-template>
