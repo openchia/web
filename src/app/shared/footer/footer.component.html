@@ -42,15 +42,50 @@
               </button>
             </div>
             <div class="modal-body">
-              <div class="col-lg-12 text-left">
-                <i class="fa-solid fa-code-branch"></i>&nbsp;&nbsp;
-                <b i18n="">Branch</b>: <a target="_blank"
-                  href="https://github.com/openchia/web/tree/{{ gitVersion.branchName }}">
-                  {{ gitVersion.branchName }}</a><br />
-                <i class="fa-solid fa-code-commit"></i>&nbsp;
-                <b i18n="">Commit</b>: <a target="_blank"
-                  href="https://github.com/openchia/web/commit/{{ gitVersion.commitLong }}">
-                  {{ gitVersion.commitLong }}</a>
+              <div class="col-lg-12 text-center">
+                <i class="fa-solid fa-bug"></i>&nbsp;
+                <span i18n>You found a bug, or propose a feature? Open an issue on</span>&nbsp;
+                <a target="_blank" href="https://github.com/openchia/web/issues/new">Github</a>.
+                <table class="table table-sm table-striped table-responsive-lg text-left">
+                  <br />
+                  <tbody>
+                    <tr *ngIf="gitVersion.tag == gitVersion.commit">
+                      <th scope="col"><i class="fa-solid fa-code-branch"></i></th>
+                      <td><b><span i18n>Branch</span></b></td>
+                      <td>
+                        <a target="_blank"
+                          href="https://github.com/openchia/web/tree/{{ gitVersion.branchName }}">
+                          {{ gitVersion.branchName }}
+                        </a>
+                      </td>
+                    </tr>
+                    <tr *ngIf="gitVersion.tag != gitVersion.commit">
+                      <th scope="col"><i class="fa-solid fa-code-merge"></i></th>
+                      <td><b><span i18n>Release</span></b></td>
+                      <td>
+                        <a target="_blank"
+                          href="https://github.com/openchia/web/releases/tag/{{ gitVersion.tagName }}">
+                          {{ gitVersion.tagName }}
+                        </a>
+                      </td>
+                    </tr>
+                    <tr>
+                      <th scope="col"><i class="fa-solid fa-code-commit"></i></th>
+                      <td><b><span i18n>Commit</span></b></td>
+                      <td>
+                        <a target="_blank"
+                          href="https://github.com/openchia/web/commit/{{ gitVersion.commitLong }}">
+                          {{ gitVersion.commitLong }}
+                        </a>
+                      </td>
+                    </tr>
+                    <tr>
+                      <th scope="col"><i class="fa-solid fa-clock"></i></th>
+                      <td><b><span i18n>Date</span></b></td>
+                      <td>{{ gitVersion.date | date:'long' }}</td>
+                    </tr>
+                  </tbody>
+                </table>
               </div>
             </div>
             <div class="modal-footer">
