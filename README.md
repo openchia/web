@@ -1,4 +1,10 @@
-![](.github/assets/landing.png)
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: light)" srcset=".github/assets/landing-light.png">
+    <source media="(prefers-color-scheme: dark)" srcset=".github/assets/landing-dark.png">
+    <img src=".github/assets/landing-light.png">
+  </picture>
+</p>
 
 <p align="center">
   <a style="text-decoration:none" href="https://github.com/openchia/web/blob/main/LICENSE.md">
@@ -14,7 +20,7 @@
     <img alt="Discord" src="https://img.shields.io/discord/865233670938689537?logo=discord&color=0&logoColor=white&label=Discord&style=flat-square">
   </a>
   <a style="text-decoration:none" href="https://twitter.com/openchia">
-    <img alt="Twitter" src="https://img.shields.io/twitter/follow/openchia?color=blue&label=Twitter&logo=twitter&logoColor=white&style=flat-square">
+    <img alt="Twitter" src="https://img.shields.io/badge/follow-%40openchia-1DA1F2?color=blue&label=Twitter&logo=twitter&logoColor=white&style=flat-square">
   </a>
   <a style="text-decoration:none" href="https://www.youtube.com/channel/UCL70j_KiPd49rfp_UEqxiyQ">
     <img alt="YouTube" src="https://img.shields.io/youtube/channel/subscribers/UCL70j_KiPd49rfp_UEqxiyQ?label=YouTube&logo=youtube&logoColor=white&style=flat-square">
