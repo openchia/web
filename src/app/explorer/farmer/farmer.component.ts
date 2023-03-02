@@ -74,6 +74,18 @@ export class FarmerComponent implements OnInit {
   payouttxsCountTotal: number = 0;
   payouttxsAmountTotal: number = 0;
 
+  payoutsTxsChartLegend: boolean = false;
+  payoutsTxsChartLegendTitle: string = '';
+  payoutsTxsChartAnimations: boolean = true;
+  payoutsTxsChartGradient: boolean = true;
+  payoutsTxsChartShowTimeline: boolean = false;
+  payoutsTxsChartAxisX: boolean = false;
+  payoutsTxsChartAxisY: boolean = true;
+  payoutsTxsChartShowAxisXLabel: boolean = false;
+  payoutsTxsChartShowAxisYLabel: boolean = true;
+  payoutsTxsChartAxisYLabel: string = $localize`Payouts (XCH)`;
+  payoutsTxsChartData: any[] = null;
+
   blocks$: Observable<any[]>;
   _blocks$ = new BehaviorSubject<any[]>([]);
   blocksCollectionSize: number = 0;
@@ -87,6 +99,7 @@ export class FarmerComponent implements OnInit {
 
   partialsChartColors = { domain: ['#129b00', '#e00000'] };
   sizeChartColors = { domain: ['#006400', '#9ef01a'] };
+  payoutsTxsChartColors = { domain: ['#129b00', '#e00000'] };
 
   private farmerid: string;
   public farmer: any = {};
@@ -213,6 +226,16 @@ export class FarmerComponent implements OnInit {
   }
 
   private handlePayoutTxs(data) {
+    this.payoutsTxsChartData = [{
+      "name": "Payouts",
+      "series": (<any[]>data['results']).reverse().map((item) => {
+        return ({
+          "name": (item['created_at_time'] || 0).toLocaleString(),
+          "value": (item['amount'] / 10 ** 12),
+          "label": (item['amount'] / 10 ** 12).toString() + ' XCH',
+        })
+      })
+    }];
     this.payouttxsCollectionSize = data['count'];
     this._payouttxs$.next(data['results']);
   }
@@ -366,9 +389,12 @@ export class FarmerComponent implements OnInit {
     return (data / 10 ** 12).toFixed(2).toString() + ' XCH';
   }
 
-
   partialsXAxisFormat(data) {
     return new Date(data * 1000).toLocaleTimeString();
+  }
+
+  payoutsTxsChartFormatAxisY(data: number) {
+    return (data).toFixed(6).toString() + ' XCH';
   }
 
   showPartialError(content) {
