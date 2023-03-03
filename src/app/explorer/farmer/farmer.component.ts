@@ -237,7 +237,7 @@ export class FarmerComponent implements OnInit {
       })
     }];
     this.payouttxsCollectionSize = data['count'];
-    this._payouttxs$.next(data['results']);
+    this._payouttxs$.next(data['results'].reverse());
   }
 
   refreshPayoutTxs() {
