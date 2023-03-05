@@ -14,3 +14,8 @@
   margin-top: 0.25rem;
   margin-left: 1rem;
 }
+
+.qrcode-bg {
+  background-color: #ffffff;
+  border-radius: 10px;
+}
