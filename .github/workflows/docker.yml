@@ -60,7 +60,6 @@ jobs:
             type=semver,pattern=v{{major}}.{{minor}}.{{patch}}
             type=semver,pattern=v{{major}}.{{minor}}
             type=semver,pattern=v{{major}}
-            type=raw,value=latest
 
       - name: Build and publish
         uses: docker/build-push-action@v4
