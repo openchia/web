@@ -92,6 +92,15 @@ export class FarmerComponent implements OnInit {
   blocksPage: number = 1;
   blocksPageSize: number = 25;
   blocksLuckAverage: number = 0;
+  blocksLuckChartLegend: boolean = false;
+  blocksLuckChartAnimations: boolean = true;
+  blocksLuckChartGradient: boolean = true;
+  blocksLuckChartAxisX: boolean = false;
+  blocksLuckChartAxisY: boolean = true;
+  blocksLuckChartShowAxisXLabel: boolean = false;
+  blocksLuckChartShowAxisYLabel: boolean = true;
+  blocksLuckChartAxisYLabel: string = $localize`Block(s) Luck`;
+  blocksLuckChartData: any[] = null;
 
   giveaways$: Observable<any[]>;
 
@@ -100,6 +109,7 @@ export class FarmerComponent implements OnInit {
   partialsChartColors = { domain: ['#129b00', '#e00000'] };
   sizeChartColors = { domain: ['#006400', '#9ef01a'] };
   payoutsTxsChartColors = { domain: ['#129b00', '#e00000'] };
+  blocksLuckChartColors = { domain: ['#129b00'] };
 
   private farmerid: string;
   public farmer: any = {};
@@ -196,10 +206,19 @@ export class FarmerComponent implements OnInit {
 
   private handleBlocks(data) {
     var blocksLuckCount: number = 0;
+    var seriesBlocksLuckChart = [];
+    (<any[]>data['results']).map((i) => {
+      seriesBlocksLuckChart.push({
+        "name": i['farmed_height'].toString() + ", " + (new Date(Math.floor(i['timestamp']) * 1000).toLocaleDateString()),
+        "value": i['luck'],
+        "label": $localize`Luck ${i['luck']}`
+      })
+    });
     data['results'].forEach(v => {
       blocksLuckCount = blocksLuckCount + v['luck'];
     });
     this.blocksLuckAverage = blocksLuckCount / data['count'];
+    this.blocksLuckChartData = seriesBlocksLuckChart.reverse();
     this.blocksCollectionSize = data['count'];
     this._blocks$.next(data['results']);
   }
@@ -395,6 +414,10 @@ export class FarmerComponent implements OnInit {
 
   payoutsTxsChartFormatAxisY(data: number) {
     return (data).toFixed(6).toString() + ' XCH';
+  }
+
+  blocksLuckChartFormatAxisY(data: number) {
+    return (data).toFixed(0).toString() + '%';
   }
 
   showPartialError(content) {
