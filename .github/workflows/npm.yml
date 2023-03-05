@@ -6,16 +6,19 @@ name: Npm
 # documentation.
 
 on:
-  push:
   pull_request:
+    paths:
+      - '**.json'
+      - '**.js'
+      - '**.yml'
+      - 'src/**'
+  workflow_dispatch:
 
 jobs:
-
-  npm-audit:
+  audit:
     runs-on: ubuntu-latest
     permissions:
       contents: read
-
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
@@ -24,13 +27,14 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: 16.x
-      - run: npm audit || true
 
-  npm-build:
+      - name: Execute npm audit
+        run: npm audit || true
+
+  build:
     runs-on: ubuntu-latest
     permissions:
       contents: read
-
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
@@ -39,5 +43,9 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: 16.x
-      - run: npm ci
-      - run: npm run build --if-present
+
+      - name: Execute npm ci
+        run: npm ci
+
+      - name: Execute npm run build
+        run: npm run build --if-present
