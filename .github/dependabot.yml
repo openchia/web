@@ -1,0 +1,34 @@
+version: 2
+updates:
+  # github-actions dependencies
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "daily"
+      time: "08:00"
+    commit-message:
+      prefix: "dependabot(github): "
+    labels:
+      - ":game_die: dependencies"
+      - ":robot: bot"
+    assignees:
+      - "djerfy"
+    reviewers:
+      - "william-gr"
+      - "djerfy"
+  # npm dependencies
+  - package-ecosystem: "npm"
+    directory: "/"
+    schedule:
+      interval: "daily"
+      time: "08:00"
+    commit-message:
+      prefix: "dependabot(npm): "
+    labels:
+      - ":game_die: dependencies"
+      - ":robot: bot"
+    assignees:
+      - "djerfy"
+    reviewers:
+      - "william-gr"
+      - "djerfy"
