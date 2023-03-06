@@ -193,7 +193,7 @@ export class StatsComponent implements OnInit {
       var seriesLuckPerBlock = [];
       (<any[]>d['results']).map((item) => {
         seriesLuckPerBlock.push({
-          "name": item['farmed_height'].toString() + ", " + (new Date(Math.floor(item['timestamp'] / 86400 + 1) * 86400 * 1000).toLocaleDateString()),
+          "name": item['farmed_height'].toString() + ", " + (new Date(Math.floor(item['timestamp']) * 1000).toLocaleDateString()),
           "value": item['luck'],
           "label": `Luck ${item['luck']}%`
         })
