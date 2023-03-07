@@ -8,9 +8,9 @@ name: Npm
 on:
   pull_request:
     paths:
-      - '**.json'
-      - '**.js'
-      - '**.yml'
+      - '*.json'
+      - '*.js'
+      - '*.yml'
       - 'src/**'
   workflow_dispatch:
 
