@@ -255,18 +255,18 @@
           <td>{{ block.pool_space | filesize:{"base": 2, "standard": "iec"} }}</td>
           <td>
             <span *ngIf="block.luck == -1"
-              class="badge badge-block-luck badge-secondary" i18n="@@Unknown">
+              class="badge badge-block-effort badge-secondary" i18n="@@Unknown">
               Unknown
             </span>
             <span *ngIf="block.luck != -1">
               <span *ngIf="block.luck < 80"
-                class="badge badge-block-luck badge-success"
+                class="badge badge-block-effort badge-success"
                 ngbTooltip="Lucky">{{ block.luck }}%</span>
               <span *ngIf="block.luck >= 80 && block.luck <= 120"
-                class="badge badge-block-luck badge-warning"
+                class="badge badge-block-effort badge-warning"
                 ngbTooltip="Average">{{ block.luck }}%</span>
               <span *ngIf="block.luck > 120"
-                class="badge badge-block-luck badge-danger"
+                class="badge badge-block-effort badge-danger"
                 ngbTooltip="Unlucky">{{ block.luck }}%</span>
             </span>
           </td>
