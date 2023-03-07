@@ -693,8 +693,8 @@
                 <div class="col-lg-6 justify-content-center">
                   <div class="card card-lift shadow border-0">
                     <div *ngIf="blocks$ | async; let blocks" class="card-body py-3 text-center text-uppercase">
-                      <span class="text-primary"><span i18n="">Luck Average</span></span>
-                      <p class="display-3">{{ blocksLuckAverage | number:'.0-1' }}%</p>
+                      <span class="text-primary"><span i18n="@@EffortAverage">Effort Average</span></span>
+                      <p class="display-3">{{ blocksEffortAverage | number:'.0-1' }}%</p>
                     </div>
                   </div>
                 </div>
@@ -726,7 +726,7 @@
                   &nbsp;<i class="fas fa-info-circle" closeDelay="4000" [ngbTooltip]="poolEffortTooltip"></i>
                 </th>
                 <th scope="col"><span i18n="@@FarmerEffort">Farmer Effort</span>
-                  <ng-template #FarmerEffortTooltip>
+                  <ng-template #farmerEffortTooltip>
                     <span i18n>
                       The effort that was required to farm the block. 100% is the expected estimated time to win.
                       Lower than 100% means we farmed the block before the estimation.

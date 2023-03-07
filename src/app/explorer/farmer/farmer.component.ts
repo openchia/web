@@ -91,10 +91,9 @@ export class FarmerComponent implements OnInit {
   blocksCollectionSize: number = 0;
   blocksPage: number = 1;
   blocksPageSize: number = 25;
-  blocksLuckAverage: number = 0;
+  blocksEffortAverage: number = 0;
 
   giveaways$: Observable<any[]>;
-
   ticketsRound$: Observable<any[]>;
 
   partialsChartColors = { domain: ['#129b00', '#e00000'] };
@@ -195,11 +194,9 @@ export class FarmerComponent implements OnInit {
   }
 
   private handleBlocks(data) {
-    var blocksLuckCount: number = 0;
-    data['results'].forEach(v => {
-      blocksLuckCount = blocksLuckCount + v['luck'];
-    });
-    this.blocksLuckAverage = blocksLuckCount / data['count'];
+    var blocksEffortCount: number = 0;
+    data['results'].forEach(v => { blocksEffortCount = blocksEffortCount + v['luck']; });
+    this.blocksEffortAverage = blocksEffortCount / data['count'];
     this.blocksCollectionSize = data['count'];
     this._blocks$.next(data['results']);
   }
