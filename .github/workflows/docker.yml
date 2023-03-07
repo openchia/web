@@ -34,6 +34,9 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
 
+      - uses: benjlevesque/short-sha@v2.1
+        id: metasha
+
       - name: Setup qemu
         uses: docker/setup-qemu-action@v2
 
@@ -75,7 +78,7 @@ jobs:
         if: github.event_name != 'pull_request'
         uses: aquasecurity/trivy-action@master
         with:
-          image-ref: ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}:latest
+          image-ref: ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}:sha-${{ steps.metasha.outputs.sha }}
           format: 'sarif'
           ignore-unfixed: 'false'
           vuln-type: 'os,library'
