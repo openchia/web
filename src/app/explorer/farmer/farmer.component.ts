@@ -99,7 +99,7 @@ export class FarmerComponent implements OnInit {
 
   partialsChartColors = { domain: ['#129b00', '#e00000'] };
   sizeChartColors = { domain: ['#006400', '#9ef01a'] };
-  payoutsTxsChartColors = { domain: ['#129b00', '#e00000'] };
+  payoutsTxsChartColors = { domain: ['#129b00'] };
 
   private farmerid: string;
   public farmer: any = {};
@@ -226,16 +226,15 @@ export class FarmerComponent implements OnInit {
   }
 
   private handlePayoutTxs(data) {
-    this.payoutsTxsChartData = [{
-      "name": "Payouts",
-      "series": (<any[]>data['results']).reverse().map((item) => {
-        return ({
-          "name": (item['created_at_time'] || 0).toLocaleString(),
-          "value": (item['amount'] / 10 ** 12),
-          "label": (item['amount'] / 10 ** 12).toString() + ' XCH',
-        })
+    var seriesPayoutsTxsChart = [];
+    (<any[]>data['results']).reverse().map((i) => {
+      seriesPayoutsTxsChart.push({
+        "name": (i['created_at_time'] || $localize`Unpaid`).toLocaleString(),
+        "value": (i['amount'] / 10 ** 12),
+        "label": (i['amount'] / 10 ** 12).toString() + ' XCH'
       })
-    }];
+    });
+    this.payoutsTxsChartData = seriesPayoutsTxsChart;
     this.payouttxsCollectionSize = data['count'];
     this._payouttxs$.next(data['results'].reverse());
   }
