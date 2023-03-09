@@ -109,8 +109,8 @@
             </div>
             <br />
 
-            <!-- pool luck -->
-            <div class="row" id="pool_luck">
+            <!-- pool effort -->
+            <div class="row" id="pool_effort">
               <div class="col-md-12 ml-auto">
                 <div class="accordion">
                   <div class="card">
@@ -118,21 +118,21 @@
                       <h5 class="mb-0">
                         <button aria-controls="collapseOne" type="button"
                           class="btn btn-link w-100 text-primary text-left"
-                          aria-expanded="true" i18n>Pool Luck
+                          aria-expanded="true" i18n="@@PoolEffort">Pool Effort
                           <i class="ni ni-bold-down float-right pt-1"></i>
                         </button>
                       </h5>
                     </div>
                     <div aria-labelledby="headingOne" class="show collapse in" style="display: block;"
-                      aria-expanded="false" aria-hidden="false" #luckPerBlockContainerRef>
+                      aria-expanded="false" aria-hidden="false" #poolEffortPerBlockContainerRef>
                       <br />
                       <!-- per block -->
-                      <ngx-charts-bar-vertical [view]="[luckPerBlockContainerRef.offsetWidth]"
-                        [legend]="luckPerBlockLegend" [legendTitle]="luckPerBlockLegendTitle"
-                        [showXAxisLabel]="luckPerBlockShowAxisXLabel" [showYAxisLabel]="luckPerBlockShowAxisYLabel"
-                        [yAxis]="luckPerBlockAxisY" [xAxis]="luckPerBlockAxisX" [animations]="luckPerBlockAnimations"
-                        [results]="luckPerBlockData" [scheme]="oneColorScheme" [yAxisTickFormatting]="luckPerBlockFormatAxisY"
-                        [gradient]="luckPerBlockGradient" [showGridLines]="true" [barPadding]="3"
+                      <ngx-charts-bar-vertical [view]="[poolEffortPerBlockContainerRef.offsetWidth]"
+                        [legend]="poolEffortPerBlockLegend" [legendTitle]="poolEffortPerBlockLegendTitle"
+                        [showXAxisLabel]="poolEffortPerBlockShowAxisXLabel" [showYAxisLabel]="poolEffortPerBlockShowAxisYLabel"
+                        [yAxis]="poolEffortPerBlockAxisY" [xAxis]="poolEffortPerBlockAxisX" [animations]="poolEffortPerBlockAnimations"
+                        [results]="poolEffortPerBlockData" [scheme]="oneColorScheme" [yAxisTickFormatting]="poolEffortPerBlockFormatAxisY"
+                        [gradient]="poolEffortPerBlockGradient" [showGridLines]="true" [barPadding]="3"
                         [roundEdges]="false" [noBarWhenZero]="false">
                         <ng-template #tooltipTemplate let-model="model">
                           {{ model.name }}<br />Luck {{ model.value }}%

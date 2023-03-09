@@ -73,15 +73,15 @@ export class StatsComponent implements OnInit {
   mempoolShowAxisYLabel: boolean = false;
   mempoolData: any[] = null;
 
-  luckPerBlockLegend: boolean = true;
-  luckPerBlockLegendTitle: string = 'Per block'
-  luckPerBlockAnimations: boolean = true;
-  luckPerBlockGradient: boolean = true;
-  luckPerBlockAxisX: boolean = false;
-  luckPerBlockAxisY: boolean = true;
-  luckPerBlockShowAxisXLabel: boolean = true;
-  luckPerBlockShowAxisYLabel: boolean = false;
-  luckPerBlockData: any[] = null;
+  poolEffortPerBlockLegend: boolean = true;
+  poolEffortPerBlockLegendTitle: string = 'Per block'
+  poolEffortPerBlockAnimations: boolean = true;
+  poolEffortPerBlockGradient: boolean = true;
+  poolEffortPerBlockAxisX: boolean = false;
+  poolEffortPerBlockAxisY: boolean = true;
+  poolEffortPerBlockShowAxisXLabel: boolean = true;
+  poolEffortPerBlockShowAxisYLabel: boolean = false;
+  poolEffortPerBlockData: any[] = null;
 
   oneColorScheme = { domain: ['#149b00'] };
   multiColorScheme = { domain: ['#006400', '#9ef01a', '#008000', '#70e000'] };
@@ -189,16 +189,16 @@ export class StatsComponent implements OnInit {
         })
       });
       this.blocksData = seriesBlocks.reverse();
-      // used in pool luck chart (per block)
-      var seriesLuckPerBlock = [];
+      // used in pool effort chart (per block)
+      var seriesPoolEffortPerBlock = [];
       (<any[]>d['results']).map((item) => {
-        seriesLuckPerBlock.push({
+        seriesPoolEffortPerBlock.push({
           "name": item['farmed_height'].toString() + ", " + (new Date(Math.floor(item['timestamp']) * 1000).toLocaleDateString()),
           "value": item['luck'],
           "label": `Luck ${item['luck']}%`
         })
       })
-      this.luckPerBlockData = seriesLuckPerBlock.reverse();
+      this.poolEffortPerBlockData = seriesPoolEffortPerBlock.reverse();
     });
   }
 
@@ -218,7 +218,7 @@ export class StatsComponent implements OnInit {
     return (data).toFixed(0).toString() + '%';
   }
 
-  luckPerBlockFormatAxisY(data: number) {
+  poolEffortPerBlockFormatAxisY(data: number) {
     return (data).toFixed(0).toString() + '%';
   }
 

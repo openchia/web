@@ -675,6 +675,23 @@
           <br />
           <div class="row justify-content-center">
             <div class="col-lg-12">
+              <div class="col-lg-12" style="display: block;" #blocksEffortChartContainerRef>
+                <ngx-charts-bar-vertical [view]="[blocksEffortChartContainerRef.offsetWidth, 280]"
+                  [legend]="blocksEffortChartLegend" [legendTitle]="blocksEffortChartLegendTitle"
+                  [showXAxisLabel]="blocksEffortChartShowAxisXLabel" [showYAxisLabel]="blocksEffortChartShowAxisYLabel"
+                  [yAxis]="blocksEffortChartAxisY" [xAxis]="blocksEffortChartAxisX" [animations]="blocksEffortChartAnimations"
+                  [results]="blocksEffortChartData" [scheme]="blocksEffortChartColors" [barPadding]="3"
+                  [yAxisTickFormatting]="blocksEffortChartFormatAxisY" [showGridLines]="true"
+                  [gradient]="blocksEffortChartGradient" [yAxisLabel]="blocksEffortChartAxisYLabel"
+                  [roundEdges]="false" [noBarWhenZero]="false">
+                  <ng-template #tooltipTemplate let-model="model">
+                    {{ model.name }}<br />Effort {{ model.value }}%
+                  </ng-template>
+                </ngx-charts-bar-vertical>
+              </div>
+              <br />
+            </div>
+            <div class="col-lg-12">
               <div class="row row-grid">
                 <div class="col-lg-6 justify-content-center">
                   <div class="card card-lift shadow border-0">
@@ -687,8 +704,8 @@
                 <div class="col-lg-6 justify-content-center">
                   <div class="card card-lift shadow border-0">
                     <div *ngIf="blocks$ | async; let blocks" class="card-body py-3 text-center text-uppercase">
-                      <span class="text-primary"><span i18n="">Luck Average</span></span>
-                      <p class="display-3">{{ blocksLuckAverage | number:'.0-1' }}%</p>
+                      <span class="text-primary"><span i18n="@@EffortAverage">Effort Average</span></span>
+                      <p class="display-3">{{ blocksEffortAverage | number:'.0-1' }}%</p>
                     </div>
                   </div>
                 </div>
@@ -703,21 +720,31 @@
                 <th scope="col" i18n="@@Date">Date</th>
                 <th scope="col" i18n="@@Amount">Amount</th>
                 <th scope="col" i18n="@@Price">Price</th>
+                <th scope="col"><span i18n="@@Poolspace">Pool Space</span>
+                  <ng-template #poolspaceTooltip>
+                    <span i18n>Pool space when the block has been won.</span>
+                  </ng-template>
+                  &nbsp;<i class="fas fa-info-circle" closeDelay="4000" [ngbTooltip]="poolspaceTooltip"></i>
+                </th>
                 <th scope="col"><span i18n="@@PoolEffort">Pool Effort</span>
-                  <ng-template #effortTooltip>
+                  <ng-template #poolEffortTooltip>
                     <span i18n>
                       The effort that was required to farm the block. 100% is the expected estimated time to win.
                       Lower than 100% means we farmed the block before the estimation.
                       Higher than 100% means we took longer than anticipated.
                     </span>
                   </ng-template>
-                  &nbsp;<i class="fas fa-info-circle" closeDelay="4000" [ngbTooltip]="effortTooltip"></i>
+                  &nbsp;<i class="fas fa-info-circle" closeDelay="4000" [ngbTooltip]="poolEffortTooltip"></i>
                 </th>
-                <th scope="col"><span i18n="@@Poolspace">Pool Space</span>
-                  <ng-template #poolspaceTooltip>
-                    <span i18n>Pool space when the block has been won.</span>
+                <th scope="col"><span i18n="@@FarmerEffort">Farmer Effort</span>
+                  <ng-template #farmerEffortTooltip>
+                    <span i18n>
+                      The effort that was required to farm the block. 100% is the expected estimated time to win.
+                      Lower than 100% means we farmed the block before the estimation.
+                      Higher than 100% means we took longer than anticipated.
+                    </span>
                   </ng-template>
-                  &nbsp;<i class="fas fa-info-circle" closeDelay="4000" [ngbTooltip]="poolspaceTooltip"></i>
+                  &nbsp;<i class="fas fa-info-circle" closeDelay="4000" [ngbTooltip]="farmerEffortTooltip"></i>
                 </th>
               </tr>
             </thead>
@@ -735,27 +762,44 @@
                     }} USD</span>
                   <span *ngIf="!block.xch_price" i18n="@@Unknown">Unknown</span>
                 </td>
+                <td>{{ block.pool_space | filesize:{"base": 2, "standard": "iec"} }}</td>
                 <td>
                   <span *ngIf="block.luck == -1"
-                    class="badge badge-block-luck badge-secondary" i18n="@@Unknown">
+                    class="badge badge-block-effort badge-secondary" i18n="@@Unknown">
                     Unknown
                   </span>
                   <span *ngIf="block.luck != -1">
                     <span *ngIf="block.luck < 80"
-                      class="badge badge-block-luck badge-success"
+                      class="badge badge-block-effort badge-success"
                       ngbTooltip="Lucky">{{ block.luck }}%</span>
                     <span *ngIf="block.luck >= 80 && block.luck <= 120"
-                      class="badge badge-block-luck badge-warning"
+                      class="badge badge-block-effort badge-warning"
                       ngbTooltip="Average">{{ block.luck }}%</span>
                     <span *ngIf="block.luck > 120"
-                      class="badge badge-block-luck badge-danger"
+                      class="badge badge-block-effort badge-danger"
                       ngbTooltip="Unlucky">{{ block.luck }}%</span>
                   </span>
                 </td>
-                <td>{{ block.pool_space | filesize:{"base": 2, "standard": "iec"} }}</td>
+                <td>
+                  <span *ngIf="block.launcher_effort == -1"
+                    class="badge badge-block-effort badge-secondary" i18n="@@Unknown">
+                    Unknown
+                  </span>
+                  <span *ngIf="block.launcher_effort != -1">
+                    <span *ngIf="block.launcher_effort < 80"
+                      class="badge badge-block-effort badge-success"
+                      ngbTooltip="Lucky">{{ block.launcher_effort }}%</span>
+                    <span *ngIf="block.launcher_effort >= 80 && block.launcher_effort <= 120"
+                      class="badge badge-block-effort badge-warning"
+                      ngbTooltip="Average">{{ block.launcher_effort }}%</span>
+                    <span *ngIf="block.launcher_effort > 120"
+                      class="badge badge-block-effort badge-danger"
+                      ngbTooltip="Unlucky">{{ block.launcher_effort }}%</span>
+                  </span>
+                </td>
               </tr>
               <tr *ngIf="blocks.length == 0">
-                <td colspan="6" i18n>No blocks found by this farmer!</td>
+                <td colspan="7" i18n>No blocks found by this farmer!</td>
               </tr>
             </tbody>
           </table>

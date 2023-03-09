@@ -91,14 +91,23 @@ export class FarmerComponent implements OnInit {
   blocksCollectionSize: number = 0;
   blocksPage: number = 1;
   blocksPageSize: number = 25;
-  blocksLuckAverage: number = 0;
+  blocksEffortAverage: number = 0;
+  blocksEffortChartLegend: boolean = false;
+  blocksEffortChartAnimations: boolean = true;
+  blocksEffortChartGradient: boolean = true;
+  blocksEffortChartAxisX: boolean = false;
+  blocksEffortChartAxisY: boolean = true;
+  blocksEffortChartShowAxisXLabel: boolean = false;
+  blocksEffortChartShowAxisYLabel: boolean = true;
+  blocksEffortChartAxisYLabel: string = $localize`Block(s) Effort`;
+  blocksEffortChartData: any[] = null;
 
   giveaways$: Observable<any[]>;
-
   ticketsRound$: Observable<any[]>;
 
   partialsChartColors = { domain: ['#129b00', '#e00000'] };
   sizeChartColors = { domain: ['#006400', '#9ef01a'] };
+  blocksEffortChartColors = { domain: ['#129b00'] };
   payoutsTxsChartColors = { domain: ['#129b00'] };
 
   private farmerid: string;
@@ -138,7 +147,6 @@ export class FarmerComponent implements OnInit {
   }
 
   _handlePartial(subscriber, data, successes, errors, hours) {
-
     this.partialsTable = this.partialsTable.concat(data['results']);
     data['results'].forEach(v => {
       this.harvesters.add(v['harvester_id']);
@@ -166,7 +174,6 @@ export class FarmerComponent implements OnInit {
       subscriber.complete();
       this.filterPartials();
     }
-
   }
 
   payoutsDownloadCSV() {
@@ -195,11 +202,20 @@ export class FarmerComponent implements OnInit {
   }
 
   private handleBlocks(data) {
-    var blocksLuckCount: number = 0;
+    var blocksEffortCount: number = 0;
+    var seriesBlocksEffortChart = [];
     data['results'].forEach(v => {
-      blocksLuckCount = blocksLuckCount + v['luck'];
+      blocksEffortCount = blocksEffortCount + v['launcher_effort'];
     });
-    this.blocksLuckAverage = blocksLuckCount / data['count'];
+    (<any[]>data['results']).map((i) => {
+      seriesBlocksEffortChart.push({
+        "name": i['farmed_height'].toString() + ", " + (new Date(Math.floor(i['timestamp']) * 1000).toLocaleDateString()),
+        "value": i['launcher_effort'],
+        "label": $localize`Effort ${i['launcher_effort']}`
+      })
+    });
+    this.blocksEffortAverage = blocksEffortCount / data['count'];
+    this.blocksEffortChartData = seriesBlocksEffortChart.reverse();
     this.blocksCollectionSize = data['count'];
     this._blocks$.next(data['results']);
   }
@@ -262,15 +278,12 @@ export class FarmerComponent implements OnInit {
   }
 
   getPartialsData(launcher_id) {
-
     var successes = new Map();
     var errors = new Map();
     var hours = new Set();
-
     this.partialsTable = [];
     this.partialsFiltered = [];
     this.harvesters.clear();
-
     var obs = new Observable(subscriber => {
       this.dataService.getPartials(launcher_id).subscribe((data) => {
         this.partialsCollectionSize = data['count'];
@@ -282,9 +295,7 @@ export class FarmerComponent implements OnInit {
       (x) => { },
       (err) => { console.error('something wrong occurred: ' + err); },
       () => {
-
         this.partialsXTicks = Array.from(hours);
-
         this.partialsData = [
           {
             "name": $localize`Successful Partials`,
@@ -299,10 +310,8 @@ export class FarmerComponent implements OnInit {
             }),
           },
         ];
-
       }
     );
-
   }
 
   getHarvesters(launcher_id) {
@@ -310,7 +319,6 @@ export class FarmerComponent implements OnInit {
     this.perHarvesterData.clear();
     this.dataService.getPartialsTs({ launcher: launcher_id }).subscribe((d) => {
       (<any[]>d).forEach(i => {
-
         var harvester = this.perHarvesterData.get(i['harvester']);
         if(!harvester) {
           harvester = {
@@ -394,6 +402,10 @@ export class FarmerComponent implements OnInit {
 
   payoutsTxsChartFormatAxisY(data: number) {
     return (data).toFixed(6).toString() + ' XCH';
+  }
+
+  blocksEffortChartFormatAxisY(data: number) {
+    return (data).toFixed(0).toString() + '%';
   }
 
   showPartialError(content) {
