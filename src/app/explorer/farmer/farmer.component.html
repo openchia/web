@@ -391,8 +391,9 @@
                     <div aria-labelledby="headingTwo" data-parent="#accordionFeesPool" id="collapseTwo"
                       class="show collapse in" style="display: block;" aria-expanded="false" aria-hidden="false">
                       <div class="card-body opacity-8">
-                        <div class="row justify-content-center">
-                          <ngx-charts-area-chart [scheme]="partialsChartColors" [legend]="false"
+                        <div class="row justify-content-center" #harvestersContainerRef>
+                          <ngx-charts-area-chart [view]="[harvestersContainerRef.offsetWidth, 400]"
+                            [scheme]="partialsChartColors" [legend]="false"
                             [showXAxisLabel]="false" [showYAxisLabel]="true" [xAxis]="true" [yAxis]="true"
                             [xAxisLabel]="harvesterXAxisLabel" [yAxisLabel]="harvesterYAxisLabel" [timeline]="false"
                             [results]="mapEntry.value.data" [xAxisTicks]="harvesterXTicks" [gradient]="true">
