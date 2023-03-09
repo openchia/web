@@ -567,23 +567,17 @@
           <div class="row justify-content-center">
             <div class="col-lg-12">
               <div class="col-lg-12" style="display: block;" #payoutsTxsChartContainerRef>
-                <ngx-charts-area-chart [view]="[payoutsTxsChartContainerRef.offsetWidth, 280]"
+                <ngx-charts-bar-vertical [view]="[payoutsTxsChartContainerRef.offsetWidth, 280]"
                   [legend]="payoutsTxsChartLegend" [legendTitle]="payoutsTxsChartLegendTitle"
                   [gradient]="payoutsTxsChartGradient" [scheme]="payoutsTxsChartColors"
                   [showXAxisLabel]="payoutsTxsChartAxisXLabel" [showYAxisLabel]="payoutsTxsChartAxisYLabel"
-                  [xAxisLabel]="payoutsTxsChartAxisXLabel" [yAxisLabel]="payoutsTxsChartAxisYLabel"
+                  [yAxisLabel]="payoutsTxsChartAxisYLabel" [yAxisTickFormatting]="payoutsTxsChartFormatAxisY"
                   [xAxis]="payoutsTxsChartAxisX" [yAxis]="payoutsTxsChartAxisY"
-                  [timeline]="payoutsTxsChartShowTimeline" [yAxisTickFormatting]="payoutsTxsChartFormatAxisY"
-                  [results]="payoutsTxsChartData">
-                  <ng-template #seriesTooltipTemplate let-model="model">
-                    {{ model[0].label }}<br />
-                    {{ model[0].name }}
-                  </ng-template>
+                  [results]="payoutsTxsChartData" [roundEdges]="false" [noBarWhenZero]="false">
                   <ng-template #tooltipTemplate let-model="model">
-                    {{ model[0].label }}<br />
-                    {{ model[0].name }}
+                    {{ model.name }}<br />{{ model.value }}XCH
                   </ng-template>
-                </ngx-charts-area-chart>
+                </ngx-charts-bar-vertical>
               </div>
               <br />
             </div>
