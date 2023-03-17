@@ -205,7 +205,9 @@ export class FarmerComponent implements OnInit {
     var blocksEffortCount: number = 0;
     var seriesBlocksEffortChart = [];
     data['results'].forEach(v => {
-      blocksEffortCount = blocksEffortCount + v['launcher_effort'];
+      if(v['launcher_effort'] != -1) {
+        blocksEffortCount = blocksEffortCount + v['launcher_effort'];
+      }
     });
     (<any[]>data['results']).map((i) => {
       seriesBlocksEffortChart.push({
