@@ -99,7 +99,7 @@
                       <ngx-charts-bar-vertical [view]="[blocksContainerRef.offsetWidth]"
                         [showXAxisLabel]="blocksShowAxisXLabel" [showYAxisLabel]="blocksShowAxisYLabel"
                         [yAxis]="blocksAxisY" [xAxis]="blocksAxisX" [animations]="true" [results]="blocksData"
-                        [scheme]="oneColorScheme">
+                        [scheme]="oneColorScheme" [gradient]="blocksGradient">
                       </ngx-charts-bar-vertical>
                       <br />
                     </div>
@@ -124,18 +124,31 @@
                       </h5>
                     </div>
                     <div aria-labelledby="headingOne" class="show collapse in" style="display: block;"
-                      aria-expanded="false" aria-hidden="false" #poolEffortPerBlockContainerRef>
+                      aria-expanded="false" aria-hidden="false" #poolEffortContainerRef>
                       <br />
+                      <!-- per day -->
+                      <ngx-charts-bar-vertical [view]="[poolEffortContainerRef.offsetWidth]"
+                        [legend]="poolEffortPerDayLegend" [roundEdges]="true" [noBarWhenZero]="false"
+                        [showXAxisLabel]="poolEffortPerDayShowAxisXLabel" [showYAxisLabel]="poolEffortPerDayShowAxisYLabel"
+                        [yAxis]="poolEffortPerDayAxisY" [xAxis]="poolEffortPerDayAxisX" [animations]="poolEffortPerDayAnimations"
+                        [results]="poolEffortPerDayData" [scheme]="oneColorScheme" [yAxisTickFormatting]="poolEffortFormatAxisY"
+                        [gradient]="poolEffortPerDayGradient" [showGridLines]="true"
+                        [yAxisLabel]="poolEffortPerDayAxisYLabel">
+                        <ng-template #tooltipTemplate let-model="model">
+                          {{ model.name }}<br />{{ model.value | number:'2.1-2' }}%
+                        </ng-template>
+                      </ngx-charts-bar-vertical>
+                      <br /><hr />
                       <!-- per block -->
-                      <ngx-charts-bar-vertical [view]="[poolEffortPerBlockContainerRef.offsetWidth]"
-                        [legend]="poolEffortPerBlockLegend" [legendTitle]="poolEffortPerBlockLegendTitle"
+                      <ngx-charts-bar-vertical [view]="[poolEffortContainerRef.offsetWidth]"
+                        [legend]="poolEffortPerBlockLegend" [roundEdges]="false" [noBarWhenZero]="false"
                         [showXAxisLabel]="poolEffortPerBlockShowAxisXLabel" [showYAxisLabel]="poolEffortPerBlockShowAxisYLabel"
                         [yAxis]="poolEffortPerBlockAxisY" [xAxis]="poolEffortPerBlockAxisX" [animations]="poolEffortPerBlockAnimations"
-                        [results]="poolEffortPerBlockData" [scheme]="oneColorScheme" [yAxisTickFormatting]="poolEffortPerBlockFormatAxisY"
+                        [results]="poolEffortPerBlockData" [scheme]="oneColorScheme" [yAxisTickFormatting]="poolEffortFormatAxisY"
                         [gradient]="poolEffortPerBlockGradient" [showGridLines]="true" [barPadding]="3"
-                        [roundEdges]="false" [noBarWhenZero]="false">
+                        [yAxisLabel]="poolEffortPerBlockAxisYLabel">
                         <ng-template #tooltipTemplate let-model="model">
-                          {{ model.name }}<br />Luck {{ model.value }}%
+                          {{ model.name }}<br />{{ model.value | number:'2.1-2' }}%
                         </ng-template>
                       </ngx-charts-bar-vertical>
                       <br />
