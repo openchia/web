@@ -60,6 +60,7 @@ export class StatsComponent implements OnInit {
   priceData: any[] = null;
   priceDays: number = 7;
 
+  blocksGradient: boolean = true;
   blocksAxisX: boolean = false;
   blocksAxisY: boolean = true;
   blocksShowAxisXLabel: boolean = true;
@@ -73,14 +74,24 @@ export class StatsComponent implements OnInit {
   mempoolShowAxisYLabel: boolean = false;
   mempoolData: any[] = null;
 
-  poolEffortPerBlockLegend: boolean = true;
-  poolEffortPerBlockLegendTitle: string = 'Per block'
+  poolEffortPerDayLegend: boolean = false;
+  poolEffortPerDayAnimations: boolean = true;
+  poolEffortPerDayGradient: boolean = true;
+  poolEffortPerDayAxisX: boolean = false;
+  poolEffortPerDayAxisY: boolean = true;
+  poolEffortPerDayAxisYLabel: string = $localize`Per Day`;
+  poolEffortPerDayShowAxisXLabel: boolean = false;
+  poolEffortPerDayShowAxisYLabel: boolean = true;
+  poolEffortPerDayData: any[] = null;
+
+  poolEffortPerBlockLegend: boolean = false;
   poolEffortPerBlockAnimations: boolean = true;
   poolEffortPerBlockGradient: boolean = true;
   poolEffortPerBlockAxisX: boolean = false;
   poolEffortPerBlockAxisY: boolean = true;
-  poolEffortPerBlockShowAxisXLabel: boolean = true;
-  poolEffortPerBlockShowAxisYLabel: boolean = false;
+  poolEffortPerBlockAxisYLabel: string = $localize`Per Block`;
+  poolEffortPerBlockShowAxisXLabel: boolean = false;
+  poolEffortPerBlockShowAxisYLabel: boolean = true;
   poolEffortPerBlockData: any[] = null;
 
   oneColorScheme = { domain: ['#149b00'] };
@@ -174,28 +185,40 @@ export class StatsComponent implements OnInit {
 
   getBlocks() {
     var blocksPerDay: Map<String, number> = new Map();
+    var effortPerDay: Map<String, number> = new Map();
     this.dataService.getBlocks().subscribe(d => {
       // used in blocks per day chart
       (<any[]>d['results']).map((item) => {
-        var date = new Date(Math.floor(item['timestamp'] / 86400 + 1) * 86400 * 1000).toLocaleDateString();
+        var date = new Date(Math.floor(item['timestamp']) * 1000).toLocaleDateString();
         blocksPerDay.set(date, (blocksPerDay.get(date) || 0) + 1);
+        effortPerDay.set(date, (effortPerDay.get(date) || 0) + item['luck']);
       });
       var seriesBlocks = [];
       blocksPerDay.forEach((v, k) => {
         seriesBlocks.push({
           'name': k,
           'value': v,
-          'label': `${v.toString()} Block(s)`,
+          'label': `${v.toString()} Block(s)`
         })
       });
       this.blocksData = seriesBlocks.reverse();
+      // used in pool effort chart (per day)
+      var seriesEffort = [];
+      effortPerDay.forEach((v, k) => {
+        seriesEffort.push({
+          'name': k,
+          'value': v / (blocksPerDay.get(k)),
+          'label': `Average ${(v / (blocksPerDay.get(k))).toString()}%`
+        })
+      });
+      this.poolEffortPerDayData = seriesEffort.reverse();
       // used in pool effort chart (per block)
       var seriesPoolEffortPerBlock = [];
       (<any[]>d['results']).map((item) => {
         seriesPoolEffortPerBlock.push({
           "name": item['farmed_height'].toString() + ", " + (new Date(Math.floor(item['timestamp']) * 1000).toLocaleDateString()),
           "value": item['luck'],
-          "label": `Luck ${item['luck']}%`
+          "label": `Effort ${item['luck']}%`
         })
       })
       this.poolEffortPerBlockData = seriesPoolEffortPerBlock.reverse();
@@ -218,7 +241,7 @@ export class StatsComponent implements OnInit {
     return (data).toFixed(0).toString() + '%';
   }
 
-  poolEffortPerBlockFormatAxisY(data: number) {
+  poolEffortFormatAxisY(data: number) {
     return (data).toFixed(0).toString() + '%';
   }
 
