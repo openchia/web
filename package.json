@@ -27,7 +27,7 @@
     "@swimlane/ngx-charts": "^20.1.2",
     "@types/humanize-duration": "^3.27.1",
     "angular-csv-ext": "^1.0.5",
-    "bootstrap": "^4.6.1",
+    "bootstrap": "^5.2.3",
     "core-js": "^3.29.1",
     "flag-icons": "^6.6.6",
     "git-rev-sync": "^3.0.2",
