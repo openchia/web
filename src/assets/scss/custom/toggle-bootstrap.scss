@@ -19,6 +19,8 @@ body.bootstrap {
 }
 
 .bootstrap {
+    $custom-file-text: ();
+
     @import "bootstrap/scss/functions";
     @import "functions";
 
