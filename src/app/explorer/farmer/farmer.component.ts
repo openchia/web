@@ -382,7 +382,7 @@ export class FarmerComponent implements OnInit {
         }
         where['series'].push({
           'name': new Date(i['datetime']).toLocaleString(),
-          'value': i['value'],
+          'value': i['value'] / 1024 ** 4,
           'label': where['name'] + ': ' + (i['value'] / 1024 ** 4).toFixed(2).toString() + ' TiB',
         })
       });
@@ -390,8 +390,8 @@ export class FarmerComponent implements OnInit {
     });
   }
 
-  spaceFormatAxisY(spaceData: number) {
-    return (spaceData / 1024 ** 4).toFixed(2).toString() + ' TiB';
+  spaceFormatAxisY(data: number) {
+    return (data).toFixed(2).toString() + ' TiB';
   }
 
   rewardsFormatAxisY(data: number) {
