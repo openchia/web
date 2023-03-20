@@ -2,7 +2,7 @@
 # Docker build environment #
 ############################
 
-FROM node:16-bullseye AS build
+FROM node:19-bullseye AS build
 
 WORKDIR /build
 
