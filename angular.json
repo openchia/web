@@ -55,7 +55,12 @@
             "tsConfig": "src/tsconfig.app.json",
             "allowedCommonJsDependencies": [
               "rxjs/add/operator/filter",
-              "ng2-nouislider"
+              "ng2-nouislider",
+              "rfdc",
+              "xterm",
+              "xterm-addon-fit",
+              "filesize",
+              "angular-csv-ext/dist/Angular-csv"
             ],
             "assets": [
               "src/favicon.ico",

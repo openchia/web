@@ -60,6 +60,8 @@ body.bootstrap-dark {
 }
 
 .bootstrap-dark {
+    $custom-file-text: ();
+
     @import "bootstrap/scss/functions";
     @import "functions";
 
