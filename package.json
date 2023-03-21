@@ -4,7 +4,7 @@
   "scripts": {
     "ng": "ng",
     "start": "node angular-git-version.js && ng serve --ssl",
-    "build": "node angular-git-version.js && ng build --configuration=production && gzipper compress --brotli --include js,css,html --level 6 ./dist && cp src/index.all.html dist/openchia/index.html",
+    "build": "node angular-git-version.js && ng build --configuration=production && gzipper compress --brotli --include js,css,html --brotli-quality 6 ./dist && cp src/index.all.html dist/openchia/index.html",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
