@@ -216,7 +216,7 @@ export class FarmerComponent implements OnInit {
         "label": $localize`Effort ${i['launcher_effort']}`
       })
     });
-    this.blocksEffortAverage = blocksEffortCount / data['count'];
+    this.blocksEffortAverage = blocksEffortCount / this.blocksPageSize;
     this.blocksEffortChartData = seriesBlocksEffortChart.reverse();
     this.blocksCollectionSize = data['count'];
     this._blocks$.next(data['results']);
