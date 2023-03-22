@@ -92,6 +92,7 @@ export class FarmerComponent implements OnInit {
   blocksPage: number = 1;
   blocksPageSize: number = 25;
   blocksEffortAverage: number = 0;
+  blocksEffortCount: number = 0;
   blocksEffortChartLegend: boolean = false;
   blocksEffortChartAnimations: boolean = true;
   blocksEffortChartGradient: boolean = true;
@@ -202,11 +203,12 @@ export class FarmerComponent implements OnInit {
   }
 
   private handleBlocks(data) {
-    var blocksEffortCount: number = 0;
+    var [blocksEffortFromList, blocksCountFromList]: number[] = [0, 0];
     var seriesBlocksEffortChart = [];
     data['results'].forEach(v => {
       if(v['launcher_effort'] != -1) {
-        blocksEffortCount = blocksEffortCount + v['launcher_effort'];
+        blocksEffortFromList = blocksEffortFromList + v['launcher_effort'];
+        blocksCountFromList = blocksCountFromList + 1;
       }
     });
     (<any[]>data['results']).map((i) => {
@@ -216,7 +218,8 @@ export class FarmerComponent implements OnInit {
         "label": $localize`Effort ${i['launcher_effort']}`
       })
     });
-    this.blocksEffortAverage = blocksEffortCount / this.blocksPageSize;
+    this.blocksEffortAverage = blocksEffortFromList / blocksCountFromList;
+    this.blocksEffortCount = blocksCountFromList;
     this.blocksEffortChartData = seriesBlocksEffortChart.reverse();
     this.blocksCollectionSize = data['count'];
     this._blocks$.next(data['results']);

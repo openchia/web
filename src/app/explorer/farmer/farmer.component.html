@@ -711,7 +711,9 @@
                     <div *ngIf="blocks$ | async; let blocks" class="card-body py-3 text-center text-uppercase">
                       <span class="text-primary">
                         <ng-template #blocksEffortAverageTooltip>
-                          <span i18n>Calculated from effort of your {{ blocksPageSize }} blocks in the list.</span>
+                          <span i18n>
+                            Calculated from effort of your {{ blocksEffortCount }} blocks in the list, and if effort is unknown, it is excluded.
+                          </span>
                         </ng-template>
                         <span i18n="@@EffortAverage">Effort Average</span>
                         &nbsp;<i class="fas fa-info-circle" closeDelay="4000" [ngbTooltip]="blocksEffortAverageTooltip"></i>
