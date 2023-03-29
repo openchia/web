@@ -147,15 +147,16 @@
   <div class="container">
     <h3 class="display-3" i18n="@@Farmers">Farmers</h3>
     <div class="form-group col-lg-12 row row-grid">
-      <div class="col-lg-6">
+      <div class="col-lg-8">
         <input #searchinput type="text" placeholder="Name or Launcher ID" class="form-control"
           (keydown.enter)="searchFarmer()" />
       </div>
       <div class="col-lg-2">
         <button class="btn btn-primary btn-block" type="button" (click)="searchFarmer()" i18n="@@Search">Search</button>
       </div>
-      <div class="col-lg-4">
-        <select #farmersFilter class="btn btn-secondary btn-block" (change)="refreshFarmers($event.target.value)">
+      <div class="col-lg-2">
+        <select #farmersFilter class="btn btn-primary btn-block" type="button"
+          (change)="refreshFarmers($event.target.value)">
           <ng-template [ngIf]="farmersFilterActive==1" [ngIfElse]="showAll">
             <option value="1" selected i18n>Show active only</option>
             <option value="0" i18n>Show all farmers</option>
