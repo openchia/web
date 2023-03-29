@@ -102,6 +102,7 @@ export class FarmerComponent implements OnInit {
   blocksEffortChartShowAxisYLabel: boolean = true;
   blocksEffortChartAxisYLabel: string = $localize`Block(s) Effort`;
   blocksEffortChartData: any[] = null;
+  blocksDownloadLimit: number = 10000;
 
   giveaways$: Observable<any[]>;
   ticketsRound$: Observable<any[]>;
@@ -190,9 +191,52 @@ export class FarmerComponent implements OnInit {
         });
       });
       var options = {
-        headers: ["Datetime", "Transaction", "Amount", "Price USD"]
+        headers: [
+          "Datetime",
+          "Transaction",
+          "Amount",
+          "Price USD"
+        ]
       };
       new AngularCsv(csv_array, 'payouts', options);
+    });
+  }
+
+  blocksDownloadCSV() {
+    this.dataService.getBlocks({ launcher: this.farmerid, limit: this.blocksDownloadLimit }).subscribe(res => {
+      let csv_array = [];
+      const out = Object.keys(res['results']).map(index => {
+        let data = res['results'][index];
+        csv_array.push({
+          datetime: (new Date(Math.floor(data['timestamp']) * 1000).toLocaleString()),
+          height: data['farmed_height'],
+          amount: data['amount'] / 1000000000000,
+          price: (data['xch_price']) ? (data['xch_price']['usd'] * (data['amount'] / 1000000000000)).toFixed(3) : "",
+          pool_space: (data['pool_space']) ? (data['pool_space'] / 1024 ** 5).toFixed(2) : "",
+          pool_effort: (data['luck']) ? data['luck'] : "",
+          farmer_amount: 0.25,
+          farmer_price: (data['xch_price']) ? (data['xch_price']['usd'] * 0.25).toFixed(3) : "",
+          farmer_effort: (data['launcher_effort']) ? data['launcher_effort'] : "",
+          farmer_difficulty: data['farmed_by']['difficulty'],
+          farmer_estimated_size: (data['farmed_by']['estimated_size']  / 1024 ** 4).toFixed(2)
+        });
+      });
+      var options = {
+        headers: [
+          "Datetime",
+          "Height",
+          "Amount (XCH)",
+          "Price (USD)",
+          "Pool Space (PiB)",
+          "Pool Effort (%)",
+          "Farmer Amount (XCH)",
+          "Farmer Price (USD)",
+          "Farmer Effort (%)",
+          "Farmer Difficulty",
+          "Farmer Estimated Size (TiB)"
+        ]
+      };
+      new AngularCsv(csv_array, 'blocks', options);
     });
   }
 
