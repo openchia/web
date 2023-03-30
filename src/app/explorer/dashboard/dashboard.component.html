@@ -260,13 +260,13 @@
               Unknown
             </span>
             <span *ngIf="block.luck != -1">
-              <span *ngIf="block.luck < 80"
+              <span *ngIf="block.luck < 100"
                 class="badge badge-block-effort badge-success"
                 ngbTooltip="Lucky">{{ block.luck }}%</span>
-              <span *ngIf="block.luck >= 80 && block.luck <= 120"
+              <span *ngIf="block.luck >= 100 && block.luck <= 200"
                 class="badge badge-block-effort badge-warning"
                 ngbTooltip="Average">{{ block.luck }}%</span>
-              <span *ngIf="block.luck > 120"
+              <span *ngIf="block.luck > 200"
                 class="badge badge-block-effort badge-danger"
                 ngbTooltip="Unlucky">{{ block.luck }}%</span>
             </span>
