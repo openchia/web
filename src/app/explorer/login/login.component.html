@@ -2,13 +2,12 @@
   <div class="container">
     <h3 class="display-3" i18n>Farmer</h3>
     <div *ngIf="loggingIn">
-      Loggin in, stand by...
+      <span i18n>Loggin in, stand by...</span>
     </div>
     <div *ngIf="error">
       <span i18n>Failed to authenticate! Check your URL and try again.</span>
     </div>
     <div *ngIf="loggedIn">
-
       <ul ngbNav #nav="ngbNav" [(activeId)]="tabActive" class="nav-tabs navbar-inverse">
 
         <!-- Settings -->
@@ -21,16 +20,18 @@
                 <br />
                 <div class="row">
                   <div class="col-lg-10 col-sm-10">
-                    <span i18n>Launcher ID</span>: {{ farmer?.launcher_id }}<br />
+                    <span i18n>Launcher ID</span>:&nbsp;{{ farmer?.launcher_id }}<br />
                   </div>
                 </div>
                 <br />
                 <div class="row">
                   <div class="col-lg-6 col-sm-6">
                     <div class="form-group">
-                      <span i18n>Display name</span>: <input type="text" #name [value]="farmer.name"
+                      <span i18n>Display name</span>:&nbsp;<input type="text" #name [value]="farmer.name"
                         placeholder="(not set)" class="form-control" />
-                      <ngb-alert type="warning" [dismissible]="false" *ngIf="nameError">{{ nameError }}</ngb-alert>
+                      <ngb-alert type="warning" [dismissible]="false" *ngIf="nameError">
+                        {{ nameError }}
+                      </ngb-alert>
                     </div>
                   </div>
                 </div>
@@ -43,10 +44,12 @@
                           your launcher or changes in our Terms of Service.
                         </span>
                       </ng-template>
-                      <span i18n>Email</span>: <i class="fas fa-info-circle"
-                        [ngbTooltip]="farmerEmailTooltip"></i><input
-                        type="text" #email [value]="farmer.email" placeholder="(not set)" class="form-control" />
-                      <ngb-alert type="warning" [dismissible]="false" *ngIf="emailError">{{ emailError }}</ngb-alert>
+                      <span i18n>Email</span>:&nbsp;<i class="fas fa-info-circle"
+                        [ngbTooltip]="farmerEmailTooltip">&nbsp;</i>
+                        <input type="text" #email [value]="farmer.email" placeholder="(not set)" class="form-control" />
+                      <ngb-alert type="warning" [dismissible]="false" *ngIf="emailError">
+                        {{ emailError }}
+                      </ngb-alert>
                     </div>
                   </div>
                 </div>
@@ -59,14 +62,15 @@
                           if your launcher stops sending partials for more than one hour.
                         </span>
                       </ng-template>
-                      <span i18n>Notify on Missing Partials</span>: <i class="fas fa-info-circle"
-                        [ngbTooltip]="notifyMissingPartialsTooltip"> </i>
+                      <span i18n>Notify on Missing Partials</span>:&nbsp;<i class="fas fa-info-circle"
+                        [ngbTooltip]="notifyMissingPartialsTooltip">&nbsp;</i>
                       <p class="input-checkbox">
                         <input type="checkbox" #notifyMissingPartials [checked]="farmer.notify_missing_partials_hours !== null" />
                           Email
                       </p>
-                      <ngb-alert type="warning" [dismissible]="false" *ngIf="notifyMissingPartialsError">{{
-                        notifyMissingPartialsError }}</ngb-alert>
+                      <ngb-alert type="warning" [dismissible]="false" *ngIf="notifyMissingPartialsError">
+                        {{ notifyMissingPartialsError }}
+                      </ngb-alert>
                     </div>
                   </div>
                 </div>
@@ -80,15 +84,15 @@
                           Only works if you have a minimum payout set.
                         </span>
                       </ng-template>
-                      <span i18n>Notify on Payments</span>: <i class="fas fa-info-circle"
-                        [ngbTooltip]="notifyPaymentTooltip"> </i>
+                      <span i18n>Notify on Payments</span>:&nbsp;<i class="fas fa-info-circle"
+                        [ngbTooltip]="notifyPaymentTooltip"></i>
                       <br />
                       <p class="input-checkbox">
-                        <input type="checkbox" #notifyPaymentEmail [checked]="farmer.payment.includes('EMAIL')" />
+                        <input type="checkbox" #notifyPaymentEmail [checked]="farmer.payment && farmer.payment.includes('EMAIL')" />
                         Email
                       </p>
                       <p class="input-checkbox">
-                        <input type="checkbox" #notifyPaymentPush [checked]="farmer.payment.includes('PUSH')" />
+                        <input type="checkbox" #notifyPaymentPush [checked]="farmer.payment && farmer.payment.includes('PUSH')" />
                         Mobile Push Notification
                       </p>
                       <ngb-alert type="warning" [dismissible]="false" *ngIf="notifyPaymentError">
@@ -107,32 +111,35 @@
                           significantly within a period of time.
                         </span>
                       </ng-template>
-                      <span i18n>Notify on Farm Size Drop</span>: <i class="fas fa-info-circle"
+                      <span i18n>Notify on Farm Size Drop</span>:&nbsp;<i class="fas fa-info-circle"
                         [ngbTooltip]="notifySizeDropTooltip"></i>
                       <p class="input-checkbox">
-                        <input type="checkbox" #notifySizeDropEmail [checked]="farmer.size_drop.includes('EMAIL')" />
+                        <input type="checkbox" #notifySizeDropEmail [checked]="farmer.size_drop && farmer.size_drop.includes('EMAIL')" />
                         Email
                       </p>
                       <p class="input-checkbox">
-                        <input type="checkbox" #notifySizeDropPush [checked]="farmer.size_drop.includes('PUSH')" />
+                        <input type="checkbox" #notifySizeDropPush [checked]="farmer.size_drop && farmer.size_drop.includes('PUSH')" />
                         Mobile Push Notification</p>
-                      <ngb-alert type="warning" [dismissible]="false" *ngIf="notifySizeDropError">{{
-                        notifySizeDropError }}</ngb-alert>
+                      <ngb-alert type="warning" [dismissible]="false" *ngIf="notifySizeDropError">
+                        {{ notifySizeDropError }}
+                      </ngb-alert>
                     </div>
 
                     <div class="form-group">
                       <span i18n>Size Drop Percent</span>
                       <input type="input" #notifySizeDropPercent [value]="farmer.size_drop_percent || ''" maxlength="14"
                         placeholder="(default to 25%)" class="form-control" />
-                      <ngb-alert type="warning" [dismissible]="false" *ngIf="notifySizeDropPercentError">{{
-                        notifySizeDropPercentError }}</ngb-alert>
+                      <ngb-alert type="warning" [dismissible]="false" *ngIf="notifySizeDropPercentError">
+                        {{ notifySizeDropPercentError }}
+                      </ngb-alert>
                     </div>
                     <div class="form-group">
                       <span i18n>Size Drop Interval (Minutes)</span>
                       <input type="input" #notifySizeDropInterval [value]="farmer.size_drop_interval || ''"
                         maxlength="14" placeholder="(default to 60 minutes)" class="form-control" />
-                      <ngb-alert type="warning" [dismissible]="false" *ngIf="notifySizeDropIntervalError">{{
-                        notifySizeDropIntervalError }}</ngb-alert>
+                      <ngb-alert type="warning" [dismissible]="false" *ngIf="notifySizeDropIntervalError">
+                        {{ notifySizeDropIntervalError }}
+                      </ngb-alert>
                     </div>
                   </div>
                 </div>
@@ -145,12 +152,13 @@
                           the unpaid balance hits this minimum value.
                         </span>
                       </ng-template>
-                      <span i18n>Minimum Payout (XCH)</span>: <i class="fas fa-info-circle"
+                      <span i18n>Minimum Payout (XCH)</span>:&nbsp;<i class="fas fa-info-circle"
                         [ngbTooltip]="minPayoutTooltip"></i>
                       <input type="input" #minPayout [value]="farmer.minimum_payout / 1000000000000" maxlength="14"
                         placeholder="(not set)" class="form-control" />
-                      <ngb-alert type="warning" [dismissible]="false" *ngIf="minPayoutError">{{
-                        minPayoutError }}</ngb-alert>
+                      <ngb-alert type="warning" [dismissible]="false" *ngIf="minPayoutError">
+                        {{ minPayoutError }}
+                      </ngb-alert>
                     </div>
                   </div>
                 </div>
@@ -162,7 +170,7 @@
                           Configure the difficulty for your farm so it can send less or more partials.
                         </span>
                       </ng-template>
-                      <span i18n>Difficulty</span>: <i class="fas fa-info-circle"
+                      <span i18n>Difficulty</span>:&nbsp;<i class="fas fa-info-circle"
                       [ngbTooltip]="customDifficultyTooltip"></i>
                       <select #customDifficulty class="form-control" [value]="farmer.custom_difficulty || ''">
                         <option value="" i18n>Default - Around 600 partials sent per day</option>
@@ -171,17 +179,19 @@
                         <option value="HIGH" i18n>High - 25% less partials per day</option>
                         <option value="HIGHEST" i18n>Highest - 50% less partials per day</option>
                       </select>
-                      <ngb-alert type="warning" [dismissible]="false" *ngIf="customDifficultyError">{{
-                        customDifficultyError }}</ngb-alert>
+                      <ngb-alert type="warning" [dismissible]="false" *ngIf="customDifficultyError">
+                        {{ customDifficultyError }}
+                      </ngb-alert>
                     </div>
                   </div>
                 </div>
                 <div class="row">
                   <div class="col-lg-6 col-sm-6">
                     <div class="form-group">
-                      <span i18n>Referrer</span> (Launcher ID): <input type="text" #referrer
+                      <span i18n>Referrer</span> (Launcher ID):&nbsp;<input type="text" #referrer
                         [value]="referrerValue || ''" placeholder="(not set)" class="form-control" />
-                      <ngb-alert type="warning" [dismissible]="false" *ngIf="referrerError">{{ referrerError }}
+                      <ngb-alert type="warning" [dismissible]="false" *ngIf="referrerError">
+                        {{ referrerError }}
                       </ngb-alert>
                     </div>
                   </div>
@@ -196,9 +206,7 @@
             </div>
             <br />
             <div class="btn-group btn-group-toggle btn-group-width-32">
-              <label class="btn btn-primary" ngbButtonLabel>
-                <a type="button" (click)="submit()" ngbButton i18n="@@Save">Save</a>
-              </label>
+              <input class="btn btn-primary" type="button" value="Save" (click)="submit()" ngbButton i18n="@@Save" />
             </div>
           </ng-template>
         </li>

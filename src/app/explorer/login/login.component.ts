@@ -1,7 +1,6 @@
 import { Component, ElementRef, OnInit, ViewChild } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
 import { Observable } from 'rxjs';
-
 import { DataService } from '../../data.service';
 
 @Component({
@@ -9,6 +8,7 @@ import { DataService } from '../../data.service';
   templateUrl: './login.component.html',
   styleUrls: ['./login.component.css']
 })
+
 export class LoginComponent implements OnInit {
 
   @ViewChild('name') name: ElementRef;
@@ -50,8 +50,11 @@ export class LoginComponent implements OnInit {
 
   referrerValue: string = '';
 
-  constructor(private dataService: DataService, private route: ActivatedRoute,
-    private router: Router) {
+  constructor(
+    private dataService: DataService,
+    private route: ActivatedRoute,
+    private router: Router
+  ) {
     this.referrals$ = dataService.referrals$;
   }
 
@@ -67,7 +70,6 @@ export class LoginComponent implements OnInit {
           }
         })
       } else {
-
         this.dataService.doLogin(data).subscribe(
           success => {
             this.onLoggedIn(data.launcher_id);
