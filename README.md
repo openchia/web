@@ -13,8 +13,8 @@
   <a style="text-decoration:none" href="https://github.com/openchia/web/issues">
     <img alt="Issues" src="https://img.shields.io/github/issues/openchia/web?logo=github&color=0&label=Issues&style=flat-square">
   </a>
-  <a style="text-decoration:none" href="https://github.com/openchia/web/actions/workflows/docker-publish.yml">
-    <img alt="Docker CI/CD" src="https://img.shields.io/github/actions/workflow/status/openchia/web/docker-publish.yml?logo=github&color=0&label=Pipeline&style=flat-square">
+  <a style="text-decoration:none" href="https://github.com/openchia/web/actions/workflows/docker.yml">
+    <img alt="Docker CI/CD" src="https://img.shields.io/github/actions/workflow/status/openchia/web/docker.yml?logo=github&color=0&label=Pipeline&style=flat-square">
   </a>
   <a style="text-decoration:none" href="https://discord.gg/2URS9H7RZn">
     <img alt="Discord" src="https://img.shields.io/discord/865233670938689537?logo=discord&color=0&logoColor=white&label=Discord&style=flat-square">
