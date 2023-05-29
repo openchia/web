@@ -157,17 +157,15 @@
               <div class="row justify-content-center">
                 <div class="col-md-6">
                   <div class="card-pricing card-landing-join bg-white border-0 text-center mb-4 card">
-                    <a class="twitter-timeline" data-height="400"
-                      href="https://twitter.com/OpenChia?ref_src=twsrc%5Etfw" i18n>
-                      Tweets by OpenChia
-                    </a>
+                    <iframe [src]="discord_widget_url" width="400" height="400" frameborder="0" allowtransparency="true"
+                      sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts">
+                    </iframe>
                   </div>
                 </div>
                 <div class="col-md-6">
                   <div class="card-pricing card-landing-join bg-white border-0 text-center mb-4 card">
-                    <a class="twitter-timeline" data-height="400"
-                      href="https://twitter.com/chia_project?ref_src=twsrc%5Etfw" i18n>
-                      Tweets by OpenChia
+                    <a [href]="twitter_widget_url" class="twitter-timeline" data-height="400" i18n>
+                      Tweets by @chia_project
                     </a>
                   </div>
                 </div>
