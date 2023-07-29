@@ -35,7 +35,7 @@
     "moment": "^2.29.4",
     "ng-terminal": "^5.5.0",
     "ng2-nouislider": "1.8.3",
-    "ngx-clipboard": "^15.0.1",
+    "ngx-clipboard": "^16.0.0",
     "ngx-filesize": "^3.0.1",
     "nouislider": "15.7.0",
     "popper.js": "1.16.1",
