@@ -36,7 +36,7 @@
     "ng-terminal": "^5.5.0",
     "ng2-nouislider": "1.8.3",
     "ngx-clipboard": "^15.0.1",
-    "ngx-filesize": "^3.0.1",
+    "ngx-filesize": "^3.0.2",
     "nouislider": "15.7.0",
     "popper.js": "1.16.1",
     "rxjs": "6.6.3",
