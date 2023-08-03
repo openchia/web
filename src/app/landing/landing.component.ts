@@ -28,7 +28,7 @@ export class LandingComponent implements OnInit {
 
   ngOnInit() {
     this.dataService.getStats().subscribe(data => {
-      this.xch_current_price = data['xch_current_price'];
+      this.xch_current_price = data['xch_current_price']['usd'];
       this.pool_space = data['pool_space'];
       this.estimate_win = this.secondsToHm(data['estimate_win'] * 60);
       this.farmers = data['farmers_active'];

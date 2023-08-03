@@ -1,5 +1,5 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
-
+import { HttpClientTestingModule } from '@angular/common/http/testing';
 import { TermComponent } from './term.component';
 
 describe('TermComponent', () => {
@@ -8,6 +8,7 @@ describe('TermComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
+      imports: [ HttpClientTestingModule ],
       declarations: [ TermComponent ]
     })
     .compileComponents();
@@ -16,7 +17,6 @@ describe('TermComponent', () => {
   beforeEach(() => {
     fixture = TestBed.createComponent(TermComponent);
     component = fixture.componentInstance;
-    fixture.detectChanges();
   });
 
   it('should create', () => {

@@ -60,6 +60,10 @@ Variables available in the docker environment:
 * `LOGLEVEL`: loglevel in stdout (default: `INFO`)
 * `LOGFORMAT`: log format in stdout (default: `json`)
 
+### Unit test
+
+Run `npm run test` to execute the unit tests via [Karma](https://karma-runner.github.io/latest/index.html).
+
 ## Translation
 
 We are currently using [Crowdin](https://crowdin.com/).
