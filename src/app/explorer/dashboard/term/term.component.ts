@@ -41,8 +41,8 @@ export class TermComponent implements OnInit, AfterViewInit {
     setTimeout(() => {
       this.log$.subscribe(
         (msg) => {
-          if('message' in msg) {
-            if('funcName' in msg) {
+          if(msg['message']) {
+            if(msg['funcName']) {
               if(['update_db', 'post_partial', 'check_and_confirm_partial'].includes(msg['funcName']) && !this.partials.nativeElement.checked) {
                 return;
               }
