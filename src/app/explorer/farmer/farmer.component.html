@@ -784,7 +784,7 @@
             <tbody *ngIf="(blocks$ | async) as blocks;">
               <tr *ngFor="let block of blocks; let i = index">
                 <td>
-                  <a href="https://www.spacescan.io/xch/block/height/{{ block.farmed_height }}" target="_blank">
+                  <a href="https://www.spacescan.io/block/{{ block.farmed_height }}" target="_blank">
                     {{ block.farmed_height }}
                   </a>
                 </td>
