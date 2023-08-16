@@ -244,7 +244,7 @@
       </thead>
       <tbody *ngIf="(blocks$ | async) as blocks;">
         <tr *ngFor="let block of blocks; let i = index">
-          <td><a href="https://www.spacescan.io/xch/block/height/{{ block.farmed_height }}" target="_blank">{{
+          <td><a href="https://www.spacescan.io/block/{{ block.farmed_height }}" target="_blank">{{
               block.farmed_height }}</a>
           </td>
           <td>{{ block.timestamp * 1000 | date:"medium" }}</td>
@@ -306,7 +306,7 @@
           <td>{{ payout.datetime | date:"medium" }}</td>
           <td>
             <span *ngFor="let block of payout.blocks; let last = last">
-              <a href="https://www.spacescan.io/xch/block/height/{{ block.farmed_height }}"
+              <a href="https://www.spacescan.io/block/{{ block.farmed_height }}"
                 target="_blank">{{ block.farmed_height }}</a>
               <span *ngIf="!last">,&nbsp;</span>
             </span>
@@ -345,7 +345,7 @@
               <div class="card-body py-3">
                 <div class="pool-wallet-banner"><span i18n="@@Address">Address</span> #{{ i + 1 }}</div>
                 <p class="pool-wallet-description description mt-3">
-                  <a href="https://www.spacescan.io/xch/address/{{ wallet.address }}" target="_blank">
+                  <a href="https://www.spacescan.io/address/{{ wallet.address }}" target="_blank">
                     {{ wallet.address }}
                   </a>
                 </p>
