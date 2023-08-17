@@ -28,7 +28,7 @@
     "angular-csv-ext": "^1.0.5",
     "bootstrap": "^4.6.1",
     "core-js": "^3.32.0",
-    "flag-icons": "^6.9.5",
+    "flag-icons": "^6.10.0",
     "git-rev-sync": "^3.0.2",
     "humanize-duration": "^3.29.0",
     "jw-bootstrap-switch-ng2": "^2.0.5",
