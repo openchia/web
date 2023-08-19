@@ -1,7 +1,7 @@
 import { Component, OnInit, Inject, Renderer2, ElementRef, ViewChild, HostListener } from '@angular/core';
 import { Router, NavigationEnd, UrlTree } from '@angular/router';
-import { Subscription } from 'rxjs/Subscription';
-import 'rxjs/add/operator/filter';
+import { Subscription } from 'rxjs';
+import { filter } from 'rxjs/operators';
 import { DOCUMENT } from '@angular/common';
 import { LocationStrategy, PlatformLocation, Location } from '@angular/common';
 
@@ -14,10 +14,18 @@ var navbarHeight = 0;
     templateUrl: './app.component.html',
     styleUrls: ['./app.component.scss']
 })
+
 export class AppComponent implements OnInit {
     private _router: Subscription;
 
-    constructor(private renderer: Renderer2, private router: Router, @Inject(DOCUMENT,) private document: any, private element: ElementRef, public location: Location) { }
+    constructor(
+        private renderer: Renderer2,
+        private router: Router,
+        @Inject(DOCUMENT,)
+        private document: any,
+        private element: ElementRef,
+        public location: Location
+    ) { }
 
     @HostListener('window:scroll', ['$event'])
     hasScrolled() {
@@ -54,7 +62,7 @@ export class AppComponent implements OnInit {
 
     ngOnInit() {
         var navbar: HTMLElement = this.element.nativeElement.children[0].children[0];
-        this._router = this.router.events.filter(event => event instanceof NavigationEnd).subscribe((event: NavigationEnd) => {
+        this._router = this.router.events.pipe(filter(event => event instanceof NavigationEnd)).subscribe((event: NavigationEnd) => {
 
             var urlTree: UrlTree = this.router.parseUrl(event.url);
             if(urlTree.queryParams.referrer) {
