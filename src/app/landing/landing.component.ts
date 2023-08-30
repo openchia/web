@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { DataService } from '../data.service';
-import { DomSanitizer, SafeResourceUrl } from '@angular/platform-browser';
+import { DomSanitizer } from '@angular/platform-browser';
 
 @Component({
     selector: 'app-landing',
@@ -18,8 +18,6 @@ export class LandingComponent implements OnInit {
   xch_tb_month: number = 0;
   discord_widget_url: any;
   discord_widget_id: string = "865233670938689537"
-  twitter_widget_url: any;
-  twitter_widget_user: string = "chia_project";
 
   constructor(
     private dataService: DataService,
@@ -36,7 +34,6 @@ export class LandingComponent implements OnInit {
       this.xch_tb_month = data['xch_tb_month'];
     });
     this.discord_widget_url = this.discord_widget(this.discord_widget_id);
-    this.twitter_widget_url = this.twitter_widget(this.twitter_widget_user);
   }
 
   getTheme() {
@@ -46,13 +43,6 @@ export class LandingComponent implements OnInit {
   discord_widget(id: string) {
     return this.sanitizer.bypassSecurityTrustResourceUrl(
       "https://discord.com/widget?id=" + id + "&theme=" + this.getTheme()
-    );
-  }
-
-  twitter_widget(user: string) {
-    var theme = this.getTheme() == "dark" ? "&theme=dark" : "";
-    return this.sanitizer.bypassSecurityTrustResourceUrl(
-      "https://twitter.com/" + user + "?ref_src=twsrc%5Etfw" + theme
     );
   }
 
