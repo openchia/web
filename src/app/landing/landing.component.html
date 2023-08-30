@@ -139,8 +139,8 @@
   <section class="pricing-5" id="pricing-6">
     <div class="pt-5 container">
       <div class="row">
-        <div class="d-flex justify-content-center justify-content-bottom flex-column col-md-4 text-center">
-          <h3 class="display-3 mt-3" i18n>Join OpenChia pool 🎉</h3>
+        <div class="d-flex justify-content-center justify-content-bottom flex-column col-md-6 text-center join-align">
+          <h3 class="display-3 mt-3 text-shadow" i18n>Join OpenChia pool 🎉</h3>
           <p class="lead mt-0" i18n>
             Set <span class="text-primary">https://pool.openchia.io</span> as the pool URL for your PlotNFT using
             either the Chia GUI/CLI. Our OpenChia community can help you on the
@@ -151,27 +151,10 @@
             <span class="btn-inner--text" i18n>Join community on Discord</span>
           </a>
         </div>
-        <div class="ml-auto mr-auto col-md-8 col-lg-7">
-          <div class="tab-content tab-space">
-            <div class="tab-pane active">
-              <div class="row justify-content-center">
-                <div class="col-md-6">
-                  <div class="card-pricing card-landing-join bg-white border-0 text-center mb-4 card">
-                    <iframe [src]="discord_widget_url" width="400" height="400" frameborder="0" allowtransparency="true"
-                      sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts">
-                    </iframe>
-                  </div>
-                </div>
-                <div class="col-md-6">
-                  <div class="card-pricing card-landing-join bg-white border-0 text-center mb-4 card card-twitter">
-                    <a [href]="twitter_widget_url" class="twitter-timeline" data-height="400" i18n>
-                      Tweets by @chia_project
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+        <div class="d-flex justify-content-center justify-content-bottom flex-column col-md-4 col-lg-4 text-center discord-align">
+          <iframe [src]="discord_widget_url" width="400" height="400" frameborder="0" allowtransparency="true"
+            sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts">
+          </iframe>
         </div>
       </div>
     </div>
@@ -185,14 +168,17 @@
     <div class="container py-sm">
       <div class="row row-grid justify-content-between align-items-center">
         <div class="col-lg-6 text-center">
-          <h3 class="display-3 text-white text-shadow" i18n>
-            Fee Discount!
+          <h3 class="display-3 mt-3 text-white text-shadow" i18n>
+            Fee Discount! 💰
           </h3>
-          <p class="text-white" i18n>The bigger your farmer the bigger the discount!</p>
-          <p class="text-white" i18n>The longer you stay the bigger the discount!</p>
-          <p class="lead text-white" i18n>Up to 0.25% of fee discount, effective final fee of 0.75%.</p>
+          <p class="lead mt-0 text-white" i18n>The bigger your farmer the bigger the discount!</p>
+          <p class="lead mt-0 text-white" i18n>The longer you stay the bigger the discount!</p>
+          <p class="lead mt-0 text-white" i18n>Up to 0.25% of fee discount, effective final fee of 0.75%.</p>
           <div class="btn-wrapper">
-            <a class="btn btn-neutral btn-icon" [routerLink]="['/fees']" i18n>Read more</a>
+            <a class="btn btn-neutral btn-icon" [routerLink]="['/fees']">
+              <i class="fas fa-info-circle"></i>
+              <span class="btn-inner--text" i18n>Read more</span>
+            </a>
           </div>
         </div>
         <div class="col-lg-6 mb-lg-auto">
@@ -221,8 +207,8 @@
           </div>
         </div>
         <div class="col-lg-5 mb-5 mb-lg-0 text-center">
-          <h1 class="font-weight-light text-shadow" i18n>Mobile Application</h1>
-          <p class="lead mt-4" i18n>
+          <h3 class="display-3 mt-3 text-shadow" i18n>Mobile Application 📱</h3>
+          <p class="lead mt-0" i18n>
             Monitor pool, farm stats, payouts and more anywhere with our mobile
             app. Available for both Android and iOS.
           </p>
@@ -251,7 +237,8 @@
           <h3 class="display-3 text-white text-shadow" i18n>
             OpenChia is open source!
           </h3>
-          <p class="lead text-white" i18n>
+          <br/>
+          <p class="lead mt-0 text-white" i18n>
             All our software (pool, api, website, discord bot, mobile
             application) are open source and it's very important for the
             community.
@@ -260,9 +247,11 @@
             It's easy and anyone can participate!
           </p>
           <div class="btn-wrapper">
-            <a class="btn btn-neutral btn-icon" alt="GitHub" target="_blank" href="https://github.com/openchia/web"
-              i18n>
-              <i class="fab fa-github"></i> Open GitHub
+            <a class="btn btn-neutral btn-icon" 
+              href="https://github.com/openchia/web"
+              alt="GitHub" target="_blank">
+              <i class="fab fa-github"></i>
+              <span class="btn-inner--text" i18n>Open project in GitHub</span>
             </a>
           </div>
         </div>
@@ -302,8 +291,8 @@
               </h5>
               <div class="mt-3">
                 <a href="https://twitter.com/JStarcevskyj"
-                  class="btn btn-neutral btn-icon-only btn-twitter rounded-circle" target="_blank">
-                  <i class="fab fa-twitter"></i>
+                  class="btn btn-neutral btn-icon-only btn-x rounded-circle" target="_blank">
+                  <i class="fab">𝕏</i>
                 </a>
               </div>
             </div>
@@ -341,9 +330,9 @@
                 <small class="h6 text-muted" i18n>Web Developer</small>
               </h5>
               <div class="mt-3">
-                <a href="https://twitter.com/djerfy" class="btn btn-neutral btn-icon-only btn-twitter rounded-circle"
+                <a href="https://twitter.com/djerfy" class="btn btn-neutral btn-icon-only btn-x rounded-circle"
                   target="_blank">
-                  <i class="fab fa-twitter"></i>
+                  <i class="fab">𝕏</i>
                 </a>
                 <a href="https://github.com/djerfy" class="btn btn-neutral btn-icon-only btn-github rounded-circle"
                   target="_blank">
