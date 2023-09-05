@@ -21,7 +21,7 @@ jobs:
       contents: read
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Setup node and run audit
         uses: actions/setup-node@v3
@@ -37,7 +37,7 @@ jobs:
       contents: read
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Setup node and run tests
         uses: actions/setup-node@v3
