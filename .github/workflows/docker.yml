@@ -38,7 +38,7 @@ jobs:
         id: metasha
 
       - name: Setup qemu
-        uses: docker/setup-qemu-action@v2
+        uses: docker/setup-qemu-action@v3
 
       - name: Setup buildx
         uses: docker/setup-buildx-action@v3
