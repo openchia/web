@@ -24,7 +24,7 @@
     "@forevolve/bootstrap-dark": "^2.1.0",
     "@ng-bootstrap/ng-bootstrap": "^14.2.0",
     "@swimlane/ngx-charts": "^20.4.1",
-    "@types/humanize-duration": "^3.27.1",
+    "@types/humanize-duration": "^3.27.2",
     "angular-csv-ext": "^1.0.5",
     "bootstrap": "^4.6.1",
     "core-js": "^3.33.0",
