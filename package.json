@@ -45,7 +45,7 @@
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "15.2.10",
-    "@angular/cdk": "^15.2.9",
+    "@angular/cdk": "^17.0.0",
     "@angular/cli": "^15.2.10",
     "@angular/compiler-cli": "15.2.10",
     "@angular/language-service": "15.2.10",
