@@ -34,7 +34,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - uses: benjlevesque/short-sha@v2.2
+      - uses: benjlevesque/short-sha@v3.0
         id: metasha
 
       - name: Setup qemu
