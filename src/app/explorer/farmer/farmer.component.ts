@@ -207,8 +207,8 @@ export class FarmerComponent implements OnInit {
       let csv_array = [];
       const out = Object.keys(res['results']).map(index => {
         let data = res['results'][index];
-        // halving block
-        let amount = 0.25 ** (1 + Math.trunc((data['farmed_height'] + 1) / 5045760));
+        // halving block (https://docs.chia.net/block-rewards/#rewards-schedule)
+        let price_rewards = Math.max(0.25 / 2 ** (Math.trunc((data['farmed_height']) / 5045760)), 0.015625);
         csv_array.push({
           datetime: (new Date(Math.floor(data['timestamp']) * 1000).toLocaleString()),
           height: data['farmed_height'],
@@ -216,8 +216,8 @@ export class FarmerComponent implements OnInit {
           price: (data['xch_price']) ? (data['xch_price']['usd'] * (data['amount'] / 1000000000000)).toFixed(3) : "",
           pool_space: (data['pool_space']) ? (data['pool_space'] / 1024 ** 5).toFixed(2) : "",
           pool_effort: (data['luck']) ? data['luck'] : "",
-          farmer_amount: amount,
-          farmer_price: (data['xch_price']) ? (data['xch_price']['usd'] * amount).toFixed(3) : "",
+          farmer_amount: price_rewards,
+          farmer_price: (data['xch_price']) ? (data['xch_price']['usd'] * price_rewards).toFixed(3) : "",
           farmer_effort: (data['launcher_effort']) ? data['launcher_effort'] : "",
           farmer_difficulty: data['farmed_by']['difficulty'],
           farmer_estimated_size: (data['farmed_by']['estimated_size']  / 1024 ** 4).toFixed(2)
