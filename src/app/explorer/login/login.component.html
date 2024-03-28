@@ -178,7 +178,12 @@
                         <option value="LOW" i18n>Low - 50% more partials per day</option>
                         <option value="HIGH" i18n>High - 25% less partials per day</option>
                         <option value="HIGHEST" i18n>Highest - 50% less partials per day</option>
+                        <option value="CUSTOM:" i18n>Custom - Define partials sent per day</option>
                       </select>
+                      <input id="ifCustomValue" class="form-control"
+                        style="display: none" type="number"
+                        min="10" max="150" pattern="[0-9]{1,3}"
+                        #customDifficultyValue />
                       <ngb-alert type="warning" [dismissible]="false" *ngIf="customDifficultyError">
                         {{ customDifficultyError }}
                       </ngb-alert>

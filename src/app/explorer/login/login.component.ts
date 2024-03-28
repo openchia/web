@@ -16,6 +16,7 @@ export class LoginComponent implements OnInit {
   @ViewChild('notifyMissingPartials') notifyMissingPartials: ElementRef;
   @ViewChild('minPayout') minPayout: ElementRef;
   @ViewChild('customDifficulty') customDifficulty: ElementRef;
+  @ViewChild('customDifficultyValue') customDifficultyValue: ElementRef;
   @ViewChild('referrer') referrer: ElementRef;
 
   @ViewChild('notifyPaymentEmail') notifyPaymentEmail: ElementRef;
@@ -130,8 +131,10 @@ export class LoginComponent implements OnInit {
       size_drop.push('PUSH');
     }
 
+    this.validateCustomDifficulty(this.customDifficultyValue.nativeElement.value);
+
     this.dataService.updateLauncher(this.farmer.launcher_id, {
-      "custom_difficulty": (this.customDifficulty.nativeElement.value) ? this.customDifficulty.nativeElement.value : null,
+      "custom_difficulty": (this.customDifficulty.nativeElement.value) ? this.customDifficulty.nativeElement.value + this.customDifficultyValue.nativeElement.value : null,
       "name": this.name.nativeElement.value,
       "email": (this.email.nativeElement.value) ? this.email.nativeElement.value : null,
       "minimum_payout": (this.minPayout.nativeElement.value) ? this.minPayout.nativeElement.value * 1000000000000 : null,
@@ -156,6 +159,25 @@ export class LoginComponent implements OnInit {
         this.notifySizeDropPercentError = error.error?.size_drop_percent;
       }
     );
+  }
+
+  showCustomDifficultyInput(data: any) {
+    const element = document.getElementById('ifCustomValue');
+    if(element && data.target.value) {
+      if(data.target.value == 'CUSTOM:') {
+        element.style.display = 'block';
+      } else {
+        element.style.display = 'none';
+      }
+    }
+  }
+
+  validateCustomDifficulty(value: number) {
+    if(value) {
+      if(value < 10 || value > 150) {
+        this.customDifficultyError = 'Difficulty must be between 10 and 150';
+      }
+    }
   }
 
 }
