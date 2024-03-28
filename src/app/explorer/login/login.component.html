@@ -186,7 +186,8 @@
                       <input id="ifCustomValue" class="form-control"
                         style="display: none" type="number"
                         min="10" max="150" pattern="[0-9]{1,3}"
-                        #customDifficultyValue />
+                        placeholder="{{ farmer.custom_difficulty.split(':')[1] || '' }}"
+                        #customDifficultyValue/>
                       <ngb-alert type="warning" [dismissible]="false" *ngIf="customDifficultyError">
                         {{ customDifficultyError }}
                       </ngb-alert>
