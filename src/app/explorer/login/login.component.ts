@@ -32,6 +32,7 @@ export class LoginComponent implements OnInit {
   loggedIn: boolean = false;
   error: boolean = false;
   customDifficultyError: string = '';
+  difficultyValue: string = null;
   nameError: string = '';
   emailError: string = '';
   notifyMissingPartialsError: string = '';
@@ -131,10 +132,11 @@ export class LoginComponent implements OnInit {
       size_drop.push('PUSH');
     }
 
-    this.validateCustomDifficulty(this.customDifficultyValue.nativeElement.value);
+    this.difficultyValue = (this.customDifficultyValue.nativeElement.value) ? ':' + this.customDifficultyValue.nativeElement.value : null;
+    this.validateCustomDifficulty(Number(this.difficultyValue.split(':')[1]));
 
     this.dataService.updateLauncher(this.farmer.launcher_id, {
-      "custom_difficulty": (this.customDifficulty.nativeElement.value) ? this.customDifficulty.nativeElement.value + this.customDifficultyValue.nativeElement.value : null,
+      "custom_difficulty": (this.customDifficulty.nativeElement.value) ? this.customDifficulty.nativeElement.value + this.difficultyValue : null,
       "name": this.name.nativeElement.value,
       "email": (this.email.nativeElement.value) ? this.email.nativeElement.value : null,
       "minimum_payout": (this.minPayout.nativeElement.value) ? this.minPayout.nativeElement.value * 1000000000000 : null,
