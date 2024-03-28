@@ -172,7 +172,10 @@
                       </ng-template>
                       <span i18n>Difficulty</span>:&nbsp;<i class="fas fa-info-circle"
                       [ngbTooltip]="customDifficultyTooltip"></i>
-                      <select #customDifficulty class="form-control" [value]="farmer.custom_difficulty || ''">
+                      <select class="form-control"
+                        (change)="showCustomDifficultyInput($event)"
+                        [value]="farmer.custom_difficulty || ''"
+                        #customDifficulty>
                         <option value="" i18n>Default - Around 600 partials sent per day</option>
                         <option value="LOWEST" i18n>Lowest - Double of partials sent per day</option>
                         <option value="LOW" i18n>Low - 50% more partials per day</option>
