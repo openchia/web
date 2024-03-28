@@ -166,7 +166,7 @@ export class LoginComponent implements OnInit {
   showCustomDifficultyInput(data: any) {
     const element = document.getElementById('ifCustomValue');
     if(element && data.target.value) {
-      if(data.target.value == 'CUSTOM:') {
+      if(data.target.value == 'CUSTOM') {
         element.style.display = 'block';
       } else {
         element.style.display = 'none';
