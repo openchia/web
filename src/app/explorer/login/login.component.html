@@ -170,6 +170,12 @@
                           Configure the difficulty for your farm so it can send less or more partials.
                         </span>
                       </ng-template>
+                      <ng-template #customDifficultyValueTooltip>
+                        <span i18n>
+                          Use with caution. This is intended for high level of compressed plots.
+                          Expect swings on estimated size and rewards.
+                        </span>
+                      </ng-template>
                       <span i18n>Difficulty</span>:&nbsp;<i class="fas fa-info-circle"
                       [ngbTooltip]="customDifficultyTooltip"></i>
                       <select class="form-control"
@@ -181,13 +187,17 @@
                         <option value="MEDIUM" i18n>Default - Around 600 partials sent per day</option>
                         <option value="HIGH" i18n>High - 25% less partials per day</option>
                         <option value="HIGHEST" i18n>Highest - 50% less partials per day</option>
-                        <option value="CUSTOM" i18n>Custom - Define partials sent per day</option>
+                        <option value="CUSTOM" i18n>Custom - Number of partials sent per day</option>
                       </select>
-                      <input id="ifCustomValue" class="form-control"
-                        style="display: none" type="number"
-                        min="10" max="150" pattern="[0-9]{1,3}"
-                        placeholder="{{ farmer.custom_difficulty?.split(':')[1] || '10-150' }}"
-                        #customDifficultyValue />
+                      <div id="ifCustomValue" class="form-group" style="display: none;">
+                        <input class="form-control"
+                          style="width: 50%; margin-top: 10px;" 
+                          type="number" #customDifficultyValue
+                          min="10" max="150" pattern="[0-9]{1,3}"
+                          placeholder="{{ farmer.custom_difficulty?.split(':')[1] || '10-150' }}" />
+                        <span class="beta-warning-custom-difficulty" 
+                          [ngbTooltip]="customDifficultyValueTooltip"i18n>BETA & WARNING</span>
+                      </div>
                       <ngb-alert type="warning" [dismissible]="false" *ngIf="customDifficultyError">
                         {{ customDifficultyError }}
                       </ngb-alert>
