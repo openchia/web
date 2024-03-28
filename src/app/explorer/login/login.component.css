@@ -10,6 +10,19 @@
   margin-left: 5px;
 }
 
+.beta-warning-custom-difficulty {
+  background: #f1240d;
+  color: white;
+  border-radius: 3px;
+  box-shadow: 0 0 10px rgb(0 0 100 / 20%);
+  padding: 0 .86rem;
+  font-weight: 700;
+  font-size: 0.8rem;
+  float: right;
+  margin-left: 5px;
+  margin-top: -30px;
+}
+
 .input-checkbox {
   margin-top: 0.25rem;
   margin-left: 1rem;
