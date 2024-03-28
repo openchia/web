@@ -133,8 +133,9 @@ export class LoginComponent implements OnInit {
     }
 
     if(this.customDifficultyValue.nativeElement.value) {
-      this.difficultyValue = ':' + this.customDifficultyValue.nativeElement.value;
-      this.validateCustomDifficulty(Number(this.difficultyValue.split(':')[1]));
+      if(this.validateCustomDifficulty(this.customDifficultyValue.nativeElement.value)) {
+        this.difficultyValue = ':' + this.customDifficultyValue.nativeElement.value;
+      }
     }
 
     this.dataService.updateLauncher(this.farmer.launcher_id, {
@@ -161,6 +162,7 @@ export class LoginComponent implements OnInit {
         this.notifySizeDropError = error.error?.size_drop;
         this.notifySizeDropIntervalError = error.error?.size_drop_interval;
         this.notifySizeDropPercentError = error.error?.size_drop_percent;
+        this.customDifficultyError = error.error?.custom_difficulty;
       }
     );
   }
@@ -176,12 +178,11 @@ export class LoginComponent implements OnInit {
     }
   }
 
-  validateCustomDifficulty(value: number) {
-    if(value) {
-      if(value < 10 || value > 150) {
-        this.customDifficultyError = 'Difficulty must be between 10 and 150';
-      }
+  validateCustomDifficulty(value: number): boolean {
+    if(value < 10 || value > 150) {
+      return false;
     }
+    return true;
   }
 
 }

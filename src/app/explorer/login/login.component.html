@@ -174,7 +174,7 @@
                       [ngbTooltip]="customDifficultyTooltip"></i>
                       <select class="form-control"
                         (change)="showCustomDifficultyInput($event)"
-                        [value]="farmer.custom_difficulty.split(':')[0] || 'MEDIUM'"
+                        [value]="farmer.custom_difficulty?.split(':')[0] || 'MEDIUM'"
                         #customDifficulty>
                         <option value="LOWEST" i18n>Lowest - Double of partials sent per day</option>
                         <option value="LOW" i18n>Low - 50% more partials per day</option>
@@ -186,8 +186,8 @@
                       <input id="ifCustomValue" class="form-control"
                         style="display: none" type="number"
                         min="10" max="150" pattern="[0-9]{1,3}"
-                        placeholder="{{ farmer.custom_difficulty.split(':')[1] || '' }}"
-                        #customDifficultyValue/>
+                        placeholder="{{ farmer.custom_difficulty?.split(':')[1] || '10-150' }}"
+                        #customDifficultyValue />
                       <ngb-alert type="warning" [dismissible]="false" *ngIf="customDifficultyError">
                         {{ customDifficultyError }}
                       </ngb-alert>
