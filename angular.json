@@ -182,7 +182,6 @@
       }
     }
   },
-  "defaultProject": "openchia",
   "cli": {
     "analytics": false
   }
