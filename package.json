@@ -1,6 +1,6 @@
 {
   "name": "openchia",
-  "version": "1.1.12",
+  "version": "1.1.13",
   "scripts": {
     "ng": "ng",
     "start": "node angular-git-version.js && ng serve --ssl",
