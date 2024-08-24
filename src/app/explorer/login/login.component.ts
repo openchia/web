@@ -133,8 +133,10 @@ export class LoginComponent implements OnInit {
     }
 
     if(this.customDifficultyValue.nativeElement.value) {
-      if(this.validateCustomDifficulty(this.customDifficultyValue.nativeElement.value)) {
-        this.difficultyValue = ':' + this.customDifficultyValue.nativeElement.value;
+      if(this.customDifficulty.nativeElement.value == 'CUSTOM') {
+        if(this.validateCustomDifficulty(this.customDifficultyValue.nativeElement.value)) {
+          this.difficultyValue = ':' + this.customDifficultyValue.nativeElement.value;
+        }
       }
     }
 
@@ -167,8 +169,12 @@ export class LoginComponent implements OnInit {
     );
   }
 
-  showCustomDifficultyInput(data: any) {
-    const element = document.getElementById('ifCustomValue');
+  showUserDefinedDifficulty(data: any): boolean {
+    return data == 'CUSTOM';
+  }
+
+  setUserDefinedDifficulty(data: any): void {
+    const element = document.getElementById('userDefinedValue');
     if(element && data.target.value) {
       if(data.target.value == 'CUSTOM') {
         element.style.display = 'block';
@@ -179,10 +185,7 @@ export class LoginComponent implements OnInit {
   }
 
   validateCustomDifficulty(value: number): boolean {
-    if(value < 10 || value > 150) {
-      return false;
-    }
-    return true;
+    return value >= 10 && value <= 150;
   }
 
 }
