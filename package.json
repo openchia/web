@@ -23,7 +23,7 @@
     "@angular/router": "16.2.12",
     "@forevolve/bootstrap-dark": "^2.1.0",
     "@ng-bootstrap/ng-bootstrap": "^15.0.0",
-    "@swimlane/ngx-charts": "^20.5.0",
+    "@swimlane/ngx-charts": "^21.1.2",
     "@types/humanize-duration": "^3.27.4",
     "angular-csv-ext": "^1.0.5",
     "bootstrap": "^4.6.1",
