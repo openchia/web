@@ -15,7 +15,7 @@ RUN npm i && \
 # Docker final environment #
 ############################
 
-FROM caddy:2.8.4-alpine
+FROM caddy:2.9.1-alpine
 
 LABEL maintainer="OpenChia <contact@openchia.io>" \
       description="OpenChia Angular Website" \
