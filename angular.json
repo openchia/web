@@ -102,22 +102,22 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "openchia:build",
-            "proxyConfig": "src/proxy.conf.json"
+            "proxyConfig": "src/proxy.conf.json",
+            "buildTarget": "openchia:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "openchia:build:production"
+              "buildTarget": "openchia:build:production"
             },
             "pt": {
-              "browserTarget": "openchia:build:pt"
+              "buildTarget": "openchia:build:pt"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "openchia:build"
+            "buildTarget": "openchia:build"
           }
         },
         "test": {
