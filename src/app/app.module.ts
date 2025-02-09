@@ -2,7 +2,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
-import { HttpClientModule } from '@angular/common/http';
+import { provideHttpClient, withInterceptorsFromDi } from '@angular/common/http';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { RouterModule } from '@angular/router';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
@@ -26,37 +26,39 @@ import { ReferralComponent } from './referral/referral.component';
 import { GiveawayComponent } from './giveaway/giveaway.component';
 import { CalculatorComponent } from './calculator/calculator.component';
 
-@NgModule({
-  declarations: [
-    AppComponent,
-    LandingComponent,
-    NavbarComponent,
-    FooterComponent,
-    StatsComponent,
-    FeesComponent,
-    FaqComponent,
-    TermsComponent,
-    PartnersComponent,
-    ReferralComponent,
-    GiveawayComponent,
-    CalculatorComponent,
-  ],
-  imports: [
-    BrowserModule,
-    CommonModule,
-    NgbModule,
-    FormsModule,
-    RouterModule,
-    AppRoutingModule,
-    ExplorerModule,
-    HttpClientModule,
-    NgxChartsModule,
-    BrowserAnimationsModule,
-    ClipboardModule,
-    NgxFilesizeModule,
-  ],
-  providers: [],
-  bootstrap: [AppComponent]
-})
+@NgModule({ declarations: [
+        AppComponent,
+        LandingComponent,
+        NavbarComponent,
+        FooterComponent,
+        StatsComponent,
+        FeesComponent,
+        FaqComponent,
+        TermsComponent,
+        PartnersComponent,
+        ReferralComponent,
+        GiveawayComponent,
+        CalculatorComponent,
+    ],
+    bootstrap: [
+        AppComponent
+    ],
+    imports: [
+        BrowserModule,
+        CommonModule,
+        NgbModule,
+        FormsModule,
+        RouterModule,
+        AppRoutingModule,
+        ExplorerModule,
+        NgxChartsModule,
+        BrowserAnimationsModule,
+        ClipboardModule,
+        NgxFilesizeModule
+    ],
+    providers: [
+        provideHttpClient(withInterceptorsFromDi())
+    ] }
+)
 
 export class AppModule { }
