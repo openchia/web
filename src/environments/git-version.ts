@@ -1,5 +1,7 @@
 export const gitVersion = {
   "commitShort": "",
   "commitLong": "",
-  "branchName": ""
+  "branchName": "",
+  "tagName": "",
+  "date": ""
 }

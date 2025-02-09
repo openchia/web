@@ -1,6 +1,7 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
-import { HttpClientTestingModule } from '@angular/common/http/testing';
+import { provideHttpClientTesting } from '@angular/common/http/testing';
 import { GiveawayComponent } from './giveaway.component';
+import { provideHttpClient, withInterceptorsFromDi } from '@angular/common/http';
 
 describe('GiveawayComponent', () => {
   let component: GiveawayComponent;
@@ -8,9 +9,10 @@ describe('GiveawayComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [ HttpClientTestingModule ],
-      declarations: [ GiveawayComponent ]
-    })
+    declarations: [GiveawayComponent],
+    imports: [],
+    providers: [provideHttpClient(withInterceptorsFromDi()), provideHttpClientTesting()]
+})
     .compileComponents();
   });
 

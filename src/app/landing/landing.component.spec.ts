@@ -1,7 +1,8 @@
 import { waitForAsync, ComponentFixture, TestBed } from '@angular/core/testing';
-import { HttpClientTestingModule } from '@angular/common/http/testing';
+import { provideHttpClientTesting } from '@angular/common/http/testing';
 import { NgxFilesizeModule } from 'ngx-filesize';
 import { LandingComponent } from './landing.component';
+import { provideHttpClient, withInterceptorsFromDi } from '@angular/common/http';
 
 describe('LandingComponent', () => {
   let component: LandingComponent;
@@ -9,9 +10,10 @@ describe('LandingComponent', () => {
 
   beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
-      imports: [ HttpClientTestingModule, NgxFilesizeModule ],
-      declarations: [ LandingComponent ]
-    })
+    declarations: [LandingComponent],
+    imports: [NgxFilesizeModule],
+    providers: [provideHttpClient(withInterceptorsFromDi()), provideHttpClientTesting()]
+})
     .compileComponents();
   }));
 
