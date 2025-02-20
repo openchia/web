@@ -19,7 +19,7 @@
     "@angular/forms": "18.2.13",
     "@angular/localize": "18.2.13",
     "@angular/platform-browser": "18.2.13",
-    "@angular/platform-browser-dynamic": "18.2.13",
+    "@angular/platform-browser-dynamic": "19.1.7",
     "@angular/router": "18.2.13",
     "@forevolve/bootstrap-dark": "^2.1.0",
     "@ng-bootstrap/ng-bootstrap": "^17.0.0",
