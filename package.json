@@ -27,7 +27,7 @@
     "@types/humanize-duration": "^3.27.4",
     "angular-csv-ext": "^1.0.5",
     "bootstrap": "^4.6.2",
-    "core-js": "^3.41.0",
+    "core-js": "^3.42.0",
     "flag-icons": "^7.3.2",
     "git-rev-sync": "^3.0.2",
     "humanize-duration": "^3.32.1",
