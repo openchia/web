@@ -30,7 +30,7 @@
     "core-js": "^3.42.0",
     "flag-icons": "^7.3.2",
     "git-rev-sync": "^3.0.2",
-    "humanize-duration": "^3.32.1",
+    "humanize-duration": "^3.32.2",
     "jw-bootstrap-switch-ng2": "^2.0.5",
     "moment": "^2.30.1",
     "ng-terminal": "^6.4.0",
