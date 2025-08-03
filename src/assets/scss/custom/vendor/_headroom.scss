@@ -6,7 +6,7 @@
 }
 .headroom--pinned {
 	@extend .position-fixed;
-    transform: translateY(0%);
+    transform: translateY(44px);
 }
 .headroom--unpinned {
 	@extend .position-fixed;
