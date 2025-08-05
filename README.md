@@ -1,3 +1,6 @@
+> [!CAUTION]
+>  The pool is shutting down 30th of August 2025.
+
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: light)" srcset=".github/assets/landing-light.png">
